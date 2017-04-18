@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="South Carolina 1789 Lieutenant Governor" type="Legislative" iteration="First Ballot" date="1789" election_id="sc.ltgovernor.1789" handle="10427/64635" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Lieutenant Governor" office_id="ON073" scope="State">
+		<role title="Lieutenant Governor" scope="State">
+			<ballot>
+				<candidate name="Alexander Gillon" name_id="GA0121" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Lloyd" name_id="LJ0053" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Holmes" name_id="HI0036" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Scattering votes for 5 other candidates.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-12">
+				<candidate_summary candidate_ref="1" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="46" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15423" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">No Choice affected.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15423">The City Gazette, or the Daily Advertiser (Charleston, SC).  January 22, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  February 16, 1789.</reference>
+</election_record>

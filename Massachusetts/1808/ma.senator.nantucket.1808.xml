@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 State Senate, Dukes and Nantucket Counties" type="General" iteration="First Ballot" date="1808" election_id="ma.senator.nantucket.1808" handle="10427/27850" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="George G. Hussey" name_id="HG0044" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Jernigan, Jr." name_id="JW0026" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Micajah Coffin" name_id="CM0017" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Davis" name_id="DJ0181" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Gersham Hussey" name_id="HG0173" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Thomas Jernigan" name_id="JT0084" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-22">
+				<candidate_summary candidate_ref="1" vote_total="523" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03704" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 883.  Make a choice, 442."  Governor's Council Records.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<result candidate_ref="1" vote="523" resp="Philip Lampi"/>
+				<sub_unit type="County" name="Dukes" geog_id="null">
+					<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Chilmark" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Edgartown" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Tisbury" geog_id="null">
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Nantucket" geog_id="null">
+					<result candidate_ref="1" vote="519" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="113" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Nantucket" geog_id="null">
+						<result candidate_ref="1" vote="519" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="113" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03704" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03704">New-Bedford Mercury (New Bedford, MA).  April 15, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Freeman's Friend (Portland, ME).  May 21, 1808.</reference>
+</election_record>

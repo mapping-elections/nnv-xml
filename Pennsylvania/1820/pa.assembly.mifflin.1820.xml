@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 House of Representatives, Mifflin County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.assembly.mifflin.1820" handle="10427/63381" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Alexander Anderson" name_id="AA0086" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Magill" name_id="MW0359" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Cummin" name_id="CJ0865" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="David Reynolds" name_id="RD0103" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="William Shaw" name_id="SW0261" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="David W. Huling" name_id="HD0105" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="James Banks" name_id="BJ1071" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-13">
+				<candidate_summary candidate_ref="1" vote_total="1161" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="988" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="874" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="846" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="444" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="398" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="368" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Correspondent and Farmers' Advertiser (Doylestown, PA) refers to Alexander Anderson and William Magill as the Old School candidates.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="1161" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="988" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="874" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="846" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="444" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="398" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="368" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Republican Compiler (Gettysburg, PA) reports 498 votes for David W. Huling.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07069">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 21, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Correspondent and Farmers' Advertiser (Doylestown, PA).  October 24, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">American Sentinel (Philadelphia, PA).  October 25, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  November 8, 1820.</reference>
+</election_record>

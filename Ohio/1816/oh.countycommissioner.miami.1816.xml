@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 Commissioner, Miami County" type="General" iteration="First Ballot" date="1816-10" election_id="oh.countycommissioner.miami.1816" handle="10427/59554" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="James Fergus" name_id="FJ0284" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Ballenger" name_id="BJ0922" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-12">
+				<candidate_summary candidate_ref="1" vote_total="416" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="232" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05241" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Miami" geog_id="null">
+					<result candidate_ref="1" vote="416" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="232" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05241" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05241">Liberty Hall and Cincinnati Gazette (Cincinnati, OH).  October 28, 1816.</reference>
+</election_record>

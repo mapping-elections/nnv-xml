@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1802 State Senate, District 2" type="General" iteration="First Ballot" date="1802" election_id="nh.statesenate.2.1802" handle="10427/78717" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Nathaniel Gilman" name_id="GN0013" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Barnard" name_id="BB0162" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-23">
+				<candidate_summary candidate_ref="1" vote_total="497" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="469" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="497" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="469" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<result candidate_ref="1" vote="497" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="469" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Brentwood" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="East Kingston" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Epping" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Exeter" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Kensington" geog_id="null">
+							<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Kingston" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Newmarket" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Newton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Poplin" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="South Hampton" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Republican Ledger, and Portsmouth Price Current (Portsmouth, NH).  March 16, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  April 14, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Museum, or Lay Preacher's Gazette (Walpole, NH).  May 25, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  June 12, 1802.</reference>
+</election_record>

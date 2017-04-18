@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1810 House of Delegates, Talbot County" type="General" iteration="First Ballot" date="1810" election_id="md.assembly.talbot.county.1810" handle="10427/27327" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Samuel Stevens, Jr." name_id="SS0089" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Perry Spencer" name_id="SP0011" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="James Wainwright" name_id="WJ0184" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="James Nabb" name_id="NJ0023" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Edward Martin" name_id="ME0025" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-07-24">
+				<candidate_summary candidate_ref="1" vote_total="672" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="648" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="639" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="550" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="435" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02688" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02689" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02690" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Baltimore Evening Post (Baltimore, MD) lists Perry Spencer with 648 votes.</note>
+				<note resp="Philip Lampi">"Mr. Martin was the only Federal candidate"  Baltimore Evening Post (Baltimore, MD).  October 8, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Talbot" geog_id="mds_talbot">
+					<result candidate_ref="1" vote="672" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="648" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="639" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="550" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="435" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chapel" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="73" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02688" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Easton" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="230" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="190" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02688" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Saint Michaels" geog_id="null">
+						<result candidate_ref="1" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="107" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02688" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="144" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02688" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02688">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 2, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02690">Baltimore Evening Post (Baltimore, MD).  October 8, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02689">National Intelligencer and Washington Advertiser (Washington, DC).  October 8, 1810.</reference>
+</election_record>

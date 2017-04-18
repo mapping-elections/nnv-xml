@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1796 Electoral College" type="Legislative" iteration="First Ballot" date="1796-11" election_id="tn.electoralcollege.1796" handle="10427/64853" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="State">
+            <ballot>
+                <elector name="Hugh Wilson" name_id="WH0078" affiliation="Republican" affiliation_id="A03" declared_for="Thomas Jefferson" elector_num="1"><note resp="Philip Lampi">Hugh Wilson was elected for the district of Washington.</note></elector>
+                <elector name="Joseph Greer" name_id="GJ0095" affiliation="Republican" affiliation_id="A03" declared_for="Thomas Jefferson" elector_num="2"><note resp="Philip Lampi">Joseph Greer was elected for the district of Hamilton.</note></elector>
+                <elector name="Daniel Smith" name_id="SD0206" affiliation="Republican" affiliation_id="A03" declared_for="Thomas Jefferson" elector_num="3"><note resp="Philip Lampi">Daniel Smith was elected for the district of Mero.</note></elector>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <elector_summary elector_ref="1" resp="Philip Lampi"/>
+                <elector_summary elector_ref="2" resp="Philip Lampi"/>
+                <elector_summary elector_ref="3" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16623" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16628" resp="Philip Lampi"/>   
+                <note resp="Philip Lampi">"Acts of Tennessee, 1796, Chapter IV, (Second Session)...divided the state into three electoral districts and named three persons from each county in each district to elect an elector for each of the three districts, namely, Washington, Hamilton, and Mero."</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="null" name="State Electoral College" geog_id="null">
+                    <result elector_ref="1" resp="Philip Lampi"/>
+                    <result elector_ref="2" resp="Philip Lampi"/>
+                    <result elector_ref="3" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">Section 2 of the Enactment mentioned above gives a list of the "appointed electors to elect an elector in the district of Mero, for the purpose aforesaid." that being an elector to elect an elector to elect the President and Vice-President of the United States.</note>
+                    <note resp="Philip Lampi">In regard to Sevier County in 1796, a poll list contains the names of 54 voters. "A list of Electors for Sevier County 1796. Returns for Sevier County." No totals are given. This is to be found in the Governor's Papers of John Sevier.</note>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16623">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16628">Governors Papers of John Sevier. Box 5, Folder 2.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Sheriff, Chester County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.sheriff.chester.1807" handle="10427/61735" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="George Hartman" name_id="HG0127" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Titus Taylor" name_id="TT0102" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Ramsey" name_id="RJ0351" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Jabus Hoopes" name_id="HJ0921" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="4"></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-23">
+				<candidate_summary candidate_ref="1" vote_total="2302" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2275" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2274" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06130" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06131" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Jabus Hoopes is listed as a candidate in the Norristown Herald and Weekly Advertiser (Norristown, PA) from October 23, 1807 and the United States Gazette from October 20, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2302" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2275" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2274" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06130" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06130">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 19, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06131">The True American and Commercial Advertiser (Philadelphia, PA).  October 20, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 20, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 22, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 22, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 23, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 23, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Northampton Farmer (Easton, PA).  October 24, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06130">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1807.</reference>
+</election_record>

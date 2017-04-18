@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Missouri 1820 Constitutional Convention, Jefferson County" type="General" iteration="First Ballot" date="1820" election_id="mo.conventiondelegate.jefferson.1820" handle="10427/56550" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="Territory">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="Samuel Hammond" name_id="HS0101" affiliation="Pro-Slavery" affiliation_id="A09" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John W. Honey" name_id="HJ0358" affiliation="Pro-Slavery" affiliation_id="A09" candidate_num="2"/>
+				<candidate name="Abner Vansant" name_id="VA0030" affiliation="Restrictionist" affiliation_id="A09" candidate_num="3"/>
+			</ballot>
+			<overview status="version 1.0" modified="2009-02-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="mos">
+				<sub_unit type="County" name="Jefferson" geog_id="mos_jefferson">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Shoemaker, F. C.  Missouri's Struggle for Statehood, 1804-1821.  New York: Russell and Russell, 1916.  120, 131.</reference>
+</election_record>

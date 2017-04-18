@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1814 House of Representatives, Bridgewater" type="General" iteration="First Ballot" date="1814" election_id="ma.staterepresentative.bridgewater.1814" handle="10427/34005" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Daniel Howard" name_id="HD0040" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Mitchell" name_id="MD0206" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-10-06">
+				<candidate_summary candidate_ref="1" vote_total="361" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="212" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03598" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Bridgewater" geog_id="null">
+					<result candidate_ref="1" vote="361" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="212" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03598" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03598">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 11, 1814.</reference>
+</election_record>

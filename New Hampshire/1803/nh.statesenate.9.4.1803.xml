@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1803 State Senate, District 9, Ballot 4" type="Legislative" iteration="Fourth Ballot" date="1803" election_id="nh.statesenate.9.4.1803" handle="10427/78986" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Seth Payson" name_id="PS0211" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Alcock" name_id="AR0021" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-10">
+				<candidate_summary candidate_ref="1" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="84" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In the county of Cheshire there was no choice for Senator by the people, owing to two towns being rejected; candidates ROBERT ALCOCK, and SETH PAYSON, on first balloting they each had 82 votes, 2d balloting 83 - and 3d 84 each, when the Speaker declared himself in favor of the Mr. PAYSON, he was chosen."  The New Hampshire Gazette (Portsmouth, NH).  June 7, 1803.</note>
+				<note resp="Philip Lampi">"In consequence of the illegality of the votes in the town of Hancock, in the 9th Senatorial District, the seat of the Hon. Mr. Alcock (who, including the votes of that town, had been elected a Senator by a small majority) was declared vacant.  On Friday the 3d inst. the two branches of the Legislature met in Convention to fill the vacancy; Robert Alcock, Esq. and the Rev. Seth Payson, being the candidates.  On balloting, the Rev. Seth Payson was elected."  Courier of New Hampshire (Concord, NH).  June 9, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  June 7, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  June 9, 1803.</reference>
+</election_record>

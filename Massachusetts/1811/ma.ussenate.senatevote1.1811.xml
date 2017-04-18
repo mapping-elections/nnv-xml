@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 U.S. Senate, State Senate Vote" type="Legislative" iteration="First Ballot" date="1811-02" election_id="ma.ussenate.senatevote1.1811" handle="10427/27600" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Timothy Pickering" name_id="PT0078" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Joseph B. Varnum" name_id="VJ0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William King" name_id="KW0033" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Richard Cutts" name_id="CR0035" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-08">
+				<candidate_summary candidate_ref="1" vote_total="20" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="17" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09809" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09810" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09811" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">A deadlock in the State Senate resulted in no choice in four ballots in 1810.  The election was pushed off to 1811.</note>
+				<note resp="Philip Lampi">"The Senate, agreeable to assignment at the last session, this day resumed the ballot for a person to represent this State, in the Congress of the U. States in the room of the Hon. Mr. Pickering, whose term of service will expire with the 3d March next.  After balloting this day, no choice being made, the Senate sent down the subject non-concurred."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  February 11, 1811.</note>
+				<note resp="Philip Lampi">"The vote was non-concurred and there will be no choice till a new legislature alters the state of parties."  United States' Gazette (Philadelphia, PA).  February 16, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09809" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09810" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09811" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  February 11, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09809">United States' Gazette (Philadelphia, PA).  February 12, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09810">United States' Gazette (Philadelphia, PA).  February 16, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09811">Connecticut Gazette (New London, CT).  February 20, 1811.</reference>
+</election_record>

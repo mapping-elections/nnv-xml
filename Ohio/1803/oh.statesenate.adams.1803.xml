@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1803 State Senate, Adams County" type="General" iteration="First Ballot" date="1803-01" election_id="oh.statesenate.adams.1803" handle="10427/58873" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="John Beasley" name_id="BJ0870" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Joseph Darlington" name_id="DJ0370" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-05">
+				<candidate_summary candidate_ref="1" vote_total="309" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="302" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05072" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Resolved, That the seat of John Beatley, the sitting member, ought to be vacated, and that Joseph Darlinton, who appears to have the highest number of legal votes, is entitled to assume it."  Journal of the Ohio State Senate, 1803.  19.</note>
+				<note resp="Philip Lampi">"Beasley seat contested by and given to Joseph Darlington on the 3rd of March."  Annual Report of the Secretary of State.  13.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Adams" geog_id="ohs_adams">
+					<result candidate_ref="1" vote="309" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="302" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05072" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Ohio State Senate, 1803.  19.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05072">The Scioto Gazette (Chillicothe, OH).  January 15, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Spy, and Hamilton Gazette (Cincinnati, OH).  January 26, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Annual Report of the Secretary of State to the Governor of the State of Ohio, Including the Statistical Report to the General Assembly, for the year 1875.  Columbus, OH: Nevins and Myers, 1875.  13.</reference>
+</election_record>

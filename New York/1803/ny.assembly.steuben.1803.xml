@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record label="New York 1803 Assembly, Steuben County" type="General" iteration="First Ballot" date="1803" election_id="ny.assembly.steuben.1803" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/65713" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="James Faulkner" name_id="FJ0192" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Knox" name_id="KJ0103" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Samuel Faulkner" name_id="FS0034" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-11">
+				<candidate_summary candidate_ref="1" vote_total="231" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="211" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Steuben" geog_id="null">
+					<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="211" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Bath" geog_id="null">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Canisteo" geog_id="null">
+						<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dansville" geog_id="null">
+						<result candidate_ref="1" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Fredericktown" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Painted Post" geog_id="null">
+						<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Books.  Steuben County Court House, Bath.</reference>
+</election_record>

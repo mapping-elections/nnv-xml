@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 House of Representatives, Columbia County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.assembly.columbia.1821" handle="10427/63476" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Clark" name_id="CJ0806" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Owen" name_id="OD0007" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Christian Brobst" name_id="BC0122" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-19">
+				<candidate_summary candidate_ref="1" vote_total="1068" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="832" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="140" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07129" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10847" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The November 3rd edition of The Berks and Schuylkill Journal (Reading, PA) lists Christian Brobst as a Republican and John Clark and David Owen as Democrats.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="1068" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="832" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="140" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07129" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07129">Franklin Gazette (Philadelphia, PA).  October 24, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07129">The Union. United States Gazette and True American (Philadelphia, PA).  October 26, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">York Gazette (York, PA).  October 26, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07129">Lancaster Intelligencer (Lancaster, PA).  October 27, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10847">Republican Advocate (Huntingdon, PA).  November 1, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  November 3, 1821.</reference>
+</election_record>

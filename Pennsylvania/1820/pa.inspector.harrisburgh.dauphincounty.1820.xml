@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1820 Inspector of the General Election, Dauphin County, Harrisburg" type="General" iteration="First Ballot" date="1820" election_id="pa.inspector.harrisburgh.dauphincounty.1820" handle="10427/63420" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="null" name_id="null" affiliation="Hiester ticket" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="null" name_id="null" affiliation="Findlay ticket" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-22">
+				<candidate_summary candidate_ref="1" vote_total="223" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="190" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07055" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The American Sentinel (Philadelphia, PA) lists the Federalists as the Hiester ticket and the Republicans as the Findlay ticket, based on their support of the two 1820 gubernatorial candidates.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<sub_unit type="Borough" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="223" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="190" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07055" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Sentinel did not list any candidate names for inspector.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07055">American Sentinel (Philadelphia, PA).  October 3, 1820.</reference>
+</election_record>

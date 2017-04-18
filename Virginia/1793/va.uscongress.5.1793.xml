@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1793 U.S. House of Representatives, District 5" type="General" iteration="First Ballot" date="1793" election_id="va.uscongress.5.1793" handle="10427/32433" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+	<role title="U.S. Congressman" scope="District">
+		<ballot>
+			<candidate name="George Hancock" name_id="HG0163" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			<candidate name="Charles Clay" name_id="CC0130" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			<candidate name="Calohill Minnis" name_id="MC0082" affiliation="null" affiliation_id="null" candidate_num="3"/>
+		</ballot>
+		<overview status="Version 0.5" modified="2011-04-11">
+			<candidate_summary candidate_ref="1" vote_total="1198" resp="Philip Lampi"/>
+			<candidate_summary candidate_ref="2" vote_total="654" resp="Philip Lampi"/>
+			<candidate_summary candidate_ref="3" vote_total="109" resp="Philip Lampi"/>
+			<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00064" resp="Philip Lampi"/>
+			<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23616" resp="Philip Lampi"/>
+			<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23618" resp="Philip Lampi"/>
+			<note resp="Philip Lampi">The Bedford County Poll Book lists Charles Clay with 674 votes but the county totals add up to 654.</note>
+		</overview>
+		<admin_unit type="State" name="Virginia" geog_id="vas">
+			<sub_unit type="District" name="Five" geog_id="null">
+				<result candidate_ref="1" vote="1198" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="654" resp="Philip Lampi"/>
+				<result candidate_ref="3" vote="109" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00064" resp="Philip Lampi"/>
+				<sub_unit type="County" name="Bedford" geog_id="null">
+					<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="456" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="106" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00064" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Botetourt" geog_id="null">
+					<result candidate_ref="1" vote="533" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00064" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="426" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00064" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Henry" geog_id="null">
+					<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00064" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Patrick" geog_id="null">
+					<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00064" resp="Philip Lampi"/>
+				</sub_unit>
+			</sub_unit>
+		</admin_unit>
+	</role></office>
+	<reference type="citation" resp="Philip Lampi">Bedford County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23616">Risjord, Norman K.  Chesapeake Politics, 1781-1800.  New York: Columbia University Press, 1978.  423.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 House of Representatives, Sullivan County" type="General" iteration="First Ballot" date="1817" election_id="tn.assembly.sullivan.1817" handle="10427/64965" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Elkanah Dulany" name_id="DE0013" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William King" name_id="KW0086" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="George Keyes" name_id="KG0035" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-06">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16865" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="County" name="Sullivan" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Knoxville Register (Knoxville, TN).  August 14, 1817.</reference>
+</election_record>

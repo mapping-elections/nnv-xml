@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 House of Representatives, Cambria and Somerset Counties" type="General" iteration="First Ballot" date="1808-10" election_id="pa.assembly.cambriasomersetcounties.1808" handle="10427/61873" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Hanna" name_id="HJ0902" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Ogle" name_id="OA0029" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Wells" name_id="WJ0718" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Adam Miller" name_id="MA0212" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Charles Boyle" name_id="BC0096" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-11">
+				<candidate_summary candidate_ref="1" vote_total="1257" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="545" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="239" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06290" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Cambria and Somerset" geog_id="null">
+					<result candidate_ref="1" vote="1257" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1205" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="545" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="239" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="160" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="72"  resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06224" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06290" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="1059" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1043" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="403" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="88" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06288" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06289" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06290" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Republican Argus (Northumberland, PA) reports 1050 votes for James Hanna.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06288">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 25, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Argus (Northumberland, PA).  November 2, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06291">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 15, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06224">Storey, Henry Wilson.  History of Cambria County.  Vol. I.  New York: Lewis Publishing, 1907.  128, 133.</reference>
+</election_record>

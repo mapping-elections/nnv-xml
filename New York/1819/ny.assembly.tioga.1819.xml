@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New York 1819 Assembly, Tioga County" type="General" iteration="First Ballot" date="1819" election_id="ny.assembly.tioga.1819" handle="10427/25490" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Judson Jennings" name_id="JJ0146" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elyah S. Hinman" name_id="HE0099" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="Henry Wells" name_id="WH0041" affiliation="Clintonian" affiliation_id="A05" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-11">
+				<candidate_summary candidate_ref="1" vote_total="753" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="745" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="94" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04618" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tioga" geog_id="null">
+					<result candidate_ref="1" vote="753" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="745" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="94" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04618" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04618">The Albany Argus (Albany, NY).  May 21, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04618">The Albany Argus (Albany, NY).  June 4 1819.</reference>
+</election_record>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record label="New York 1819 Assembly, Broome County" type="General" iteration="First Ballot" date="1819" election_id="ny.assembly.broome.1819" handle="10427/68012" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Chester Patterson" name_id="PC0030" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Horace Wiliston" name_id="WH0086" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John W. Harper" name_id="HJ0493" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-27">
+				<candidate_summary candidate_ref="1" vote_total="496" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="378" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="217" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Broome" geog_id="null">
+					<result candidate_ref="1" vote="496" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="378" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="217" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Berkshire" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chenango" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Lisle" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Owego" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Windsor" geog_id="null">
+						<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="216" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi">Owego Town Records.</reference>
+</election_record>

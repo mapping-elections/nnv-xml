@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Inspector of the General Election, Philadelphia City, South Ward" type="General" iteration="First Ballot" date="1822-09" election_id="pa.inspectors.southward.1822" handle="10427/63690" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Thomas Hale" name_id="HT0184" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Aguilla A. Brown" name_id="BA0263" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph Warrell" name_id="WJ0882" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Thomas Desilver" name_id="DT0100" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-20">
+				<candidate_summary candidate_ref="1" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="81" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="33" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07266" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="South" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07266">The Union. United States Gazette and True American (Philadelphia, PA).  September 28, 1822.</reference>
+</election_record>

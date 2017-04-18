@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1814 State Senate, Miami and Preble Counties" type="General" iteration="First Ballot" date="1814-10" election_id="oh.statesenate.miamiandpreble.1814" handle="10427/59417" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="David Purviance" name_id="PD0061" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Eli Dixon" name_id="DE0010" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-31">
+				<candidate_summary candidate_ref="1" vote_total="520" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="220" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05213" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Miami and Preble" geog_id="null">
+					<result candidate_ref="1" vote="520" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="220" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05213" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Miami" geog_id="ohs_miami">
+						<result candidate_ref="1" vote="279" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05202" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05203" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05213" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Preble" geog_id="ohs_preble">
+						<result candidate_ref="1" vote="241" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="152" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05213" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05202">Ohio Republican (Dayton, OH).  October 24, 1814.</reference>
+</election_record>

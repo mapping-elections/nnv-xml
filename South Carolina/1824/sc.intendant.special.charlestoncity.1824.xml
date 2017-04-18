@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1824 Intendant, Charleston City, Special" type="Special" iteration="First Ballot" date="1824" election_id="sc.intendant.special.charlestoncity.1824" handle="10427/64826" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Intendant" office_id="ON066" scope="City">
+		<role title="Intendant" scope="City">
+			<ballot>
+				<candidate name="Samuel Prioleau" name_id="PS0130" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Geddes" name_id="GJ0575" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-25">
+				<candidate_summary candidate_ref="1" vote_total="772" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="553" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07994" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07995" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">" 'S. Carolina, Charleston Sept. 8.  On Monday our City Election was held, and has resulted in an entire change of the City Authorities."  Columbian Centinel (Boston, MA).  September 22, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="772" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="553" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07994" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07995" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">There were 737 votes cast at the Court House.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Market" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">There were 630 votes cast at the Market.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07994">Charleston Mercury, and Morning Advertiser (Charleston, SC).  September 7, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07995">Daily Georgian (Savannah, GA).  September 11, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  September 22, 1824.</reference>
+</election_record>

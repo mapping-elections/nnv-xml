@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1820 House of Commons, Robeson County" type="General" iteration="First Ballot" date="1820-08" election_id="nc.houseofcommons.robeson.1820" handle="10427/42766" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Archibald MacEachen" name_id="MA0246" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Willis Pope" name_id="PW0010" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Sullivan" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Goodman" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-15">
+                <candidate_summary candidate_ref="1" vote_total="571" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="514" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="279" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="278" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18252" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The Raleigh Register, and North-Carolina Gazette (Raleigh, NC) lists Goodman with 279 votes.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Robeson" geog_id="null">
+                    <result candidate_ref="1" vote="571" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="514" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="279" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="278" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18252" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18252">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  August 18, 1820.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18252">The Star, and North-Carolina State Gazette (Raleigh, NC).  August 18, 1820.</reference>
+</election_record>

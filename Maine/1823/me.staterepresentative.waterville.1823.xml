@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1823 House of Representatives, Waterville" type="General" iteration="First Ballot" date="1823" election_id="me.staterepresentative.waterville.1823" handle="10427/80123" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Baxter Crowell" name_id="CB0022" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Edward Esty, Jr." name_id="EE0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Ebenezer Bacon" name_id="BE0267" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-21">
+                <candidate_summary candidate_ref="1" vote_total="77" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="18" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="Town" name="Waterville" geog_id="null">
+                    <result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Giveen, Clement M., ed.  A Chronology of Municipal and Election Statistics, Waterville, Maine.  Augusta, ME: Maine Farmer Press, 1908.   229.</reference>
+</election_record>

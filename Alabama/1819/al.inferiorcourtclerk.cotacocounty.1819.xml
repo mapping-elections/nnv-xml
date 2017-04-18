@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1819 Clerk of the Inferior Court, Cotaco County" type="General" iteration="First Ballot" date="1819" election_id="al.inferiorcourtclerk.cotacocounty.1819" handle="10427/55823" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Inferior Court" office_id="ON028" scope="County">
+		<role title="Clerk of the Inferior Court" scope="County">
+			<ballot>
+				<candidate name="Thomas MacEldery" name_id="MT0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Pullum" name_id="PW0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Yeary" name_id="YI0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James White" name_id="WJ0003" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James Morrow" name_id="MJ0002" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Anderson" name_id="AJ0001" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-14">
+				<candidate_summary candidate_ref="1" vote_total="181" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="150" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="105" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="79" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="50" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Alabama Republican (Huntsville, AL) of September 18 that lists the candidates refers to the position as Clerk of the County Court rather than Clerk of the Inferior Court.</note>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Cotaco" geog_id="null">
+					<result candidate_ref="1" vote="181" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="105" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="96" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="79" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="50" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 18, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 25, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  October 2, 1819.</reference>
+</election_record>

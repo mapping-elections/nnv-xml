@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Sheriff, Union County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.sheriff.unioncounty.1822" handle="10427/63758" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Jacob Rhoads" name_id="RJ0514" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Srebold" name_id="SP0165" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-10">
+				<candidate_summary candidate_ref="1" vote_total="767" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="548" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07287" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Union" geog_id="null">
+					<result candidate_ref="1" vote="767" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="548" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 18, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 19, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07287">The Union. United States Gazette and True American (Philadelphia, PA).  October 22, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07287">Franklin Gazette (Philadelphia, PA).  October 23, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October, 1822.</reference>
+</election_record>

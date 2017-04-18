@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record label="New York 1816 Assembly, Putnam County" type="General" iteration="First Ballot" date="1816" election_id="ny.assembly.putnam.1816" handle="10427/68181" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Edward Smith, Jr." name_id="SE0099" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Rowland Bailey" name_id="BR0071" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-03">   
+				<candidate_summary candidate_ref="1" vote_total="811" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="340" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Putnam" geog_id="null">
+					<result candidate_ref="1" vote="811" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="340" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Carmel" geog_id="null">
+						<result candidate_ref="1" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Fredrick" geog_id="null">
+						<result candidate_ref="1" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Patterson" geog_id="null">
+						<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="110" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Phillipstown" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southeast" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi">National Advocate (New York, NY).  May 11, 1816.</reference>
+</election_record>
+

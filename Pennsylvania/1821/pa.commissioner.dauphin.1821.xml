@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Commissioner, Dauphin County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.commissioner.dauphin.1821" handle="10427/67969" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Buffington" name_id="BJ1310" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Enterline" name_id="EJ0215" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-22">
+				<candidate_summary candidate_ref="1" vote_total="1311" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1166" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1311" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1166" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Pennsylvania Intelligencer (Harrisburg, PA), October 19; the Lancaster Intelligencer (Lancaster, PA), October 20; the Harrisburg Chronicle (Harrisburg, PA), October 16; and The Oracle of Dauphin (Harrisburg, PA), October 13, report 1312 total votes for John Buffington.</note>
+					<sub_unit type="Borough" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="363" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="372" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Pennsylvania Intelligencer (Harrisburg, PA), October 19; the Harrisburg Chronicle (Harrisburg, PA), October 16; and The Oracle of Dauphin (Harrisburg, PA), October 13, report 364 votes for John Buffington in Harrisburg. The township votes reported in the Pennsylvania Intelligencer (Harrisburg, PA), October 12, add up to 363 votes for Buffington.</note>
+						<sub_unit type="Borough" name="Box" geog_id="null">
+							<result candidate_ref="1" vote="265" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="232" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Susquehanna" geog_id="null">
+							<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Swatara" geog_id="null">
+							<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="162" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 12, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 13, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Chronicle (Harrisburg, PA).  October 16, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 20, 1821.</reference>
+</election_record>

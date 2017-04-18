@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1823 House of Representatives, Deer Isle" type="General" iteration="First Ballot" date="1823" election_id="me.staterepresentative.deerisle.1823" handle="10427/79730" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Solomon Haskell" name_id="HS0330" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Hezekiah Torrey" name_id="TH0070" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-01-17">
+                <candidate_summary candidate_ref="1" vote_total="96" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="51" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="Town" name="Deer Isle" geog_id="null">
+                    <result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Hosmer, George L.  An Historical Sketch of the Town of Deer Isle, Maine.  Boston: Samuel Usher, 1886.  240.</reference>
+</election_record>

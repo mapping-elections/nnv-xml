@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1809 Speaker of the House" type="Legislative" iteration="First Ballot" date="1809" election_id="pa.speakerofthehouse.1809" handle="10427/62110" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the House" office_id="ON104" scope="State">
+		<role title="Speaker of the House" scope="State">
+			<ballot>
+				<candidate name="James Engle" name_id="EJ0177" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac Griffin" name_id="GI0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Sterrett" name_id="SJ1109" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-28">
+				<candidate_summary candidate_ref="1" vote_total="87" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10800" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10801" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Ninety members met, and elected James Engle, speaker, without a dissenting voice, except that of Frederick Evans, who voted for John Sterrett, and Isaac Griffin, voted for William Piper.  Absent Messrs. Pollack, Montgomery, Wells, M'Alevy and Brown (of Cumberland)." The Reporter (Washington, PA).  December 18, 1809.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10800" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10801" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10801">The True American and Commercial Advertiser (Philadelphia, PA).  December 8, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10800">The Reporter (Washington, PA).  December 18, 1809.</reference>
+</election_record>

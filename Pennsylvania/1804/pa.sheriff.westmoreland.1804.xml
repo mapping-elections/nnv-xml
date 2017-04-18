@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 Sheriff, Westmoreland County" type="General" iteration="First Ballot" date="1804-10" election_id="pa.sheriff.westmoreland.1804" handle="10427/61499" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Sloan" name_id="SJ1037" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Drum" name_id="DP0033" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Alexander Johnston" name_id="JA0057" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Barney MacGuire" name_id="MB0075" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel Selby" name_id="SS0269" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Frederick Tarr" name_id="TF0012" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Thom" name_id="TJ0433" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-02">
+				<candidate_summary candidate_ref="1" vote_total="1360" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1075" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05964" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Westmoreland" geog_id="null">
+					<result candidate_ref="1" vote="1360" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1075" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<result candidate_ref="7" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05964" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Allegheny" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05963" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05964">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05963">Westmoreland County Papers. MSO #134. Folder 2.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05962">The Farmers Register (Greensburg, PA).  September 22, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 20, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The True American and Commercial Advertiser (Philadelphia, PA).  October 22, 1804.</reference>
+</election_record>

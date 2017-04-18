@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New Hampshire 1811 Speaker of the House" type="Legislative" iteration="First Ballot" date="1811-06" election_id="nh.speakerofthehouse.1811" handle="10427/79134" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="Clement Storer" name_id="SC0058" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+                <candidate name="G. B. Upham" name_id="UG0000" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+                <candidate name="D. L. Morrill" name_id="MD0059" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+                <candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-12-18">
+                <candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="64" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="38" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="3" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Clement Storer would be elected on the 4th ballot.</note>
+            </overview>
+            <admin_unit type="State" name="New Hampshire" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="38" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">New-Hampshire Patriot (Concord, NH).  June 11, 1811.</reference>
+    <reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  June 18, 1811.</reference>
+</election_record>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 Commissioner, Warren County" type="General" iteration="First Ballot" date="1820-10" election_id="oh.commissioner.warren.1820" handle="10427/65375" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Enos Williams" name_id="WE0120" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Wyllys Pierson" name_id="PW0045" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Evans" name_id="EJ0073" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-04">
+				<candidate_summary candidate_ref="1" vote_total="771" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="365" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="70" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05304" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Warren" geog_id="ohs_warren">
+					<result candidate_ref="1" vote="771" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="365" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="70" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05304" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05304">The Western Star (Lebanon, OH).  October 14, 1820.</reference>
+</election_record>

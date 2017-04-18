@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record label="New York 1790 State Senate, Western District, Three Years" type="General" iteration="First Ballot" date="1790" election_id="ny.senator.westerndistrict3.1790" handle="10427/65361" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Leonard Gansevoort" name_id="GL0010" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Oothoudt" name_id="OH0026" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Peter Schuyler" name_id="SP0059" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Lansing, Jr." name_id="LJ0213" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Valkert Veeder" name_id="VV0001" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Stephen Van Rensselaer" name_id="VS0033" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-04-04">
+				<candidate_summary candidate_ref="1" vote_total="1483" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1152" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="311" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="146" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="119" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="47" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Note--Two Senators were to be chosen for four years, and one for three years."  The Daily Advertiser (New York, NY).  May 31, 1790.</note>
+				<note resp="Philip Lampi">"Stephen Van Rensselaer and Peter Schuyler, Esqrs. were declared duly elected for four years; and Leonard Gansevoort, Esq. was declared duly elected for three years."  The Daily Advertiser (New York, NY).  May 31, 1790.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Western" geog_id="null">
+					<result candidate_ref="1" vote="1483" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1152" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="311" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="146" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="119" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="47" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Albany" geog_id="null">
+						<result candidate_ref="1" vote="1032" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="471" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Columbia" geog_id="null">
+						<result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="488" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="213" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<note resp="Philip Lampi">The votes for Ontario county are included within the returns for Montgomery county.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  May 31, 1790.</reference>
+</election_record>

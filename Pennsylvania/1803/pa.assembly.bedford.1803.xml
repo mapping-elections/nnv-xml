@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 House of Representatives, Bedford County" type="General" iteration="First Ballot" date="1803-10" election_id="pa.assembly.bedford.1803" handle="10427/61357" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Martin Reily" name_id="RM0034" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joshua Johnson" name_id="JJ0200" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Mann" name_id="MA0227" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Adam Barton" name_id="BA0201" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-30">
+				<candidate_summary candidate_ref="1" vote_total="674" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="441" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="281" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="25" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05861" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bedford" geog_id="null">
+					<result candidate_ref="1" vote="674" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="441" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="281" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="25" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05861" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05861">The Farmers Register (Greensburg, PA).  October 22, 1803.</reference>
+</election_record>

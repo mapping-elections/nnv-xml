@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Auditor, Bradford County" type="General" iteration="First Ballot" date="1818" election_id="pa.auditor.bradford.1818" handle="10427/63116" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="William Means" name_id="MW0414" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Hyde" name_id="HG0150" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin J. Woodruff" name_id="WB0059" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-13">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06905" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bradford" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06905" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06905">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

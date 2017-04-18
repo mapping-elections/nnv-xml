@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1803 State Senate, Anderson, Knox and Roane Counties" type="General" iteration="First Ballot" date="1803" election_id="tn.senateknoxandersonroan.1803" handle="10427/64885" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="James White" name_id="WJ0002" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Samuel Frazier" name_id="FS0094" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="LittleSims" name_id="SL0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-11">
+                <candidate_summary candidate_ref="1" vote_total="576" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="563" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="342" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16662" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="Anderson, Knox and Roane" geog_id="tns_anderson">
+                    <result candidate_ref="1" vote="576" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="563" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="342" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16662" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Anderson" geog_id="tns_anderson">
+                        <result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="216" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16662" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Knox" geog_id="tn_knox">
+                        <result candidate_ref="1" vote="470" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="313" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16662" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Roane" geog_id="tns_roane">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="205" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16662" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16662">Knoxville Gazette (Knoxville, TN).  August 8, 1803.</reference>
+</election_record>

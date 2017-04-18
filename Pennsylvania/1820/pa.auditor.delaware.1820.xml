@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Auditor, Delaware County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.auditor.delaware.1820" handle="10427/63371" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="William Graham" name_id="GW0156" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Pierce" name_id="PJ0631" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Isaac Cochran" name_id="CI0028" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-16">
+				<candidate_summary candidate_ref="1" vote_total="966" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="631" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="41" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07057" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="966" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="631" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="41" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07057" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07057">The Democratic Press (Philadelphia, PA).  October 16, 1820.</reference>
+</election_record>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 House of Representatives, Armstrong, Indiana and Jefferson Counties" type="General" iteration="First Ballot" date="1822-10" election_id="pa.assembly.armstrongindianajeffersoncounty.1822" handle="10427/63640" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Taylor" name_id="TJ0528" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Rankin" name_id="RJ0545" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Blair" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Elliott" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Clover" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Lucas" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Brady" name_id="null" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07197" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07198" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07233" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07232" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10861" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<result candidate_ref="7" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<result candidate_ref="7" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The October 18th edition of The Westmoreland Republican (Greensburgh, PA) reports 145 votes for John Taylor, 526 votes for Joseph Rankin, 509 votes for Blair, 68 votes for Elliott, 265 votes for Clover, 116 votes for Lucas, and 14 votes for Brady in Armstrong County.  These results are incomplete, however: "In seven districts in Armstrong County, the votes are as follows.  [There are] Several districts in Armstrong county from which we have not yet heard."</note>
+					</sub_unit>
+					<sub_unit type="District" name="Indiana and Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="800" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="432" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="172" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The October 11th edition of The Westmoreland Republican (Greensburgh, PA) reports 682 votes for John Taylor, 179 votes for Joseph Rankin, 227 votes for Blair [a misprint, should be 127], 382 votes for Elliott, 9 votes for Clover, 29 votes for Lucas, and 153 votes for Brady in the district composed of Indiana and Jefferson counties. These results are incomplete, however, because the paper reports that "Green township, in Indiana county, and Perry and Pine Creek townships, in Jefferson county, remain yet to be heard from."</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07232">The Westmoreland Republican (Greensburgh, PA).  October 11, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07233">The Westmoreland Republican (Greensburgh, PA).  October 18, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 19, 1822.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1815 House of Delegates, Albemarle County" type="General" iteration="First Ballot" date="1815" election_id="va.houseofdelegates.albemarle.1815" handle="10427/33186" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Charles Yancey" name_id="YC0004" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas W. Maury" name_id="MT0182" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="W. Woods" name_id="WW0309" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-23">
+				<candidate_summary candidate_ref="1" vote_total="395" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="271" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="119" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08986" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Albemarle" geog_id="vas_albemarle">
+					<result candidate_ref="1" vote="395" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="271" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="119" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08986" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08986">The Virginia Argus (Richmond, VA).  April 15, 1815.</reference>
+</election_record>

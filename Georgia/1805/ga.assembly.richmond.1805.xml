@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1805 House of Representatives, Richmond County" type="General" iteration="First Ballot" date="1805" election_id="ga.assembly.richmond.1805" handle="10427/19599" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="Freeman Walker" name_id="WF0029" affiliation="null" affiliation_id="null" candidate_num="1"/>
+        <candidate name="Thomas Flourney" name_id="FT0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+        <candidate name="Rowland" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-07">
+        <candidate_summary candidate_ref="1" vote_total="233" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="205" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="56" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01625" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Richmond" geog_id="null">
+          <result candidate_ref="1" vote="233" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="205" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01625" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+      <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01625">Augusta Herald (Augusta, GA).  October 10, 1805.</reference>
+    </role>
+  </office>
+</election_record>

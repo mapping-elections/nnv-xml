@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 Commissioner, Mifflin County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.commissioner.mifflin.1802" handle="10427/61311" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Nicholas Arnold" name_id="AN0014" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Alexander" name_id="AW0080" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Lytle" name_id="LJ0314" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-28">
+				<candidate_summary candidate_ref="1" vote_total="564" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="459" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="403" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05820" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA) uses the spelling Litle for John Lytle.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="564" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="459" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="403" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Armagh and Derry" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="308" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="300" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05820" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Armagh and Derry are two separate townships that voted together.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Greenwood" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05820" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Lack" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05820" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Milford and Fermanagh" geog_id="null">
+						<result candidate_ref="1" vote="304" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05820" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Union" geog_id="null">
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05820" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05820" resp="Philip Lampi"/>
+					</sub_unit>		
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05820">The Western Star (Lewistown, PA).  October 8, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05820">The Western Star (Lewistown, PA).  October 19, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 20, 1802.</reference>
+</election_record>

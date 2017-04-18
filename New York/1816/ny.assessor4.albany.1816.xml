@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New York 1816 Assessor, Albany, Ward 4" type="General" iteration="First Ballot" date="1816" election_id="ny.assessor4.albany.1816" handle="10427/68194" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="Peter Van Loon" name_id="VP0035" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="Richard Duncan" name_id="DR0053" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+           <candidate name="Joseph Alexander" name_id="AJ0118" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-06">
+           <candidate_summary candidate_ref="1" vote_total="313" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="189" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="126" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Albany" geog_id="null">
+              <sub_unit type="Ward" name="Four" geog_id="null">
+                <result candidate_ref="1" vote="313" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="189" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="126" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  May 10, 1816.</reference>
+</election_record>
+

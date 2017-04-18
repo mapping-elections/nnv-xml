@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1810 House of Representatives, Fitchburg, Special, Ballot 2" type="Special" iteration="Second Ballot" date="1810-05" election_id="ma.staterepresentative.fitchburg.3.1810" handle="10427/34270" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Paul Wetherbee" name_id="WP0039" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Willard" name_id="WA0070" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-06">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Fitchburg" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03424" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03424">Fitchburg Town Records.  Vol. V.  15-17.</reference>
+</election_record>

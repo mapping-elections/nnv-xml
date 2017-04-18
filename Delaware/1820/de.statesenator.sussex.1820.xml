@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1820 State Senate, Sussex County" type="General" iteration="First Ballot" date="1820" election_id="de.statesenator.sussex.1820" handle="10427/43840" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Caleb Rodney" name_id="RC0002" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles M. Cullen" name_id="CC0003" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1685" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1353" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="1685" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1353" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Baltimore" geog_id="des_sussex_baltimore">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="144" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Broad Creek" geog_id="des_sussex_broadcreek">
+						<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Broadkill" geog_id="des_sussex_broadkill">
+						<result candidate_ref="1" vote="271" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="183" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Cedar Creek" geog_id="des_sussex_cedarcreek">
+						<result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Dagsborough" geog_id="des_sussex_dagsborough">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Indian River" geog_id="des_sussex_indianriver">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Lewes and Rehoboth" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="110" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="248" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Nanticoke" geog_id="des_sussex_nanticoke">
+						<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="North West Fork" geog_id="null">
+						<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="245" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>	
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 17, 1820.</reference>
+</election_record>

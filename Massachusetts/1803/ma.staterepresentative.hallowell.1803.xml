@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 House of Representatives, Hallowell" type="General" iteration="First Ballot" date="1803-05" election_id="ma.staterepresentative.hallowell.1803" handle="10427/69383" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Nathaniel Perley" name_id="PN0065" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas Fillebrown" name_id="FT0027" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-09-24">
+                <candidate_summary candidate_ref="1" vote_total="111" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="66" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Hallowell, heretofore uniformly represented by a Democrat, has this year made choice of Nathaniel Perley, Esq. [Federal] by a majority over Col. Thomas Fillebrown, the old member, 111 to 66."  Salem Gazette (Salem, MA).  May 10, 1803.</note>
+                <note resp="Philip Lampi">"Colonel FILLEBROWN, a democrat, represented this town in the last legislature.--Mr. PERLEY had a majority of 45 votes."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 11, 1803.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Hallowell" geog_id="null">
+                    <result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Salem Gazette (Salem, MA).  May 10, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 11, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 2, 1803.</reference>
+</election_record>
+

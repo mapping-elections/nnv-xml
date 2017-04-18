@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 Coroner, Warren County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.coroner.warren.1821" handle="10427/60016" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="John Adams" name_id="AJ0238" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Nathaniel Parshall" name_id="PN0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="George Lind" name_id="LG0017" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Conrod Snider" name_id="SC0098" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-01-20">
+                <candidate_summary candidate_ref="1" vote_total="972" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="270" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="186" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="174" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Warren" geog_id="ohs_warren">
+                    <result candidate_ref="1" vote="972" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="270" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="186" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="174" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">The Western Star (Lebanon, OH) lists John Adams with 672 votes.</note>
+                    <sub_unit type="Township" name="Clearcreek" geog_id="null">
+                        <result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="86" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="18" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Deerfield" geog_id="null">
+                        <result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="38" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Franklin" geog_id="null">
+                        <result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hamilton" geog_id="null">
+                        <result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Turtle Creek" geog_id="null">
+                        <result candidate_ref="1" vote="343" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="48" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="84" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="27" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Western Star (Lebanon, OH).  October 13, 1821.</reference>
+</election_record>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 Sheriff, Warren County" type="General" iteration="First Ballot" date="1822" election_id="ny.sheriff.warren.1822" handle="10427/66498" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Dudley Farlin" name_id="FD0025" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James White" name_id="WJ0602" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-28">
+				<candidate_summary candidate_ref="1" vote_total="755" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="379" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Warren" geog_id="null">
+					<result candidate_ref="1" vote="755" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="379" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Athol" geog_id="null">
+						<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Bolton" geog_id="null">
+						<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Caldwell" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hague" geog_id="null">
+						<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Johnsburgh" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Luzerne" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Queensbury" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Warrensburgh" geog_id="null">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

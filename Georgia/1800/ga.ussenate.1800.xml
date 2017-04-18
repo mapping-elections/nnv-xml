@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1800 U.S. Senate" type="Legislative" iteration="First Ballot" date="1800" election_id="ga.ussenate.1800" handle="10427/17866" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="James Jackson" name_id="JJ0004" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas P. Carnes" name_id="CT0042" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-02">
+				<candidate_summary candidate_ref="1" vote_total="58" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="9" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09677" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09678" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="null" name="null" geog_id="null">
+					<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09678" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09678">The State Gazette, and Louisville Journal (Louisville, GA).  November 19, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09677">Columbian Museum and Savannah Advertiser (Savannah, GA).  November 25, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09678">Broussard, James H.  The Southern Federalists: 1800-1816.  Baton Rouge: Louisiana State University Press, 1978.  254.</reference>
+</election_record>

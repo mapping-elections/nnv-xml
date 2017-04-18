@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Coroner, Schuylkill County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.coroner.schuylkill.1814" handle="10427/62749" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Henry Stager" name_id="SH0162" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Shoemaker" name_id="SJ1263" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Fetterman" name_id="FJ0288" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="612" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="505" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="282" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">During the War of 1812, there was some British military movement in and around the Chesapeake Bay area and in an attempt to prepare for any military actions that the British might take, there were a host of military camps set up in some of the counties close to the Chesapeake Bay and Philadelphia City. In the October 1814 Pennsylvania state elections, the members of the military camps native to Pennsylvania were allowed to vote. When the newspapers reported these returns they listed them under "camp" or "army" votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Schuylkill" geog_id="null">
+					<result candidate_ref="1" vote="612" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="505" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="282" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06711" resp="Philip Lampi"/>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06713" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06713">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06711">Der Readinger Adler (Reading, PA).  October 18, 1814.</reference>
+</election_record>

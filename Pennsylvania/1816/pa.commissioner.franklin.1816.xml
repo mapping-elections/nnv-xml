@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Commissioner, Franklin County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.commissioner.franklin.1816" handle="10427/66907" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Blackney" name_id="BW0336" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Prather" name_id="PA0153" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-29">
+				<candidate_summary candidate_ref="1" vote_total="1348" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1218" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1348" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1218" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="381" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="360" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fannett" geog_id="null">
+						<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greencastle" geog_id="null">
+						<result candidate_ref="1" vote="181" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mercersburg" geog_id="null">
+						<result candidate_ref="1" vote="211" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="222" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Metal" geog_id="null">
+						<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Roxbury" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Southampton" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Strasburg" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Waynesburg" geog_id="null">
+						<result candidate_ref="1" vote="207" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="238" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Democratic Republican and Pennsylvania Advertiser (Chambersburg, PA).  October 14, 1816.</reference>
+</election_record>

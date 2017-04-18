@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1821 Alderman, Hudson, Ward 2" type="General" iteration="First Ballot" date="1821" election_id="ny.alderman.hudson2.1821" handle="10427/66701" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Alderman" office_id="ON001" scope="City">
+      <role title="Alderman" scope="City">
+        <ballot>
+           <candidate name="Seth Morton" name_id="MS0096" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+           <candidate name="John Raynor" name_id="RJ0372" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+           <candidate name="Robert A. Barnard" name_id="BR0116" affiliation="Bucktail" affiliation_id="A06" candidate_num="3"/>
+           <candidate name="Abner Hammond" name_id="HA0114" affiliation="Bucktail" affiliation_id="A06" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-02-11">
+           <candidate_summary candidate_ref="1" vote_total="206" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="181" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="123" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="110" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Hudson" geog_id="null">
+              <sub_unit type="Ward" name="Two" geog_id="null">
+                <result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="181" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="123" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="110" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Northern Whig (Hudson, NY).  April 10, 1821.</reference>
+</election_record>

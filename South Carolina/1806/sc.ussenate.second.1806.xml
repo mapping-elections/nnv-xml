@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1806 U.S. Senate, Ballot 2" type="Legislative" iteration="Second Ballot" date="1806" election_id="sc.ussenate.second.1806" handle="10427/64694" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. Senate" office_id="ON127" scope="Federal">
+        <role title="U.S. Senator" scope="State">
+            <ballot>
+                <candidate name="John Gaillard" name_id="GJ0554" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Samuel Farrow" name_id="FS0123" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-10-24">
+                <candidate_summary candidate_ref="1" vote_total="75" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="64" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10093" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10094" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10095" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10094">Journal of the South Carolina House of Representatives, 1806.  60.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10093">The Times (Charleston, SC).  December 13, 1806.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10095">Charleston Courier (Charleston, SC).  December 16, 1806.</reference>
+</election_record>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1797 Treasurer" type="General" iteration="First Ballot" date="1797-10" election_id="vt.treasurer.1797" handle="10427/65230" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Treasurer" office_id="ON122" scope="State">
+        <role title="Treasurer" scope="State">
+            <ballot>
+                <candidate name="Samuel Mattocks" name_id="MS0245" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Amasa Paine" name_id="PA0117" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Samuel Cutler" name_id="CS0216" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="null" modified="2014-06-19">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="County" name="Addison" geog_id="null">
+                </sub_unit>
+                <sub_unit type="County" name="Bennington" geog_id="null">
+                </sub_unit>
+                <sub_unit type="County" name="Caledonia" geog_id="null">
+                </sub_unit>
+                <sub_unit type="County" name="Chittenden" geog_id="null">
+                </sub_unit>
+                <sub_unit type="County" name="Franklin" geog_id="null">
+                </sub_unit>
+                <sub_unit type="County" name="Orange" geog_id="null">
+                </sub_unit>
+                <sub_unit type="County" name="Rutland" geog_id="null">
+                </sub_unit>
+                <sub_unit type="County" name="Windham" geog_id="null">
+                    <sub_unit type="Town" name="Putney" geog_id="null">
+                        <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+                <sub_unit type="County" name="Windsor" geog_id="null">
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Argus (Putney, VT).  September 11, 1797.</reference>
+</election_record>
+

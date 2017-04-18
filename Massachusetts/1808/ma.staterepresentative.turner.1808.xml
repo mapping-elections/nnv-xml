@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 House of Representatives, Turner" type="General" iteration="First Ballot" date="1808" election_id="ma.staterepresentative.turner.1808" handle="10427/69866" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John Turner" name_id="TJ0049" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Root" name_id="RI0040" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Copeland" name_id="CJ1011" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-29">
+				<candidate_summary candidate_ref="1" vote_total="47" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="31" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Turner" geog_id="null">
+					<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Norfolk Repository (Dedham, MA).  June 28, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">French, W. R.  A History of Turner, Maine.  Portland, ME: Hoyt, Fogg and Sonham, 1887.  233.</reference>
+</election_record>

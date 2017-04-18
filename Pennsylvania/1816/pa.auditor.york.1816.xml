@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Auditor, York County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.auditor.york.1816" handle="10427/63003" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Richard Porter" name_id="PR0098" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Schriver" name_id="SD0192" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-26">
+				<candidate_summary candidate_ref="1" vote_total="1474" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="762" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06850" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="1474" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="762" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chanceford" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Codorus" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Dover" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fawn" geog_id="null">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Monaghan" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newbury" geog_id="null">
+						<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shrewsbury" geog_id="null">
+						<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warrington" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="York" geog_id="null">
+						<result candidate_ref="1" vote="588" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="368" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06850">York Gazette and Public Advertiser (York, PA).  October 15, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 26, 1816.</reference>
+</election_record>

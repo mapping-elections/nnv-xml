@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="1801 President of the United States, House of Representatives, Ballot 36" type="Legislative" iteration="Thirty-Sixth Ballot" date="1801-02" election_id="us.potus.house.1800" handle="10427/65436" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="President of the United States" office_id="ON082" scope="Federal">
+        <role title="President of the United States" scope="Federal">
+            <ballot>
+                <candidate name="Thomas Jefferson" name_id="JT0012" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Aaron Burr" name_id="BA0134" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-07">
+                <candidate_summary candidate_ref="1" vote_total="10" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="4" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Because Thomas Jefferson and Aaron Burr received the same number of votes in the electoral college, the presidential election of 1800 was thrown into the House of Representatives.  Though Jefferson and Burr were Republican running mates for president and vice president, respectively, some Federalists in the House of Representatives felt that Burr's election as president would be less damaging than Jefferson's.  Since separate elections did not take place for each office, some Federalists cast their votes for Burr, giving him six votes and Jefferson eight, leaving Jefferson one vote short of the nine required to achieve a majority and win the election.  Finally, on the thirty-sixth ballot, Federalists in Delaware, Maryland, and Vermont cast blank ballots, giving Jefferson both Maryland and Vermont.  Thus, Jefferson garnered ten votes and Burr four, while two states, Delaware and South Carolina cast blank ballots.</note>
+            </overview>
+            <admin_unit type="null" name="House of Representatives" geog_id="null">
+                <sub_unit type="State" name="Connecticut" geog_id="cts">
+                    <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Delaware" geog_id="des">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Georgia" geog_id="gas">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Kentucky" geog_id="kys">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Maryland" geog_id="mds">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Massachusetts" geog_id="mas">
+                    <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="New Hampshire" geog_id="nhs">
+                    <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="New Jersey" geog_id="njs">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="New York" geog_id="null">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="North Carolina" geog_id="pas">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Pennsylvania" geog_id="pas">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Rhode Island" geog_id="ris">
+                    <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="South Carolina" geog_id="scs">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Tennessee" geog_id="null">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Vermont" geog_id="vts">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="State" name="Virginia" geog_id="vas">
+                    <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">United States' Telegraph Extra (Washington, DC).  January 24, 1829.</reference>
+    <reference type="citation" resp="Philip Lampi">National Archives and Records Administration. http://www.archives.gov/federal-register/electoral-college/votes/1789_1821.html</reference>
+</election_record>

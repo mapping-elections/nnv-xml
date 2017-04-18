@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Coroner, Washington County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.coroner.washington.1820" handle="10427/63403" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Johnson" name_id="JJ0240" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Garrett" name_id="GJ0507" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Sowers" name_id="SG0126" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Isaac Tucker" name_id="TI0014" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Thomas Hall" name_id="HT0107" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Richard Dagg" name_id="DR0066" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Brownlee" name_id="BJ1178" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Peter N. Wylie" name_id="WP0052" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-20">
+				<candidate_summary candidate_ref="1" vote_total="1890" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1209" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1181" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="816" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="674" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="569" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="262" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="228" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="1890" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1209" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1181" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="816" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="674" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="569" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="262" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="228" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07097">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  October 16, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Examiner (Washington, PA).  October 23, 1820.</reference>
+</election_record>

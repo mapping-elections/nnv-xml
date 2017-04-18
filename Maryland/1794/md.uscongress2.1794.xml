@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1794 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1794" election_id="md.uscongress2.1794" handle="10427/34197" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Gabriel Duvall" name_id="DG0008" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard A. Contee" name_id="CR0017" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="1234" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="542" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00071" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="1234" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="542" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+						<result candidate_ref="1" vote="1088" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00071" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14064" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14065" resp="Philip Lampi"/>
+						<sub_unit type="City" name="Annapolis" geog_id="null">
+							<result candidate_ref="1" vote="215" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14064" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14065" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14066" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Prince George's" geog_id="mds_princegeorges">
+						<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="489" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00071" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14064" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14065" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14065">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14066">Annapolis Records, No. 8.  113-114.</reference>
+</election_record>

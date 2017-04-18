@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1807 House of Representatives, Wiscasset" type="General" iteration="First Ballot" date="1807-05" election_id="ma.staterepresentative.wiscasset.1807" handle="10427/28022" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Moses Carlton" name_id="CM0018" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abiel Wood, Jr." name_id="WA0060" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Payson" name_id="PD0039" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John J. Wood" name_id="WJ0285" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-12">
+				<candidate_summary candidate_ref="1" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="65" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03492" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Wiscasset" geog_id="null">
+					<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="65" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03492" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03492">Eastern Argus (Portland, ME).  May 14, 1807.</reference>
+</election_record>

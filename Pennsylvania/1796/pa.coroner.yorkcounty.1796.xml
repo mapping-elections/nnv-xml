@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 Coroner, York County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.coroner.yorkcounty.1796" handle="10427/60894" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Jacob Updegraff" name_id="UJ0023" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Martin Kreber" name_id="KM0026" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Daniel May" name_id="MD0197" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-22">
+				<candidate_summary candidate_ref="1" vote_total="970" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="387" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="252" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05516" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Die Unpartheyische York Gazette (York, PA) (York, PA) uses the spelling Updegroff for Jacob Updegraff and Greber for Martin Kreber.</note>
+				<note resp="Philip Lampi">Die Unpartheyische York Gazette (York, PA) (York, PA) reports 378 votes for Martin Kreber</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="970" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="387" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="252" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05516">Die Unpartheyische York Gazette (York, PA) (York, PA).  October 14, 1796.</reference>
+</election_record>

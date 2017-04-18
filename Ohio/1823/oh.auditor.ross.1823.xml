@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Auditor, Ross County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.auditor.ross.1823" handle="10427/60259" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Auditor" office_id="ON013" scope="County">
+        <role title="Auditor" scope="County">
+            <ballot>
+                <candidate name="John MacClean" name_id="MJ0663" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-22">
+                <candidate_summary candidate_ref="1" vote_total="1368" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Ross" geog_id="ohs_ross">
+                    <result candidate_ref="1" vote="1368" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Buckskin" geog_id="null">
+                        <result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Colerain" geog_id="null">
+                        <result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Concord" geog_id="null">
+                        <result candidate_ref="1" vote="182" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The votes from Concord township were "rejected for want of date."  The Supporter and Scioto Gazette (Chillicothe, OH).  October 25, 1823.</note>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Deerfield" geog_id="null">
+                        <result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Huntington" geog_id="null">
+                        <result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Paint" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Paxton" geog_id="null">
+                        <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Scioto" geog_id="null">
+                        <result candidate_ref="1" vote="306" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Springfield" geog_id="null">
+                        <result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Twin" geog_id="null">
+                        <result candidate_ref="1" vote="117" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Supporter and Scioto Gazette (Chillicothe, OH).  October 25, 1823.</reference>
+</election_record>

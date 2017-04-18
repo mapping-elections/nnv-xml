@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1812 House of Commons, Cumberland County" type="General" iteration="First Ballot" date="1812" election_id="nc.houseofcommons.cumberland.1812" handle="10427/43195" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Robert Campbell" name_id="CR0091" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Huckabee" name_id="HR0135" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Gilmore" name_id="GT0064" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Henry Williams" name_id="WH0045" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-18">
+				<candidate_summary candidate_ref="1" vote_total="549" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="548" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="510" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="290" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04918" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="549" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="548" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="510" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="290" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04918" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04918">The Star (Raleigh, NC).  August 21, 1812.</reference>
+</election_record>

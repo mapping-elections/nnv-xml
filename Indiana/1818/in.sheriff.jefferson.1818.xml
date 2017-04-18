@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1818 Sheriff, Jefferson County" type="General" iteration="First Ballot" date="1818" election_id="in.sheriff.jefferson.1818" handle="10427/56431" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas T. Stribling" name_id="ST0050" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Ward" name_id="WJ0112" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Ekillis Wellhite" name_id="WE0016" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="441" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="251" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="71" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="441" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="251" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="71" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Indiana Republican (Madison, IN).  August 15, 1818.</reference>
+</election_record>

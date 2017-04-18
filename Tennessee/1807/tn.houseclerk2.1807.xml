@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1807 Clerk of the House of Representatives, Ballot 2" type="Legislative" iteration="Second Ballot" date="1807" election_id="tn.houseclerk2.1807" handle="10427/64921" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Clerk of the House of Representatives" office_id="ON027" scope="State">
+        <role title="Clerk of the House of Representatives" scope="State">
+            <ballot>
+                <candidate name="John Lowry" name_id="LJ0540" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="David Yearsly" name_id="YD0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="William MacKnutt" name_id="MW0218" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-25">
+                <candidate_summary candidate_ref="1" vote_total="12" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="12" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16699" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16699" resp="Philip Lampi"/>   
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16699">Journal of the Tennessee House of Representatives, 1807.  3.</reference>
+</election_record>

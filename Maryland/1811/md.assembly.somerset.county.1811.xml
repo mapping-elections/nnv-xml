@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1811 House of Delegates, Somerset County" type="General" iteration="First Ballot" date="1811" election_id="md.assembly.somerset.county.1811" handle="10427/27357" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="George W. Jackson" name_id="JG0019" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Arnold E. Jones" name_id="JA0026" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Esme M. Waller" name_id="WE0038" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Henry Long" name_id="LH0009" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Benjamin J. Jones" name_id="JB0005" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Charles Jones" name_id="JC0007" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Peter Dashiell" name_id="DP0004" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="William S. Handy" name_id="HW0130" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-07-26">
+				<candidate_summary candidate_ref="1" vote_total="552" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="541" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="539" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="532" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="345" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="331" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="328" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="260" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02736" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02737" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Maryland Republican (Annapolis, MD), October 23, 1811, lists 530 votes for Esme M. Waller.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Prince George's" geog_id="null">
+					<result candidate_ref="1" vote="552" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="541" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="539" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="532" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="345" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="331" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="328" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="260" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02736" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02736">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 15, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02737">The Maryland Republican (Annapolis, MD).  October 23, 1811.</reference>
+</election_record>

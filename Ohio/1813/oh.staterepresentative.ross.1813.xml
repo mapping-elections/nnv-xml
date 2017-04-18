@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 House of Representatives, Ross County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.staterepresentative.ross.1813" handle="10427/59330" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Barnes" name_id="BJ0905" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John MacDougal" name_id="MJ0675" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Dawson" name_id="DI0041" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Monett" name_id="MS0125" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Robinson" name_id="RW0125" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Joseph Tifflin" name_id="TJ0395" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Nathaniel Willis" name_id="WN0105" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-10">
+				<candidate_summary candidate_ref="1" vote_total="885" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="631" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="551" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="471" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="300" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="200" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="171" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05190" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19035" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ross" geog_id="ohs_ross">
+					<result candidate_ref="1" vote="885" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="631" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="551" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="471" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="300" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="200" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="171" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05190" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19035" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Fredonian (Chillicothe, OH) lists John MacDougal with 613 votes, Isaac Dawson with 557 votes and Nathaniel Willis with 172 votes.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19035">The Fredonian (Chillicothe, OH).  October 19, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05190">The Supporter (Chillicothe, OH).  October 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Muskingum Messenger (Zanesville, OH).  October 27, 1813.</reference>
+</election_record>

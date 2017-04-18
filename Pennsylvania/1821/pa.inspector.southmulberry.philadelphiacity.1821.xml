@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Inspector of the General Election, Philadelphia City, South Mulberry Ward" type="General" iteration="First Ballot" date="1821" election_id="pa.inspector.southmulberry.philadelphiacity.1821" handle="10427/63563" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Benjamin Wiley" name_id="WB0060" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"/>
+				<candidate name="John Greiner" name_id="GJ0509" affiliation="Federal Republican" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="William Mandry" name_id="MW0441" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-11">
+				<candidate_summary candidate_ref="1" vote_total="239" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="178" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="61" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07167" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In the Recapitulation of the votes given on Friday last for Inspectors, an error occurred - the Democratic votes in South Mulberry Ward were but 61 and not 239, which reduces the number of Democratic votes in the city from 686 to 508."  The Union. United States Gazette and True American (Philadelphia, PA).  October 2, 1821.</note>
+				<note resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA), October 1, reports 55 total votes for William Mandry.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="South Mulberry" geog_id="null">
+						<result candidate_ref="1" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07166" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07167" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07166">The Union. United States Gazette and True American (Philadelphia, PA).  October 2, 1821.</reference>
+</election_record>

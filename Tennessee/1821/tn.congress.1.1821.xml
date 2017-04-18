@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1821 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1821" election_id="tn.congress.1.1821" handle="10427/64979" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="John Rhea" name_id="RJ0595" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Tipton" name_id="TJ0594" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John A. Rogers" name_id="RJ0045" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-20">
+                <candidate_summary candidate_ref="1" vote_total="2456" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="2164" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1465" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16973" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16978" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16979" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="One" geog_id="null">
+                    <result candidate_ref="1" vote="2456" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="2164" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1465" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Carter" geog_id="null">
+                        <result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="393" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="80" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The Knoxville Register (Knoxville, TN), August 7, 1821, reports 61 votes for John Rhea, 261 votes for John Tipton, and 35 votes for John A. Rogers.</note>
+                    </sub_unit>
+                    <sub_unit type="County" name="Greene" geog_id="null">
+                        <result candidate_ref="1" vote="1036" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="452" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="121" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Hawkins" geog_id="null">
+                        <result candidate_ref="1" vote="400" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="924" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sullivan" geog_id="null">
+                        <result candidate_ref="1" vote="276" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="869" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="659" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="393" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="297" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16973">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16979">The Knoxville Register (Knoxville, TN).  August 7, 1821.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16978">Richmond Enquirer (Richmond, VA).  August 24, 1821.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16978">Richmond Enquirer (Richmond, VA).  August 28, 1821.</reference>
+</election_record>

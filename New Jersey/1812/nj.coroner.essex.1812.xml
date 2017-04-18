@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1812 Coroner, Essex County" type="General" iteration="First Ballot" date="1812" election_id="nj.coroner.essex.1812" handle="10427/68387" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Ichabod Williams" name_id="WI0014" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Smith Burnet" name_id="BS0148" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Samuel B. Miller" name_id="MS0082" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Caleb Woodruff" name_id="WC0085" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Stephen Hays, Jr" name_id="HS0276" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-08-05">
+				<candidate_summary candidate_ref="1" vote_total="254" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="252" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="227" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="183" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="54" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Essex County Election - no Federal opposition." New-Jersey Journal (Elizabethtown, NJ).  October 27, 1812.</note>
+				<note resp="Philip Lampi">"Some other scattering votes were given in." New-Jersey Journal (Elizabethtown, NJ).  October 27, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Essex" geog_id="null">
+					<result candidate_ref="1" vote="254" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="252" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="227" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="183" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="54" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  October 20, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Jersey Journal (Elizabethtown, NJ).  October 27, 1812.</reference>
+</election_record>

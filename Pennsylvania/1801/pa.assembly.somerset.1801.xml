@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 House of Representatives, Somerset County" type="General" iteration="First Ballot" date="1801-10" election_id="pa.assembly.somerset.1801" handle="10427/61231" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Adam Miller" name_id="MA0212" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Kimmel" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-14">
+				<candidate_summary candidate_ref="1" vote_total="473" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="398" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05768" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05769" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Farmers Instructor, and Harrisburgh Courant (Harrisburg, PA) calls the Federalists the Tory party.</note>
+				<note resp="Philip Lampi">The Original Returns do not list Kimmel.</note>
+				<note resp="Philip Lampi">The Farmers Instructor, and Harrisburgh Courant (Harrisburg, PA) lists Adam Miller with 452 votes.</note>
+				<note resp="Philip Lampi">"In Somerset County the Republicans split their votes for Assembly among several candidates and a Federalist was elected." The Tree of Liberty (Pittsburgh, PA).</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Somerset" geog_id="null">
+					<result candidate_ref="1" vote="473" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="398" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05768" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05769" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05769">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05768">The Farmers Instructor, and Harrisburgh Courant (Harrisburg, PA).  October 21, 1801.</reference>
+</election_record>

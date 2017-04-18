@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1818 House of Representatives, Feliciana Parish" type="General" iteration="First Ballot" date="1818" election_id="la.assembly.feliciana.1818" handle="10427/57897" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="N. Evans" name_id="EN0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="W. O. Williams" name_id="WW0067" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Wade" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-23">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Feliciana" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-Orleans Chronicle (New Orleans, LA).  July 14, 1818.</reference>
+</election_record>

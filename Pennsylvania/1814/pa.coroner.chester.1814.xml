@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Coroner, Chester County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.coroner.chester.1814" handle="10427/62712" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Jesse MacCall" name_id="MJ1134" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jesse Sharpe" name_id="SJ1262" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-14">
+				<candidate_summary candidate_ref="1" vote_total="2940" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2790" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Chester and Delaware Federalist (West Chester, PA) and the Democratic Press (Philadephia) list Jesse MacCall with 2825 votes and Jesse Sharpe with 2769 votes.</note>
+				<note resp="Philip Lampi">"One hundred and seven votes were given for Jesse McCall at Gumtree district not included in the above return, the Judges having rejected them, and so reported by the riding Judge from that district - they deeming them illegal."  Original Election Returns.  Pennsylvania State Archives, Harrisburg.</note>
+				<note resp="Philip Lampi">During the War of 1812, there was some British military movement in and around the Chesapeake Bay area and in an attempt to prepare for any military actions that the British might take, there were a host of military camps set up in some of the counties close to the Chesapeake Bay and Philadelphia City. In the October 1814 Pennsylvania state elections, the members of the military camps native to Pennsylvania were allowed to vote. When the newspapers reported these returns they listed them under "camp" or "army" votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2940" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2790" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Gum Tree" geog_id="null">
+						<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hood's" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="254" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Manor" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="291" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Marshalton" geog_id="null">
+						<result candidate_ref="1" vote="301" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="497" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Military Returns consist of: "The number of votes given in the different encampments, with the exception of the American Greys of West Chester, whose return has not yet been received, but it is ascertained the majority to be 11 democratic votes.  Another company, consisting of 42 republicans from the Manor, left Baltimore a few days before the election, but did not arrive at home in time to give their votes." The Democratic Press (Philadelphia, PA).  October 20, 1814.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New London Cross Roads" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="275" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Paoli" geog_id="null">
+						<result candidate_ref="1" vote="473" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="286" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pughtown" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="438" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="346" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="209" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sloan's" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="162" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="West Chester" geog_id="null">
+						<result candidate_ref="1" vote="505" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Chester and Delaware Federalist (West Chester, PA).  October 19, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06678">The Democratic Press (Philadelphia, PA).  October 20, 1814.</reference>
+</election_record>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Director of the Poor, Montgomery County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.director.montgomery.1808" handle="10427/66330" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Henry Scheetz" name_id="SH0131" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Joseph Tyson" name_id="TJ0418" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-02">
+				<candidate_summary candidate_ref="1" vote_total="2798" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2296" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="2798" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2296" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="293" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="327" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreps" geog_id="null">
+						<result candidate_ref="1" vote="337" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 90 votes for Joseph Tyson.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Lower Merion" geog_id="null">
+						<result candidate_ref="1" vote="178" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="165" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="531" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="482" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 521 votes for Henry Scheetz and 472 votes for Joseph Tyson.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pottstown" geog_id="null">
+						<result candidate_ref="1" vote="191" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sumneytown" geog_id="null">
+						<result candidate_ref="1" vote="311" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 107 votes for Joseph Tyson.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="352" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="252" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Webers" geog_id="null">
+						<result candidate_ref="1" vote="243" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="458" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 457 votes for Joseph Tyson.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="362" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="351" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 12, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 21, 1808.</reference>
+</election_record>

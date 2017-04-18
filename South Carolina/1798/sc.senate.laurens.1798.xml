@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1798 State Senate, Laurens County" type="General" iteration="First Ballot" date="1798" election_id="sc.senate.laurens.1798" handle="10427/31733" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James Saxon" name_id="SJ1422" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lewis Saxon" name_id="SL0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-03">
+				<candidate_summary candidate_ref="1" vote_total="567" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="306" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07509" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Laurens" geog_id="null">
+					<result candidate_ref="1" vote="567" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="306" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07509" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07509">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

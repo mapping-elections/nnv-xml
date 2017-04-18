@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1791 Governor" type="Legislative" iteration="First Ballot" date="1791" election_id="sc.governor.1791" handle="10427/64641" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Charles Pinckney" name_id="PC0060" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Moultrie" name_id="MW0057" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-13">
+				<candidate_summary candidate_ref="1" vote_total="87" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="38" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15428" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15429" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15428">Journal of the South Carolina House of Representatives, 1791.  257.</reference>
+</election_record>

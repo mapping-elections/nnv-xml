@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1813 State Senate, Class 3, District 5, Special" type="Special" iteration="First Ballot" date="1813" election_id="va.statesenate.3.5.special.1813" handle="10427/65117" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Gerrard Alexander" name_id="AG0042" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Gibson" name_id="GJ0665" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Love" name_id="LJ0561" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-13">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.24592" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"An election of senator to represent the district of Fairfax and Prince William counties is to be made in August. The candidates spoken of are Colonel Gerrard Alexander, of Prince William, John Gibson, Esq. of Dumfries and John Love, Esq. of Buckland. Colonel Alexander is the federal candidate, who it is said has lately declared in favor of the war."  The Alexandria Herald (Alexandria, VA).  January 14, 1814.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<sub_unit type="County" name="Fairfax" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Prince William" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24592">The Alexandria Herald (Alexandria, VA).  June 18, 1813.</reference>
+</election_record>

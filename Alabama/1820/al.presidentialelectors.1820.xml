@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="Alabama 1820 Electoral College" type="Legislative" iteration="First Ballot" date="1820-11" election_id="al.presidentialelectors.1820" handle="10427/55774" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral College" office_id="ON056" scope="Federal">
+		<role title="Elector" scope="State">
+			<ballot>
+				<elector name="George W. Philips" name_id="PG0001" affiliation="Republican" affiliation_id="A03" declared_for="James Monroe" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="Henry Minor" name_id="MH0001" affiliation="Republican" affiliation_id="A03" declared_for="James Monroe" elector_num="2"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="John Scott" name_id="SJ0117" affiliation="Republican" affiliation_id="A03" declared_for="James Monroe" elector_num="3"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="James S. Walker" name_id="WJ0317" affiliation="null" affiliation_id="null" declared_for="null" elector_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-17">
+				<elector_summary elector_ref="1" vote_total="63" resp="Philip Lampi"/>
+				<elector_summary elector_ref="2" vote_total="62" resp="Philip Lampi"/>
+				<elector_summary elector_ref="3" vote_total="56" resp="Philip Lampi"/>
+				<elector_summary elector_ref="4" vote_total="31" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">If George W. Owen (Speaker of the House of Representatives) voted for Henry Minor, - a point implied but not revealed in the House Journal ballot - then Henry Minor's total in the House ballot is 44 votes.  His final tally is then 63, a point emphasized by the House ballot.</note>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result elector_ref="1" vote="45" resp="Philip Lampi"/>
+					<result elector_ref="2" vote="43" resp="Philip Lampi"/>
+					<result elector_ref="3" vote="38" resp="Philip Lampi"/>
+					<result elector_ref="4" vote="20" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result elector_ref="1" vote="18" resp="Philip Lampi"/>
+					<result elector_ref="2" vote="19" resp="Philip Lampi"/>
+					<result elector_ref="3" vote="18" resp="Philip Lampi"/>
+					<result elector_ref="4" vote="11" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Alabama House of Representatives, 1820.  47-48.</reference>
+</election_record>

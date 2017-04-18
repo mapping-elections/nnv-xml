@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Auditor, Northumberland County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.auditor.northumberland.1821" handle="10427/63520" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Henry Donnel" name_id="DH0054" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Lebau" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Philip Andrews" name_id="AP0027" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-03">
+				<candidate_summary candidate_ref="1" vote_total="708" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="398" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="289" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07159" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="708" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="398" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="289" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Nordwestliche Post (Sunbury, PA), October 19, reports 397 total votes for Lebau, though the township votes add up to 398.</note>
+					<sub_unit type="Township" name="Little Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Milton" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Point" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rush" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shamokin" geog_id="null">
+						<result candidate_ref="1" vote="131" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Sunbury" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="130" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Turbot" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07159">Nordwestliche Post (Sunbury, PA).  October 19, 1821.</reference>
+</election_record>

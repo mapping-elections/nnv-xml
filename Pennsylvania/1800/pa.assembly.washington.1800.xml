@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 House of Representatives, Washington County" type="General" iteration="First Ballot" date="1800-10" election_id="pa.assembly.washington.1800" handle="10427/61087" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Aaron Lyle" name_id="LA0096" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John MacDowell" name_id="MJ0786" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Urie" name_id="US0001" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Clarke" name_id="CS0169" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-24">
+				<candidate_summary candidate_ref="1" vote_total="1964" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1938" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1552" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="548" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00224" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="1964" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1938" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1552" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="548" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Burgettstown" geog_id="null">
+						<result candidate_ref="1" vote="329" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="324" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="303" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="40" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Canonsburg" geog_id="null">
+						<result candidate_ref="1" vote="333" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="331" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="295" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="50" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Herald of Liberty reports 340 votes for John MacDowell and 49 votes for Samuel Clarke.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hamilton's" geog_id="null">
+						<result candidate_ref="1" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="229" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="63" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hill's" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Urie's" geog_id="null">
+						<result candidate_ref="1" vote="241" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="211" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="26" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="629" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="618" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="484" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="180" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="West's" geog_id="null">
+						<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="78" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05699" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 15, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">Gazette of the United States and Daily Evening Advertiser (Philadelphia, PA).  October 20, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">The Herald of Liberty (Washington, PA).  October 20, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">Wilkesbarre Gazette and Luzerne Advertiser (Wilkes-Barre, PA).  October 21, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 22, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">Aurora. General Advertiser (Philadelphia, PA).  October 23, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">Gazette of the United States and Daily Evening Advertiser (Philadelphia, PA).  October 23, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05699">The Herald of Liberty (Washington, PA).  October 27, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00224">Aurora. General Advertiser (Philadelphia, PA).  November 3, 1800.</reference>
+</election_record>

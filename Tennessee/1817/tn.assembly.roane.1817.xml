@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 House of Representatives, Roane County" type="General" iteration="First Ballot" date="1817" election_id="tn.assembly.roane.1817" handle="10427/64967" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Brown" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Lenoir" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Byrd" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-09">
+                <candidate_summary candidate_ref="1" vote_total="441" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="367" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="82" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Majority for Brown--74."  The Knoxville Register (Knoxville, TN).  August 14, 1817.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="County" name="Roane" geog_id="null">
+                    <result candidate_ref="1" vote="441" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="367" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="82" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Knoxville Register (Knoxville, TN).  August 14, 1817.</reference>
+</election_record>

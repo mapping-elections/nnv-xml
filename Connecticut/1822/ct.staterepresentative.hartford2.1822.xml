@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1822 House of Representatives, Hartford, Second Representative" type="General" iteration="First Ballot" date="1822" election_id="ct.staterepresentative.hartford2.1822" handle="10427/79833" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Nathan Johnson" name_id="JN0022" affiliation="Republican" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-16">
+				<candidate_summary candidate_ref="1" vote_total="184" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="267" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="Hartford" geog_id="null">
+					<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="267" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Times and Hartford Advertiser (Hartford, CT).  April 9, 1822.</reference>
+</election_record>

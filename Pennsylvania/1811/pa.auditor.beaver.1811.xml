@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Auditor, Beaver County" type="General" iteration="First Ballot" date="1811-10" election_id="pa.auditor.beaver.1811" handle="10427/62281" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Hugh MacCullough" name_id="MH0096" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James Davison" name_id="DJ0451" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Samuel L. Smith" name_id="SS0292" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Joseph Pollock, Sr." name_id="PJ0564" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Robert Darragh" name_id="DR0055" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-23">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06440" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Hugh MacCullough is listed in the Western Cabinet (Beavertown, PA) on both the Republican and "Another" ticket.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Beaver" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06440" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06440">Western Cabinet (Beavertown, PA).  October 7, 1811.</reference>
+</election_record>

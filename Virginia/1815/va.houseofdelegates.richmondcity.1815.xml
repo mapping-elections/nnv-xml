@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1815 House of Delegates, Richmond City" type="General" iteration="First Ballot" date="1815" election_id="va.houseofdelegates.richmondcity.1815" handle="10427/34192" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="City">
+			<ballot>
+				<candidate name="Andrew Stevenson" name_id="SA0291" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Benjamin W. Leigh" name_id="LB0050" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-23">
+				<candidate_summary candidate_ref="1" vote_total="133" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="38" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09018" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09019" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Virginia Argus (Richmond, VA) lists Andrew Stevenson with 127 votes and Benjamin W. Leigh with 37 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="City" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09018" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09019" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09018">The Enquirer (Richmond, VA).  April 12, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09019">The Virginia Argus (Richmond, VA).  April 12, 1815.</reference>
+</election_record>

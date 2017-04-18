@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1797 House of Representatives, Allegheny County" type="General" iteration="First Ballot" date="1797-10" election_id="pa.assembly.alleghenycounty.1797" handle="10427/60904" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="George Wallace" name_id="WG0075" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James G. Heron" name_id="HJ0772" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Ewalt" name_id="ES0019" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Lucas" name_id="LJ0318" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-29">
+				<candidate_summary candidate_ref="1" vote_total="1247" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1028" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="942" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="653" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05518" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05519" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" vote="1247" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1028" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="942" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="653" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05519">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 20, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05518">Aurora. General Advertiser (Philadelphia, PA).  October 21, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05518">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 25, 1797.</reference>
+</election_record>

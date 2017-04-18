@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1808 Sheriff, Cumberland County" type="General" iteration="First Ballot" date="1808" election_id="nj.sheriff.cumberland.1808" handle="10427/20032" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Buck" name_id="BJ0635" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel M. Shute" name_id="SS0160" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Rose" name_id="RW0083" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-19">
+				<candidate_summary candidate_ref="1" vote_total="999" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="673" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03976" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The True American (Trenton, NJ) lists John Buck with 992 votes and Samuel M. Shute with 680 votes but the township totals add up to 999 votes for Buck and 673 votes for Shute.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="999" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="673" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03976" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Deerfield" geog_id="null">
+						<result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Downes" geog_id="null">
+						<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="266" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greenwich" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Maurice River" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millville" geog_id="null">
+						<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stoe Creek" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03976">The True American (Trenton, NJ).  October 24, 1808.</reference>
+</election_record>

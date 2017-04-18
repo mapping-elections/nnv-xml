@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 State Senate, District 5" type="General" iteration="First Ballot" date="1795" election_id="pa.senator.yorkcounty.1795" handle="10427/60836" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="James Ewing" name_id="EJ0160" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Michael Smyser" name_id="SM0113" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="2510" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1857" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05485" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05486" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<sub_unit type="County" name="York" geog_id="null">
+						<result candidate_ref="1" vote="2510" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1857" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05486">Kline's Carlisle Weekly Gazette (Carlisle, PA).  November 11, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05485">Aurora. General Advertiser (Philadelphia, PA).  November 23, 1795.</reference>
+</election_record>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1788 Clerk of the House of Representatives" type="Legislative" iteration="First Ballot" date="1788-11" election_id="pa.clerkofthehouse.1788" handle="10427/66071" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the House of Representatives" office_id="ON027" scope="State">
+		<role title="Clerk of the House of Representatives" scope="State">
+			<ballot>
+				<candidate name="Peter Zachary Lloyd" name_id="LP0008" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-11">
+				<candidate_summary candidate_ref="1" vote_total="50" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Peter Zachary Lloyd is unanimously elected.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Minutes of the First Session of the Thirteenth General Assembly of the Commonwealth of Pennsylvania, 1788.  5.</reference>
+</election_record>

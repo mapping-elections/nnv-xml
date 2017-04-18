@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1824 House of Commons, Salisbury Borough" type="General" iteration="First Ballot" date="1824-08" election_id="nc.houseofcommons.salisbury.1824" handle="10427/45225" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="Borough">
+            <ballot>
+                <candidate name="John L. Henderson" name_id="HJ0672" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Alfred Macay" name_id="MA0046" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-05-02">
+                <candidate_summary candidate_ref="1" vote_total="70" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="32" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"We are desired to say that Mr. Macay did not authorise his name to be used at this election."  Western Carolinian (Salisbury, NC).</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="Borough" name="Salisbury" geog_id="null">
+                    <result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Western Carolinian (Salisbury, NC).  August 17, 1824.</reference>
+</election_record>

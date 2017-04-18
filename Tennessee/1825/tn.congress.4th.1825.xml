@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1825 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1825" election_id="tn.congress.4th.1825" handle="10427/65031" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="Jacob C. Isacks" name_id="IJ0062" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-06-02">
+                <candidate_summary candidate_ref="1" vote_total="3406" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08164" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Four" geog_id="null">
+                    <result candidate_ref="1" vote="3406" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Fentress" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Franklin" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The original election returns report a total of 1698 votes for Franklin, Warren, Overton and Fentress Counties.</note>
+                    </sub_unit>
+                    <sub_unit type="County" name="Jackson" geog_id="null">
+                        <result candidate_ref="1" vote="603" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Overton" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Warren" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="White" geog_id="null">
+                        <result candidate_ref="1" vote="1105" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08164" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">Sparta Review (Sparta, TN), 10 August 1825, reported 1095 votes for Jacob Isacks.  The original returns reported 1105 votes for Jacob Isacks.</note>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08164">Sparta Review (Sparta, TN).  August 10, 1825.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17089">Nashville Republican (Nashville, TN).  August 13, 1825.</reference>
+</election_record>

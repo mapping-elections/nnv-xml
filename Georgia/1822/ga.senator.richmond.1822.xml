@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1822 State Senate, Richmond County" type="General" iteration="First Ballot" date="1822" election_id="ga.senator.richmond.1822" handle="10427/19638" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Valentine Walker" name_id="WV0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-14">
+				<candidate_summary candidate_ref="1" vote_total="506" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01684" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01685" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Valentine Walker is elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="506" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01684" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01685" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01684">Augusta Chronicle and Georgia Advertiser (Augusta, GA).  October 8, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01685">The Daily Georgian (Savannah, GA).  October 12, 1822.</reference>
+</election_record>

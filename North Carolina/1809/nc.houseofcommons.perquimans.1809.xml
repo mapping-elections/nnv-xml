@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1809 House of Commons, Perquimans County, Special" type="Special" iteration="First Ballot" date="1809-12" election_id="nc.houseofcommons.perquimans.1809" handle="10427/43364" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="John Clary" name_id="CJ0547" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Jones" name_id="JW0050" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Arrinton" name_id="AT0031" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-25">
+				<candidate_summary candidate_ref="1" vote_total="173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="53" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04860" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Clary had been elected in the regular election to the House of Commons.  Accused of impregnating his step-daughter and with the Assembly threatening to "free itself from the contamination of grossly impure and unworthy characters," Clary resigned his seat and returned to Perquimans County to clear his name.  In this special election, he was again re-elected to the Assembly.  On December 20, the Assembly voted 68 to 28 to eject him for being "guilty of a crime so enormous it renders unfit that he should be permitted to continue as a member."</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Perquimans" geog_id="null">
+					<result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04860" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04860">Legislative Papers.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the North Carolina House of Commons, 1809.</reference>
+</election_record>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record label="New York 1802 Assembly, Steuben County" type="General" iteration="First Ballot" date="1802" election_id="ny.assembly.steuben.1802" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/26240" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="James Faulkner" name_id="FJ0192" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Knox" name_id="KJ0103" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-16">
+				<candidate_summary candidate_ref="1" vote_total="200" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="155" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04206" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Steuben" geog_id="null">
+					<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04206" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Bath" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Canisteo" geog_id="null">
+						<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dansville" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Fredericktown" geog_id="null">
+						<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Painted Post" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi">Original Election Books.  Steuben County Court House, Bath.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04206">The Albany Register (Albany, NY).  May 28, 1802.</reference>
+</election_record>

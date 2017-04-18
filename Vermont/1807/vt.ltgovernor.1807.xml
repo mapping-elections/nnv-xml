@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1807 Lieutenant Governor" type="General" iteration="First Ballot" date="1807" election_id="vt.ltgovernor.1807" handle="10427/69331" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Lieutenant Governor" office_id="ON073" scope="State">
+        <role title="Lieutenant Governor" scope="State">
+            <ballot>
+                <candidate name="Paul Brigham" name_id="BP0101" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            	<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="null" modified="2014-11-21">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+            	<result candidate_ref="1" resp="Philip Lampi"/>
+            	<result candidate_ref="2" resp="Philip Lampi"/>
+            	<sub_unit type="County" name="Addison" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Bennington" geog_id="null">
+				</sub_unit>
+                <sub_unit type="County" name="Caledonia" geog_id="null">
+				</sub_unit>
+                <sub_unit type="County" name="Chittenden" geog_id="null">
+                	<sub_unit type="Town" name="Burlington" geog_id="null">
+                		<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+                		<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                	</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Essex" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Franklin" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Orange" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Orleans" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Rutland" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+				</sub_unit>
+                <sub_unit type="County" name="Windsor" geog_id="null">
+				</sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+	<reference type="citation" resp="Philip Lampi">Vermont Centinel (Burlington, VT).  September 2, 1807.</reference>
+</election_record>

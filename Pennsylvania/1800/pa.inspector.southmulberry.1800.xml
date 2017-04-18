@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Inspector of the General Election, Philadelphia City, South Mulberry Ward" type="General" iteration="First Ballot" date="1800-10" election_id="pa.inspector.southmulberry.1800" handle="10427/66109" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="William Duncan" name_id="DW0150" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="P. Odenheimer" name_id="OP0007" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-27">
+				<candidate_summary candidate_ref="1" vote_total="128" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="128" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">P. Odenheimer and William Duncan are elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="South Mulberry" geog_id="null">
+						<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="128" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 6, 1800.</reference>
+</election_record>

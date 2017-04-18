@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1813 Sheriff, Allegany County" type="General" iteration="First Ballot" date="1813" election_id="md.sheriff.alleghany.county.1813" handle="10427/58192" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William R. Dawson" name_id="DW0045" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Pollard" name_id="PT0060" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-17">
+				<candidate_summary candidate_ref="1" vote_total="554" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="534" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"But in making out the returns of district No. 6, the clerk wrote the name Wm. B. Dawson instead of Wm. R. Dawson. which gave Pollard a majority of 115 votes.  The clerk made oath that . . .the name of Wm B. Dawson was written instead of Wm R. Dawson, for whom the votes had been given and that not one vote was given to Wm. B Dawson, neither did he believe there was any such person in Allegany county. Dawson  . . .laid his case before the executive, and they decided as above mentioned that they could not interfere with the returns and gave Pollard a commission."  New-England Palladium (Boston, MA).  November 2, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Allegany" geog_id="null">
+					<result candidate_ref="1" vote="554" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="534" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Six" geog_id="null">
+						<result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  November 2, 1813.</reference>
+</election_record>

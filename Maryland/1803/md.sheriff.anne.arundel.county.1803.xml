@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1803 Sheriff, Anne Arundel County" type="General" iteration="First Ballot" date="1803" election_id="md.sheriff.anne.arundel.county.1803" handle="10427/27321" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Edward J. Tully" name_id="TE0029" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Robert Welch" name_id="WR0046" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Isaac Dorsey" name_id="DI0008" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-08">
+				<candidate_summary candidate_ref="1" vote_total="920" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="368" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="148" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02310" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14313" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Telegraphe, the Federal Gazette, and the Republican Star list 919 votes for Edward J. Tully.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Anne Arundel" geog_id="null">
+					<result candidate_ref="1" vote="920" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="368" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="148" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02310" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14313" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14313">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 6, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02310">The Telegraphe and Daily Advertiser (Baltimore, MD).  October 6. 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02310">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 11, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Herald, and Elizabeth-Town Weekly Advertiser (Elizabethtown, MD).  October 12, 1803.</reference>
+</election_record>

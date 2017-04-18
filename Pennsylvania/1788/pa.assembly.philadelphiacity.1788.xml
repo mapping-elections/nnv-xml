@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1788 House of Representatives, Philadelphia City" type="General" iteration="First Ballot" date="1788-10" election_id="pa.assembly.philadelphiacity.1788" handle="10427/66072" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="City">
+            <ballot>
+                <candidate name="George Clymer" name_id="CG0011" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas Fitzsimons" name_id="FT0061" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Jacob Hiltzheimer" name_id="HJ0736" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Lawrence Seckle" name_id="SL0042" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Lewis" name_id="LW0144" affiliation="Federalist" affiliation_id="A01" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 0.5" modified="2011-08-11">
+                <candidate_summary candidate_ref="1" vote_total="2017" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="2013" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="2011" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1990" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="1850" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Pennsylvania" geog_id="null">
+                <sub_unit type="City" name="Philadelphia" geog_id="null">
+                    <result candidate_ref="1" vote="2017" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="2013" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2011" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1990" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="1850" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Minutes of the First Session of the Thirteenth General Assembly of the Commonwealth of Pennsylvania, 1788.  4.</reference>
+    <reference type="citation" resp="Philip Lampi">The Pennsylvania Packet, and Daily Advertiser (Philadelphia, PA).  October 18, 1788.</reference>
+    <reference type="citation" resp="Philip Lampi">Brunhouse, Robert Levere.  The Counter-Revolution in Pennsylvania, 1776-1790.  Harrisburg: Pennsylvania Historical Commission, 1942.  340.</reference>
+</election_record>

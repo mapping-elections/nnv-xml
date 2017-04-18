@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1822 City Council, Baltimore, First Branch, Ward 7" type="General" iteration="First Ballot" date="1822" election_id="md.citycouncil.baltimore.firstbranch7.1822" handle="10427/26887" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="Benjamin C. Howard" name_id="HB0060" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Ebenezer L. Finlay" name_id="FE0017" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Richard Carroll" name_id="CR0028" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Ready" name_id="RJ0124" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Abner Neal" name_id="NA0012" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-05">
+				<candidate_summary candidate_ref="1" vote_total="276" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="139" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="95" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="45" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03277" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Baltimore Patriot and Mercantile Advertiser (Baltimore, MD). listsJohn Ready with 96 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Seven" geog_id="null">
+						<result candidate_ref="1" vote="276" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="205" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="45" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03277" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03279">American, and Commercial Daily Advertiser (Baltimore, MD).  October 8, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03279">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 8, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Morning Chronicle and Daily Advertiser (Baltimore, MD).  October 8, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Republican and Baltimore Telegraph (Baltimore, MD).  October 11, 1822.</reference>
+</election_record>

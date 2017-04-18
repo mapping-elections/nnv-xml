@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 Commissioner, Cumberland County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.commissioner.cumberlandcounty.1798" handle="10427/60965" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="David Robb" name_id="RD0056" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="James Patton" name_id="PJ0439" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-03">
+				<candidate_summary candidate_ref="1" vote_total="1715" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="834" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05552" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="1715" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="834" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="607" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fahnestocks" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newville" geog_id="null">
+						<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="259" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Petersburgh" geog_id="null">
+						<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Sherman's Valley" geog_id="null">
+						<result candidate_ref="1" vote="267" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA) refers to Sherman's Valley as Upper District Shearmansvally.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Shippensburgh" geog_id="null">
+						<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Silverspring" geog_id="null">
+						<result candidate_ref="1" vote="315" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05552">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 17, 1798.</reference>
+</election_record>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1811 Assembly, Broome County" type="General" iteration="First Ballot" date="1811" election_id="ny.assembly.broome.1811" handle="10427/25825" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Chauncey Hyde" name_id="HC0072" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Mason Whiting" name_id="WM0062" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joshua Johnson" name_id="JJ0134" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Nicholas Fish" name_id="FN0016" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-21">
+				<candidate_summary candidate_ref="1" vote_total="512" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="448" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Chauncey Hyde was listed with 532 total votes in all three newspapers, but the town totals they list add up to 512.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Broome" geog_id="null">
+					<result candidate_ref="1" vote="512" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="348" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Berkshire" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chenango" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Lisle" geog_id="null">
+						<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Tioga" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Windsor" geog_id="null">
+						<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04402" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Farmer (Owego, NY).  May 22, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04402">The Columbian (New York, NY).  June 1, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian. (For the Country) (New York, NY).  June 5, 1811.</reference>
+</election_record>

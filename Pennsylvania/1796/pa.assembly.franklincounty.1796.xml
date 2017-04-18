@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.assembly.franklincounty.1796" handle="10427/60878" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Poe" name_id="PJ0412" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Henderson" name_id="HW0311" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Rhea" name_id="RJ0310" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Leiper" name_id="LC0034" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel Riddle" name_id="RS0083" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William Findley" name_id="FW0061" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-21">
+				<candidate_summary candidate_ref="1" vote_total="1158" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1121" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05498" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05499" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05500" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA) uses the spelling Rea for John Rhea.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1158" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1127" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1121" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05498">Gales's Independent Gazetteer (Philadelphia, PA).  September 27, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05500">Aurora. General Advertiser (Philadelphia, PA).  October 22, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05500">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 24, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05499">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 26, 1796.</reference>
+</election_record>

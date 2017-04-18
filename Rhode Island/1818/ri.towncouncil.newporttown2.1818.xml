@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1818 Town Council, Newport, Seat 2" type="General" iteration="First Ballot" date="1818" election_id="ri.towncouncil.newporttown2.1818" handle="10427/64588" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Council" office_id="ON120" scope="Town">
+		<role title="Town Councillor" scope="Town">
+			<ballot>
+				<candidate name="James Taylor" name_id="TJ0066" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Joseph Briggs" name_id="BJ0033" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-12">
+				<candidate_summary candidate_ref="1" vote_total="186" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="141" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="Town" name="Newport" geog_id="ris_newport_newport">
+					<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Newport Mercury (Newport, RI).  June 6, 1818.</reference>
+</election_record>

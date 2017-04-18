@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 U.S. House of Representatives, District 7" type="General" iteration="First Ballot" date="1810-10" election_id="pa.uscongress7.1810" handle="10427/62130" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="William Piper" name_id="PW0228" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Rea" name_id="RJ0310" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-10">
+				<candidate_summary candidate_ref="1" vote_total="1428" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1015" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00589" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<result candidate_ref="1" vote="1428" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1015" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bedford" geog_id="null">
+						<result candidate_ref="1" vote="916" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="567" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00589" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06378" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06379" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06380" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="512" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="448" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00589" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06396" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00588">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06396">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  September 8, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06378">The Bedford Gazette (Bedford, PA).  September 12, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Centinel (Gettysburg, PA).  October 17, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00588">Poulson's American Daily Advertiser (Philadelphia, PA).  October 17, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 20, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00588">Der Readinger Adler (Reading, PA).  October 23, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06396">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">National Intelligencer and Washington Advertiser (Washington, DC).  October 29, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06380">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 6, 1810.</reference>
+</election_record>

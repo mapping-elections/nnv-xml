@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1824 Sheriff, Somerset County" type="General" iteration="First Ballot" date="1824" election_id="md.sheriff.somerset.county.1824" handle="10427/26630" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Robert Stewart" name_id="SR0083" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Brown" name_id="BG0037" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-20">
+				<candidate_summary candidate_ref="1" vote_total="1154" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="719" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03407" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Easton Gazette (Easton, MD) lists 1153 votes for Robert Stewart.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Somerset" geog_id="mds_somerset">
+					<result candidate_ref="1" vote="1154" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="719" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03407" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03407">Easton Gazette (Easton, MD).  October 9, 1824.</reference>
+</election_record>

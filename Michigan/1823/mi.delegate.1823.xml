@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Michigan 1823 U.S. House of Representatives (Territorial Delegate)" type="General" iteration="First Ballot" date="1823" election_id="mi.delegate.1823" handle="10427/58414" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="Gabriel Richard" name_id="RG0004" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Biddle" name_id="BJ1496" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Austin E. Wing" name_id="WA0023" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Andrew G. Whitney" name_id="WA0025" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James MacCloskey" name_id="MJ0359" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="John R. Williams" name_id="WJ0310" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Abraham Edwards" name_id="EA0004" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-12-20">
+				<candidate_summary candidate_ref="1" vote_total="444" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="421" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="335" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="164" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="51" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Michigan" geog_id="null">
+				<sub_unit type="County" name="Brown" geog_id="null">
+					<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="5" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Macomb" geog_id="null">
+					<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="22" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="9" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Michilimackinac" geog_id="null">
+					<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Monroe" geog_id="null">
+					<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="86" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Oakland" geog_id="null">
+					<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="41" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Saint Clair" geog_id="null">
+					<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="9" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Wayne" geog_id="null">
+					<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="133" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="110" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="74" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Carter, Clarence Edwin, ed.  The Territorial Papers of the United States.  Vol. XI.  Washington, DC: U.S. Government Printing Office, 1942. 404, 415, 470-484.</reference>
+</election_record>

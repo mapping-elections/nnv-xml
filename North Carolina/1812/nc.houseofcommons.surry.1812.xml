@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1812 House of Commons, Surry County" type="General" iteration="First Ballot" date="1812-08" election_id="nc.houseofcommons.surry.1812" handle="10427/43181" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Charles Taliaferro" name_id="TC0050" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nicholas Horn" name_id="HN0049" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Hampton" name_id="HT0132" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="W. Burch" name_id="BW0231" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-18">
+				<candidate_summary candidate_ref="1" vote_total="745" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="635" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="542" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="461" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04944" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Surry" geog_id="null">
+					<result candidate_ref="1" vote="745" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="635" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="542" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="461" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04944" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04944">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  August 28, 1812.</reference>
+</election_record>

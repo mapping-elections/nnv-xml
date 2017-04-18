@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1809 Assessor, New York, Ward 8" type="General" iteration="First Ballot" date="1809" election_id="ny.assessor.newyork8.1809" handle="10427/68102" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="Arthur Burtis" name_id="BA0117" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Christopher Beakley" name_id="BC0066" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Benjamin Sands" name_id="SB0062" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2014-04-02">
+           <candidate_summary candidate_ref="1" vote_total="611" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="335" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="277" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="New York" geog_id="null">
+              <sub_unit type="Ward" name="Eight" geog_id="null">
+                <result candidate_ref="1" vote="611" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="335" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="277" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Public Advertiser (New York, NY).  November 29, 1809.</reference>
+</election_record>
+

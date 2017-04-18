@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1811 State Senate, Randolph County" type="General" iteration="First Ballot" date="1811-08" election_id="nc.statesenator.randolph.1811" handle="10427/80202" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Lewis Spinks" name_id="SL0077" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Whitlock Arnold" name_id="AW0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Elliott" name_id="ES0070" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2016-02-22">
+				<candidate_summary candidate_ref="1" vote_total="313" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="300" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="149" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Randolph" geog_id="null">
+					<result candidate_ref="1" vote="313" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="300" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="149" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gracies" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Harris" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hoovers" geog_id="null">
+						<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Ingram" geog_id="null">
+						<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Johnstonvaly" geog_id="null">
+						<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sandy Creek" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

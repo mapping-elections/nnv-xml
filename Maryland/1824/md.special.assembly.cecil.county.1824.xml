@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1824 House of Delegates, Cecil County, Special" type="Special" iteration="First Ballot" date="1824-01" election_id="md.special.assembly.cecil.county.1824" handle="10427/26691" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Samuel Kerr" name_id="KS0008" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="T. L. Savin" name_id="ST0099" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Purnell" name_id="PJ0017" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03384" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03385" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">“An Election will be held at the usual places of holding elections in Cecil County on Tuesday the 16th instance for the purpose of electing a Delegate to the General Assembly of Maryland now in session, to fill the vacancy occasioned by the death of Daniel Sheredine, Esq. ” Elkton Press (Elkton, MD).  December 13, 1823.</note>
+				<note resp="Philip Lampi">"Samuel Kerr, Esq. was yesterday again elected a Delegate to represent this county in the General Assembly of this state.  We understand he has a majority over T.L. Savin, Esq. of 142 votes~Elkton, January 17."  American, and Commercial Daily Advertiser (Baltimore, MD).  January 19, 1824.</note>
+				<note resp="Philip Lampi">“A vacancy was occasioned in the House of Delegates by the death of Daniel Sheredine, Esq. member elect for this county. This being made known to the House of Delegates, the Speaker issued an order to the Sheriff of Cecil county to hold a new election.  The Sheriff being absent for some days after the order arrived, could not give legal notice of the election. On this ground at the instance of Mr. James Purnell (one of the candidates for office), the election was upset.”  Elkton Press (Elkton, MD).  January 10, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Cecil" geog_id="mds_cecil">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03384" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Elkton Press (Elkton, MD).  November 29, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Elkton Press (Elkton, MD).  December 13, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Elkton Press (Elkton, MD).  January 10, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03384">American, and Commercial Daily Advertiser (Baltimore, MD).  January 19, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03385">United States Gazette (Philadelphia, PA).  January 19, 1824.</reference>
+</election_record>

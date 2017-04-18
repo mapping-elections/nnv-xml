@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Sheriff, Mercer County" type="General" iteration="First Ballot" date="1821" election_id="pa.sheriff.mercer.1821" handle="10427/63479" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Allen Dunn" name_id="DA0112" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Jameson" name_id="JW0081" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-11">
+				<candidate_summary candidate_ref="1" vote_total="500" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="460" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07153" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mercer" geog_id="null">
+					<result candidate_ref="1" vote="500" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="460" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07153" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07153">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

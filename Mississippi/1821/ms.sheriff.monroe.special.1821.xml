@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 Sheriff, Monroe County, Special" type="Special" iteration="First Ballot" date="1821-04" election_id="ms.sheriff.monroe.special.1821" handle="10427/79933" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Bartlet Sims" name_id="SB0154" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel MacKinzie" name_id="MD0216" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Smith" name_id="SJ1579" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Mullins" name_id="MT0234" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Christopher H. Williams" name_id="WC0115" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-18">
+				<candidate_summary candidate_ref="1" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="29" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="22" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="14" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Monroe" geog_id="null">
+					<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="22" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="14" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 House of Representatives, Crawford, Erie, and Warren Counties" type="General" iteration="First Ballot" date="1813-10" election_id="pa.assembly.crawforderiewarrencounties.1813" handle="10427/62561" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Weston" name_id="WJ0768" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Burchfield" name_id="BJ1111" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Davis" name_id="DJ0412" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Daniel Williams" name_id="WD0093" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-24">
+				<candidate_summary candidate_ref="1" vote_total="637" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="420" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="370" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="289" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06603" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Crawford, Erie, and Warren Counties" geog_id="null">
+					<result candidate_ref="1" vote="637" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="420" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="370" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="289" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06602" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06603" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Crawford" geog_id="null">
+						<result candidate_ref="1" vote="245" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="191" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="285" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06602" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06603" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Our county election has terminated pretty much as was expected by those who had a correct knowledge of the materials held up for public suffrage. Thro' ignorance, intrigue and the most shameful avidity for office, the interest of the republican party was but imperfectly consulted in the arrangement of the ticket, hence the slender support given it, and the election of a federal county commissioner." The Crawford Weekly Messenger (Meadville, PA).  October 20, 1813.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Erie" geog_id="null">
+						<result candidate_ref="1" vote="357" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06603" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06609" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06603" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06662" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  September 22, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06602">The Crawford Weekly Messenger (Meadville, PA).  October 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06662">The Western Press (Mercer, PA).  October 26, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06609">The Crawford Weekly Messenger (Meadville, PA).  October 27, 1813.</reference>
+</election_record>

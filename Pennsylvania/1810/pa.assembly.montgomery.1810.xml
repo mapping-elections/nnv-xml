@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 House of Representatives, Montgomery County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.assembly.montgomery.1810" handle="10427/62208" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Matthew Brooke" name_id="BM0104" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard T. Leech" name_id="LR0077" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Weaver" name_id="WG0094" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Weber" name_id="WJ0690" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Israel Bringhurst" name_id="BI0034" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John Richards" name_id="RJ0314" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Frederick Conrad" name_id="CF0031" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="Joshua Tyson" name_id="TJ0458" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-09">
+				<candidate_summary candidate_ref="1" vote_total="1696" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1685" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1643" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1556" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1135" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1096" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1072" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1097" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Der Readinger Adler (Reading, PA) lists the name "M.C. Leech" in place of Richard T. Leech, and the name "G. Weber" in place of George Weaver.  October 30, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="1696" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1685" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1643" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1556" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1135" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1096" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1072" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1097" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA) from October 31, 1810 lists 1097 total votes for Joshua Tyson.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 15, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06407">Der Readinger Adler (Reading, PA).  October 30, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1810.</reference>
+</election_record>

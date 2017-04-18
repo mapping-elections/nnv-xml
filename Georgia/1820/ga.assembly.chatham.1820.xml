@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1820 House of Representatives, Chatham County" type="General" iteration="First Ballot" date="1820" election_id="ga.assembly.chatham.1820" handle="10427/15989" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="John C. Nicoll" name_id="NJ0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Levi S. DeLyon" name_id="DL0002" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Thomas Bourke" name_id="BT0008" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Thomas N. Morel" name_id="MT0009" affiliation="null" affiliation_id="null" candidate_num="4"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-03-05">
+        <candidate_summary candidate_ref="1" vote_total="245" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="218" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="216" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="126" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01673" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Chatham" geog_id="null">
+          <result candidate_ref="1" vote="245" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="218" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="216" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="126" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01673" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01673">Savannah Republican (Savannah, GA).  October 3, 1820.</reference>
+</election_record>

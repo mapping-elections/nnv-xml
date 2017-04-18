@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 House of Representatives, Cambria and Somerset Counties" type="General" iteration="First Ballot" date="1820-10" election_id="pa.assembly.cambriasomersetcounties.1820" handle="10427/63360" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Chauncey Forward" name_id="FC0039" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Mostoller" name_id="MJ1221" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Wells" name_id="WJ0718" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="William Atchesson" name_id="AW0131" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Philip Noon" name_id="NP0014" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="John Hindman" name_id="HJ1070" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Jacob Blocher" name_id="BJ1080" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-06">
+				<candidate_summary candidate_ref="1" vote_total="994" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="890" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="881" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="710" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="422" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="418" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="81" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07090" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07091" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Cambria and Somerset" geog_id="null">
+					<result candidate_ref="1" vote="994" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="890" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="881" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="710" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="422" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="418" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="81" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="359" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="937" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="886" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="881" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="670" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="379" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="71" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Sentinel (Philadelphia, PA).  October 21, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07091">American Sentinel (Philadelphia, PA).  October 26, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07090">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 4, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  November 8, 1820.</reference>
+</election_record>

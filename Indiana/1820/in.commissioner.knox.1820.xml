@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1820 Commissioner, Knox County" type="General" iteration="First Ballot" date="1820" election_id="in.commissioner.knox.1820" handle="10427/56436" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Ockeltree" name_id="OJ0013" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph MacClure" name_id="MJ0139" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Chambers" name_id="CS0009" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Joshua Thorn" name_id="TJ0111" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William R. MacCall" name_id="MW0048" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="576" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="558" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="328" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="63" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="12" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12367" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Knox" geog_id="null">
+					<result candidate_ref="1" vote="576" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="558" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="328" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="63" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="12" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12367" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12367">Indiana Centinel (Vincennes, IN).  August 12, 1820.</reference>
+</election_record>

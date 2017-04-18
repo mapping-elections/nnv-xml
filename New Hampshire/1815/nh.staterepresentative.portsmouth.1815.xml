@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1815 House of Representatives, Portsmouth" type="General" iteration="First Ballot" date="1815" election_id="nh.staterepresentative.portsmouth.1815" handle="10427/79213" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John F. Parrot" name_id="PJ0260" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hunking Penhallow" name_id="PH0080" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Austin" name_id="AD0060" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Ela" name_id="EJ0324" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Long" name_id="LG0072" affiliation="Republican" affiliation_id="A03" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Larkin" name_id="LS0087" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Isaac Waldron, Jr." name_id="WI0062" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="Nathaniel A. Haven" name_id="HN0031" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+				<candidate name="Edward Cutts, Jr." name_id="CE0090" affiliation="Federalist" affiliation_id="A01" candidate_num="9"/>
+				<candidate name="Joseph Clark" name_id="CJ0847" affiliation="Federalist" affiliation_id="A01" candidate_num="10"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-26">
+				<candidate_summary candidate_ref="1" vote_total="632" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="625" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="620" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="605" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="592" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="324" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="311" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="307" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="302" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="10" vote_total="301" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="County" name="Rockingham" geog_id="null">
+					<sub_unit type="Town" name="Portsmouth" geog_id="null">
+						<result candidate_ref="1" vote="632" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="625" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="620" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="605" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="592" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="324" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="311" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="307" resp="Philip Lampi"/>
+						<result candidate_ref="9" vote="302" resp="Philip Lampi"/>
+						<result candidate_ref="10" vote="301" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Portsmouth Oracle (Portsmouth, NH).  March 18, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Gazette (Portsmouth, NH).  March 21, 1815.</reference>
+</election_record>

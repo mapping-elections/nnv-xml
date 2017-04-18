@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Inspector of the General Election, Philadelphia City, High Street Ward" type="General" iteration="First Ballot" date="1807-10" election_id="pa.inspector.highstreet.1807" handle="10427/61784" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Joseph Price" name_id="PJ0468" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathan Eyre" name_id="EN0010" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-13">
+				<candidate_summary candidate_ref="1" vote_total="106" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="105" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06171" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06172" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) from October 5 states that the federal ticket had "no opposition."</note>
+				<note resp="Philip Lampi">"Sixteen...are Friends of the Constitution and twelve are Jacobins." The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) (Philadelphia, PA), October 5, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="High Street" geog_id="null">
+						<result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06171" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06172" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06171">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 5, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 5, 1807.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1788 Constitutional Convention, Essex County" type="General" iteration="First Ballot" date="1788" election_id="va.constitutionalconvention.essex.1788" handle="10427/32303" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="Merriweather Smith" name_id="SM0119" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Upshaw" name_id="UJ0020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Newman Brockenbrough" name_id="BN0116" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Edmondson" name_id="EJ0298" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-18">
+				<candidate_summary candidate_ref="1" vote_total="172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="87" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="48" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08223" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Essex" geog_id="null">
+					<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="48" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08223" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08223">Essex County Deeds.  Book 33.  108-110.</reference>
+</election_record>

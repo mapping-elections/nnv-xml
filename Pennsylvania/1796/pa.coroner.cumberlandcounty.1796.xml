@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 Coroner, Cumberland County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.coroner.cumberlandcounty.1796" handle="10427/60870" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="David Snider" name_id="SD0145" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Raddat" name_id="RJ0119" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Stephen Rhine" name_id="RS0084" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Peebles" name_id="PJ0101" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-21">
+				<candidate_summary candidate_ref="1" vote_total="742" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="565" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="455" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="399" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05492" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA) uses the name John Reddat for John Raddat.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="742" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="565" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="455" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="399" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05492">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 19, 1796.</reference>
+</election_record>

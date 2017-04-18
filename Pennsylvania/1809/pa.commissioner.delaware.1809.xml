@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1809 Commissioner, Delaware County" type="General" iteration="First Ballot" date="1809-10" election_id="pa.commissioner.delaware.1809" handle="10427/62026" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Siter" name_id="SJ1171" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Bishop" name_id="BT0245" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-12">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06328" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="194" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06329" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06327" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06329">Aurora. General Advertiser (Philadelphia, PA).  October 12, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  October 12, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">The True American and Commercial Advertiser (Philadelphia, PA).  October 13, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06328">United States' Gazette (Philadelphia, PA).  October 16, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06328">The Chester and Delaware Federalist (West Chester, PA).  October 18, 1809.</reference>
+</election_record>

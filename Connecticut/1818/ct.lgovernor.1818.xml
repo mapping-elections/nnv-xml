@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1818 Lieutenant Governor" type="General" iteration="First Ballot" date="1818-04" election_id="ct.lgovernor.1818" handle="10427/17440" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Lieutenant Governor" office_id="ON073" scope="State">
+		<role title="Lieutenant Governor" scope="State">
+			<ballot>
+				<candidate name="Jonathan Ingersoll" name_id="IJ0003" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="David Daggett" name_id="DD0000" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Calvin Goddard" name_id="GC0005" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Nathaniel Smith" name_id="SN0000" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Andrew Kingsbury" name_id="KA0001" affiliation="Federalist" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Hillhouse" name_id="HJ0008" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-29">
+				<candidate_summary candidate_ref="1" vote_total="14390" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="695" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00892" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01571" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01573" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Fairfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<sub_unit type="Town" name="Hartford" geog_id="null">
+						<result candidate_ref="1" vote="384" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="41" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The scattering votes in Hartford were for Federalist candidates.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Hartland" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Litchfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Middlesex" geog_id="null">
+					<sub_unit type="Town" name="East Haddam" geog_id="null">
+						<note resp="Philip Lampi">"The votes for Governor, Lt. Govenor and Secretary, were almost unanimous, for the present incumbents."  Connecticut Gazette (New London, CT).  April 15, 1818.</note>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="New Haven" geog_id="cts_newhaven">
+					<sub_unit type="City" name="New Haven" geog_id="cts_newhaven_newhaven">
+						<result candidate_ref="1" vote="281" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01571" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01573" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="New London" geog_id="null">
+					<sub_unit type="Town" name="Lyme" geog_id="null">
+						<note resp="Philip Lampi">"The votes for Governor, Lt. Govenor and Secretary, were almost unanimous, for the present incumbents."  Connecticut Gazette (New London, CT).  April 15, 1818.</note>
+					</sub_unit>
+					<sub_unit type="City" name="New London" geog_id="null">
+						<note resp="Philip Lampi">"The votes for Governor, Lt. Govenor and Secretary, were almost unanimous, for the present incumbents."  Connecticut Gazette (New London, CT).  April 15, 1818.</note>
+					</sub_unit>
+					<sub_unit type="City" name="Norwich" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Waterford" geog_id="null">
+						<note resp="Philip Lampi">"The votes for Governor, Lt. Govenor and Secretary, were almost unanimous, for the present incumbents."  Connecticut Gazette (New London, CT).  April 15, 1818.</note>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Tolland" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald, and General Advertiser (New Haven, CT).  April 14, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01571">The Connecticut Journal (New Haven, CT).  April 14, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  April 15, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Norwich Courier (Norwich, CT).  April 15, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Advocate (New London, CT).  April 15, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01573">Columbian Register (New Haven, CT).  April 18, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  April 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  May 18, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  May 19, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00892">Connecticut Courant (Hartford, CT).  May 19, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald, and General Advertiser (New Haven, CT).  May 19, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Connecticut Journal (New Haven, CT).  May 19, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times (Hartford, CT).  May 19, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  May 20, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Litchfield Journal (Litchfield, CT).  May 20, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Norwalk Gazette (Norwalk, CT).  May 20, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Middlesex Gazette (Middletown, CT).  May 22, 1818.</reference>
+</election_record>

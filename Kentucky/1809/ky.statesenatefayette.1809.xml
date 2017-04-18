@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Kentucky 1809 State Senate, Fayette County" type="General" iteration="First Ballot" date="1809" election_id="ky.statesenatefayette.1809" handle="10427/57777" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="John Bradford" name_id="BJ0183" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Edmund Bullock" name_id="BE0063" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-09">
+                <candidate_summary candidate_ref="1" vote_total="202" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="202" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Kentucky" geog_id="null">
+                <sub_unit type="County" name="Fayette" geog_id="null">
+                    <result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="202" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Kentucky Gazette (Lexington, KY).  August 8, 1809.</reference>
+    <reference type="citation" resp="Philip Lampi">The Reporter (Lexington, KY).  August 8, 1809.</reference>
+</election_record>

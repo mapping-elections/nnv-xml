@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1815 Commissioner, Adams County" type="General" iteration="First Ballot" date="1815" election_id="oh.countycommissioner.adams.1815" handle="10427/59475" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Thomas Mason" name_id="MT0107" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Lodwick" name_id="LJ0282" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Adam Kirkpatrick" name_id="KA0056" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Baldwin" name_id="BJ0919" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joseph Lockhart" name_id="LJ0290" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William Mason" name_id="MW0270" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-14">
+				<candidate_summary candidate_ref="1" vote_total="585" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="276" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="106" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05216" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19133" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Adams" geog_id="ohs_adams">
+					<result candidate_ref="1" vote="585" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="276" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="106" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05216" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19133" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05216">Original Election Abstract. Adams County Historical Society, West Union.</reference>
+</election_record>

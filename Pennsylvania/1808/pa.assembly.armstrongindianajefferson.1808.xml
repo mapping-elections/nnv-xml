@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 House of Representatives, Armstrong, Indiana and Jefferson Counties" type="General" iteration="First Ballot" date="1808-10" election_id="pa.assembly.armstrongindianajefferson.1808" handle="10427/61861" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Sloan" name_id="SJ1125" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacCombs" name_id="MJ0924" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-09">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06211" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana and Jefferson" geog_id="null">
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" vote="457" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 238 votes for James MacCombs.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  October 19, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06211">The Reporter (Washington, PA).  October 24, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 15, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  November 18, 1808.</reference>
+</election_record>

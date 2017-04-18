@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 Town Clerk, Newburyport" type="General" iteration="First Ballot" date="1808" election_id="ma.townclerk.newburyport.1808" handle="10427/69869" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Town">
+		<role title="Town Clerk" scope="Town">
+			<ballot>
+				<candidate name="John Fitz" name_id="FJ0162" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="null" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-29">
+				<candidate_summary candidate_ref="1" vote_total="295" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="92" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Newburyport" geog_id="null">
+					<result candidate_ref="1" vote="295" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 20, 1808.</reference>
+</election_record>

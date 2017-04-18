@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1818 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1818" election_id="ma.ussenate.1818" handle="10427/78962" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Prentiss Mellen" name_id="MP0060" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William King" name_id="KW0033" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Bridge" name_id="BJ0319" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Mark L. Hill" name_id="HM0035" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-09-23">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to fill the vacancy occasioned by the resignation, on June 3rd, of Eli P. Ashmun.</note>
+				<note resp="Philip Lampi">"Thursday, June 4 - At 12 o'clock the House proceeded to an election on their part of a Senator in Congress. The whole number of members present was 131. Whole number of votes 125."  The Essex Register (Salem, MA).  June 6, 1818.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<note resp="Philip Lampi">Various newspapers stated that on June 5, the State Senate concurred with the House on their election of Prentiss Mellen as United States Senator.</note>
+				</sub_unit>
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Daily Advertiser (Boston, MA).  June 5, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Boston Daily Advertiser (Boston, MA).  June 6, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  June 6, 1818.</reference>
+</election_record>

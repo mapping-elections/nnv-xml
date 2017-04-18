@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Auditor, Highland County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.auditor.highland.1822" handle="10427/60159" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Auditor" office_id="ON013" scope="County">
+        <role title="Auditor" scope="County">
+            <ballot>
+                <candidate name="William Keys" name_id="KW0072" affiliation="null" affiliation_id="null" candidate_num="1"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-16">
+                <candidate_summary candidate_ref="1" vote_total="970" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Under the act of the general assembly, passed February 8, 1820, creating the office of county auditor, and making auditors elective by the general assembly of the State, William Keys was elected by the legislature, and continued in office from 1821, by subsequent elections by the people, after the office became elective by them, until 1829."  The County of Highland.  171-172.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Highland" geog_id="ohs_highland">
+                    <result candidate_ref="1" vote="970" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Brushcreek" geog_id="null">
+                        <result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Concord" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Fairfield" geog_id="null">
+                        <result candidate_ref="1" vote="204" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jackson" geog_id="null">
+                        <result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Liberty" geog_id="null">
+                        <result candidate_ref="1" vote="197" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Madison" geog_id="null">
+                        <result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Newmarket" geog_id="null">
+                        <result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Paint" geog_id="null">
+                        <result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Whiteoak" geog_id="null">
+                        <result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Highland County.</reference>
+    <reference type="citation" resp="Philip Lampi">Klise, J. W.  The County of Highland.  Madison, WI: Northwest Historical Association, 1902.  171-172.</reference>
+</election_record>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Commissioner, Lebanon County" type="General" iteration="First Ballot" date="1823" election_id="pa.commissioner.lebanon.1823" handle="10427/65892" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Anthony Scharb" name_id="SA0228" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="David Fifcher" name_id="FD0062" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-24">
+				<candidate_summary candidate_ref="1" vote_total="1682" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1146" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="1682" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1146" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Campbellstown" geog_id="null">
+						<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Jonestown" geog_id="null">
+						<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="181" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="265" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Meyerstown" geog_id="null">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="189" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="147" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shaefferstown" geog_id="null">
+						<result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="159" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stumpstown" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Der Unpartheyische Berichter (Lebanon, PA).  October 18, 1823.</reference>
+</election_record>

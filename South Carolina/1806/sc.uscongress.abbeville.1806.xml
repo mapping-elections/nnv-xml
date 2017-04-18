@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1806 U.S. House of Representatives, District 6" type="General" iteration="First Ballot" date="1806" election_id="sc.uscongress.abbeville.1806" handle="10427/32115" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Levi Casey" name_id="CL0065" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John A. Elmore" name_id="EJ0269" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph C. Calhoun" name_id="CJ1013" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-22">
+				<candidate_summary candidate_ref="1" vote_total="1301" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="654" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="640" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00446" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15597" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15602" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Levi Casey is elected, but died on February 3, 1807 without serving.</note>
+				<note resp="Philip Lampi">District Six was also known as Abbeville District.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<result candidate_ref="1" vote="1301" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="654" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="640" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Abbeville" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Laurens" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Newberry" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15602">The Times (Charleston, SC).  December 6, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00446">The Charleston Courier (Charleston, SC).  December 8, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15597">City Gazette and Daily Advertiser (Charleston, SC).  December 8, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">Dubin, Michael J.  United States Congressional Elections, 1788-1997: The Official Results of the Elections of the 1st through 105th Congresses.  Jefferson, NC: McFarland and Company, 1998.  36, 38.</reference>
+</election_record>

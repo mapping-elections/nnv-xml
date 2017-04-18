@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1793 House of Representatives, Stockbridge" type="General" iteration="First Ballot" date="1793-05" election_id="ma.staterepresentative.stockbridge.1793" handle="10427/69124" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John Bacon" name_id="BJ0484" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Timothy Edwards" name_id="ET0013" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-09">
+				<candidate_summary candidate_ref="1" vote_total="76" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="66" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"There were one hundred and forty-two persons at the election, 66 of whom voted for the Hon. Timothy Edwards, Esq. and 76 for the Hon. John Bacon, Esq."  Western Star (Stockbridge, MA).  May 21, 1793.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Stockbridge" geog_id="null">
+					<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Western Star (Stockbridge, MA).  May 21, 1793.</reference>
+</election_record>

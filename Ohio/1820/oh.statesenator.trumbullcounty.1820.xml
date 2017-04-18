@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 State Senate, Trumbull County" type="General" iteration="First Ballot" date="1820-10" election_id="oh.statesenator.trumbullcounty.1820" handle="10427/59839" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Eli Baldwin" name_id="BE0250" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Simon Perkins" name_id="PS0070" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Homer Hine" name_id="HH0059" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-07">
+				<candidate_summary candidate_ref="1" vote_total="889" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="614" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="288" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="889" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="614" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="288" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05303" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Canfield" geog_id="null">
+						<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19470" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05303">The Western Reserve Chronicle (Warren, OH).  October 19, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Cleaveland Herald (Cleveland, OH).  October 31, 1820.</reference>
+</election_record>

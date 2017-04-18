@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1797 Commissioner, Chester County" type="General" iteration="First Ballot" date="1797-10" election_id="pa.commissioner.chestercounty.1797" handle="10427/60910" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Rogers" name_id="RW0152" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Titus Taylor" name_id="TT0092" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-29">
+				<candidate_summary candidate_ref="1" vote_total="1185" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1153" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05524" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="1185" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1153" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05524">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 13, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05524">Porcupine's Gazette (Philadelphia, PA).  October 13, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05524">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1797.</reference>
+</election_record>

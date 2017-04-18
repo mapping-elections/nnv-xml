@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Coroner, Chester County" type="General" iteration="First Ballot" date="1800" election_id="pa.coroner.chester.1800" handle="10427/61121" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Jacob Righter" name_id="RJ0341" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Joshua Weaver" name_id="WJ0632" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Samuel Townsend" name_id="TS0085" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-26">
+				<candidate_summary candidate_ref="1" vote_total="1938" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1902" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1887" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05649" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="1938" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1902" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1887" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05649" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) reports 1959 votes for Jacob Righter.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05650">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05649">Aurora. General Advertiser (Philadelphia, PA).  October 23, 1800.</reference>
+</election_record>

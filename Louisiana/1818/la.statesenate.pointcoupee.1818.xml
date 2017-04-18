@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1818 State Senate, Pointe Coupee Parish" type="General" iteration="First Ballot" date="1818" election_id="la.statesenate.pointcoupee.1818" handle="10427/57894" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+		<ballot>
+			<candidate name="Julian Poydrass" name_id="PJ0124" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			<candidate name="Herriert" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+		</ballot>
+		<overview status="Version 1.0" modified="2007-02-23">
+			<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+			<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			<note resp="Philip Lampi">"Julian Poydrass is elected Senator over Mr. Herriert."  The New-Orleans Chronicle (New Orleans, LA).  July 14, 1818.</note>
+		</overview>
+		<admin_unit type="State" name="Louisiana" geog_id="null">
+			<sub_unit type="Parish" name="Pointe Coupee" geog_id="null">
+				<result candidate_ref="1" resp="Philip Lampi"/>
+				<result candidate_ref="2" resp="Philip Lampi"/>
+			</sub_unit>
+		</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-Orleans Chronicle (New Orleans, LA).  July 14, 1818.</reference>
+</election_record>

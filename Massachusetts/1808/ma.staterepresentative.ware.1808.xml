@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 House of Representatives, Ware" type="General" iteration="First Ballot" date="1808" election_id="ma.staterepresentative.ware.1808" handle="10427/69867" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William Bowdoin" name_id="BW0165" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Shaw" name_id="SJ1459" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Brackenridge" name_id="BG0137" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-29">
+				<candidate_summary candidate_ref="1" vote_total="56" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="7" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Ware" geog_id="null">
+					<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Ware Town Records.</reference>
+	<reference type="citation" resp="Philip Lampi">Norfolk Repository (Dedham, MA).  June 28, 1808.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1815 Public Printer" type="Legislative" iteration="First Ballot" date="1815" election_id="nc.publicprinter.1815" handle="10427/43004" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Public Printer" office_id="ON083" scope="State">
+        <role title="Public Printer" scope="State">
+            <ballot>
+                <candidate name="Thomas Henderson" name_id="HT0128" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">The Star (Raleigh, NC).</note><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Joseph Gales" name_id="GJ0043" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">The Raleigh Register, and North-Carolina Gazette (Raleigh, NC).</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-03-27">
+                <candidate_summary candidate_ref="1" vote_total="93" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="68" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18025" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18563" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18025" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18563" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18025">The Raleigh Minerva (Raleigh, NC).  December 22, 1815.</reference>
+    <reference type="citation" resp="Philip Lampi">The Star (Raleigh, NC).  December 22, 1815.</reference>
+</election_record>

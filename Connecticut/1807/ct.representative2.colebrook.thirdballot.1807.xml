@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1807 House of Representatives, Colebrook, Second Representative, Ballot 3" type="General" iteration="Third Ballot" date="1807" election_id="ct.representative2.colebrook.thirdballot.1807" handle="10427/19105" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Arah Phelps" name_id="PA0003" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Martin Rockwell" name_id="RM0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-15">
+				<candidate_summary candidate_ref="1" vote_total="93" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01541" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Colebrook" geog_id="null">
+					<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01541" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01541">Connecticut Gazette (New London, CT).  May 27, 1807.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 Coroner, Chester County" type="General" iteration="First Ballot" date="1805-10" election_id="pa.coroner.chester.1805" handle="10427/61534" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Ephraim Buffington" name_id="BE0195" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Hayes" name_id="HJ0878" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"/>
+				<candidate name="Cromwell Pearce" name_id="PC0044" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Ramsey" name_id="RJ0351" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-02">
+				<candidate_summary candidate_ref="1" vote_total="2694" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2563" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2360" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2349" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05986" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2694" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2563" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2360" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2349" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05986" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05986">United States' Gazette (Philadelphia, PA).  October 17, 1805.</reference>
+</election_record>

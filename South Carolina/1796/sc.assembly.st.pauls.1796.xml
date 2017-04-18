@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1796 House of Representatives, Saint Paul's Parish" type="General" iteration="First Ballot" date="1796" election_id="sc.assembly.st.pauls.1796" handle="10427/32121" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="James Hartley" name_id="HJ1218" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Boyle" name_id="BJ1337" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Eddings" name_id="EJ0263" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-09-24">
+				<candidate_summary candidate_ref="1" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="47" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="40" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07489" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07490" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">There were 81 votes for assembly.</note>
+				<note resp="Philip Lampi">William B. Mitchell petitioned to have the election of Joseph Eddings overturned.  "At which Joseph Edings [sic] and your Petitioner (William B. Mitchell) together with five others were candidates."  Joseph Edings "... had thirty eight votes exclusive of which there were two votes for Edings, which ... would only give him the number of forty."  William B. Mitchell "that your Petitioner being the next in number of votes to the said Joseph Edings had thirty seven votes."  Petition of William B. Mitchell to the Committee on Elections.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Paul's" geog_id="null">
+					<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07489" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07489">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07490">Petition of William B. Mitchell to the Committee on Elections.</reference>
+</election_record>

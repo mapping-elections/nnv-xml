@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1818 U.S. Senate, Ballot 3" type="Legislative" iteration="Third Ballot" date="1818" election_id="il.ussenate3.1818" handle="10427/56228" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Jesse B. Thomas" name_id="TJ0088" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Leonard White" name_id="WL0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Michael Jones" name_id="JM0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-30">
+				<candidate_summary candidate_ref="1" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="18" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+				<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Illinois Emigrant (Shawneetown, IL).  October 17, 1818.</reference>
+</election_record>

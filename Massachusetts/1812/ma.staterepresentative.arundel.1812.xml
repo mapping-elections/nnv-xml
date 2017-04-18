@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 House of Representatives, Arundel" type="General" iteration="First Ballot" date="1812-05" election_id="ma.staterepresentative.arundel.1812" handle="10427/27578" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Greene" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Eliphalet Perkins" name_id="PE0048" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Tobias Lord" name_id="LT0042" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-15">
+				<candidate_summary candidate_ref="1" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="113" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03562" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"We have this day chosen Eliphalet Perkins, Esq. and Mr. Greene, to represent us in the Assembly, where we have been misrepresented by Mr. Tobias Lord - the votes were above 130 for the Washingtonians, and 113 for the Commerce Haters."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 9, 1812.</note>
+				<note resp="Philip Lampi">The Columbian Centinel lists "Mr. Greene", but Reuben Green was the State Representative from the neighboring town of Biddleford, not from Arundel.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Arundel" geog_id="null">
+					<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="113" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03562" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 9, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03562">The True American and Commercial Advertiser (Philadelphia, PA).  May 13, 1812.</reference>
+</election_record>

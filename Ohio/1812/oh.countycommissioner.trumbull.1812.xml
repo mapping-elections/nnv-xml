@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1812 Commissioner, Trumbull County" type="General" iteration="First Ballot" date="1812-10" election_id="oh.countycommissioner.trumbull.1812" handle="10427/59270" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William MacCombs" name_id="MW0266" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Withdrew before the election.</note></candidate>
+				<candidate name="Asahel Adams" name_id="AA0075" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Heironimus Eckman" name_id="EH0022" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Alexander Sutherland" name_id="SA0165" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Ensign Church" name_id="CE0122" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-08">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05180" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05180" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Canfield" geog_id="null">
+						<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="51" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18951" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05180">Trump of Fame (Warren, OH).  October 21, 1812.</reference>
+</election_record>

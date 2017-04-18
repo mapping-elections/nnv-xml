@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1813 Assembly, Schoharie County" type="General" iteration="First Ballot" date="1813" election_id="ny.assembly.schoharie.1813" handle="10427/25641" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="William C. Bouck" name_id="BW0200" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="William Dietz" name_id="DW0091" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Thomas Butler" name_id="BT0114" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+           <candidate name="John Ingold" name_id="IJ0063" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-24">
+           <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Schoharie" geog_id="null">
+              <result candidate_ref="1" resp="Philip Lampi"/>
+              <result candidate_ref="2" resp="Philip Lampi"/>
+              <result candidate_ref="3" resp="Philip Lampi"/>
+              <result candidate_ref="4" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Blenheim" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Broome" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Carlisle" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Cobleskill" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Jefferson" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Middleburgh" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Schoharie" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Sharon" geog_id="null">
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+</election_record>

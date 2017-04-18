@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1809 House of Delegates, Baltimore County" type="General" iteration="First Ballot" date="1809" election_id="md.assembly.baltimore.county.1809" handle="10427/26791" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Tobias E. Stansbury" name_id="ST0095" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Harryman" name_id="HG0018" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Moses Brown" name_id="BM0021" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Beall Randall" name_id="RB0011" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-03">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02587" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Baltimore" geog_id="mds_baltimore">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02587" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Tobias E. Stansbury, George Harryman, Moses Brown and Beall Randall are elected without opposition.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02587">National Intelligencer and Washington Advertiser (Washington, DC).  October 6, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02587">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 10, 1809.</reference>
+</election_record>

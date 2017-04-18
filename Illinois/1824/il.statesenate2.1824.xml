@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 State Senate, Bond, Fayette, and Montgomery Counties" type="General" iteration="First Ballot" date="1824-08" election_id="il.statesenate2.1824" handle="10427/56390" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Francis Kirkpatrick" name_id="KF0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Martin Jones" name_id="JM0001" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Warnock" name_id="WJ0085" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="S. Bond" name_id="BS0030" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Thomas Kirkpatrick" name_id="KT0067" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="336" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="280" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="89" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11312" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Bond, Fayette and Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="336" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="280" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="89" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bond" geog_id="null">
+						<result candidate_ref="1" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="30" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Vandalia" geog_id="null">
+							<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Wakefield" geog_id="null">
+							<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Hillsborough" geog_id="null">
+							<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Hurricane" geog_id="null">
+							<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11312">The Illinois Intelligencer (Vandalia, IL).  August 6, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  208.</reference>
+</election_record>

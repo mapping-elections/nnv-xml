@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1820 State Senate, Pike County" type="General" iteration="First Ballot" date="1820" election_id="in.statesenate.pike.1820" handle="10427/56481" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Richard Daniel" name_id="DR0003" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac Montgomery" name_id="MI0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="66" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Pike" geog_id="null">
+					<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">History of Pike and Dubois Counties, Indiana.  Chicago: Goodspeed Brothers, 1885.  291.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1798 House of Representatives, Saint Dennis and Saint Thomas Parishes" type="General" iteration="First Ballot" date="1798" election_id="sc.assembly.st.thomas.and.st.dennis.1798" handle="10427/31953" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Roger Pinckney" name_id="PR0088" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Elias Moore" name_id="MJ1311" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">John Elias Moore is elected, but declined to serve on November 28, 1798.</note></candidate>
+				<candidate name="Thomas Wigfall" name_id="WT0191" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Thomas Wigfall is elected, but declined to serve on December 2, 1798.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-03">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07520" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Dennis" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07520" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="Parish" name="Saint Thomas" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07520" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07520">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  252-253.</reference>
+</election_record>

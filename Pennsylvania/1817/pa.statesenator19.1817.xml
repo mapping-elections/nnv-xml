@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1817 State Senate, District 19" type="General" iteration="First Ballot" date="1817" election_id="pa.statesenator19.1817" handle="10427/63012" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="William Lowrie" name_id="LW0190" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Gilmore" name_id="GJ0429" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Nineteen" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Allegheny" geog_id="null">
+						<result candidate_ref="1" vote="1614" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1583" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06851" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Beaver" geog_id="null">
+						<result candidate_ref="1" vote="1033" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="574" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06853" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Butler" geog_id="null">
+						<result candidate_ref="1" vote="512" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="493" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06858" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06859" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06851">The Pittsburgh Mercury (Pittsburgh, PA).  October 24, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Republican (Harrisburg, PA).  November 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06853">Der Readinger Adler (Reading, PA).  November 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06858">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 8, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06859">Der Readinger Adler (Reading, PA).  November 11, 1817.</reference>
+</election_record>

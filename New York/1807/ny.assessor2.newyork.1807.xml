@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1807 Assessor, New York, Ward 2" type="General" iteration="First Ballot" date="1807" election_id="ny.assessor2.newyork.1807" handle="10427/66911" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="City">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="John Thompson" name_id="TJ0226" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Gilbert Haight" name_id="HG0054" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-02">
+				<candidate_summary candidate_ref="1" vote_total="530" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="522" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Thompson and Gilbert Haight are elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="New York" geog_id="null">
+					<sub_unit type="Ward" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="530" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="522" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  November 18, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Public Advertiser (New York, NY).  November 19, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  November 26, 1807.</reference>
+</election_record>

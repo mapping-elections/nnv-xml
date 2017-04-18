@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1791 State Senate, Duplin County" type="General" iteration="First Ballot" date="1791" election_id="nc.statesenator.duplin.1791" handle="10427/43774" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James Kenan" name_id="KJ0122" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Gillespie" name_id="GJ0328" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-02-08">
+				<candidate_summary candidate_ref="1" vote_total="251" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="243" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04744" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">In a letter written to the State Senate on December 16, 1791, James Gillespie challenged the freedom of the election, countering the he had received a majority of votes and that the election had not been freely held.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Duplin" geog_id="null">
+					<result candidate_ref="1" vote="251" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="243" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04744" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04744">Legislative Papers.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi">James Gillespie to the North Carolina State Senate.  December 16, 1791.</reference>
+</election_record>

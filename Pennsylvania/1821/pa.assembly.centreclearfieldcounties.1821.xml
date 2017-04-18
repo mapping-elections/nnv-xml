@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 House of Representatives, Centre and Clearfield Counties" type="General" iteration="First Ballot" date="1821-10" election_id="pa.assembly.centreclearfieldcounties.1821" handle="10427/63472" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="William Smyth" name_id="SW0256" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Moses Boggs" name_id="BM0123" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-17">
+				<candidate_summary candidate_ref="1" vote_total="1107" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="734" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07125" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07126" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Centre and Clearfield" geog_id="null">
+					<result candidate_ref="1" vote="1107" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="734" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA), November 3, reverses the returns for William Smyth and Moses Boggs.</note>
+					<sub_unit type="County" name="Centre" geog_id="null">
+						<result candidate_ref="1" vote="1067" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="541" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07125" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07126" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="193" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07125" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07126" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Bellefonte Patriot (Bellefonte, PA).  October 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvania Intelligencer (Harrisburg, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07126">Franklin Gazette (Philadelphia, PA).  October 24, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07126">The Union. United States Gazette and True American (Philadelphia, PA).  October 26, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07125">Lancaster Intelligencer (Lancaster, PA).  October 27, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  November 3, 1821.</reference>
+</election_record>

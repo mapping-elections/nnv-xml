@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1824 Sheriff, Columbia County" type="General" iteration="First Ballot" date="1824" election_id="ga.sheriff.columbia.1824" handle="10427/80093" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="W. Wilkins" name_id="WW0392" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas D. Carr" name_id="CT0220" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-12-15">
+				<candidate_summary candidate_ref="1" vote_total="408" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="264" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="408" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="264" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Augusta Chronicle and Georgia Advertiser (Augusta, GA).  January 10, 1824.</reference>
+</election_record>

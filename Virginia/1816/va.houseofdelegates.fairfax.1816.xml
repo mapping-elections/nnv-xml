@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1816 House of Delegates, Fairfax County" type="General" iteration="First Ballot" date="1816" election_id="va.houseofdelegates.fairfax.1816" handle="10427/65122" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Robert T. Thompson" name_id="TR0061" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Humphrey Peake" name_id="PH0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Fitzhugh" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Foote" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2008-09-16">
+				<candidate_summary candidate_ref="1" vote_total="136" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="129" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="84" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="74" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"H. Peake has accepted the Sheriffalty of said county."  The Alexandria Herald (Alexandria, VA).  April 17, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Fairfax" geog_id="null">
+					<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="129" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="84" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="74" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi">The Alexandria Herald (Alexandria, VA).  April 17, 1816.</reference>
+</election_record>

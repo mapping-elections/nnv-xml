@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1805 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1805" election_id="tn.congress.hamilton.1805" handle="10427/20770" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="George W. Campbell" name_id="CG0108" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-23">
+				<candidate_summary candidate_ref="1" vote_total="5210" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16683" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The 1805 election for U.S. Congress was broken up into three districts.  The counties voting in the 2nd or Hamilton District were: Anderson, Knox, and Roane together; Blount; Claiborne and Grainger together; Cocke and Jefferson together; and Sevier. These were the first set of electon returns transcribed and hand written by the Tennessee State Archives.</note>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="tns">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="5210" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Anderson" geog_id="tns_anderson">
+						<result candidate_ref="1" vote="1902" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00400" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Vote total is for Anderson, Knox, and Roane.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Blount" geog_id="tns_blount">
+						<result candidate_ref="1" vote="768" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00400" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Claiborne" geog_id="tns_claiborne">
+						<result candidate_ref="1" vote="1058" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00400" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Vote total is for Claiborne and Grainger.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Cocke" geog_id="tns_cocke">
+						<result candidate_ref="1" vote="887" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00400" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Vote total is for Cocke and Jefferson.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Grainger" geog_id="tns_grainger">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="tns_jefferson">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Knox" geog_id="tns_knox">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Roane" geog_id="tns_roane">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Sevier" geog_id="tns_sevier">
+						<result candidate_ref="1" vote="595" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00400" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00400">Journal of the Tennessee House of Representatives, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the Tennessee State Senate, 1805.</reference>
+</election_record>

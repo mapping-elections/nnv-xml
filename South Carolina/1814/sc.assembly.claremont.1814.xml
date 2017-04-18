@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1814 House of Representatives, Claremont District" type="General" iteration="First Ballot" date="1814" election_id="sc.assembly.claremont.1814" handle="10427/31773" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James G. Spann" name_id="SJ1511" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hastings Jennings" name_id="JH0027" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Miller" name_id="MC0075" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Ervin" name_id="EW0073" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Caleb Rembert" name_id="RC0057" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Charles F. Gordon" name_id="GC0041" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Samuel M. Cummings" name_id="CS0213" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-21">
+				<candidate_summary candidate_ref="1" vote_total="472" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="436" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="349" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="291" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="238" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="236" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="227" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07732" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07733" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The City Gazette and Southern Patriot lists 239 votes for Caleb Rembert and 272 votes for Samuel M. Cummings.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Claremont" geog_id="null">
+					<result candidate_ref="1" vote="472" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="436" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="349" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="291" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="238" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="236" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="227" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07732" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07733" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07733">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 20, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07732">City Gazette and Commercial Advertiser (Charleston, SC).  October 21, 1814.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1811 State Senate, Warren County" type="General" iteration="First Ballot" date="1811" election_id="nc.statesenator.warren.1811" handle="10427/43220" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Philemon Hawkins" name_id="HP0023" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Harwell" name_id="HJ0612" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-17">
+				<candidate_summary candidate_ref="1" vote_total="209" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="79" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04910" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Warren" geog_id="null">
+					<result candidate_ref="1" vote="209" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04910" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04910">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 16, 1811.</reference>
+</election_record>

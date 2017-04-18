@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Auditor, Crawford County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.auditor.crawford.1815" handle="10427/66678" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="David Carmack" name_id="CD0175" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Curry" name_id="CJ0580" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-25">
+				<candidate_summary candidate_ref="1" vote_total="307" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="297" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="307" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="297" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  October 14, 1815.</reference>
+</election_record>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 State Senate, Belmont County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.statesenator.belmont.1813" handle="10427/59320" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Charles Hammond" name_id="HC0091" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Sharp" name_id="SJ0863" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-21">
+				<candidate_summary candidate_ref="1" vote_total="738" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="709" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05184" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05185" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05186" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19037" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"It is not to be wondered at that the federal ticket has succeeded in Belmont, when it is considered that the late militia draft in that brigade has taken about 200 republican electors from that county, who are now in the service of their country."  Muskingum Messenger (Zanesville, OH).  October 27, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Belmont" geog_id="ohs_belmont">
+					<result candidate_ref="1" vote="738" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="709" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Pultney" geog_id="null">
+						<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05184">Ohio Federalist (Saint Clairsville, OH).  October 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19037">Muskingum Messenger (Zanesville, OH).  October 27, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05185">Ohio Federalist (Saint Clairsville, OH).  October 19, 1814.</reference>
+</election_record>

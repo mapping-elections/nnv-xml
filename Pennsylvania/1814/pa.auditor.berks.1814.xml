@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Auditor, Berks County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.auditor.berks.1814" handle="10427/67042" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="William Hech" name_id="HW0196" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jacob Swan" name_id="SJ1110" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Beiber" name_id="BJ1034" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Henry M. Richards" name_id="RH0066" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Berks" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<sub_unit type="null" name="Captain Keem's Company" geog_id="null">
+							<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

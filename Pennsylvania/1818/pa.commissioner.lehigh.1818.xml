@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Commissioner, Lehigh County" type="General" iteration="First Ballot" date="1818" election_id="pa.commissioner.lehigh.1818" handle="10427/63148" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Sparngenberg" name_id="SJ1310" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-15">
+				<candidate_summary candidate_ref="1" vote_total="713" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="713" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Allentown" geog_id="null">
+						<result candidate_ref="1" vote="295" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saegers" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Grimms" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06926">The Easton Centinel (Easton, PA).  October 23, 1818.</reference>
+</election_record>

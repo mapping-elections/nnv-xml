@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Sheriff, Delaware County" type="General" iteration="First Ballot" date="1789-10" election_id="pa.sheriff.delawarecounty.1789" handle="10427/60605" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Nicholas Fairlamb" name_id="FN0025" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jesse Maris" name_id="MJ0791" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-22">
+				<candidate_summary candidate_ref="1" vote_total="603" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="574" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05370" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="603" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="574" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05370" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05370">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  October 17, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 21, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">Montgomery, Thomas Lynch, ed.  Pennsylvania Archives, Sixth Series.  Vol. XI.  Harrisburg, PA: Harrisburg Publishing, 1907.  189.</reference>
+</election_record>

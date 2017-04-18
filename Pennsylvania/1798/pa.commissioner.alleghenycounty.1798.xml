@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 Commissioner, Allegheny County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.commissioner.alleghenycounty.1798" handle="10427/60958" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Ebenezer Denny" name_id="DE0055" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Dunning" name_id="DW0146" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-03">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05544" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05544">The Pittsburgh Gazette (Pittsburgh, PA).  October 20, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Porcupine's Gazette (Philadelphia, PA).  October 26, 1798.</reference>
+</election_record>

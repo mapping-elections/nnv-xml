@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1809 Commissioner, Westmoreland County" type="General" iteration="First Ballot" date="1809-10" election_id="pa.commissioner.westmoreland.1809" handle="10427/62104" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Schaeffer" name_id="SJ1172" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Elder" name_id="ER0046" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-28">
+				<candidate_summary candidate_ref="1" vote_total="804" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="672" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06371" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Westmoreland" geog_id="null">
+					<result candidate_ref="1" vote="804" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="672" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Derry" geog_id="null">
+						<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Donegal" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Greensburg" geog_id="null">
+						<sub_unit type="Township" name="Franklin" geog_id="null">
+							<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Greensburg" geog_id="null">
+							<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Hempfield" geog_id="null">
+							<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Mount Pleasant" geog_id="null">
+							<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="North Huntingdon" geog_id="null">
+							<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Salem" geog_id="null">
+							<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Unity" geog_id="null">
+							<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Rostravor" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="South Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Farmers Register (Greensburg, PA).  October 13, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06371">The Farmers Register (Greensburg, PA).  October 17, 1809.</reference>
+</election_record>

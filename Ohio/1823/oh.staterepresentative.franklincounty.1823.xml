@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.staterepresentative.franklincounty.1823" handle="10427/60174" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Kilbourn" name_id="KJ0144" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Williams" name_id="WG0071" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Laughery" name_id="LJ0302" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John MacElvian" name_id="MJ0769" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Isaac Taylor" name_id="TI0028" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="372" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="335" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="306" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="189" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="20" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05333" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Franklin" geog_id="ohs_franklin">
+					<result candidate_ref="1" vote="372" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="335" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="306" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="189" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05333" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Columbus Gazette (Columbus, OH) lists George Williams with 340 votes, John Laughery with 248 votes and John MacElvian with 195 votes.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbus Gazette (Columbus, OH).  October 16, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05333">Ohio Monitor and Patron of Industry (Columbus, OH).  October 18, 1823.</reference>
+</election_record>

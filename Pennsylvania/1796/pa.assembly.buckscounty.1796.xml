@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 House of Representatives, Bucks County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.assembly.buckscounty.1796" handle="10427/60866" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Hulme" name_id="HJ0747" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Theophilus Foulke" name_id="FT0068" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Van Horne" name_id="VI0017" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ralph Stover" name_id="SR0203" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="2157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2055" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1991" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1013" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05490" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) and Claypoole's American Daily Advertiser (Philadelphia, PA) report 2155 votes for Theophilus Foulke and 1997 votes for Isaac Van Horne.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="2157" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2055" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1991" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1013" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05490">Aurora. General Advertiser (Philadelphia, PA).  October 22, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05490">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 24, 1796.</reference>
+</election_record>

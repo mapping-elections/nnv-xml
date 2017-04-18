@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1812 Sheriff, Anne Arundel County" type="General" iteration="First Ballot" date="1812" election_id="md.sheriff.anne.arundel.county.1812" handle="10427/27407" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Solomon Groves" name_id="GS0039" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert Welch" name_id="WR0046" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-12">
+				<candidate_summary candidate_ref="1" vote_total="1214" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="928" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02756" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14609" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+					<result candidate_ref="1" vote="1214" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="928" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="300" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02756" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="201" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02756" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American, and Commercial Daily Advertiser (Baltimore, MD), October 7, 1812, and Baltimore Whig (Baltimore, MD), October 7, 1812, lists 202 votes for Robert Welch.</note>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02756" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="298" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="186" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02756" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="255" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="295" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02756" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14609">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi">American, and Commercial Daily Advertiser (Baltimore, MD).  October 7, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02756">The Maryland Republican (Annapolis, MD).  October 7, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Whig (Baltimore, MD).  October 7, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02756">The Maryland Gazette (Annapolis, MD).  October 8, 1812.</reference>
+</election_record>

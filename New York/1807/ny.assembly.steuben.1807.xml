@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record label="New York 1807 Assembly, Steuben County" type="General" iteration="First Ballot" date="1807" election_id="ny.assembly.steuben.1807" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/67223" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="George Hornell" name_id="HG0050" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George MacClure" name_id="MG0147" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-02">
+				<candidate_summary candidate_ref="1" vote_total="416" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="314" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Steuben" geog_id="null">
+					<result candidate_ref="1" vote="416" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="314" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Bath" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Canisteo" geog_id="null">
+						<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dansville" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Fredericktown" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Painted Post" geog_id="null">
+						<result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Reading" geog_id="null">
+						<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Books.  Steuben County Court House, Bath.</reference>
+	<reference type="citation" resp="Philip Lampi">Clayton, W. W.  History of Steuben County.  Philadelphia: Lewis, Peck, and, 1879.  221.</reference>
+</election_record>

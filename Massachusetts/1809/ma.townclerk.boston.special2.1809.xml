@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 Town Clerk, Boston, Special, Ballot 2" type="Special" iteration="Second Ballot" date="1809-12" election_id="ma.townclerk.boston.special2.1809" handle="10427/69138" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Town">
+		<role title="Town Clerk" scope="Town">
+			<ballot>
+				<candidate name="Thomas Clark" name_id="CT0156" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Russell" name_id="RJ0132" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-26">
+				<candidate_summary candidate_ref="1" vote_total="1676" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1017" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Inhabitants were desired to bring in their Votes for a Town Clerk, and it was declared that the Poll should close at 12 O'Clock.  The Votes having been counted, it appeared that the whole number was 2696. - That 1349 was necessary for a choice."  Boston Town Records.  259.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<result candidate_ref="1" vote="1676" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1017" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Town Records.  259.</reference>
+</election_record>

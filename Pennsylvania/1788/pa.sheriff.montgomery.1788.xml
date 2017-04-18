@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1788 Sheriff, Montgomery County" type="General" iteration="First Ballot" date="1788-10" election_id="pa.sheriff.montgomery.1788" handle="10427/60567" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Francis Swaine" name_id="SF0032" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Pugh" name_id="PJ0418" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>   
+            </ballot>
+            <overview status="Version 0.5" modified="2011-08-15">
+                <candidate_summary candidate_ref="1" vote_total="1122" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="509" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Pennsylvania" geog_id="null">
+                <sub_unit type="County" name="Montgomery" geog_id="null">
+                    <result candidate_ref="1" vote="1122" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="509" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Montgomery, Thomas Lynch, ed.  Pennsylvania Archives, Sixth Series.  Vol. XI.  Harrisburg, PA: Harrisburg Publishing, 1907.  242.</reference>
+</election_record>

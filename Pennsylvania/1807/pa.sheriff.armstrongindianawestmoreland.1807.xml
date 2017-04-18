@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Sheriff, Armstrong, Indiana, and Westmoreland Counties" type="General" iteration="First Ballot" date="1807-10" election_id="pa.sheriff.armstrongindianawestmoreland.1807" handle="10427/61825" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="District">
+		<role title="Sheriff" scope="District">
+			<ballot>
+				<candidate name="Alexander Johnston" name_id="JA0057" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Baldridge" name_id="BJ0979" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Tobias Painter" name_id="PT0135" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="3"/>
+				<candidate name="Robert Stewart" name_id="SR0239" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="4"/>
+				<candidate name="Jacob Smith" name_id="SJ1122" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-15">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06202" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana, and Westmoreland" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06202" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06202" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06202" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Westmoreland" geog_id="null">
+						<result candidate_ref="1" vote="664" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="485" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06203" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06203">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  October 21, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06202">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 24, 1807.</reference>
+</election_record>

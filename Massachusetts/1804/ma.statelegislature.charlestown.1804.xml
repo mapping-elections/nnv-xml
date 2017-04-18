@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 House of Representatives, Charlestown" type="General" iteration="First Ballot" date="1804" election_id="ma.statelegislature.charlestown.1804" handle="10427/28020" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Matthew Bridge" name_id="BM0039" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Harris" name_id="HT0071" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Goodwin" name_id="GD0010" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Josiah S. Bartlett" name_id="BJ0341" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Aaron Putnam" name_id="PA0048" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Artemas Ward" name_id="WA0043" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-14">
+				<candidate_summary candidate_ref="1" vote_total="284" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="283" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="279" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="80" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03463" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Charlestown, has had a similar triumph, in the cause of Republicanism ... [all Federal had] about 80 each."  The Democrat (Boston, MA).  May 9, 1804.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Charlestown" geog_id="null">
+					<result candidate_ref="1" vote="284" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="283" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="279" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="80" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03463" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03463">The Democrat (Boston, MA).  May 9, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  May 10, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel and Massachusetts Federalist (Boston, MA).  May 12, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsfield Sun (Pittsfield, MA).  May 14, 1804.</reference>
+</election_record>

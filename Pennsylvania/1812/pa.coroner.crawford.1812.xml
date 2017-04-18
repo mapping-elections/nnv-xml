@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Coroner, Crawford County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.coroner.crawford.1812" handle="10427/62449" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Hugh Brawley" name_id="BH0131" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Johnston" name_id="JW0073" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-15">
+				<candidate_summary candidate_ref="1" vote_total="335" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06529" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="335" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06529" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06529">The Crawford Weekly Messenger (Meadville, PA).  October 21, 1812.</reference>
+</election_record>

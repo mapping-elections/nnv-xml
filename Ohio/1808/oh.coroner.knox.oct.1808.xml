@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1808 Coroner, Knox County" type="General" iteration="First Ballot" date="1808-10" election_id="oh.coroner.knox.oct.1808" handle="10427/59103" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="John Merritt" name_id="MJ0206" affiliation="null" affiliation_id="null" candidate_num="1"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-24">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Knox" geog_id="ohs_knox">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Hill, Jr., N. N.  History of Knox County, Ohio, Its Past and Present.  Mt. Vernon, Ohio: A. A. Graham, 1881.  560.</reference>
+    <reference type="citation" resp="Philip Lampi">Norton, A. Banning.  A History of Knox County, Ohio, From 1779 to 1862 Inclusive.  Columbus, OH: R. Nevins, 1862.  45.</reference>
+</election_record>

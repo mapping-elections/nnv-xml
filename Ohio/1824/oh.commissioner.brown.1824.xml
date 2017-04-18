@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Commissioner, Brown County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.commissioner.brown.1824" handle="10427/60401" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="William Humphries" name_id="HW0065" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Lindsey" name_id="LJ0142" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Henry Chapman" name_id="CH0124" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Joseph Moore" name_id="MJ0184" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Micah Woods" name_id="WM0013" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Walter Wall" name_id="WW0080" affiliation="null" affiliation_id="null" candidate_num="6"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-10">
+                <candidate_summary candidate_ref="1" vote_total="721" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="684" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="530" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="498" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="361" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="341" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19720" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Brown" geog_id="ohs_brown">
+                    <result candidate_ref="1" vote="721" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="684" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="530" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="498" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="361" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="341" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19720" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Franklin" geog_id="null">
+                        <result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The History of Brown County, Ohio lists the 79 votes for John Lindsey in Franklin township as having been for Sheriff.</note>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19720">The Castigator (Ripley, OH).  October 19, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">The History of Brown County, Ohio.  Chicago: W. H. Beers and, 1883.  535.</reference>
+</election_record>

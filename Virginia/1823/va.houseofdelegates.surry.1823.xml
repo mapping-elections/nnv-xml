@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1823 House of Delegates, Surry County" type="General" iteration="First Ballot" date="1823" election_id="va.houseofdelegates.surry.1823" handle="10427/33866" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="John C. Crump" name_id="CJ1055" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Velvin" name_id="VJ0126" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-25">
+				<candidate_summary candidate_ref="1" vote_total="201" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="185" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09541" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Surry" geog_id="null">
+					<result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="185" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09541" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09541">American Commercial Beacon and Norfolk and Portsmouth Daily Advertiser (Norfolk, VA).  May 1, 1823.</reference>
+</election_record>

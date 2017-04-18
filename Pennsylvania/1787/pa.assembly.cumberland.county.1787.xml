@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1787 House of Representatives, Cumberland County" type="General" iteration="First Ballot" date="1787-10" election_id="pa.assembly.cumberland.county.1787" handle="10427/60508" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="David Mitchell" name_id="MD0181" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas Beale" name_id="BT0048" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas Kennedy" name_id="KT0064" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Oliver" name_id="OJ0049" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 0.5" modified="2011-08-10">
+                <candidate_summary candidate_ref="1" vote_total="1507" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1230" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1217" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1115" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Pennsylvania Archives, Sixth Series, Volume XI, lists Thomas Beale as Thomas Beales, and uses the spelling Kenedy for Thomas Kennedy.</note>
+            </overview>
+            <admin_unit type="State" name="Pennsylvania" geog_id="null">
+                <sub_unit type="County" name="Cumberland" geog_id="null">
+                    <result candidate_ref="1" vote="1507" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1230" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1217" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1115" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Pennsylvania Packet, and Daily Advertiser (Philadelphia, PA).  October 30, 1787.</reference>
+    <reference type="citation" resp="Philip Lampi">Montgomery, Thomas Lynch, ed.  Pennsylvania Archives, Sixth Series.  Vol. XI.  Harrisburg, PA: Harrisburg Publishing, 1907.  176.</reference>
+</election_record>

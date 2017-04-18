@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 House of Representatives, Haverhill" type="General" iteration="First Ballot" date="1822" election_id="ma.staterepresentative.haverhill.1822" handle="10427/34185" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Moses Wingate" name_id="WM0044" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Varnum" name_id="VJ0043" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-14">
+				<candidate_summary candidate_ref="1" vote_total="192" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="168" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03642" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Haverhill" geog_id="null">
+					<result candidate_ref="1" vote="192" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="168" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03642" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03642">Essex Patriot (Haverhill, MA).  May 11, 1822.</reference>
+</election_record>

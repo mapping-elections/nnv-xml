@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1791 Commissioner, Philadelphia City" type="General" iteration="First Ballot" date="1791-10" election_id="pa.commissioner.philadelphiacity.1791" handle="10427/60725" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="City">
+		<role title="Commissioner" scope="City">
+			<ballot>
+				<candidate name="Thomas Hopkins" name_id="HT0151" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Powers" name_id="PW0208" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Watkins" name_id="WJ0612" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-31">
+				<candidate_summary candidate_ref="1" vote_total="1070" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="291" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="256" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05425" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="1070" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="291" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="256" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05425" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05425">The Pennsylvania Mercury, and Philadelphia Price-Current (Philadelphia, PA).  October 13, 1791.</reference>
+</election_record>

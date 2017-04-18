@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1792 House of Representatives, North Yarmouth" type="General" iteration="First Ballot" date="1792-05" election_id="ma.staterepresentative.northyarmouth.1792" handle="10427/69106" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William Martin" name_id="MW0097" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="David Mitchell" name_id="MD0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="J. Lewis" name_id="LJ0608" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-20">
+				<candidate_summary candidate_ref="1" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="57" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="North Yarmouth" geog_id="null">
+					<result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Eastern Herald (Portland, ME).  May 21, 1792.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  May 26, 1792.</reference>
+</election_record>

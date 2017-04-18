@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1811 House of Representatives, Clarendon District, Special" type="Special" iteration="First Ballot" date="1811-04" election_id="sc.assembly.special.clarendon.1811" handle="10427/32043" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Boyd" name_id="BJ1368" affiliation="null" affiliation_id="null" candidate_num="1"/><note resp="Philip Lampi">Elected.</note>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-31">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07657" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was held to replace John Peter Richardson, who died on January 11, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Clarendon" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07657" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Charles Conner's Store" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Names of voters at Charles Conner's Store, 29th April 1811." List has the names of 123 persons.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Clarendon Court House" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">List has names of 121 persons plus Claudious Rechbourg and Joseph Gallenchat, who may have been the managers. Their names are not among the 121 in the voter list and probably they also voted, so the total for the court house is 123 persons.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Fork of Black River" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"A list of the votes taken in the Fork of Black River on the 29th and 30th of April 1811."  List has the names of 60 persons.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07657">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  278-279.</reference>
+</election_record>

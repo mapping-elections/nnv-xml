@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1812 Sheriff, Dorchester County" type="General" iteration="First Ballot" date="1812" election_id="md.sheriff.dorchester.county.1812" handle="10427/27033" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas J. Patterson" name_id="PT0053" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas Thompson" name_id="TT0041" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-12">
+				<candidate_summary candidate_ref="1" vote_total="1153" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="825" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02773" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14610" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Republican Star, Federal Gazette, American Watchman, the American and the Freeman's Journal list 822 votes for Thomas Thompson.</note>
+				<note resp="Philip Lampi">The American Watchman lists 1152 votes for Thomas J. Patterson.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+					<result candidate_ref="1" vote="1153" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="825" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02773" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14610" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14610">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02774">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 7, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">American, and Commercial Daily Advertiser (Baltimore, MD).  October 8, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02774">The Freeman's Journal and Philadelphia Mercantile Advertiser (Philadelphia, PA).  October 9, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02774">American Watchman; and Delaware Republican (Wilmington, DE).  October 10, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02773">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 13, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02775">American Watchman; and Delaware Republican (Wilmington, DE).  October 14, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02775">American Watchman; and Delaware Republican (Wilmington, DE).  October 17, 1812.</reference>
+</election_record>

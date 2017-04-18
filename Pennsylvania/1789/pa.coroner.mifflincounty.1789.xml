@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Coroner, Mifflin County" type="General" iteration="First Ballot" date="1789-10" election_id="pa.coroner.mifflincounty.1789" handle="10427/60617" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="James Taylor" name_id="TJ0058" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Wilson" name_id="WJ0221" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-18">
+				<candidate_summary candidate_ref="1" vote_total="532" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="525" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05373" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">There were two sets of returns reported for Mifflin County as there was some dispute about the legality of the elections held in certain places. These totals include the votes from the disputed polling locations.</note>
+				<note resp="Philip Lampi">"There was also received this day returns of elections held at the house of the Widow Stackpole, for the township of Lack, and of an election for Greenwood township, in this county, held at the house of Henry McConnol. The legality of holding elections at these places being disputed by part of the Judges, the law for authorising said elections not being present, we have thought proper to forward to your Honorable Body a statement of the election, both with and without the returns of these townships of Lack and Greenwood."  Minutes of the First Session of the Fourteenth General Assembly of the Commonwealth of Pennsylvania.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="532" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="525" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05373" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Minutes of the First Session of the Fourteenth General Assembly of the Commonwealth of Pennsylvania, 1789.  5-6.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05373">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  October 24, 1789.</reference>
+</election_record>

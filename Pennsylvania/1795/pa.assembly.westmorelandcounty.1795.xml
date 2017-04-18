@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 House of Representatives, Westmoreland County" type="General" iteration="First Ballot" date="1795-10" election_id="pa.assembly.westmorelandcounty.1795" handle="10427/60832" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Benjamin Lodge" name_id="LB0047" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Michael Rugh" name_id="RM0027" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="George Smith" name_id="SG0084" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="549" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="537" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="480" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05484" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Westmoreland" geog_id="null">
+					<result candidate_ref="1" vote="549" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="537" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="480" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05484">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

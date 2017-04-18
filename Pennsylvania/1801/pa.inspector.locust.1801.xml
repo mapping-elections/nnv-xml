@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 Inspector of the General Election, Philadelphia City, Locust Ward" type="General" iteration="First Ballot" date="1801-10" election_id="pa.inspector.locust.1801" handle="10427/61225" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Thomas Billington" name_id="BT0247" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Shoemaker" name_id="SA0192" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James E. Smith" name_id="SJ1216" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-14">
+				<candidate_summary candidate_ref="1" vote_total="128" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="45" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05754" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05755" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Locust" geog_id="null">
+						<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="45" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05754" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 5, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 5, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 6, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05754">The True American and Commercial Advertiser (Philadelphia, PA).  October 6, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">American Citizen and General Advertiser (New York, NY).  October 8, 1801.</reference>
+</election_record>

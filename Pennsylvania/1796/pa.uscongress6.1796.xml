@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 U.S. House of Representatives, District 6" type="General" iteration="First Ballot" date="1796-10" election_id="pa.uscongress6.1796" handle="10427/60856" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John A. Hanna" name_id="HJ0754" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Samuel Maclay" name_id="MS0148" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Carson" name_id="CJ0686" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-22">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00118" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05493" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05494" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05495" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA) uses the spelling McClay for Samuel Maclay.</note>
+				<note resp="Philip Lampi">"The official returns from the counties of Northumberland and Lycoming, together with those of Dauphin, give general John A. Hanna a majority of 413 votes as a member of congress for that district." City Gazette and Daily Advertiser (Charleston, SC).  November 10, 1796.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<sub_unit type="County" name="Dauphin" geog_id="null">
+						<result candidate_ref="1" vote="898" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="255" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA) reports 889 votes for John A. Hanna, 51 votes for Samuel Maclay, and 245 votes for John Carson.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Lycoming" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Northumberland" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05495">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05495">The New World (Philadelphia, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05493">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 24, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 26, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">City Gazette and Daily Advertiser (Charleston, SC).  November 10, 1796.</reference>
+</election_record>

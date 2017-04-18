@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 State Senate, Plymouth County" type="General" iteration="First Ballot" date="1803" election_id="ma.senator.plymouth.1803" handle="10427/69344" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Beza Hayward" name_id="HB0073" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Isaac Thompson" name_id="TI0012" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Daniel Snow" name_id="SD0059" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+                <candidate name="Josiah Smith" name_id="SJ0404" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+                <candidate name="Aaron Hobart" name_id="HA0109" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Charles Turner" name_id="TC0016" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="Luke Wadsworth" name_id="WL0018" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="Kilburn Whitman" name_id="WK0000" affiliation="null" affiliation_id="null" candidate_num="8"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="9"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-09-18">
+                <candidate_summary candidate_ref="1" vote_total="1025" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1004" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"No. Voters, 1758.  Make a choice, 880."  Governor's Council Records.</note>
+                <note resp="Philip Lampi">"Deaths. At Hanover, Newhampshire, Hon. Josiah Smith, aged 63, late Representative in Congress for Plymouth District: He took the small pox at Newyork, on his return from Congress, of which he died."  Thomas's Massachusetts Spy: Or, The Worcester Gazette (Worcester, MA).  April 13, 1803.</note>
+                <note resp="Philip Lampi">"In Plymouth, Bridgewater, Halifax, Kingston, Middleborough, Carver, Plympton, Abington, Rochester, Wareham, Marshfield and Duxbury, the votes were, as follows: Thompson, 886. Hayward, 889. Smith, 578. Snow, 654."  Columbian Courier, and Weekly Miscellany (New Bedford, MA).  April 8, 1803.</note>
+                <note resp="Philip Lampi">"PLYMOUTH SENATORS. In Plymouth, Bridgewater, Halifax, Kingston, Middleborough, Plymton, Carver, Abington, Wareham, Marshfield and Duxbury ... The federal list for Senators had 735 votes: Of the democratic list, Mr. SNOW had 632, and Mr. SMITH, (since deceased) 556. There can be no doubt of the election of the Hon. Messrs. HAYWARD and THOMPSON, both federalists."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  April 9, 1803.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="County" name="Plymouth" geog_id="null">
+                    <result candidate_ref="1" vote="1025" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1004" resp="Philip Lampi"/>
+                    <sub_unit type="Town" name="Abington" geog_id="null">
+                        <result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="72" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="74" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Bridgewater" geog_id="null">
+                        <result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="171" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="148" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="152" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Carver" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Duxbury" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Halifax" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Hanover" geog_id="null">
+                        <result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="79" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="79" resp="Philip Lampi"/>
+                        <result candidate_ref="9" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Kingston" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Marshfield" geog_id="null">
+                        <result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="47" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Middleborough" geog_id="null">
+                        <result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="96" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="96" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Pembroke" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Plymouth" geog_id="null">
+                        <result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="25" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Plympton" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Rochester" geog_id="null">
+                        <result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Scituate" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Wareham" geog_id="null">
+                        <result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+    <reference type="citation" resp="Philip Lampi">Marshfield Town Records.  413.</reference>
+    <reference type="citation" resp="Philip Lampi">Wareham Town Records.  Book 1.  199.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  April 6, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Courier, and Weekly Miscellany (New Bedford, MA).  April 8, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  April 8, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  April 9, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Thomas's Massachusetts Spy: Or, The Worcester Gazette (Worcester, MA).  April 13, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Courier, and Weekly Miscellany (New Bedford, MA).  April 15, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 11, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Hampshire Gazette (Northampton, MA).  May 18, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 2, 1803.</reference>
+</election_record>
+

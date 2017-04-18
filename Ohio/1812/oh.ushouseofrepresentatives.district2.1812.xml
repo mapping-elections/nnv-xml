@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1812 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1812-10" election_id="oh.ushouseofrepresentatives.district2.1812" handle="10427/59281" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Alexander" name_id="AJ0239" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John W. Campbell" name_id="CJ0617" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Morris" name_id="MT0090" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-15">
+				<candidate_summary candidate_ref="1" vote_total="1266" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="852" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="1266" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1173" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="852" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Adams" geog_id="ohs_adams">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="708" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Clermont" geog_id="ohs_clermont">
+						<result candidate_ref="1" vote="215" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="554" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18962" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Fredonian (Chillicothe, OH) and Liberty Hall (Cincinnati, OH) list John W. Campbell with 163 votes.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Clinton" geog_id="ohs_clinton">
+						<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Fayette" geog_id="ohs_fayette">
+						<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Greene" geog_id="ohs_greene">
+						<result candidate_ref="1" vote="308" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="189" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Highland" geog_id="ohs_highland">
+						<result candidate_ref="1" vote="295" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="187" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00663" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Calvin Pease Papers.  Western Reserve Historical Society, Cleveland.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18966">Liberty Hall (Cincinnati, OH).  October 20, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18962">The Fredonian (Chillicothe, OH).  October 28, 1812.</reference>
+</election_record>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Sheriff, Indiana and Jefferson Counties" type="General" iteration="First Ballot" date="1824" election_id="pa.sheriff.indianajeffersoncounty.1824" handle="10427/63932" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="District">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Clemence MacGarahad" name_id="MC0072" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Smith" name_id="SJ1425" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Peter Sutton, Jr." name_id="SP0162" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Sinclair" name_id="SS0356" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Parker" name_id="PW0244" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-11-05">
+				<candidate_summary candidate_ref="1" vote_total="735" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="511" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="454" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="222" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="113" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07374" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Indiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="735" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="511" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="454" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="222" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="113" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Jefferson was an unorganized county attached to Indiana County until 1830.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07374">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

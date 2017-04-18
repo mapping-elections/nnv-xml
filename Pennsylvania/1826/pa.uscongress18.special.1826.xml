@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1826 U.S. House of Representatives, District 18, Special" type="Special" iteration="First Ballot" date="1826-03" election_id="pa.uscongress18.special.1826" handle="10427/65710" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Thomas H. Sill" name_id="ST0260" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stephen Barlow" name_id="BS0181" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Hays" name_id="HS0238" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jacob Herrington" name_id="HJ1000" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-11-16">
+				<candidate_summary candidate_ref="1" vote_total="1812" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1045" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="937" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="760" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Mr. Thomas H. Sill, of Erie, has been elected to Congress from the district composed of Mercer, Venango, Crawford, Erie and Warren, to supply the vacancy occasioned by the death of Mr. Farrelly."  Butler Sentinel (Butler, PA).  April 1, 1826.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Eighteen" geog_id="null">
+					<result candidate_ref="1" vote="1812" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1045" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="937" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="760" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Crawford" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Erie" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Mercer" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Venango" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Warren" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Butler Sentinel (Butler, PA).  April 1, 1826.</reference>
+</election_record>

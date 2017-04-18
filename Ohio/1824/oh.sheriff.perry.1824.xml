@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Sheriff, Perry County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.sheriff.perry.1824" handle="10427/60436" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Henry Filler" name_id="FH0006" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Joshua Brown" name_id="BJ0290" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-04">
+                <candidate_summary candidate_ref="1" vote_total="868" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="547" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Perry" geog_id="ohs_perry">
+                    <result candidate_ref="1" vote="868" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="547" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Barefield" geog_id="null">
+                        <result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Clayton" geog_id="null">
+                        <result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hopewell" geog_id="null">
+                        <result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jackson" geog_id="null">
+                        <result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Madison" geog_id="null">
+                        <result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Monday Creek" geog_id="null">
+                        <result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Monroe" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Pike" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Reading" geog_id="null">
+                        <result candidate_ref="1" vote="274" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="183" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salt Lick" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Thorn" geog_id="null">
+                        <result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Perry Record (Somerset, OH).  October 22, 1824.</reference>
+</election_record>
+
+

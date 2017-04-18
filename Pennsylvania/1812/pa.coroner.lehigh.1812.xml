@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Coroner, Lehigh County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.coroner.lehigh.1812" handle="10427/66250" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Peter Dorney" name_id="DP0054" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Balthazar Reser" name_id="RB0036" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Haller" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-15">
+				<candidate_summary candidate_ref="1" vote_total="850" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="36" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="11" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="850" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Allentown" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Grimm's" geog_id="null">
+						<result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="437" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Saeger's" geog_id="null">
+						<result candidate_ref="1" vote="205" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Der unabhangige Republikaner und Lecha County Freyheits Freund (Allentown, PA).  October 23, 1812.</reference>
+</election_record>

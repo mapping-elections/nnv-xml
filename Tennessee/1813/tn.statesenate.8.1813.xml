@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1813 State Senate, Davidson County" type="General" iteration="First Ballot" date="1813" election_id="tn.statesenate.8.1813" handle="10427/20863" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Robert C. Foster" name_id="FR0054" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Weakley" name_id="WR0102" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-04-28">
+				<candidate_summary candidate_ref="1" vote_total="945" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="758" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08071" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Davidson" geog_id="null">
+					<result candidate_ref="1" vote="945" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="758" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08071" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08071">The Nashville Whig (Nashville, TN).  August 10, 1813.</reference>
+</election_record>

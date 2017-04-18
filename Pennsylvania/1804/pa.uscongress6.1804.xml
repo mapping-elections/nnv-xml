@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 U.S. House of Representatives, District 6" type="General" iteration="First Ballot" date="1804-10" election_id="pa.uscongress6.1804" handle="10427/61432" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="James Kelly" name_id="KJ0173" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Stewart" name_id="SJ0949" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-18">
+				<candidate_summary candidate_ref="1" vote_total="1705" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1211" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00357" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Eclipse is gone off, and John Stewart is no longer "The Man of the People." The good sense of the people has at length prevailed over the intrigues of faction. John Stewart, who pretended to represent us in Congress for some years past, after a struggle as desperate as it was important, to procure his re-election, is rejected by the people. Mr. James Kelly, a Federal Republican, is elected to represent the counties of York and Adams in Congress. A man of moderate but patriotic principles, whose talents and integrity will redeem to the District, that character and influence which it lost while represented by Mr. Stewart."  The Adams Centinel (Gettysburg, PA).  October 17, 1804.</note>
+				<note resp="Philip Lampi">"York county. James Kelly, a federalist, is elected member of congress for the district of York and Adams county, by a majority of 500 votes, over Stewart, the former democratic member and opposing candidate.  The moderate republican ticket prevailed throughout York county over the high flyers, viz."  The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 20, 1804.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<result candidate_ref="1" vote="1705" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1211" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00357" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Adams" geog_id="null">
+						<result candidate_ref="1" vote="546" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00357" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05912" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="York" geog_id="null">
+						<result candidate_ref="1" vote="1159" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="978" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00357" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05965" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  October 12, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05912">The Adams Centinel (Gettysburg, PA).  October 17, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  October 18, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05965">The York Recorder (York, PA).  October 18, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Carlisle Herald (Carlisle, PA).  October 19, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 20, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05912">Poulson's American Daily Advertiser (Philadelphia, PA).  October 24, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05912">Lancaster Journal (Lancaster, PA).  October 26, 1804.</reference>
+</election_record>

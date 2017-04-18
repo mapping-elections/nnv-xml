@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1822 State Senate, Prince William Parish" type="General" iteration="First Ballot" date="1822" election_id="sc.senate.princewilliam.1822" handle="10427/32172" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="John Frampton, Jr." name_id="FJ0443" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Bowman, Jr." name_id="BJ1365" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-09">
+				<candidate_summary candidate_ref="1" vote_total="113" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="111" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07933" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Prince William" geog_id="null">
+					<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07933" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07933">Charleston Courier (Charleston, SC).  October 19, 1822.</reference>
+</election_record>

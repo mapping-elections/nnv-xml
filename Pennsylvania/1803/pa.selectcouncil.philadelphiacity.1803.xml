@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Select Council, Philadelphia City" type="General" iteration="First Ballot" date="1803-10" election_id="pa.selectcouncil.philadelphiacity.1803" handle="10427/66172" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Select Council" office_id="ON096" scope="City">
+		<role title="Select Councillor" scope="City">
+			<ballot>
+				<candidate name="Michael Bright" name_id="BM0091" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Paul Cox" name_id="CP0053" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Elliott" name_id="ES0032" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Say" name_id="SB0099" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-29">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"To the subsequent ticket no opposition was made." Poulson's American Daily Advertiser (Philadelphia, PA).  October 13, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 13, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 13, 1803.</reference>
+</election_record>

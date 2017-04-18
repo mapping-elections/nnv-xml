@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 Commissioner, Adams County" type="General" iteration="First Ballot" date="1814-10" election_id="oh.countycommissioner.adams.1814" handle="10427/59399" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Joseph Moore" name_id="MJ0684" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Wright" name_id="WJ0568" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Nelson" name_id="NJ0096" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Henry Rape" name_id="RH0043" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Ludom" name_id="LW0130" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Thomas Moore" name_id="MT0105" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="David Dryden" name_id="DD0065" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-03">
+				<candidate_summary candidate_ref="1" vote_total="297 " resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="38" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05195" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19058" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">James Wright received 1 vote as John Wright.</note>
+				<note resp="Philip Lampi">Joseph Nelson received 9 votes as James Nelson and 1 vote as John Nelson.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Adams" geog_id="ohs_adams">
+					<result candidate_ref="1" vote="297" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="205" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="172" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="160" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="38" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05195" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19058" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05195">Original Election Returns.  Adams County Historical Society, West Union.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19058">Original Election Abstract.</reference>
+</election_record>

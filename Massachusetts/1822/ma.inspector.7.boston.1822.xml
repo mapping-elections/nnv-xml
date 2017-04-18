@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 Inspector, Boston, Ward 7" type="General" iteration="First Ballot" date="1822" election_id="ma.inspector.7.boston.1822" handle="10427/79286" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Jonathan Howard" name_id="HJ1183" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Lawrence" name_id="LW0057" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Waters" name_id="WI0067" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Beals" name_id="BW0404" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Tileston" name_id="TW0188" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-04-28">
+				<candidate_summary candidate_ref="1" vote_total="262" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="260" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="258" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="174" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="173" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole No. 267."  The Repertory (Boston, MA).  April 9, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="scs">
+				<sub_unit type="City" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Seven" geog_id="null">
+						<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="260" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="258" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="173" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  April 10, 1822.</reference>
+</election_record>

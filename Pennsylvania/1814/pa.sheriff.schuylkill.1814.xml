@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Sheriff, Schuylkill County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.sheriff.schuylkill.1814" handle="10427/62748" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Frederick Hesser" name_id="HF0009" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Dreibbelbis" name_id="DG0050" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Kanter" name_id="KA0076" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Lewis" name_id="LS0082" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="553" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="306" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="103" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="53" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">During the War of 1812, there was some British military movement in and around the Chesapeake Bay area and in an attempt to prepare for any military actions that the British might take, there were a host of military camps set up in some of the counties close to the Chesapeake Bay and Philadelphia City. In the October 1814 Pennsylvania state elections, the members of the military camps native to Pennsylvania were allowed to vote. When the newspapers reported these returns they listed them under "camp" or "army" votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Schuylkill" geog_id="null">
+					<result candidate_ref="1" vote="553" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="306" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="103" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="53" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06711" resp="Philip Lampi"/>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06713" resp="Philip Lampi"/>
+						<sub_unit type="null" name="Captain Keem's Company" geog_id="null">
+							<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06713">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06711">Der Readinger Adler (Reading, PA).  October 18, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Welt-Bothe und Wahre Republikaner von Berks, Schuykill und Libanon Caunties (Reading, PA).  October 19, 1814.</reference>
+</election_record>

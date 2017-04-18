@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1824 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1824" election_id="md.uscongress1.1824" handle="10427/26470" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Clement Dorsey" name_id="DC0019" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Raphael Neale" name_id="NR0018" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Nicholas Williams" name_id="WN0002" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-21">
+				<candidate_summary candidate_ref="1" vote_total="1824" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1476" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01130" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15022" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="1824" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1476" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Calvert" geog_id="mds_calvert">
+						<result candidate_ref="1" vote="376" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="302" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01130" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15022" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Charles" geog_id="mds_charles">
+						<result candidate_ref="1" vote="985" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="416" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01130" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15022" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15026" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Daily National Intelligencer and the Richmond Enquirer (Richmond, VA) list 983 votes for Clement Dorsey.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Saint Mary's" geog_id="null">
+						<result candidate_ref="1" vote="463" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="758" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01130" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15022" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01130">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01130">American, and Commercial Daily Advertiser (Baltimore, MD).  October 7, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15026">Daily National Intelligencer (Washington, DC).  October 7, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Richmond Enquirer (Richmond, VA).  October 16, 1824.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1793 House of Representatives, Dunbarton" type="General" iteration="First Ballot" date="1793" election_id="nh.staterepresentative.dunbarton.1793" handle="10427/70166" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="David Story" name_id="SD0226" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Caleb Stark" name_id="SC0115" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-06-11">
+				<candidate_summary candidate_ref="1" vote_total="41" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="21" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="County" name="Hillsborough" geog_id="null">
+					<sub_unit type="Town" name="Dunbarton" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Stark, Caleb.  History of the Town of Dunbarton, Merrimack County, New Hampshire.  Concord, NH: G. P. Lyon, 1860.  125.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Director, Bank of Philadelphia" type="Legislative" iteration="First Ballot" date="1806-02" election_id="pa.bankdirector.bankofphiladelphia.statesenate.1806" handle="10427/66139" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Bank Director" office_id="ON014" scope="State">
+		<role title="Bank Director" scope="State">
+			<ballot>
+				<candidate name="Henry Orth" name_id="OH0011" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Carswell" name_id="CS0186" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Jackson" name_id="JJ0175" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Robert Harris" name_id="HR0181" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Haslet" name_id="HW0029" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-25">
+				<candidate_summary candidate_ref="1" vote_total="25" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="13" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="13" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="12" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="12" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="12" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  February 10, 1806.</reference>
+</election_record>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1813 House of Representatives, Edgartown" type="General" iteration="First Ballot" date="1813" election_id="ma.staterepresentative.edgartown.1813" handle="10427/70018" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Timothy Daggett" name_id="DT0026" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-29">
+				<candidate_summary candidate_ref="1" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The object of the Democrats being not to have any representative chosen."  New-England Palladium (Boston, MA).  May 11, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Edgartown" geog_id="null">
+					<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 11, 1813.</reference>
+</election_record>

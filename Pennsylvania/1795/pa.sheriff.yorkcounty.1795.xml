@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 Sheriff, York County" type="General" iteration="First Ballot" date="1795" election_id="pa.sheriff.yorkcounty.1795" handle="10427/60838" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William MacClellan" name_id="MW0282" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Nicholas Gelwicks" name_id="GN0036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Nebinger" name_id="NG0021" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Gettys" name_id="GJ0377" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Alexander Russell" name_id="RA0064" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Charles W. Porter" name_id="PC0039" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="2237" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1996" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="728" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="558" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="259" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="178" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05485" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05486" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Kline's Carlisle Weekly Gazette uses the spelling Gelwix for Nicholas Gelwicks and Russel for Alexander Russell.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="2237" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1996" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="728" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="558" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="259" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="178" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05486">Kline's Carlisle Weekly Gazette (Carlisle, PA).  November 11, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05485">Aurora. General Advertiser (Philadelphia, PA).  November 23, 1795.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 Speaker of the House, Special" type="Special" iteration="First Ballot" date="1811-01" election_id="ma.housespeaker.1.1811" handle="10427/27398" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the House" office_id="ON104" scope="State">
+		<role title="Speaker of the House" scope="State">
+			<ballot>
+				<candidate name="Joseph Story" name_id="SJ0394" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Timothy Bigelow" name_id="BT0122" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Benjamin Crowninshield" name_id="CB0039" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Sullivan" name_id="SW0098" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-24">
+				<candidate_summary candidate_ref="1" vote_total="282" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="150" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10490" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to replace Perez Morton, who had been appointed to the office of Attorney General of Massachusetts.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10490" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10490">Boston Patriot (Boston, MA).  January 26, 1811.</reference>
+</election_record>

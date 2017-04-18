@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 Commissioner, Madison County" type="General" iteration="First Ballot" date="1824-08" election_id="il.commissioner.madison.1824" handle="10427/56330" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Hail Mason" name_id="MH0028" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Howard" name_id="HJ0084" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Benjamin Stedman" name_id="SB0008" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Matthias Chilton" name_id="CM0006" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Ogle" name_id="OW0006" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Ephraim Marsh" name_id="ME0012" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="647" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="618" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="508" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="331" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="303" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="105" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11319"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Madison" geog_id="null">
+					<result candidate_ref="1" vote="647" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="618" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="508" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="331" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="303" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="105" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11319"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11319">Edwardsville Spectator (Edwardsville, IL).  August 3, 1824.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Inspector of the General Election, Philadelphia City, Penn Township" type="General" iteration="First Ballot" date="1811-09" election_id="pa.inspector.philadelphiacounty.penntownship.1811" handle="10427/62374" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="David Woelpper" name_id="WD0094" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Philip Lowry" name_id="LP0059" affiliation="Old School Democrat" affiliation_id="A07" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-01">
+				<candidate_summary candidate_ref="1" vote_total="102" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="63" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06501" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Penn" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06501" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06501">The Democratic Press (Philadelphia, PA).  September 28, 1811.</reference>
+</election_record>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1821 House of Delegates, Richmond City" type="General" iteration="First Ballot" date="1821-04" election_id="va.houseofdelegates.richmondcity.1821" handle="10427/33594" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="City">
+			<ballot>
+				<candidate name="Jacqueline B. Harvie" name_id="HJ1177" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Rutherford" name_id="RJ0659" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John G. Williams" name_id="WJ1047" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel MacCraw" name_id="MS0256" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-14">
+				<candidate_summary candidate_ref="1" vote_total="163" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="13" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09362" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09363" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="City" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09362" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09363" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09363">Richmond Commercial Compiler (Richmond, VA).  April 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09362">Richmond Daily Mercantile Advertiser (Richmond, VA).  April 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09363">Richmond Enquirer (Richmond, VA).  April 20, 1821.</reference>
+</election_record>

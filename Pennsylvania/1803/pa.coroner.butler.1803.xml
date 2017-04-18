@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Coroner, Butler County" type="General" iteration="First Ballot" date="1803-10" election_id="pa.coroner.butler.1803" handle="10427/61353" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William MacDonald" name_id="MW0328" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Evans" name_id="EI0005" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Cratty" name_id="CJ0761" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jacob Machland" name_id="MJ0908" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Hugh Lee" name_id="LH0050" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William Thompson" name_id="TW0091" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-15">
+				<candidate_summary candidate_ref="1" vote_total="244" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="136" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="42" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="15" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05857" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">William MacDonald is listed as William MacDowell in The Tree of Liberty (Pittsburgh, PA).</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Butler" geog_id="null">
+					<result candidate_ref="1" vote="244" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="142" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="15" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05857" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Connequenessing" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05857" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Slippery Rock" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05857" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05857">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  October 22, 1803.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1823 Assembly, Kings County" type="General" iteration="First Ballot" date="1823" election_id="ny.assembly.kings.1823" handle="10427/31657" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="William Furman" name_id="FW0049" affiliation="Clintonian" affiliation_id="A05" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Conselyea" name_id="CW0173" affiliation="Bucktail" affiliation_id="A06" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-23">
+				<candidate_summary candidate_ref="1" vote_total="664" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="613" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04701" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Kings" geog_id="null">
+					<result candidate_ref="1" vote="664" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="613" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04701" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04701">The Cayuga Patriot (Auburn, NY).  December 17, 1823.</reference>
+</election_record>

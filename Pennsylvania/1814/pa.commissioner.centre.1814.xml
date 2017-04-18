@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Commissioner, Centre County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.commissioner.centre.1814" handle="10427/62707" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Benner" name_id="BJ1061" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac MacKinley" name_id="MI0049" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Crawford" name_id="CJ0886" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Kerr" name_id="KW0081" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-11">
+				<candidate_summary candidate_ref="1" vote_total="570" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="366" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06675" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The votes for James Crawford and William Kerr were not broken down. They were only reported as a combined total of 483 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Centre" geog_id="null">
+					<result candidate_ref="1" vote="570" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="366" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06675" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06675">Linn, John Blair.  History of Centre and Clinton Counties.  Philadelphia: Louis H. Everts, 1883. 55-56.</reference>
+</election_record>

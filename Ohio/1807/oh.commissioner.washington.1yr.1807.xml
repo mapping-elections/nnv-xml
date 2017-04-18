@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1807 Commissioner, Washington County, 1 Year" type="General" iteration="First Ballot" date="1807-10" election_id="oh.commissioner.washington.1yr.1807" handle="10427/59048" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Daniel Goodnoe" name_id="GD0016" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Isaac Pierce" name_id="PI0014" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph Wood" name_id="WJ0301" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-24">
+				<candidate_summary candidate_ref="1" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="15" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05136" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Washington" geog_id="ohs_washington">
+					<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05136" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Adams" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Belpre" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Marietta" geog_id="null">
+						<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Roxbury" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Waterford" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wooster" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Washington County Election Certificate.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05136">The Commentator; and Marietta Recorder (Marietta, OH).  October 29, 1807.</reference>
+</election_record>
+

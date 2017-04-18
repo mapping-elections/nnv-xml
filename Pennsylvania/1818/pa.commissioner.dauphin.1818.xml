@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1818 Commissioner, Dauphin County" type="General" iteration="First Ballot" date="1818" election_id="pa.commissioner.dauphin.1818" handle="10427/67836" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Elijah Ferree" name_id="FE0060" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Simon Solliday" name_id="SS0330" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-17">
+				<candidate_summary candidate_ref="1" vote_total="1258" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1017" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1258" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1017" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="320" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="293" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="201" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="West Hanover" geog_id="null">
+						<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 17, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Chronicle, and Harrisburg Advertiser (Harrisburg, PA).  October 19, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 24, 1818.</reference>
+</election_record>

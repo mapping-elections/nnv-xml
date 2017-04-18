@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1814 House of Commons, Wilkes County" type="General" iteration="First Ballot" date="1814-08" election_id="nc.houseofcommons.wilkes.1814" handle="10427/43057" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Jesse Allen" name_id="AJ0293" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Saintclair" name_id="SJ0171" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Davenport" name_id="DW0201" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-05-20">
+                <candidate_summary candidate_ref="1" vote_total="599" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="577" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="371" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18020" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Allen and Sickler in the Commons by a majority of 206 votes."  Edmund Jones to Maj. William B. Lenoir.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Wilkes" geog_id="null">
+                    <result candidate_ref="1" vote="599" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="577" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="371" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Brown's" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Martin's" geog_id="null">
+                        <result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Ray's" geog_id="null">
+                        <result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="149" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Reading R." geog_id="null">
+                        <result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Roaring River" geog_id="null">
+                        <result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wilkesboro" geog_id="null">
+                        <result candidate_ref="1" vote="194" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="292" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="139" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">William Lenoir Memorandum Book.  August, 1814 - April, 1815.  Folder 589.  The Southern Historical Collection, Louis Round Wilson Special Collections Library, University of North Carolina.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18020">Edmund Jones to Maj. William B. Lenoir.  August 14, 1814.  The Southern Historical Collection, Louis Round Wilson Special Collections Library, University of North Carolina.</reference>
+</election_record>

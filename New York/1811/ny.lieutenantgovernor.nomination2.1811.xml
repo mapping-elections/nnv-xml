@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1811 Lieutenant Governor, Republican Nomination, Ballot 2" type="Legislative" iteration="Second Ballot" date="1811-03" election_id="ny.lieutenantgovernor.nomination2.1811" handle="10427/66624" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Lieutenant Governor" office_id="ON073" scope="State">
+		<role title="Lieutenant Governor" scope="State">
+			<ballot>
+				<candidate name="DeWitt Clinton" name_id="CD0092" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Nominated.</note></candidate>
+				<candidate name="Edward P. Livingston" name_id="LE0052" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="blank" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-23">
+				<candidate_summary candidate_ref="1" vote_total="55" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Convention to nominate a successor to replace John Broome, deceased.</note>
+				<note resp="Philip Lampi">"A caucus was held at Albany on Thursday in the assembly room, composed principally of members of the legislature, at which the honorable De Witt Clinton was nominated lieutenant governor . . . It was next determined that the question should be taken on the gentlemen having the two highest votes."  United States' Gazette (Philadelphia, PA).  March 22, 1811.</note>
+				<note resp="Philip Lampi">"From what I can learn out of doors, the Madisonians (as the opponents of Mr. Clinton style themselves) are much exasperated at this premature meeting and nomination.  They have been endeavering to prevail on Mr. Livingston to run in opposition to Mr. Clinton, but it is said he prudently declines.  Others are now talked of, amongst whom, Mr. Burt, or Orange, stands high.  Last night, pursuant to adjournment, there was to be a general meeting; but my paper went to press too early to enable me to state the result."  The Balance, and State Journal (Albany, NY).  March 19, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Convention" geog_id="null">
+					<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Balance, and State Journal (Albany, NY).  March 19, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  March 22, 1811.</reference>
+</election_record>

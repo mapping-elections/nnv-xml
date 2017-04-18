@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1801 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1801-10" election_id="vt.ussenate.1801" handle="10427/19837" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Stephen R. Bradley" name_id="BS0312" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Chamberlain" name_id="CW0352" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Nathaniel Niles" name_id="NN0014" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="null" modified="2014-08-29">
+				<candidate_summary candidate_ref="1" vote_total="102" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10154" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Vermont" geog_id="null">
+				<sub_unit type="null" name="Legislature" geog_id="null">
+					<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10154" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"In General Assembly October 14, the Governor and Council, in conjunction with the House of Representatives, balloted for Senator of U. States, vice the Hon. Mr. Paine, appointed District Judge ~ when by the following statement, the Hon. Stephen R. Bradley was elected by a majority of sixteen votes."  Spooner's Vermont Journal (Windsor, VT).  October 20, 1801.</note>
+					<note resp="Philip Lampi">Spooner's Vermont Journal (Windsor, VT) lists William Chamberlain's last name as William Chamberlin.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10154">Spooner's Vermont Journal (Windsor, VT).  October 20, 1801.</reference>
+</election_record>

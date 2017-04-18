@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Commissioner, Beaver County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.commissioner.beaver.1815" handle="10427/62793" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Roberts" name_id="RJ0473" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Coulter" name_id="CJ0755" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Michael Baker" name_id="BM0092" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-22">
+				<candidate_summary candidate_ref="1" vote_total="465" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="351" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="178" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06724" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Beaver" geog_id="null">
+					<result candidate_ref="1" vote="465" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="351" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="178" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06724" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06724">The Commonwealth (Pittsburgh, PA).  October 21, 1815.</reference>
+</election_record>

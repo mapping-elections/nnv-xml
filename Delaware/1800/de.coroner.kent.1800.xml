@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1800 Coroner, Kent County" type="General" iteration="First Ballot" date="1800" election_id="de.coroner.kent.1800" handle="10427/44002" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Richard Harrington" name_id="HR0083" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Needles" name_id="NW0050" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="George Manlove" name_id="MG0040" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Alford" name_id="AW0007" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="816" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="771" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="730" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="717" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11994" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11995" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA) lists Richard Harrington as P. Harrington.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="816" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="771" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="730" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="717" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11994" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11995" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Mirror of the Times, and General Advertiser (Wilmington, DE).  October 11, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 17, 1800.</reference>
+</election_record>

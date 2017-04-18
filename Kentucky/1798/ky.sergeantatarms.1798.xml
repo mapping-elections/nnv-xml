@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Kentucky 1798 Sergeant at Arms" type="Legislative" iteration="First Ballot" date="1798" election_id="ky.sergeantatarms.1798" handle="10427/57690" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sergeant at Arms" office_id="ON099" scope="State">
+		<role title="Sergeant at Arms" scope="State">
+			<ballot>
+				<candidate name="Richard Price" name_id="PR0029" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Roger Devine" name_id="DR0033" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Richard Taylor" name_id="TR0015" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-12">
+				<candidate_summary candidate_ref="1" vote_total="15" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="12" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="7" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Kentucky" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+					<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"A majority of votes not being in favor of any one candidate, the house proceeded to a second ballot for the two highest in number."  Journal of the Kentucky House of Representatives.  November 5, 1798.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Kentucky House of Representatives.  November 5, 1798.</reference>
+</election_record>

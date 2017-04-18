@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 U.S. Senate" type="Legislative" iteration="First Ballot" date="1816" election_id="ma.ussenate.2.1816" handle="10427/78863" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Harrison G. Otis" name_id="OH0028" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Holmes" name_id="HJ0336" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Levi Lincoln, Jr." name_id="LL0044" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-24">
+				<candidate_summary candidate_ref="1" vote_total="183" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="5" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Tuesday, June 11. The House proceeded, on its part, to the choice of two Senators of the U. States. The first ballot was for a Senator to serve for six years from the fourth of March next. The whole number of votes was 284."  Salem Gazette (Salem, MA).  June 14, 1816.</note>
+				<note resp="Philip Lampi">"Wednesday, June 12. Agreeably to assignment the Senate proceeded to the choice of a Senator of the United States.... for the term of six years, commencing the fourth of March next, and on the votes being taken it appeared that the whole number of votes was 38."  Salem Gazette (Salem, MA).  June 14, 1816.</note>
+				<note resp="Philip Lampi">"In Senate, June 12, 1816. The Senate proceeded to the choice on its part for two Senators of the United States - one to serve for six years from the 4th of March next; and the other until the 3rd of March 1821, in the room of Mr. Gore resigned. The ballots were taken, when it appeared at the first trial, that no choice had been made. At the second it appeared, the whole number of votes being 38, that the Hon. Harrison G. Otis had 20 votes and was elected, in concurrence with the house of Representative, for six years form the 4th of March next. A ballot was taken for the second Senator when the Hon. Eli P. Ashmun, had 20 votes, and was chosen in concurrence with the House."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  June 15, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="113" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  June 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  June 14, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  June 15, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Hampden Federalist (Springfield, MA).  June 20, 1816.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1818 House of Representatives, Hartford, First Representative" type="General" iteration="First Ballot" date="1818" election_id="ct.staterepresentative.hartford.1818" handle="10427/79758" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Michael Olcott" name_id="OM0000" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Seymour" name_id="SH0014" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="Republican" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-14">
+				<candidate_summary candidate_ref="1" vote_total="457" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="429" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<sub_unit type="City" name="Hartford" geog_id="null">
+						<result candidate_ref="1" vote="457" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="429" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  April 21, 1818.</reference>
+</election_record>

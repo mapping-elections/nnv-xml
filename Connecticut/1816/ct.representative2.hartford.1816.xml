@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1816 House of Representatives, Hartford, Second Representative" type="General" iteration="First Ballot" date="1816" election_id="ct.representative2.hartford.1816" handle="10427/16287" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Thomas S. Williams" name_id="WT0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Sylvester Wells" name_id="WS0011" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-22">
+				<candidate_summary candidate_ref="1" vote_total="421" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="367" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01567" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Not withstanding the unfavourable weather we never gave so large a federal vote in this town - and we were much gratified that our friends at West-Hartford so generally came in to assist us to redeem the pledge we gave after the spring election."  Connecticut Courant (Hartford, CT).  September 17, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<sub_unit type="City" name="Hartford" geog_id="null">
+						<result candidate_ref="1" vote="421" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="367" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01567" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01567">Connecticut Courant (Hartford, CT).  September 17, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  September 23, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  September 24, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Norwich Courier (Norwich, CT).  September 25, 1816.</reference>
+</election_record>

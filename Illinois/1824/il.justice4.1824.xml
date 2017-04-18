@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 State Supreme Court Judge, Ballot 4" type="Legislative" iteration="Fourth Ballot" date="1824-12" election_id="il.justice4.1824" handle="10427/56360" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Supreme Court Judge" office_id="ON111" scope="State">
+		<role title="Justice of the State Supreme Court" scope="State">
+			<ballot>
+				<candidate name="Samuel D. Lockwood" name_id="LS0009" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Reynolds" name_id="RT0014" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="David Blackwell" name_id="BD0013" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="26" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="15" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Edwardsville Spectator (Edwardsville, IL).  January 11, 1825.</reference>
+</election_record>

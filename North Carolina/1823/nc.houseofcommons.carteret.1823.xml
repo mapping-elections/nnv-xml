@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1823 House of Commons, Carteret County" type="General" iteration="First Ballot" date="1823-08" election_id="nc.houseofcommons.carteret.1823" handle="10427/45178" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Isaac Hellen" name_id="HI0021" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Edward H. Bell" name_id="BE0246" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="W. D. Styron" name_id="SW0064" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Samuel Leffers" name_id="LS0003" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-05-01">
+                <candidate_summary candidate_ref="1" vote_total="379" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="292" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="252" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="101" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18370" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Carteret" geog_id="null">
+                    <result candidate_ref="1" vote="379" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="292" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="252" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="101" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18370" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18370">Carolina Sentinel (New Bern, NC).  August 23, 1823.</reference>
+</election_record>

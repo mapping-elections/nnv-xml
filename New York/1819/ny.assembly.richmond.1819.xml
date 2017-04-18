@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="New York 1819 Assembly, Richmond County" type="General" iteration="First Ballot" date="1819" election_id="ny.assembly.richmond.1819" handle="10427/68025" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Hermanus Guion" name_id="GH0051" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard C. Corson" name_id="CR0083" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-08">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Richmond County - Mr. Guion is elected to the assembly from Richmond county, by a majority of 37 over Mr. Corson."  The Columbian. (For the Country) (New York, NY).  May 4, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Columbian. (For the Country) (New York, NY).  May 4, 1819.</reference>
+</election_record>

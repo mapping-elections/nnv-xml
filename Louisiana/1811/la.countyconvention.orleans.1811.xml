@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1811 Constitutional Convention, Orleans Parish" type="General" iteration="First Ballot" date="1811" election_id="la.countyconvention.orleans.1811" handle="10427/57834" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="Territory">
+		<role title="Convention Delegate" scope="Parish">
+			<ballot>
+				<candidate name="Jacques Villeray" name_id="VJ0012" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Urquhart" name_id="UT0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Winter" name_id="WS0060" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Livaudais, jr." name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="D. De Laronde" name_id="DD0111" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Henderson" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Magloire Guichard" name_id="GM0020" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="John Blanque" name_id="BJ0253" affiliation="null" affiliation_id="null" candidate_num="8"/>
+				<candidate name="John Watkins" name_id="WJ0134" affiliation="null" affiliation_id="null" candidate_num="9"/>
+				<candidate name="J.F.L. Dorgency" name_id="DJ0110" affiliation="null" affiliation_id="null" candidate_num="10"/>
+				<candidate name="Jos. D. D. Bellechasse" name_id="BJ0252" affiliation="null" affiliation_id="null" candidate_num="11"/>
+				<candidate name="Barnard Marigny" name_id="MB0014" affiliation="null" affiliation_id="null" candidate_num="12"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-14">
+				<candidate_summary candidate_ref="1" vote_total="552" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="400" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="392" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="333" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="332" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="320" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="310" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="301" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="292" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="10" vote_total="283" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="11" vote_total="263" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="12" vote_total="262" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Orleans" geog_id="null">
+				<sub_unit type="Parish" name="Orleans" geog_id="null">
+					<result candidate_ref="1" vote="552" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="400" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="392" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="333" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="332" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="320" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="310" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="301" resp="Philip Lampi"/>
+					<result candidate_ref="9" vote="292" resp="Philip Lampi"/>
+					<result candidate_ref="10" vote="283" resp="Philip Lampi"/>
+					<result candidate_ref="11" vote="263" resp="Philip Lampi"/>
+					<result candidate_ref="12" vote="262" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Louisiana Courier (New Orleans, LA).  September 20, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Louisiana Courier (New Orleans, LA).  October 11, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Muskingum Messenger (Zanesville, OH).  October 23, 1811.</reference>
+</election_record>

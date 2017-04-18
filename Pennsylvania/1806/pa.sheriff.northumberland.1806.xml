@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Sheriff, Northumberland County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.sheriff.northumberland.1806" handle="10427/61675" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Jared Irwin" name_id="IJ0076" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick Evans" name_id="EF0007" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Robert Irwin" name_id="IR0011" affiliation="Quid" affiliation_id="A04" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-22">
+				<candidate_summary candidate_ref="1" vote_total="1800" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1600" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="402" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06085" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06086" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="1800" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1600" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="402" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06085" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06086" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06086">Der Readinger Adler (Reading, PA).  October 21, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06085">Aurora. General Advertiser (Philadelphia, PA).  October 22, 1806.</reference>
+</election_record>

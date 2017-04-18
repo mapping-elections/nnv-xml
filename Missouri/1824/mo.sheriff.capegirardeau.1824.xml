@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1824 Sheriff, Cape Girardeau County" type="General" iteration="First Ballot" date="1824" election_id="mo.sheriff.capegirardeau.1824" handle="10427/56614" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William Creath" name_id="CW0088" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Charles Seavers" name_id="SC0054" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="495" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="292" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11514"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Cape Girardeau" geog_id="null">
+					<result candidate_ref="1" vote="495" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="292" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11514"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11514">Independent Patriot (Jackson, MO).  August 14, 1824.</reference>
+</election_record>

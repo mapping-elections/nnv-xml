@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1800 U.S. Senate" type="Legislative" iteration="First Ballot" date="1800" election_id="nh.ussenator.1800" handle="10427/26593" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="James Sheafe" name_id="SJ0463" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Langdon" name_id="LJ0127" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-07-10">
+				<candidate_summary candidate_ref="1" vote_total="83" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="12" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="38" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09820" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Hon. James Sheafe was yesterday elected, by the General Court, a Senator of the U. States, to take his seat on the 4th of March next, in the room of Mr. Langdon, whose time will then expire."  Courier of New Hampshire (Concord, NH).  June 14, 1800.</note>
+				<note resp="Philip Lampi">"To close the scene of Federal Triumph, the Hon. JAMES SHEAFE is elected Senator to Congress, 80 against 50."  The United States Oracle of the Day (Portsmouth, NH).  June 21, 1800.</note>
+				<note resp="Philip Lampi">"As Senator to Congress Mr. Sheaffe had 83 votes, the other candidate 50."  The Kentucky Gazette (Lexington, KY).  July 24, 1800.</note>
+				<note resp="Philip Lampi">"Nevertheless, the Federalists had an irreducible majority of some thirty votes, which they used like a bludgeon to impose their will upon the state.  John Langdon's term in the Senate was soon to expire, and his implacable foes no longer harbored any sentimental admiration for his revolutionary services.  Brushing aside Republican efforts to postpone the election or to distribute the Federalist vote among several favorite sons, the bloc of eighty-seven in the house nominated James Sheafe, a Portsmouth merchant and ex-Tory, to replace John Langdon, the Portsmouth merchant and ex-federalist.  Langdon received only twelve votes.  The senate concurred in Sheafe's election by ten votes to two, and on March 4, 1801, he took the Senate seat that Langdon had occupied for twelve years."  The Ninth State: New Hampshire's Formative Years.  182.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="38" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09820" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09820" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New Hampshire House of Representatives, 1800.  59-64.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the New Hampshire State Senate, 1800.  41.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  June 14, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  June 17, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">The United States Oracle of the Day (Portsmouth, NH).  June 21, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09820">The Kentucky Gazette (Lexington, KY).  July 24, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Turner, Lynn Warren.  The Ninth State: New Hampshire's Formative Years.  Chapel Hill, NC: The University of North Carolina Press, 1983.  182.</reference>
+</election_record>

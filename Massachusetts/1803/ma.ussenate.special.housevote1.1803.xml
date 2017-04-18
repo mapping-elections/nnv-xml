@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1803" election_id="ma.ussenate.special.housevote1.1803" handle="10427/69460" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. Senate" office_id="ON127" scope="Federal">
+        <role title="U.S. Senator" scope="State">
+            <ballot>
+                <candidate name="Timothy Pickering" name_id="PT0078" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+                <candidate name="Thompson Skinner" name_id="ST0101" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Nicholas Tillinghast" name_id="TN0022" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+                <candidate name="Henry Knox" name_id="KH0025" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+                <candidate name="Benjamin Pickman" name_id="PB0029" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-09-29">
+                <candidate_summary candidate_ref="1" vote_total="52" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="49" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">"Yesterday, agreeably to previous assignment, the H. of R. proceeded to the choice, and in concurrence with the Senate, the Hon. Timothy Pickering was elected, for two years after this day ... On the first trial, the whole number of votes were 112, of which 57 were necessary to make a choice."  The Independent Chronicle (Boston, MA).  March 3, 1803.</note>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  March 3, 1803.</reference>
+</election_record>
+

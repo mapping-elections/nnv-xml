@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1824 House of Representatives, Chesterfield District" type="General" iteration="First Ballot" date="1824" election_id="sc.assembly.chesterfield.1824" handle="10427/32216" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Peter L. Robinson" name_id="RP0056" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Craig" name_id="CH0104" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-12">
+				<candidate_summary candidate_ref="1" vote_total="419" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="395" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08010" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Chesterfield" geog_id="null">
+					<result candidate_ref="1" vote="419" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="395" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08010" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08010">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 22, 1824.</reference>
+</election_record>

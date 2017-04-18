@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Vermont 1820 Electoral College" type="Legislative" iteration="First Ballot" date="1820" election_id="vt.presidentialelector4.1820" handle="10427/79704" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="State">
+            <ballot>
+                <elector name="Aaron Leland" name_id="LA0135" affiliation="Republican" affiliation_id="A03" declared_for="James Monroe" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+                <elector name="Paul Brigham" name_id="BP0101" affiliation="Republican" affiliation_id="A03" declared_for="null" elector_num="2"/>
+            </ballot>
+            <overview status="null" modified="2015-07-09">
+                <elector_summary elector_ref="1" vote_total="162" resp="Philip Lampi"/>
+                <elector_summary elector_ref="2" vote_total="24" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Instead of holding one election between slates of candidates for presidential elector, in 1820 the Vermont legislature held separate elections for each of the eight slots.</note>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="scs">
+                <result elector_ref="1" vote="162" resp="Philip Lampi"/>
+                <result elector_ref="2" vote="24" resp="Philip Lampi"/>
+                <sub_unit type="null" name="Council" geog_id="null">
+                    <result elector_ref="1" resp="Philip Lampi"/>
+                    <result elector_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result elector_ref="1" resp="Philip Lampi"/>
+                    <result elector_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Vermont State Papers.  Vol. 76.  78c.</reference>
+</election_record>
+
+

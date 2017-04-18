@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1798 State Senate, Class 1, District 5, Special" type="Special" iteration="First Ballot" date="1798-01" election_id="va.statesenate.1.5.special.1798" handle="10427/65089" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Archibald Stuart" name_id="SA0284" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Steel" name_id="SJ1563" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-05-10">
+				<candidate_summary candidate_ref="1" vote_total="945" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="271" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23739" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23740" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Archibald Stuart elected to replace John Oliver.</note>
+				<note resp="Philip Lampi">The election appears to have been spread out among the counties, between the last week of December of 1797 and the first week of January of 1798.</note>
+				<note resp="Philip Lampi">"In the counties of Rockbridge, Augusta, Rockingham and Shenandoah, the votes for Senator were - for Archibald Stuard, Esq. 873, Col. John Steele 212. The returns from Bath and Pendleton are not come to hand, but we hear Mr. Stuart has a majority of the whole of upwards of six hundred." The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  January 26, 1798.</note>
+				<note resp="Philip Lampi">The "vote totals" were arrived at by adding the totals as reported in The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA) with the totals given in the Bath County and Pendleton County Poll Books.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<sub_unit type="County" name="Augusta" geog_id="vas_augusta">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Bath" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08360" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Pendleton" geog_id="null">
+						<result candidate_ref="1" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23741" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Rockbridge" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Shenandoah" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23740">Bath County Poll Book.  64.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23741">Pendleton County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi">The Virginia Argus (Richmond, VA).  January 5, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23739">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  January 26, 1798.</reference>
+</election_record>

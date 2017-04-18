@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1794-10" election_id="pa.uscongress4.1794" handle="10427/60769" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Samuel Sitgreaves" name_id="SS0245" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Richards" name_id="RJ0314" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Morris" name_id="MJ0785" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Robert Loller" name_id="LR0052" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Peter Muhlenberg" name_id="MP0089" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="John Barclay" name_id="BJ0948" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-14">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1791" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1779" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00075" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05444" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05445" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05456" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05457" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA) and General Advertiser (Phildelphia) use the name John Richard for John Richards.</note>
+				<note resp="Philip Lampi">James Morris originally received 1797 votes, six more than John Richards.  However, the results were contested and 18 votes were deducted from James Morris.  John Richards was then declared elected to the position.</note>
+				<note resp="Philip Lampi">"The governor of Pennsylvania refused to issue a certificate of election.  Morris died on July 10, 1795, before the House took up the matter.  Richards claimed that he was duly elected in the first place.  On January 18, 1796, the house voted that Richards was entitled to the seat, and he was seated the same day.  The revised vote was Richards, 1,791, Morris 1,688."  Dubin, Michael J.  United States Congressional Elections, 1788-1997: The Official Results of the Elections of the 1st through 105th Congresses.  Jefferson, NC: McFarland and Company, 1998.  13.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="2" vote="1791" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1779" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bucks" geog_id="null">
+						<result candidate_ref="1" vote="1407" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="477" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="888" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="653" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="205" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">According to Neuer Unpartheyischer Eastoner Bothe, und Northamptoner Kundschafter (Easton, PA), James Morris received 808 votes.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="493" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="558" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="392" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="386" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="283" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Northampton" geog_id="null">
+						<result candidate_ref="1" vote="1054" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="600" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="368" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="195" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">According to the Neuer Unpartheyischer Eastoner Bothe, und Northamptoner Kundschafter (Easton, PA), Samuel Sitgreaves received 994 votes and James Morris received 310 votes.</note>
+					</sub_unit>
+					<sub_unit type="null" name="Military Camp Vote" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="131" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<sub_unit type="null" name="Bucks Militia Vote" geog_id="null">
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="91" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="null" name="Montgomery Militia Vote" geog_id="null">
+							<result candidate_ref="2" vote="156" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="58" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05444">Dunlap and Claypoole's American Daily Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States and Daily Evening Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05444">General Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05445">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05457">Neuer Unpartheyischer Eastoner Bothe, und Northamptoner Kundschafter (Easton, PA).  October 22, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  November 13, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  November 21, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">Contested Elections. 1794. Reproduced at the National Archives.  96-100.</reference>
+	<reference type="citation" resp="Philip Lampi">Dubin, Michael J.  United States Congressional Elections, 1788-1997: The Official Results of the Elections of the 1st through 105th Congresses.  Jefferson, NC: McFarland and Company, 1998.  13.</reference>
+</election_record>

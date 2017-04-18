@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 State Senate, Knox, Licking and Richland Counties" type="General" iteration="First Ballot" date="1814-10" election_id="oh.statesenate.knox.1814" handle="10427/59411" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="William Gass" name_id="GW0118" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Gavitt" name_id="GW0115" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-07">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Knox, Licking and Richland" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Knox" geog_id="ohs_knox">
+						<result candidate_ref="1" vote="271" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Chester" geog_id="null">
+							<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Clinton" geog_id="null">
+							<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Morgan" geog_id="null">
+							<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Morris" geog_id="null">
+							<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Union" geog_id="null">
+							<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Wayne" geog_id="null">
+							<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05201" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Licking" geog_id="ohs_licking">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Richland" geog_id="ohs_richland">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05201">The Ohio Register (Clinton, OH).  October 15, 1814.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1810 House of Representatives, Newport, 2nd Representative" type="General" iteration="First Ballot" date="1810-04" election_id="ri.assembly.newporttown2.1810" handle="10427/64505" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John P. Mann" name_id="MJ0026" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel Hazard" name_id="HN0066" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-11">
+				<candidate_summary candidate_ref="1" vote_total="285" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="258" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16366" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16367" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="Town" name="Newport" geog_id="ris_newport_newport">
+					<result candidate_ref="1" vote="285" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="258" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16366">Newport Mercury (Newport, RI).  April 21, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16367">The True American and Commercial Advertiser (Philadelphia, PA).  April 27, 1810.</reference>
+</election_record>

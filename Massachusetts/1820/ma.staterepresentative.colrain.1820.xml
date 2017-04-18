@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1820 House of Representatives, Colrain" type="General" iteration="First Ballot" date="1820-05" election_id="ma.staterepresentative.colrain.1820" handle="10427/79122" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Robert L. MacClallen" name_id="MR0193" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Miller" name_id="MR0194" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Calvin Smith" name_id="SC0117" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-04">
+				<candidate_summary candidate_ref="1" vote_total="37" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="27" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Colrain" geog_id="null">
+					<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Colrain Town Records.  Book Two.  184.</reference>
+</election_record>

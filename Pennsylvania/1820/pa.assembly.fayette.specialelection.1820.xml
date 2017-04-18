@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 House of Representatives, Fayette County, Special" type="Special" iteration="First Ballot" date="1820-02" election_id="pa.assembly.fayette.specialelection.1820" handle="10427/63373" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John B. Trevor" name_id="TJ0524" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Morris Morris" name_id="MM0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-08">
+				<candidate_summary candidate_ref="1" vote_total="1021" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="989" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07058" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On Tuesday last, the committee appointed to try the validity of the election of John B. Trevor, a sitting member from Fayette County, reported, that upon a full examination of documents and testimony, etc. 'John B. Trevor had 987 Legal votes, and that Morris Morris had 987 Legal votes.  And that therefore the election of the said John B. Trevor is illegal and void.'  Where upon the speaker declared the seat of John B. Trevor to be vacated."  The Reporter (Washington, PA).  January 31, 1820.  This special election was held in February 1820 in order to determine whether John B. Trevor or Morris Morris would hold the vacated seat.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="1021" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="989" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Brownsville" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="280" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Connellsville" geog_id="null">
+						<result candidate_ref="1" vote="368" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Georges" geog_id="null">
+						<result candidate_ref="1" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="236" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saltlick" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="234" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wharton" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  January 31, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07058">The Genius of Liberty (Uniontown, PA).  February 22, 1820.</reference>
+</election_record>

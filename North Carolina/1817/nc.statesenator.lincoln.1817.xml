@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1817 State Senate, Lincoln County" type="General" iteration="First Ballot" date="1817-08" election_id="nc.statesenator.lincoln.1817" handle="10427/42937" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="John Reed" name_id="RJ0272" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Summy" name_id="SG0074" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-08">
+				<candidate_summary candidate_ref="1" vote_total="561" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="401" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05027" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18156" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Lincoln" geog_id="null">
+					<result candidate_ref="1" vote="561" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="401" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05027" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18156" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Baird Spring" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05027" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Thomas Rhyne" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05027" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18156">The Raleigh Minerva (Raleigh, NC).  September 5, 1817.</reference>
+</election_record>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 Treasurer, Special, Ballot 2" type="Special" iteration="Second Ballot" date="1820-02" election_id="oh.treasurer.2.1820" handle="10427/59920" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Treasurer" office_id="ON122" scope="State">
+        <role title="Treasurer" scope="State">
+            <ballot>
+                <candidate name="S. Sullivan" name_id="SS0051" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="A. Trimble" name_id="TA0023" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Dogherty" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="David Collins" name_id="CD0031" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="William Neil" name_id="NW0011" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-24">
+                <candidate_summary candidate_ref="1" vote_total="35" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="31" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="7" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="7" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"In the room of Hiram M. Currey, resigned."  The Hamilton Gazette and Miami Register (Hamilton, OH).  February 28, 1820.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="7" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Hamilton Gazette and Miami Register (Hamilton, OH).  February 28, 1820.</reference>
+</election_record>
+

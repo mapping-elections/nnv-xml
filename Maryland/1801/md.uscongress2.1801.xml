@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1801 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1801" election_id="md.uscongress2.1801" handle="10427/27365" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Richard Sprigg" name_id="SR0049" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Thomas" name_id="TJ0160" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-07">
+				<candidate_summary candidate_ref="1" vote_total="1393" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="750" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00245x" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14242" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="1393" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="750" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+						<result candidate_ref="1" vote="829" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="360" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00245x" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14242" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Prince George's" geog_id="mds_princegeorges">
+						<result candidate_ref="1" vote="564" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="390" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00245x" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14242" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14249" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14250" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Numerous newspapers list 528 votes for Richard Spriggs and 347 votes for John Thomas.</note>
+						<sub_unit type="Town" name="Bladensburg" geog_id="null">
+							<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14249" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14250" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Nottingham" geog_id="null">
+							<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14249" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14250" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Piscataway" geog_id="null">
+							<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="171" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14249" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14250" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Upper Marlboro" geog_id="null">
+							<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14249" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14250" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Vansville" geog_id="null">
+							<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14249" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14250" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00245x">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi">National Intelligencer and Washington Advertiser (Washington, DC).  April 8, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times; and District of Columbia Daily Advertiser (Alexandria, VA).  April 10, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14250">The Telegraphe and Daily Advertiser (Baltimore, MD).  April 11, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14249">The Examiner (Richmond, VA).  April 14, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carolina Gazette (Charleston, SC).  April 23, 1801.</reference>
+</election_record>

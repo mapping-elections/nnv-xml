@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1819 House of Representatives, Nantucket" type="General" iteration="First Ballot" date="1819" election_id="ma.staterepresentative.nantucket.1819" handle="10427/79044" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Jonathan J. Barney" name_id="BJ1468" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Cannon" name_id="CG0070" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-14">
+				<candidate_summary candidate_ref="1" vote_total="242" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="117" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No federal candidate was voted for."  New-Bedford Mercury (New Bedford, MA).  May 21, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Nantucket" geog_id="null">
+					<result candidate_ref="1" vote="242" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Bedford Mercury (New Bedford, MA).  May 21, 1819.</reference>
+</election_record>

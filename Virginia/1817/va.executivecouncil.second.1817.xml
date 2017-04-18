@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1817 Executive Council, Special, Ballot 2" type="Special" iteration="Second Ballot" date="1817" election_id="va.executivecouncil.second.1817" handle="10427/33578" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Executive Council" office_id="ON057" scope="State">
+		<role title="Executive Councillor" scope="State">
+			<ballot>
+				<candidate name="William F. Pendleton" name_id="PW0192" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Smith" name_id="SJ1427" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-27">
+				<candidate_summary candidate_ref="1" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="71" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10921" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">William Seldon, Jr. dropped from second ballot.</note>
+				<note resp="Philip Lampi">"The order of the day was taken up, on the election of a Councillor in the room of Arthur Smith On the second ballot:"</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="House of Delegates" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10921">Virginia Patriot, and Richmond Daily Mercantile Advertiser (Richmond, VA).  January 22, 1817.</reference>
+</election_record>

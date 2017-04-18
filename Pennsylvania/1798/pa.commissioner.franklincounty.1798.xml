@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 Commissioner, Franklin County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.commissioner.franklincounty.1798" handle="10427/60974" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Holliday" name_id="HJ0751" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Joseph Culbertson" name_id="CJ0720" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="William MacCall" name_id="MW0310" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-05">
+				<candidate_summary candidate_ref="1" vote_total="1228" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="354" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="196" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05559" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1228" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="354" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="196" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="457" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="48" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fannetsburg" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greencastle" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mercersburg" geog_id="null">
+						<result candidate_ref="1" vote="583" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Strasburg" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="46" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05559">The Farmer's Register (Chambersburg, PA).  October 17, 1798.</reference>
+</election_record>

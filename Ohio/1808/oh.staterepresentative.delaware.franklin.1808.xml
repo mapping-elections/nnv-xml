@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1808 House of Representatives, Delaware and Franklin Counties" type="General" iteration="First Ballot" date="1808-10" election_id="oh.staterepresentative.delaware.franklin.1808" handle="10427/59109" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="John Blair" name_id="BJ0345" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Josiah MacKinnie" name_id="MJ0279" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-24">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Delaware and Franklin" geog_id="null">
+                    <sub_unit type="County" name="Delaware" geog_id="ohs_delaware">
+                        <result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+                        <sub_unit type="Township" name="Berkshire" geog_id="null">
+                            <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Delaware" geog_id="null">
+                            <result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Liberty" geog_id="null">
+                            <result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Marlborough" geog_id="null">
+                            <result candidate_ref="1" resp="Philip Lampi"/>
+                            <result candidate_ref="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Radnor" geog_id="null">
+                            <result candidate_ref="1" resp="Philip Lampi"/>
+                            <result candidate_ref="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Sunbury" geog_id="null">
+                            <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                            <note resp="Philip Lampi">Josiah MacKinnie received 2 votes as Joseph MacKinnie.</note>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Union" geog_id="null">
+                            <result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+                            <result candidate_ref="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Franklin" geog_id="ohs_franklin">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">History of Delaware County.  Chicago: O. L. Baskin and, 1880.  215.</reference>
+</election_record>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 Commissioner, Morgan County" type="General" iteration="First Ballot" date="1819-10" election_id="oh.commissioner.morgan.1819" handle="10427/59799" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="William Montgomery" name_id="MW0185" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Shutt" name_id="SJ0934" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Richard Cheadle" name_id="CR0059" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Robert MacKee" name_id="MR0036" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Sylvanus Piper" name_id="PS0033" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="David Fulton" name_id="FD0012" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="Enoch S. MacIntosh" name_id="ME0054" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="William Craig" name_id="CW0109" affiliation="null" affiliation_id="null" candidate_num="8"/>
+                <candidate name="John Sears" name_id="SJ0335" affiliation="null" affiliation_id="null" candidate_num="9"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-04">
+                <candidate_summary candidate_ref="1" vote_total="323" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="318" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="303" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="257" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="252" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="200" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" vote_total="22" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" vote_total="11" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="9" vote_total="11" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">William Montgomery, John Shutt and Richard Cheadle were in favor of the placement of the county seat in McConnelsville.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Morgan" geog_id="ohs_morgan">
+                    <result candidate_ref="1" vote="323" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="318" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="303" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="257" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="252" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="200" resp="Philip Lampi"/>
+                    <result candidate_ref="7" vote="22" resp="Philip Lampi"/>
+                    <result candidate_ref="8" vote="11" resp="Philip Lampi"/>
+                    <result candidate_ref="9" vote="11" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Morgan" geog_id="null">
+                        <result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="15" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Olive Green" geog_id="null">
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                        <result candidate_ref="5" resp="Philip Lampi"/>
+                        <result candidate_ref="6" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The township of Olive Green "gave a unanimous vote for Fulton, Piper and McKee, and what is remarkable continued a unit at elections up to 1828."  History of Morgan County, Ohio, 112.</note>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Robertson, Charles.  History of Morgan County, Ohio.  Chicago: L. H. Watkins, 1886.  111-112.</reference>
+</election_record>
+

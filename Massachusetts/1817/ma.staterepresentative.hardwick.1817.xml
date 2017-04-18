@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1817 House of Representatives, Hardwick" type="General" iteration="First Ballot" date="1817" election_id="ma.staterepresentative.hardwick.1817" handle="10427/78909" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Timothy Paige" name_id="PT0124" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Billing" name_id="BS0253" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Moses Mandell" name_id="MM0114" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-08-26">
+				<candidate_summary candidate_ref="1" vote_total="94" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="37" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Hardwick" geog_id="null">
+					<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Hardwick Town Records.  357.</reference>
+</election_record>

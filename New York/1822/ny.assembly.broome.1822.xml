@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 Assembly, Broome County" type="General" iteration="First Ballot" date="1822" election_id="ny.assembly.broome.1822" handle="10427/66385" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Jonathan Lewis" name_id="LJ0243" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Lewis Stoughton" name_id="SL0018" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John A. Collier" name_id="CJ0522" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-11-16">
+				<candidate_summary candidate_ref="1" vote_total="1023" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Broome" geog_id="null">
+					<result candidate_ref="1" vote="1023" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Chenango" geog_id="null">
+						<result candidate_ref="1" vote="254" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Colesville" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Lisle" geog_id="null">
+						<result candidate_ref="1" vote="245" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Sanford" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="169" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Windsor" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

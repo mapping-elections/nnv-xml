@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Inspector of the General Election, Philadelphia City, Upper Delaware Ward" type="General" iteration="First Ballot" date="1819-10" election_id="pa.inspector.upperdelaware.1819" handle="10427/68038" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Jacob H. Fisler" name_id="FJ0404" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Israel Roberts" name_id="RI0013" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John W. Morrell" name_id="MJ1045" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Roberts" name_id="RJ0511" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-24">
+				<candidate_summary candidate_ref="1" vote_total="152" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="151" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="113" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="113" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Upper Delaware" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="113" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 2, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 2, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette, and Daily Advertiser (Philadelphia, PA).  October 2, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA).  October 2, 1819.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 Auditor, Miami County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.auditor.miami.1821" handle="10427/59996" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Auditor" office_id="ON013" scope="County">
+        <role title="Auditor" scope="County">
+            <ballot>
+                <candidate name="Henry W. Culbertson" name_id="CH0014" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="John G. Telford" name_id="TJ0095" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-18">
+                <candidate_summary candidate_ref="1" vote_total="420" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="406" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19528" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Miami" geog_id="ohs_miami">
+                    <result candidate_ref="1" vote="420" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="406" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19528" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19528">Piqua Gazette and Register of News, Agriculture, Arts and Manufactures (Piqua, OH).  October 18, 1821.</reference>
+</election_record>
+

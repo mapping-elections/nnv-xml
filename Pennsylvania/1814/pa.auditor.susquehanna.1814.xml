@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Auditor, Susquehanna County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.auditor.susquehanna.1814" handle="10427/62752" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="David Aldrich" name_id="AD0039" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Bela Moore" name_id="MB0087" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James W. Hill" name_id="HJ1018" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="380" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="302" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="277" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06715" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Susquehanna" geog_id="null">
+					<result candidate_ref="1" vote="380" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="302" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="277" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06715" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06715">The Susquehanna Democrat (Wilkes-Barre, PA).  November 4, 1814.</reference>
+</election_record>

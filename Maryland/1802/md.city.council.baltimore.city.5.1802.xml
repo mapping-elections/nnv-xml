@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Maryland 1802 City Council, Baltimore, Ward 5" type="General" iteration="First Ballot" date="1802" election_id="md.city.council.baltimore.city.5.1802" handle="10427/58093" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="Baltzer Schaeffer" name_id="SB0019" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Shrim" name_id="SJ0215" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="W. S. Moore" name_id="MW0146" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Peter Frick" name_id="FP0008" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-08">
+				<candidate_summary candidate_ref="1" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="107" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="75" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="37" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="37" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Republican; or, Anti-Democrat (Baltimore, MD).  October 6, 1802.</reference>
+</election_record>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1811 State Senate, Rowan County" type="General" iteration="First Ballot" date="1811-08" election_id="nc.statesenator.rowan.1811" handle="10427/43205" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Jacob Fisher" name_id="FJ0248" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Bodenhamer" name_id="BW0232" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-26">
+                <candidate_summary candidate_ref="1" vote_total="238" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="153" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Rowan" geog_id="null">
+                    <result candidate_ref="1" vote="938" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="809" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Forks" geog_id="null">
+                        <result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="114" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Higgins" geog_id="null">
+                        <result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Lexington" geog_id="null">
+                        <result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="384" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Mocks" geog_id="null">
+                        <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Morgan's" geog_id="null">
+                        <result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salisbury" geog_id="null">
+                        <result candidate_ref="1" vote="430" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1809 Executive Council, First Seat, Ballot 5" type="Legislative" iteration="Fifth Ballot" date="1809-01" election_id="va.executivecouncil1.5.1809" handle="10427/80170" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Executive Council" office_id="ON057" scope="State">
+		<role title="Executive Councillor" scope="State">
+			<ballot>
+				<candidate name="Peyton Randolph" name_id="RP0059" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Jones" name_id="JJ0276" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Charles K. Mallory" name_id="MC0084" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2016-01-27">
+				<candidate_summary candidate_ref="1" vote_total="104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="84" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="null" geog_id="null">
+					<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Enquirer (Richmond, VA).  January 7, 1809.</reference>
+</election_record>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 State Senate, District 1" type="General" iteration="First Ballot" date="1796-10" election_id="pa.statesenator1.1796" handle="10427/60842" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Nathaniel Newlin" name_id="NN0013" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Pearson" name_id="PJ0431" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-22">
+				<candidate_summary candidate_ref="1" vote_total="2493" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2386" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00116" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05496" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The official return reports 3008 total votes for Nathaniel Newlin.</note>
+				<note resp="Philip Lampi">The Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA), Gales's Independent Gazetteer (Philadelphia, PA), and Aurora. General Advertiser (Philadelphia, PA) report 2366 total votes for John Pearson.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="2493" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2386" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Delaware" geog_id="null">
+						<result candidate_ref="1" vote="438" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="1424" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="959" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="631" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1166" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA), Gales's Independent Gazetteer (Philadelphia, PA), and Aurora. General Advertiser (Philadelphia, PA) report 1146 votes for John Pearson.</note>
+						<sub_unit type="Township" name="Blockley" geog_id="null">
+							<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Bustletown" geog_id="null">
+							<result candidate_ref="1" vote="196" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Germantown" geog_id="null">
+							<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Moyamensing" geog_id="null">
+							<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+							<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="637" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Passyunk" geog_id="null">
+							<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Southwark" geog_id="null">
+							<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="349" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 13, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 13, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05496">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA).  October 14, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05496">Aurora. General Advertiser (Philadelphia, PA).  October 15, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Baumann, Roland Milton.  The Democratic-Republicans of Philadelphia: The Origins, 1776-1797.  Dissertation, Penn. State, 1970.  619.</reference>
+</election_record>

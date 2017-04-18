@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Director of the Poor, Adams County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.director.adams.1820" handle="10427/67320" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="William MacGaughy" name_id="MW0173" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Smyser" name_id="SG0121" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-17">
+				<candidate_summary candidate_ref="1" vote_total="1866" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="836" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1866" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="836" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="169" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="349" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="129" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Littlestown" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="222" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sulphur Springs" geog_id="null">
+						<result candidate_ref="1" vote="326" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Where The Republican Compiler (Gettysburg, PA) lists the name "Sulphur Springs," The Adams Centinel (Gettysburg, PA) lists "Petersburg." Both of these names refer to the area presently known as York Springs Borough.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  October 18, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 18, 1820.</reference>
+</election_record>

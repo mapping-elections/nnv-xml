@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1815 Sheriff, Prince George's County" type="General" iteration="First Ballot" date="1815" election_id="md.sheriff.prince.georges.county.1815" handle="10427/58195" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Basil Bowling" name_id="BB0011" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Isaac" name_id="IJ0045" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Coe, Jr." name_id="CS0245" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-26">
+				<candidate_summary candidate_ref="1" vote_total="721" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="499" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="246" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14699" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Prince George's" geog_id="mds_princegeorges">
+					<result candidate_ref="1" vote="721" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="499" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="246" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14699" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14699">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

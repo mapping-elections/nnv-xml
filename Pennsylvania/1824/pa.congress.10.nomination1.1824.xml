@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 U.S. House of Representatives, District 10, Republican Nomination" type="Legislative" iteration="First Ballot" date="1824" election_id="pa.congress.10.nomination1.1824" handle="10427/65748" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Gardner" name_id="GJ0533" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James S. Mitchell" name_id="MJ1038" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Kauffelt" name_id="KJ0284" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Frederick Eichelberger" name_id="EF0001" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Jacob Spangler" name_id="SJ1261" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-22">
+				<candidate_summary candidate_ref="1" vote_total="20" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="15" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">James S. Mitchell would win on the second ballot and would end up unopposed for Congress in the October election.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<sub_unit type="null" name="Convention" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  September 23, 1824.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 Director of the Poor, Chester County" type="General" iteration="First Ballot" date="1805-10" election_id="pa.directorofthepoor.chester.1805" handle="10427/61533" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Joseph Pearson, Jr." name_id="PJ0502" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Jones" name_id="JS0077" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Eber Worthington" name_id="WE0137" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Samuel Stringfellow" name_id="SS0262" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-02">
+				<candidate_summary candidate_ref="1" vote_total="2738" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2737" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2412" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2411" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05986" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2738" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2737" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2412" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2411" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05986" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05986">United States' Gazette (Philadelphia, PA).  October 17, 1805.</reference>
+</election_record>

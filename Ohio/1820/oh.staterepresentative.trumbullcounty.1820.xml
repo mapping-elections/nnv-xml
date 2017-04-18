@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 House of Representatives, Trumbull County" type="General" iteration="First Ballot" date="1820-10" election_id="oh.staterepresentative.trumbullcounty.1820" handle="10427/59850" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Elisha Whittlesey" name_id="WE0121" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Dan Eaton" name_id="ED0019" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Calvin Cone" name_id="CC0087" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Edward Scofield" name_id="SE0098" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Thomas D. Webb" name_id="WT0184" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Henry Manning" name_id="MH0089" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Eli Baldwin" name_id="BE0250" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-07">
+				<candidate_summary candidate_ref="1" vote_total="985" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="809" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="624" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="476" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="204" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05303" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="985" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="809" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="624" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="476" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="204" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<result candidate_ref="7" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05303" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Canfield" geog_id="null">
+						<result candidate_ref="1" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19470" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05303">The Western Reserve Chronicle (Warren, OH).  October 19, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Cleaveland Herald (Cleveland, OH).  October 31, 1820.</reference>
+</election_record>

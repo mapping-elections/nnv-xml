@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1821 Assessor, Salem, Ballot 2" type="General" iteration="Second Ballot" date="1821-03" election_id="ma.assessor.salem.2.1821" handle="10427/79143" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Town">
+		<role title="Assessor" scope="Town">
+			<ballot>
+				<candidate name="Jonathan Perley" name_id="PJ0617" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Lambert" name_id="LJ0584" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jonathan Archer" name_id="AJ0117" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Odell" name_id="OJ0025" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-05">
+				<candidate_summary candidate_ref="1" vote_total="145" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="81" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="43" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="38" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On the first balloting for Assessors, Messrs. Samuel Holman, Jr. and James Ropes, of last year's board, were re elected, but there was no choice of a third, and the meeting adjourned to half past 2 o'clock. At the adjournment the balloting was renewed for a third Assessor, but there being still no choice, the further proceeding was postponed to the other business of the meeting."  Salem Gazette (Salem, MA).  March 13, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Salem" geog_id="null">
+					<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="38" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Salem Gazette (Salem, MA).  March 13, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  March 14, 1821.</reference>
+</election_record>

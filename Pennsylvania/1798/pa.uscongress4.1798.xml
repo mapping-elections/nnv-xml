@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1798-10" election_id="pa.uscongress4.1798" handle="10427/60950" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Robert Brown" name_id="BR0106" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Muhlenberg" name_id="MP0089" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Chapman" name_id="CJ0685" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Jacob Eyerly" name_id="EJ0166" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Anthony Morris" name_id="MA0209" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-06">
+				<candidate_summary candidate_ref="1" vote_total="5372" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4935" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3605" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3288" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="78" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00167" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05550" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05565" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Claypoole's American Daily Advertiser (Philadelphia, PA) reports 5362 total votes for Robert Brown and 2996 total votes for Jacob Eyerly.</note>
+				<note resp="Philip Lampi">Der Unpartheyische Readinger Adler (Reading, PA) reports 5109 total votes for Robert Brown.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="5372" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="4935" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3605" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3288" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="78" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bucks" geog_id="null">
+						<result candidate_ref="1" vote="1118" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1022" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1391" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1314" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Porcupine's Gazette (Philadelphia, PA) reports 1017 votes for Peter Muhlenberg.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="1759" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1762" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1454" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1452" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Der Unpartheyische Readinger Adler (Reading, PA) reports 1575 votes for Robert Brown.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Northampton" geog_id="null">
+						<result candidate_ref="1" vote="2495" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2151" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="760" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="522" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Der Unpartheyische Readinger Adler (Reading, PA) reports 2416 votes for Robert Brown.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05550">Porcupine's Gazette (Philadelphia, PA).  October 15, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 17, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05565">Der Unpartheyische Readinger Adler (Reading, PA).  October 30, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Universal Gazette (Philadelphia, PA).  November 1, 1798.</reference>
+</election_record>

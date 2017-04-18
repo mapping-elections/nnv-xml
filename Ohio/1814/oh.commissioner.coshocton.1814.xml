@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 Commissioner, Coshocton County" type="General" iteration="First Ballot" date="1814-10" election_id="oh.commissioner.coshocton.1814" handle="10427/59430" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Isaac Draper" name_id="DI0042" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="James Miskimen" name_id="MJ0181" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-17">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Coshocton" geog_id="ohs_coshocton">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Hardy" geog_id="null">
+                        <result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Linton" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="New Castle" geog_id="null">
+                        <result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Oxford" geog_id="null">
+                        <result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Hardy Township, Coshocton County Election Returns.  Ebay Item #302503249, Auction Ended, April 16, 2000.</reference>
+    <reference type="citation" resp="Philip Lampi">Original Linton Township, Coshocton County Election Returns.  Ebay Item #381123305, Auction Ended, July 22, 2000.</reference>
+    <reference type="citation" resp="Philip Lampi">Original New Castle Township, Coshocton County Election Returns.  Ebay Item #237210329, Auction Ended, January 23, 2000.</reference>
+</election_record>

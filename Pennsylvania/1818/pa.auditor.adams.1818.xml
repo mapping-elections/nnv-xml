@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Auditor, Adams County" type="General" iteration="First Ballot" date="1818" election_id="pa.auditor.adams.1818" handle="10427/67841" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Peter Mark" name_id="MP0108" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Zephaniah Herbert" name_id="HZ0005" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-13">
+				<candidate_summary candidate_ref="1" vote_total="1149" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="657" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1149" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="657" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Petersburg" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sulphur Springs" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1818.</reference>
+</election_record>

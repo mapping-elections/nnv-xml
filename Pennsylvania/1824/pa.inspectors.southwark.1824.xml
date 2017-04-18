@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Inspector of the General Election, Philadelphia County, Southwark District" type="General" iteration="First Ballot" date="1824" election_id="pa.inspectors.southwark.1824" handle="10427/65818" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="Richard Palmer" name_id="PR0086" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Lemuel Paynter" name_id="PL0028" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Benjamin Martin" name_id="MB0052" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Turner" name_id="TJ0565" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William Hook" name_id="HW0364" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="John R. MacMullin" name_id="MJ1133" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Jesse Williamson" name_id="WJ0821" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="Thomas Sparks" name_id="ST0080" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-11-02">
+				<candidate_summary candidate_ref="1" vote_total="362" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="361" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="359" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="358" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="277" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="275" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="275" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="265" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="District" name="Southwark" geog_id="null">
+						<result candidate_ref="1" vote="362" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="361" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="359" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="358" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="277" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="275" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="275" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="265" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 2, 1824.</reference>
+</election_record>

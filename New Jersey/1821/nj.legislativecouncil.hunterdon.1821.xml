@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1821 Legislative Council, Hunterdon County" type="General" iteration="First Ballot" date="1821" election_id="nj.legislativecouncil.hunterdon.1821" handle="10427/68693" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Elnathan Stevenson" name_id="SE0033" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Stout" name_id="SD0216" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-15">
+				<candidate_summary candidate_ref="1" vote_total="3304" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Hunterdon" geog_id="null">
+					<result candidate_ref="1" vote="3304" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Alexandria" geog_id="null">
+						<result candidate_ref="1" vote="340" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Amwell" geog_id="null">
+						<result candidate_ref="1" vote="890" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bethlehem" geog_id="null">
+						<result candidate_ref="1" vote="273" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="326" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Kingwood" geog_id="null">
+						<result candidate_ref="1" vote="347" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lawrence" geog_id="null">
+						<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="322" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Readington" geog_id="null">
+						<result candidate_ref="1" vote="224" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tewksbury" geog_id="null">
+						<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Trenton" geog_id="null">
+						<result candidate_ref="1" vote="332" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 Assembly, Suffolk County" type="General" iteration="First Ballot" date="1813" election_id="ny.assembly.suffolk.1812" handle="10427/25760" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Henry Rhodes" name_id="RH0054" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="Caleb Smith" name_id="SC0061" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+           <candidate name="Benjamin F. Thompson" name_id="TB0008" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+           <candidate name="John Woodhull" name_id="WJ0460" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+           <candidate name="William Blydenburgh" name_id="BW0214" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+           <candidate name="John Jermain" name_id="JJ0143" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+           <candidate name="Nathaniel Potter" name_id="PN0048" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2012-05-16">
+           <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Suffolk" geog_id="null">
+              <result candidate_ref="1" resp="Philip Lampi"/>
+              <result candidate_ref="2" resp="Philip Lampi"/>
+              <result candidate_ref="3" resp="Philip Lampi"/>
+              <result candidate_ref="4" resp="Philip Lampi"/>
+              <result candidate_ref="5" resp="Philip Lampi"/>
+              <result candidate_ref="6" resp="Philip Lampi"/>
+              <result candidate_ref="7" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Brookhaven" geog_id="null">
+                <result candidate_ref="1" vote="271" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="270" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="260" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="114" resp="Philip Lampi"/>
+                <result candidate_ref="5" vote="113" resp="Philip Lampi"/>
+                <result candidate_ref="6" vote="113" resp="Philip Lampi"/>
+                <result candidate_ref="7" vote="8" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="East Hampton" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Huntington" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Islip" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Riverhead" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Shelter Island" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Smithtown" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Southampton" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Southold" geog_id="null">
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Brookhaven Town Records.  160-161.</reference>
+</election_record>
+

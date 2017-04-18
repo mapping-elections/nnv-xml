@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1811 House of Commons, Bertie County" type="General" iteration="First Ballot" date="1811" election_id="nc.houseofcommons.bertie.1811" handle="10427/43258" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="David Stone" name_id="SD0075" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Sparkman" name_id="SW0157" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Worley" name_id="WT0146" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Myles Rayner" name_id="RM0018" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joseph Jordan, Jr." name_id="JJ0152" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-03">
+				<candidate_summary candidate_ref="1" vote_total="589" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="312" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="296" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="236" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="150" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04891" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Bertie" geog_id="null">
+					<result candidate_ref="1" vote="589" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="312" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="296" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="236" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="150" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04891" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04891">The Edenton Gazette (Edenton, NC).  August 13, 1811.</reference>
+</election_record>

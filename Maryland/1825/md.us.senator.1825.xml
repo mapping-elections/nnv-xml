@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1825 U.S. Senate" type="Legislative" iteration="First Ballot" date="1825" election_id="md.us.senator.1825" handle="10427/26030" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Edward Lloyd" name_id="LE0016" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ezekiel F. Chambers" name_id="CE0066" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-21">
+				<candidate_summary candidate_ref="1" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="34" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09778" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09779" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Edward Lloyd has been re-elected a Senator of the United States, from the state of Maryland for six years, from the 4th of March next. Mr. Lloyd received 54, and Mr. E.F. Chambers 34 votes."  The National Republican and Ohio Political Register (Cincinnati, OH).  February 15, 1825.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09778" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09779" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09778">Alexandria Gazette (Alexandria, VA).  January 27, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reservoir and Public Reflector (Fredericktown, MD).  January 31, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09779">The National Republican and Ohio Political Register (Cincinnati, OH).  February 15, 1825.</reference>
+</election_record>

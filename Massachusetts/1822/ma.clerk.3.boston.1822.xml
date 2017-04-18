@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 Clerk, Boston, Ward 3" type="General" iteration="First Ballot" date="1822" election_id="ma.clerk.3.boston.1822" handle="10427/79246" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk" office_id="ON023" scope="Ward">
+		<role title="Clerk" scope="Ward">
+			<ballot>
+				<candidate name="Caleb H. Snow" name_id="SC0168" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="J. Farrie, Jr." name_id="FJ0441" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-04-13">
+				<candidate_summary candidate_ref="1" vote_total="134" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="scs">
+				<sub_unit type="City" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  April 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 11, 1822.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1804 House of Representatives, Danbury, First Representative" type="General" iteration="First Ballot" date="1804" election_id="ct.representative1.firstballot.danbury.september.1804" handle="10427/17837" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Daniel N. Carrington" name_id="CD0005" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel H. Phillips" name_id="PS0004" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Clark" name_id="CJ0048" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Epaphras W. Bull" name_id="BE0011" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-09">
+				<candidate_summary candidate_ref="1" vote_total="204" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="196" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01522" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Danbury" geog_id="null">
+					<result candidate_ref="1" vote="204" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="196" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01522" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New England Republican (Danbury, CT).  September 19, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01522">Connecticut Herald (New Haven, CT).  September 25, 1804.</reference>
+</election_record>

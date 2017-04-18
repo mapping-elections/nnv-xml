@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1787 State Senate, Dukes and Nantucket Counties" type="General" iteration="First Ballot" date="1787-04" election_id="ma.statesenate.dukesnantucket.1787" handle="10427/80071" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Matthew Mayhew" name_id="MM0115" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Cooke" name_id="CT0221" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-12-08">
+				<candidate_summary candidate_ref="1" vote_total="155" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="62" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 95.  Make a choice, 48."  Governor's Council Records.</note>
+				<note resp="Philip Lampi">Massachusetts law required a majority to elect.  Matthew Mayhew would subsequently be elected by the Massachusetts General Court.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="District" name="Dukes and Nantucket" geog_id="null">
+					<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="62" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dukes" geog_id="null">
+						<sub_unit type="Town" name="Chilmark" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Edgartown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Tisbury" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Nantucket" geog_id="null">
+						<sub_unit type="Town" name="Sherburn" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+</election_record>

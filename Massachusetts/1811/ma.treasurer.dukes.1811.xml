@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1811 Treasurer, Dukes County" type="General" iteration="First Ballot" date="1811" election_id="ma.treasurer.dukes.1811" handle="10427/69290" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="County">
+		<role title="Treasurer" scope="County">
+			<ballot>
+				<candidate name="Thomas Dunham" name_id="DT0023" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas Jernigan" name_id="JT0084" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Hancock" name_id="HJ0325" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Samuel Smith" name_id="SS0083" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-07">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Samuel Smith was a candidate for Register of Deeds.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Dukes" geog_id="null">
+					<sub_unit type="Town" name="Chilmark" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Edgartown" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Tisbury" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Tisbury Town Records.  354.</reference>
+</election_record>

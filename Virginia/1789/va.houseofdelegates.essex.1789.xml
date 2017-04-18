@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1789 House of Delegates, Essex County" type="General" iteration="First Ballot" date="1789" election_id="va.houseofdelegates.essex.1789" handle="10427/32387" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="James Upshaw" name_id="UJ0020" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Richard Banks" name_id="BR0154" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George W. Smith" name_id="SG0170" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-25">
+				<candidate_summary candidate_ref="1" vote_total="242" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="216" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08241" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Essex" geog_id="null">
+					<result candidate_ref="1" vote="242" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="216" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="172" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08241" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08241">Essex County Deeds.  Book 33.  185-190.</reference>
+</election_record>

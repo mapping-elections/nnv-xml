@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Trustee of the Academy, Erie County" type="General" iteration="First Ballot" date="1823" election_id="pa.trustee.erie.1823" handle="10427/65868" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="Thomas Forster" name_id="FT0075" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Conrad Brown" name_id="BC0142" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Cochran" name_id="CJ0585" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-10">
+				<candidate_summary candidate_ref="1" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="117" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Erie" geog_id="null">
+					<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="117" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Beaverdam" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Elkcreek" geog_id="null">
+						<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Erie and Millcreek" geog_id="null">
+						<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairview" geog_id="null">
+						<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="McKain" geog_id="null">
+						<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="North East" geog_id="null">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Venango" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Erie Gazette (Erie, PA).  October 23, 1823.</reference>
+</election_record>

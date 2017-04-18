@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1813 State Senate, Carter and Washington Counties" type="General" iteration="First Ballot" date="1813" election_id="tn.statesenate.3.1813" handle="10427/20784" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Matthew Stephenson" name_id="SM0148" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-04-28">
+				<candidate_summary candidate_ref="1" vote_total="874" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08076" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="District" name="Carter and Washington" geog_id="null">
+					<result candidate_ref="1" vote="874" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08076" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Carter" geog_id="null">
+						<result candidate_ref="1" vote="323" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08076" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="551" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08076" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08076">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 House of Representatives, Union County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.assembly.union.1815" handle="10427/62872" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Ner Middleswarth" name_id="MN0070" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Brobst" name_id="BJ1213" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Willet" name_id="WR0139" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Daniel Caldwell" name_id="CD0178" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Maclay" name_id="MJ1068" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-15">
+				<candidate_summary candidate_ref="1" vote_total="728" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="694" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="638" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="634" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06796" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06797" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Pennsylvania, like several other states, sometimes conducted a state census and then re-apportioned Assembly districts. In 1815, Columbia, Union, and Northumberland, which had voted together from 1812-1814, were given their own Assembly members. Columbia elected one member, while Northumberland and Union each chose two members.</note>
+				<note resp="Philip Lampi">John Maclay was a candidate listed in the September 29th issue of the Northumberl. Republicaner, und Northumberland, Union und Columbia Counties Adverteiser (Sunbury, PA) but returns for him were not reported in the October 20th issue. It is most likely that he declined election, and was replaced by John Brobst.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Union" geog_id="null">
+					<result candidate_ref="1" vote="728" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="694" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="638" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="634" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06796" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06797" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06796">Northumberl. Republicaner, und Northumberland, Union und Columbia Counties Adverteiser (Sunbury, PA).  September 29, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06797">Northumberl. Republicaner, und Northumberland, Union und Columbia Counties Adverteiser (Sunbury, PA).  October 20, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Linn, John Blair, ed.  Annals of Buffalo Valley, Pennsylvania: 1755-1855.  Harrisburg: Lane S. Hart, 1877.  558.</reference>
+</election_record>

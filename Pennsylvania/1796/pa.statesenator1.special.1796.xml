@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 State Senate, District 1, Special" type="Special" iteration="First Ballot" date="1796-04" election_id="pa.statesenator1.special.1796" handle="10427/66129" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Benjamin R. Morgan" name_id="MB0074" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Morgan" name_id="MJ0830" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-22">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The election was held to fill the vacancy occasioned by the resignation of Joseph Thomas. Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  April 22, 1796.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<sub_unit type="County" name="Delaware" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="1090" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="460" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  April 22, 1796.</reference>
+</election_record>

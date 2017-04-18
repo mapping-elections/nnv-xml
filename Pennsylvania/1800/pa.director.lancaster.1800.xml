@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Director of the Poor, Lancaster County" type="General" iteration="First Ballot" date="1800" election_id="pa.director.lancaster.1800" handle="10427/61132" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="George Musser" name_id="MG0077" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="James Morrison" name_id="MJ0861" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Michael Musser" name_id="MM0058" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Matthias Miller" name_id="MM0059" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-17">
+				<candidate_summary candidate_ref="1" vote_total="2312" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2303" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1845" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1842" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lancaster" geog_id="null">
+					<result candidate_ref="1" vote="2312" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2303" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1845" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1842" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Elizabeth" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="142" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+					</sub_unit>				
+					<sub_unit type="Township" name="Ephrata" geog_id="null">
+						<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="200" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Lancaster" geog_id="null">
+						<result candidate_ref="1" vote="744" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="741" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="693" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="694" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Manheim" geog_id="null">
+						<result candidate_ref="1" vote="285" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="285" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="162" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="New Holland" geog_id="null">
+						<result candidate_ref="1" vote="465" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="459" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="259" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="255" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Strasburg" geog_id="null">
+						<result candidate_ref="1" vote="328" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="328" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="159" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+					</sub_unit>			
+					<sub_unit type="Populated Place" name="Unicorn" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="230" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="230" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05669" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05669">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 22, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 25, 1800.</reference>
+</election_record>

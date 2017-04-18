@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 House of Representatives, South Hadley" type="General" iteration="First Ballot" date="1816" election_id="ma.staterepresentative.southhadley.1816" handle="10427/78853" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Peter Allen" name_id="AP0023" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elihu Dwight" name_id="DE0096" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Ebenezer Collins, Jr." name_id="CE0198" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-24">
+				<candidate_summary candidate_ref="1" vote_total="36" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="South Hadley" geog_id="null">
+					<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">South Hadley Town Records.  175.</reference>
+</election_record>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1815 Sheriff, Washington County" type="General" iteration="First Ballot" date="1815" election_id="md.sheriff.washington.county.1815" handle="10427/26654" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Daniel Schnebly" name_id="SD0054" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Archibald M. Waugh" name_id="WA0027" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Jacob Barr" name_id="BJ0387" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Thomas Quautrill" name_id="QT0003" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Jacob Kessinger" name_id="KJ0045" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-26">
+				<candidate_summary candidate_ref="1" vote_total="1369" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1066" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="822" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="684" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="122" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02970" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14699" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Federal Republican lists 1995 votes for Archibald M. Waugh.</note>
+				<note resp="Philip Lampi">The Maryland Herald lists 138 votes for Jacob Kessinger.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Washington" geog_id="mds_washington">
+					<result candidate_ref="1" vote="1369" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1066" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="822" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="684" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="122" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Fierys" geog_id="null">
+						<result candidate_ref="1" vote="270" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hagerstown" geog_id="null">
+						<result candidate_ref="1" vote="674" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="299" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="357" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hancock" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Sharpsburg" geog_id="null">
+						<result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="529" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="385" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="14" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Stovers" geog_id="null">
+						<result candidate_ref="1" vote="220" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14699">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Herald, and Hager's-Town Weekly Advertiser (Hagerstown, MD).  October 4, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02970">Federal Republican (Georgetown, DC).  October 6, 1815.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 Assistant Assessor, Boston, Ward 3" type="General" iteration="First Ballot" date="1809-04" election_id="ma.assistantassessor.boston.ward3.1809" handle="10427/69128" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Assessor" office_id="ON007" scope="Town">
+		<role title="Assistant Assessor" scope="Ward">
+			<ballot>
+				<candidate name="Mitchell Lincoln" name_id="LM0039" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Wells" name_id="WJ0274" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="unknown" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-11">
+				<candidate_summary candidate_ref="1" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="74" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="74" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Last year the federal had 64, the demo. 102."  Boston Gazette (Boston, MA).  April 6, 1809.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="74" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  April 6, 1809.</reference>
+</election_record>

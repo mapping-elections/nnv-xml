@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Inspector of the General Election, Philadelphia City, Penn Township" type="General" iteration="First Ballot" date="1816-09" election_id="pa.inspector.penn.1816" handle="10427/66996" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="George Meyers" name_id="MG0123" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-26">
+				<candidate_summary candidate_ref="1" vote_total="37" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">George Meyers is elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Penn" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 2, 1816.</reference>
+</election_record>

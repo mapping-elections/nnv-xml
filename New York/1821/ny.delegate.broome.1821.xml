@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record label="New York 1821 Constitutional Convention, Broome County" type="General" iteration="First Ballot" date="1821" election_id="ny.delegate.broome.1821" handle="10427/66744" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="Charles Pumpelly" name_id="PC0051" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Eleazer Dana" name_id="DE0041" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-26">
+				<candidate_summary candidate_ref="1" vote_total="981" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="435" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Broome" geog_id="null">
+					<result candidate_ref="1" vote="981" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="435" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Berkshire" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chenango" geog_id="null">
+						<result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Lisle" geog_id="null">
+						<result candidate_ref="1" vote="259" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Owego" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="192" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Windsor" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

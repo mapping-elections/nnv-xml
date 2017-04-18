@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1823 House of Representatives, Cushing and Saint George" type="General" iteration="First Ballot" date="1823-09" election_id="me.staterepresentative.cushing.1823" handle="10427/80126" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="John Watts" name_id="WJ1129" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Robert MacIntyre" name_id="MR0235" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2016-01-04">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="Town" name="Cushing and Saint George" geog_id="null">
+                    <sub_unit type="Town" name="Cushing" geog_id="null">
+                        <result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Saint George" geog_id="null">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Aiken, Ruth J., ed.  Records of the Lower St. Georges and Cushing, Maine: 1605-1897.  Cushing, ME: Driftwood Farm, 1987.  51.</reference>
+</election_record>

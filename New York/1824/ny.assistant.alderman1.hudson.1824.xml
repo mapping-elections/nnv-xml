@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assistant Alderman, Hudson, Ward 1" type="General" iteration="First Ballot" date="1824" election_id="ny.assistant.alderman1.hudson.1824" handle="10427/65650" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Alderman" office_id="ON006" scope="City">
+		<role title="Assistant Alderman" scope="Ward">
+			<ballot>
+				<candidate name="Alexander G. Coffin" name_id="CA0029" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John R. Hollenbeck" name_id="HJ0452" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="G. Coventry" name_id="CG0057" affiliation="supported by both parties" affiliation_id="A10" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="214" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="147" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Hudson" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="147" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-York American (New York, NY).  April 9, 1824.</reference>
+</election_record>

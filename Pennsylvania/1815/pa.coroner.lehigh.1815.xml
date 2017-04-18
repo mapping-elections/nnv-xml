@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Coroner, Lehigh County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.coroner.lehigh.1815" handle="10427/62848" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Peter Newhart" name_id="NP0016" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Gehr" name_id="GJ0476" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jacob Blumer" name_id="BJ0790" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-01">
+				<candidate_summary candidate_ref="1" vote_total="1359" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="774" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06762" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06764" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Der Northampton Correspondent (Easton, PA) lists the name "John Lehr" in place of "John Gehr".  October 13, 1815.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="1359" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="774" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Allentown" geog_id="null">
+						<result candidate_ref="1" vote="664" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="344" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="175" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06762" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Grimms" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06762" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Heidelberg" geog_id="null">
+						<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="59" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06762" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06762" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06762">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Northampton Correspondent (Easton, PA).  October 13, 1815.</reference>
+</election_record>

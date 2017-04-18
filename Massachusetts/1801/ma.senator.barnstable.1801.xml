@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1801 State Senate, Barnstable County" type="General" iteration="First Ballot" date="1801" election_id="ma.senator.barnstable.1801" handle="10427/68801" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="John Dillingham" name_id="DJ0176" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="David Scudder" name_id="SD0011" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+                <candidate name="Solomon Freeman" name_id="FS0022" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-07-29">
+                <candidate_summary candidate_ref="1" vote_total="685" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"No. Voters, 1072.  Make a choice, 537."  Governor's Council Records.</note>
+                <note resp="Philip Lampi">Massachusetts law required a majority to elect.  Timothy Bigelow and Eleazer Brooks would subsequently be elected by the Massachusetts General Court.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="County" name="Barnstable" geog_id="null">
+                    <result candidate_ref="1" vote="685" resp="Philip Lampi"/>
+                    <sub_unit type="Town" name="Barnstable" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Brewster" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Chatham" geog_id="null">
+                        <result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Dennis" geog_id="null">
+                        <result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Eastham" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Falmouth" geog_id="null">
+                        <result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Harwich" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Orleans" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Provincetown" geog_id="null">
+                        <result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Sandwich" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Truro" geog_id="null">
+                        <result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Wellfleet" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Yarmouth" geog_id="null">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+    <reference type="citation" resp="Philip Lampi">Chatham Town Records.  132.</reference>
+    <reference type="citation" resp="Philip Lampi">Falmouth Town Records.  360.</reference>
+    <reference type="citation" resp="Philip Lampi">Provincetown Town Records.  52.</reference>
+    <reference type="citation" resp="Philip Lampi">Truro Town Records.  126.</reference>
+    <reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  April 14, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">The Newburyport Herald and Country Gazette (Newburyport, MA).  May 19, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">Thomas's Massachusetts Spy: Or, The Worcester Gazette (Worcester, MA).  May 20, 1801.</reference>
+</election_record>
+

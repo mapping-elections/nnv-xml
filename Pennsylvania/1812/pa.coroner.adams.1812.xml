@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Coroner, Adams County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.coroner.adams.1812" handle="10427/62418" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Samuel Galloway" name_id="GS0091" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Troxel, Jr." name_id="TJ0480" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Shorb" name_id="SJ1229" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Bernhart Gilbert" name_id="GB0053" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-15">
+				<candidate_summary candidate_ref="1" vote_total="1437" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1437" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="574" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="550" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06515" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1437" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1437" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="574" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="550" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06515" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06515">The Centinel (Gettysburg, PA).  October 21, 1812.</reference>
+</election_record>

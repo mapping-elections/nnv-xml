@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Trustee of the Waterford Academy, Erie County" type="General" iteration="First Ballot" date="1819-10" election_id="pa.trustee.waterford.1819" handle="00000/00000" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="James Pollack" name_id="PJ0497" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Andrew Woodside" name_id="WA0198" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Benson" name_id="BW0320" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Henry Cott" name_id="CH0053" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-24">
+				<candidate_summary candidate_ref="1" vote_total="63" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="40" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="10" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Erie" geog_id="null">
+					<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="10" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Beaver Dam, LeBoeuff, and Waterford" geog_id="null">
+						<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="10" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Beaver Dam" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="LeBoeuff" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Waterford" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Brokenstraw and Union" geog_id="null">
+						<sub_unit type="Township" name="Brokenstraw" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Union" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Coniaute" geog_id="null">
+					</sub_unit>
+					<sub_unit type="District" name="Conniat and Elk Creek" geog_id="null">
+						<sub_unit type="Township" name="Conniat" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Elk Creek" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Erie and Mill Creek" geog_id="null">
+						<sub_unit type="Borough" name="Erie" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Mill Creek" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairview" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Township" name="Greenfield" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Township" name="Harbor Creek" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Township" name="MacKeans" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Township" name="North East" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Township" name="Springfield" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Township" name="Venango" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

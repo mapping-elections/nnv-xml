@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Sheriff, Allegheny County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.sheriff.allegheny.1816" handle="10427/66820" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Lazarus Stewart" name_id="SL0053" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Davis" name_id="DH0052" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="1499" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1318" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" vote="1499" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1318" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Deer" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Elizabeth" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Indiana" geog_id="null">
+						<result candidate_ref="1" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Moon" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Ohio" geog_id="null">
+						<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pine" geog_id="null">
+						<result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pitt" geog_id="null">
+						<result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Pittsburgh" geog_id="null">
+						<result candidate_ref="1" vote="556" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="330" resp="Philip Lampi"/>
+						<sub_unit type="District" name="One" geog_id="null">
+							<result candidate_ref="1" vote="343" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="181" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Two" geog_id="null">
+							<result candidate_ref="1" vote="213" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Plumb" geog_id="null">
+						<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Robinson" geog_id="null">
+						<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Ross" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Clair" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Versailles" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>				
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsburgh Mercury (Pittsburgh, PA).  October 19, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  October 22, 1816.</reference>
+</election_record>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 House of Representatives, Worcester, First Representative" type="General" iteration="First Ballot" date="1804-05" election_id="ma.staterepresentative1.worcester.1804" handle="10427/27499" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Samuel Flagg" name_id="FS0020" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Heywood" name_id="HB0067" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Frances Blake" name_id="BF0019" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Curtis" name_id="CS0036" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Edward Bangs" name_id="BE0170" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-24">
+				<candidate_summary candidate_ref="1" vote_total="93" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="23" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Worcester" geog_id="null">
+					<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03468" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03468">Worcester Town Records.  76.</reference>
+	<reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  May 10, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  May 10, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsfield Sun (Pittsfield, MA).  May 14, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 4, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Spy (Springfield, MA).  June 11, 1804.</reference>
+</election_record>

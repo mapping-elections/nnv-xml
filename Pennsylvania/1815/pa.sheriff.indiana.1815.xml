@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Sheriff, Indiana County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.sheriff.indiana.1815" handle="10427/62839" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas Sutton" name_id="ST0226" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Shields" name_id="SW0251" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="J. Wallace" name_id="WJ0781" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Andrew Wilkins" name_id="WA0149" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="A. Speers" name_id="SA0237" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="H. Coleman" name_id="CH0059" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Kay" name_id="KJ0262" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-22">
+				<candidate_summary candidate_ref="1" vote_total="350" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="270" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="261" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="91" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="55" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="11" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06753" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06754" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06755" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Indiana" geog_id="null">
+					<result candidate_ref="1" vote="350" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="270" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="261" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="137" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="91" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="55" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="11" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Centre" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="7" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06753" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="7" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06753" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06755">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06753">The Greensburgh Gazette (Greensburg, PA).  October 14, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">The Greensburgh Gazette (Greensburg, PA).  October 21, 1815.</reference>
+</election_record>

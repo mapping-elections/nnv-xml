@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1823 Constable, Philadelphia County, Spring Garden" type="General" iteration="First Ballot" date="1823-05" election_id="pa.constable.springgarden.1823" handle="10427/65939" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="Township">
+		<role title="Constable" scope="Township">
+			<ballot>
+				<candidate name="William Jones" name_id="JW0065" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Drum" name_id="DW0193" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Painter" name_id="PI0043" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Stoeffer" name_id="SJ1060" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-28">
+				<candidate_summary candidate_ref="1" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="101" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="77" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="29" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Spring Garden" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  May 6, 1823.</reference>
+</election_record>

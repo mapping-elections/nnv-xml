@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1788 U.S. Senate, Ballot 4" type="Legislative" iteration="Fourth Ballot" date="1788-11" election_id="ma.ussenate.ballot3.1788" handle="10427/68734" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Charles Jarvis" name_id="JC0015" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Azor Orne" name_id="OA0008" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Tristram Dalton" name_id="DT0022" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-02-21">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"The House then again proceeded to ballot for one Senator - when the Hon. Mr. Orne was non-concurred, and Charles Jarvis, Esq. a third time elected by the House and sent up [to the Senate]." The Hampshire Chronicle (Springfield, MA).  December 3, 1788.</note>
+				</sub_unit>
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"In the afternoon, the Senate sent another message to the House in which it appeared they had again non-concurred Dr. Jarvis and sent down, the Hon. Tristram Dalton." The Hampshire Chronicle (Springfield, MA).  December 3, 1788.</note>
+					<note resp="Philip Lampi">After the third ballot again failed to elect a candidate, Charles Jarvis read a statement and declined being considered a candidate.  A motion was then made to postpone the fourth ballot until the next session of the General Court, the vote being 69 yeas and 79 nays. The motion did not pass and the House proceeded to vote in the fourth ballot.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Hampshire Chronicle (Springfield, MA).  December 3, 1788.</reference>
+</election_record>

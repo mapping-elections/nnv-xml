@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1818 Sheriff, Randolph County" type="General" iteration="First Ballot" date="1818-09" election_id="il.sheriff.randolph.1818" handle="10427/56192" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="H. Conner" name_id="CH0033" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Stam, Jr." name_id="SG0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Levens" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-30">
+				<candidate_summary candidate_ref="1" vote_total="362" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11210"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Randolph" geog_id="null">
+					<result candidate_ref="1" vote="362" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11210"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11210">The Illinois Intelligencer (Kaskaskia, IL).  September 23, 1818.</reference>
+</election_record>

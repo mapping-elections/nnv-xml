@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1815 House of Delegates, Frederick County" type="General" iteration="First Ballot" date="1815-04" election_id="va.houseofdelegates.frederick.1815" handle="10427/33436" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Archibald Magill" name_id="MA0283" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Jared Williams" name_id="WJ1022" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William B. Page" name_id="PW0190" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John White" name_id="WJ1029" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-23">
+				<candidate_summary candidate_ref="1" vote_total="422" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="403" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="320" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="310" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08999" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09000" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09001" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Martinsburgh Gazette (Martinsburg, WV) lists Archibald Magill with 402 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Frederick" geog_id="null">
+					<result candidate_ref="1" vote="422" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="403" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="320" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="310" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08999" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09000" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09001" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08999">Frederick County Poll List.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09001">Martinsburgh Gazette (Martinsburg, WV).  April 6, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09000">Farmer's Repository (Charlestown, WV).  April 13, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Portland Gazette, and Maine Advertiser (Portland, ME).  April 24, 1815.</reference>
+</election_record>

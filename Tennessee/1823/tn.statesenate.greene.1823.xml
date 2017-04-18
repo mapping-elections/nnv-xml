@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1823 State Senate, Greene and Jefferson Counties" type="General" iteration="First Ballot" date="1823" election_id="tn.statesenate.greene.1823" handle="10427/65023" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="Joseph Hamilton" name_id="HJ1280" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Gass" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-26">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Greene and Jefferson" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Greene" geog_id="null">
+                        <result candidate_ref="1" vote="573" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="994" resp="Philip Lampi"/>
+                        <sub_unit type="Populated Place" name="Farnsworth's" geog_id="null">
+                            <result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Town" name="Greeneville" geog_id="null">
+                            <result candidate_ref="1" vote="321" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="469" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Town" name="Newmansville" geog_id="null">
+                            <result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="247" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Populated Place" name="Rinkers" geog_id="null">
+                            <result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="143" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Town" name="Warrensburg" geog_id="null">
+                            <result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">American Economist and East Tennessee Statesman (Greeneville, TN).  August 9, 1823.</reference>
+    <reference type="citation" resp="Philip Lampi">American Economist and East Tennessee Statesman (Greeneville, TN).  August 16, 1823.</reference>
+</election_record>

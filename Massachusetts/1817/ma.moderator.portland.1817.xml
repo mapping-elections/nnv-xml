@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1817 Moderator, Portland" type="General" iteration="First Ballot" date="1817-03" election_id="ma.moderator.portland.1817" handle="10427/78885" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Moderator" office_id="ON080" scope="Town">
+		<role title="Moderator" scope="Town">
+			<ballot>
+				<candidate name="Isaac Adams" name_id="AI0013" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Robert Lisley" name_id="LR0094" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-08-18">
+				<candidate_summary candidate_ref="1" vote_total="346" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="302" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Portland" geog_id="null">
+					<result candidate_ref="1" vote="346" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="302" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium and Commercial Advertiser (Boston, MA).  March 7, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 7, 1817.</reference>
+</election_record>

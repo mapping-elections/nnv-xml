@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 House of Representatives, Cambria and Somerset Counties" type="General" iteration="First Ballot" date="1812-10" election_id="pa.assembly.cambriasomersetcounties.1812" handle="10427/62436" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Hanna" name_id="HJ0902" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Stoy" name_id="SD0150" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Meloy" name_id="MJ1035" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Alexander Ogle" name_id="OA0029" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="John Wells" name_id="WJ0718" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-08">
+				<candidate_summary candidate_ref="1" vote_total="772" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="663" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Cambria and Somerset Counties" geog_id="null">
+					<result candidate_ref="1" vote="772" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="663" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="180" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="61" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06526" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="647" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="656" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06579" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06579">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06526">Storey, Henry Wilson.  History of Cambria County.  Vol. I.  New York: Lewis Publishing, 1907.  133.</reference>
+</election_record>

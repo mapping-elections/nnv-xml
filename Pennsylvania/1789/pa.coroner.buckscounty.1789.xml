@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Coroner, Bucks County" type="General" iteration="First Ballot" date="1789-10" election_id="pa.coroner.buckscounty.1789" handle="10427/60588" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Isaac Vanhorn" name_id="VI0017" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Hart" name_id="HJ0733" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hart" name_id="HW0323" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Shaw" name_id="SJ0261" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-18">
+				<candidate_summary candidate_ref="1" vote_total="1425" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1052" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="410" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="345" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05365" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Pennsylvania Archives, Sixth series, Volume XI lists 1475 votes for Isaac Vanhorn.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="1425" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1052" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="410" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="345" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="948" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="909" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="188" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Bensalem" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Borough" name="Bristol" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Bristol" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Buckingham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Falls" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Lower Makefield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Middletown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Newtown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Northampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Solebury" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Southampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Upper Makefield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Warminister" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Warrington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Warwick" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Wrightown" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="477" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="222" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="157" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05365">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  October 21, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">Montgomery, Thomas Lynch, ed.  Pennsylvania Archives, Sixth Series.  Vol. XI.  Harrisburg, PA: Harrisburg Publishing, 1907.  112-119.</reference>
+</election_record>

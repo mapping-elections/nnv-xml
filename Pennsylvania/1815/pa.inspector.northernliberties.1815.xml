@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Inspector of the General Election, Philadelphia City, Northern Liberties" type="General" iteration="First Ballot" date="1815-09" election_id="pa.inspector.northernliberties.1815" handle="10427/62897" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="John Baker" name_id="BJ0965" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Daniel Bickley" name_id="BD0146" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Frederick Hoeckley" name_id="HF0035" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Frederick Foering" name_id="FF0022" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Michael Ash" name_id="AM0018" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Thomas Smith" name_id="ST0246" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Jonathan Thomas" name_id="TJ0460" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="Sebastian Zimmerman" name_id="ZS0000" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-07">
+				<candidate_summary candidate_ref="1" vote_total="394" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="394" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="393" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="390" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="364" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="363" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="362" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="355" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06789" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+						<result candidate_ref="1" vote="394" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="394" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="393" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="390" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="364" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="363" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="362" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="355" resp="Philip Lampi"/>
+						<sub_unit type="Ward" name="East" geog_id="null">
+							<result candidate_ref="1" vote="207" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="205" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="204" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="203" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="177" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="176" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="175" resp="Philip Lampi"/>
+							<result candidate_ref="8" vote="170" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06789" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Ward" name="West" geog_id="null">
+							<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="189" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="189" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="187" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="187" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="187" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="187" resp="Philip Lampi"/>
+							<result candidate_ref="8" vote="185" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06789" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  September 30, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06789">United States' Gazette (Philadelphia, PA).  October 4, 1815.</reference>
+</election_record>

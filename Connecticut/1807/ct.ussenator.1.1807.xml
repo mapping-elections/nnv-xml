@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1807 U.S. Senate, Special" type="Legislative" iteration="First Ballot" date="1807" election_id="ct.ussenator.1.1807" handle="10427/79683" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Samuel W. Dana" name_id="DS0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected, declined.</note></candidate>
+				<candidate name="Asa Spalding" name_id="SA0001" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="David Humphrey" name_id="HD0000" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-22">
+				<candidate_summary candidate_ref="1" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="50" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="8" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Mr. Dana having declined serving in the place of Mr. Tracey, deceased, the duty again devolved on the Legislature to make another choice."  American Mercury (Hartford, CT).  November 5, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  October 13, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">True Republican (New London, CT).  October 21, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">True Republican (New London, CT).  November 4, 1807.</reference>
+</election_record>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 Sheriff, Rockland County" type="General" iteration="First Ballot" date="1822" election_id="ny.sheriff.rockland.1822" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/66862" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John B. Haring" name_id="HJ0625" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Abraham Stephens" name_id="SA0144" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Dowah D. Tallman" name_id="TD0037" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-31">
+				<candidate_summary candidate_ref="1" vote_total="530" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="387" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Rockland" geog_id="null">
+					<result candidate_ref="1" vote="530" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="387" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Clarkstown" geog_id="null">
+						<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Haverstraw" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hempstead" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+					</sub_unit>			
+					<sub_unit type="Town" name="Orangetown" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

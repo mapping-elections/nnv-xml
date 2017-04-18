@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1821 Sheriff, Cumberland County" type="General" iteration="First Ballot" date="1821" election_id="nj.sheriff.cumberland.1821" handle="10427/68699" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William R. Fithian" name_id="FW0112" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Seeley" name_id="SS0162" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Sheppard" name_id="SJ1183" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-16">
+				<candidate_summary candidate_ref="1" vote_total="738" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="738" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Deerfield" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Downe" geog_id="null">
+						<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greenwich" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Maurice River" geog_id="null">
+						<result candidate_ref="1" vote="280" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millville" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stoe Creek" geog_id="null">
+						<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi">Washington Whig (Bridgeton, NJ).  October 22, 1821.</reference>
+</election_record>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 State Senate, White County" type="General" iteration="First Ballot" date="1824-08" election_id="il.statesenate6.1824" handle="10427/56398" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Daniel Hay" name_id="HD0018" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin R. Smith" name_id="SB0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="372" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="309" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="White" geog_id="null">
+					<result candidate_ref="1" vote="372" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="309" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  207.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1808 Assessor, Albany, Ward 2" type="General" iteration="First Ballot" date="1808" election_id="ny.assessor.albany2.1808" handle="10427/66573" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="Joseph Russell" name_id="RJ0239" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="John I. Groesbeeck" name_id="GJ0234" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="James Gourley" name_id="GJ0235" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-12-26">
+           <candidate_summary candidate_ref="1" vote_total="107" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="59" resp="Philip Lampi"/>
+           <note resp="Philip Lampi">John I. Groesbeeckis elected without opposition.</note>
+           <note resp="Philip Lampi">"The Annual Election of Town Officers for the City of Albany, was held on Tuesday last -- In the first and third wards there was no opposition to the Federal candidates -- In the second there was a warm contest for several of the candidates -- and in the fourth two full tickets were supported -- the contest was long and animated -- every inch of ground was disputed -- the result was however most decidedly for the Federal candidates in both wards. A state of the poll is given."  The Albany Gazette (Albany, NY).  May 5, 1808.</note>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Albany" geog_id="null">
+              <sub_unit type="Ward" name="Two" geog_id="null">
+                <result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="59" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">The Albany Gazette (Albany, NY).  May 5, 1808.</reference>
+</election_record>
+

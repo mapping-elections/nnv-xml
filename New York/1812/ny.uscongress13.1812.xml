@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 U.S. House of Representatives, District 13" type="General" iteration="First Ballot" date="1812" election_id="ny.uscongress13.1812" handle="10427/25763" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Alexander Boyd" name_id="BA0140" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Gebhard" name_id="GJ0283" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Jesse Shephard" name_id="SJ0731" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="David Boyd" name_id="BD0086" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-03">
+				<candidate_summary candidate_ref="1" vote_total="1722" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1434" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="208" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00659" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Thirteen" geog_id="null">
+					<result candidate_ref="1" vote="1722" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1434" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="208" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Schenectady" geog_id="null">
+						<result candidate_ref="1" vote="657" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="568" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Duanesburgh" geog_id="null">
+							<result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Niskayuna" geog_id="null">
+							<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Princetown" geog_id="null">
+							<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="City" name="Schenectady" geog_id="null">
+							<result candidate_ref="1" vote="349" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="404" resp="Philip Lampi"/>
+							<sub_unit type="Ward" name="One" geog_id="null">
+								<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="Ward" name="Two" geog_id="null">
+								<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="Ward" name="Three" geog_id="null">
+								<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="Ward" name="Four" geog_id="null">
+								<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="128" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Schoharie" geog_id="null">
+						<result candidate_ref="1" vote="1065" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="866" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="207" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00659" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Cabinet (Schenectady, NY).  December 30, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00659">The Albany Register (Albany, NY) (Supplement).  January 26, 1813.</reference>
+</election_record>

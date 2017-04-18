@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 Commissioner, Montgomery County, 1 Year, Special" type="Special" iteration="First Ballot" date="1813-10" election_id="oh.commissioner.montgomery.1yr.1813" handle="10427/59357" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="David MacClure" name_id="MD0148" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Abraham Troxell" name_id="TA0020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Henry Jennings" name_id="JH0015" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David John" name_id="JD0005" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John H. Williams" name_id="WJ0556" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-05">
+				<candidate_summary candidate_ref="1" vote_total="357" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="263" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="25" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05188" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Special election to fill the seat of Abraham Brower, resigned.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+					<result candidate_ref="1" vote="357" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="263" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05188" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Dayton" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="German" geog_id="null">
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Madison" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Votes from Madison township did not indicate whether they were intended for the one year position or the three year position and were therefore not included in original totals.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Randolph" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Seven votes for MacClure did not indicate whether they were intended for the one year position or the three year position and were therefore not included in original totals.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="20" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Votes from Wayne township did not indicate whether they were intended for the one year position or the three year position and were therefore not included in original totals.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Abstract of Votes, Montgomery County.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05188">Ohio Republican (Dayton, OH).  October 25, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  98.</reference>
+</election_record>

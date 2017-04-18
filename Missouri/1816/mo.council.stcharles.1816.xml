@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1816 Legislative Council, Saint Charles County" type="General" iteration="First Ballot" date="1816" election_id="mo.council.stcharles.1816" handle="10427/56528" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON070" scope="Territory">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Benjamin Emmons" name_id="EB0011" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 1.1" modified="2008-01-02">
+				<candidate_summary candidate_ref="1" vote_total="373" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11376" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Saint Charles" geog_id="null">
+					<result candidate_ref="1" vote="373" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11376" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11376">Missouri Gazette (Saint Louis, MO).  August 24, 1816.</reference>
+</election_record>

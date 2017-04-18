@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1822 State Senate, Clark and Crawford Counties" type="General" iteration="First Ballot" date="1822-08" election_id="il.statesenate.clarkandcrawford.1822" handle="10427/56301" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Daniel Parker" name_id="PD0023" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward N. Cullom" name_id="CE0030" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Wilson" name_id="WW0043" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Prevo" name_id="PS0018" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="134" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="81" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="45" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"There was an election contest in this district.  On December 6, 1822, the senate dispensed with further consideration of it."  Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  196.</note>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Clark and Crawford" geog_id="null">
+					<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="81" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="45" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clark" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="25" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Achilles" geog_id="null">
+							<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Aurora" geog_id="null">
+							<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="17" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Crawford" geog_id="null">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="20" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Palestine" geog_id="null">
+							<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Union" geog_id="null">
+							<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="18" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  196.</reference>
+</election_record>

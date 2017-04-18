@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1788 U.S. Senate, Ballot 2" type="Legislative" iteration="Second Ballot" date="1788-12" election_id="md.ussenator.secondballot.1788" handle="10427/58003" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Charles Carroll" name_id="CC0012" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Uriah Forrest" name_id="FU0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-18">
+				<candidate_summary candidate_ref="1" vote_total="41" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="41" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"By a resolution of the general assembly it was declared that one senator should be a resident of the western, and the other of the eastern shore.  The honourable Charles Carroll, of Carrollton, and Uriah Forrest were put in nomination for the western shore and the honourable John Henry and George Gale, Esquires, for the eastern shore."  The Maryland Gazette (Annapolis, MD).  December 11, 1788.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Maryland Gazette (Annapolis, MD).  December 11, 1788.</reference>
+</election_record>

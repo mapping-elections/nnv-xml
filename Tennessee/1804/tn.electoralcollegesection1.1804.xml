@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1804 Electoral College, District 1" type="General" iteration="First Ballot" date="1804" election_id="tn.electoralcollegesection1.1804" handle="10427/64902" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="District">
+            <ballot>
+                <elector name="David Deaderick" name_id="DD0067" affiliation="Republican" affiliation_id="A03" declared_for="Thomas Jefferson" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-23">
+                <elector_summary elector_ref="1"  resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"In concurrence with the executive recommendation, a law was enacted on November 3, 1803, dividing the state into five sections and providing that each section was entitled to elect one elector who was empowered to cast his vote for President and Vice-President of the Unites States. The 'sections' as they were specified in the law were as follows: First; Greene, Washington, Carter, and Sullivan counties."  Messages of the Governors of Tennessee, 1796-1821</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="Four" geog_id="tns_hawkins">
+                    <sub_unit type="County" name="Carter" geog_id="tns_carter">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Greene" geog_id="tns_greene">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sullivan" geog_id="tns_sullivan">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Washington" geog_id="tns_washington">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                 </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">United States' Telegraph Extra (Washington, DC).  January 24, 1829.</reference>
+    <reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

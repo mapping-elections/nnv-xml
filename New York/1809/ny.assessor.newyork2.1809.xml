@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1809 Assessor, New York, Ward 2" type="General" iteration="First Ballot" date="1809" election_id="ny.assessor.newyork2.1809" handle="10427/68096" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="John Vernon" name_id="VJ0164" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="John Hyslop" name_id="HJ0508" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="William T. Slocum" name_id="SW0246" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2014-04-02">
+           <candidate_summary candidate_ref="1" vote_total="527" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="437" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="203" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="New York" geog_id="null">
+              <sub_unit type="Ward" name="Two" geog_id="null">
+                <result candidate_ref="1" vote="527" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="437" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="203" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Public Advertiser (New York, NY).  November 29, 1809.</reference>
+</election_record>
+
+

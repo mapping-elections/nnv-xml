@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 Commissioner, Adams County" type="General" iteration="First Ballot" date="1805-10" election_id="pa.commissioner.adams.1805" handle="10427/61520" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Jacob Cassat" name_id="CJ0774" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Bonner" name_id="BJ1050" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-01">
+				<candidate_summary candidate_ref="1" vote_total="632" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="624" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05966" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="632" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="624" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05966" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="266" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05966" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05966" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05966" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="188" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05966" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05966" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05966">The Centinel (Gettysburg, PA).  October 16, 1805.</reference>
+</election_record>

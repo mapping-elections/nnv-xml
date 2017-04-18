@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1810 House of Representatives, New Castle County, Special" type="Special" iteration="First Ballot" date="1810" election_id="de.stateassemblynewcastlespecial.1810" handle="10427/43912" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Englan" name_id="EJ0011" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Crow" name_id="CJ0116" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="405" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="153" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12075" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<result candidate_ref="1" vote="405" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12075" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"On Tuesday last an election was held at New Castle for choosing a representative in the legislature in the room of John Bird, resigned."  American Watchman; and Delaware Republican (Wilmington, DE).  January 20, 1810.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12075">American Watchman; and Delaware Republican (Wilmington, DE).  January 20, 1810.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1824 State Senate, Clay, Lillard and Ray Counties" type="General" iteration="First Ballot" date="1824" election_id="mo.statesenate.clay.ray.lillard.2.1824" handle="10427/56620" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Martin Parmer" name_id="PM0004" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Bell" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Rennick" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Ewing" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="210" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="District" name="Clay, Lillard and Ray" geog_id="null">
+					<result candidate_ref="1" vote="210" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clay" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Lillard" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Ray" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Missouri Intelligencer (Franklin, MO).  August 21, 1824.</reference>
+</election_record>

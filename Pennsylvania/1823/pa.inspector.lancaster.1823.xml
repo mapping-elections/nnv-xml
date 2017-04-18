@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Inspector of the General Election, Lancaster County, Lancaster" type="General" iteration="First Ballot" date="1823" election_id="pa.inspector.lancaster.1823" handle="10427/66354" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="City">
+			<ballot>
+				<candidate name="Martin Shreiner" name_id="SM0064" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Hensel" name_id="HW0167" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Jonas Dorwart" name_id="DJ0508" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Jacob Fordney" name_id="FJ0280" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-03">
+				<candidate_summary candidate_ref="1" vote_total="407" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="405" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="393" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="391" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lancaster" geog_id="null">
+					<sub_unit type="City" name="Lancaster" geog_id="null">
+						<result candidate_ref="1" vote="407" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="405" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="393" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="391" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 7, 1823.</reference>
+</election_record>

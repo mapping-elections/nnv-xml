@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1805 Sheriff, Montgomery County" type="General" iteration="First Ballot" date="1805-10" election_id="oh.sheriff.montgomery.1805" handle="10427/58963" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="George Newcom" name_id="NG0015" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="David Sawyer" name_id="SD0052" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-13">
+                <candidate_summary candidate_ref="1" vote_total="283" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="69" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Early Settlers of Montgomery County, Ohio lists this election as being held in April, 1806.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <result candidate_ref="1" vote="283" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Dayton" geog_id="null">
+                        <result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Elizabeth" geog_id="null">
+                        <result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="German" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Harding" geog_id="null">
+                        <result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Randolph" geog_id="null">
+                        <result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Montgomery County Election Returns.</reference>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  92.</reference>
+</election_record>

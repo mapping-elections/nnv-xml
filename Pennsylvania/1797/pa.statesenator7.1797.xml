@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1797 State Senate, District 7" type="General" iteration="First Ballot" date="1797-10" election_id="pa.statesenator7.1797" handle="10427/60902" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Samuel Postlethwaite" name_id="PS0079" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Whitehill" name_id="WR0153" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Irvine" name_id="IW0016" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-03">
+				<candidate_summary candidate_ref="1" vote_total="800" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="471" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="255" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00139" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05525" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<result candidate_ref="1" vote="800" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="471" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="255" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cumberland" geog_id="null">
+						<result candidate_ref="1" vote="800" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="471" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="255" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05525">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 18, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 19, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 24, 1797.</reference>
+</election_record>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1813 House of Representatives, Bath" type="General" iteration="First Ballot" date="1813" election_id="ma.staterepresentative.bath.1813" handle="10427/34087" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Andrew Greenwood" name_id="GA0015" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abram Hammatt" name_id="HA0055" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John M. Moody" name_id="MJ0356" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-29">
+				<candidate_summary candidate_ref="1" vote_total="157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="36" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03581" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Bath" geog_id="null">
+					<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="157" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="36" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03581" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Portland Gazette, and Maine Advertiser (Portland, ME).  May 10, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Boston Daily Advertiser (Boston, MA).  May 12, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03581">Daily Advertiser and Repertory (Boston, MA).  May 12, 1813.</reference>
+</election_record>

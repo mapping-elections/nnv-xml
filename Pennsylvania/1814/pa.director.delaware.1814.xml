@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Director of the Poor, Delaware County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.director.delaware.1814" handle="10427/67045" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="John Caldwell" name_id="CJ0731" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Powell" name_id="PJ0462" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" vote_total="732" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">During the War of 1812, there was some British military movement in and around the Chesapeake Bay area and in an attempt to prepare for any military actions that the British might take, there were a host of military camps set up in some of the counties close to the Chesapeake Bay and Philadelphia City. In the October 1814 Pennsylvania state elections, the members of the military camps native to Pennsylvania were allowed to vote. When the newspapers reported these returns they listed them under "camp" or "army" votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="732" resp="Philip Lampi"/>
+					<sub_unit type="null" name="First Regiment of Pennsylvania Volunteers" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<sub_unit type="null" name="Captain Anderson's Company" geog_id="null">
+							<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

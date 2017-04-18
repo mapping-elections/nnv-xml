@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Commissioner, Huntingdon County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.commissioner.huntingdon.1814" handle="10427/62729" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Morrison" name_id="MJ0822" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Ashman" name_id="AJ0288" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-14">
+				<candidate_summary candidate_ref="1" vote_total="1095" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="745" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="1095" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="745" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Alexandria" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Coffee Run" geog_id="null">
+						<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Dublin" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hollidaysburg" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="171" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Shaver's Creek" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shirley" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Tuckahoe" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warriors Mark" geog_id="null">
+						<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Williamsburg" geog_id="null">
+						<result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06689">The Huntingdon Gazette (Huntingdon, PA).  October 20, 1814.</reference>
+</election_record>

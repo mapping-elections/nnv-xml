@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1821 State Senate, Daviess, Knox and Martin Counties" type="General" iteration="First Ballot" date="1821" election_id="in.statesenate.knoxdavismartin.1821" handle="10427/56486" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Frederick Shoults" name_id="SF0001" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Ewing" name_id="EJ0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Polke" name_id="PW0027" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="616" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="508" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="293" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12382" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="District" name="Daviess, Knox and Martin" geog_id="null">
+					<result candidate_ref="1" vote="616" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="508" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="293" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Daviess" geog_id="null">
+						<result candidate_ref="1" vote="496" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="35" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12382" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Knox" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="441" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="261" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12382" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Martin" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12382" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12382">Western Sun and General Advertiser (Vincennes, IN).  September 1, 1821.</reference>
+</election_record>

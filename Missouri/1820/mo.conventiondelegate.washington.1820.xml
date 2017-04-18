@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Missouri 1820 Constitutional Convention, Washington County" type="General" iteration="First Ballot" date="1820" election_id="mo.conventiondelegate.washington.1820" handle="10427/56508" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="Territory">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="John Rice Jones" name_id="JJ0151" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Perry" name_id="PS0097" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Hutchings" name_id="HJ0136" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="version 1.0" modified="2009-02-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"All three delegates elected were slave-owners."  History of Saint Louis City and County.  563.</note>
+				<note resp="Philip Lampi">There were 453 votes cast.</note>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="mos">
+				<sub_unit type="County" name="Washington" geog_id="mos_washington">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Mine a Burton" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Scharf, J. Thomas.  History of Saint Louis City and County.  Philadelphia: L. H. Everts, 1883. 563.</reference>
+	<reference type="citation" resp="Philip Lampi">Shoemaker, F. C.  Missouri's Struggle for Statehood, 1804-1821.  New York: Russell and Russell, 1916.  118, 132.</reference>
+</election_record>

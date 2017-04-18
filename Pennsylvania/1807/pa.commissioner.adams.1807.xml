@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Commissioner, Adams County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.commissioner.adams.1807" handle="10427/61719" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Arndt" name_id="AJ0249" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Kuhns" name_id="KW0076" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-14">
+				<candidate_summary candidate_ref="1" vote_total="538" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="353" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06112" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Centinel (Gettysburg, PA), The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) (Philadelphia, PA) from October 21 and Huntington Gazette from October 29 list John Arndt with 558 votes and William Kuhns with 355 votes.</note>
+				<note resp="Philip Lampi">The Centinel (Gettysburg, PA) lists John Arndt with 538 votes and William Kuhns with 353 votes.</note>
+				<note resp="Philip Lampi">The Huntington Gazette from October 29 and The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) from October 21 list John Arndt with 558 votes and William Kuhns with 355 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="538" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="353" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06112" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Centinel (Gettysburg, PA).  October 14, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06112">The Centinel (Gettysburg, PA).  October 21, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06114">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 21, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06113">Huntington Gazette.  October 29, 1807.</reference>
+</election_record>

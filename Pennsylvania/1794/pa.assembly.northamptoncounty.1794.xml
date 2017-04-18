@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 House of Representatives, Northampton County" type="General" iteration="First Ballot" date="1794-10" election_id="pa.assembly.northamptoncounty.1794" handle="10427/60795" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Martin" name_id="MJ0817" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Graff" name_id="GG0042" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stephen Balliet" name_id="BS0239" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Bachman" name_id="BA0186" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonas Hartzell" name_id="HJ0734" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Jacob Eyerly" name_id="EJ0166" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Thomas Mowharter" name_id="MT0122" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-12">
+				<candidate_summary candidate_ref="1" vote_total="1026" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="710" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="607" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="596" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="442" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="422" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="421" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05457" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="1026" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="710" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="607" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="596" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="442" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="422" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="421" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05457">Neuer Unpartheyischer Eastoner Bothe, und Northamptoner Kundschafter (Easton, PA).  October 22, 1794.</reference>
+</election_record>

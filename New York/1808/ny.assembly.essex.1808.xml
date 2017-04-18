@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1808 Assembly, Essex County" type="General" iteration="First Ballot" date="1808" election_id="ny.assembly.essex.1808" handle="10427/25698" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Benjamin Pond" name_id="PB0058" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Theodorus Ross" name_id="RT0073" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-09">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04318" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Benjamin Pond, the Republican cadidate, is re-elected member of Assembly by a majority of 402."  American Citizen (New York, NY).  May 30, 1808. Republican Watch-Tower (New York, NY).  May 31, 1808.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Essex" geog_id="null">
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04318" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Albany Gazette (Albany, NY).  May 26, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04318">American Citizen (New York, NY).  May 30, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Watch-Tower (New York, NY).  May 31, 1808.</reference>
+</election_record>

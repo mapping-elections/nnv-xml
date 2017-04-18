@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1792 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1792" election_id="va.ussenate.special.1792" handle="10427/65064" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John Taylor" name_id="TJ0625" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="A. Lee" name_id="LA0122" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Francis Corbin" name_id="CF0032" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-04-05">
+				<candidate_summary candidate_ref="1" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="39" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="33" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Special election to replace Richard Henry Lee who resigned from the Senate on October 8.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="House of Delegates" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+			<reference type="citation" resp="Philip Lampi">Mattern, David B., J. C. A. Stagg, Jeanne K. Cross and Susan Holbrook Perdue, ed.  The Papers of James Madison, Congressional Series.  Vol. 14.  Charlottesville, VA: University of Virginia Press, 1983.  392.</reference>
+		</role></office>
+</election_record>

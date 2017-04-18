@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1820 Senate President" type="Legislative" iteration="First Ballot" date="1820" election_id="sc.senate.president1.1820" handle="10427/64790" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Senate President" office_id="ON098" scope="State">
+        <role title="Senate President" scope="State">
+            <ballot>
+                <candidate name="Benjamin Huger" name_id="HB0145" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="J. L. Wilson" name_id="WJ0928" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-12-16">
+                <candidate_summary candidate_ref="1" vote_total="20" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="18" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">No choice affected; election proceeded to another ballot.</note>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Southern Patriot, and Commercial Advertiser (Charleston, SC).  December 1, 1820.</reference>
+</election_record>

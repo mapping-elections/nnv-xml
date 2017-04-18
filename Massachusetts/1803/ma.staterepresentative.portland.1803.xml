@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 House of Representatives, Portland" type="General" iteration="First Ballot" date="1803-05" election_id="ma.staterepresentative.portland.1803" handle="10427/69389" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="William Symmes" name_id="SW0173" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Joseph Titcomb" name_id="TJ0603" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Matthew Cobb" name_id="CM0020" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-09-25">
+                <candidate_summary candidate_ref="1" vote_total="93" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="93" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="86" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"On Monday the 2d inst. the inhabitants of this town met for the purpose of choosing suitable persons to represent them for the ensuing year in the General Court of this Commonwealth, when their suffrages were given to Capt. Joseph Titcomb and William Symmes, Esq. A previous vote of the town had been taken that two representatives should be chosen; but it appeared that three had a majority of votes: The abovementioned gentlemen had 93 votes each, and Mr. Matthew Cobb, had 86. There were thirty or forty votes given to other persons."  The Eastern Herald and Maine Gazette (Portland, ME).  May 2, 1803.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Portland" geog_id="null">
+                    <result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="86" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Eastern Herald and Maine Gazette (Portland, ME).  May 2, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 11, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 2, 1803.</reference>
+</election_record>
+

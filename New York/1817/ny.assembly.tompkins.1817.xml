@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<election_record label="New York 1817 Assembly, Tompkins County" type="General" iteration="First Ballot" date="1817" election_id="ny.assembly.tompkins.1817" handle="10427/67820" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Sutton" name_id="SJ0755" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Crittenden" name_id="CS0135" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Caleb Smith" name_id="SC0064" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Isaac Allen" name_id="AI0017" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-07">
+				<candidate_summary candidate_ref="1" vote_total="1254" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1248" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1089" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1081" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">History of Tioga, Chemung, Tompkins, and Schuyler Counties lists John Sutton as a Senatorial candidate.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tompkins" geog_id="null">
+					<result candidate_ref="1" vote="1254" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1248" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1089" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1081" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Landmarks of Tompkins County New York and History of Tioga, Chemung, Tompkins, and Schuyler Counties, New York list 1088 votes for Caleb Smith though the town votes add up to 1089.</note>
+					<sub_unit type="Town" name="Covert" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="373" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="373" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Division" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="109" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dryden" geog_id="null">
+						<result candidate_ref="1" vote="286" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="283" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hector" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="221" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="216" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The History of Tioga, Chemung, Tompkins, and Schuyler Counties, New York lists 52 votes for John Sutton and 220 votes for Caleb Smith.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Lansing" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="267" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="267" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ulysses" geog_id="null">
+						<result candidate_ref="1" vote="671" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="669" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Selkreg, John H., ed.  Landmarks of Tompkins County New York.  Syracuse, NY: D. Mason and, 1894.  29.</reference>
+	<reference type="citation" resp="Philip Lampi">History of Tioga, Chemung, Tompkins and Schuyler Counties New York.  Philadelphia: Everts and Ensign 1879.  380.</reference>
+</election_record>

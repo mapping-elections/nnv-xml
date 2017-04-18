@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1820 House of Representatives, Mobile County" type="General" iteration="First Ballot" date="1820-08" election_id="al.staterepresentative.mobilecounty.1820" handle="10427/55830" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Francis W. Armstrong" name_id="AF0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ezekiel Webb" name_id="WE0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel H. Garrow" name_id="GS0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-15">
+				<candidate_summary candidate_ref="1" vote_total="81" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="71" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11038" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Mobile" geog_id="null">
+					<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="71" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Blakeley" geog_id="null">
+						<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11041" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Mobile" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="70" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11041" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11023">Original Election Certificate.  Alabama Department of Archives and History, Montgomery.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11041">Mobile Gazette and Commercial Advertiser (Mobile, AL).  August 10, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11038">The Halcyon and Tombeckbe Public Advertiser (Saint Stephens, AL).  August 14, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 1, 1820.</reference>
+</election_record>

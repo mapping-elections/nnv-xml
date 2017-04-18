@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Inspector of the General Election, Philadelphia City, Walnut Ward" type="General" iteration="First Ballot" date="1814-09" election_id="pa.inspector.philadelphiacity.walnut.1814" handle="10427/66229" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Samuel Palmer" name_id="PS0101" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Smith" name_id="SS0277" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="97" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="97" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Samuel Palmer and Samuel Smith are elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Walnut" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 1, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Political and Commercial Register (Philadelphia, PA).  October 1, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 1, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 3, 1814.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 U.S. House of Representatives, District 10" type="General" iteration="First Ballot" date="1804-10" election_id="pa.uscongress10.1804" handle="10427/61426" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Hamilton" name_id="HJ0746" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Israel" name_id="IJ0072" affiliation="Quid" affiliation_id="A04" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-10">
+				<candidate_summary candidate_ref="1" vote_total="868" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00358" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05958" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The intrigues which were set of foot in Washington county in the Western part of this state, have terminated against the quids~ We understand that Mr. John Israel (son of Mr. Israel Israel of this district) was put forward there by the quids in opposition to Mr. Hoge, but the thing would not work, and Mr. Hamilton, a republican, was taken up for Congress at Mr. Hoge's desire." Aurora. General Advertiser (Philadelphia, PA).  October 13, 1804.</note>
+				<note resp="Philip Lampi">"As had been unfortunately witnessed in this district, several, who had been republicans, forsook their principlies and joined the federalist against the republican candidates: but happily the federalists and quids of Washington county have been completely defeated...Mr. John Israel of Pittsburg, has been one of the principle promoters of third partyism." Aurora. General Advertiser (Philadelphia, PA).  October 22, 1804.</note>
+				<note resp="Philip Lampi">"John Hamilton, esq. has been elected member of congress: this gentleman is a tried republican. He succeeds Mr. Hoge, a member of the present congress, who had been returned by the republican party but who opposed the admendment to the consitution." Aurora. General Advertiser (Philadelphia, PA).  October 22, 1804.</note>
+				<note resp="Philip Lampi">The returns for John Israel were not listed.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<result candidate_ref="1" vote="868" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00358" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="868" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00358" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 13, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05958">Aurora. General Advertiser (Philadelphia, PA).  October 22, 1804.</reference>
+</election_record>

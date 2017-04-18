@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 Sheriff, Marion County" type="General" iteration="First Ballot" date="1821" election_id="ms.sheriff.marion.1821" handle="10427/79929" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Simeon Duke" name_id="DS0165" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-18">
+				<candidate_summary candidate_ref="1" vote_total="327" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Marion" geog_id="null">
+					<result candidate_ref="1" vote="327" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Camp Jackson" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 Fireward, Boston, Ward 9" type="General" iteration="First Ballot" date="1822" election_id="ma.firewards.9.boston.1822" handle="10427/79271" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Fireward" office_id="ON059" scope="City">
+		<role title="Fireward" scope="Ward">
+			<ballot>
+				<candidate name="Benjamin Russell" name_id="RB0040" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Leach Harris" name_id="HL0066" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Jones" name_id="JJ0274" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-04-21">
+				<candidate_summary candidate_ref="1" vote_total="190" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="181" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="181" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole No. 190."  The Repertory (Boston, MA).  April 11, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="scs">
+				<sub_unit type="City" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Nine" geog_id="null">
+						<result candidate_ref="1" vote="190" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="181" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="181" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  April 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 11, 1822.</reference>
+</election_record>

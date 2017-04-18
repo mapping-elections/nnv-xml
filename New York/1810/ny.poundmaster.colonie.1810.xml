@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="New York 1810 Pound Master, Colonie" type="General" iteration="First Ballot" date="1810" election_id="ny.poundmaster.colonie.1810" handle="10427/66514" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Keeper of the Pound" office_id="ON069" scope="Town">
+		<role title="Keeper of the Pound" scope="Town">
+			<ballot>
+				<candidate name="Lewis O'Brien" name_id="OL0001" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Cooper" name_id="CJ0645" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-06">
+				<candidate_summary candidate_ref="1" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="77" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="Town" name="Colonie" geog_id="null">
+					<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Balance, and New-York State Journal (Albany, NY).  April 6, 1810.</reference>
+</election_record>

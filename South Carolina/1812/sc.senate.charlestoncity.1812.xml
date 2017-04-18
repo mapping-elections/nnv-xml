@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1812 State Senate, Charleston City" type="General" iteration="First Ballot" date="1812" election_id="sc.senate.charlestoncity.1812" handle="10427/31916" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="City">
+			<ballot>
+				<candidate name="William Rouse" name_id="RW0227" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Lowndes" name_id="LT0118" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-14">
+				<candidate_summary candidate_ref="1" vote_total="1085" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="829" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07672" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07673" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07677" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07678" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Charleston Courier lists Col. William Rouse with 1084 votes.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="1085" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="829" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="404" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="530" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07677" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Inspection" geog_id="null">
+						<result candidate_ref="1" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07677" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Market" geog_id="null">
+						<result candidate_ref="1" vote="506" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07677" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07677">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15670">The Investigator (Charleston, SC).  October 14, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07678">Charleston Courier (Charleston, SC).  October 15, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07673">City Gazette and Commercial Advertiser (Charleston, SC).  October 15, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07672">The Investigator (Charleston, SC).  October 16, 1812.</reference>
+</election_record>

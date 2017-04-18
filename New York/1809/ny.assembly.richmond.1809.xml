@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1809 Assembly, Richmond County" type="General" iteration="First Ballot" date="1809" election_id="ny.assembly.richmond.1809" handle="10427/25681" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Richard Conner" name_id="CR0076" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Mersereau" name_id="MD0105" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-14">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04362" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Accounts have just been received from the County of Richmond, that Richard Conner the federal candidate has succeeded by a handsome majority: it being the first time that Federalism has triumphed there for a number of years. The following is the return of the majorities. Westfield gave a majority for the Federal cadidate of 77. Southfield [gave a majority for the Federal candidate of] 7. Northfield gave a majority for the Democratic candidate of 19. Castleton [gave a majority for the Democratic candidate of] 32. Total Federal majority over Democrat was 33."  New-York Herald (New York, NY).  April 29, 1809.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04361" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Castleton" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04362" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Northfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04362" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04362" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Westfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04362" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Citizen (New York, NY).  April 29, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-York Gazette and General Advertiser (New York, NY).  April 29, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04362">New-York Herald (New York, NY).  April 29, 1809.</reference>
+</election_record>

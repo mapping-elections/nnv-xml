@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1788 Constitutional Convention, Orange County" type="General" iteration="First Ballot" date="1788-03" election_id="va.constitutionalconvention.orange.1788" handle="10427/65042" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="James Madison, Jr." name_id="MJ1315" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="James Gordon" name_id="GJ0651" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas Barbour" name_id="BT0253" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="3"/>
+				<candidate name="Charles Porter" name_id="PC0075" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-18">
+				<candidate_summary candidate_ref="1" vote_total="202" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="187" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="56" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="34" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08227" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23512" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="187" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="34" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08227" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23512">Francis Tylor Diaries.  March 24, 1788.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08227">The Virginia Gazette, and Winchester Advertiser (Winchester, VA).  April 2, 1788.</reference>
+</election_record>

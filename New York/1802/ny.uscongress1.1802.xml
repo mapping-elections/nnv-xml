@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record label="New York 1802 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1802" election_id="ny.uscongress1.1802" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/65586" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Smith" name_id="SJ0689" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Schenck" name_id="SJ0636" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Oliver Hulet" name_id="HO0027" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Joshua Sands" name_id="SJ0646" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Morris Fosdyck" name_id="FM0017" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Oliver Hudson" name_id="HO0026" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-16">
+				<candidate_summary candidate_ref="1" vote_total="1530" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00274" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="1530" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Queens" geog_id="null">
+						<result candidate_ref="1" vote="397" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00274" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Suffolk" geog_id="null">
+						<result candidate_ref="1" vote="1133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00274" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Brookhaven" geog_id="null">
+							<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Brookhaven Town Records.  54-55.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00274">The Albany Register (Albany, NY).  June 8, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  June 11, 1802.</reference>
+</election_record>

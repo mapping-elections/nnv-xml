@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 House of Representatives, Ashtabula, Cuyahoga, Geauga, Huron and Portage Counties" type="General" iteration="First Ballot" date="1818-10" election_id="oh.staterepresentative.cuyahoga.1818" handle="10427/59683" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Lewis Dille" name_id="DL0042" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ebenezer Merry" name_id="ME0097" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alfred Kelley" name_id="KA0057" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Hubbard" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Levi Gaylord" name_id="GL0014" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-10">
+				<candidate_summary candidate_ref="1" vote_total="1192" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="743" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="637" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="431" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="317" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05253" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Ashtabula, Cuyahoga, Geauga and Huron" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Ashtabula" geog_id="ohs_ashtabula">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Cuyahoga" geog_id="ohs_cuyahoga">
+						<result candidate_ref="1" vote="369" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="223" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="80" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05253" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Geauga" geog_id="ohs_geauga">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Huron" geog_id="ohs_huron">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>				
+					<sub_unit type="County" name="Portage" geog_id="ohs_portage">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05253">Cleaveland Register (Cleveland, OH).  October 20, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Cleaveland Register (Cleveland, OH).  October 27, 1818.</reference>
+</election_record>

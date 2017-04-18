@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 House of Representatives, Falmouth, Second Representative" type="General" iteration="First Ballot" date="1808-05" election_id="ma.staterepresentative.second.falmouth.1808" handle="10427/28070" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Braddock Dimmick" name_id="DB0011" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Fish" name_id="FT0021" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-21">
+				<candidate_summary candidate_ref="1" vote_total="161" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03499" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Voted to choose One Representative.  Voted to reconsider the preceding vote, 107 to 103.  Voted to choose two Representatives, 110 to 99."  Falmouth Town Records.  412.</note>
+				<note resp="Philip Lampi">Falmoutn held two separate ballots for the two Representatives they were entitled to elect.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Falmouth" geog_id="null">
+					<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03499" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03499">Falmouth Town Records.  412.</reference>
+	<reference type="citation" resp="Philip Lampi">Norfolk Repository (Dedham, MA).  June 28, 1808.</reference>
+</election_record>

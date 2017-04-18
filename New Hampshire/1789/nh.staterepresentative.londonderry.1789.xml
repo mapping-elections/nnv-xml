@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1789 House of Representatives, Londonderry" type="General" iteration="First Ballot" date="1789" election_id="nh.staterepresentative.londonderry.1789" handle="10427/78667" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Macgregore" name_id="MJ0381" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-15">
+				<candidate_summary candidate_ref="1" vote_total="159" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="Town" name="Londonderry" geog_id="null">
+					<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-Hampshire Gazette, and the General Advertiser (Portsmouth, NH).  March 11, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Oracle: or, New-Hampshire Advertiser (Exeter, NH).  March 17, 1789.</reference>
+</election_record>

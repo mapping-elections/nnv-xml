@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1823 House of Representatives, Jefferson County" type="General" iteration="First Ballot" date="1823" election_id="ms.staterepresentative.jefferson.1823" handle="10427/79996" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Cowles Mead" name_id="MC0004" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert Dunbar" name_id="DR0093" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Selser" name_id="SI0093" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Edmund Duggan" name_id="DE0086" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Thomas A. MacDonald" name_id="MT0236" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-19">
+				<candidate_summary candidate_ref="1" vote_total="358" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="189" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="180" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="358" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="314" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="189" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="180" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="5" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

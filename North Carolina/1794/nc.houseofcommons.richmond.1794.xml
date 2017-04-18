@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1794 House of Commons, Richmond County" type="General" iteration="First Ballot" date="1794" election_id="nc.houseofcommons.richmond.1794" handle="10427/43743" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Malcolm Smith" name_id="SM0020" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Robinson" name_id="RW0042" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Joseph Hines" name_id="HJ0624" affiliation="null" affiliation_id="null" candidate_num="3"></candidate>
+                <candidate name="William Covington" name_id="CW0071" affiliation="null" affiliation_id="null" candidate_num="4"></candidate>
+                <candidate name="Michael Dockery" name_id="DM0040" affiliation="null" affiliation_id="null" candidate_num="5"></candidate>
+                <candidate name="John Speed" name_id="SJ0801" affiliation="null" affiliation_id="null" candidate_num="6"></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-02-11">
+                <candidate_summary candidate_ref="1" vote_total="314" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="292" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="240" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="204" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="106" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="89" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Richmond" geog_id="null">
+                    <result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="292" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="240" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="204" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="106" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="89" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Richmond County Records, 1790-1796.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

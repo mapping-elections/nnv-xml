@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1797 Commissioner, Philadelphia City and County" type="General" iteration="First Ballot" date="1797-10" election_id="pa.commissioner.philadelphiacityandcounty.1797" handle="10427/60929" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Jacob Souder" name_id="SJ0983" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Leonard Kehmle" name_id="KL0015" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-03">
+				<candidate_summary candidate_ref="1" vote_total="2396" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="472" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05540" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="850" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="412" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="1546" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05540">Aurora. General Advertiser (Philadelphia, PA).  October 12, 1797.</reference>
+</election_record>

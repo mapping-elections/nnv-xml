@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1805 House of Commons, Wake County " type="General" iteration="First Ballot" date="1805" election_id="nc.houseofcommons.wake.1805" handle="10427/43528" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Henry H. Cooke" name_id="CH0112" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Nathaniel Jones" name_id="JN0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Walter Rand" name_id="RW0111" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Allen Rogers" name_id="RA0039" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel Alston" name_id="AS0039" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Mitchell" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-18">
+				<candidate_summary candidate_ref="1" vote_total="775" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="539" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="496" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="466" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="439" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="10" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04791" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Wake" geog_id="null">
+					<result candidate_ref="1" vote="775" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="539" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="496" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="466" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="439" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="10" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04791" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04791">The Minerva (Raleigh, NC).  August 12, 1805.</reference>
+</election_record>

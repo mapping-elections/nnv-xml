@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1818 State Senate, Hancock, Lawrence and Marion Counties" type="General" iteration="First Ballot" date="1818" election_id="ms.statesenator3.1818" handle="10427/58452" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Howell M. Runnells" name_id="RH0077" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Charles Stovall" name_id="SC0091" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Anderson" name_id="AT0051" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-11-29">
+				<candidate_summary candidate_ref="1" vote_total="348" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="258" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="155" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="District" name="Hancock, Lawrence and Marion" geog_id="null">
+					<result candidate_ref="1" vote="348" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="258" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="155" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Hancock" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Lawrence" geog_id="null">
+						<result candidate_ref="1" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Marion" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="88" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

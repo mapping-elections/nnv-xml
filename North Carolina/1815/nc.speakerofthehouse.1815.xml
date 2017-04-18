@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1815 Speaker of the House" type="Legislative" iteration="First Ballot" date="1815-11" election_id="nc.speakerofthehouse.1815" handle="10427/80124" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="John Craig" name_id="CJ0552" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Frederick Nash" name_id="NF0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2016-01-04">
+                <candidate_summary candidate_ref="1" vote_total="62" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="55" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"In the House of Commons, John Craig and Frederick Nash, Esquires, both of Orange, were nominated for Speaker."  The Star (Raleigh, NC).  November 24, 1815.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="null" name="House of Commons" geog_id="null">
+                    <result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Star (Raleigh, NC).  November 24, 1815.</reference>
+</election_record>

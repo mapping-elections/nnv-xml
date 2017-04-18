@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 House of Representatives, Plymouth" type="General" iteration="First Ballot" date="1804" election_id="ma.staterepresentative.plymouth.1804" handle="10427/69900" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="Nathaniel Goodwin" name_id="GN0009" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John D. Dunbar" name_id="DJ0179" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-10-21">
+                <candidate_summary candidate_ref="1" vote_total="145" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="131" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"FROM OUR CORRESPONDENT, 'Plymouth, May 8, 7 o'clock, P.M. We have just finished a contested Election for a Representative, which has continued 9 hours. The Friends of him who mis-represented the town last year, (who are made up of democrats and six months federalists) made every exertion in their power for their candidate. After repeated trials, I am happy to inform you the final result. Gen. GOODWIN, a truly federal republican, had 145 votes, and was accordingly chosen. John D. Dunbar, Esq. the old representative and an apostate federalist, had 131 votes. Gen. G. would have been elected at the first trial, had not the hardy and industrious Fisherman, who are almost unanimously federal, been absent, as they frequently are at this season of the year."  Boston Gazette (Boston, MA).  May 10, 1804.</note>
+                <note resp="Philip Lampi">"Plymouth--Hon. Nathaniel Goodwin, Esq. a federalist, vice J.D. Dunbar, Esq. a democrat, and signer of the Plymouth circular."  Columbian Centinel and Massachusetts Federalist (Boston, MA).  May 12, 1804.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="District" name="Plymouth" geog_id="null">
+                    <result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="131" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  May 10, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel and Massachusetts Federalist (Boston, MA).  May 12, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 4, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">Republican Spy (Springfield, MA).  June 11, 1804.</reference>
+</election_record>
+

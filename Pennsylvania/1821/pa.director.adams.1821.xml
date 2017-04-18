@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Director of the Poor, Adams County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.director.adams.1821" handle="10427/67904" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Daniel Funk, Sr." name_id="FD0054" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Jackson" name_id="JH0026" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-24">
+				<candidate_summary candidate_ref="1" vote_total="1249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1170" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1249" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1170" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="257" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="204" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Adams Centinel (Gettysburg, PA) lists these returns from "Borough District" instead of Gettysburg.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Littlestown" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="York Springs" geog_id="null">
+						<result candidate_ref="1" vote="219" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Adams Centinel (Gettysburg, PA) lists these returns from "Petersburg" instead of York Springs.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  October 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 20, 1821.</reference>
+</election_record>

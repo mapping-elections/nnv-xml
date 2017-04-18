@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1797 House of Representatives, North Yarmouth" type="General" iteration="First Ballot" date="1797-05" election_id="ma.staterepresentative.northyarmouth.1797" handle="10427/68828" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="William Martin" name_id="MW0097" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel P. Russel" name_id="RS0037" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="David Jones" name_id="JD0012" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-04-23">
+				<candidate_summary candidate_ref="1" vote_total="107" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="41" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Portland" geog_id="null">
+					<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Eastern Herald and Gazette of Maine (Portland, ME).  May 13, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi">Oriental Trumpet (Portland, ME).  May 17, 1797.</reference>
+</election_record>

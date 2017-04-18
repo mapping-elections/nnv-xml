@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1815 Alderman, New York, Ward 10" type="General" iteration="First Ballot" date="1815" election_id="ny.alderman.newyork.10.1815" handle="10427/68259" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Alderman" office_id="ON001" scope="City">
+      <role title="Alderman" scope="City">
+        <ballot>
+           <candidate name="Reuben Munson" name_id="MR0074" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="Jameson Cox" name_id="CJ0367" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-03-29">
+           <candidate_summary candidate_ref="1" vote_total="652" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="574" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="New York" geog_id="null">
+              <sub_unit type="Ward" name="Ten" geog_id="null">
+                <result candidate_ref="1" vote="652" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="574" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  April 29, 1815.</reference>
+   <reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  May 1, 1815.</reference>
+   <reference type="citation" resp="Philip Lampi">National Advocate (For the Country) (New York, NY).  May 2, 1815.</reference>
+   <reference type="citation" resp="Philip Lampi">The Columbian. (For the Country) (New York, NY).  May 3, 1815.</reference>
+</election_record>

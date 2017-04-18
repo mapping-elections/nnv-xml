@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Treasurer" type="Legislative" iteration="First Ballot" date="1823" election_id="pa.statetreasurer.1823" handle="10427/63842" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="State">
+		<role title="Treasurer" scope="State">
+			<ballot>
+				<candidate name="William Clark" name_id="CW0299" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard M. Crain" name_id="CR0128" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-10">
+				<candidate_summary candidate_ref="1" vote_total="117" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10870" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10871" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10872" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On Tuesday Last, William Clark was re-elected State Treasurer for the current year. Richard M. Crain had been nominated but his name was withdrawn before the election. Mr Mitchell of Centre County voted for Mr. Crain.  Absent 15 members."  Harrisburg Chronicle (Harrisburg, PA).  January 16, 1823.</note>
+				<note resp="Philip Lampi">The Franklin Gazette (for the Country) (Philadelphia, PA), January 18, 1823, lists 46 votes for William Clark.  This is either a misprint or an error, as 47 votes would not have been enough for a quorum (it would have required 60 votes).</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="117" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10870">Harrisburg Chronicle (Harrisburg, PA).  January 16, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10872">Franklin Gazette (Philadelphia, PA) (for the County).  January 18, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10870">The York Recorder (York, PA).  January 21, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10871">Erie Gazette (Erie, PA).  January 23, 1823.</reference>
+</election_record>

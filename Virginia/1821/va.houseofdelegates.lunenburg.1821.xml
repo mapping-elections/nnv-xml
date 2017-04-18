@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1821 House of Delegates, Lunenburg County" type="General" iteration="First Ballot" date="1821" election_id="va.houseofdelegates.lunenburg.1821" handle="10427/33675" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="James Smith" name_id="SJ1432" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Sterling Niblett" name_id="NS0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Edward R. Chambers" name_id="CE0184" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-13">
+				<candidate_summary candidate_ref="1" vote_total="114" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="111" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="76" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09325" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Lunenburg" geog_id="null">
+					<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09325" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09325">Lunenburg County Poll List.  Library of Virginia, Richmond.</reference>
+</election_record>

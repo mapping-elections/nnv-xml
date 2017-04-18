@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Auditor, Chester County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.auditor.chester.1810" handle="10427/62159" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Joel Jackson" name_id="JJ0220" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Park Shee" name_id="SP0131" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John D. Steele" name_id="SJ1165" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Wallace Boyd" name_id="BW0326" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="John Menough" name_id="MJ1017" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Robert Buffington" name_id="BR0129" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-10">
+				<candidate_summary candidate_ref="1" vote_total="2533" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2533" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2532" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2189" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2178" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="2122" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06386" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2533" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2533" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2532" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2189" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2178" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="2122" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06386" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06386">The Democratic Press (Philadelphia, PA).  October 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 20, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 23, 1810.</reference>
+</election_record>

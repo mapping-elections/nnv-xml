@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1800 House of Representatives, Quincy" type="General" iteration="First Ballot" date="1800-05" election_id="ma.staterepresentative.quincy.1800" handle="10427/27837" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Moses Black" name_id="BM0037" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Beal" name_id="BB0016" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Brackett" name_id="BJ0479" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-02">
+				<candidate_summary candidate_ref="1" vote_total="50" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="16" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03443" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Quincy" geog_id="null">
+					<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03443" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03436">Pattee, William S.  A History of Old Braintree and Quincy.  Quincy, MA: Green and Prescott, 1878.  96.</reference>
+</election_record>

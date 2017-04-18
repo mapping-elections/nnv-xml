@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Sheriff, Columbia County" type="General" iteration="First Ballot" date="1819" election_id="pa.sheriff.colombia.1819" handle="10427/63256" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Underwood" name_id="UJ0012" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Derr" name_id="DJ0496" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-28">
+				<candidate_summary candidate_ref="1" vote_total="706" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="612" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06980" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="706" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="612" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06980" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06980">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

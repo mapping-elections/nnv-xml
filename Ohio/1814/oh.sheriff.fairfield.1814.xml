@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 Sheriff, Fairfield County" type="General" iteration="First Ballot" date="1814-10" election_id="oh.sheriff.fairfield.1814" handle="10427/59450" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Adam Weaver" name_id="WA0054" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Castle" name_id="CJ0255" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-10">
+                <candidate_summary candidate_ref="1" vote_total="1044" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Fairfield" geog_id="ohs_fairfield">
+                    <result candidate_ref="1" vote="1044" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Amanda" geog_id="null">
+                        <result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Bern" geog_id="null">
+                        <result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Bloom" geog_id="null">
+                        <result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Clear Creek" geog_id="null">
+                        <result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Greenfield" geog_id="null">
+                        <result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hocking" geog_id="null">
+                        <result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hopewell" geog_id="null">
+                        <result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Liberty" geog_id="null">
+                        <result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Madison" geog_id="null">
+                        <result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Pleasant" geog_id="null">
+                        <result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Reading" geog_id="null">
+                        <result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Richland" geog_id="null">
+                        <result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Rush Creek" geog_id="null">
+                        <result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Thorn" geog_id="null">
+                        <result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Violet" geog_id="null">
+                        <result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Walnut" geog_id="null">
+                        <result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Ohio Eagle (Lancaster, OH).  October 22, 1814.</reference>
+</election_record>

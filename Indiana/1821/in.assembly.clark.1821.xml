@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1821 House of Representatives, Clark County" type="General" iteration="First Ballot" date="1821" election_id="in.assembly.clark.1821" handle="10427/56430" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Miller" name_id="MJ0141" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John H. Thompson" name_id="TJ0112" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Carr" name_id="CT0066" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Beggs" name_id="BJ0165" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joseph Gibson" name_id="GJ0058" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="R. W. Nelson" name_id="NR0022" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="466" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="426" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="297" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="289" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="229" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="155" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12376" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Clark" geog_id="null">
+					<result candidate_ref="1" vote="466" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="426" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="297" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="289" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="229" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="155" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12376" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12376">The Indiana Intelligencer (Charlestown, IN).  August 15, 1821.</reference>
+</election_record>

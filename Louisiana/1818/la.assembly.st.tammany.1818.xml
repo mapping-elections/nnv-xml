@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1818 House of Representatives, Saint Tammany Parish" type="General" iteration="First Ballot" date="1818" election_id="la.assembly.st.tammany.1818" handle="10427/57892" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="Ebenezer Ford" name_id="FE0014" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John H. Goff" name_id="GJ0081" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-23">
+				<candidate_summary candidate_ref="1" vote_total="168" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="121" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Saint Tammany" geog_id="null">
+					<result candidate_ref="1" vote="168" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-Orleans Chronicle (New Orleans, LA).  July 14, 1818.</reference>
+</election_record>

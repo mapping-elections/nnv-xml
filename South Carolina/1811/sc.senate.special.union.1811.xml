@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1811 State Senate, Union District, Special" type="Special" iteration="First Ballot" date="1811-08" election_id="sc.senate.special.union.1811" handle="10427/31862" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Joseph Reed" name_id="RJ0584" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-02">
+				<candidate_summary candidate_ref="1" vote_total="722" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="154" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07665" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Joseph Reed was elected to replace Thomas B. Hunt, who had been elected, but died sometime before April 12, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Union" geog_id="null">
+					<result candidate_ref="1" vote="722" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="464" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07665" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">538 voters at the Court House participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hamilton's" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07665" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">156 voters at Hamilton's participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Unknown" geog_id="null">
+						<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07665" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">168 voters at an unknown location participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07665">Original Poll Sheet.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1837.</reference>
+</election_record>

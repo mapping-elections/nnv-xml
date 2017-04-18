@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1796 State Senate, Abbeville County" type="General" iteration="First Ballot" date="1796" election_id="sc.senate.abbeville.1796" handle="10427/31732" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Joseph Colhoun" name_id="CJ1013" affiliation="null" affiliation_id="null" candidate_num="1"/><note resp="Philip Lampi">Elected.</note>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-09-25">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07466" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Joseph Colhoun is elected by a majority of 34 votes.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Abbeville" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07466" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07466">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

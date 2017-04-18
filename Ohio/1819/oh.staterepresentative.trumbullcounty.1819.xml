@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 House of Representatives, Trumbull County" type="General" iteration="First Ballot" date="1819-10" election_id="oh.staterepresentative.trumbullcounty.1819" handle="10427/59760" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Henry Manning" name_id="MH0089" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Lane" name_id="LH0043" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elisha Whittlesey" name_id="WE0121" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Edward Scofield" name_id="SE0098" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Calvin Cone" name_id="CC0087" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Comfort Sellygall" name_id="SC0031" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Calvin Pease" name_id="PC0033" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-04">
+				<candidate_summary candidate_ref="1" vote_total="704" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="630" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="558" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="495" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="147" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="22" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05282" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="704" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="630" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="558" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="495" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="147" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<result candidate_ref="7" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="22" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05282" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="null" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Trumbull County Election Returns, unknown township.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05282">The Western Reserve Chronicle (Warren, OH).  October 21, 1819.</reference>
+</election_record>

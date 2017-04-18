@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Inspector of the General Election, Philadelphia City, North Mulberry Ward" type="General" iteration="First Ballot" date="1824" election_id="pa.inspector.northmulberry.1824" handle="10427/65813" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Charles Colladay" name_id="CC0116" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John MacClintock" name_id="MJ1229" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Henry Grim" name_id="GH0046" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joseph S. Colladay" name_id="CJ0920" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-11-02">
+				<candidate_summary candidate_ref="1" vote_total="144" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="105" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="43" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="43" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07389" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07390" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="North Mulberry" geog_id="null">
+						<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 2, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Gazette (Philadelphia, PA).  October 4, 1824.</reference>
+</election_record>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1797 State Senate, Orange County" type="General" iteration="First Ballot" date="1797-08" election_id="nc.statesenator.orange.1797" handle="10427/43707" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="William Strudwick" name_id="SW0148" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Ray" name_id="RD0037" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-02-12">
+				<candidate_summary candidate_ref="1" vote_total="601" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="599" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04751" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was contested.</note>
+				<note resp="Philip Lampi">An additional 22 votes were found in the commons box, rather than the box for State Senator, which, if counted, would have given William Strudwick and total of 606 votes and David Ray a total of 616 votes.</note>
+				<note resp="Philip Lampi">Andrew Murdock, Sheriff of Orange County, wrote in the certified Election Results, "it appears taking only the votes from the Senate Box into view that William Strudwick Esquire is elected by a Majority of two votes to represent said county in the Senate of the next General Assembly.  That by taking into consideration the votes from the commons Box that appears to be intended for the Senate and placing them to the poll of the respective candidates that in this mode if adopted, David Ray Eswq. would have a majority of ten votes.  Having thus specially stated the case corroborated by the inspectors certificates hereto subjoined do hereby certify and declare that under the above circumstances above recited William F. Strudwick Esq. is Elected as Senator for the county of Orange to represent the same in the ensuing General Assembly of this State, I do further certify that the Election appeared to be conducted fairly."</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<result candidate_ref="1" vote="601" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="599" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04751" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Hillsboro" geog_id="null">
+						<result candidate_ref="1" vote="336" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="511" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04751" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">There were also 4 votes for William Strudwick and 16 votes for David Ray found in the common box.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Tobias Smith's" geog_id="null">
+						<result candidate_ref="1" vote="265" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04751" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">There were also 1 vote each for William Strudwick and David Ray found in the common box.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04751">Legislative Papers.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1825 U.S. House of Representatives, District 5" type="General" iteration="First Ballot" date="1825" election_id="tn.congress.5th.1825" handle="10427/65034" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="Robert Allen" name_id="AR0060" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-06-02">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Robert Allen is elected without opposition.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Five" geog_id="null">
+                    <sub_unit type="County" name="Smith" geog_id="null">
+                        <result candidate_ref="1" vote="1910" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sumner" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Wilson" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17089">Nashville Republican (Nashville, TN).  August 13, 1825.</reference>
+</election_record>

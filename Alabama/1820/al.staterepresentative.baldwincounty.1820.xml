@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1820 House of Representatives, Baldwin County" type="General" iteration="First Ballot" date="1820-08" election_id="al.staterepresentative.baldwincounty.1820" handle="10427/55786" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Mims" name_id="MJ0005" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John B. Hogan" name_id="HJ0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Effort Jones" name_id="JE0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-15">
+				<candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Baldwin" geog_id="null">
+					<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Mims Store" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Lewis Sewall" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11023">Original Election Certificate.  Alabama Department of Archives and History, Montgomery.</reference>
+	<reference type="citation" resp="Philip Lampi">The Halcyon and Tombeckbe Public Advertiser (Saint Stephens, AL).  August 21, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 1, 1820.</reference>
+</election_record>

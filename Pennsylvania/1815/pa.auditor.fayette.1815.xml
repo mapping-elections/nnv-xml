@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Auditor, Fayette County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.auditor.fayette.1815" handle="10427/66682" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="William Nutty" name_id="NW0046" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Porter" name_id="PC0040" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Daniel Sturgeon" name_id="SD0172" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Haddon" name_id="HT0178" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Israel Miller" name_id="MI0056" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-25">
+				<candidate_summary candidate_ref="1" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="58" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="58" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="7" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Besides the above, there were several scattering votes for persons who did not consider themselves as candidates." The American Telegraph (Brownsville, PA).  October 11, 1815.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The American Telegraph (Brownsville, PA).  October 11, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">The Genius of Liberty, and Fayette Advertiser (Uniontown, PA).  October 18, 1815.</reference>
+</election_record>

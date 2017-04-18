@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1794 State Senate, Buncombe County" type="General" iteration="First Ballot" date="1794-08" election_id="nc.statesenator.buncombe.1794" handle="10427/43742" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Robert Love" name_id="LR0028" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Davidson" name_id="DW0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-02-14">
+                <candidate_summary candidate_ref="1" vote_total="103" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="102" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"After counting the votes of the Senate Box there was one hundred and two Votes in favour of William Davidson, and one hundred Votes in favour of Robert Love and two of said Votes did read Robert Senate which the Judges of Said Election aded to the poll of Love.  Which made Said Love one hundred votes-  When counting the tickets from out of the Commons Box there was three Senator tickets found in Said Box in favour of Robert Love and by Order of Said Judges those tickets were added to the poll of said Robert Love whose poll then Counted one hundred and three."  Original Election Certificate.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Richmond" geog_id="null">
+                    <result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Certificate.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1811 Electoral Assembly for State Senate, Dorchester County" type="General" iteration="First Ballot" date="1811" election_id="md.senator.dorchester.county.1811" handle="10427/26872" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Joseph Ennalls" name_id="EJ0037" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William W. Eccleston" name_id="EW0021" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="James Patterson" name_id="PJ0163" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="William B. Martin" name_id="MW0081" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1044" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1027" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="900" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="885" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02055" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02056" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Federal Gazette, American, and Commercial Daily Advertiser (Baltimore, MD), and National Intelligencer list William W. Eccleston with 1022 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+					<result candidate_ref="1" vote="1044" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1027" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="900" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="885" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02055" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02056" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02055">The Sun (Baltimore, MD).  September 4, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02056">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  September 5, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02056">National Intelligencer (Washington, DC).  September 7, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02055">Republican Star or Eastern Shore General Advertiser (Easton, MD).  September 10, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02056">American, and Commercial Daily Advertiser (Baltimore, MD).  October 5, 1811.</reference>
+</election_record>

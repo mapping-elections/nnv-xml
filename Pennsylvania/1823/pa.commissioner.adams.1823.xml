@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Commissioner, Adams County" type="General" iteration="First Ballot" date="1823" election_id="pa.commissioner.adams.1823" handle="10427/65838" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Shorb" name_id="SJ1229" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="M. Clunk" name_id="CM0083" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-21">
+				<candidate_summary candidate_ref="1" vote_total="1661" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1116" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1661" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1116" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Conowago" geog_id="null">
+						<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="286" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="143" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Littles Town" geog_id="null">
+						<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millers Town" geog_id="null">
+						<result candidate_ref="1" vote="228" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Petersburg" geog_id="null">
+						<result candidate_ref="1" vote="204" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tyrone" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  October 22, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 22, 1823.</reference>
+</election_record>

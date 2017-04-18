@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Coroner, Beaver County" type="General" iteration="First Ballot" date="1818-10" election_id="pa.coroner.beaver.1818" handle="10427/63105" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="James Conlin" name_id="CJ0911" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Warrick" name_id="WI0045" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-20">
+				<candidate_summary candidate_ref="1" vote_total="967" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="309" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06900" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06901" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06902" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Statesman (Pittsburgh, PA) from October 31 reports 927 votes for James Carlin and 322 votes for Isaac Warrick.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Beaver" geog_id="null">
+					<result candidate_ref="1" vote="967" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="309" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06900" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06901" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06902" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06901">Relf's Philadelphia Gazette, and Daily Advertiser (Philadelphia, PA).  October 26, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06900">The Statesman (Pittsburgh, PA).  October 31, 1818.</reference>
+</election_record>

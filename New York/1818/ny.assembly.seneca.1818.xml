@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<election_record label="New York 1818 Assembly, Seneca County" type="General" iteration="First Ballot" date="1818" election_id="ny.assembly.seneca.1818" handle="10427/67940" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Annanias Wells" name_id="WA0117" affiliation="Bucktail" affiliation_id="A06" candidate_num="1"/>
+				<candidate name="William Thompson" name_id="TW0071" affiliation="Bucktail" affiliation_id="A06" candidate_num="2"/>
+				<candidate name="John Sayre" name_id="SJ0715" affiliation="Clintonian" affiliation_id="A05" candidate_num="3"/>
+				<candidate name="Gardner Wells" name_id="WG0066" affiliation="Clintonian" affiliation_id="A05" candidate_num="4"/>
+				<candidate name="Tindel" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"><note resp="Philip Lampi">Listed simply as One-Eyed Tindel.</note></candidate>
+				<candidate name="Adonijah Church" name_id="CA0179" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Annanias Clover" name_id="CA0178" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-13">
+				<candidate_summary candidate_ref="1" vote_total="719" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="629" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="605" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="590" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Seneca" geog_id="null">
+					<result candidate_ref="1" vote="719" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="629" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="605" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="590" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="176" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Samuel Payne received 1 vote as Sam'l Payne.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Galen" geog_id="null">
+						<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Junius" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="357" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="328" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Gardner Wells received 2 votes as G. Wells.</note>
+						<note resp="Philip Lampi">William Thompson received 2 votes as Wm. Thompson.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Ovid" geog_id="null">
+						<result candidate_ref="1" vote="201" resp="Philip Lampi"/>            
+						<result candidate_ref="2" vote="197" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Romulus" geog_id="null">
+						<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Wolcott" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

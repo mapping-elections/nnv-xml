@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1793 House of Representatives, Dauphin County" type="General" iteration="First Ballot" date="1793-10" election_id="pa.assembly.dauphincounty.1793" handle="10427/60754" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Christian King" name_id="KC0024" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Anthony Kelker" name_id="KA0065" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Forrest" name_id="FA0050" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-08">
+				<candidate_summary candidate_ref="1" vote_total="877" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="643" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="410" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05439" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="877" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="643" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="410" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania House of Representatives.  4.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA).  October 16, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05439">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1793.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1807 Commissioner, Jefferson County, 3 Years" type="General" iteration="First Ballot" date="1807" election_id="oh.countycommissioner.jefferson.1807" handle="10427/59046" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Jackson" name_id="JJ0162" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Moses Ross" name_id="RM0022" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-23">
+				<candidate_summary candidate_ref="1" vote_total="519" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="337" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05133" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Jefferson" geog_id="ohs_jefferson">
+					<result candidate_ref="1" vote="519" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="337" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05133" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05133">The Western Herald (Steubenville, OH).  October 17, 1807.</reference>
+</election_record>

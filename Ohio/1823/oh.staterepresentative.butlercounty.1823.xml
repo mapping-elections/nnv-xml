@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 House of Representatives, Butler County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.staterepresentative.butlercounty.1823" handle="10427/60172" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="David Higgins" name_id="HD0080" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Marsh Williams" name_id="WM0082" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Clark" name_id="CJ0597" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacBride" name_id="MJ0698" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joel Collins" name_id="CJ0631" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Shields" name_id="SJ0898" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Peter Williamson" name_id="WP0081" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="1136" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="971" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="949" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="779" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="774" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="773" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="143" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05331" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Butler" geog_id="ohs_butler">
+					<result candidate_ref="1" vote="1136" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="971" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="949" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="779" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="774" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="773" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="143" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05331" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05331">Hamilton Intelligencer and Advertiser (Hamilton, OH).  October 20, 1823.</reference>
+</election_record>

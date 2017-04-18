@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="New York 1820 Assembly, Saint Lawrence County" type="General" iteration="First Ballot" date="1820" election_id="ny.assembly.stlawrence.1820" handle="10427/31353" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Joseph York" name_id="YJ0025" affiliation="Clintonian" affiliation_id="A05" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel F. Winslow" name_id="WN0097" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="Benjamin Raymond" name_id="RB0054" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-28">
+				<candidate_summary candidate_ref="1" vote_total="738" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="722" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="400" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04640" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Saint Lawrence" geog_id="null">
+					<result candidate_ref="1" vote="738" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="722" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="400" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04640" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04640">The Albany Gazette (Albany, NY).  May 18, 1820.</reference>
+</election_record>

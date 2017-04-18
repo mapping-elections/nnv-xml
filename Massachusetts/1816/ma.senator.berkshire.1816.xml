@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 State Senate, Berkshire County" type="Legislative" iteration="First Ballot" date="1816-05" election_id="ma.senator.berkshire.1816" handle="10427/27701" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="John Whiting" name_id="WJ0434" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathan Willis" name_id="WN0022" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-10-27">
+				<candidate_summary candidate_ref="1" vote_total="312" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="162" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10518" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The two Houses met in Convention to supply the Senatorial vacancy in Berkshire.  The whole number of votes was 474."  Newburyport Herald, and Commercial Gazette (Newburyport, MA).  June 4, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="312" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="162" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10518" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10520">Boston Patriot and Morning Advertiser (Boston, MA).  May 18, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  June 1, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10518">Newburyport Herald, and Commercial Gazette (Newburyport, MA).  June 4, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsfield Sun (Pittsfield, MA).  June 6, 1816.</reference>
+</election_record>

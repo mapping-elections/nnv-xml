@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1805 Governor" type="General" iteration="First Ballot" date="1805" election_id="ri.governor.1805" handle="10427/31329" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Arthur Fenner" name_id="FA0077" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Seth Wheaton" name_id="WS0198" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-08-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00409" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16202" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16203" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Arthur Fenner was unopposed for Governor and therefore the votes were not reported.</note>
+				<note resp="Philip Lampi">"As the opposition to Governor Fenner was merely partial, and as it were unpremeditated, there is no doubt of his re-election."  The Enquirer (Richmond, VA).  May 14, 1805.</note>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="County" name="Bristol" geog_id="ris_bristol">
+				</sub_unit>
+				<sub_unit type="County" name="Kent" geog_id="ris_kent">
+				</sub_unit>
+				<sub_unit type="County" name="Newport" geog_id="ris_newport">
+					<sub_unit type="Town" name="Newport" geog_id="ris_newport_newport">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16202" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16203" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Providence" geog_id="ris_providence">
+				</sub_unit>
+				<sub_unit type="County" name="Washington" geog_id="ris_washington">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16202">Newport Mercury (Newport, RI).  April 20, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16203">The True American and Commercial Advertiser (Philadelphia, PA).  May 1, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00409">The Enquirer (Richmond, VA).  May 14, 1805.</reference>
+</election_record>

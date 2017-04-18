@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1816 U.S. House of Representatives, District 9, Special" type="Special" iteration="First Ballot" date="1816-11" election_id="sc.uscongress.camden.special.1816" handle="10427/64758" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="Stephen D. Miller" name_id="MS0233" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Mayrant" name_id="MW0383" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-12-10">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15763" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Stephen D. Miller, Esq. is elected to Congress from Camden district, S.C. in place of Wm.  Mayrant, resigned, by a majority of 200 votes.</note>
+                <note resp="Philip Lampi">District Nine was also known as Sumter or Camden District.</note>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <sub_unit type="District" name="Nine" geog_id="null">
+                    <sub_unit type="District" name="Chesterfield" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="District" name="Kershaw" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="District" name="Lancaster" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="District" name="Sumter" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Camden Gazette (Camden, SC).  November 14, 1816.</reference>
+    <reference type="citation" resp="Philip Lampi">Camden Gazette (Camden, SC).  November 21, 1816.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15763">The Star, and North-Carolina State Gazette (Raleigh, NC).  December 20, 1816.</reference>
+</election_record>

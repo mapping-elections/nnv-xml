@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1800 House of Representatives, Saint Helena Parish" type="General" iteration="First Ballot" date="1800" election_id="sc.assembly.st.helena.1800" handle="10427/32068" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="John Rhodes" name_id="RJ0626" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Eddings" name_id="EJ0263" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Barnwell" name_id="BR0143" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-08">
+				<candidate_summary candidate_ref="1" vote_total="41" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="35" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="34" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07533" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">75 voters participated in this election.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Helena" geog_id="null">
+					<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07533" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chapel of Ease, Saint Helena" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">25 voters at Chapel of Ease, Saint Helena participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Parish Church in Beaufort" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">50 voters at Parish Church in Beaufort participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07533">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

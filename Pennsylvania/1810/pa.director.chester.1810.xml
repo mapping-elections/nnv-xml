@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Director of the Poor, Chester County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.director.chester.1810" handle="10427/62158" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Nathan Hayes" name_id="HN0057" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Amos Darlington" name_id="DA0093" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Bennett" name_id="BI0033" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Philip Landis" name_id="LP0054" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-31">
+				<candidate_summary candidate_ref="1" vote_total="2544" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2518" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2176" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2168" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06386" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2544" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2518" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2176" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2168" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06386" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06386">The Democratic Press (Philadelphia, PA).  October 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 20, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 23, 1810.</reference>
+</election_record>

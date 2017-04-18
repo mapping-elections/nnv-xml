@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Massachusetts 1805 House of Representatives, Hingham" type="General" iteration="First Ballot" date="1805-05" election_id="ma.staterepresentative.hingham.1805" handle="10427/69363" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Nathan Rice" name_id="RN0046" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hawkes Fearing" name_id="FH0060" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-13">
+				<candidate_summary candidate_ref="1" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="88" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">According to the Independent Chronicle of May 16, 1805 originally the citizens of Hingham had voted to only send one Representative to the General Court, but after the first election, when the Federalists realized they were in the majority, they decided to send a second member.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Hingham" geog_id="null">
+					<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  May 16, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">Lincoln, Solomon, Jr.  History of the town of Hingham, Plymouth County, Massachusetts.  Hingham, MA: Caleb Gill, Jr. and Farmer and Brown, 1827.  168.</reference>
+</election_record>
+

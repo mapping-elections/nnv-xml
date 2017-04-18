@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1809 Clerk of the Senate" type="Legislative" iteration="First Ballot" date="1809" election_id="pa.senateclerk.1809" handle="10427/62112" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Senate" office_id="ON030" scope="State">
+		<role title="Clerk of the Senate" scope="State">
+			<ballot>
+				<candidate name="Joseph A. MacJimsey" name_id="MJ1029" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Stacy Potts, Jr." name_id="PS0094" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Timothy Matlock" name_id="MT0155" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-28">
+				<candidate_summary candidate_ref="1" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10800" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10800" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10800">The Reporter (Washington, PA).  December 18, 1809.</reference>
+</election_record>

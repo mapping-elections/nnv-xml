@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Auditor, Northampton County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.auditor.northampton.1814" handle="10427/65999" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Philip H. Mattes" name_id="MP0052" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Robert Simonton" name_id="SR0261" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Jacob Stem" name_id="SJ0882" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Jacob Kuntz" name_id="KJ0256" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="1784" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1496" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1236" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="537" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="1784" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1496" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1236" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="537" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 17, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Northampton Correspondent (Easton, PA).  October 21, 1814.</reference>
+</election_record>

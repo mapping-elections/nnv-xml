@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Supreme Executive Council, Fayette County" type="General" iteration="First Ballot" date="1789" election_id="pa.councillor.fayette.1789" handle="10427/66057" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Supreme Executive Council" office_id="ON114" scope="State">
+		<role title="Supreme Executive Councillor" scope="County">
+			<ballot>
+				<candidate name="Nathaniel Braden" name_id="BN0128" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Stewart" name_id="SJ1167" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-18">
+				<candidate_summary candidate_ref="1" vote_total="311" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="125" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albert Gallatin Papers state that there were 125 "lost votes by" Nathaniel Braden.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="311" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel 1. Frame 0425.</reference>
+</election_record>

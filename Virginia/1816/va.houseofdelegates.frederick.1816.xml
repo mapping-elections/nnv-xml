@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1816 House of Delegates, Frederick County" type="General" iteration="First Ballot" date="1816-04" election_id="va.houseofdelegates.frederick.1816" handle="10427/33432" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Jared Williams" name_id="WJ1022" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Sexton" name_id="SJ1447" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="N. Burwell" name_id="BN0123" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-27">
+				<candidate_summary candidate_ref="1" vote_total="463" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="269" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="238" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09034" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09035" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"There were also 322 votes given in favor of calling a convention, and 37 votes against it."  Farmer's Repository (Charlestown, WV).  April 11, 1816.</note>
+				<note resp="Philip Lampi">"In Frederick there were 322 votes given in favour of calling a Convention, and 87 votes against it."  Richmond Enquirer (Richmond, VA).  April 17, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Frederick" geog_id="null">
+					<result candidate_ref="1" vote="463" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="269" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="238" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09034" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09035" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09034">Farmer's Repository (Charlestown, WV).  April 11, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Alexandria Herald (Alexandria, VA).  April 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09035">Richmond Enquirer (Richmond, VA).  April 17, 1816.</reference>
+</election_record>

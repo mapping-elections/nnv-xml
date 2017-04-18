@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1805 Lieutenant Governor" type="General" iteration="First Ballot" date="1805" election_id="vt.ltgovernor.1805" handle="10427/69143" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Lieutenant Governor" office_id="ON073" scope="State">
+        <role title="Lieutenant Governor" scope="State">
+            <ballot>
+            	<candidate name="Paul Brigham" name_id="BP0101" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            	<candidate name="John Leverett" name_id="LJ0544" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="null" modified="2014-10-24">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            	<note resp="Philip Lampi">"His Honor PAUL BRIGHAM, was declared to be re-elected. Liet. Governor--majority 5590."  Rutland Herald (Rutland, VT).  November 2, 1805.</note>
+            	<note resp="Philip Lampi">The votes from many towns were rejected for a number of reasons, according to the Journal of the Vermont General Assembly of 1805, including certificates having not been dated or not certified by the Town Clerk or presiding officer, or there not being any certificates or that certificates were lost.</note>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+            	<result candidate_ref="1" resp="Philip Lampi"/>
+            	<result candidate_ref="2"  resp="Philip Lampi"/>
+				<sub_unit type="County" name="Addison" geog_id="null">
+					<note resp="Philip Lampi">The votes from the towns of Addison, Lincoln, Middlebury, Shoreham, and Starksborough were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+					<sub_unit type="Town" name="Middlebury" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Bennington" geog_id="null">
+					<note resp="Philip Lampi">The votes from the town of Landgrove were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+				</sub_unit>
+                <sub_unit type="County" name="Caledonia" geog_id="null">
+				</sub_unit>
+                <sub_unit type="County" name="Chittenden" geog_id="null">
+                	<note resp="Philip Lampi">The votes from the towns of Moretown, Shelburne, and Stowe were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Essex" geog_id="null">
+					<note resp="Philip Lampi">The votes from the town of Brunswick were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<note resp="Philip Lampi">The votes from the towns of Fletcher, Sheldon, and Vineyard were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<note resp="Philip Lampi">The votes from the towns of Roxbury and Washington were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Orleans" geog_id="null">
+					<note resp="Philip Lampi">The votes from the towns of Coventry, Eden, Troy, Westmore, and Wolcott were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Rutland" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+				</sub_unit>
+                <sub_unit type="County" name="Windsor" geog_id="null">
+                	<note resp="Philip Lampi">The votes from the town of Rochester were rejected, according to the Journal of the Vermont General Assembly, 1805.</note>
+				</sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Vermont General Assembly, 1805.  6-8.</reference>
+	<reference type="citation" resp="Philip Lampi">Middlebury Mercury (Middlebury, VT).  September 4, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">Rutland Herald (Rutland, VT).  November 2, 1805.</reference>
+</election_record>

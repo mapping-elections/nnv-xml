@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record label="New York 1818 Assembly, Greene County" type="General" iteration="First Ballot" date="1818" election_id="ny.assembly.greene.1818" handle="10427/25442" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Isaac Van Loan" name_id="VI0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="James G. Foster" name_id="FJ0213" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Platt Adams" name_id="AP0015" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Thomas Benham" name_id="BT0189" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Anthony Van Bergen" name_id="VA0051" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Orren Post" name_id="PO0017" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-06">
+				<candidate_summary candidate_ref="1" vote_total="1024" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="948" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="927" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="887" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04567" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Greene" geog_id="null">
+					<result candidate_ref="1" vote="1024" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="948" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="927" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="887" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04567" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="New Baltimore" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New Baltimore Town Records.  44.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04567">The Albany Argus (Albany, NY).  May 19, 1818.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1797 House of Representatives, Montgomery County, Special" type="Special" iteration="First Ballot" date="1797" election_id="pa.assembly.montgomerycounty.special.1797" handle="10427/60935" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Nicholas Bellew" name_id="BN0136" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Henry Pawling" name_id="PH0041" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-03">
+				<candidate_summary candidate_ref="1" vote_total="37" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05534" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The results of the general election, in which Nicholas Bellew received 866 votes and Henry Pawling received 865 votes, were contested.  In order to resolve the issue, the House of Representatives took a vote and Bellew was once again the victor.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05534">Kline's Carlisle Weekly Gazette (Carlisle, PA).  December 13, 1797.</reference>
+</election_record>

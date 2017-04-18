@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 Assembly, Richmond County" type="General" iteration="First Ballot" date="1812" election_id="ny.assembly.richmond.1812" handle="10427/25863" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="James Guyon, Jr." name_id="GJ0298" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Tysen, Sr." name_id="TJ0327" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-16">
+				<candidate_summary candidate_ref="1" vote_total="365" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="293" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04439" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="365" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="293" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04439" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Castleton" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04439" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Northfield" geog_id="null">
+						<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04439" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southfield" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04439" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Westfield" geog_id="null">
+						<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04439" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04439">The Columbian (New York, NY).  May 6, 1812.</reference>
+</election_record>

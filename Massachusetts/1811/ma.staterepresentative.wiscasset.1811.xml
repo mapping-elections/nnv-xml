@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 House of Representatives, Wiscasset" type="General" iteration="First Ballot" date="1811-05" election_id="ma.staterepresentative.wiscasset.1811" handle="10427/27291" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Jeremiah Bailey" name_id="BJ0503" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Elwell" name_id="ER0029" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abiel Wood, Jr." name_id="WA0060" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Moses Carleton, Jr." name_id="CM0018" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-02">
+				<candidate_summary candidate_ref="1" vote_total="135" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="133" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="127" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03546" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Wiscasset" geog_id="null">
+					<result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="130" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="127" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03546" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"Our May meeting for the choice of Representatives was held yesterday, and after the warmest contest that I ever knew in this place, the Federal Republican ticket prevailed."  New-England Palladium (Boston, MA).  May 7, 1811.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 7, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 8, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03546">The True American and Commercial Advertiser (Philadelphia, PA).  May 11, 1811.</reference>
+</election_record>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 House of Representatives, Mifflin County" type="General" iteration="First Ballot" date="1824" election_id="pa.assembly.mifflincounty.1824" handle="10427/63862" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Calvin Blythe" name_id="BC0129" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Alexander" name_id="AR0050" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Cummins" name_id="CJ0865" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="J. Hoffey" name_id="HJ1186" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="A. Boggs" name_id="BA0268" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="J. Wilson" name_id="WJ0895" affiliation="Democrat" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2014-01-13">
+				<candidate_summary candidate_ref="1" vote_total="1569" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1248" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="796" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="558" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="393" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="277" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07381" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="1569" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1248" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="796" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="558" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="393" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="277" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07381" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 22, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07381">Lancaster Journal (Lancaster, PA).  October 24, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07381">Bradford Settler (Towanda, PA).  October 28, 1824.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1818 Commissioner, Jefferson County" type="General" iteration="First Ballot" date="1818" election_id="in.commissioner.jefferson.1818" handle="10427/56427" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Nicholas Manville" name_id="MN0007" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jesse Gray" name_id="GJ0053" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Irvin" name_id="IJ0032" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Benjamin Ramsey" name_id="RB0005" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-27">
+				<candidate_summary candidate_ref="1" vote_total="323" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="230" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="131" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="37" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="323" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="230" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="131" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="37" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Indiana Republican (Madison, IN).  August 15, 1818.</reference>
+</election_record>

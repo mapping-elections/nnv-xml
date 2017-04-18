@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Kentucky 1800 State Senate, Fayette County" type="General" iteration="First Ballot" date="1800" election_id="ky.statesenatefayette.1800" handle="10427/57694" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="State Senate" office_id="ON109" scope="State">
+  	<role title="State Senator" scope="County">
+		<ballot>
+			<candidate name="James Trotter" name_id="TJ0117" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			<candidate name="Edmund Bullock" name_id="BE0063" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			<candidate name="Robert Patterson" name_id="PR0006" affiliation="null" affiliation_id="null" candidate_num="3"/>
+		</ballot>
+		<overview status="Version 1.0" modified="2008-03-17">
+			<candidate_summary candidate_ref="1" vote_total="369" resp="Philip Lampi"/>
+			<candidate_summary candidate_ref="2" vote_total="208" resp="Philip Lampi"/>
+			<candidate_summary candidate_ref="3" vote_total="14" resp="Philip Lampi"/>
+		</overview>
+		<admin_unit type="State" name="Kentucky" geog_id="null">
+			<sub_unit type="County" name="Fayette" geog_id="null">
+				<result candidate_ref="1" vote="369" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+				<result candidate_ref="3" vote="14" resp="Philip Lampi"/>
+			</sub_unit>
+		</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12759">Stewart's Kentucky Herald (Lexington, KY).  May 6, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Stewart's Kentucky Herald (Lexington, KY).  May 13, 1800.</reference>
+</election_record>

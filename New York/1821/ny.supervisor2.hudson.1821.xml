@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1821 Supervisor, Hudson, Ward 2" type="General" iteration="First Ballot" date="1821" election_id="ny.supervisor2.hudson.1821" handle="10427/66776" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Supervisor" office_id="ON113" scope="City">
+		<role title="Supervisor" scope="Ward">
+			<ballot>
+				<candidate name="Thomas Bay" name_id="BT0104" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="R. H. Van Rensselaer" name_id="VR0009" affiliation="Bucktail" affiliation_id="A06" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-25">
+				<candidate_summary candidate_ref="1" vote_total="200" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="114" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Hudson" geog_id="null">
+					<sub_unit type="Ward" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="114" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Northern Whig (Hudson, NY).  April 10, 1821.</reference>
+</election_record>

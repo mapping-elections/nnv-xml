@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1812 Sheriff, New Castle County" type="General" iteration="First Ballot" date="1812" election_id="de.sheriff.newcastle.1812" handle="10427/43897" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William Moore" name_id="MW0019" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Merritt" name_id="MJ0041" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Adam Dethl" name_id="DA0126" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Elliott" name_id="EJ0289" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12095" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="Hundred" name="Christiana" geog_id="des_newcastle_christiana">
+					<result candidate_ref="1" vote="540" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="530" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="267" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="271" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12095" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12095">American Watchman; and Delaware Republican (Wilmington, DE).  October 10, 1812.</reference>
+</election_record>

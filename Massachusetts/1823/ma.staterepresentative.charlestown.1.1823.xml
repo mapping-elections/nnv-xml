@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1823 House of Representatives, Charlestown, Ballot 2" type="General" iteration="Second Ballot" date="1823" election_id="ma.staterepresentative.charlestown.1.1823" handle="10427/79448" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Richard Devens" name_id="DR0090" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Leonard M. Parker" name_id="PL0045" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-03 ">
+				<candidate_summary candidate_ref="1" vote_total="254" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="191" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="49" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Charlestown voted to send Six representative to the Legislature, but at their initial election only five received the required number of votes to be chosen and so another vote was held to select the sixth member.</note>
+				<note resp="Philip Lampi">"Whole number 494; necessary to a choice 248."  Independent Chronicle and Boston Patriot (Boston, MA).  May 10, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Charlestown" geog_id="null">
+					<result candidate_ref="1" vote="254" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="191" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Independent Chronicle and Boston Patriot (Boston, MA).  May 10, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  May 10, 1823.</reference>
+</election_record>

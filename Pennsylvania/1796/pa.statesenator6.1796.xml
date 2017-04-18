@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 State Senate, District 6" type="General" iteration="First Ballot" date="1796-10" election_id="pa.statesenator6.1796" handle="10427/60846" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Christian Lower" name_id="LC0033" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Gabriel Heister" name_id="HG0106" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="George Ege" name_id="EG0009" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="2428" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2119" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00116" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05488" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05493" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05494" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05495" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA) and Kline's Carlisle Weekly Gazette lists Christian Lower as Conrad Lower.</note>
+				<note resp="Philip Lampi">The Readinger Zeitung uses the spelling Lauer for Christian Lower.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<result candidate_ref="1" vote="2428" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2119" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Berks" geog_id="null">
+						<result candidate_ref="1" vote="1819" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1547" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Dauphin" geog_id="null">
+						<result candidate_ref="1" vote="609" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="572" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05488">The Weekly Advertiser, of Reading, in the County of Berks (Reading, PA).  October 15, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05495">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05495">The New World (Philadelphia, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05493">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05488">Neue Unpartheyische Readinger Zeitung und Anzeigs-Nachrichten (Reading, PA).  October 19, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 26, 1796.</reference>
+</election_record>

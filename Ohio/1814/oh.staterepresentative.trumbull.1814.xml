@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 House of Representatives, Trumbull County" type="General" iteration="First Ballot" date="1814-10" election_id="oh.staterepresentative.trumbull.1814" handle="10427/59442" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Wilson Elliot" name_id="EW0010" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Hillman" name_id="HJ0253" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Henry Wick" name_id="WH0033" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Benjamin Ross" name_id="RB0056" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Samuel Leavett" name_id="LS0065" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Sterling G. Bushnell" name_id="BS0027" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="Joseph D. Wolf" name_id="WJ0325" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="Seth Tracy" name_id="TS0082" affiliation="null" affiliation_id="null" candidate_num="8"/>
+                <candidate name="Isaac Olmstead" name_id="OI0007" affiliation="null" affiliation_id="null" candidate_num="9"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-06">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="9" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                    <result candidate_ref="5" resp="Philip Lampi"/>
+                    <result candidate_ref="6" resp="Philip Lampi"/>
+                    <result candidate_ref="7" resp="Philip Lampi"/>
+                    <result candidate_ref="8" resp="Philip Lampi"/>
+                    <result candidate_ref="9" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Canfield" geog_id="null">
+                        <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="26" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19106" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hartford" geog_id="null">
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="9" vote="1" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19106" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Vernon" geog_id="null">
+                        <result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="7" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19106" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

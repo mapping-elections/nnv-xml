@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1824 Governor, Ballot 2" type="Legislative" iteration="Second Ballot" date="1824-06" election_id="nh.governor.2.1824" handle="10427/79530" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="David L. Morrill" name_id="MD0059" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Levi Woodbury" name_id="WL0039" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-07-30">
+				<candidate_summary candidate_ref="1" vote_total="146" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="64" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Honorable David L. Morrill was elected Governor of New Hampshire by the Legislature of that State, on Thursday the 3rd inst."  Lincoln Intelligencer (Wiscasset).  June 11, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Patriot and State Gazette (Concord, NH).  June 7, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  June 9, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Lincoln Intelligencer (Wiscasset, ME).  June 11, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">New-hampshire Sentinel (Keene, NH).  June 11, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  June 12, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Portsmouth Journal of Literature and Politics (Portsmouth, NH).  June 12, 1824.</reference>
+</election_record>

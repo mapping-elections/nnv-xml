@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1815 Sheriff, Dorchester County" type="General" iteration="First Ballot" date="1815" election_id="md.sheriff.dorchester.county.1815" handle="10427/26753" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas Barnett" name_id="BT0091" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas Thompson" name_id="TT0041" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Solomon Kerwan" name_id="KS0006" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-26">
+				<candidate_summary candidate_ref="1" vote_total="840" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="837" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="740" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02941" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14699" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+					<result candidate_ref="1" vote="840" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="837" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="740" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="381" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="438" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02941" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="380" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="222" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="249" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02941" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="450" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02941" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14699">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02941">Republican Star or General Advertiser (Easton, MD).  October 10, 1815.</reference>
+</election_record>

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Florida 1825 U.S. House of Representatives (Territorial Delegate)" type="General" iteration="First Ballot" date="1825" election_id="fl.territoryrep.1825" handle="10427/43792" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="Joseph M. White" name_id="WJ0059" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">"Josephe M. White was elected.</note></candidate>
+				<candidate name="James Gadsen" name_id="GJ0029" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph M. Hernandez" name_id="HJ0045" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-27">
+				<candidate_summary candidate_ref="1" vote_total="742" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="460" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="362" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11551"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11552"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11553"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11554"/>
+				<note resp="Philip Lampi">"Col. White of Pensacola has been elected, by the People of the Territory of Florida to represent them as a Delegate in Congress.  The whole number of votes was nearly 1600, of which Mr. White received, as far as we have heard, 742 votes, Mr. Gadsen 460 votes, and Mr. Hernandez 362 votes."  Richmond Enquirer (Richmond, VA).  July 22, 1825.</note>
+			</overview>
+			<admin_unit type="Territory" name="Florida" geog_id="null">
+				<sub_unit type="County" name="Alachua" geog_id="null">
+					<result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Duval" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="138" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Escambia" geog_id="null">
+					<result candidate_ref="1" vote="207" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+					<sub_unit type="Populated Place" name="Barrow's" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gaines'" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11551"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hall's" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11551"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Pensacola" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11551"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Gadsden" geog_id="null">
+					<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+				</sub_unit>
+				<sub_unit type="County" name="Jackson" geog_id="null">
+					<result candidate_ref="1" vote="284" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+					<note resp="Philip Lampi">The Boston Weekly Messanger lists 18 votes for James Gadsden.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Leon" geog_id="null">
+					<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+				</sub_unit>
+				<sub_unit type="County" name="Musquito" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Nassau" geog_id="null">
+					<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The returns from Nassau County are incomplete. There were three precincts - at one one precinct there was no election, and from another no return has been received.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Saint John's" geog_id="null">
+					<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="218" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Boston Weekly Messenger (Boston, MA) lists 238 votes for Joseph M. Hernandez.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Walton" geog_id="null">
+					<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546"/>
+					<note resp="Philip Lampi">The Boston Weekly Messenger (Boston, MA) lists 45 votes for James Gadsden.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546">Pensacola Gazette and West Florida Advertiser (Pensacola, FL).  May 21, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11546">Pensacola Gazette and West Florida Advertiser (Pensacola, FL).  May 28, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11551">Washington Gazette (Washington, DC).  June 11, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11552">Savannah Georgian (Savannah, GA).  July 2, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11554">The Nashville Whig (Nashville, TN) (Nashville, Tennessee).  July 9, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Boston Weekly Messenger (Boston, MA).  July 21, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11553">Richmond Enquirer (Richmond, VA).  July 22, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Stanley, J. Randall.  History of Jackson County.  Jackson County Historical Society, 1950.  29.</reference>
+</election_record>

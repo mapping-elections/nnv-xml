@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1794 State Senate, District 7" type="General" iteration="First Ballot" date="1794" election_id="nh.statesenate.7.1794" handle="10427/78772" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="William Gordon" name_id="GW0063" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Daniel Emerson" name_id="ED0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-24">
+				<candidate_summary candidate_ref="1" vote_total="169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="164" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<result candidate_ref="1" vote="169" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Hillsborough" geog_id="null">
+						<sub_unit type="Town" name="Amherst" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Bedford" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Derryfield" geog_id="null">
+							<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Dunbarton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Dunstable" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Duxbury" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Goffstown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hollis" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Litchfield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Merrimack" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="New Boston" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Nottingham West" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Raby" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<sub_unit type="Town" name="Bow" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  May 20, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirrour (Concord, NH).  May 26, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The Eagle: or, Dartmouth Centinel (Hanover, NH).  June 2, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">Browne, George Waldo.  Early Records of the Town of Derryfield now Manchester, NH.  Vol. II.  Manchester, NH: City Council of Manchester, 1909.  262.</reference>
+</election_record>

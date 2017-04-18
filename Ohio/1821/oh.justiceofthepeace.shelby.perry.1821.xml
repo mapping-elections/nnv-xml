@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 Justice of the Peace, Shelby County, Perry Township, Special" type="Special" iteration="First Ballot" date="1821-10" election_id="oh.justiceofthepeace.shelby.perry.1821" handle="10427/60017" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Justice of the Peace" office_id="ON068" scope="Township">
+        <role title="Justice of the Peace" scope="Township">
+            <ballot>
+                <candidate name="David Henry" name_id="HD0030" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Benjamin Blankenship" name_id="BB0044" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-20">
+                <candidate_summary candidate_ref="1" vote_total="7" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="5" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Election of "an additional Justice of the Peace, in the Township of Perry."</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Shelby" geog_id="ohs_shelby">
+                    <sub_unit type="Township" name="Perry" geog_id="null">
+                        <result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Perry Township, Shelby County.</reference>
+</election_record>
+

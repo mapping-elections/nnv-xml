@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1796 State Senate, Saint Luke's Parish" type="General" iteration="First Ballot" date="1796" election_id="sc.senate.st.lukes.1796" handle="10427/32098" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="William Hazzard" name_id="HW0376" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">William Hazzard is elected, but would decline to serve on December 8, 1796.</note></candidate>
+				<candidate name="John Simmons" name_id="SJ1430" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-09-25">
+				<candidate_summary candidate_ref="1" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07487" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Luke's" geog_id="null">
+					<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Euhaw Church" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">23 voters at Euhaw Church participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hilton Head" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">20 voters at Hilton Head participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Saint Luke's Church" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">17 voters at Saint Luke's Church participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07487">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1822.</reference>
+</election_record>

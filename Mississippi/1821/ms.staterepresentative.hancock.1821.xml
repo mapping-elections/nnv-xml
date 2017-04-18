@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 House of Representatives, Hancock County" type="General" iteration="First Ballot" date="1821" election_id="ms.staterepresentative.hancock.1821" handle="10427/79945" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Noel Jourdan" name_id="JN0019" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jourdan Morgan" name_id="MJ1420" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-18">
+				<candidate_summary candidate_ref="1" vote_total="106" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="84" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Hancock" geog_id="null">
+					<result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Bay of Saint Louis" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Bollechitton" geog_id="null">
+						<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

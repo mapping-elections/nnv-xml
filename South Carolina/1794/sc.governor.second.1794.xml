@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1794 Governor, Ballot 2" type="Legislative" iteration="Second Ballot" date="1794" election_id="sc.governor.second.1794" handle="10427/64660" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Governor" office_id="ON060" scope="State">
+        <role title="Governor" scope="State">
+            <ballot>
+                <candidate name="Arnoldus Vanderhorst" name_id="VA0028" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lamp">Arnoldus Vanderhorst Elected.</note></candidate>
+                <candidate name="Jacob Read" name_id="RJ0598" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+                <candidate name="Thomas Taylor" name_id="TT0005" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-09-22">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Arnoldus Vanderhorst came within seven votes of having a majority on the first ballot; more than enough of Read's supporters shifted to Vanderhorst on the second, giving him the election.</note>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+                <result candidate_ref="3" resp="Philip Lampi"/>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Rogers, George C.  Evolution of a Federalist: William Loughton Smith of Charleston (1758-1812).  Columbia, SC: University of South Carolina Press, 1962.  268.</reference>
+</election_record>

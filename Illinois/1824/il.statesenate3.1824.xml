@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 State Senate, Fulton and Pike Counties" type="General" iteration="First Ballot" date="1824-08" election_id="il.statesenate3.1824" handle="10427/56392" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Thomas Carlin" name_id="CT0062" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac N. Piggot" name_id="PI0008" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="134" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="119" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Carlin's seat was contested by Piggot.  November 22, 1824 seat was declared vacant. Carlin was elected again at special election December 13, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Fulton and Pike" geog_id="null">
+					<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Fulton" geog_id="null">
+						<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11317"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11318"/>
+					</sub_unit>
+					<sub_unit type="County" name="Pike" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Colesgrove" geog_id="null">
+							<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Cape au Gris" geog_id="null">
+							<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Franklin" geog_id="null">
+							<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11317">Edwardsville Spectator (Edwardsville, IL).  August 10, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  209.</reference>
+</election_record>

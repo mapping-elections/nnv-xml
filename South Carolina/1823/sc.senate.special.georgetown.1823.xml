@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1823 State Senate, Georgetown District, Special" type="Special" iteration="First Ballot" date="1823" election_id="sc.senate.special.georgetown.1823" handle="10427/32546" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Thomas P. Davis" name_id="DT0104" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Mann Taylor" name_id="TJ0618" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert B. Campbell" name_id="CR0162" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas R. Mitchell" name_id="MT0226" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-17">
+				<candidate_summary candidate_ref="1" vote_total="144" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07985" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15929" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was contested by Mr. Taylor and after testimony offered the seat was declared to be vacant and another writ of election was ordered.</note>
+				<note resp="Philip Lampi">"Giving to Mr. Davis a majority of one. The election will no doubt be contested - other grounds apart, one of the voters declared, immediately after he had voted, that he was an alien; his vote, he said was for Mr. Davis. --The managers mention this in their return. Three votes for Taylor were found in the Congressional box, and three for Col. Campbell, for Congress, in the Senatorial box."  Charleston Courier (Charleston, SC).  15 February 1823.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Georgetown" geog_id="null">
+					<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="143" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="China Grove" geog_id="null">
+						<result candidate_ref="1" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07985" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Georgetown" geog_id="null">
+						<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07985" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pee Dee" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07985" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sampit" geog_id="null">
+						<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07985" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Santee" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07986" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07985">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15929">Memorial Petition of John Mann Taylor contesting the election of Thomas P. Davis as State Senator.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07986">Charleston Courier (Charleston, SC).  February 15, 1823.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1810 House of Representatives, Provincetown" type="General" iteration="First Ballot" date="1810-05" election_id="ma.staterepresentative.provincetown.1810" handle="10427/69235" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Joseph Atkins" name_id="AJ0327" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Pease" name_id="PD0114" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Rider" name_id="RT0117" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Joshua Atkins" name_id="AJ0329" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel Cook" name_id="CS0234" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-09">
+				<candidate_summary candidate_ref="1" vote_total="33" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="24" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Provincetown" geog_id="null">
+					<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Provincetown Town Records.  109.</reference>
+</election_record>

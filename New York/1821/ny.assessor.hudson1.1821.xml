@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1821 Assessor, Hudson, Ward 1" type="General" iteration="First Ballot" date="1821" election_id="ny.assessor.hudson1.1821" handle="10427/66733" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="Cornelius Benham" name_id="BC0139" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"/>
+           <candidate name="Fletcher M. Beekman" name_id="BF0031" affiliation="People's Ticket" affiliation_id="A05" candidate_num="2"/>
+           <candidate name="John P. Jenkins" name_id="JJ0142" affiliation="Bucktail" affiliation_id="A06" candidate_num="3"/>
+           <candidate name="John M. Harder" name_id="HJ0479" affiliation="People's Ticket" affiliation_id="A05" candidate_num="4"/>
+           <candidate name="Ezekiel Butler" name_id="BE0066" affiliation="Bucktail" affiliation_id="A06" candidate_num="5"/>
+           <candidate name="John Elting" name_id="EJ0138" affiliation="Bucktail" affiliation_id="A06" candidate_num="6"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-03-01">
+           <candidate_summary candidate_ref="1" vote_total="181" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="176" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="169" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="166" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="5" vote_total="165" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="6" vote_total="152" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Hudson" geog_id="null">
+              <sub_unit type="Ward" name="One" geog_id="null">
+                <result candidate_ref="1" vote="181" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="169" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="166" resp="Philip Lampi"/>
+                <result candidate_ref="5" vote="165" resp="Philip Lampi"/>
+                <result candidate_ref="6" vote="152" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Northern Whig (Hudson, NY).  April 10, 1821.</reference>
+</election_record>

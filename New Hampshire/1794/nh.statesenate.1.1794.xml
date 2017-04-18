@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1794 State Senate, District 1" type="General" iteration="First Ballot" date="1794" election_id="nh.statesenate.1.1794" handle="10427/26041" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Christopher Toppan" name_id="TC0019" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Moses Leavett" name_id="LM0036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Andrew Wiggin" name_id="WA0086" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Goddard" name_id="GJ0185" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Phillips White" name_id="WP0055" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Oliver Peabody" name_id="PO0014" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="James Sheafe" name_id="SJ0463" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-07-07">
+				<candidate_summary candidate_ref="1" vote_total="162" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="134" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03771" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Greenland" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hampton Falls" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="New Castle" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Newington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="North Hampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Portsmouth" geog_id="null">
+							<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="2" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03771" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Rye" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Seabrook" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Stratham" geog_id="null">
+							<result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03773" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03771">Oracle of the Day (Portsmouth, NH).  March 19, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  March 22, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03773">American Herald of Liberty (Exeter, NH).  April 1, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03770">American Herald of Liberty (Exeter, NH).  April 8, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03770">The Phenix (Dover, NH).  April 12, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  May 20, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirrour (Concord, NH).  May 26, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The Eagle: or, Dartmouth Centinel (Hanover, NH).  June 2, 1794.</reference>
+</election_record>

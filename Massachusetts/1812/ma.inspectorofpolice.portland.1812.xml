@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 Inspector of Police, Portland" type="General" iteration="First Ballot" date="1812" election_id="ma.inspectorofpolice.portland.1812" handle="tufts:ma.inspectorofpolice.portland.1812" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector of Police" office_id="ON038" scope="Town">
+		<role title="Inspector of Police" scope="Town">
+			<ballot>
+				<candidate name="Jonathan Deane" name_id="DJ0607" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-01">
+				<candidate_summary candidate_ref="1" vote_total="186" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="17" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Portland" geog_id="null">
+					<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Portland Gazette, and Maine Advertiser (Portland, ME).  March 9, 1812.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Sheriff, Delaware County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.sheriff.delaware.1807" handle="10427/61752" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Richard P. Lloyd" name_id="LR0063" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Marshall" name_id="MT0146" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="George Hinkson" name_id="HG0090" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-29">
+				<candidate_summary candidate_ref="1" vote_total="570" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="559" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06142" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">George Hinkson is listed as a Republican candidate in The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) on October 17, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="570" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="559" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06142" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06142">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 17, 1807.</reference>
+</election_record>

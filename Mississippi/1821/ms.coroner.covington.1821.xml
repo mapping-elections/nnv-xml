@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 Coroner, Covington County" type="General" iteration="First Ballot" date="1821" election_id="ms.coroner.covington.1821" handle="10427/79912" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="David Scarborough" name_id="SD0252" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stephen Shelton" name_id="SS0313" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Abraham Mott" name_id="MA0320" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-17">
+				<candidate_summary candidate_ref="1" vote_total="108" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="67" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="65" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Covington" geog_id="null">
+					<result candidate_ref="1" vote="108" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Harrison Watson's" geog_id="null">
+						<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Richard Welch's" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="William MacGehee's" geog_id="null">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

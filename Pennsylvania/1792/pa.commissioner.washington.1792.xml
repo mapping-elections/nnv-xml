@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1792 Commissioner, Washington County" type="General" iteration="First Ballot" date="1792-10" election_id="pa.commissioner.washington.1792" handle="10427/66018" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Zachariah Gaper" name_id="GZ0001" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John White" name_id="WJ0205" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Shannon" name_id="SS0025" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Abraham Hiskman" name_id="HA0043" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Stemmons" name_id="SW0097" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Stevenson" name_id="SJ1094" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Lemuel Sayers" name_id="SL0002" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Christian Yost" name_id="YC0000" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-01">
+				<candidate_summary candidate_ref="1" vote_total="474" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="405" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="338" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="237" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="207" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="52" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="474" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="405" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="338" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="237" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="207" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="118" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="52" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Alexander Addison to Albert Gallatin.   October 11, 1792.  Albert Gallatin Papers.</reference>
+</election_record>

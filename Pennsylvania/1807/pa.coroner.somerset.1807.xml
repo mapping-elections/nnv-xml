@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Coroner, Somerset County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.coroner.somerset.1807" handle="10427/61818" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Frederick Neff" name_id="NF0009" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Alexander Linn" name_id="LA0114" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Jacob Kraft" name_id="KJ0237" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-13">
+				<candidate_summary candidate_ref="1" vote_total="612" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="611" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06195" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Somerset" geog_id="null">
+					<result candidate_ref="1" vote="612" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="611" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06195" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Brothersvalley" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06196" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Conemaugh" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="27" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06196" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06195">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

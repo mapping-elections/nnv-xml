@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Commissioner, Meigs County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.commissioner.meigscounty.1824" handle="10427/60330" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Stephen Strong" name_id="SS0243" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Philip Jones" name_id="JP0010" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Reed" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Enos Quinby" name_id="QE0001" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel Downing" name_id="DS0147" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-17">
+				<candidate_summary candidate_ref="1" vote_total="246" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="97" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="56" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="11" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05350" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Meigs" geog_id="null">
+					<result candidate_ref="1" vote="246" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="11" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05350" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05350">American Friend and Marietta Gazette (Marietta, OH).  October 21, 1824.</reference>
+</election_record>

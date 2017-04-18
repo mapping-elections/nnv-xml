@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record label="New York 1801 Convention, Tioga County" type="General" iteration="First Ballot" date="1801" election_id="ny.convention.tioga.1801" handle="10427/26020" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Convention" office_id="ON041" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="John Patterson" name_id="PJ0208" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Samuel Tinkham" name_id="TS0003" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-26">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04189" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tioga" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04189" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"Observe the contrast between the result of the election last April and the present, in the above towns-the Federal candidate for the legislature then had 154 votes, and now, to the honor and dignity of Union and Chenango, only 37 were given in favour of the federal interest."  The American Constellation (Union, NY).  August 29, 1801.</note>
+					<sub_unit type="Town" name="Chenango" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04189" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Owego" geog_id="null">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04189" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04189" resp="Philip Lampi"/>
+					</sub_unit>
+					
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New York State Archives, Albany.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04188">The American Constellation (Union, NY).  August 29, 1801.</reference>
+</election_record>

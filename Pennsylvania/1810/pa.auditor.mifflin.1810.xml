@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Auditor, Mifflin County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.auditor.mifflin.1810" handle="10427/62207" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Hugh Hart" name_id="HH0088" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Francis Boggs" name_id="BF0047" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Robert Robeson" name_id="RR0052" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Bratton" name_id="BJ0962" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Andrew Banks" name_id="BA0204" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-17">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06405" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06406" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Hugh Hart was supported by both Republican tickets.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06405" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06406" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06405">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The American Eagle (Huntingdon, PA).  August 23, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06405">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  August 25, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06406">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  September 8, 1810.</reference>
+</election_record>

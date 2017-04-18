@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 Clerk of the Senate" type="Legislative" iteration="First Ballot" date="1790-12" election_id="pa.clerkofthesenate.1790" handle="10427/66045" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Senate" office_id="ON030" scope="State">
+		<role title="Clerk of the Senate" scope="State">
+			<ballot>
+				<candidate name="Timothy Matlack" name_id="MT0155" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Bryan" name_id="BS0013" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Redman" name_id="RJ0121" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania State Senate.  18-19.</reference>
+</election_record>

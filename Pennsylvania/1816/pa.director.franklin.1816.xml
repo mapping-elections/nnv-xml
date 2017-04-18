@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Director of the Poor, Franklin County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.director.franklin.1816" handle="10427/66908" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="John Rudisill" name_id="RJ0494" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Creamer" name_id="CJ0750" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-29">
+				<candidate_summary candidate_ref="1" vote_total="1338" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1223" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1338" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1223" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Individual vote totals listed in the Democratic Republican and Pennsylvania Advertiser (Chambersburg, PA) from October 14, 1816 add up to 1330 total votes for John Rudisill and 1220 total votes for John Creamer.</note>
+					<sub_unit type="Borough" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="377" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="362" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fannett" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greencastle" geog_id="null">
+						<result candidate_ref="1" vote="190" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="167" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mercersburg" geog_id="null">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="221" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Metal" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Roxbury" geog_id="null">
+						<result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Southampton" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Strasburg" geog_id="null">
+						<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Waynesburg" geog_id="null">
+						<result candidate_ref="1" vote="204" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="240" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Democratic Republican and Pennsylvania Advertiser (Chambersburg, PA).  October 14, 1816.</reference>
+</election_record>

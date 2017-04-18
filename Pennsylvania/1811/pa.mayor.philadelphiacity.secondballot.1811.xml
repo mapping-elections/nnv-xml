@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Mayor, Philadelphia City, Ballot 2" type="Legislative" iteration="Second Ballot" date="1811-10" election_id="pa.mayor.philadelphiacity.secondballot.1811" handle="10427/62377" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Mayor" office_id="ON079" scope="City">
+		<role title="Mayor" scope="City">
+			<ballot>
+				<candidate name="Michael Keppelle" name_id="KM0036" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Baker" name_id="BJ0985" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-01">
+				<candidate_summary candidate_ref="1" vote_total="16" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="13" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06499" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06500" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Federal Gazette spelled Michael Keppelle as Michael Kepple.</note>
+				<note resp="Philip Lampi">"Yesterday the Select and Common Councils, in joint meetings, proceeded to the election of a Mayor of the city, for the ensuing year; and Robert Wharton, Esq. was unanimously re-chosen. He declined serving~ when Michael Kepple was elected Mayor." Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 17, 1811.</note>
+				<note resp="Philip Lampi">"Robert Wharton, Esq. on account of ill health, has declined serving, as Mayor of Philadelphia; and Michael Keppele, Esq. has been elected to that office." The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 19, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="null" name="Common Council" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06499" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06500" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Select Council" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06499" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06500" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06499">The True American and Commercial Advertiser (Philadelphia, PA).  October 16, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06500">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 17, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 19, 1811.</reference>
+</election_record>

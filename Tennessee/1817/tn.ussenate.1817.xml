@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 U.S. Senate" type="Legislative" iteration="First Ballot" date="1817-10" election_id="tn.ussenate.1817" handle="10427/20688" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John Williams" name_id="WJ0959" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-09">
+				<candidate_summary candidate_ref="1" vote_total="51" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10138" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10137" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The committee then proceeded to the election of a Senator to Congress, for the six ensuing years, ....John Williams, esq. in nomination, and on counting the votes it appeared that John Williams had 51."  Journal of the Tennessee House of Representatives, 1817.  83.</note>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10137">Journal of the Tennessee House of Representatives, 1817.  83.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10138">National Intelligencer (Washington, DC).  October 17, 1817.</reference>
+</election_record>

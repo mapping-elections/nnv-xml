@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1802 Town Clerk, Hartford" type="General" iteration="First Ballot" date="1802-12" election_id="ct.townclerk.hartford.1802" handle="10427/79657" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="City">
+		<role title="Town Clerk" scope="City">
+			<ballot>
+				<candidate name="Samuel Wyllys" name_id="WS0004" affiliation="Federalist" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Solomon Porter" name_id="PS0232" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-19">
+				<candidate_summary candidate_ref="1" vote_total="233" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"HARTFORD, December 22. Last Monday the annual Town Meeting was holden in this place. We do not recollect ever to have seen so many voters collected together for the purpose of choosing Town Officers and transacting the other usual business of this meeting. Upon counting the votes there there appeared to be 409 in whole."  Connecticut Courant (Hartford, CT).  December 22, 1802.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="Hartford" geog_id="cts_Hartford_Hartford">
+					<result candidate_ref="1" vote="233" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  December 22, 1802.</reference>
+</election_record>

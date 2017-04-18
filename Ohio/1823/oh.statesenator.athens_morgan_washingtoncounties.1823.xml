@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record  xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 State Senate, Athens, Morgan and Washington Counties" type="General" iteration="First Ballot" date="1823-10" election_id="oh.statesenator.athens_morgan_washingtoncounties.1823" handle="10427/60190" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Ephraim Cutler" name_id="CE0118" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elijah Hatch" name_id="HE0104" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-22">
+				<candidate_summary candidate_ref="1" vote_total="1116" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="314" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05337" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Athens, Morgan and Washington" geog_id="null">
+					<result candidate_ref="1" vote="1116" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="314" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05337" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Athens" geog_id="ohs_athens">
+						<result candidate_ref="1" vote="590" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05337" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Morgan" geog_id="ohs_morgan">
+						<result candidate_ref="1" vote="321" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="281" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05337" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="ohs_washington">
+						<result candidate_ref="1" vote="205" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05337" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05337">American Friend and Marietta Gazette (Marietta, OH).  October 30, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05337">Marietta Minerva (Marietta, OH).  November 12, 1823.</reference>
+</election_record>

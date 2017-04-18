@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1824 State Senate, Hertford County" type="General" iteration="First Ballot" date="1824-08" election_id="nc.statesenator.hertford.1824" handle="10427/45235" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="James Copeland" name_id="CJ0072" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="D. E. Sumner" name_id="SD0017" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-05-05">
+                <candidate_summary candidate_ref="1" vote_total="151" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="127" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18425" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The election in Hertford county, it appears, was closely contested: the succesful candidate for the Senate received 151 votes; the other, 127.  Now how many counties are there in the west, that give from twelve to fifteen hundred senate votes?  Yet Hertford has equal weight in the General Assembly with the largest county in the state!  This is equality and Republicanism, for ye!!"  Western Carolinian (Salisbury, NC).  September 14, 1824.</note>
+                <note resp="Philip Lampi">The Star, and North-Carolina State Gazette (Raleigh, NC) and the Raleigh Register, and North-Carolina State Gazette (Raleigh, NC) list Jas. Copeland with 157 votes and D. E. Sumner with 126 votes.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Hertford" geog_id="null">
+                    <result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18425" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18425">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 24, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">The Star, and North-Carolina State Gazette (Raleigh, NC).  August 27, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">Western Carolinian (Salisbury, NC).  September 14, 1824.</reference>
+</election_record>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1793 Legislative Council, Monmouth County" type="General" iteration="First Ballot" date="1793" election_id="nj.legislativecouncil.monmouth.1793" handle="10427/67652" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Thomas Henderson" name_id="HT0100" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Breese" name_id="BS0310" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="David Hendrickson" name_id="HD0015" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-20">
+				<candidate_summary candidate_ref="1" vote_total="768" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="447" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="255" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Monmouth" geog_id="null">
+					<result candidate_ref="1" vote="768" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="447" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="255" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Dover" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Freehold" geog_id="null">
+						<result candidate_ref="1" vote="279" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shrewsbury" geog_id="null">
+						<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="102" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stafford" geog_id="null">
+						<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Freehold" geog_id="null">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="98" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Tally Sheets.  Monmouth County Archives, Freehold.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Director of the Poor, Franklin County" type="General" iteration="First Ballot" date="1819-10" election_id="pa.director.franklin.1819" handle="10427/63272" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="D. Weshebaugh" name_id="WD0110" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Vance" name_id="VJ0171" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-05">
+				<candidate_summary candidate_ref="1" vote_total="1197" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06992" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The votes given in Fannet township were rejected as illegal, having but two judges; the law says there shall not be less then three nor more than five." The Union. United States Gazette and True American (Philadelphia, PA).  October 27, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1197" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06992" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 22, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06992">Franklin Gazette (Philadelphia, PA) (For the country).  October 23, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA).  October 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06992">The Union. United States Gazette and True American (Philadelphia, PA).  October 29, 1819.</reference>
+</election_record>

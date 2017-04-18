@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1788 Governor" type="Legislative" iteration="First Ballot" date="1788" election_id="va.governor.1788" handle="10427/65043" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Beverly Randolph" name_id="RB0068" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Harrison" name_id="HB0152" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-22">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Extract of a letter from Alex White to James Madison: "We yesterday balloted for a Governor, Candidates Ben. Harrison and Beverly Randolph - the latter was elected by a Majority of 4." The Papers of James Madison, 380.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="House of Delegates" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi">Mattern, David B., J. C. A. Stagg, Jeanne K. Cross and Susan Holbrook Perdue, ed.  The Papers of James Madison, Congressional Series.  Vol. 11.  Charlottesville, VA: University of Virginia Press, 1977.  380.</reference>
+</election_record>

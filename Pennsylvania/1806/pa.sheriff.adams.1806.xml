@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Sheriff, Adams County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.sheriff.adams.1806" handle="10427/61609" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Jacob Winrott" name_id="WJ0710" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Horner" name_id="HJ0846" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Murphy" name_id="MJ0968" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Arendt" name_id="AJ0249" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="William MacClellan" name_id="MW0340" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="James Cox" name_id="CJ0416" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-19">
+				<candidate_summary candidate_ref="1" vote_total="811" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="539" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="499" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="362" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="186" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="9" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06039" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="811" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="539" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="499" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="362" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="186" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="9" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06039" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="170" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="238" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="15" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="288" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="69" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="92" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Centinel (Gettysburg, PA).  October 18, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06039">The Centinel (Gettysburg, PA).  October 22, 1806.</reference>
+</election_record>

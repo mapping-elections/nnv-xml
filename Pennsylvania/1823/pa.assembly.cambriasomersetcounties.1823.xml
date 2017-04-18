@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 House of Representatives, Cambria and Somerset Counties" type="General" iteration="First Ballot" date="1823" election_id="pa.assembly.cambriasomersetcounties.1823" handle="10427/63769" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Peter Livergood" name_id="LP0052" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Ogle, Sr." name_id="OA0029" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Kurtz" name_id="KJ0342" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="William Philson" name_id="PW0264" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Michael Divets" name_id="DM0033" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Peter Rhoads" name_id="RP0047" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-12">
+				<candidate_summary candidate_ref="1" vote_total="1322" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1310" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1239" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1009" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07345" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) lists John Kurtz as a Democrat.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Cambria and Somerset" geog_id="null">
+					<result candidate_ref="1" vote="1322" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1310" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1239" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1009" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="488" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="340" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07308" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07345" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="834" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1128" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="899" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1009" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="595" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="181" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07344" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07345" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07346" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Franklin Gazette (Philadelphia, PA), The Democratic Press (Philadelphia, PA), Der Readinger Adler (Reading, PA), Der Unpartheyische Berichter (Lebanon, PA) and American Sentinel and Mercantile Advertiser list Alexander Ogle, Sr. with 1169 votes.</note>
+						<note resp="Philip Lampi">Der Readinger Adler (Reading, PA) and The Democratic Press (Philadelphia, PA) list Michael Divets with 592 votes.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07346">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">American Sentinel and Mercantile Advertiser (Philadelphia, PA).  October 22, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 22, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07344">The Franklin Gazette (Philadelphia, PA).  October 22, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 28, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Unpartheyische Berichter (Lebanon, PA).  November 1, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07308">Storey, Henry Wilson.  History of Cambria County.  Vol. I.  New York: Lewis Publishing, 1907.  121, 123.</reference>
+</election_record>

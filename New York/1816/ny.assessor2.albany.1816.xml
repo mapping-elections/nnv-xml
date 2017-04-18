@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New York 1816 Assessor, Albany, Ward 2" type="General" iteration="First Ballot" date="1816" election_id="ny.assessor2.albany.1816" handle="10427/68192" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="Charles E. Dudley" name_id="DC0044" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="Ebenezer Smith" name_id="SE0118" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+           <candidate name="John MacLaughlan" name_id="MJ0417" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-06">
+           <candidate_summary candidate_ref="1" vote_total="337" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="199" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="158" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Albany" geog_id="null">
+              <sub_unit type="Ward" name="Two" geog_id="null">
+                <result candidate_ref="1" vote="337" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="158" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  May 10, 1816.</reference>
+</election_record>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 House of Representatives, Mifflin County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.assembly.mifflincounty.1796" handle="10427/60881" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James MacFarlane" name_id="MJ0826" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Sterrett" name_id="SW0202" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-21">
+				<candidate_summary candidate_ref="1" vote_total="695" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="599" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05504" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05505" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA) uses the name James McFarland for James McFarlane.</note>
+				<note resp="Philip Lampi">The official returns list Robert Sterrett in place of William Sterrett.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="695" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="599" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bald Eagle" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05504">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 19, 1796.</reference>
+</election_record>

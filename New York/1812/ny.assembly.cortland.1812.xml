@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 Assembly, Cortland County" type="General" iteration="First Ballot" date="1812" election_id="ny.assembly.cortland.1812" handle="10427/25532" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Billy Trowbridge" name_id="TB0044" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="William Mallory" name_id="MW0219" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+           <candidate name="Wait Ball" name_id="BW0284" affiliation="null" affiliation_id="null" candidate_num="3"/>
+           <candidate name="Mead Merrill" name_id="MM0032" affiliation="null" affiliation_id="null" candidate_num="4"/>
+           <candidate name="Allen Barney" name_id="BA0200" affiliation="null" affiliation_id="null" candidate_num="5"/>
+           <candidate name="Amos Patterson" name_id="PA0076" affiliation="null" affiliation_id="null" candidate_num="6"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2012-05-09">
+           <candidate_summary candidate_ref="1" vote_total="436" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="362" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Cortland" geog_id="null">
+              <result candidate_ref="1" vote="436" resp="Philip Lampi"/>
+              <result candidate_ref="2" vote="362" resp="Philip Lampi"/>
+              <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+              <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+              <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+              <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Cincinnatus" geog_id="null">
+                <result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                </sub_unit>
+              <sub_unit type="Town" name="Homer" geog_id="null">
+                <result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+              <sub_unit type="Town" name="Preble" geog_id="null">
+                <result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+                </sub_unit>
+              <sub_unit type="Town" name="Solon" geog_id="null">
+                <result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+                </sub_unit>
+              <sub_unit type="Town" name="Truxton" geog_id="null">
+                <result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+                </sub_unit>
+              <sub_unit type="Town" name="Virgil" geog_id="null">
+                <result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+                <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 State Senate, Bristol County, Special" type="Special" iteration="First Ballot" date="1822-01" election_id="ma.senator.bristol.special.1822" handle="10427/79316" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James L. Hodges" name_id="HJ0392" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hercules Cushman" name_id="CH0088" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>       
+			<overview status="Version 0.5" modified="2015-05-06">
+				<candidate_summary candidate_ref="1" vote_total="116" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="6" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">When the Legislature, elected in 1821, reconvened on January 9, 1822, there were two vacancies in the State Senate. From Bristol County, John M. Williams, had resigned, having become a Judge in the Court of Common Pleas.</note>
+				<note resp="Philip Lampi">"The whole number of members present was 133, and there were 122 votes given."  Boston Weekly Messenger (Boston, MA).  January 17, 1822.</note>
+				<note resp="Philip Lampi">"It was understood by many of the members that Mr. Cushman, who is a member of the other house, declined being a candidate for the Senate."  Boston Weekly Messenger (Boston, MA).  January 17, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Weekly Messenger (Boston, MA).  January 17, 1822.</reference>
+</election_record>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record label="New York 1799 Council of Appointment" type="Legislative" iteration="First Ballot" date="1799" election_id="ny.council.1799" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/26038" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Council of Appointment" office_id="ON046" scope="State">
+		<role title="Council of Appointment" scope="State">
+			<ballot>
+				<candidate name="John Frey" name_id="FJ0174" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Ebenezer Clark" name_id="CE0096" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="William Denning" name_id="DW0080" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Ebenezer Foote" name_id="FE0035" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="John Addison" name_id="AJ0184" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Samuel Haight" name_id="HS0136" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Jacobus Van Schoonhoven" name_id="VJ0187" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" vote_total="94" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="91" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="47" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="47" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10601" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albany Centinel (Albany, NY) lists 96 votes for John Frey.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="47" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="47" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10601" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1799.  9.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10601">The Albany Centinel (Albany, NY).  January 8, 1799.</reference>
+</election_record>

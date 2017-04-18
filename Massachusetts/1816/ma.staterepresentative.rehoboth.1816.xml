@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 House of Representatives, Rehoboth" type="General" iteration="First Ballot" date="1816-05" election_id="ma.staterepresentative.rehoboth.1816" handle="10427/78851" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Bliss" name_id="BJ1501" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Ebenezer Hunt" name_id="HE0195" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-24">
+				<candidate_summary candidate_ref="1" vote_total="202" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="186" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Rehoboth" geog_id="null">
+					<result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="186" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Bedford Mercury (New Bedford, MA).  May 17, 1816.</reference>
+</election_record>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Commissioner, Adams County" type="General" iteration="First Ballot" date="1818" election_id="pa.commissioner.adams.1818" handle="10427/67839" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Patterson" name_id="PW0128" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Thompson" name_id="TW0109" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-17">
+				<candidate_summary candidate_ref="1" vote_total="1281" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="527" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1281" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="527" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Compiler and The Intelligencer, and Weekly Advertiser (Lancaster, PA) list 487 votes for William Thompson.</note>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Adams Centinel lists 57 votes for William Thompson.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Petersburg" geog_id="null">
+						<result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sulphur Springs" geog_id="null">
+						<result candidate_ref="1" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1818.</reference>
+</election_record>

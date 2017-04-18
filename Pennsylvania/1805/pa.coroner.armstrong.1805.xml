@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 Coroner, Armstrong County" type="General" iteration="First Ballot" date="1805" election_id="pa.coroner.armstrong.1805" handle="10427/61525" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Robert Brown" name_id="BR0120" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"/>
+				<candidate name="William Hanigan" name_id="HW0338" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-30">
+				<candidate_summary candidate_ref="1" vote_total="258" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="138" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05973" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Armstrong" geog_id="null">
+					<result candidate_ref="1" vote="258" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05973" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05973">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05973">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 26, 1805.</reference>
+</election_record>

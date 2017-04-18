@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1823 House of Representatives, Knox County" type="General" iteration="First Ballot" date="1823" election_id="in.assembly.knox.1823" handle="10427/56447" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James B. MacCall" name_id="MJ0142" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Law" name_id="LJ0042" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="G. W. Johnston" name_id="JG0011" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Benjamin V. Beckes" name_id="BB0004" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="592" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="492" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="253" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="147" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Knox" geog_id="null">
+					<result candidate_ref="1" vote="592" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="492" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="253" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="147" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12420" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12420">Western Sun and General Advertiser (Vincennes, IN).  August 9, 1823.</reference>
+</election_record>

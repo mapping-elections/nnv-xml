@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1788 House of Representatives, Boston, Special" type="Special" iteration="First Ballot" date="1788-10" election_id="ma.staterepresentative.boston.special.1788" handle="10427/68672" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Oliver Wendell" name_id="WO0023" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Christopher Gore" name_id="GC0056" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-02-20">
+				<candidate_summary candidate_ref="1" vote_total="252" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="154" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Wednesday, agreeably to notification, the inhabitants of this town convened at Faneuil Hall, for the purpose of choosing two persons to represent them in the General Court, in the room of the Honourable Caleb Davis, and John Coffin Jones, Esquires, resigned; when, at the close of the poll, it appeared, that the Honourable Oliver Wendell, and Christopher Gore, Esquires, were chose by a large majority." The Massachusetts Gazette (Boston, MA).  October 10, 1788.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<result candidate_ref="1" vote="252" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Massachusetts Gazette (Boston, MA).  October 10, 1788.</reference>
+	<reference type="citation" resp="Philip Lampi">A Volume of Records Relating to the Early History of Boston Containing Boston Town Records.  1784 to 1796. Boston: Municipal Printing Office, 1903. 182.</reference>
+</election_record>

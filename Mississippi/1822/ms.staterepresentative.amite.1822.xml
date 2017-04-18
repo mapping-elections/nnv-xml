@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1822 House of Representatives, Amite County" type="General" iteration="First Ballot" date="1822" election_id="ms.staterepresentative.amite.1822" handle="10427/79969" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Francis Graves" name_id="GF0030" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Hurst" name_id="HR0157" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Jones" name_id="JJ0301" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Asquith Wilkinson" name_id="WA0245" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William MacGehee" name_id="MW0443" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-19">
+				<candidate_summary candidate_ref="1" vote_total="475" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="359" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="319" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="319" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="96" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"There being a tie between James Jones and Asquith Wilkerson the Sheriff gave the casting vote in favor of James Jones."  Original Election Returns.</note>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Amite" geog_id="null">
+					<result candidate_ref="1" vote="475" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="359" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="319" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="319" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="96" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

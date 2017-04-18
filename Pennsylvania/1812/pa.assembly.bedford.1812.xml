@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 House of Representatives, Bedford County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.assembly.bedford.1812" handle="10427/62424" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Tod" name_id="TJ0441" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Fields" name_id="FD0037" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Piper" name_id="PJ0407" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="William Patterson" name_id="PW0252" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-08">
+				<candidate_summary candidate_ref="1" vote_total="1115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="936" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="934" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="151" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06520" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06521" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The True American and Commercial Advertiser (Philadelphia, PA) from  October 26 explains that "An alteration appears on the face of the Bethel return of 6 votes in favour of Mr. Fields, which if incorrect will place John Piper 5 votes above Mr. Fields, ~ a special return has therefore been made to the General Assembly." However, it appears that the alteration to the election results did not take place and that David Fields was elected. He was introduced on December 1, 1812 to the Assembly, according to the Journal of the Pennsylvania House of Representatives, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bedford" geog_id="null">
+					<result candidate_ref="1" vote="1115" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="936" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="934" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="151" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06520" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06521" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania House of Representatives, 1812.  4.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06520">The True American and Commercial Advertiser (Philadelphia, PA).  October 26, 1812.</reference>
+</election_record>

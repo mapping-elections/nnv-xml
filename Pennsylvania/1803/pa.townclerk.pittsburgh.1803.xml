@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Town Clerk, Pittsburgh Borough" type="General" iteration="First Ballot" date="1803-05" election_id="pa.townclerk.pittsburgh.1803" handle="10427/66170" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Borough">
+		<role title="Town Clerk" scope="Borough">
+			<ballot>
+				<candidate name="R. Simpson" name_id="SR0116" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William B. Irish" name_id="IW0019" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-29">
+				<candidate_summary candidate_ref="1" vote_total="126" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="104" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<sub_unit type="Borough" name="Pittsburgh" geog_id="null">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  May 21, 1803.</reference>
+</election_record>

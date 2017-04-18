@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 House of Representatives, Dauphin County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.assembly.dauphincounty.1796" handle="10427/60872" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Jacob Weirich" name_id="WJ0619" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Maclay" name_id="MW0300" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Ainsworth" name_id="AS0047" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="931" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="724" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="599" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05493" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05494" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05495" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="931" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="724" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="599" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05495">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05495">The New World (Philadelphia, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05493">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Neue Unpartheyische Readinger Zeitung und Anzeigs-Nachrichten (Reading, PA).  October 19, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 26, 1796.</reference>
+</election_record>

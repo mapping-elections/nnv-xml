@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Trustee of the Academy, Adams County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.trustee.adams.1821" handle="10427/67911" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="John B. MacPherson" name_id="MJ0744" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Samuel Hutcheson" name_id="HS0229" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Samuel Ramsay" name_id="RS0110" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="George Sweney" name_id="SG0145" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-24">
+				<candidate_summary candidate_ref="1" vote_total="1366" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1353" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1060" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1058" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1366" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1353" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1060" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1058" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="82" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="309" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="300" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="156" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Adams Centinel (Gettysburg, PA), October 17, lists these returns from "Borough District" instead of Gettysburg.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="81" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Littlestown" geog_id="null">
+						<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="153" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="138" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="194" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="194" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="132" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="105" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="York Springs" geog_id="null">
+						<result candidate_ref="1" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="108" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Adams Centinel (Gettysburg, PA), October 17, lists these returns from "Petersburg" instead of York Springs.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  October 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 20, 1821.</reference>
+</election_record>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1822 State Senate, Lawrence and Wayne Counties" type="General" iteration="First Ballot" date="1822-08" election_id="il.statesenate.lawrenceandwayne.1822" handle="10427/56309" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Archibald Roberts" name_id="RA0006" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John G. Fitch" name_id="FJ0042" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Harris" name_id="HS0039" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Kinkade" name_id="KW0010" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">William Kinkade was elected to serve a two year term.</note>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Lawrence and Wayne" geog_id="null">
+					<sub_unit type="County" name="Lawrence" geog_id="null">
+						<note resp="Philip Lampi">There were no reported totals from Lawrence County.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Fairfield" geog_id="null">
+							<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Ramsey" geog_id="null">
+							<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  196.</reference>
+</election_record>

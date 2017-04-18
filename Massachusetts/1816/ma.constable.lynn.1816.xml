@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Massachusetts 1816 Constable, Lynn" type="General" iteration="First Ballot" date="1816-03" election_id="ma.constable.lynn.1816" handle="10427/78807" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="Town">
+		<role title="Constable" scope="Town">
+			<ballot>
+				<candidate name="unknown" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2014-07-15">
+				<candidate_summary candidate_ref="1" vote_total="272" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="269" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="216" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="193" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The whole number of ballots rendered in was 503, making 252 necessary to a choice, the votes were as follows:"  Salem Gazette (Salem, MA).  March 15, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="ohs">
+				<sub_unit type="Town" name="Lynn" geog_id="null">
+					<result candidate_ref="1" vote="272" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="269" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="216" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="193" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 15, 1816.</reference>
+</election_record>

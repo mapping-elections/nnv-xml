@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1814 State Senate, Wilkes County" type="General" iteration="First Ballot" date="1814-08" election_id="nc.statesenator.wilkes.1814" handle="10427/43056" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="William Hulme" name_id="HW0256" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Waugh" name_id="WJ1131" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-03-27">
+                <candidate_summary candidate_ref="1" vote_total="390" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="271" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Wilkes" geog_id="null">
+                    <result candidate_ref="1" vote="390" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="271" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Brown's" geog_id="null">
+                        <result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Martin's" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Ray's" geog_id="null">
+                        <result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Reading R." geog_id="null">
+                        <result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Roaring River" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wilkesboro" geog_id="null">
+                        <result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">William Lenoir Memorandum Book.  August, 1814 - April, 1815.  Folder 589.  The Southern Historical Collection, Louis Round Wilson Special Collections Library, University of North Carolina.</reference>
+</election_record>

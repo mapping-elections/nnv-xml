@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1816 Electoral Assembly for State Senate, Calvert County" type="General" iteration="First Ballot" date="1816" election_id="md.senator.calvert.county.1816" handle="10427/26958" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Benjamin Gray" name_id="GB0008" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Richard Graham" name_id="GR0027" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph Wilkinson" name_id="WJ0171" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Lewis Sutton" name_id="SL0021" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-03">
+				<candidate_summary candidate_ref="1" vote_total="375" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="364" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="330" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="321" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02082" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Calvert" geog_id="mds_calvert">
+					<result candidate_ref="1" vote="375" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="364" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="330" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="321" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="78" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02082" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02082" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="132" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02082" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Evening Advertiser (Baltimore, MD).  September 3, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02082">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  September 4, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Evening Advertiser (Baltimore, MD).  September 5, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02082">Maryland Gazette and Political Intelligencer (Annapolis, MD).  September 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Republican (Annapolis, MD).  September 14, 1816.</reference>
+</election_record>

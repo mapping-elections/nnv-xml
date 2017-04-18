@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1806 Assembly, Seneca County" type="General" iteration="First Ballot" date="1806" election_id="ny.assembly.seneca.1806" handle="10427/66693" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Cornelius Humfrey" name_id="HC0064" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="philip Lampi">Elected.</note></candidate>
+				<candidate name="John Sayre" name_id="SJ0715" affiliation="Quid" affiliation_id="A04" candidate_num="2"/>
+				<candidate name="John Kelly" name_id="KJ0151" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Silas Halsey" name_id="HS0138" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Harris" name_id="HJ0541" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Joseph Annin" name_id="AJ0197" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Oliver Wissnell" name_id="WO0008" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-19">
+				<candidate_summary candidate_ref="1" vote_total="449" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="403" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Seneca" geog_id="null">
+					<result candidate_ref="1" vote="449" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="403" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Hector" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Junius" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ovid" geog_id="null">
+						<result candidate_ref="1" vote="242" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Romulus" geog_id="null">
+						<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="189" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ulysses" geog_id="null">
+						<result candidate_ref="2" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Washington" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="109" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

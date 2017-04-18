@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1816 House of Representatives, Chatham County" type="General" iteration="First Ballot" date="1816" election_id="ga.assembly.chatham.1816" handle="10427/16294" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="James M. Wayne" name_id="WJ0075" affiliation="null" affiliation_id="null" candidate_num="1"/>
+        <candidate name="Edward Harden" name_id="HE0029" affiliation="null" affiliation_id="null" candidate_num="2"/>
+        <candidate name="Frederick S. Fell" name_id="FF0002" affiliation="null" affiliation_id="null" candidate_num="3"/>
+        <candidate name="Christopher Gunn" name_id="GC0037" affiliation="null" affiliation_id="null" candidate_num="4"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-11">
+        <candidate_summary candidate_ref="1" vote_total="348" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="301" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="300" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="53" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01668" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Chatham" geog_id="null">
+          <result candidate_ref="1" vote="348" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="301" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="300" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="53" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01668" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01668">Savannah Republican (Savannah, GA).  October 8, 1816.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Kentucky 1814 House of Representatives, Washington County" type="General" iteration="First Ballot" date="1814" election_id="ky.assemblywashington.1814" handle="10427/28363" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Noel" name_id="NW0006" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James A. MacElroy" name_id="MJ0159" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jeroboam Beauchamp" name_id="BJ0240" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-23">
+				<candidate_summary candidate_ref="1" vote_total="902" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="885" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="856" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01789" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Kentucky" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="902" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="885" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="856" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01789" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01789">Original Election Returns.  Kentucky Department for Libraries and Archives, Frankfort.</reference>
+</election_record>

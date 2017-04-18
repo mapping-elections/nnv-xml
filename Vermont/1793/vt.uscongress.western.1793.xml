@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1793 U.S. House of Representatives, Western District" type="General" iteration="First Ballot" date="1793-01" election_id="vt.uscongress.western.1793" handle="10427/20069" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Israel Smith" name_id="SI0092" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Matthew Lyon" name_id="LM0053" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Tichenor" name_id="TI0032" affiliation="Federalist" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Hitchcock" name_id="HS0250" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="null" modified="2014-06-06">
+				<candidate_summary candidate_ref="1" vote_total="834" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="638" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="336" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="79" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00056" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Vermont law required a majority to elect for the U.S. House of Representatives.  A second ballot would be held on March 20, 1793.</note>
+			</overview>
+			<admin_unit type="State" name="Vermont" geog_id="null">
+				<sub_unit type="District" name="Western" geog_id="null">
+					<result candidate_ref="1" vote="834" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="638" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="336" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="79" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Addison" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Hancock" geog_id="null">
+							<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="33" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="79" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Bennington" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Chittenden" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Rutland" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Hancock Town Records.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00056">Spooner's Vermont Journal (Windsor, VT).  January 28, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00056">The Vermont Gazette (Bennington, VT).  February 1, 1793.</reference>
+</election_record>

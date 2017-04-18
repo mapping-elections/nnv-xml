@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1808 Levy Court Commissioner, Kent County" type="General" iteration="First Ballot" date="1808" election_id="de.levycourtcommissioner.kent.1808" handle="10427/43931" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Levy Court Commissioner" office_id="ON071" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Denny" name_id="DW0000" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">from Duck Creek Hundred</note><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Reed, Sr." name_id="RJ0672" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">from Murderkill Hundred</note><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Kimmey" name_id="KC0036" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">from Mispillion Hundred</note><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Mordecai Morris" name_id="MM0101" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">from Duck Creek Hundred</note></candidate>
+				<candidate name="Robert Mulford" name_id="MR0197" affiliation="Federalist" affiliation_id="A01" candidate_num="5"><note resp="Philip Lampi">from Mispillion Hundred</note></candidate>
+				<candidate name="Thomas Deporty" name_id="DT0115" affiliation="Republican" affiliation_id="A03" candidate_num="6"><note resp="Philip Lampi">from Murderkill Hundred</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1027" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1026" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1024" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="599" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="599" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="598" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12059" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12060" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="1027" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1026" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1024" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="599" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="599" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="598" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12059" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12060" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12060">The Freeman's Journal and Philadelphia Mercantile Advertiser (Philadelphia, PA).  October 7, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12059">The True American and Commercial Advertiser (Philadelphia, PA).  October 8, 1808.</reference>
+</election_record>

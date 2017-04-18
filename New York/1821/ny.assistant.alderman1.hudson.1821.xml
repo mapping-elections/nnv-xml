@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1821 Assistant Alderman, Hudson, Ward 1" type="General" iteration="First Ballot" date="1821" election_id="ny.assistant.alderman1.hudson.1821" handle="10427/66736" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Alderman" office_id="ON006" scope="City">
+		<role title="Assistant Alderman" scope="Ward">
+			<ballot>
+				<candidate name="William H. Colman" name_id="CW0237" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="John R. Hallenbeck" name_id="HJ0452" affiliation="People's Ticket" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="John Tompkins" name_id="TJ0205" affiliation="Bucktail" affiliation_id="A06" candidate_num="3"/>
+				<candidate name="William Wood" name_id="WW0191" affiliation="Bucktail" affiliation_id="A06" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-01">
+				<candidate_summary candidate_ref="1" vote_total="179" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="168" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="166" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="162" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Hudson" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="168" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="162" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Northern Whig (Hudson, NY).  April 10, 1821.</reference>
+</election_record>

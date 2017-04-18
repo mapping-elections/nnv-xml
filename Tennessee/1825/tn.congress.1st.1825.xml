@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record  xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1825 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1825" election_id="tn.congress.1st.1825" handle="10427/65032" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="John Blair" name_id="BJ1418" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Tipton" name_id="TJ0594" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-06-06">
+                <candidate_summary candidate_ref="1" vote_total="3613" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="3348" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17086" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17088" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17092" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17094" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17096" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"John Blair is chosen... from the 1st Congressional district by a majority of 270 votes, over Col. John Tipton." Knoxville Enquirer (Knoxville, TN), 11 August 1825.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="One" geog_id="null">
+                    <result candidate_ref="1" vote="3613" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="3348" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Carter" geog_id="null">
+                        <result candidate_ref="1" vote="297" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="445" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The votes for Carter County were determined by subtracting the known Washington County votes (as listed in newspaper sources) from the combined totals for Washington and Carter counties (listed in the Original Election Returns).</note>
+                    </sub_unit>
+                    <sub_unit type="County" name="Greene" geog_id="null">
+                        <result candidate_ref="1" vote="1108" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="673" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The Knoxville Register (Knoxville, TN), 12 August 1825, reported 1108 votes for Blair and 647 votes for Tipton.</note>
+                    </sub_unit>
+                    <sub_unit type="County" name="Hawkins" geog_id="null">
+                        <result candidate_ref="1" vote="1019" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="606" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sullivan" geog_id="null">
+                        <result candidate_ref="1" vote="408" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="861" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="781" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="763" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17086">Knoxville Enquirer (Knoxville, TN).  August 11, 1825.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17096">The Knoxville Register (Knoxville, TN).  August 12, 1825.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17088">Richmond Enquirer (Richmond, VA).  August 23, 1825.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17094">Delaware Gazette (Wilmington, DE).  August 26, 1825.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17088">Richmond Enquirer (Richmond, VA).  August 26, 1825.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17092">Martinsburgh Gazette (Martinsburg, WV).  September 1, 1825.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1807 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1807" election_id="ga.ussenate.1807" handle="10427/16070" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="William H. Crawford" name_id="CW0010" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Jones" name_id="JG0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-26">
+				<candidate_summary candidate_ref="1" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="27" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10251" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09682" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">To finish out the term of Abraham Baldwin, deceased.</note>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10251" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09682" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09682">Augusta Chronicle (Augusta, GA).  November 14, 1807.</reference>
+</election_record>

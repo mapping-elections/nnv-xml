@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 Sheriff, Dauphin County" type="General" iteration="First Ballot" date="1794-10" election_id="pa.sheriff.dauphincounty.1794" handle="10427/60785" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Elder" name_id="EJ0158" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Alexander Montgomery" name_id="MA0205" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Michael Kapp" name_id="KM0037" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Henry Bedir" name_id="BH0030" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Anthony Seyfret" name_id="SA0176" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-12">
+				<candidate_summary candidate_ref="1" vote_total="967" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="794" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05448" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05449" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05450" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="888" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="723" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Military Camp Vote" geog_id="null">
+					<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+					<sub_unit type="null" name=" Captain Samuel Ainsworth's Company" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Captain John Devin's Company" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Captain George Fisher's Company" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Captain Robert Fleming's Company" geog_id="null">
+						<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Captain John Irvin's Company" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Captain James Wallace's Company" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns of the Second Regiment of Dauphin County.  October 14, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05449">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  November 17, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05450">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  November 17, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05448">Dunlap and Claypoole's American Daily Advertiser (Philadelphia, PA).  November 24, 1794.</reference>
+</election_record>

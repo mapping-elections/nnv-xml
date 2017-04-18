@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Coroner, Fayette County" type="General" iteration="First Ballot" date="1789" election_id="pa.coroner.fayette.1789" handle="10427/66061" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Henri Beason" name_id="BH0057" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Rogers" name_id="RT0010" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Wylie" name_id="WM0007" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-18">
+				<candidate_summary candidate_ref="1" vote_total="394" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="256" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="163" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albert Gallatin Papers state that there were 42 "lost votes by" Henri Beason and 180 "lost votes by" Thomas Rogers.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="394" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="256" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="59" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="163" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel 1. Frame 0425.</reference>
+</election_record>

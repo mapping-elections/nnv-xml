@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1820 Constitutional Convention, Hardwick, First Ballot" type="General" iteration="First Ballot" date="1820-10" election_id="ma.constitutionalconventiondelegates.hardwick.1.1820" handle="10427/79092" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="Town">
+			<ballot>
+				<candidate name="Timothy Paige" name_id="PT0124" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Billing" name_id="BS0253" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Moses Mandell" name_id="MM0114" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-06">
+				<candidate_summary candidate_ref="1" vote_total="56" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="37" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Voted to send two Delegates to the Convention .... to bring in their votes for one at a time."  Town Records.  Hardwick, 371.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Hardwick" geog_id="null">
+					<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Hardwick Town Records.  371.</reference>
+</election_record>

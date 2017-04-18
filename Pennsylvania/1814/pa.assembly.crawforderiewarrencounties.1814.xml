@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 House of Representatives, Crawford, Erie, and Warren Counties" type="General" iteration="First Ballot" date="1814-10" election_id="pa.assembly.crawforderiewarrencounties.1814" handle="10427/62716" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Weston" name_id="WJ0768" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Burchfield" name_id="BJ1111" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Williams" name_id="WD0093" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-04">
+				<candidate_summary candidate_ref="1" vote_total="807" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="436" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="435" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06681" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06682" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">In this election, James Weston and James Burchfield were declared the winners. However, the Journal of the Pennsylvania House of Representatives, 1814 explains: "That they have taken the petition presented on this subject, together with the accompanying documents, into their consideration: that they heard the allegations of the parties, carefully examined the documents, and had the same corroborated by verbal evidence; from which it appears that James Burchfield had four hundred and thirty five legal votes, and that Daniel Williams had also four hundred and thirty five legal votes.  Your committee, therefore, being of opinion that neither of them are duly elected, do declare and adjudge that the election of the said James Burchfield is illegal and invalid." Page 126.</note>
+				<note resp="Philip Lampi">A new election was held on January 27, 1815 in which Daniel Williams was elected.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Crawford, Erie and Warren" geog_id="null">
+					<result candidate_ref="1" vote="807" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="436" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="435" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06681" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Crawford" geog_id="null">
+						<result candidate_ref="1" vote="348" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="228" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06681" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Meadville" geog_id="null">
+							<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="67" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06679" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Erie" geog_id="null">
+						<result candidate_ref="1" vote="410" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="202" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06681" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06716" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06681" resp="Philip Lampi"/>
+						<sub_unit type="County" name="Venango" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Venango County attached to Warren County.</note>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06682">Journal of the Pennsylvania House of Representatives, 1814.  126.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06681">The Crawford Weekly Messenger (Meadville, PA).  October 12, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06716">The Crawford Weekly Messenger (Meadville, PA).  October 19, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06686">The Northern Centinel (Erie, PA).  October 21, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06716">The Crawford Weekly Messenger (Meadville, PA).  October 26, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">The Northern Centinel (Erie, PA).  October 28, 1814.</reference>
+</election_record>

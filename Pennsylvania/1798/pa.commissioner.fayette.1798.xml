@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 Commissioner, Fayette County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.commissioner.fayette.1798" handle="10427/66127" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Fulton" name_id="FJ0086" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Andrew Oliphant" name_id="OA0028" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Deeth" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Brown" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Ebert" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Hall" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-05">
+				<candidate_summary candidate_ref="1" vote_total="368" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="302" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="179" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="128" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="120" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="95" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="368" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="302" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="179" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="128" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="120" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="95" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel 1.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Telegraphe, and Washington Advertiser (Washington, PA).  October 16, 1798.</reference>
+</election_record>

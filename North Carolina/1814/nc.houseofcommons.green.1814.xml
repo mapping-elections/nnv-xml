@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1814 House of Commons, Greene County" type="General" iteration="First Ballot" date="1814-08" election_id="nc.houseofcommons.green.1814" handle="10427/43092" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="William Pope" name_id="PW0182" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James G. Sheppard" name_id="SJ0832" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stephen Rodgers" name_id="RS0082" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-24">
+				<candidate_summary candidate_ref="1" vote_total="314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="294" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="152" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04975" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18021" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Green" geog_id="null">
+					<result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="294" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="152" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04975" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18021" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04975">The Star (Raleigh, NC).  September 9, 1814.</reference>
+</election_record>

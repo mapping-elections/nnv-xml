@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1819 Assembly, Essex County" type="General" iteration="First Ballot" date="1819" election_id="ny.assembly.essex.1819" handle="10427/25678" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Hoffnagel" name_id="HJ0576" affiliation="Clintonian" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="Isaac Finch" name_id="FI0016" affiliation="Anti-Clintonian" affiliation_id="A06" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-28">
+				<candidate_summary candidate_ref="1" vote_total="896" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="632" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04592" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Essex" geog_id="null">
+					<result candidate_ref="1" vote="896" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="632" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04592" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04592">Plattsburgh Republican (Plattsburgh, NY).  May 22, 1819.</reference>
+</election_record>

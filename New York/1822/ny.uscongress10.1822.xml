@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 U.S. House of Representatives, District 10" type="General" iteration="First Ballot" date="1822" election_id="ny.uscongress10.1822" handle="10427/31447" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Stephen Van Rensselaer" name_id="VS0033" affiliation="Clintonian/Federalist" affiliation_id="A05" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Dirck L. Vanderheyden" name_id="VD0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Teunis Houghteling" name_id="HT0064" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Lyman Bliss" name_id="BL0059" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William W. Crannell" name_id="CW0198" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Jacob Vandenbergh" name_id="VJ0141" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-28">
+				<candidate_summary candidate_ref="1" vote_total="2725" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01078" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<result candidate_ref="1" vote="2725" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Albany" geog_id="null">
+						<result candidate_ref="1" vote="2725" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01078" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01077">The Albany Argus (Albany, NY).  December 6, 1822.</reference>
+</election_record>

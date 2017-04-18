@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 Commissioner, Trumbull County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.commissioner.trumbullcounty.1821" handle="10427/59947" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Ripley" name_id="RW0140" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Mackey" name_id="MJ0679" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jacob H. Baldwin" name_id="BJ0941" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-27">
+				<candidate_summary candidate_ref="1" vote_total="711" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="651" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05312" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="711" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="651" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05312" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="null" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Trumbull County Election Returns, unknown township.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05312">The Western Reserve Chronicle (Warren, OH).  October 21, 1821.</reference>
+</election_record>

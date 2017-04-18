@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1823 Intendant, Charleston City, Special" type="Special" iteration="First Ballot" date="1823" election_id="sc.intendant.special.charlestoncity.1823" handle="10427/32271" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Intendant" office_id="ON066" scope="City">
+		<role title="Intendant" scope="City">
+			<ballot>
+				<candidate name="John Geddes" name_id="GJ0575" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Peronneau" name_id="PW0238" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-11">
+				<candidate_summary candidate_ref="1" vote_total="302" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="233" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07953" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07954" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07955" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to replace James Hamilton, elected to Congress.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="302" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07953" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07954" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07955" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07953">Charleston Mercury, and Morning Advertiser (Charleston, SC).  January 7, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07955">City Gazette and Commercial Advertiser (Charleston, SC).  January 7, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07954">Southern Patriot, and Commercial Advertiser (Charleston, SC).  January 8, 1823.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 Registry of Deeds, Berkshire County, Middle" type="General" iteration="First Ballot" date="1816" election_id="ma.registerofdeeds.berkshire.middle.1816" handle="10427/78815" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Registry of Deeds" office_id="ON088" scope="County">
+		<role title="Registrar" scope="County">
+			<ballot>
+				<candidate name="Joseph Tucker" name_id="TJ0600" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Caleb Hyde" name_id="HC0032" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-17">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"From the incorporation of the county, in 1761, to 1790 there were but one registry of deeds at Great Barrington. The register was Mark Hopkins till 1776 and Moses Hopkins till 1790. In that year the county was divided into three districts, Southern, Middle and Northern and the previous records were removed to the county seat in the Middle District." History of Berkshire County, Massachusetts, Vol. 1.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Berkshire" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<sub_unit type="Town" name="Peru" geog_id="null">
+							<result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Peru Town Records.  344.</reference>
+	<reference type="citation" resp="Philip Lampi">Smith, Joseph Edward Adams.  History of Berkshire County, Massachusetts.  Vol. 1.  New York: J. B. Beers and Co.  1885.  339.</reference>
+</election_record>

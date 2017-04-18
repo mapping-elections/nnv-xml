@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 State Senate, Franklin and Johnson Counties" type="General" iteration="First Ballot" date="1824-08" election_id="il.statesenate7.1824" handle="10427/56400" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Ewing" name_id="EJ0023" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William MacFatridge" name_id="MW0035" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Jones" name_id="JJ0034" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Milton Ladd" name_id="LM0001" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="159" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="120" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="39" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Franklin and Johnson" geog_id="null">
+					<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="120" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="39" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Johnson" geog_id="null">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  207.</reference>
+</election_record>

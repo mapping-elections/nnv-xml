@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1823 U.S. Senate" type="Legislative" iteration="First Ballot" date="1823" election_id="il.ussenate.1823" handle="10427/56135" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Jesse B. Thomas" name_id="TJ0088" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Reynolds" name_id="RJ0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Leonard White" name_id="WL0005" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="S. D. Lockwood" name_id="LS0009" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-10">
+				<candidate_summary candidate_ref="1" vote_total="29" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="16" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11355"/>
+				<note resp="Philip Lampi">"Jesse B. Thomas has been re-elected a Senator of the United States, from the State of Illinois for six years from the 3rd day of March next, when his present term of service well expired."  Daily National Intelligencer (Washington, DC).  February 7, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11355"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11355">Daily National Intelligencer (Washington, DC).  February 7, 1823.</reference>
+</election_record>

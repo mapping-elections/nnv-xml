@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1803 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1803" election_id="md.uscongress2.1803" handle="10427/26904" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Walter Bowie" name_id="BW0122" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Boone" name_id="BA0013" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Charles Carroll" name_id="CC0012" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Manning" name_id="MJ1120" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Gabriel Van Horn" name_id="VG0000" affiliation="null" affiliation_id="null" candidate_num="5"><note resp="Philip Lampi">Also referred to as Gabriel Peterson Vanhorn.</note></candidate>
+				<candidate name="Henry Whitemore" name_id="WH0052" affiliation="null" affiliation_id="null" candidate_num="6"><note resp="Philip Lampi">Also referred to as Humphrey Whitmore.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-14">
+				<candidate_summary candidate_ref="1" vote_total="2084" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00293" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14304" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="2084" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+						<result candidate_ref="1" vote="1154" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00293" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02310" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14304" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Prince George's" geog_id="mds_princegeorges">
+						<result candidate_ref="1" vote="930" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00293" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14304" resp="Philip Lampi"/>
+						<sub_unit type="District" name="Baldensburg" geog_id="null">
+							<result candidate_ref="1" vote="168" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02341" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02344" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02343" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Piscataway" geog_id="null">
+							<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02341" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02344" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02343" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Vanville" geog_id="null">
+							<result candidate_ref="1" vote="240" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02341" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02344" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02343" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02310">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02343">National Intelligencer and Washington Advertiser (Washington, DC).  October 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02341">Washington Federalist (Georgetown, DC).  October 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02310">The Telegraphe and Daily Advertiser (Baltimore, MD).  October 6. 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02344">National Intelligencer and Washington Advertiser (Washington, DC).  October 7, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02310">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 11, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Virginia Argus (Richmond, VA).  October 12, 1803.</reference>
+</election_record>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1800 State Senate, Orangeburgh and Saint Matthew Parishes" type="General" iteration="First Ballot" date="1800" election_id="sc.senate.st.mathewsandorangeburgh.1800" handle="10427/31828" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Henry Dana Ward" name_id="WH0105" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Hart" name_id="HB0148" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="W. R. Thompson" name_id="TW0175" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Rumph" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-07">
+				<candidate_summary candidate_ref="1" vote_total="182" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="117" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07530" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Orangeburgh and Saint Matthew" geog_id="null">
+					<result candidate_ref="1" vote="182" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					<sub_unit type="Parish" name="Orangeburgh" geog_id="null">
+						<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07530" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Parish" name="Saint Matthew" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07534" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07530">The Times (Charleston, SC).  October 22, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">City Gazette and Daily Advertiser (Charleston, SC).  October 23, 1800.</reference>
+</election_record>

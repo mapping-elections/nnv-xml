@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Coroner, Marion County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.coroner.marioncounty.1824" handle="10427/60350" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Alson Norton" name_id="NA0032" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-18">
+				<candidate_summary candidate_ref="1" vote_total="374" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05347" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Marion" geog_id="ohs_marion">
+					<result candidate_ref="1" vote="374" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05347" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05347">Jacoby, J. Wilbur.  History of Marion County.  Chicago: Biographical Publishing, 1907.  89.</reference>
+	<reference type="citation" resp="Philip Lampi">The History of Marion County, Ohio.  Chicago: Leggett, Conaway,  1883.  313.</reference>
+</election_record>

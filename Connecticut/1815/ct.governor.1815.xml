@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1815 Governor" type="General" iteration="First Ballot" date="1815" election_id="ct.governor.1815" handle="10427/16147" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="John C. Smith" name_id="SJ0013" affiliation="Federalist" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elijah Boardman" name_id="BE0019" affiliation="Republican" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Chauncey Goodrich" name_id="GC0000" affiliation="Federalist" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Treadwell" name_id="TJ0009" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Calvin Goddard" name_id="GC0005" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Nathaniel Smith" name_id="SN0000" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Isaac Spencer" name_id="SI0000" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Benjamin Boardman" name_id="BB0173" affiliation="null" affiliation_id="null" candidate_num="8"/>
+				<candidate name="James Hillhouse" name_id="HJ0008" affiliation="null" affiliation_id="null" candidate_num="9"/>
+				<candidate name="Andrew Kingsbury" name_id="KA0001" affiliation="null" affiliation_id="null" candidate_num="10"/>
+				<candidate name="Zephaniah Swift" name_id="SZ0000" affiliation="null" affiliation_id="null" candidate_num="11"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="12"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-22">
+				<candidate_summary candidate_ref="1" vote_total="8176" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4876" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="12" vote_total="681" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00800" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Chauncey Goodrich and Isaac Spencer were candidates for Lieutenant Governor.  Calvin Goddard was a candidate for Council of Assistants.  Andrew Kingsbury was a candidate for Treasurer.</note>
+				<note resp="Philip Lampi">"If the republicans in the different towns in the state have done half their duty, it is time for Mr. Smith to prepare to give an account of his stewardship."  Columbian Register (New Haven, CT).  April 15, 1815.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Fairfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<sub_unit type="Town" name="Farmington" geog_id="null">
+						<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="10" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Glastonbury" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Weathersfield" geog_id="null">
+						<result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="9" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Litchfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Middlesex" geog_id="null">
+					<sub_unit type="City" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="12" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01563" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="New Haven" geog_id="cts_newhaven">
+					<sub_unit type="City" name="New Haven" geog_id="cts_newhaven_newhaven">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01564" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"In this town, the federalists gave only 97 votes for Governor - in New-London 84.  In these two towns reside, it is fairly to be presumed, at least 700 federal freemen.  In many other towns where there are large federal majorities, about the same ratio of votes has been given.  If the democrats make another exertion, it will merely have a tendency to increase the federal majority.  If they think otherwise, let them try again."  Connecticut Herald (New Haven, CT).  April 18, 1815.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Southbury" geog_id="null">
+						<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Wallingford" geog_id="null">
+						<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="New London" geog_id="null">
+					<sub_unit type="Town" name="Groton" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Lyme" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="New London" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Preston" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Stonington" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Tolland" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+					<sub_unit type="Town" name="Pomfret" geog_id="null">
+						<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="11" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate.  State Archives, Connecticut State Library, Hartford.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01564">Connecticut Journal (New Haven, CT).  April 10, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  April 11, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  April 12, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01563">Connecticut Spectator (Middletown, CT).  April 12, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Middlesex Gazette (Middletown, CT).  April 13, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Register (New Haven, CT).  April 15, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  April 18, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Evening Advertiser (Baltimore, MD) (Baltimore, MD).  April 19, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  April 19, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Daily National Intelligencer (Washington, DC).  April 27, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">North Star (Danville, VT).  May 6, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Journal (New Haven, CT).  May 15, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  May 15, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Farmer (Bridgeport, CT).  May 15, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  May 16, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  May 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  May 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Spectator (Middletown, CT).  May 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Norwich Courier (Norwich, CT).  May 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Middlesex Gazette (Middletown, CT).  May 18, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Daily National Intelligencer (Washington, DC).  May 19, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Saratoga Journal (Ballston Spa, NY).  April 24, 1816.</reference>
+</election_record>

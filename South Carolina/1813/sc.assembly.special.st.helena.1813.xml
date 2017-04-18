@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1813 House of Representatives, Saint Helena Parish, Special" type="Special" iteration="First Ballot" date="1813-10" election_id="sc.assembly.special.st.helena.1813" handle="10427/31988" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="Joseph Edings" name_id="EJ0263" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Fuller" name_id="FT0086" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-19">
+				<candidate_summary candidate_ref="1" vote_total="94" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="76" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07720" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Helena" geog_id="null">
+					<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Beaufort" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07720" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Parish" name="Saint Helena" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07720" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07720">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

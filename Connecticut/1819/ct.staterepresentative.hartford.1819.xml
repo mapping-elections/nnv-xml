@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1819 House of Representatives, Hartford, First Representative" type="General" iteration="First Ballot" date="1819" election_id="ct.staterepresentative.hartford.1819" handle="10427/79778" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Michael Olcott" name_id="OM0000" affiliation="Federalist" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Noah A. Phelps" name_id="PN0004" affiliation="Republican" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Luther Savage" name_id="SL0066" affiliation="Republican" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Caldwell" name_id="CJ0040" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Henry Kilbourn" name_id="KH0030" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Thomas S. Williams" name_id="WT0003" affiliation="Federalist" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-16">
+				<candidate_summary candidate_ref="1" vote_total="531" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="526" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<sub_unit type="City" name="Hartford" geog_id="null">
+						<result candidate_ref="1" vote="531" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="526" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times (Hartford, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  April 19, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  April 20, 1819.</reference>
+</election_record>

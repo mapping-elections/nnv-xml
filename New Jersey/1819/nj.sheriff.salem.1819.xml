@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1819 Sheriff, Salem County" type="General" iteration="First Ballot" date="1819-10" election_id="nj.sheriff.salem.1819" handle="10427/68616" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Jonathan Richmond" name_id="RJ0531" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Nicholas" name_id="NJ0171" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Harvey" name_id="HW0246" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-18">
+				<candidate_summary candidate_ref="1" vote_total="755" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="620" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="29" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Salem" geog_id="null">
+					<result candidate_ref="1" vote="755" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="620" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Elsenborough" geog_id="null">
+						<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Alloways Creek" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Penns Neck" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mannington" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pilesgrove" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pittsgrove" geog_id="null">
+						<result candidate_ref="1" vote="213" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Salem" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Alloways Creek" geog_id="null">
+						<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Penns Neck" geog_id="null">
+						<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Salem Messenger (Salem, NJ).  October 20, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Salem Messenger (Salem, NJ).  October 27, 1819.</reference>
+</election_record>

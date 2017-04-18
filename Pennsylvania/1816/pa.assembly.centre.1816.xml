@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 House of Representatives, Centre and Clearfield Counties" type="General" iteration="First Ballot" date="1816-10" election_id="pa.assembly.centre.1816" handle="10427/62948" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Jacob Kryder" name_id="KJ0280" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="753" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06812" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Centre and Clearfield Counties" geog_id="null">
+					<result candidate_ref="1" vote="753" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06812" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Centre" geog_id="null">
+						<result candidate_ref="1" vote="753" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06812" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Votes from Clearfield County are included in the returns for Centre County.</note>
+					</sub_unit>		
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06812">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

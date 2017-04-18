@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 House of Representatives, Lycoming, McKean and Potter Counties" type="General" iteration="First Ballot" date="1819-10" election_id="pa.assembly.lycomingmckeanpottercounties.1819" handle="10427/63288" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Hanna" name_id="HJ0958" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Hunter" name_id="HD0088" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-05">
+				<candidate_summary candidate_ref="1" vote_total="1197" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="469" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Lycoming, McKean and Potter" geog_id="null">
+					<result candidate_ref="1" vote="1197" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="469" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Lycoming" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="McKean" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Potter" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 25, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07005">Franklin Gazette (For the Country) (Philadelphia, PA).  October 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA).  October 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07005">The Union. United States Gazette and True American (Philadelphia, PA).  October 29, 1819.</reference>
+</election_record>

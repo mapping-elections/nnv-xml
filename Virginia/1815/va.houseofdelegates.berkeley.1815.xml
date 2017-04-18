@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1815 House of Delegates, Berkeley County" type="General" iteration="First Ballot" date="1815-04" election_id="va.houseofdelegates.berkeley.1815" handle="10427/33178" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Andrew Waggener" name_id="WA0189" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Archibald Shearer" name_id="SA0296" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-23">
+				<candidate_summary candidate_ref="1" vote_total="403" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="379" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08988" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08989" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Berkeley" geog_id="vas_berkeley">
+					<result candidate_ref="1" vote="403" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="379" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08988" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08989" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08988">Martinsburgh Gazette (Martinsburg, WV).  April 13, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08988">Norfolk Gazette and Publick Ledger (Norfolk, VA).  April 21, 1815.</reference>
+</election_record>

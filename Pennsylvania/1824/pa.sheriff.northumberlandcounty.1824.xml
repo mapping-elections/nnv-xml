@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Sheriff, Northumberland County" type="General" iteration="First Ballot" date="1824" election_id="pa.sheriff.northumberlandcounty.1824" handle="10427/63933" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Martin Weaver" name_id="WM0106" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Peter Martz" name_id="MP0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-11-05">
+				<candidate_summary candidate_ref="1" vote_total="787" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="681" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07385" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Martin Weaver who is Sheriff elected in the county of Northumberland; was one of the regular democratic candidates.  A contrary statement was inserted by mistake in our paper of the 19th ult.  Mr. Weaver's majority was 107 votes."  The Democratic Press (Philadelphia, PA).  November 1, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="787" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="681" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07385">The Franklin Gazette (Philadelphia, PA).  October 25, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07385">Bradford Settler (Towanda, PA).  October 28, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  November 1, 1824.</reference>
+</election_record>

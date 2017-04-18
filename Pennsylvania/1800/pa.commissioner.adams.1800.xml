@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Commissioner, Adams County" type="General" iteration="First Ballot" date="1800-10" election_id="pa.commissioner.adams.1800" handle="10427/61109" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="David Edie" name_id="ED0025" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Robert MacIlhenny" name_id="MR0124" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Jacob Greenameyer" name_id="GJ0382" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Andrew MacIlwaine" name_id="MA0217" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="James Getty" name_id="GJ0383" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="David Blyth" name_id="BD0127" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-24">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05631" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05631" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05631">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

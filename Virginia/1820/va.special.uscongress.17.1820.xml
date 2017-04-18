@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1820 U.S. House of Representatives, District 17, Special" type="Special" iteration="First Ballot" date="1820" election_id="va.special.uscongress.17.1820" handle="10427/65132" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="William S. Archer" name_id="AW0165" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Robertson" name_id="RJ0627" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.24969" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.24970" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"William S. Archer has been elected to the House of Representatives .... by a majority of about 120 votes over James Robertson, to supply the vacancy occasioned by the election of Mr. Pleasants to the Senate of the United States."  Daily National Intelligencer (Washington, DC).  January 10, 1820.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Seventeen" geog_id="null">
+					<sub_unit type="County" name="Amelia" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Chesterfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Goochland" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Powhatan" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24970">Powhatan County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24969">Daily National Intelligencer (Washington, DC).  January 10, 1820.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1797 Sheriff, Cecil County" type="General" iteration="First Ballot" date="1797" election_id="md.sheriff.cecil.1797" handle="10427/58059" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Abner White" name_id="WA0024" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Cowden" name_id="CS0023" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-31">
+				<candidate_summary candidate_ref="1" vote_total="709" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="533" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14122" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Cecil" geog_id="mds_cecil">
+					<result candidate_ref="1" vote="709" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="533" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14122" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14122">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+</election_record>

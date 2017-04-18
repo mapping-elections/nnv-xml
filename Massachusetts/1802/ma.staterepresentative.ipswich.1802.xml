@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1802 House of Representatives, Ipswich" type="General" iteration="First Ballot" date="1802-05" election_id="ma.staterepresentative.ipswich.1802" handle="10427//69065" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Nathaniel Wade" name_id="WN0111" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Joseph Swayley" name_id="SJ1503" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Jonathan Cogswell, Jr." name_id="CJ1021" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-08-26">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The federal ticket, 115 - antifederal 32."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 15, 1802.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Ipswich" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 15, 1802.</reference>
+</election_record>
+

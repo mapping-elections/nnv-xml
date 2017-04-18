@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1822 Clerk, Marion County" type="General" iteration="First Ballot" date="1822" election_id="in.clerk.marion.1822" handle="10427/56464" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk" office_id="ON023" scope="County">
+		<role title="Clerk" scope="County">
+			<ballot>
+				<candidate name="James M. Ray" name_id="RJ0036" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Anderson" name_id="AT0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Milo R. Davis" name_id="DM0004" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Moris Morris" name_id="MM0013" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John W. Redding" name_id="RJ0037" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="217" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Marion" geog_id="null">
+					<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Holloway, W. R.  Indianapolis: A Historical and Statistical Sketch of the Railroad City.  Indianapolis: Indianapolis Journal Print, 1870.  19.</reference>
+</election_record>

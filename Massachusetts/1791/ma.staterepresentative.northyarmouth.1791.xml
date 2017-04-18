@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1791 House of Representatives, North Yarmouth" type="General" iteration="First Ballot" date="1791-05" election_id="ma.staterepresentative.northyarmouth.1791" handle="10427/69044" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="David Mitchell" name_id="MD0024" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Martin" name_id="MW0097" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-14">
+				<candidate_summary candidate_ref="1" vote_total="52" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="33" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="North Yarmouth" geog_id="null">
+					<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Gazette of Maine (Portland, ME).  May 12, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  May 18, 1791.</reference>
+</election_record>

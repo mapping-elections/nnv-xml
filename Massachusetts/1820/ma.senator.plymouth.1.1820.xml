@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1820 State Senate, Plymouth County, Ballot 2" type="Legislative" iteration="Second Ballot" date="1820" election_id="ma.senator.plymouth.1.1820" handle="10427/79117" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="William Bourne" name_id="BW0192" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Thomas" name_id="TJ0607" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Aaron Hobart" name_id="HA0079" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Thomas Weston" name_id="WT0092" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-04">
+				<candidate_summary candidate_ref="1" vote_total="156" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="12" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Committee chosen to collect the ballots, reported the whole number to be 169 - necessary to a choice 85."  Boston Commercial Gazette (Boston, MA).  June 5, 1820.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Commercial Gazette (Boston, MA).  June 5, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Salem Gazette (Salem, MA).  June 6, 1820.</reference>
+</election_record>

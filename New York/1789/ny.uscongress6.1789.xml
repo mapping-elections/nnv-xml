@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record label="New York 1789 U.S. House of Representatives, District 6" type="General" iteration="First Ballot" date="1789" election_id="ny.uscongress6.1789" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/26142" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Jeremiah Van Rensselaer" name_id="VJ0189" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Ten Broeck" name_id="TA0014" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-30">
+				<candidate_summary candidate_ref="1" vote_total="1456" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1215" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00006" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Though listed here as "District 6," U.S. House of Representatives districts in New York were not officially identified by number until 1797. Civil List and Forms of Government of the Colony of the State of New York.  223.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<result candidate_ref="1" vote="1456" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1215" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Albany" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00006" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"In the county of Albany, Mr. Ten Broeck, had a majority of 36."  New York The Daily Advertiser (New York, NY).  April 11, 1789.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00006" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00007">New York The Daily Advertiser (New York, NY).  April 11, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The Country Journal, and Dutchess and Ulster County Farmer's Register (Poughkeepsie, NY).  April 14, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-York Packet (New York, NY).  April 14, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">Hutchins, S. C.  Civil List and Forms of Government of the Colony State of New York.  Albany, NY: Weed, Parsons, and, 1870.</reference>
+	<reference type="citation" resp="Philip Lampi">Young, Alfred F.  The Democratic Republicans of New York: The Origins, 1763-1797.  Chapel Hill, NC: University of North Carolina Press, 1967.  590.</reference>
+</election_record>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 House of Representatives, Miami and Shelby Counties" type="General" iteration="First Ballot" date="1824-10" election_id="oh.staterepresentative.miami.shelby.1824" handle="10427/60396" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="John MacCorkle" name_id="MJ0265" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Nathan Jackson" name_id="JN0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="William Mendingall" name_id="MW0094" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-10">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Miami and Shelby" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Miami" geog_id="ohs_miami">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Shelby" geog_id="ohs_shelby">
+                        <result candidate_ref="1" vote="190" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">Allen County had been formed, but not yet organized, so the vote totals were combined with those of Shelby County.</note>
+                        <sub_unit type="Township" name="Clinton" geog_id="null">
+                            <result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Cythiana" geog_id="null">
+                            <result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Green" geog_id="null">
+                            <result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Laramie" geog_id="null">
+                            <result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Orange" geog_id="null">
+                            <result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Perry" geog_id="null">
+                            <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Turtle Creek" geog_id="null">
+                            <result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19718" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19718">Original Shelby County Election Returns.</reference>
+</election_record>

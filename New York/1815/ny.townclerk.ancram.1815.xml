@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="New York 1815 Town Clerk, Ancram" type="General" iteration="First Ballot" date="1815" election_id="ny.townclerk.ancram.1815" handle="10427/68295" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Town">
+		<role title="Town Clerk" scope="Town">
+			<ballot>
+				<candidate name="Elisha Wilcox" name_id="WE0132" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Isaac B. Williams" name_id="WI0023" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2013-04-12">
+				<candidate_summary candidate_ref="1" vote_total="123" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="122" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"To the Editor of the Bee - Sir, In order that our friends of the Republican cause may be duly informed, how and in what manner to estimate their friends at the ensuing election, you will please to insert the following in your next Bee - It being the result of the Town Meeting held in the town of Ancram, on the 4th and 5th of April 1815."  The Hudson Bee (Hudson, NY).  April 25, 1815.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="Town" name="Ancram" geog_id="null">
+					<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Hudson Bee (Hudson, NY).  April 25, 1815.</reference>
+</election_record>

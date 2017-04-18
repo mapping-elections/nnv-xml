@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 Commissioner, Warren County" type="General" iteration="First Ballot" date="1814-10" election_id="oh.countycommissioner.warren.1814" handle="10427/59401" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="E. Williams" name_id="WE0119" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="David Fox" name_id="FD0029" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-03">
+				<candidate_summary candidate_ref="1" vote_total="664" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="163" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Warren" geog_id="ohs_warren">
+					<result candidate_ref="1" vote="664" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Deerfield" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hamilton" geog_id="null">
+						<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Salem" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Turtle Creek" geog_id="null">
+						<result candidate_ref="1" vote="309" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05215" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05215">The Western Star (Lebanon, OH).  October 20, 1814.</reference>
+</election_record>

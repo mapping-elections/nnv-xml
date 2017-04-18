@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 Clerk, Cortland County" type="General" iteration="First Ballot" date="1822" election_id="ny.clerk.cortland.1822" handle="10427/66419" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk" office_id="ON023" scope="County">
+		<role title="Clerk" scope="County">
+			<ballot>
+				<candidate name="Samuel Hotchkiss, Jr." name_id="HS0170" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Pipe Johnson" name_id="JP0008" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Adin Webb" name_id="WA0102" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-03">
+				<candidate_summary candidate_ref="1" vote_total="1006" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Cortland" geog_id="null">
+					<result candidate_ref="1" vote="1006" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Cincinnatus" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Freetown" geog_id="null">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Harrison" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Homer" geog_id="null">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Samuel Hotchkiss, Jr. received 2 votes as Samuel Hotchkiss.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Preble" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Scott" geog_id="null">
+						<result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Solon" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Truxton" geog_id="null">
+						<result candidate_ref="1" vote="198" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Virgil" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Willet" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Cortland Repository (Homer, NY).  November 19, 1822.</reference>
+</election_record>

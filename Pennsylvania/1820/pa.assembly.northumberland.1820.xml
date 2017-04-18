@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 House of Representatives, Northumberland County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.assembly.northumberland.1820" handle="10427/63387" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Lewis Dewart" name_id="DL0043" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Haas" name_id="HJ1097" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Gaston" name_id="GJ0433" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Miller" name_id="MJ1181" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-13">
+				<candidate_summary candidate_ref="1" vote_total="1217" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1183" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1088" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1053" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07074" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07076" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07077" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The October 28th edition of The Intelligencer, and Weekly Advertiser (Lancaster, PA) and the November 8th edition of The Republican Compiler (Gettysburg, PA) both report 1264 total votes for John Haas and 972 total votes for John Miller.</note>
+				<note resp="Philip Lampi">The American Sentinel (Philadelphia, PA) and The Franklin Gazette (Philadelphia, PA) both report 1213 total votes for Lewis Dewart.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="1217" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1183" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1088" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1053" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Little Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="100" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Milton" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="192" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Northumberland" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="126" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rush" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="44" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shamokin" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="112" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Sunbury" geog_id="null">
+						<result candidate_ref="1" vote="287" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="207" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="213" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="227" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Turbot" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="266" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="287" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="135" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="170" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="100" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07074">Nordwestliche Post (Sunbury, PA).  October 13, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07077">American Sentinel (Philadelphia, PA).  October 20, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 20, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07076">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 28, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  November 8, 1820.</reference>
+</election_record>

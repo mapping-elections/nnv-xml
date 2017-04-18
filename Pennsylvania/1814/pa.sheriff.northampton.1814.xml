@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Sheriff, Northampton County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.sheriff.northampton.1814" handle="10427/65998" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William White" name_id="WW0263" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Raub" name_id="RD0071" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Adam Daniel" name_id="DA0104" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="1189" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1037" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="494" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA) lists 861 votes for Daniel Raub.</note>
+				<note resp="Philip Lampi">The Der Northampton Correspondent (Easton, PA) and Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA) both list William White with 986 votes while the former lists Daniel Raub with 841 votes.  These seem to reflect the absence of the military vote.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="1189" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1037" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="494" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 17, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Northampton Correspondent (Easton, PA).  October 21, 1814.</reference>
+</election_record>

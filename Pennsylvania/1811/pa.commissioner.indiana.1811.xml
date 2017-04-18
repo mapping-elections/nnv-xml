@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Commissioner, Indiana County" type="General" iteration="First Ballot" date="1811-10" election_id="pa.commissioner.indiana.1811" handle="10427/62329" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Joseph Morehead" name_id="MJ1066" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Rogers" name_id="RI0011" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Allison" name_id="AJ0294" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Alexander MacLean" name_id="MA0264" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-27">
+				<candidate_summary candidate_ref="1" vote_total="239" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="206" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="74" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06472" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Indiana" geog_id="null">
+					<result candidate_ref="1" vote="239" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="99" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="74" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06472" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Black Lick" geog_id="null">
+						<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Center" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Conemaugh" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mahoning" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wheatfield" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Jefferson County voted with Indiana County and votes for Jefferson are listed in The Greensburgh Gazette (Greensburg, PA) from October 18.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06472">The Greensburgh Gazette (Greensburg, PA).  October 17, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Greensburgh Gazette (Greensburg, PA).  October 18, 1811.</reference>
+</election_record>

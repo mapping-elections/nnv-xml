@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1820 Treasurer, Suffolk County" type="General" iteration="First Ballot" date="1820" election_id="ma.treasurer.suffolk.1820" handle="10427/79129" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="County">
+		<role title="Treasurer" scope="County">
+			<ballot>
+				<candidate name="Thaddeus Page" name_id="PT0120" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Benjamin Weld" name_id="WB0108" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Charles Hammatt" name_id="HC0152" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Turnere Phillips" name_id="PT0125" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Nathan Webb" name_id="WN0110" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-06">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole number of votes was 2037."  The Repertory (Boston, MA).  March 22, 1820.</note>
+				<note resp="Philip Lampi">"No choice has been made; 1019 bing necessary to make a choice. Chelsea is united with Boston in the election; but her vote cannot give any candidate a majority. In this case the Court of Sessions will appoint the Treasurer to continue in office until March next."  Columbian Centinel. American Federalist (Boston, MA).  March 22, 1820.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Suffolk" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Boston" geog_id="null">
+						<result candidate_ref="1" vote="873" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="752" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="283" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chelsea" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. American Federalist (Boston, MA).  March 22, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  March 22, 1820.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1798 State Senate, Edgefield County" type="General" iteration="First Ballot" date="1798-10" election_id="sc.senate.edgefield.1798" handle="10427/31881" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Arthur Simkins" name_id="SA0266" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-03">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07508" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Arthur Simkins is unanimously elected.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Edgefield" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Edgefield Court House" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07508" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07508">Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA).  October 13, 1798.</reference>
+</election_record>

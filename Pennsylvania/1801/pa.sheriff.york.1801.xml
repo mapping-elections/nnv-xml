@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 Sheriff, York County" type="General" iteration="First Ballot" date="1801-10" election_id="pa.sheriff.york.1801" handle="10427/61243" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Stroman" name_id="SJ1031" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Youse" name_id="YP0000" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Godfrey Lenhart" name_id="LG0032" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-15">
+				<candidate_summary candidate_ref="1" vote_total="1643" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1060" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="992" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05776" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05777" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05778" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Godfrey Lenhart is listed as an Anti-Republican in the Aurora. General Advertiser (Philadelphia, PA).</note>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) from October 22 and The True American and Commercial Advertiser (Philadelphia, PA) list Philip Youse with 1022 votes.</note>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) from November 6 lists Philip Youse with 1002 votes</note>
+				<note resp="Philip Lampi">The Aurora from October 22 lists these returns as being from Berks County.</note>
+				<note resp="Philip Lampi">The Original Returns do not include Godfrey Lenhart.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="1643" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1060" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="992" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05776" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05777" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05778" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05778">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05777">Aurora. General Advertiser (Philadelphia, PA).  October 22, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05777">The True American and Commercial Advertiser (Philadelphia, PA).  October 23, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05776">Aurora. General Advertiser (Philadelphia, PA).  November 6, 1801.</reference>
+</election_record>

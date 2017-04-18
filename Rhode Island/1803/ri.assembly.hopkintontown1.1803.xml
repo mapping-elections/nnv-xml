@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1803 House of Representatives, Hopkinton" type="General" iteration="First Ballot" date="1803-09" election_id="ri.assembly.hopkintontown1.1803" handle="10427/64358" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Amos Collins" name_id="CA0007" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Peckham" name_id="PS0006" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Oliver Davis" name_id="DO0005" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="White" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-05-06">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Republicans of that town have exerted themselves manfully - and elected from their number, Messrs. Peckham and Collins, by majorities of 44 and 45 - in opposition to the interest and influence of Messrs. Davis and White."  Rhode-Island Republican (Newport, RI).  September 10, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="Town" name="Hopkinton" geog_id="ris_washington_hopkinton">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16166">Rhode-Island Republican (Newport, RI).  September 10, 1803.</reference>
+</election_record>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1794 State Senate, Chester, Fairfield and Richland Counties" type="General" iteration="First Ballot" date="1794" election_id="sc.senate.richland.1794" handle="10427/31963" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Joseph Brown" name_id="BJ1333" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Craig" name_id="CJ1001" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="A. R. Siles" name_id="SA0264" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Royal Gift" name_id="GR0086" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="D. Waters" name_id="WD0114" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-02-01">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07451" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Joseph Brown was elected by a majority of 127.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Chester, Fairfield and Richland" geog_id="null">
+					<sub_unit type="County" name="Chester" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Fairfield" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Richland" geog_id="null">
+						<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07451" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">211 voters participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07444">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

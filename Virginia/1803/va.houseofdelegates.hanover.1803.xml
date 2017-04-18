@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1803 House of Delegates, Hanover County" type="General" iteration="First Ballot" date="1803" election_id="va.houseofdelegates.hanover.1803" handle="10427/32760" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Thomas Starke" name_id="ST0100" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Bathurst Jones" name_id="JB0036" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Trueheart" name_id="TW0147" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Samuel Overton" name_id="OS0004" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-24">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08485" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Samuel Overton was a Republican, but supported by Federalists.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Hanover" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08485" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08485">The Examiner (Richmond, VA).  April 16, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1807 Coroner, Somerset County" type="General" iteration="First Ballot" date="1807-10" election_id="nj.coroner.somerset.1807" handle="10427/68305" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Hill" name_id="HJ1016" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="David Stuart" name_id="SD0220" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Miner" name_id="MJ0928" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Forman" name_id="FW0006" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Barent Cornell" name_id="CB0078" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-08">
+				<candidate_summary candidate_ref="1" vote_total="645" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="447" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="24" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="17" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Somerset" geog_id="null">
+					<result candidate_ref="1" vote="645" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="447" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="232" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="17" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The True American (Trenton, NJ).  October 26, 1807.</reference>
+</election_record>

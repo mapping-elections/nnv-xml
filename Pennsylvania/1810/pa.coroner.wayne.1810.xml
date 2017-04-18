@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Coroner, Wayne County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.coroner.wayne.1810" handle="10427/67063" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Henry Steel" name_id="SH0143" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Reuben Skinner" name_id="SR0213" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-16">
+				<candidate_summary candidate_ref="1" vote_total="227" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="108" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06432" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Wayne" geog_id="null">
+					<result candidate_ref="1" vote="227" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06432">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

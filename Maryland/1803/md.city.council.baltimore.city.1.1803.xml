@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record label="Maryland 1803 City Council, Baltimore, Ward 1" type="General" iteration="First Ballot" date="1803" election_id="md.city.council.baltimore.city.1.1803" handle="10427/26932" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="William Jessop" name_id="JW0018" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="H. Stouffer" name_id="SH0036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="G. F. Warfield" name_id="WG0014" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="P. Casset" name_id="CP0052" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="S. Lyeth" name_id="LS0042" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="G. T. Hopkins" name_id="HG0039" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-08">
+				<candidate_summary candidate_ref="1" vote_total="224" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="180" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="129" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="32" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="11" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14321" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="224" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="180" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14321" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14321">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 4, 1803.</reference>
+</election_record>

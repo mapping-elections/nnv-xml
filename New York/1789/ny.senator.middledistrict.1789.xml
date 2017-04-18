@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="New York 1789 State Senate, Middle District" type="General" iteration="First Ballot" date="1789" election_id="ny.senator.middledistrict.1789" handle="10427/65288" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Cantine" name_id="CJ0467" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Carpenter" name_id="CJ0238" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-28">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"John Cantine and James Carpenter, Esquires, are elected senators to fill the vacant seats in the middle district."  The New-York Journal, and Weekly Register (New York, NY).  June 4, 1789.</note>
+				<note resp="Philip Lampi">"That John Cantine and James Carpenter were severally and respectively ..... in the middle district of this State chosen senators in the said middle district."  The Albany Gazette (Albany, NY).  June 11, 1789.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Middle" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dutchess" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Orange" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Ulster" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-York Journal, and Weekly Register (New York, NY).  June 4, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Gazette (Albany, NY).  June 11, 1789.</reference>
+</election_record>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Coroner, Montgomery County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.coroner.montgomery.1816" handle="10427/66979" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Major" name_id="MJ0869" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Towers" name_id="TW0110" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Charles Johnston" name_id="JC0043" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-29">
+				<candidate_summary candidate_ref="1" vote_total="2089" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1651" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1287" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Original Returns did not list William Towers.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="2089" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1651" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1287" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hatborough" geog_id="null">
+						<result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Heist's" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hughes's" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="New Hanover" geog_id="null">
+						<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="476" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="435" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Pottstown" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Snyder's" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sumneytown" geog_id="null">
+						<result candidate_ref="1" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="237" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="260" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Yerkes's" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 16, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 18, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 21, 1816.</reference>
+</election_record>

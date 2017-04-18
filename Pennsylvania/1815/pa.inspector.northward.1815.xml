@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Inspector of the General Election, Philadelphia City, North Ward" type="General" iteration="First Ballot" date="1815-09" election_id="pa.inspector.northward.1815" handle="10427/62890" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Joseph Blame" name_id="BJ1060" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Adam Traquair" name_id="TA0048" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Carman" name_id="CJ0899" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Charles Massey" name_id="MC0061" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-07">
+				<candidate_summary candidate_ref="1" vote_total="214" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="214" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="84" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06776" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06777" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="North" geog_id="null">
+						<result candidate_ref="1" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="84" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06777" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  September 30, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06776">Political and Commercial Register (Philadelphia, PA).  September 30, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  September 30, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  September 30, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Republican (Georgetown, DC).  October 3, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 4, 1815.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1804 House of Representatives, Hancock County" type="General" iteration="First Ballot" date="1804" election_id="ga.assembly.hancock.1804" handle="10427/15976" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="David Adams" name_id="AD0003" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Bolling Hall" name_id="HB0018" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Thomas Bird" name_id="BT0006" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Risden Moore" name_id="MR0006" affiliation="null" affiliation_id="null" candidate_num="4"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-07">
+        <candidate_summary candidate_ref="1" vote_total="547" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="465" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="436" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="420" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01621" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Hancock" geog_id="null">
+          <result candidate_ref="1" vote="547" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="465" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="436" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="420" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01621" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01621">Farmer's Gazette (Sparta, GA).  October 13, 1804.</reference>
+</election_record>

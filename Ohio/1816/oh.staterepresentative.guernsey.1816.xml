@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 House of Representatives, Guernsey County" type="General" iteration="First Ballot" date="1816-10" election_id="oh.staterepresentative.guernsey.1816" handle="10427/59547" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Cyrus P. Beatty" name_id="BC0081" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Hanna" name_id="HT0147" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Frame" name_id="FJ0285" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Sharrock" name_id="SJ0910" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Lloyd Talbot" name_id="TL0022" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-11">
+				<candidate_summary candidate_ref="1" vote_total="300" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="47" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05237" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05238" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Western Herald (Steubenville, OH) lists Cyrus P. Beatty with 294 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Guernsey" geog_id="ohs_guernsey">
+					<result candidate_ref="1" vote="300" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="47" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05237" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05238" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05238">Muskingum Messenger (Zanesville, OH).  October 17, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05237">The Western Herald (Steubenville, OH).  October 18, 1816.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1823 House of Representatives, Baldwin County" type="General" iteration="First Ballot" date="1823" election_id="ga.assembly.baldwin.1823" handle="10427/17219" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="Tomlinson Fort" name_id="FT0008" affiliation="null" affiliation_id="null" candidate_num="1"/>
+        <candidate name="James C. Watson" name_id="WJ0079" affiliation="null" affiliation_id="null" candidate_num="2"/>
+        <candidate name="William B. Rogers" name_id="RW0009" affiliation="null" affiliation_id="null" candidate_num="3"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-14">
+        <candidate_summary candidate_ref="1" vote_total="386" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="339" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="272" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01687" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Baldwin" geog_id="null">
+          <result candidate_ref="1" vote="386" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="339" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="272" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01687" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01687">Georgia Patriot (Milledgeville, GA).  October 7, 1823.</reference>
+</election_record>

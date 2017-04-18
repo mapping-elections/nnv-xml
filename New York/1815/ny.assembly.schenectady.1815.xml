@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="New York 1815 Assembly, Schenectady County" type="General" iteration="First Ballot" date="1815" election_id="ny.assembly.schenectady.1815" handle="10427/25654" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Harmanus A. Van Slyck" name_id="VH0018" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Henry Fryer" name_id="FH0008" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Gifford" name_id="GJ0315" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Gershom Van Vost" name_id="VG0004" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="James J. Van Eps" name_id="VJ0148" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-01">
+				<candidate_summary candidate_ref="1" vote_total="725" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="710" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="697" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="685" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="8" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04514" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schenectady" geog_id="null">
+					<result candidate_ref="1" vote="725" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="710" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="697" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="685" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="8" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04514" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04514">The Albany Argus (Albany, NY).  May 12, 1815.</reference>
+</election_record>

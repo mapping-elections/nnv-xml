@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1822 State Senate, Clay, Lillard and Ray Counties" type="General" iteration="First Ballot" date="1822" election_id="mo.statesenate.clayrayandlillard.1822" handle="10427/56603" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Duff Green" name_id="GD0014" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Bell" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Rennick" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11472"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="District" name="Clay, Lillard and Ray" geog_id="null">
+					<sub_unit type="County" name="Clay" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11472"/>
+					</sub_unit>
+					<sub_unit type="County" name="Lillard" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11472"/>
+						<note resp="Philip Lampi">Duff Green had a majority of 2 in Lillard County.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Ray" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11472"/>
+						<note resp="Philip Lampi">Duff Green had a majority of 3 in Ray County.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11472">Missouri Intelligencer (Franklin, MO).  August 27, 1822.</reference>
+</election_record>

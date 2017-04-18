@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1818 Assembly, Genesee County" type="General" iteration="First Ballot" date="1818" election_id="ny.assembly.genesee.1818" handle="10427/67928" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Abraham Mattison" name_id="MA0138" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac Sutherland" name_id="SI0066" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Gilbert Howell" name_id="HG0068" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-06">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+			</overview>                                               
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Genesee" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Shelby" geog_id="null">
+						<result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Historical Album of Orleans County, N.Y.  New York: Sanford and, 1879.  257.</reference>
+</election_record>

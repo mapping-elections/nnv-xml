@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1788 Constitutional Convention, Buckingham County" type="General" iteration="First Ballot" date="1788" election_id="va.constitutionalconvention.buckingham.1788" handle="10427/32260" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="Charles Patteson" name_id="PC0074" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="David Bell" name_id="BD0177" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Cabell" name_id="CJ1081" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-18">
+				<candidate_summary candidate_ref="1" vote_total="288" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="243" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="223" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08221" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Buckingham" geog_id="null">
+					<result candidate_ref="1" vote="288" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="243" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="223" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08221" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08221">Buckingham County Poll List.  Library of Virginia, Richmond.</reference>
+</election_record>

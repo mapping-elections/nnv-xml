@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1794 House of Representatives, Edgefield County, Special" type="Special" iteration="First Ballot" date="1794-12" election_id="sc.assembly.special.edgefield.1794" handle="10427/32144" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Anderson" name_id="AW0151" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Walker" name_id="WS0202" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Charles Goodwin" name_id="GC0054" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Scott" name_id="SS0359" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Peter Hillard" name_id="HP0068" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-02-01">
+				<candidate_summary candidate_ref="1" vote_total="112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">To fill the vacancy caused by the denial of John Boyd to a seat in the Legislature, who was adjudged to be a minister.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Edgefield" geog_id="null">
+					<result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07443" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07443">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  240.</reference>
+</election_record>

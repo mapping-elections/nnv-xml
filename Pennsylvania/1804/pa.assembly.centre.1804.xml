@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 House of Representatives, Centre and Clearfield Counties" type="General" iteration="First Ballot" date="1804" election_id="pa.assembly.centre.1804" handle="10427/61450" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Hall" name_id="HJ0826" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05923" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Centre" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05923" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clearfield">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Clearfield county was erected by an act of the Legislature, passed on March 26, 1804."  History of Clearfield County, Pennsylvania, 64.</note>
+						<note resp="Philip Lampi">"An act supplemental to the act of March 26, 1804, was passed on the 14th day of March, 1805, whereby it was provided that the power and authority of the commissioners and other county officers of Centre county, should extend over and be as full and effectual in this county, as if it were a component part of Centre county."History of Clearfield County, Pennsylvania.  65-66.</note>
+						<note resp="Philip Lampi">From 1804 until 1811 Clearfield County voted with Centre County by an act of the legislature which states in part: "That the county of Clearfield shall be an election district, and the electors thereof shall hold their general elections at the house of Benjamin Jordan, in the said district, and shall be entitled to vote for members of the Federal and State Legislatures, sheriffs, commissioners, and other county officers for Centre County." History of Clearfield County, Pennsylvania, 66</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Aldrich, Lewis Cass, ed.  History of Clearfield County, Pennsylvania.  Syracuse, NY: D. Mason and, 1877.  66.</reference>
+</election_record>

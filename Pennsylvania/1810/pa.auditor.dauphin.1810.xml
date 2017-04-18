@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Auditor, Dauphin County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.auditor.dauphin.1810" handle="10427/62171" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="John Battorff" name_id="BJ1098" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Smith" name_id="ST0224" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Allison" name_id="AW0098" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-31">
+				<candidate_summary candidate_ref="1" vote_total="1033" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1032" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1031" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06391" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1033" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1032" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1031" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06391" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Dauphin Guardian (Harrisburg, PA).  October 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06391">Der Libanoner Morgenstern (Lebanon, PA).  October 17, 1810.</reference>
+</election_record>

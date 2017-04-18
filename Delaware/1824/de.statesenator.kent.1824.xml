@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1824 State Senate, Kent County, Special" type="Special" iteration="First Ballot" date="1824-10" election_id="de.statesenator.kent.1824" handle="10427/43804" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Charles Polk" name_id="PC0083" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Presley Spruance" name_id="SP0145" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1169" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The American Watchman and Delaware Advertiser (Wilmington, DE) of November 5, 1824 lists Charles Polk with 1206 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<sub_unit type="Hundred" name="Dover" geog_id="des_kent_dover">
+						<result candidate_ref="1" vote="192" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="210" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Duck Creek" geog_id="des_kent_duckcreek">
+						<result candidate_ref="1" vote="168" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="275" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mispillion" geog_id="des_kent_mispillion">
+						<result candidate_ref="1" vote="449" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="226" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Watchman and Delaware Advertiser (Wilmington, DE) of November 5, 1824 lists Charles Polk with 450 votes.</note>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Murderkill" geog_id="des_kent_murderkill">
+						<result candidate_ref="1" vote="347" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="303" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 8, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">American Watchman and Delaware Advertiser (Wilmington, DE).  November 5, 1824.</reference>
+</election_record>

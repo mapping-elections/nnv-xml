@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1814 U.S. Senate, Special, Ballot 11" type="Special" iteration="Eleventh Ballot" date="1814-12" election_id="nc.ussenator11.1814" handle="10427/43058" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. Senate" office_id="ON127" scope="Federal">
+        <role title="U.S. Senator" scope="State">
+            <ballot>
+                <candidate name="Francis Locke" name_id="LF0010" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Stanley" name_id="SJ0834" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-03-27">
+                <candidate_summary candidate_ref="1" vote_total="104" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="75" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09933" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18017" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Francis Locke was elected but "resigned December 5, 1815 without having qualified."  Biographical Directory of the United States Congress.</note>
+                <note resp="Philip Lampi">"On Saturday last, after the various ineffectual ballotings which we have before stated, and some others, the name of James W. Clarke having been withdrawn, and that of Francis Locke, late a Judge of the Supreme Court, added to the nomination, the latter gentleman was chosen by the following vote... The name of the Judge was held in nomination, not only without his consent, but in violation to his declared wishes. Under all the circumstances, however, he may be induced or rather compelled to serve."  The Raleigh Minerva (Raleigh, NC).  December 30, 1814.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18017" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role
+        ></office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18017">The Raleigh Minerva (Raleigh, NC).  December 30, 1814.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09933">Norfolk Gazette and Publick Ledger (Norfolk, VA).  January 4, 1815.</reference>
+</election_record>
+

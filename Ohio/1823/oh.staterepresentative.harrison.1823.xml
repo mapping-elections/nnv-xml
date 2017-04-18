@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 House of Representatives, Harrison County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.staterepresentative.harrison.1823" handle="10427/60300" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="John Patterson" name_id="PJ0114" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Wiley" name_id="WW0208" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Henry Barricklow" name_id="BH0045" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="John Barricklow" name_id="BJ0343" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="James Deviney" name_id="DJ0081" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="George Joy" name_id="JG0003" affiliation="null" affiliation_id="null" candidate_num="6"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-10">
+                <candidate_summary candidate_ref="1" vote_total="548" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="420" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="225" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Harrison" geog_id="ohs_harrison">
+                    <result candidate_ref="1" vote="548" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="420" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="225" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Archer" geog_id="null">
+                        <result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Cadiz" geog_id="null">
+                        <result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="144" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Freeport" geog_id="null">
+                        <result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="North" geog_id="null">
+                        <result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Nottingham" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Rock" geog_id="null">
+                        <result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Short Creek" geog_id="null">
+                        <result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="114" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Stock" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Harrison County.</reference>
+</election_record>

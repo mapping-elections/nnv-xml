@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1797 State Senate, Perquimans County" type="General" iteration="First Ballot" date="1797-08" election_id="nc.statesenator.perquimans.1797" handle="10427/43706" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Joseph Harvey" name_id="HJ0604" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Frances Newby" name_id="NF0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-02-12">
+				<candidate_summary candidate_ref="1" vote_total="174" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04750" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election for Senator was contested.</note>
+				<note resp="Philip Lampi">William Greevy, in certifying the election wrote, "while the commons tickets were calling out, there came out one for Joseph Harvey (the word Senator was not wrote on it) and three for Francis Newby, two of which were wrote at large Francis Newby, Senator; some persons said that they would be good; I then put them under the candlestick, untill all the tickets were called out; I then handed them to one of the Superintendants; after a small space of time Major Joseph Harvey called on the Sheriff to give the casting vote, that he would admit it to be a tye; the Sheriff refused to give the casting vote, and said he should make a special return to the Assembly, and state the facts; the Sheriff then made proclamation that no Senator was elected, or words to that effect."  Original Election Certificate.</note>
+				<note resp="Philip Lampi">Though the Original Election Certificate shows no Senator as elected, when the next session of the Senate began on November 20, Joseph Harvey was seated as "legally elected to represent" Pequimans County.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Perquimans" geog_id="null">
+					<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04750" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Three votes for Frances Newby and one for Joseph Harvey were found in the commons box.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04750">Legislative Papers.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

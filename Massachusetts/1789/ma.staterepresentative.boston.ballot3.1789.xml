@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1789 House of Representatives, Boston, Ballot 3" type="General" iteration="Third Ballot" date="1789-05" election_id="ma.staterepresentative.boston.ballot3.1789" handle="10427/68967" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Charles Jarvis" name_id="JC0015" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Edwards" name_id="ET0014" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Stephen Higginson" name_id="HS0074" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-10">
+				<candidate_summary candidate_ref="1" vote_total="530" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="13" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The succeeding day, there was as full a meeting as perhaps was ever known at an adjournment: - the whole number being 703 voters : Upon sorting and counting the votes, it appeared that Dr. Charles Jarvis, had 530 and was accordingly re-elected."  The Boston Gazette, and the Country Journal (Boston, MA).  May 18, 1789.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<result candidate_ref="1" vote="530" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Boston Gazette, and the Country Journal (Boston, MA).  May 18, 1789.</reference>
+</election_record>

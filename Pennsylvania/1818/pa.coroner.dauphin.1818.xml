@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Coroner, Dauphin County" type="General" iteration="First Ballot" date="1818" election_id="pa.coroner.dauphin.1818" handle="10427/63131" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William Cochran" name_id="CW0279" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Michael Krehl" name_id="KM0028" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="F. Wolfersberger" name_id="WF0060" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Fager" name_id="FJ0403" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-17">
+				<candidate_summary candidate_ref="1" vote_total="1270" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1163" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1001" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="830" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06916" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1270" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1163" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1001" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="830" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06916" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="222" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="318" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="277" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="301" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="126" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Oracle of Dauphin lists 302 votes for F. Wolfersberger.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="204" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="207" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Oracle of Dauphin lists 205 votes for F. Wolfersberger.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="107" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="West Hanover" geog_id="null">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06916">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 17, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Chronicle, and Harrisburg Advertiser (Harrisburg, PA).  October 19, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 24, 1818.</reference>
+</election_record>

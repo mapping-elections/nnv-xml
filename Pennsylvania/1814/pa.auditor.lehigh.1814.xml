@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Auditor, Lehigh County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.auditor.lehigh.1814" handle="10427/67049" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="William Eckhardt" name_id="EW0075" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Henry Haas" name_id="HH0111" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Peter Statler" name_id="SP0120" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<sub_unit type="null" name="Captain Ruck's Company" geog_id="null">
+							<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

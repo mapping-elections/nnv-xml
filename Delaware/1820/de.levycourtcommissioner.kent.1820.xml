@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1820 Levy Court Commissioner, Kent County" type="General" iteration="First Ballot" date="1820" election_id="de.levycourtcommissioner.kent.1820" handle="10427/43844" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Levy Court Commissioner" office_id="ON071" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Alliband" name_id="AW0113" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Wild" name_id="WW0293" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Coombe" name_id="CS0256" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Manlove Smith" name_id="SM0098" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Matthias Day" name_id="DM0055" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Thomas Smith" name_id="ST0026" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Hynson Graham" name_id="GH0073" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="James P. Morris" name_id="MJ1052" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<sub_unit type="Hundred" name="Murderkill" geog_id="des_kent_murderkill">
+						<result candidate_ref="1" vote="412" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="408" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="407" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="400" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="361" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="359" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="359" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="350" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Tally Sheet for Murderkill Hundred, 1820.</reference>
+</election_record>

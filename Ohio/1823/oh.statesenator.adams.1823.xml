@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 State Senate, Adams County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.statesenator.adams.1823" handle="10427/60220" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Thomas Kirker" name_id="KT0055" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Matthias Rolason" name_id="RM0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-15">
+                <candidate_summary candidate_ref="1" vote_total="820" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="100" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Adams" geog_id="ohs_adams">
+                    <result candidate_ref="1" vote="820" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Liberty" geog_id="null">
+                        <result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Meigs" geog_id="null">
+                        <result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Monroe" geog_id="null">
+                        <result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Scott" geog_id="null">
+                        <result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Sprigg" geog_id="null">
+                        <result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Tifflin" geog_id="null">
+                        <result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19659" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19659">The Village Register (West Union, OH).  October 21, 1823.</reference>
+</election_record>

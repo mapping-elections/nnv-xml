@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1823 U.S. House of Representatives, District 8" type="General" iteration="First Ballot" date="1823" election_id="tn.congress.8th.1823" handle="10427/65010" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="James B. Reynolds" name_id="RJ0680" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Sterling Brewer" name_id="BS0308" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John H. Marable" name_id="MJ1391" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-27">
+                <candidate_summary candidate_ref="1" vote_total="2385" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1415" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1341" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17006" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17013" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17019" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Eight" geog_id="null">
+                    <result candidate_ref="1" vote="2385" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1415" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1341" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Dickson" geog_id="null">
+                        <result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="437" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="175" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Hickman" geog_id="null">
+                        <result candidate_ref="1" vote="348" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="371" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Humphreys" geog_id="null">
+                        <result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="181" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Montgomery" geog_id="null">
+                        <result candidate_ref="1" vote="364" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="495" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Robertson" geog_id="null">
+                        <result candidate_ref="1" vote="942" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="77" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Stewart" geog_id="null">
+                        <result candidate_ref="1" vote="240" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="129" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="318" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17013">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

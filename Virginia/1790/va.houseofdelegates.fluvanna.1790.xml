@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1790 House of Delegates, Fluvanna County" type="General" iteration="First Ballot" date="1790" election_id="va.houseofdelegates.fluvanna.1790" handle="10427/32270" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Roger Thompson" name_id="TR0088" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Thompson" name_id="TG0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert Quarles" name_id="QR0002" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-04-01">
+				<candidate_summary candidate_ref="1" vote_total="212" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="139" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="136" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08250" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Fluvanna" geog_id="null">
+					<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08250" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Contested Election.</note>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08250">Fluvanna County Poll List.  Library of Virginia, Richmond.</reference>
+</election_record>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 House of Representatives, Centre and Clearfield Counties" type="General" iteration="First Ballot" date="1822-10" election_id="pa.assembly.centreclearfieldcounty.1822" handle="10427/63615" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Mitchell" name_id="MJ1130" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Martin Hoover" name_id="HM0077" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Herring" name_id="HJ1134" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Francis MacEwen" name_id="MF0031" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-01">
+				<candidate_summary candidate_ref="1" vote_total="1256" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="975" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="890" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="353" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07213" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07214" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Centre and Clearfield" geog_id="null">
+					<result candidate_ref="1" vote="1256" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="975" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="890" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="353" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Centre" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Bellefonte Patriot (Bellefonte, PA).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07214">The Union. United States Gazette and True American (Philadelphia, PA).  October 29, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07213">Linn, John Blair.  History of Centre and Clinton Counties.  Philadelphia: Louis H. Everts, 1883. 63.</reference>
+</election_record>

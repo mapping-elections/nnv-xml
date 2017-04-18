@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 Commissioner, Trumbull County, 1 Year" type="General" iteration="First Ballot" date="1819-10" election_id="oh.commissioner.trumbull.1yr.1819" handle="10427/59773" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Benajah Austin" name_id="AB0034" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Coit" name_id="CJ0647" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Dewolf" name_id="DJ0388" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Martin Smith" name_id="SM0108" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-04">
+				<candidate_summary candidate_ref="1" vote_total="681" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="519" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="202" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05282" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The other announced candidates for Commissioner, were John H. Patch, William McCombs, John F. Kingsley, though not specified for which term.  Their combined vote total was 215.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="681" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="519" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="202" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05282" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="null" geog_id="null">
+						<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Trumbull County Election Returns, unknown township.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05282">The Western Reserve Chronicle (Warren, OH).  October 21, 1819.</reference>
+</election_record>

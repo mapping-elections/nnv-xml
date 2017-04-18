@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1802 Clerk of the House of Representatives" type="Legislative" iteration="First Ballot" date="1802" election_id="ma.clerkofthehouse.1802" handle="10427/69057" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Clerk of the House of Representatives" office_id="ON027" scope="State">
+        <role title="Clerk of the House of Representatives" scope="State">
+            <ballot>
+                <candidate name="Henry Warren" name_id="WH0030" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Kilborn Whitman" name_id="WK0000" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-08-11">
+                <candidate_summary candidate_ref="1" vote_total="73" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="72" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The Representatives proceeded to the choice of a Clerk. The votes taken were 145--73 making a choice--HENRY WARREN, Esq. had 73, and was declared chosen. [The other candidate ws KILBORN WHITMAN, Esq. who had 72 votes.]"  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 29, 1802.</note>
+                <note resp="Philip Lampi">"BOSTON GAZETTE, MAY 27. TRULY FEDERAL ELECTION. The Civil Administration of this Commonwealth, was yesterday renewed, agreeably to the forms adopted by our fathers ... The House of Representatives made choice of ... Henry Warren, Esq. Clerk."  Courier of New Hampshire (Concord, NH).  June 3, 1802.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="null" name="General Court" geog_id="null">
+                    <sub_unit type="null" name="House of Representatives" geog_id="null">
+                        <result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="null" name="State Senate" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 29, 1802.</reference>
+    <reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  June 3, 1802.</reference>
+    <reference type="citation" resp="Philip Lampi">The Telescope: or, American Herald (Leominster, MA).  June 3, 1802.</reference>
+</election_record>
+

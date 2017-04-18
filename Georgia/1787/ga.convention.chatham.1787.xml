@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1787 Constitutional Convention, Chatham County" type="General" iteration="First Ballot" date="1787" election_id="ga.convention.chatham.1787" handle="10427/16192" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="William Stephens" name_id="SW0012" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Habersham" name_id="HJ0047" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Gibbons, Sr." name_id="GT0013" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-18">
+				<candidate_summary candidate_ref="1" vote_total="272" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="251" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="124" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01581" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Chatham" geog_id="null">
+					<result candidate_ref="1" vote="272" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="251" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="124" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01581" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01581">The Georgia State Gazette or Independent Register (Augusta, GA).  December 15, 1787.</reference>
+</election_record>

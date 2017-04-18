@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 House of Representatives, Crawford, Erie, Mercer, Venango, and Warren Counties" type="General" iteration="First Ballot" date="1802" election_id="pa.assembly.crawforderiemercervenangowarren.1802" handle="10427/61284" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Lyttle, Jr." name_id="LJ0330" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Buchanan" name_id="BA0198" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="James Herrington" name_id="HJ0819" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Findley" name_id="FJ0314" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Fox" name_id="FJ0320" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-23">
+				<candidate_summary candidate_ref="1" vote_total="583" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="520" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="238" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="197" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05795" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Lyttle, Jr. received 13 votes as John Lyttle.  The previous year Alexander Buchanan was elected when votes for John Lyttle, Jr. and John Lyttle were deemed to be for two separate candidates.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="583" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="520" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="238" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="197" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05795" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The total for Crawford county includes Erie, Mercer, Venango and Warren counties.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05795">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  October 23, 1802.</reference>
+</election_record>

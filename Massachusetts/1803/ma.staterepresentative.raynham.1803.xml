@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 House of Representatives, Raynham" type="General" iteration="First Ballot" date="1803-05" election_id="ma.staterepresentative.raynham.1803" handle="10427/69390" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="William A. Leonard" name_id="LW0208" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Abraham Hathaway" name_id="HA0257" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-09-25">
+                <candidate_summary candidate_ref="1" vote_total="75" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="67" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"A letter from Taunton says, 'Raynham (for seven years knee deep in the chilling mire of democracy) has with manly effort freed herself from its destructive influence, and is now treading in the firm and solid ground of federalism. Federal votes 75 - democratic 67.'"  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 4, 1803.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Raynham" geog_id="null">
+                    <result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 4, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 2, 1803.</reference>
+</election_record>
+

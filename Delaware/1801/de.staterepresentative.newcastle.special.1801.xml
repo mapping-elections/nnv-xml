@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1801 House of Representatives, New Castle County, Special" type="Special" iteration="First Ballot" date="1801-01" election_id="de.staterepresentative.newcastle.special.1801" handle="10427/43985" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="John C. Brush" name_id="BJ1388" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Nicholas Van Dyke" name_id="VN0010" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-10">
+                <candidate_summary candidate_ref="1" vote_total="316" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="103" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">John C. Brush was elected in October, but due to a Delaware law disqualifying a clergyman from office, was found, on January 8 "not duly qualified to be a member of their house."  He was expelled from the Delaware House of Representatives on a straight party line vote on January 14, with a new election ordered for January 21  "Brush got eight hundred less votes than in October, but he still defeated his Federalist opponent".  Delaware History, Fall-Winter, 1989  Historical Society of Delaware.  Volume XXIII, Number 4.</note>
+            </overview>
+            <admin_unit type="State" name="Delaware" geog_id="des">
+                <sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+                    <result candidate_ref="1" vote="316" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Delaware History.  XXIII, no. 4.  (Fall-Winter, 1989).</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 Commissioner, Wayne County, 2 Years" type="General" iteration="First Ballot" date="1818-10" election_id="oh.countycommissioner.wayne.1818" handle="10427/59705" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Benjamin Jones" name_id="JB0018" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Daniel Hutchinson" name_id="HD0078" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-14">
+				<candidate_summary candidate_ref="1" vote_total="565" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="186" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05267" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Wayne" geog_id="ohs_wayne">
+					<result candidate_ref="1" vote="565" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="186" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05267" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05267">The Ohio Repository (Canton, OH).  October 23, 1818.</reference>
+</election_record>

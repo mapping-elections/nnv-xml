@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 House of Representatives, Wiscasset" type="General" iteration="First Ballot" date="1804-05" election_id="ma.staterepresentative.wiscasset.1804" handle="10427/27870" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Moses Carlton" name_id="CM0018" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Merrill, Jr." name_id="MJ0349" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-23">
+				<candidate_summary candidate_ref="1" vote_total="64" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="61" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03466" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03467" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"To the Editors. 'Wiscasset, May 11.--Yesterday a meeting was held in this town, for the choice of one or more Representatives ... when the Aristocratic Candidate, John Merrill, had 61 votes, and the Democratic Candidate, Moses Carlton, had 64 votes, and was chosen.'"  Eastern Argus (Portland, ME).  May 17, 1804.</note>
+				<note resp="Philip Lampi">"Wiscasset, May 11. Yesterday a meeting was held in this town for the choice of one or more representatives--when the aristocratic candidate, John Merrill, had 61 votes, and the democratic candidate, Moses Carlton, had 64 votes and was chosen."  The Providence Phoenix (Providence, RI).  May 26, 1804.</note>
+				<note resp="Philip Lampi">The New-England Palladium (Boston, MA) reports Moses Carleton as the winner with 64 votes, with the following note: "The Wiscasset Repository, says, Mr. Moses Carlton, jun. had 50 votes, Mr. Moses Carlton 14, Mr. John Merrill, jun. 39, John Merrill 22."</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Wiscasset" geog_id="null">
+					<result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03466" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03467" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03466">Eastern Argus (Portland, ME).  May 17, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 22, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03467">The Providence Phoenix (Providence, RI).  May 26, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 4, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Spy (Springfield, MA).  June 11, 1804.</reference>
+</election_record>

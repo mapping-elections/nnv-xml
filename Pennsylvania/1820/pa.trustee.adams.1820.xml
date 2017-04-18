@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Trustee of the Academy, Adams County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.trustee.adams.1820" handle="10427/67329" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="Lebright Hinch" name_id="HL0060" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Robert Hayes" name_id="HR0188" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Herbst" name_id="HJ0768" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Hugh Jackson" name_id="JH0026" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-17">
+				<candidate_summary candidate_ref="1" vote_total="1912" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1574" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="803" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1912" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1574" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1137" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="803" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Republican Compiler reports 1573 votes for Robert Hayes.</note>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="95" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="358" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="308" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="123" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="80" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Littlestown" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="147" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="73" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="121" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="234" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="77" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sulphur Springs" geog_id="null">
+						<result candidate_ref="1" vote="335" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="268" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="76" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Where The Republican Compiler (Gettysburg, PA) lists the name "Sulphur Springs," The Adams Centinel (Gettysburg, PA) lists "Petersburg." Both of these names refer to the area presently known as York Springs Borough.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  October 18, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 18, 1820.</reference>
+</election_record>

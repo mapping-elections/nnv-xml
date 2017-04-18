@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Auditor, Dauphin County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.auditor.dauphin.1821" handle="10427/67972" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Frederick Rathson" name_id="RF0008" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Reigart" name_id="RJ0483" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-22">
+				<candidate_summary candidate_ref="1" vote_total="1294" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1166" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1294" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1166" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="356" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="373" resp="Philip Lampi"/>
+						<sub_unit type="Borough" name="Box" geog_id="null">
+							<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Susquehanna" geog_id="null">
+							<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Swatara" geog_id="null">
+							<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="128" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="159" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Harrisburg Chronicle (Harrisburg, PA) and the Pennsylvania Intelligencer (Harrisburg, PA) report 58 votes for Frederick Rathson.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 12, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 13, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Chronicle (Harrisburg, PA).  October 16, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 20, 1821.</reference>
+</election_record>

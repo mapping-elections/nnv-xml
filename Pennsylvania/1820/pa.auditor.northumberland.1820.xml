@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Auditor, Northumberland County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.auditor.northumberland.1820" handle="10427/63389" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Isaac Vincent" name_id="VI0011" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Henry Frick" name_id="FH0045" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-16">
+				<candidate_summary candidate_ref="1" vote_total="1290" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="934" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07075" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07077" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Nordwestliche Post (Sunbury, PA) reports 954 votes for Henry Frick, though the township votes add up to 934.</note>
+				<note resp="Philip Lampi">The American Sentinel (Philadelphia, PA) and The Franklin Gazette (Philadelphia, PA) both report 984 total votes for Henry Frick.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="1290" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="934" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Little Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Milton" geog_id="null">
+						<result candidate_ref="1" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Northumberland" geog_id="null">
+						<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rush" geog_id="null">
+						<result candidate_ref="1" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shamokin" geog_id="null">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Sunbury" geog_id="null">
+						<result candidate_ref="1" vote="243" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="202" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Turbot" geog_id="null">
+						<result candidate_ref="1" vote="286" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Mahanoy" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07075">Nordwestliche Post (Sunbury, PA).  October 13, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07077">American Sentinel (Philadelphia, PA).  October 20, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 20, 1820.</reference>
+</election_record>

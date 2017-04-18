@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Auditor, Geauga County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.auditor.geaugacounty.1823" handle="10427/60198" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Eleazer Paine" name_id="PE0085" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="429" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05334" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Geauga" geog_id="ohs_geauga">
+					<result candidate_ref="1" vote="429" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05334" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05334">Painesville Telegraph (Painesville, OH).  October 22, 1823.</reference>
+</election_record>

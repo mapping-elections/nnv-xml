@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1818 House of Representatives, Plaquimine Parish" type="General" iteration="First Ballot" date="1818" election_id="la.assembly.plaquimine.1818" handle="10427/57893" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="Albin Michel" name_id="MA0042" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Pierre Lacoste" name_id="LP0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="F. Forstall" name_id="FF0009" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Magloire Guichard" name_id="GM0020" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Ducros Son Junner" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-23">
+				<candidate_summary candidate_ref="1" vote_total="107" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="35" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="30" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Plaquimine" geog_id="null">
+					<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="35" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="30" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12551" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Parish of Plaquimine is also known as the 1st Senatorial District.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12551">Louisiana Courier (New Orleans, LA).  July 10, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Louisiana Gazette (New Orleans, LA).  July 11, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-Orleans Chronicle (New Orleans, LA).  July 14, 1818.</reference>
+</election_record>

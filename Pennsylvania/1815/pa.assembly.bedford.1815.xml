@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 House of Representatives, Bedford County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.assembly.bedford.1815" handle="10427/62794" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Abraham Martin" name_id="MA0282" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Hart" name_id="HJ0989" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Burd" name_id="BG0142" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="George Hardenger" name_id="HG0148" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-07">
+				<candidate_summary candidate_ref="1" vote_total="832" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="826" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="585" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="171" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06726" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bedford" geog_id="null">
+					<result candidate_ref="1" vote="832" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="826" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="585" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="171" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06726" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06726">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 28, 1815.</reference>
+</election_record>

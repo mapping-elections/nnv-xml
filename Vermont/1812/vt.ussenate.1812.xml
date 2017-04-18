@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1812 U.S. Senate" type="Legislative" iteration="First Ballot" date="1812-10" election_id="vt.ussenate.1812" handle="10427/20786" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Dudley Chase" name_id="CD0206" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Royall Tyler" name_id="TR0035" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="null" modified="2014-07-16">
+				<candidate_summary candidate_ref="1" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10164" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10165" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"A letter from Montpelier dated Oct. 22, says yesterday the great question of Senator came uDudley Chace, Esq. was chosen.  The federalists rallied upon Judge Tyler, and some few republicans went with them. Chace had 110, Tyler 94."  Columbian Phenix: or, Providence Patriot (Providence, RI).  October 31, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Vermont" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10164" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Council" geog_id="null">
+					<result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10164" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10165">Columbian Phenix: or, Providence Patriot (Providence, RI).  October 31, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10164">Democratic Republican (Walpole, NH).  November 2, 1812.</reference>
+</election_record>

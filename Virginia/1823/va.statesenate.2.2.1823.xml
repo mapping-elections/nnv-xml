@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1823 State Senate, Class 2, District 2" type="General" iteration="First Ballot" date="1823" election_id="va.statesenate.2.2.1823" handle="10427/33776" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Joseph Wyatt" name_id="WJ0975" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Harrison Clark " name_id="CH0079" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-25">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08214" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09528" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.25135" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In the district of Halifax, Col. James Wyatt, is elected by a majority of about 200 votes over Col. Clark."  American Commercial Beacon and Norfolk and Portsmouth Daily Advertiser (Norfolk, VA).  April 15, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<sub_unit type="County" name="Charlotte" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08214" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Halifax" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08214" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Prince Edward" geog_id="null">
+						<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08214" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09528" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09528">Prince Edward County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.25135">American Commercial Beacon and Norfolk and Portsmouth Daily Advertiser (Norfolk, VA).  April 15, 1823.</reference>
+</election_record>

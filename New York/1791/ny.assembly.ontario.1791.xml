@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="New York 1791 Assembly, Ontario County" type="General" iteration="First Ballot" date="1791" election_id="ny.assembly.ontario.1791" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/67006" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Eleazer Lindsley" name_id="LE0005" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-27">
+				<candidate_summary candidate_ref="1" vote_total="42" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"That the county of Ontario is divided into four districts. . . . That none of the said districts held an election for a member in Assembly, except the district of Erwin.  That in the said district of Erwin, forty two votes were taken, for a member to represent the said county, in the Assembly of this State, which votes were all give for Eleazer Lindsley."  Journal of the New York Assembly, 1792.  26-27.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Ontario" geog_id="null">
+					<sub_unit type="District" name="Erwin" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1792.  26-27.</reference>
+</election_record>

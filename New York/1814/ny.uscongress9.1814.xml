@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	label="New York 1814 U.S. House of Representatives, District 9" type="General" iteration="First Ballot" date="1814" election_id="ny.uscongress9.1814" handle="10427/25868"	xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Lovett" name_id="LJ0221" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Tillotson" name_id="TR0052" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Garrit W. Van Wie" name_id="VG0016" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Henry Walton" name_id="WH0016" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-18">
+				<candidate_summary candidate_ref="1" vote_total="1777" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1003" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00743" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Nine" geog_id="null">
+					<result candidate_ref="1" vote="1777" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1003" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Albany" geog_id="null">
+						<result candidate_ref="1" vote="1777" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1003" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00743" resp="Philip Lampi"/>
+						<sub_unit type="City" name="Albany" geog_id="null">
+							<result candidate_ref="1" vote="501" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="315" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+							<sub_unit type="Ward" name="One" geog_id="null">
+								<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="Ward" name="Two" geog_id="null">
+								<result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+								<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="Ward" name="Three" geog_id="null">
+								<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="Ward" name="Four" geog_id="null">
+								<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+								<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+						<sub_unit type="Town" name="Bern" geog_id="null">
+							<result candidate_ref="1" vote="243" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Bethlehem" geog_id="null">
+							<result candidate_ref="1" vote="243" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="110" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Coeymans" geog_id="null">
+							<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Colonie" geog_id="null">
+							<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Guilderland" geog_id="null">
+							<result candidate_ref="1" vote="188" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Rensselaerville" geog_id="null">
+							<result candidate_ref="1" vote="244" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="177" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Watervliet" geog_id="null">
+							<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00742">The Columbian (New York, NY).  June 10, 1814.</reference>
+</election_record>

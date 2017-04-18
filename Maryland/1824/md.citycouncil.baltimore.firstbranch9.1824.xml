@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1824 City Council, Baltimore, First Branch, Ward 9" type="General" iteration="First Ballot" date="1824" election_id="md.citycouncil.baltimore.firstbranch9.1824" handle="10427/26557" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="Alexander Russell" name_id="RA0012" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Noah Ridgely" name_id="RN0014" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Baltzell" name_id="BW0150" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Russell" name_id="RT0058" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-18">
+				<candidate_summary candidate_ref="1" vote_total="239" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="220" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="179" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="159" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03366" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Nine" geog_id="null">
+						<result candidate_ref="1" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="220" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="159" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03366" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03366">American, and Commercial Daily Advertiser (Baltimore, MD).  October 5, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 5, 1824.</reference>
+</election_record>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1807 Sheriff, Hunterdon County" type="General" iteration="First Ballot" date="1807-10" election_id="nj.sheriff.hunterdon.1807" handle="10427/68308" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Nathan Price" name_id="PN0047" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Phillips" name_id="PJ0273" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-12">
+				<candidate_summary candidate_ref="1" vote_total="2619" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="9" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Hunterdon" geog_id="null">
+					<result candidate_ref="1" vote="2619" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Alexandria" geog_id="null">
+						<result candidate_ref="1" vote="235" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Amwell" geog_id="null">
+						<result candidate_ref="1" vote="992" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bethlehem" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="239" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Kingwood" geog_id="null">
+						<result candidate_ref="1" vote="374" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Maidenhead" geog_id="null">
+						<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Readington" geog_id="null">
+						<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tewksbury" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Trenton" geog_id="null">
+						<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi">The True American (Trenton, NJ).  October 26, 1807.</reference>
+</election_record>

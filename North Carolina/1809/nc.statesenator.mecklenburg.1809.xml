@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1809 State Senate, Mecklenburg County" type="General" iteration="First Ballot" date="1809" election_id="nc.statesenator.mecklenburg.1809" handle="10427/43365" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="George Graham" name_id="GG0021" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Beatty" name_id="BW0222" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-13">
+				<candidate_summary candidate_ref="1" vote_total="424" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="257" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04855" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04856" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Minerva (Raleigh, NC) lists 427 votes for George Graham.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Mecklenburg" geog_id="null">
+					<result candidate_ref="1" vote="424" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="257" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04855" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04856">The Minerva (Raleigh, NC).  August 24, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04855">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 24, 1809.</reference>
+</election_record>

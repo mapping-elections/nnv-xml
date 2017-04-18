@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1799 House of Delegates, Berkeley County" type="General" iteration="First Ballot" date="1799" election_id="va.houseofdelegates.berkeley.1799" handle="10427/32696" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Magnus Tate" name_id="TM0041" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander White" name_id="WA0166" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Darke" name_id="DW0188" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Colbert Anderson" name_id="AC0028" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-05-13">
+				<candidate_summary candidate_ref="1" vote_total="634" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="533" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="457" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="237" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08376" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08377" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Capt. C. Anderson, a candidate for the Assembly, declined after the first day."  The Potomak Guardian (Martinsburg, WV).  May 1, 1799.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Berkeley" geog_id="vas_berkeley">
+					<result candidate_ref="1" vote="634" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="533" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="457" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="237" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08376" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08377" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08376">The Potomak Guardian (Martinsburg, WV).  May 1, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

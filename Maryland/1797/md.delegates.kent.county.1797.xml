@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1797 House of Delegates, Kent County" type="General" iteration="First Ballot" date="1797" election_id="md.delegates.kent.county.1797" handle="10427/34191" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Thomas S. Angor" name_id="AT0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Page" name_id="PH0012" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Cornelius Comegys" name_id="CC0016" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Parker" name_id="PJ0130" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Barroll" name_id="BW0117" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William Spencer" name_id="SW0032" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Robert Dunn" name_id="DR0009" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Robert Buchanan" name_id="BR0036" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="630" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="602" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="596" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="571" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="481" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="460" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="312" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="233" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02196" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02197" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Kent" geog_id="mds_kent">
+					<result candidate_ref="1" vote="630" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="602" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="596" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="571" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="481" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="460" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="312" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="233" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02196" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02197" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02196">The Telegraphe and Daily Advertiser (Baltimore, MD).  October 13, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02197">Aurora. General Advertiser (Philadelphia, PA).  October 17, 1797.</reference>
+</election_record>

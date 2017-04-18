@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1813 U.S. Senate" type="Legislative" iteration="First Ballot" date="1813" election_id="md.us.senator.1813" handle="10427/27326" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Robert Henry Goldsborough" name_id="GR0028" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward Lloyd" name_id="LE0016" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-17">
+				<candidate_summary candidate_ref="1" vote_total="53" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="35" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09763" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09764" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Legislature proceeded on Thursday last to the appointment (by joint ballot) of a U. States Senator, to supply the place of Mr. Reed, whose time expired on the 4th of March last. It appeared on counting the votes, that Robert Hr'y Goldsborough (Fed) had 53 votes, and Edward Lloyd had 35 votes. Mr. Goldsborough was of course elected."  Republican Star or Eastern Shore General Advertiser (Easton, MD).  May 25, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09763" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09764" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09764">Federal Republican, and Commercial Gazette (Georgetown, DC).  May 24, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09763">Republican Star or Eastern Shore General Advertiser (Easton, MD).  May 25, 1813.</reference>
+</election_record>

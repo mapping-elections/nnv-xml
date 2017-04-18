@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1807 U.S. Senate" type="Legislative" iteration="First Ballot" date="1807" election_id="ny.ussenate.1807" handle="10427/66873" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John Smith" name_id="SJ0689" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Jay" name_id="JJ0123" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-04-02">
+				<candidate_summary candidate_ref="1" vote_total="112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="14" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was held to select a senator to serve "in the place of the honorable John Smith, whose time expires on the third of March next." Journal of the New York State Senate,, 1807, 13.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1807.  38-39.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York State Senate, 1807.  13-14.</reference>
+</election_record>

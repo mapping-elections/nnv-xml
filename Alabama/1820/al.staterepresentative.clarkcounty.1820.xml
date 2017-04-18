@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1820 House of Representatives, Clark County" type="General" iteration="First Ballot" date="1820-08" election_id="al.staterepresentative.clarkcounty.1820" handle="10427/55794" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="William Murrell" name_id="MW0002" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="George W. Creagh" name_id="CG0000" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Goode" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-10">
+        <candidate_summary candidate_ref="1" vote_total="498" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="494" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="125" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11038" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Alabama" geog_id="als">
+        <sub_unit type="County" name="Clark" geog_id="null">
+          <result candidate_ref="1" vote="498" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="494" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="125" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11038" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi">The Halcyon and Tombeckbe Public Advertiser (Saint Stephens, AL).  August 14, 1820.</reference>
+  <reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 1, 1820.</reference>
+</election_record>

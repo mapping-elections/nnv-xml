@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 State Senate, Ross County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.statesenate.ross.1813" handle="10427/59322" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="William Creighton, Sr." name_id="CW0189" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Scott" name_id="ST0206" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-10">
+				<candidate_summary candidate_ref="1" vote_total="1032" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="91" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05190" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19035" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ross" geog_id="ohs_ross">
+					<result candidate_ref="1" vote="1032" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05190" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19035" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19035">The Fredonian (Chillicothe, OH).  October 19, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05190">The Supporter (Chillicothe, OH).  October 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Muskingum Messenger (Zanesville, OH).  October 27, 1813.</reference>
+</election_record>

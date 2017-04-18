@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Commissioner, Crawford County" type="General" iteration="First Ballot" date="1813-10" election_id="pa.commissioner.crawford.1813" handle="10427/62563" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="James Herriott" name_id="HJ1004" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Andrews" name_id="AR0044" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Fisher" name_id="FT0079" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-29">
+				<candidate_summary candidate_ref="1" vote_total="330" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="81" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06602" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Our county election has terminated pretty much as was expected by those who had a correct knowledge of the materials held up for public suffrage. Thro' ignorance, intrigue and the most shameful avidity for office, the interest of the republican party was but imperfectly consulted in the arrangement of the ticket, hence the slender support given it, and the election of a federal county commissioner." The Crawford Weekly Messenger (Meadville, PA).  October 20, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="330" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="81" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06602" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06602">The Crawford Weekly Messenger (Meadville, PA).  October 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Press (Mercer, PA).  October 26, 1813.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1809 U.S. Senate" type="Legislative" iteration="First Ballot" date="1809-01" election_id="de.ussenator.1809" handle="10427/17386" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Samuel White" name_id="WS0028" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Gray" name_id="GA0001" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="17" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="10" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09660" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09661" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Legislature of this state has been in session since yesterday week.  They have this day elected Samuel White, Esq. Senator for the next six years from March next.  Mr. Andrew Gray, as the democratic candidate, was in nomination against Mr. White as federal candidate. Mr. White had 17 and Mr Gray 10 votes ~ of course Mr. W. has a majority of 7, and is duly elected."  United States' Gazette (Philadelphia, PA).  January 14, 1809.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09660" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09661" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09661">Journal of the Delaware House of Representatives, 1809.  21.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09660">The True American and Commercial Advertiser (Philadelphia, PA).  January 14, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09660">United States' Gazette (Philadelphia, PA).  January 14, 1809.</reference>
+</election_record>

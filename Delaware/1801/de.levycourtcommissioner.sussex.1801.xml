@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1801 Levy Court Commissioner, Sussex County" type="General" iteration="First Ballot" date="1801" election_id="de.levycourtcommissioner.sussex.1801" handle="10427/43994" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Levy Court Commissioner" office_id="ON071" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Richards" name_id="RW0163" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Charles MacCullen" name_id="MC0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jacob Townsend" name_id="TJ0280" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jehu Morris" name_id="MJ1247" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1677" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1673" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1662" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1662" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12012" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="1677" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1673" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1662" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1662" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12012" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12012">Mirror of the Times, and General Advertiser (Wilmington, DE).  October 24, 1801.</reference>
+</election_record>

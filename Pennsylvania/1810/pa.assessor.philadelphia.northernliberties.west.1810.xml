@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Assessor, Philadelphia County, Northern Liberties, West Ward" type="General" iteration="First Ballot" date="1810-09" election_id="pa.assessor.philadelphia.northernliberties.west.1810" handle="10427/62233" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Township">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="Frederick Fourpough" name_id="FF0020" affiliation="New School" affiliation_id="A07" candidate_num="1"/>
+				<candidate name="John Bender" name_id="BJ1119" affiliation="Old School" affiliation_id="A07" candidate_num="2"/>
+				<candidate name="Jonathan Roberts" name_id="RJ0377" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-11">
+				<candidate_summary candidate_ref="1" vote_total="383" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="244" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="110" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06413" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+						<sub_unit type="Ward" name="West" geog_id="null">
+							<result candidate_ref="1" vote="383" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="244" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="110" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06413" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 1, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 1, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06411">The True American and Commercial Advertiser (Philadelphia, PA).  October 1, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 1, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  October 2, 1810.</reference>
+</election_record>

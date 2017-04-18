@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1818 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1818" election_id="sc.uscongress.orangeburg.1818" handle="10427/32481" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="James Overstreet" name_id="OJ0112" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John J. Chappell" name_id="CJ1050" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John M. Felder" name_id="FJ0438" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-12">
+				<candidate_summary candidate_ref="1" vote_total="1249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1073" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="725" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15812" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15815" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15820" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">District Four was also known as Orangeburg District.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="1249" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1073" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="725" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Barnwell" geog_id="null">
+						<result candidate_ref="1" vote="1021" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="142" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Lexington" geog_id="null">
+						<result candidate_ref="1" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="271" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Orangeburg" geog_id="null">
+						<result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="403" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+						<sub_unit type="Parish" name="Saint Matthew" geog_id="null">
+							<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="83" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Richland" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="497" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07830" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15820">South-Carolina State Gazette, and Columbian Advertiser (Columbia, SC).  September 1, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15815">Charleston Courier (Charleston, SC).  November 9, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15812">City Gazette and Daily Advertiser (Charleston, SC).  November 9, 1818.</reference>
+</election_record>

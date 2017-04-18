@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Auditor, Washington County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.auditor.washington.1815" handle="10427/66807" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="James MacQuown" name_id="MJ0866" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-15">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">James MacQuown is elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  October 15, 1815.</reference>
+</election_record>

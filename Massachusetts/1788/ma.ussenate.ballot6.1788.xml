@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1788 U.S. Senate, Ballot 7" type="Legislative" iteration="Seventh Ballot" date="1788-11" election_id="ma.ussenate.ballot6.1788" handle="10427/68737" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Tristram Dalton" name_id="DT0022" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-02-21">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The whole number of votes cast in the House was 145, with 73 votes needed to have the required majority vote.</note>
+				</sub_unit>
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The State Senate would concur on the vote of Tristram Dalton as the second U.S. Senator.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Hampshire Chronicle (Springfield, MA).  December 3, 1788.</reference>
+</election_record>

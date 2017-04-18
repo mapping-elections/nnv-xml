@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1821 Coroner, Kent County" type="General" iteration="First Ballot" date="1821" election_id="de.coroner.kent.1821" handle="10427/43833" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William Smithers" name_id="SW0406" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Manlove" name_id="MM0102" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas Jackson" name_id="JT0078" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="John Killen" name_id="KJ0325" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="2" vote_total="1087" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="1" vote_total="994" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="870" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="835" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Delaware Gazette of October 19, 1821 lists William Smithers with a total of 109_ votes in Kent County, where the last digit is unreadable.  However, the total of the votes from the different Hundreds within Kent County add up to 1087 votes.</note>
+				<note resp="Philip Lampi">The Governor's Register lists Matthew Manlove with 934 votes and William Smithers with 1090 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="1087" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="994" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="870" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="835" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Duck Creek" geog_id="des_kent_duckcreek">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="191" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="176" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="94" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mispillion" geog_id="des_kent_mispillion">
+						<result candidate_ref="1" vote="391" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="382" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="202" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="200" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Murderkill" geog_id="des_kent_murderkill">
+						<result candidate_ref="1" vote="406" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="315" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="316" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="305" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Saint Jones" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Governor's Register: State of Delaware.  Wilmington, DE: Press of the Star Publishing, 1926.  181.</reference>
+</election_record>

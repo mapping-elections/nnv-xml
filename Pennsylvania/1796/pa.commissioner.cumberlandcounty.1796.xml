@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 Commissioner, Cumberland County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.commissioner.cumberlandcounty.1796" handle="10427/60871" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Jordan" name_id="JJ0179" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Linn" name_id="LW0150" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Frederick Harter" name_id="HF0031" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-21">
+				<candidate_summary candidate_ref="1" vote_total="655" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="449" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="186" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05492" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="655" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="449" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="186" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05492">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 19, 1796.</reference>
+</election_record>

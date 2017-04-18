@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1823 House of Representatives, Gloucester" type="General" iteration="First Ballot" date="1823" election_id="ma.staterepresentative.gloucester.1823" handle="10427/79450" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Winthrop Sargeant, 3rd" name_id="SW0437" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Beach" name_id="BW0406" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Israel Trask" name_id="TI0043" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-10">
+				<candidate_summary candidate_ref="1" vote_total="143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="16" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Repertory (Boston, MA) lists Winthrop Sargeant, 3rd with 140 votes.</note>
+			</overview>     
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Gloucester" geog_id="null">
+					<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  May 7, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  May 8, 1823.</reference>
+</election_record>

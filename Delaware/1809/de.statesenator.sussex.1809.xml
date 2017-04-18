@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1809 State Senate, Sussex County" type="General" iteration="First Ballot" date="1809" election_id="de.statesenator.sussex.1809" handle="10427/16616" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Nathaniel Mitchell" name_id="MN0002" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Caleb Rodney" name_id="RC0002" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Manaen Bull" name_id="BM0003" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="699" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="390" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="323" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00535" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The United States' Gazette (Philadelphia, PA) of October 16, 1809 lists Nathaniel Mitchell and Caleb Rodney as being on two separate tickets.  It appears that there was a split in the Federalist party, with different groups supporting different candidates.  The paper refers to the ticket with Caleb Rodney as the "Fair Play ticket", and notes that it received support from Democrats.</note>
+				<note resp="Philip Lampi">The United States' Gazette (Philadelphia, PA) of October 16, 1809 refers to Manaen Bull as Manain Bull.</note>
+				<note resp="Philip Lampi">The United States' Gazette (Philadelphia, PA) of October 16, 1809 refers to the Republican party as the "True Democratick Ticket".</note>
+				<note resp="Philip Lampi">"We have not obtained the returns from Sussex, but toryism, no doubt, prevails."  The American Watchman; and Delaware Republican (Wilmington, DE).  October 7, 1809.</note>
+				<note resp="Philip Lampi">The United States' Gazette (Philadelphia, PA) of October 16, 1809 lists that the ticket that included Caleb Rodney received "about 140 democratick [sic] votes".</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="699" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="390" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="323" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00535" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00535">The American Watchman; and Delaware Republican (Wilmington, DE).  October 7, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00535">United States' Gazette (Philadelphia, PA).  October 10, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 16, 1809.</reference>
+</election_record>

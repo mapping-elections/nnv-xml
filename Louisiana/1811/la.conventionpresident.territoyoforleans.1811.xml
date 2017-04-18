@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1811 Convention President, Territory of Orleans" type="Legislative" iteration="First Ballot" date="1811" election_id="la.conventionpresident.territoyoforleans.1811" handle="10427/57833" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Convention President" office_id="ON042" scope="Territory">
+		<role title="Convention President" scope="Territory">
+			<ballot>
+				<candidate name="Julien Poydras" name_id="PJ0124" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Watkins" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-09">
+				<candidate_summary candidate_ref="1" vote_total="24" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="10" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12467"/>
+			</overview>
+			<admin_unit type="Territory" name="Orleans" geog_id="null">
+				<sub_unit type="null" name="Convention" geog_id="null">
+					<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12467" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Clarion and Tennessee Gazette (Nashville, TN).  December 9, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12467">Republican Star or Eastern Shore General Advertiser (Easton, MD).  December 24, 1811.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Coroner, Cambria County" type="General" iteration="First Ballot" date="1813-10" election_id="pa.coroner.cambria.1813" handle="10427/62553" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Parret" name_id="PJ0588" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Adam Rheam" name_id="RA0097" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-31">
+				<candidate_summary candidate_ref="1" vote_total="193" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="154" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06599" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cambria" geog_id="null">
+					<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06599" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06599">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

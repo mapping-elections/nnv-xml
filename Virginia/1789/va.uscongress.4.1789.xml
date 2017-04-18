@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1789 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1789" election_id="va.uscongress.4.1789" handle="10427/32199" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Richard Bland Lee" name_id="LR0090" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Pope" name_id="PJ0723" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-22">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00009" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23553" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Fairfax" geog_id="null">
+						<result candidate_ref="1" vote="227" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00009" resp="Philip Lampi"/>	
+					</sub_unit>
+					<sub_unit type="County" name="Fauquier" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00009" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Alternate total for John Pope, 82 votes.</note>
+					</sub_unit>
+					<sub_unit type="County" name="King George" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00009" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Loudoun" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00009" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Prince William" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00009" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Stafford" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00009" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23553">The Virginia Gazette, or the Winchester Advertiser (Winchester, VA).  February 18, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">DenBoer, Gordon and Lucy Trumbull Brown, ed.  The Documentary History of the First Federal Elections: 1788-1790.  Vol. IV.  Madison, WI: University of Wisconsin Press, 1976.  363.</reference>
+</election_record>

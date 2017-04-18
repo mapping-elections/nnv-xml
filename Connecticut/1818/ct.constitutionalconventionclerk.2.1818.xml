@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1818 Constitutional Convention Clerk, Ballot 2" type="Legislative" iteration="Second Ballot" date="1818-08" election_id="ct.constitutionalconventionclerk.2.1818" handle="10427/79762" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk" office_id="ON023" scope="State">
+		<role title="Clerk" scope="State">
+			<ballot>
+				<candidate name="James Lanman" name_id="LJ0005" affiliation="Republican" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Day" name_id="DT0007" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Ralph I. Ingersoll" name_id="IR0000" affiliation="Republican" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Timothy Pitkin" name_id="PT0001" affiliation="Federalist" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Gideon Tomlinson" name_id="TG0001" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="William Bristol" name_id="BW0017" affiliation="Republican" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Elisha Phelps" name_id="PE0012" affiliation="Republican" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Nathan Smith" name_id="SN0016" affiliation="Republican" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-29">
+				<candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="66" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="null" name="Constitutional Convention" geog_id="null">
+					<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  August 31, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Connecticut Journal (New Haven, CT).  September 1, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  September 2, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Middlesex Gazette (Middletown, CT).  September 3, 1818.</reference>
+</election_record>

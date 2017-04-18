@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 House of Representatives, Dresden" type="General" iteration="First Ballot" date="1809-05" election_id="ma.staterepresentative.dresden.1809" handle="10427/69183" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="George Ramsdell" name_id="RG0045" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Johnston" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-19">
+				<candidate_summary candidate_ref="1" vote_total="72" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="48" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Dresden" geog_id="null">
+					<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Dresden Town Records.  510.</reference>
+	<reference type="citation" resp="Philip Lampi">Kennebec Gazette (Augusta, ME).  May 5, 1809.</reference>
+</election_record>

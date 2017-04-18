@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Inspector of the General Election, Philadelphia City, Walnut Ward" type="General" iteration="First Ballot" date="1817-10" election_id="pa.inspector.philadelphiacity.walnut.1817" handle="10427/67677" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Henry Simpson" name_id="SH0168" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Smith" name_id="SS0277" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Brown" name_id="BW0328" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Oliver" name_id="OW0026" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-21">
+				<candidate_summary candidate_ref="1" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="37" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="37" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Henry Simpson and Samuel Smith are listed as "Friends of Heister." William Brown and William Oliver are listed as "Friends of Findlay."</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Walnut" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="37" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA) from October 4, 1817 and the United States' Gazette (Philadelphia, PA) from October 8, 1817 list Henry Simpson with 126 votes.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  October 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 8, 1817.</reference>
+</election_record>

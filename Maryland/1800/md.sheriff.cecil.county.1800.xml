@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Maryland 1800 Sheriff, Cecil County" type="General" iteration="First Ballot" date="1800" election_id="md.sheriff.cecil.county.1800" handle="10427/58073" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="James Haslet" name_id="HJ0518" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Cowdon" name_id="CS0023" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-01">
+				<candidate_summary candidate_ref="1" vote_total="611" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="585" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14166" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Cecil" geog_id="mds_cecil">
+					<result candidate_ref="1" vote="611" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="585" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14166" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14166">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

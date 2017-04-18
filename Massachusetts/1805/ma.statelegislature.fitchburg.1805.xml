@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1805 House of Representatives, Fitchburg" type="General" iteration="First Ballot" date="1805-05" election_id="ma.statelegislature.fitchburg.1805" handle="10427/27726" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Samuel Gibson" name_id="GS0125" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Fox" name_id="FJ0121" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-11">
+				<candidate_summary candidate_ref="1" vote_total="88" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="63" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03424" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03473" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Fitchburg" geog_id="null">
+					<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03424" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03473" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"I have the pleasure to inform you that our Republican candidate succeeded by a handsome majority."  The Democrat (Boston, MA).  May 22, 1805.</note>
+					<note resp="Philip Lampi">"You may be assured that the Federal JIG is up in this town."  The Democrat (Boston, MA).  May 22, 1805.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03424">Fitchburg Town Records.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03473">The Democrat (Boston, MA).  May 22, 1805.</reference>
+</election_record>

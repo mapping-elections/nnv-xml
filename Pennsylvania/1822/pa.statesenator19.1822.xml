@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 State Senate, District 19" type="General" iteration="First Ballot" date="1822-10" election_id="pa.statesenator19.1822" handle="10427/63590" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Saint Clair" name_id="SJ1248" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-14">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01091" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07228" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Saint Clair is elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Nineteen" geog_id="null">
+					<sub_unit type="County" name="Fayette" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 23, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 26, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07228">The Union. United States Gazette and True American (Philadelphia, PA).  October 28, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Westmoreland Republican (Greensburgh, PA).  November 1, 1822.</reference>
+</election_record>

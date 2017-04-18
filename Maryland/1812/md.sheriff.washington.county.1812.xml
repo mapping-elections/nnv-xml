@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1812 Sheriff, Washington County" type="General" iteration="First Ballot" date="1812" election_id="md.sheriff.washington.county.1812" handle="10427/27031" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Henry Sweitzer" name_id="SH0043" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Last name spelled Sweitzer in the Maryland Herald and Hagers-Town Gazette (Hagerstown, MD).</note></candidate>
+				<candidate name="William Kreps" name_id="KW0030" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-13">
+				<candidate_summary candidate_ref="1" vote_total="2175" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="749" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02804" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14609" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Maryland Herald and Hagers-Town Gazette (Hagerstown, MD) list 2173 votes for Henry Sweitzer.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Washington" geog_id="mds_washington">
+					<result candidate_ref="1" vote="2175" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="749" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Fiery's" geog_id="null">
+						<result candidate_ref="1" vote="224" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02804" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hagerstown" geog_id="null">
+						<result candidate_ref="1" vote="794" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="499" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02804" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hancock" geog_id="null">
+						<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02804" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Sharpsburg" geog_id="null">
+						<result candidate_ref="1" vote="655" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02804" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Stovers" geog_id="null">
+						<result candidate_ref="1" vote="315" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02804" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14609">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02804">The Maryland Herald, and Hager's-Town Weekly Advertiser (Hagerstown, MD).  October 7, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02804">Hagers-Town Gazette (Hagerstown, MD).  October 13, 1812.</reference>
+</election_record>

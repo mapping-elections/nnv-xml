@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Sheriff, Northumberland County" type="General" iteration="First Ballot" date="1800-10" election_id="pa.sheriff.northumberland.1800" handle="10427/61140" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Henry Vanderslice" name_id="VH0014" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Brady" name_id="BJ0964" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Jarret Irwin" name_id="IJ0076" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-26">
+				<candidate_summary candidate_ref="1" vote_total="1331" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="966" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="795" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05684" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="1331" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="966" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="795" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05684" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05684">Aurora. General Advertiser (Philadelphia, PA).  October 28, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05684">The Supporter, or Daily Repast (Philadelphia, PA).  October 29, 1800.</reference>
+</election_record>

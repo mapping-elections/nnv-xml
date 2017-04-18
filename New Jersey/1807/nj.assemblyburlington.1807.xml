@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1807 Assembly, Burlington County" type="General" iteration="First Ballot" date="1807" election_id="nj.assemblyburlington.1807" handle="10427/20750" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="William Irick" name_id="IW0005" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Coxe" name_id="CW0104" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Caleb Earl" name_id="EC0008" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Stockton" name_id="SW0121" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Capner" name_id="CT0145" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="William Wood" name_id="WW0141" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="George French" name_id="FG0016" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Caleb Shinn" name_id="SC0071" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-08">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00454" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Federalist majority stated to have been about 600.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Burlington" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00454" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

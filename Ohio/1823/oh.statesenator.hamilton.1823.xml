@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 State Senate, Hamilton County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.statesenator.hamilton.1823" handle="10427/60284" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Benjamin M. Piatt" name_id="PB0066" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" vote_total="1861" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+                    <result candidate_ref="1" vote="1861" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Anderson" geog_id="null">
+                        <result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Cincinnati" geog_id="null">
+                        <result candidate_ref="1" vote="723" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Colerain" geog_id="null">
+                        <result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Columbia" geog_id="null">
+                        <result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Crosby" geog_id="null">
+                        <result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Delhi" geog_id="null">
+                        <result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Miami" geog_id="null">
+                        <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Millcreek" geog_id="null">
+                        <result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Springfield" geog_id="null">
+                        <result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Sycamore" geog_id="null">
+                        <result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Symmes" geog_id="null">
+                        <result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Whitewater" geog_id="null">
+                        <result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">National Republican and Ohio Political Register (Cincinnati, OH).  October 21, 1823.</reference>
+</election_record>

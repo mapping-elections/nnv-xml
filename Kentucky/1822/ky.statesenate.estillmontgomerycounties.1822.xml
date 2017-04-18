@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record label="Kentucky 1822 State Senate, Estill and Montgomery Counties" type="General" iteration="First Ballot" date="1822" election_id="ky.statesenate.estillmontgomerycounties.1822" handle="10427/28345" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="State Senate" office_id="ON109" scope="State">
+    <role title="State Senator" scope="District">
+      <ballot>
+        <candidate name="Samuel L. Williams" name_id="WS0052" affiliation="null" affiliation_id="null" candidate_num="1"/>
+        <candidate name="Henry Daniel" name_id="DH0010" affiliation="null" affiliation_id="null" candidate_num="2"/>
+        <candidate name="Jilson Payne" name_id="PJ0107" affiliation="null" affiliation_id="null" candidate_num="3"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2008-06-19">
+        <candidate_summary candidate_ref="1" vote_total="939" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="759" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="162" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.13315" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Kentucky" geog_id="null">
+        <sub_unit type="District" name="Estill and Montgomery" geog_id="null">
+          <result candidate_ref="1" vote="939" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="759" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="162" resp="Philip Lampi"/>
+          <sub_unit type="County" name="Estill" geog_id="null">
+            <result candidate_ref="1" vote="260" resp="Philip Lampi"/>
+            <result candidate_ref="2" vote="218" resp="Philip Lampi"/>
+            <result candidate_ref="3" vote="109" resp="Philip Lampi"/>
+            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01914" resp="Philip Lampi"/>
+          </sub_unit>
+          <sub_unit type="County" name="Montgomery" geog_id="null">
+            <result candidate_ref="1" vote="679" resp="Philip Lampi"/>
+            <result candidate_ref="2" vote="541" resp="Philip Lampi"/>
+            <result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01931" resp="Philip Lampi"/>
+            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01932" resp="Philip Lampi"/>
+            <note resp="Philip Lampi">The August 13th Western Monitor lists 669 votes for Williams.</note>
+          </sub_unit>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01932">Kentucky Reporter (Lexington, KY).  August 12, 1822.</reference>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01931">Western Monitor (Lexington, KY).  August 13, 1822.</reference>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01914">Kentucky Reporter (Lexington, KY).  August 26, 1822.</reference>
+</election_record>

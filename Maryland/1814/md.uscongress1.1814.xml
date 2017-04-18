@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1814 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1814" election_id="md.uscongress1.1814" handle="10427/26353" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Philip Stewart" name_id="SP0013" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Francis Digges" name_id="DF0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John R. Plater" name_id="PJ0155" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-20">
+				<candidate_summary candidate_ref="1" vote_total="1486" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00734" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14673" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="1486" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Calvert" geog_id="mds_calvert">
+						<result candidate_ref="1" vote="424" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00734" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02884" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14673" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Charles" geog_id="mds_charles">
+						<result candidate_ref="1" vote="760" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00734" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02891" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14673" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Saint Mary's" geog_id="mds_saintmarys">
+						<result candidate_ref="1" vote="302" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00734" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02911" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14673" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00734">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

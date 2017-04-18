@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 House of Representatives, Huntingdon County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.assembly.huntingdon.1802" handle="10427/61302" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Steel" name_id="SW0206" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Blair" name_id="BJ0946" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Arthur Moore" name_id="MA0224" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Richard Smith" name_id="SR0219" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-28">
+				<candidate_summary candidate_ref="1" vote_total="666" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="592" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="591" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="519" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05811" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05812" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05813" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05814" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="666" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="592" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="591" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="519" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05811" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05812" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05813" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05811">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 26, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05811">Poulson's American Daily Advertiser (Philadelphia, PA).  October 26, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05812">Aurora. General Advertiser (Philadelphia, PA).  October 27, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05813">The Western Star (Lewistown, PA).  November 9, 1802.</reference>
+</election_record>

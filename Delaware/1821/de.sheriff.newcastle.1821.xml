@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1821 Sheriff, New Castle County" type="General" iteration="First Ballot" date="1821" election_id="de.sheriff.newcastle.1821" handle="10427/43831" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="David C. Wilson" name_id="WD0128" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Allan Thomson" name_id="TA0077" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Price" name_id="PI0003" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="George Houston" name_id="HG0102" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1698" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1680"  resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="747" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="660"  resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<result candidate_ref="1" vote="1698" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1680" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="747" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="660" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Appoquinimink" geog_id="des_newcastle_appoquinimink">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="118" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Brandywine" geog_id="des_newcastle_brandywine">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="144" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Christiana" geog_id="des_newcastle_christiana">
+						<result candidate_ref="1" vote="631" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="587" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="85" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mill Creek" geog_id="des_newcastle_millcreek">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="222" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="80" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="New Castle" geog_id="des_newcastle_newcastle">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Pencader" geog_id="des_newcastle_pencader">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Red Lion" geog_id="des_newcastle_redlion">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Saint Georges" geog_id="des_newcastle_saintgeorges">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="White Clay Creek" geog_id="des_newcastle_whiteclaycreek">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 16, 1821.</reference>
+</election_record>

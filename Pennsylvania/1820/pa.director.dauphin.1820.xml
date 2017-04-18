@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Director of the Poor, Dauphin County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.director.dauphin.1820" handle="10427/67659" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="S. Wilson" name_id="WS0194" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="W. Lauman" name_id="LW0114" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-29">
+				<candidate_summary candidate_ref="1" vote_total="1967" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1322" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1967" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1322" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="166" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="480" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="343" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="321" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="299" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="West Hanover" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Republican (Harrisburg, PA).  October 13, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Chronicle (Harrisburg, PA).  October 14, 1820.</reference>
+</election_record>

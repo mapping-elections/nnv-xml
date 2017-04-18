@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1808 House of Commons, Edenton Borough" type="General" iteration="First Ballot" date="1808-08" election_id="nc.houseofcommons.edenton.1808" handle="10427/43418" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="Borough">
+			<ballot>
+				<candidate name="William A. Littlejohn" name_id="LW0122" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Norcum" name_id="NJ0085" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William H. Murfree" name_id="MW0233" affiliation="null" affiliation_id="null" candidate_num="3"></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-06">
+				<candidate_summary candidate_ref="1" vote_total="47" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04827" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17532" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17533" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">On the original election returns, the Sheriff of Edenton declared that two of the votes for James Norcum were improper, leading to a tie of 47 votes each.  The Sheriff then cast his vote for William Littlejohn and declared him the winner.</note>
+				<note resp="Philip Lampi">"After a warmly contested election, upon counting out the ballots, a doubt arose as to which of the candidates was elected.  At length, after a consultation of the Sheriff and Inspectors, the Sheriff declared in favor of Mr. Littlejohn.  We understand that Dr. Norcum intends to contest the election."</note>
+				<note resp="Philip Lampi">The election was contested and a new one was ordered to be held.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="Borough" name="Edenton" geog_id="null">
+					<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04827" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17532" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17533" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17532">Legislative Papers for 1808.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04827">Edenton Gazette, and North-Carolina Advertiser (Edenton, NC).  August 18, 1808.</reference>
+</election_record>

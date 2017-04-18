@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1792 Electoral College, District 1" type="General" iteration="First Ballot" date="1792" election_id="va.electors.1.1792" handle="10427/65065"  xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral College" office_id="ON056" scope="Federal">
+		<role title="Elector" scope="District">
+			<ballot>
+				<elector name="John Pride" name_id="PJ0727" affiliation="Federalist" affiliation_id="A01" declared_for="George Washington / George Clinton" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="Alexander Jones" name_id="JA0042" affiliation="null" affiliation_id="null" declared_for="null" elector_num="2"/>
+				<elector name="William Murray" name_id="MW0231" affiliation="null" affiliation_id="null" declared_for="null" elector_num="3"/>
+				<elector name="Samuel Pleasants" name_id="PS0145" affiliation="null" affiliation_id="null" declared_for="null" elector_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-04-05">
+				<elector_summary elector_ref="1" resp="Philip Lampi"/>
+				<elector_summary elector_ref="2" resp="Philip Lampi"/>
+				<elector_summary elector_ref="3" resp="Philip Lampi"/>
+				<elector_summary elector_ref="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result elector_ref="1" resp="Philip Lampi"/>
+					<result elector_ref="2" resp="Philip Lampi"/>
+					<result elector_ref="3" resp="Philip Lampi"/>
+					<result elector_ref="4" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Amelia" geog_id="null">
+						<result elector_ref="1" vote="93" resp="Philip Lampi"/>
+						<result elector_ref="2" vote="64" resp="Philip Lampi"/>
+						<result elector_ref="3" vote="31" resp="Philip Lampi"/>
+						<result elector_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23595" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Chesterfield" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Nottoway" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Powhatan" geog_id="null">
+						<result elector_ref="1" vote="89" resp="Philip Lampi"/>
+						<result elector_ref="3" vote="17" resp="Philip Lampi"/>
+						<result elector_ref="4" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23598" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23595">Amelia County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23598">Powhatan County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi">Palmer, William P.  Calendar of Virginia State Papers and Other Manuscripts.  Vol. IV.  Richmond: R. U. Derr, 1884.  133.</reference>
+</election_record>

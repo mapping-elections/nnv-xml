@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Commissioner, Bucks County" type="General" iteration="First Ballot" date="1789-10" election_id="pa.commissioner.bucks.1789" handle="10427/66067" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Isaac Burson" name_id="BI0010" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Henry Hoover" name_id="HH0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-17">
+				<candidate_summary candidate_ref="1" vote_total="1321" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="409" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The reported total votes for Isaac Burson is 1330, although the sum of individual districts add up to 1321 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="1321" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="409" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="932" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="185" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Bensalem" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Borough" name="Bristol" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Bristol" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Buckingham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Falls" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Lower Makefield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Middletown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Newtown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Northampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Solebury" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Southampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Upper Makefield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Warminister" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Warrington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Warwick" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Wrightown" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="389" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="224" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Montgomery, Thomas Lynch, ed.  Pennsylvania Archives, Sixth Series.  Vol. XI.  Harrisburg, PA: Harrisburg Publishing, 1907.  114-119.</reference>
+</election_record>

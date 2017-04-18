@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1823 Warden, Charleston City, Ward 4" type="General" iteration="First Ballot" date="1823" election_id="sc.warden.4.charlestoncity.1823" handle="10427/64820" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Warden" office_id="ON131" scope="City">
+		<role title="Warden" scope="Ward">
+			<ballot>
+				<candidate name="William Rouse" name_id="RW0227" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="F. G. Deliesseline" name_id="DF0027" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick Wesner" name_id="WF0053" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Strohecker" name_id="SJ1514" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Black" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-16">
+				<candidate_summary candidate_ref="1" vote_total="959" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="812" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="756" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="755" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="742" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<sub_unit type="Ward" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="959" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="812" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="756" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="755" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="742" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Court House" geog_id="null">
+							<result candidate_ref="1" vote="562" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="482" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="469" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="439" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="473" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Market" geog_id="null">
+							<result candidate_ref="1" vote="397" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="330" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="287" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="316" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="269" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">City Gazette and Commercial Daily Advertiser (Charleston, SC).  September 3, 1823.</reference>
+</election_record>

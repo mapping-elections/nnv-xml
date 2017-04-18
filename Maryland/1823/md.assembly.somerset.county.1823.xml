@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1823 House of Delegates, Somerset County" type="General" iteration="First Ballot" date="1823" election_id="md.assembly.somerset.county.1823" handle="10427/27056" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="George Jones" name_id="JG0022" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Littleton J. Dennis" name_id="DL0033" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joshua Bratten" name_id="BJ0420" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George A. Dashiell" name_id="DG0017" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Littleton D. Teackle" name_id="TL0007" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John H.D. Waters" name_id="WJ0217" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-07">
+				<candidate_summary candidate_ref="1" vote_total="733" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="710" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="599" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="589" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="575" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="441" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03352" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15019" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Somerset" geog_id="mds_somerset">
+					<result candidate_ref="1" vote="733" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="710" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="599" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="589" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="575" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="441" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03352" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03352">Republican Star, or, General Advertiser (Easton, MD).  October 14, 1823.</reference>
+</election_record>

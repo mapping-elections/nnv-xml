@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1814 Governor" type="Legislative" iteration="First Ballot" date="1814" election_id="md.governor.1814" handle="10427/58193" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Levin Winder" name_id="WL0015" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Bowie" name_id="BR0037" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-20">
+				<candidate_summary candidate_ref="1" vote_total="48" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="23" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14696a" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On Monday his Excellency Levin Winder, was re-elected Governor of the State of Maryland, for the ensuing year, by a majority of twenty-five votes." The Maryland Gazette and Political Intelligencer (Annapolis, MD).  December 15, 1814.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14696a" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14696a">The Maryland Gazette and Political Intelligencer (Annapolis, MD).  December 15, 1814.</reference>
+</election_record>

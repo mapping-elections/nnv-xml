@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Arkansas 1820 Territorial Legislature, Arkansas County" type="General" iteration="First Ballot" date="1820" election_id="ar.assembly.arkansas.1820" handle="10427/55820" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Stillwell" name_id="SJ0009" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Richmond Peeler" name_id="PR0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-22">
+				<candidate_summary candidate_ref="1" vote_total="94" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="82" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11170" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Arkansas" geog_id="art">
+				<sub_unit type="County" name="Arkansas" geog_id="art_arkansas">
+					<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Arkansas" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11170" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Cache" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11170" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopefield" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11170" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mississippi" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11170" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Point Chico" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11170" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"No returns were received from Point Chico."  The Arkansas Gazette (Arkansas Post, AR).  August 26, 1820.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Francis" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11170" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11170">Arkansas Gazette (Arkansas Post, AR).  August 26, 1820.</reference>
+</election_record>

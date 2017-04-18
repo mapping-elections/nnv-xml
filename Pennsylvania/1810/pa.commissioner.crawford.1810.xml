@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Commissioner, Crawford County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.commissioner.crawford.1810" handle="10427/66292" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Thomas Atkinson" name_id="AT0037" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Samuel Gowdy" name_id="GS0087" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John David" name_id="DJ0344" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-29">
+				<candidate_summary candidate_ref="1" vote_total="321" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="229" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="136" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="321" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="229" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Beaver" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Conneaut" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mead" geog_id="null">
+						<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oil Creek" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rockdale" geog_id="null">
+						<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Sadsbury" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shenango" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Venango" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  October 15, 1810.</reference>
+</election_record>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 Justice of the Peace, Montgomery County, Washington Township" type="General" iteration="First Ballot" date="1816-04" election_id="oh.justiceofthepeace.washington.1816" handle="10427/59570" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Justice of the Peace" office_id="ON068" scope="Township">
+        <role title="Justice of the Peace" scope="Township">
+            <ballot>
+                <candidate name="James Russell" name_id="RJ0291" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-07">
+                <candidate_summary candidate_ref="1" vote_total="104" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  101.</reference>
+</election_record>
+

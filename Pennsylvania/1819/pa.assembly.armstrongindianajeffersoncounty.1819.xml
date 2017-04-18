@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 House of Representatives, Armstrong, Indiana and Jefferson Counties" type="General" iteration="First Ballot" date="1819-10" election_id="pa.assembly.armstrongindianajeffersoncounty.1819" handle="10427/63228" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Robert Orr Jr." name_id="OR0014" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Mitchell" name_id="MR0161" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Speer" name_id="SJ1320" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Gaskill" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Samuel Marshall" name_id="MS0201" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-06">
+				<candidate_summary candidate_ref="1" vote_total="1142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="817" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06961" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06994" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="1142" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="817" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06961" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06994" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" vote="705" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="303" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06961" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" vote="437" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="514" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="314" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="191" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="84" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06994" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Vote totals for Indiana County include Jefferson County.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06961">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA).  October 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06994">The Union. United States Gazette and True American (Philadelphia, PA).  October 29, 1819.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Auditor, Montgomery County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.auditor.montgomery.1821" handle="10427/63511" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Joshua Taylor" name_id="TJ0536" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Joseph Thomas" name_id="TJ0485" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-01">
+				<candidate_summary candidate_ref="1" vote_total="1949" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1346" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07156" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07157" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="1949" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1346" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07156" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07157" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA), October 19, reports 1946 total votes for Joshua Taylor.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07157">The Union. United States Gazette and True American (Philadelphia, PA).  October 19, 1821.</reference>
+</election_record>

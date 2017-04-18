@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Commissioner, Philadelphia City and County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.commissioner.philadelphiacityandcounty.1806" handle="10427/61695" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Daniel Trump" name_id="TD0079" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William Warner" name_id="WW0236" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-23">
+				<candidate_summary candidate_ref="1" vote_total="4341" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3443" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06100" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Philadelphia City and County" geog_id="null">
+					<result candidate_ref="1" vote="4341" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3443" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06100" resp="Philip Lampi"/>
+					<sub_unit type="City" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="1849" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1982" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06090" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06099" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="2492" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1461" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06095" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>		
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06090">The True American and Commercial Advertiser (Philadelphia, PA).  October 16, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06095">Poulson's American Daily Advertiser (Philadelphia, PA).  October 18, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06100">The True American and Commercial Advertiser (Philadelphia, PA).  October 18, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 18, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 21, 1806.</reference>
+</election_record>

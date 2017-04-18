@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Assessor, Pittsburgh Borough" type="General" iteration="First Ballot" date="1803-05" election_id="pa.assessor.pittsburgh.1803" handle="10427/65930" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Borough">
+		<role title="Assessor" scope="Borough">
+			<ballot>
+				<candidate name="A. Beelen" name_id="BA0039" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="A. Kirkpatrick" name_id="KA0012" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="N. Irish" name_id="IN0000" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Sample" name_id="SW0083" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-29">
+				<candidate_summary candidate_ref="1" vote_total="126" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="126" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="102" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<sub_unit type="Borough" name="Pittsburgh" geog_id="null">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="102" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  May 21, 1803.</reference>
+</election_record>

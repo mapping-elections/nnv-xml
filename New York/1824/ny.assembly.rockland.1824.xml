@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assembly, Rockland County" type="General" iteration="First Ballot" date="1824" election_id="ny.assembly.rockland.1824" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/31388" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Abraham Gurnee" name_id="GA0034" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Rulef C. Van Houten" name_id="VR0019" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="Edward Suffern" name_id="SE0068" affiliation="People's Ticket" affiliation_id="A05" candidate_num="3"/>
+				<candidate name="Levi Sherwood" name_id="SL0012" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James Montagnie" name_id="MJ0476" affiliation="People's Ticket" affiliation_id="A05" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="245" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="243" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="215" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="146" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="144" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04732" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Supporters of DeWitt Clinton were known under several labels. While the older Clintonian / Federalist was still used, many were listed and ran as candidates of the People's Party with others favoring the term of Anti-Caucus. Those in opposition to DeWitt Clinton, although mainly Republicans were in this election also being referred to as King Caucus candidates and often called Bucktails.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Rockland" geog_id="null">
+					<result candidate_ref="1" vote="245" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="243" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="215" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="146" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="144" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Clarkstown" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="42" resp="Philip Lampi"/>
+					</sub_unit>				
+					<sub_unit type="Town" name="Haverstraw" geog_id="null">
+						<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hempstead" geog_id="null">
+						<result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Orangetown" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="20" resp="Philip Lampi"/>
+					</sub_unit>				
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04732">The New-York Statesman (Albany, NY).  November 5, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04733">National Advocate (New York, NY).  November 6, 1824.</reference>
+</election_record>

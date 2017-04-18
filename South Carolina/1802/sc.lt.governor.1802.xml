@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1802 Lieutenant Governor" type="Legislative" iteration="First Ballot" date="1802" election_id="sc.lt.governor.1802" handle="10427/64684" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Lieutenant Governor" office_id="ON073" scope="State">
+        <role title="Lieutenant Governor" scope="State">
+            <ballot>
+                <candidate name="Ezekial Pickens" name_id="PE0111" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-10-15">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Ezekial Pickens is elected by 90 votes.</note>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">National Intelligencer and Washington Advertiser (Washington, DC).  December 22, 1802.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1802 House of Representatives, Hartford" type="General" iteration="First Ballot" date="1802-09" election_id="ct.representative.hartford.1.1802" handle="10427/79649" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="John Caldwell" name_id="CJ0040" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Ephraim Root" name_id="RE0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Jonathan Bull" name_id="BJ0024" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Hart" name_id="HW0015" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-19">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Connecticut Courant (Hartford, CT) September 27, 1802 in commentary about the election for State Representatives reported that the total vote had increased to 478 by the addition of 23 new freeman. As in April, there was no detailed breakdown of the results, reporting only that 219 Republican votes were cast; 218 for Jonathan Bull and 1 to William Hart, being an increase of seven since April. The Federalist candidates, John Caldwell and Ephraim Root were elected. It does not state whether this was the vote for the first or second representative. It is possible that one Federalist candidate was unopposed, so there would be only one contest strictly between opposing individuals. There may have been more than one Federalist candidate and if so, their combined total would have been 259 votes.</note>
+				<note resp="Philip Lampi">There is additional mention of this election in the Connecticut Courant (Hartford, CT) of April 13, 1803, which states that on one ballot in the September voting, there was a tie between John Caldwell and Jonathan Bull, indicating perhaps a second or third Federalist candidate.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="Hartford" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  September 27, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  April 13, 1803.</reference>
+</election_record>

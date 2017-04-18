@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 House of Representatives, Crawford, Erie and Warren Counties, Special" type="Special" iteration="First Ballot" date="1815-01" election_id="pa.assembly.crawforderiewarren.special.1815" handle="10427/62819" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Daniel Williams" name_id="WD0093" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-01">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The 1814 Assembly election was contested. A new election was held on January 27, 1815, in which Daniel Williams was elected. No returns for this election have been found.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Crawford, Erie and Warren" geog_id="null">
+					<sub_unit type="County" name="Crawford" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Erie" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warren" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06682">Journal of the Pennsylvania House of Representatives, 1814.  126.</reference>
+</election_record>

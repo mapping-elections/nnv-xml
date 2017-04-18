@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1823 Sheriff, Bainbridge County" type="General" iteration="First Ballot" date="1823-04" election_id="ms.sheriff.bainbridge.1823" handle="10427/79978" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Jesse Walling" name_id="WJ1123" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Angus MacInnis" name_id="MA0318" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Harrison Watson" name_id="WH0125" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-19">
+				<candidate_summary candidate_ref="1" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="53" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="28" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This was the first election for county officers after the foundation of Bainbridge County.  The county would be dissolved in January of 1824 by the Mississippi Legislature and re-absorbed into Covington County.</note>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Bainbridge" geog_id="null">
+					<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="28" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1816 Intendant, Charleston City" type="General" iteration="First Ballot" date="1816" election_id="sc.intendant.charlestoncity.1816" handle="10427/31817" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Intendant" office_id="ON066" scope="City">
+		<role title="Intendant" scope="City">
+			<ballot>
+				<candidate name="Elias Horry" name_id="HE0144" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Stevens" name_id="SD0202" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-25">
+				<candidate_summary candidate_ref="1" vote_total="432" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="111" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07775" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07776" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Times (Charleston, SC) lists 431 votes for Elias Horry.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="432" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="305" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07775" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Market" geog_id="null">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07775" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07776">Charleston Courier (Charleston, SC).  September 17, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07775">The Times (Charleston, SC).  September 17, 1816.</reference>
+</election_record>

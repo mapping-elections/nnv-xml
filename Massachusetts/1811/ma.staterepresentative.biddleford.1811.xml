@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 House of Representatives, Biddleford" type="General" iteration="First Ballot" date="1811-05" election_id="ma.staterepresentative.biddleford.1811" handle="10427/69301" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Jeremiah Hill" name_id="HJ0384" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Goodwin" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Ichabod Fairfield" name_id="FI0007" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-27">
+				<candidate_summary candidate_ref="1" vote_total="97" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="53" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="25" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In spite of all the slang whanging of the old Sachem of Indian Island, and the Platform speeches and pathetic whinings of the Virginia Congressman, we have succeded in choosing a real republican.  Maj. HILL is elected by a large majority.  He is a Federalist of the Washington School. - Votes stood thus - Hill 97 - Goodwin the candidate of the milk and water folks 53 - and Fairfield, the true blue jacobin candidate, 25."  Boston Gazette (Boston, MA).  May 16, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Biddleford" geog_id="null">
+					<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  May 16, 1811.</reference>
+</election_record>

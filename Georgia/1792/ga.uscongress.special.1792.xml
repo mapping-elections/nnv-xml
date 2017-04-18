@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1792 U.S. House of Representatives, Southern District, Special" type="Special" iteration="First Ballot" date="1792" election_id="ga.uscongress.special.1792" handle="10427/19775" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="State">
+			<ballot>
+				<candidate name="John Milledge" name_id="MJ0057" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew MacAllister" name_id="MM0004" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Glen" name_id="GJ0030" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-04-30">
+				<candidate_summary candidate_ref="1" vote_total="254" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00041" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11584" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This special election was to fill the seat declared vacant by the legislature because of illegal returns.</note>
+				<note resp="Philip Lampi">The Southern District was also known as the Eastern District.</note>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="District" name="Southern" geog_id="null">
+					<result candidate_ref="1" vote="254" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="205" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00041" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11584" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Camden" geog_id="null">
+						<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00041" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11584" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00041" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11584" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Effingham" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00041" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11584" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Glynn" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00041" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11584" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Liberty" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00041" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11584" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00041">Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA).  August 4, 1792.</reference>
+</election_record>

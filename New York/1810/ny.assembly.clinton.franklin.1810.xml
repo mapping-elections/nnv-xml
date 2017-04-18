@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1810 Assembly, Clinton and Franklin Counties" type="General" iteration="First Ballot" date="1810-04" election_id="ny.assembly.clinton.franklin.1810" handle="10427/66376" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="District">
+			<ballot>
+				<candidate name="Gates Hoit" name_id="HG0057" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Steward" name_id="SW0226" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-17">
+				<candidate_summary candidate_ref="1" vote_total="650" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="640" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The election was contested.  The challenge was unsuccessful and the election of Gates Hoit was upheld.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Clinton and Franklin" geog_id="null">
+					<result candidate_ref="1" vote="650" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="640" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clinton" geog_id="null">
+						<result candidate_ref="1" vote="432" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="537" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Chataugay" geog_id="null">
+							<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Constable" geog_id="null">
+							<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Dickenson" geog_id="null">
+							<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Malone" geog_id="null">
+							<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1810.  36.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  June 4, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Register (Albany, NY).  June 19, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Balance, and New-York State Journal (Albany, NY).  June 22, 1810.</reference>
+</election_record>

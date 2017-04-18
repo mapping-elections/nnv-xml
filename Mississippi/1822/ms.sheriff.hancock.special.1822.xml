@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1822 Sheriff, Hancock County, Special" type="Special" iteration="First Ballot" date="1822-12" election_id="ms.sheriff.hancock.special.1822" handle="10427/79968" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Elihu Carver" name_id="CE0209" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Toole" name_id="TJ0633" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-19">
+				<candidate_summary candidate_ref="1" vote_total="56" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">James Gaines is listed in the Original Election Returns but is not listed as receiving any votes.</note>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Hancock" geog_id="null">
+					<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Bay at Saint Louis" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Frazer's" geog_id="null">
+						<note resp="Philip Lampi">"No return has been made."  Original Election Returns.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Red Creek" geog_id="null">
+						<note resp="Philip Lampi">"No return has been made."  Original Election Returns.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Slackhouse's" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Auditor, Mifflin County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.auditor.mifflin.1822" handle="10427/68245" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Foster Milliken" name_id="MF0030" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas I. Postlethwaite" name_id="PT0064" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-03">
+				<candidate_summary candidate_ref="1" vote_total="1086" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="540" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Foster Milliken had 1086, Thomas I. Postlethwaite had 540 [votes] for Auditor."  Juniata Gazette (Lewistown, PA).  October 15, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="1086" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="540" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Juniata Gazette (Lewistown, PA).  October 15, 1822.</reference>
+</election_record>

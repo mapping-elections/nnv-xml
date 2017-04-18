@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1808 U.S. House of Representatives, District 7" type="General" iteration="First Ballot" date="1808" election_id="sc.uscongress.district7.1808" handle="10427/64712" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Thomas Moore" name_id="MT0220" affiliation="Republican" affiliation_id="A03" candidate_num="1"/><note resp="Philip Lampi">Elected.</note>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-05">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07629" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">District Seven was also known as Spartanburg District.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<sub_unit type="District" name="Chester" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Spartanburg" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Union" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="York" geog_id="null">
+						<result candidate_ref="1" vote="632" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07629" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07629">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15642">City Gazette and Daily Advertiser (Charleston, SC).  December 20, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Dubin, Michael J.  United States Congressional Elections, 1788-1997: The Official Results of the Elections of the 1st through 105th Congresses.  Jefferson, NC: McFarland and Company, 1998.  41.</reference>
+</election_record>

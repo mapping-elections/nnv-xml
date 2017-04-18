@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1818 U.S. House of Representatives, District 6" type="General" iteration="First Ballot" date="1818" election_id="sc.uscongress.edgefield.1818" handle="10427/32348" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Eldred Simkins" name_id="SE0123" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Black" name_id="BJ1359" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Butler" name_id="BW0365" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-12">
+				<candidate_summary candidate_ref="1" vote_total="2309" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1105" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="848" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15812" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15813" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15814" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15819" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">District Six was also known as Edgefield District.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<result candidate_ref="1" vote="2309" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1105" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="848" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Abbeville" geog_id="null">
+						<result candidate_ref="1" vote="849" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="985" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="261" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Edgefield" geog_id="null">
+						<result candidate_ref="1" vote="1460" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="587" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00932" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15814">Charleston Courier (Charleston, SC).  October 24, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15812">City Gazette and Daily Advertiser (Charleston, SC).  October 24, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15813">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 24, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15819">Richmond Enquirer (Richmond, VA).  October 30, 1818.</reference>
+</election_record>

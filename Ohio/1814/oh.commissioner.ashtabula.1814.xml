@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 Commissioner, Ashtabula County" type="General" iteration="First Ballot" date="1814-10" election_id="oh.commissioner.ashtabula.1814" handle="10427/59437" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Luke Gamering" name_id="GL0016" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="M. Wieter" name_id="WM0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-17">
+                <candidate_summary candidate_ref="1" vote_total="148" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="130" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Ashtabula" geog_id="ohs_ashtabula">
+                    <result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">The Abstract of Votes lists M. Wieter with 118 votes but the township totals add up to 130.</note>
+                    <sub_unit type="Township" name="Ashtabula" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Austinburg" geog_id="null">
+                        <result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Denmark" geog_id="null">
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Harpersfield" geog_id="null">
+                        <result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Kingsville" geog_id="null">
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Lebanon" geog_id="null">
+                        <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Windsor" geog_id="null">
+                        <result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Ashtabula County.  Robert Harper Papers.  Western Reserve Historical Society, Cleveland.</reference>
+</election_record>

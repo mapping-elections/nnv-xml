@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 Coroner, Allegheny County" type="General" iteration="First Ballot" date="1794-10" election_id="pa.coroner.allegheny.1794" handle="10427/67731" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Johnston" name_id="JJ0191" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Robinson" name_id="RJ0355" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Clow" name_id="CJ0760" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Charles Matthews" name_id="MC0093" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-04">
+				<candidate_summary candidate_ref="1" vote_total="445" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="372" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="276" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="133" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" vote="445" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="372" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="276" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="133" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

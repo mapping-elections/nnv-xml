@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1811 Assembly, Cortland County" type="General" iteration="First Ballot" date="1811" election_id="ny.assembly.cortland.1811" handle="10427/25544" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Billy Trowbridge" name_id="TB0044" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Townsend Ross" name_id="RT0075" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Nicholas Fish" name_id="FN0016" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="DeWitt Clinton" name_id="CD0092" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Casper M. Rouse" name_id="RC0067" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-22">
+				<candidate_summary candidate_ref="1" vote_total="540" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="346" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Nicholas Fish and DeWitt Clinton were candidates for Lieutenant Governor.  Casper M. Rouse was a candidate for State Senate.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Cortland" geog_id="null">
+					<result candidate_ref="1" vote="540" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="346" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Columbian (New York, NY) lists 139 total votes for Billy Trowbridge.</note>
+					<sub_unit type="Town" name="Cincinnatus" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Homer" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Preble" geog_id="null">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Columbian (New York, NY) lists 0 votes for Billy Trowbridge.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Solon" geog_id="null">
+						<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Truxton" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Virgil" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04405" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04405">The Columbian (New York, NY).  May 24, 1811.</reference>
+</election_record>

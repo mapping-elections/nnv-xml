@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 House of Representatives, Highland County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.staterepresentative.highland.1822" handle="10427/60158" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Richard Collins" name_id="CR0055" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Moses Patterson" name_id="PM0014" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-02-16">
+                <candidate_summary candidate_ref="1" vote_total="650" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="482" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Highland" geog_id="ohs_highland">
+                    <result candidate_ref="1" vote="650" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="482" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Brushcreek" geog_id="null">
+                        <result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Concord" geog_id="null">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Fairfield" geog_id="null">
+                        <result candidate_ref="1" vote="198" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jackson" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Liberty" geog_id="null">
+                        <result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Madison" geog_id="null">
+                        <result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Newmarket" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Paint" geog_id="null">
+                        <result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Whiteoak" geog_id="null">
+                        <result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Highland County.</reference>
+</election_record>

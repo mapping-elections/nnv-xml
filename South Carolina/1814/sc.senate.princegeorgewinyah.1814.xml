@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1814 State Senate, Prince George Winyah Parish" type="General" iteration="First Ballot" date="1814" election_id="sc.senate.princegeorgewinyah.1814" handle="10427/31867" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="Nathan Huggins" name_id="HN0073" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Savage Smith" name_id="SS0364" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Keith" name_id="KJ0380" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-19">
+				<candidate_summary candidate_ref="1" vote_total="191" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="148" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="9" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07760" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07762" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Prince George Winyah" geog_id="null">
+					<result candidate_ref="1" vote="191" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07760" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07762" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07762">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07760">City Gazette and Commercial Advertiser (Charleston, SC).  October 15, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 15, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1840.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Commissioner, Northumberland County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.commissioner.northumberland.1814" handle="10427/62744" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Samuel Mause" name_id="MS0191" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Isaac Wolverton" name_id="WI0076" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Alexander Colt" name_id="CA0182" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="209" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="198" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="165" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06704" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="209" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="165" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06704" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06704">Northumberl. Republicaner, und Northumberland, Union und Columbia Counties Adverteiser (Sunbury, PA).  October 29, 1814.</reference>
+</election_record>

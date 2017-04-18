@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1816 House of Representatives, Belmont and Monroe Counties" type="General" iteration="First Ballot" date="1816-10" election_id="oh.staterepresentative.belmontandmonroe.1816" handle="10427/59544" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Edward Bryson" name_id="BE0251" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Townsend" name_id="TT0028" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Hammond" name_id="HC0091" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Trimble" name_id="TJ0144" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="David Smith" name_id="SD0121" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="William Dement" name_id="DW0061" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-11">
+				<candidate_summary candidate_ref="1" vote_total="921" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="716" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="696" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="683" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="665" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="479" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05233" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19260" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"It appears from the above return, that Hammond is elected by a majority of thirteen votes only. - Close shaving, Charley."  The Western Herald (Steubenville, OH).  October 25, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Belmont and Monroe" geog_id="null">
+					<result candidate_ref="1" vote="921" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="716" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="696" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="683" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="665" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="479" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05233" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Belmont" geog_id="ohs_belmont">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Monroe" geog_id="ohs_monroe">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19260">Ohio Federalist, and Belmont Repository (Saint Clairsville, OH).  September 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05233">The Western Herald (Steubenville, OH).  October 25, 1816.</reference>
+</election_record>

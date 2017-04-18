@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1809 Assessor, Northern Liberties Township, West Ward" type="General" iteration="First Ballot" date="1809-09" election_id="pa.assessor.philadelphia.northernliberties.west.1809" handle="10427/62098" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Township">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="Jacob B. Isterling" name_id="IJ0077" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Simon Shugart" name_id="SS0287" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-26">
+				<candidate_summary candidate_ref="1" vote_total="228" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="57" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="District" name="Northern Liberties" geog_id="null">
+						<sub_unit type="Ward" name="West" geog_id="null">
+							<result candidate_ref="1" vote="228" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06361">Aurora. General Advertiser (Philadelphia, PA).  October 2, 1809.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1821 House of Representatives, Knox County" type="General" iteration="First Ballot" date="1821" election_id="in.assembly.knox.1821" handle="10427/56451" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Benjamin V. Beckes" name_id="BB0004" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="W. Johnson" name_id="JW0011" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James B. MacCall" name_id="MJ0142" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Abraham F. Snapp" name_id="SA0025" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Myers" name_id="MJ0143" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="David Brown" name_id="BD0023" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="474" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="383" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="348" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="158" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="29" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12382" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Knox" geog_id="null">
+					<result candidate_ref="1" vote="474" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="383" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="348" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="158" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="29" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12382" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12382">Western Sun and General Advertiser (Vincennes, IN).  September 1, 1821.</reference>
+</election_record>

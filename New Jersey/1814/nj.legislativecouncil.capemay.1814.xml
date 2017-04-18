@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1814 Legislative Council, Cape May County" type="General" iteration="First Ballot" date="1814" election_id="nj.legislativecouncil.capemay.1814" handle="10427/68432" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Furman Leaming" name_id="LF0003" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Shamgar Hewitt" name_id="HS0121" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joshua Swain" name_id="SJ0629" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-08-23">
+				<candidate_summary candidate_ref="1" vote_total="370" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="51" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cape May" geog_id="null">
+					<result candidate_ref="1" vote="370" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Cape May County Clerk, Cape May.</reference>
+</election_record>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1800 State Senate, Saint Helena Parish" type="General" iteration="First Ballot" date="1800" election_id="sc.senate.st.helena.1800" handle="10427/31946" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="Thomas Talbird" name_id="TT0121" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-08">
+				<candidate_summary candidate_ref="1" vote_total="60" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07533" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Helena" geog_id="null">
+					<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07533" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">75 voters in Saint Helena Parish participated in this election.</note>
+					<sub_unit type="Town" name="Beaufort" geog_id="null">
+						<sub_unit type="Populated Place" name="Parish Church" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">50 voters at Parish Church participated in this election.</note>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Chapel of Ease, Saint Helena" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">25 voters at Chapel of Ease participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07533">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1820 House of Representatives, Thomaston" type="General" iteration="First Ballot" date="1820" election_id="me.staterepresentative.thomaston.1820" handle="10427/80044" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Isaac Bernard" name_id="BI0025" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Ruggles" name_id="RJ0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Joseph Sprague" name_id="SJ1588" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="John Spear" name_id="SJ0049" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-01">
+                <candidate_summary candidate_ref="1" vote_total="102" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="51" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="13" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="Town" name="Thomaston" geog_id="null">
+                    <result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Eaton, Cyrus.  History of Thomaston, Rockland and South Thomaston, Maine.  Vol. 2.  Hallowell, ME: Masters, Smith and, 1865.  92.</reference>
+</election_record>

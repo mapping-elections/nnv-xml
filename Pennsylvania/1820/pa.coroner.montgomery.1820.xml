@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Coroner, Montgomery County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.coroner.montgomery.1820" handle="10427/67893" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William Bean" name_id="BW0303" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Daniel Arnold" name_id="AD0053" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-05">
+				<candidate_summary candidate_ref="1" vote_total="5070" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2324" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="5070" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2324" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Franklin Gazette (Philadelphia, PA) reports 5087 votes for William Bean.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 14, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">American Sentinel (Philadelphia, PA).  October 20, 1820.</reference>
+</election_record>

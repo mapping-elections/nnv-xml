@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 State Senate, District 2" type="General" iteration="First Ballot" date="1794-10" election_id="pa.senator.bucks.chester.montgomery.counties.1794" handle="10427/60779" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Dennis Whelen" name_id="WD0082" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lindsay Coates" name_id="CL0056" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Jenks" name_id="JT0035" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Zebulon Potts" name_id="PZ0005" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Moore" name_id="MD0190" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Amos Gregg" name_id="GA0063" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Andrew Porter" name_id="PA0089" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Thomas Long" name_id="LT0082" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-12">
+				<candidate_summary candidate_ref="1" vote_total="3689" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3265" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2083" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1878" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1518" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1470" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05444" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05447" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05456" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Andrew Porter and Thomas Long had a number of votes, but not sufficient to be probably placed on the return by the votes of the Citizens, gone out in the milita (sic)."  Dunlap and Claypoole's American Daily Advertiser (Philadelphia, PA).  October 18, 1794.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="3689" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3265" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2083" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1878" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1518" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1470" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bucks" geog_id="null">
+						<result candidate_ref="1" vote="1773" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1100" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="909" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="833" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="574" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="801" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="1191" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1114" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="785" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="242" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="829" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="294" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="242" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"... and a number of scattering votes."  General Advertiser (Philadelphia, PA).  October 17, 1794.</note>
+						<sub_unit type="Populated Place" name="Captain Musgraves Company of Artillery" geog_id="null">
+							<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="36" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="725" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1051" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="389" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="803" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="375" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05447">General Advertiser (Philadelphia, PA).  October 17, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05444">Dunlap and Claypoole's American Daily Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05444">General Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05447">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+</election_record>

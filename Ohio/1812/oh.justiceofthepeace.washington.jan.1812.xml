@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1812 Justice of the Peace, Montgomery County, Washington Township" type="General" iteration="First Ballot" date="1812-01" election_id="oh.justiceofthepeace.washington.jan.1812" handle="10427/59292" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Justice of the Peace" office_id="ON068" scope="Township">
+        <role title="Justice of the Peace" scope="Township">
+            <ballot>
+                <candidate name="William Long" name_id="LW0035" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Peter Banta" name_id="BP0014" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-06">
+                <candidate_summary candidate_ref="1" vote_total="47" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="27" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The election was contested and set aside.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  97.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1808 State Senate, Saint James Goose Creek Parish" type="General" iteration="First Ballot" date="1808" election_id="sc.senate.st.jamesgoosecreek.1808" handle="10427/31928" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="William Witherspoon" name_id="WW0360" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="M. Glover" name_id="GM0032" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="H. Izard" name_id="IH0003" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-29">
+				<candidate_summary candidate_ref="1" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07621" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15626" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15627" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint James Goose Creek" geog_id="null">
+					<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07621" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15627">Charleston Courier (Charleston, SC).  October 14, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15626">City Gazette and Daily Advertiser (Charleston, SC).  October 14, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07621">The Carolina Gazette (Charleston, SC).  October 21, 1808.</reference>
+</election_record>

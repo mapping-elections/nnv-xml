@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1802 House of Representatives, Kent County, Special" type="Special" iteration="First Ballot" date="1802" election_id="de.specialstateassembly.kent.1802" handle="10427/43984" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Fisher" name_id="FJ0453" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12020" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"At an election in Kent county for a representative to supply the place of Nicholas Ridgley, John Fisher, the republican candidate, had a majority of 165 votes out of 745 that were taken."  Bartgis's Republican Gazette (Fredericktown, MD).  February 10, 1802.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12020" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12020">Bartgis's Republican Gazette (Fredericktown, MD).  February 10, 1802.</reference>
+</election_record>

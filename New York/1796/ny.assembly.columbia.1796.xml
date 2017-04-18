@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="New York 1796 Assembly, Columbia County" type="General" iteration="First Ballot" date="1796" election_id="ny.assembly.columbia.1796" handle="10427/65418" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John C. Hogeboom" name_id="HJ0516" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Caleb Benton" name_id="BC0076" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John MacKinstry" name_id="MJ0223" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter J. Vosburgh" name_id="VP0003" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Warner" name_id="WJ0441" affiliation="Federalist" affiliation_id="A01" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Palmer Cady" name_id="CP0022" affiliation="Federalist" affiliation_id="A01" candidate_num="6"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="1582" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1571" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1416" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1315" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="820" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="1582" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1571" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1416" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1315" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="820" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Herald; a Gazette for the Country (New York, NY).  June 6, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Greenleaf's New York Journal, and Patriotic Register (New York, NY).  June 7, 1796.</reference>
+</election_record>

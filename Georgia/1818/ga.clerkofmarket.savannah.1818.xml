@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1818 Clerk of the Market, Savannah" type="General" iteration="First Ballot" date="1818" election_id="ga.clerkofmarket.savannah.1818" handle="10427/56039" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Market" office_id="ON029" scope="City">
+		<role title="Clerk of the Market" scope="City">
+			<ballot>
+				<candidate name="John Dillon" name_id="DJ0054" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William A. Moore" name_id="MW0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jesse Bandy" name_id="BJ0132" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-11">
+				<candidate_summary candidate_ref="1" vote_total="274" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="271" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="55" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Chatham" geog_id="null">
+					<sub_unit type="City" name="Savannah" geog_id="null">
+						<result candidate_ref="1" vote="274" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="271" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Savannah Republican (Savannah, GA).  September 8, 1818.</reference>
+</election_record>

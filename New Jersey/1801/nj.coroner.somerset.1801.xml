@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New Jersey 1801 Coroner, Somerset County" type="General" iteration="First Ballot" date="1801" election_id="nj.coroner.somerset.1801" handle="10427/68601" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="Thomas Nesbitt" name_id="NT0017" affiliation="null" affiliation_id="null" candidate_num="1"></candidate>
+                <candidate name="Stephen Morford" name_id="MS0161" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Forman" name_id="FW0006" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Jam" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Andis" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2013-05-30">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="323" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="263" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="181" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="59" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The Original Election Returns for Somerset County list William Forman, Thomas Nesbitt and Stephen Morford as the candidates elected coroner. However, the tally sheet is torn, and the column of figures for Thomas Nesbitt is missing. It is possible that he received more than 400 votes. Two columns of figures remain for candidates whose first names start with Jam and Andis.</note>
+            </overview>
+            <admin_unit type="State" name="New Jersey" geog_id="null">
+                <sub_unit type="County" name="Morris" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="323" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="263" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="181" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="59" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Bedminster" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="36" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="28" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Bernards" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="40" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Bridgewater" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="18" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Franklin" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="90" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hillsborough" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                        <result candidate_ref="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Montgomery" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="152" resp="Philip Lampi"/>
+                        <result candidate_ref="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>
+

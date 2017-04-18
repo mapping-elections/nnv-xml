@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Coroner, Bucks County" type="General" iteration="First Ballot" date="1800-10" election_id="pa.coroner.bucks.1800" handle="10427/61117" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Hugh Thompson" name_id="TH0039" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Carne" name_id="CW0234" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Cephas Child" name_id="CC0091" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="N. Child" name_id="CN0031" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-26">
+				<candidate_summary candidate_ref="1" vote_total="3812" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2153" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05645" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05646" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="3812" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2153" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05645" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05646" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bristol" geog_id="null">
+						<result candidate_ref="1" vote="365" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="202" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05644" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Chapman's" geog_id="null">
+						<result candidate_ref="1" vote="1096" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="610" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="482" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="14" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05644" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05644" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Quakertown" geog_id="null">
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05644" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tinicum" geog_id="null">
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05644" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05645">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05644">Aurora. General Advertiser (Philadelphia, PA).  October 16, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05644">Aurora. General Advertiser (Philadelphia, PA).  October 17, 1800.</reference>
+</election_record>

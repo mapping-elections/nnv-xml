@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1825 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1825" election_id="ri.ussenator.1825" handle="10427/31638" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Asher Robbins" name_id="RA0121" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elisha R. Potter" name_id="PE0102" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-08-20">
+				<candidate_summary candidate_ref="1" vote_total="43" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="36" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10078" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Legislature of this state has adjourned appointing the Honorable Asher Robbins, a Senator of the State to Congress, to supply the vacancy occasioned by the resignation of Mr. DeWolf.  The whole number of votes in joint meeting was 81, with 41 necessary to a choice."  Columbian Centinel (Boston, MA).  November 9, 1825.</note>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10078">Columbian Centinel (Boston, MA).  November 9, 1825.</reference>
+</election_record>

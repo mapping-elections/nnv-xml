@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1822 Coroner, Callaway County" type="General" iteration="First Ballot" date="1822" election_id="mo.coroner.callaway.1822" handle="10427/56567" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Samuel T. Guthrie" name_id="GS0055" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Ripper" name_id="RJ0164" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Moses Joiner" name_id="JM0013" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="53" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Callaway" geog_id="null">
+					<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Auxvasse" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Cote Sans Dessein" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Elizabeth" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Nine Mile Prairie" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Round Prairie" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">History of Callaway County, Missouri.  Saint Louis: National Historic, 1884. 411.</reference>
+</election_record>

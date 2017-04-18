@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1803 State Senate, District 2" type="General" iteration="First Ballot" date="1803" election_id="nh.statesenate.2.1803" handle="10427/78718" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Ezekiel Godfrey" name_id="GE0023" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nicholas Gilman" name_id="GN0015" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-23">
+				<candidate_summary candidate_ref="1" vote_total="530" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="163" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Fogg is listed as the Federalist candidate in Farmer's Cabinet (Amherst, NH) of February 17, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="530" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="163" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<result candidate_ref="1" vote="530" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="163" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Brentwood" geog_id="null">
+							<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="East Kingston" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Epping" geog_id="null">
+							<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Exeter" geog_id="null">
+							<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">The United States Oracle, and Portsmouth Advertiser (Portsmouth, NH) lists Ezekiel Godfrey with 103 votes.</note>
+						</sub_unit>
+						<sub_unit type="Town" name="Kensington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Kingston" geog_id="null">
+							<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Newmarket" geog_id="null">
+							<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Newton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Poplin" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="South Hampton" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  February 15, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  February 17, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Ledger, and Portsmouth Price Current (Portsmouth, NH).  March 8, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  March 17, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  March 19, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, (For the Country) (Portsmouth, NH).  March 22, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  March 26, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  March 29, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  April 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  May 19, 1803.</reference>
+</election_record>

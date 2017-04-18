@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1801 House of Representatives, New London" type="General" iteration="First Ballot" date="1801" election_id="ct.representative.newlondon.1801" handle="10427/79622" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="George Williams" name_id="WG0124" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nicoll Fosdick" name_id="FN0000" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-18">
+				<candidate_summary candidate_ref="1" vote_total="151" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="144" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="117" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="New London" geog_id="null">
+					<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="144" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="124" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="117" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Bee (New London, CT).  April 15, 1801.</reference>
+</election_record>

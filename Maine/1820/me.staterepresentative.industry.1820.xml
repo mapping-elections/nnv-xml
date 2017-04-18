@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1820 House of Representatives, Industry, New Vineyard and Strong" type="General" iteration="First Ballot" date="1820-04" election_id="me.staterepresentative.industry.1820" handle="10427/80037" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="John Reed" name_id="RJ0028" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Gower" name_id="GJ0040" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-01">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="District" name="Industry, New Vineyard and Strong" geog_id="null">
+                    <sub_unit type="Town" name="Industry" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="New Vineyard" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Strong" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Hatch, William Collins.  A History of the Town of Industry, Franklin County, Maine.  Farmington, ME: Knowlton, McLeary, 1893.  213.</reference>
+</election_record>

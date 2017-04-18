@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1808 Electoral College, District 3" type="General" iteration="First Ballot" date="1808" election_id="tn.electoralcollege3.1808" handle="10427/64924" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="District">
+            <ballot>
+                <elector name="Joseph Greer" name_id="GJ0095" affiliation="Republican" affiliation_id="A03" declared_for="James Madison" elector_num="1"/>
+                <elector name="others" name_id="null" affiliation="Federalist" affiliation_id="A01" declared_for="Charles Pinckney" elector_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-04-08">
+                <elector_summary elector_ref="1" vote_total="456" resp="Philip Lampi"/>
+                <elector_summary elector_ref="2" vote_total="11"  resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16716" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16718" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16720" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17155" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Joseph Greer, esq. is elected an elector for the third electoral district in this state, and will vote for Mr. Madison." Western Express (Carthage, TN).  November 21, 1808.</note>
+                <note resp="Philip Lampi">"Specimen of the patriotism of Tennessee.~In the county of Knox, the Madison Elector 177, and the Pinckney Elector 6." National Intelligencer and Washington Advertiser (Washington, DC).  November 30, 1808.</note>
+                <note resp="Philip Lampi">"In the county of Knox, the Madison Elector 177, and the Pinckney Elector 6." The Western Citizen (Paris, KY). Saturday, December 24, 1808.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="Three" geog_id="null">
+                    <result elector_ref="1" vote="456" resp="Philip Lampi"/>
+                    <result elector_ref="2" vote="11"  resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Anderson" geog_id="tns_anderson">
+                        <result elector_ref="1" vote="52" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Bledsoe" geog_id="tns_bledsoe">
+                        <result elector_ref="1" vote="31"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Blount" geog_id="tns_blount">
+                        <result elector_ref="1" vote="99"  resp="Philip Lampi"/>
+                        <result elector_ref="2" vote="3"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Knox" geog_id="tns_knox">
+                        <result elector_ref="1" vote="177" resp="Philip Lampi"/>
+                        <result elector_ref="2" vote="8"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Rhea" geog_id="tns_rhea">
+                        <result elector_ref="1" vote="6"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Roane" geog_id="tns_roane">
+                        <result elector_ref="1" vote="91"  resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit> 
+                <note resp="Philip Lampi">"We are authorized to say that Joseph Greer, Esq. will be a candidate for Elector of President and Vice-President-and if elected will vote for Mr. Madison and probably for Mr. Clinton." Wilson's Knoxville Gazette (Knoxville, TN).  May 11, 1808.</note>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16712">Wilson's Knoxville Gazette (Knoxville, TN).  May 11, 1808.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16718">Wilson's Knoxville Gazette (Knoxville, TN).  November 16, 1808.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16716">Western Express (Carthage, TN).  November 21, 1808.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16720">National Intelligencer and Washington Advertiser (Washington, DC).  November 30, 1808.</reference>
+    <reference type="citation" resp="Philip Lampi">The Western Citizen (Paris, KY).  December 24, 1808.</reference>
+</election_record>

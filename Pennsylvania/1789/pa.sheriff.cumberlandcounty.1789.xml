@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Sheriff, Cumberland County" type="General" iteration="First Ballot" date="1789-10" election_id="pa.sheriff.cumberlandcounty.1789" handle="10427/60598" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas Buchanan" name_id="BT0235" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Jordan" name_id="JJ0179" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Sterrett" name_id="SW0202" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Walker" name_id="WJ0610" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James Wallace" name_id="WJ0609" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William Wallace" name_id="WW0197" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Buchanan" name_id="BJ0139" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-22">
+				<candidate_summary candidate_ref="1" vote_total="930" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="867" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="790" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="717" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="453" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="418" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="140" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA) lists 922 votes for Thomas Buchanan and 863 votes for John Jordan.</note>
+				<note resp="Philip Lampi">The Independent Gazetteer uses the spelling Buchannan for Thomas Buchanan.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="930" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="867" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="790" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="717" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="453" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="418" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="140" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05368" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA).  October 14, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05368">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  October 21, 1789.</reference>
+</election_record>

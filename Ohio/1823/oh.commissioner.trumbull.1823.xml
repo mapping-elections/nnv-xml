@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Commissioner, Trumbull County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.commissioner.trumbull.1823" handle="10427/60236" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Benajah Austin" name_id="AB0034" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Alexander Sutherland" name_id="SA0165" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-18">
+                <candidate_summary candidate_ref="1" vote_total="1050" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="392" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+                    <result candidate_ref="1" vote="1050" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="392" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="null" geog_id="null">
+                        <result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19665" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  October 25, 1823.</reference>
+</election_record>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Trustee, Hamilton County, Cincinnati Township" type="General" iteration="First Ballot" date="1823-04" election_id="oh.trustee.cincinnati.1823" handle="10427/60229" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Trustee" office_id="ON123" scope="Township">
+        <role title="Trustee" scope="Township">
+            <ballot>
+                <candidate name="James Gibson" name_id="GJ0130" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Benjamin Hopkins" name_id="HB0025" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Benjamin Mason" name_id="MB0005" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas Henderson" name_id="HT0034" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Zacheus Barnard" name_id="BZ0011" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="John B. Smith" name_id="SJ0374" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="Peter Mills" name_id="MP0020" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="8"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-18">
+                <candidate_summary candidate_ref="1" vote_total="806" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="789" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="763" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="273" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="191" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="119" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" vote_total="115" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" vote_total="23" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+                    <sub_unit type="Township" name="Cincinnati" geog_id="null">
+                        <result candidate_ref="1" vote="806" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="789" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="763" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="273" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="194" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="119" resp="Philip Lampi"/>
+                        <result candidate_ref="7" vote="115" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="23" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The National Republican and Ohio Political Register (Cincinnati, OH).  April 11, 1823.</reference>
+</election_record>

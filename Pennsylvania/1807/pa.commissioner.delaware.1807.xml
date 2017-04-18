@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Commissioner, Delaware County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.commissioner.delaware.1807" handle="10427/61749" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Mendenhall" name_id="MW0347" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas H. Brinton" name_id="BT0243" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Seth Thomas" name_id="TS0089" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-29">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06141" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Thomas H. Brinton is listed as a Republican candidate in The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) on October 17, 1807.</note>
+				<note resp="Philip Lampi">William Mendenhall, on the Federalist ticket: "At a respectable meeting of the federal republicans of Delaware county, convened pursuant to public notice, at the Black Horse tavern in the township of Middletown, on Saturday, the 15t inst. Dr. Jonas Preston was called to the chair, and Dr. Samuel Anderson appointed secretary." The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  August 25, 1807.</note>
+				<note resp="Philip Lampi">Seth Thomas, on the Second [Federalist] ticket: "At a respectable meeting of the citizens of Delaware county, convened agreeably to notice at Isaac Cochran's tavern, in the township of Upper Providence, on Saturday 29th Aug. 1807. Isaac Malin, chairman - Samuel Edwards, sec." The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  September 4, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06141" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06141">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  August 25, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06141">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  September 4, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 17, 1807.</reference>
+</election_record>

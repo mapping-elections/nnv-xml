@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Select Council, Philadelphia City" type="General" iteration="First Ballot" date="1821-10" election_id="pa.selectcouncil.philadelphiacity.1821" handle="10427/63528" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Select Council" office_id="ON096" scope="City">
+		<role title="Select Councillor" scope="City">
+			<ballot>
+				<candidate name="John W. Thompson" name_id="TJ0434" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Vaux" name_id="VG0008" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Hale" name_id="HT0184" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Watson" name_id="WJ0826" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lewis Clapier" name_id="CL0062" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Levi Garrett" name_id="GL0020" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Manuel Eyre" name_id="EM0006" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="John Lisle" name_id="LJ0483" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-11">
+				<candidate_summary candidate_ref="1" vote_total="2850" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2245" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2242" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2240" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1862" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1857" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1833" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07168" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="2850" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2245" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2242" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2240" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1862" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1857" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1833" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1172" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07168" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA).  October 10, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07168">The Union. United States Gazette and True American (Philadelphia, PA).  October 12, 1821.</reference>
+</election_record>

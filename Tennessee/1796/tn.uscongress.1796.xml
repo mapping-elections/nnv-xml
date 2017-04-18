@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1796 U.S. House of Representatives" type="General" iteration="First Ballot" date="1796-03" election_id="tn.uscongress.1796" handle="10427/64854" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="State">
+            <ballot>
+                <candidate name="Andrew Jackson" name_id="JA0014" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Rody" name_id="RJ0038" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" vote_total="1113" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="12" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16624" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17137" resp="Philip Lampi"/>
+                <note resp="Robert H. White">"The District of Mero in 1796 was the present Middle Tennessee and consisted of the following Counties: Davidson, Sumner, Robertson, and Montgomery. Hamilton District included these counties: Knox, Jefferson, Sevier, and Blount. Washington District consisted of the present Upper East Tennessee and included the following Counties: Washington, Sullivan, Greene, and Hawkins." Messages of the Governors to Tennessee, 1796-1821. </note>
+                <note resp="Philip Lampi">"[Tennessee] became a state on June 1, 1796. Jackson took his seat on December 5, 1796 at the start of the 2nd Session." United States Congressional Elections, 1788-1997. </note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="Hamilton" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">Hamilton vote is reflected in the figures for Mero.</note>
+                </sub_unit>
+                <sub_unit type="District" name="Mero" geog_id="null">
+                    <result candidate_ref="1" vote="795" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">Hamilton vote is reflected in the figures for Mero.</note>
+                </sub_unit>
+                <sub_unit type="District" name="Washington" geog_id="null">
+                    <result candidate_ref="1" vote="318" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16624">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

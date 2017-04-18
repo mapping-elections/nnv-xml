@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record label="New York 1819 Assembly, Schoharie County" type="General" iteration="First Ballot" date="1819" election_id="ny.assembly.schoharie.1819" handle="10427/31621" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Jedediah Miller" name_id="MJ0509" affiliation="Clintonian/Federalist" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="Heman Hickok" name_id="HH0052" affiliation="Clintonian/Federalist" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="Peter Swart, Jr." name_id="SP0094" affiliation="Clintonian/Federalist" affiliation_id="A05" candidate_num="3"/>
+				<candidate name="Abraham Keyser, Jr." name_id="KA0051" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="John Reynolds" name_id="RJ0232" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="John C. Moeller" name_id="MJ0510" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-10">
+				<candidate_summary candidate_ref="1" vote_total="1489" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1440" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1438" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1267" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1180" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1175" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04613" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Catskill Reporter reports 1426 votes for Peter Swart, Jr.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schoharie" geog_id="null">
+					<result candidate_ref="1" vote="1489" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1440" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1438" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1267" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1180" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1175" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04613" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Middleburgh" geog_id="null">
+						<result candidate_ref="1" vote="274" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="267" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="294" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="282" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="238" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="252" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Abraham Keyser, Jr. received 4 votes as Abraham Keyser.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate, Town of Middleburgh.</reference>
+	<reference type="citation" resp="Philip Lampi">The Observer (Schoharie, NY).  April 21, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  May 21, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04613">Catskill Recorder (Catskill, NY).  May 26, 1819.</reference>
+</election_record>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Treasurer" type="Legislative" iteration="First Ballot" date="1821" election_id="pa.treasurer.1821" handle="10427/63538" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="State">
+		<role title="Treasurer" scope="State">
+			<ballot>
+				<candidate name="John B. Trevor" name_id="TJ0524" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard M. Crain" name_id="CR0128" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-18">
+				<candidate_summary candidate_ref="1" vote_total="66" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="59" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10840" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10841" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10842" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On Saturday the 6th instant the following nominations were made for State Treasurer viz: by Mr. Porter, Richard M. Crain; by Mr. Robbins, John B. Trevor; by Mr. Kelton, John MacKessick; by Mr. Lombeart, Joshua Hunt; by Mr. Weaver, Obed Fahnestock." The Westmoreland Republican (Greensburgh, PA).  January 19, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10841" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10841" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10840">The Union. United States Gazette and True American (Philadelphia, PA).  January 16, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10842">The Susquehanna Democrat (Wilkes-Barre, PA).  January 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10841">The Westmoreland Republican (Greensburgh, PA).  January 19, 1821.</reference>
+</election_record>

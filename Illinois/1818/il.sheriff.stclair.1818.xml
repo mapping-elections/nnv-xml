@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1818 Sheriff, Saint Clair County" type="General" iteration="First Ballot" date="1818-09" election_id="il.sheriff.stclair.1818" handle="10427/56194" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William A. Beaird" name_id="BW0062" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Biggs, Jr." name_id="BW0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert K. MacLaughlin" name_id="MR0009" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-30">
+				<candidate_summary candidate_ref="1" vote_total="256" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="208" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="89" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Saint Clair" geog_id="null">
+					<result candidate_ref="1" vote="256" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="89" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">History of Saint Clair County, Illinois.  Philadelphia: Brink, McDonough and, Philadelphia, 1881.  72.</reference>
+</election_record>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1806 City Council, Baltimore, Ward 5" type="General" iteration="First Ballot" date="1806" election_id="md.city.council.baltimore.ward5.1806" handle="10427/58136" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="John Shrim" name_id="SJ0215" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Baltzer Shaeffer" name_id="SB0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Peter Diffenderffer" name_id="DP0011" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel MacKim" name_id="MS0042" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Enoch Bayley" name_id="BE0083" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-30">
+				<candidate_summary candidate_ref="1" vote_total="185" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="171" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="114" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="108" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="25" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02434" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Baltimore Evening Post (Baltimore, MD) (October 8, 1806) spells the name as "Peter Diffeuderffer."</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="25" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02434" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American, and Commercial Daily Advertiser (Baltimore, MD).  October 7, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Evening Post (Baltimore, MD).  October 8, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02434">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 8, 1806.</reference>
+</election_record>

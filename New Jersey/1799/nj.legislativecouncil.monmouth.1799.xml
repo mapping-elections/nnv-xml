@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1799 Legislative Council, Monmouth County" type="General" iteration="First Ballot" date="1799" election_id="nj.legislativecouncil.monmouth.1799" handle="10427/58627" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Asher Holmes" name_id="HA0059" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Henderson" name_id="HT0100" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2008-09-10">
+				<candidate_summary candidate_ref="1" vote_total="1306" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="614" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Monmouth" geog_id="null">
+					<result candidate_ref="1" vote="1306" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="614" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Dover" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Freehold" geog_id="null">
+						<result candidate_ref="1" vote="219" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="248" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shrewsbury" geog_id="null">
+						<result candidate_ref="1" vote="399" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stafford" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Freehold" geog_id="null">
+						<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="166" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi">The Federalist; or New-Jersey Gazette (Trenton, NJ).  October 14, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  November 5, 1799.</reference>
+</election_record>

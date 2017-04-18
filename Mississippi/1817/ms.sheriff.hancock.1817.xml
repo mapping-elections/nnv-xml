@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1817 Sheriff, Hancock County" type="General" iteration="First Ballot" date="1817" election_id="ms.sheriff.hancock.1817" handle="10427/79816" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Elihu Carver" name_id="CE0209" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Burrill Perry" name_id="PB0105" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-10-21">
+				<candidate_summary candidate_ref="1" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="24" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Hancock" geog_id="null">
+					<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

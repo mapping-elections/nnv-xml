@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1807 House of Representatives, Clermont County" type="General" iteration="First Ballot" date="1807" election_id="oh.staterepresentative.clermont.1807" handle="10427/59032" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Pollock" name_id="PJ0375" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Fee" name_id="FW0051" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Morris" name_id="MT0090" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-24">
+				<candidate_summary candidate_ref="1" vote_total="258" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="240" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="232" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05128" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05124" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Clermont" geog_id="ohs_clermont">
+					<result candidate_ref="1" vote="258" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="240" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="232" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05128">History of Clermont County.  Philadelphia: Louis H. Everts, 1880.  124.</reference>
+</election_record>

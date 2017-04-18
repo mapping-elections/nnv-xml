@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1823 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1823" election_id="tn.congress.4th.1823" handle="10427/65002" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Jacob Isaacs" name_id="IJ0062" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Rogers" name_id="RJ0597" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-27">
+				<candidate_summary candidate_ref="1" vote_total="4648" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2486" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08129" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17005" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17018" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="4648" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2486" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="1557" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08129" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jackson" geog_id="null">
+						<result candidate_ref="1" vote="733" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="435" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08131" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Overton" geog_id="null">
+						<result candidate_ref="1" vote="536" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="570" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="1106" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="776" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="White" geog_id="null">
+						<result candidate_ref="1" vote="716" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="621" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17018">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

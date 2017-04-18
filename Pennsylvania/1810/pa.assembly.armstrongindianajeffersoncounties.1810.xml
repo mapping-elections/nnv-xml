@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 House of Representatives, Armstrong, Indiana, and Jefferson Counties" type="General" iteration="First Ballot" date="1810-10" election_id="pa.assembly.armstrongindianajeffersoncounties.1810" handle="10427/62138" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James MacComb" name_id="MJ0924" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Sloan" name_id="SJ1125" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-10">
+				<candidate_summary candidate_ref="1" vote_total="483" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="425" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">James MacComb is also listed as a Constitutionalist.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="483" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="425" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" vote="203" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="274" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06375" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06376" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" vote="280" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06376" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06400" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The votes cast in Jefferson County are included in the Indiana County election returns.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06376">The Westmoreland and Indiana Register (Greensburg, PA).  October 19, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06376">Kline's Weekly Carlisle Gazette (Carlisle, PA).  October 26, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06376">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06376">The True American and Commercial Advertiser (Philadelphia, PA).  October 27, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  October 29, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  November 2, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 6, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  November 12, 1810.</reference>
+</election_record>

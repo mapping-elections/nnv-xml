@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1803 Assembly, Herkimer County" type="General" iteration="First Ballot" date="1803" election_id="ny.assembly.herkimer.1803" handle="10427/26103" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Samuel Wright" name_id="WS0122" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Evans Wharry" name_id="WE0087" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Widrig" name_id="WG0055" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Rosecrantz" name_id="RG0043" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Hosea Nelson" name_id="NH0013" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Robert Town" name_id="TR0050" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" vote_total="743" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="613" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="610" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="547" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="528" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="419" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04219" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Herkimer" geog_id="null">
+					<result candidate_ref="1" vote="743" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="613" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="610" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="547" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="528" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="419" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04219" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Albany Register (Albany, NY).  May 10, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04219">American Citizen (New York, NY).  May 16, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmers' Register (Lansingburgh, NY).  May 17, 1803.</reference>
+</election_record>

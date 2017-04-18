@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Director of the Poor, Montgomery County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.director.montgomery.1815" handle="10427/66803" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Bernard Gilbert" name_id="GB0048" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Amos Evans" name_id="EA0047" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-01">
+				<candidate_summary candidate_ref="1" vote_total="2140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1666" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="2140" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1666" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="168" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hatborough" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Heist's" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hughes's" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreps's" geog_id="null">
+						<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower-Merrion" geog_id="null">
+						<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="488" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="399" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Pottstown" geog_id="null">
+						<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Schwenk's" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sumnytown" geog_id="null">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Trapp" geog_id="null">
+						<result candidate_ref="1" vote="226" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="190" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="251" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Weekly Register (Norristown, PA).  October 18, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Northampton Correspondent (Easton, PA).  October 27, 1815.</reference>
+</election_record>

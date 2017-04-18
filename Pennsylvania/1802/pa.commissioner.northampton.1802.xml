@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 Commissioner, Northampton County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.commissioner.northampton.1802" handle="10427/66182" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Stephen Krumrein" name_id="KS0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Hutchinson" name_id="HJ0864" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-29">
+				<candidate_summary candidate_ref="1" vote_total="2035" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1515" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="2035" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1515" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Allen" geog_id="null">
+						<result candidate_ref="1" vote="488" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Anthony's" geog_id="null">
+						<result candidate_ref="1" vote="204" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Easton" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="605" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Heller's" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="437" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mount Bethel" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="200" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Ohl's" geog_id="null">
+						<result candidate_ref="1" vote="424" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Penn" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saucon" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Shaener's" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="216" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Stroud's" geog_id="null">
+						<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>	
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Eagle (Easton, PA).  October 23, 1802.</reference>
+</election_record>

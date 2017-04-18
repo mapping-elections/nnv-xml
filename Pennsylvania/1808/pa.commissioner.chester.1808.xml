@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Commissioner, Chester County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.commissioner.chester.1808" handle="10427/61878" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Roger Kirk" name_id="KR0009" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Nathan Hayes, Sr." name_id="HN0057" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-28">
+				<candidate_summary candidate_ref="1" vote_total="3266" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3168" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06234" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="3266" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3168" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06234" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06234">Aurora. General Advertiser (Philadelphia, PA).  October 18, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 18, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  November 2, 1808.</reference>
+</election_record>

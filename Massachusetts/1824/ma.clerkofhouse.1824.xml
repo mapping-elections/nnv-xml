@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1824 Clerk of the House of Representatives" type="Legislative" iteration="First Ballot" date="1824" election_id="ma.clerkofhouse.1824" handle="10427/79556" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the House of Representatives" office_id="ON027" scope="State">
+		<role title="Clerk of the House of Representatives" scope="State">
+			<ballot>
+				<candidate name="Pelham W. Warren" name_id="WP0042" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William C. Jarvis" name_id="JW0029" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-09">
+				<candidate_summary candidate_ref="1" vote_total="206" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In the House of Representative .... the votes for Clerk; were reported, that the whole number of votes was 207. .... The two other votes were cast by mistake."  Columbian Centinel (Boston, MA).  May 29, 1824.</note>
+				<note resp="Philip Lampi">Pelham W. Warren received 1 vote as Warren.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium and Commercial Advertiser (Boston, MA).  May 28, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  May 29, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Pittsfield Sun (Pittsfield, MA).  June 3, 1824.</reference>
+</election_record>

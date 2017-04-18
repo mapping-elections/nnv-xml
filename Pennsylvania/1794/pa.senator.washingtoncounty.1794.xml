@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 State Senate, District 11" type="General" iteration="First Ballot" date="1794-10" election_id="pa.senator.washingtoncounty.1794" handle="10427/60802" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Thomas Stokely" name_id="ST0214" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Absalom Baird" name_id="BA0185" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Morton" name_id="MT0128" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David Philips" name_id="PD0070" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joseph Becket" name_id="BJ0963" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-14">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05465" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The General Advertiser (Philadelphia, PA) uses the name Thomas Stockley for Thomas Stokely.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Eleven" geog_id="null">
+					<sub_unit type="County" name="Allegheny" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="1609" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1384" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="455" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="320" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05465">The Pittsburgh Gazette (Pittsburgh, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05465">General Advertiser (Philadelphia, PA).  October 25, 1794.</reference>
+</election_record>

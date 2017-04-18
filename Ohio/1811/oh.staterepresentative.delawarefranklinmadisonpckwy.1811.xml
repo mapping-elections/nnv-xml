@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1811 House of Representatives, Delaware, Franklin, Madison and Pickaway Counties" type="General" iteration="First Ballot" date="1811-10" election_id="oh.staterepresentative.delawarefranklinmadisonpckwy.1811" handle="10427/59196" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="John Barr" name_id="BJ0906" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Huffman" name_id="HJ0345" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-07-09">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Delaware, Franklin, Madison and Pickaway" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Delaware" geog_id="ohs_delaware">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Franklin" geog_id="ohs_franklin">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <sub_unit type="Township" name="Worthington" geog_id="null">
+                            <result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Madison" geog_id="ohs_madison">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Pickaway" geog_id="ohs_pickaway">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Western Intelligencer (Worthington, OH).  October 9, 1811.</reference>
+</election_record>

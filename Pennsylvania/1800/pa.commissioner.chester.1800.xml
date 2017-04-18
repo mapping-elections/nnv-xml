@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Commissioner, Chester County" type="General" iteration="First Ballot" date="1800-10" election_id="pa.commissioner.chester.1800" handle="10427/61120" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Titus Taylor" name_id="TT0092" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Joseph Whinton" name_id="WJ0648" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-26">
+				<candidate_summary candidate_ref="1" vote_total="1973" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1857" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05649" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="1973" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1857" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05649" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05649">Aurora. General Advertiser (Philadelphia, PA).  October 23, 1800.</reference>
+</election_record>

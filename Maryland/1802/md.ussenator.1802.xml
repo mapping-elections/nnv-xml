@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1802 U.S. Senate" type="Legislative" iteration="First Ballot" date="1802" election_id="md.ussenator.1802" handle="10427/27342" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Samuel Smith" name_id="SS0062" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Eager Howard" name_id="HJ0159" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-08">
+				<candidate_summary candidate_ref="1" vote_total="46" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="30" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09754" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09755" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09756" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Senate gave 11 votes and the House of Delegates 65, making the whole 76.</note>
+				<note resp="Philip Lampi">"The General Assembly, have elected Gen. Samuel Smith as Senator to represent this state in Congress after the 4th March next. There were 11 members of the senate attending."  Frederick-Town Herald (Fredericktown, MD).  December 4, 1802.</note>
+				<note resp="Philip Lampi">The Frederick-Town Herald (Fredericktown, MD) lists John Eager Howard with 36 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09754" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09755" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09756" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09754">Votes and Proceedings of the Maryland State Senate, 1802.  10.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09755">The Examiner (Richmond, VA).  November 27, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09756">Frederick-Town Herald (Fredericktown, MD).  December 4, 1802.</reference>
+</election_record>

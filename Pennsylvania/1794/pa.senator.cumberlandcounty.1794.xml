@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 State Senate, District 7" type="General" iteration="First Ballot" date="1794-10" election_id="pa.senator.cumberlandcounty.1794" handle="10427/60781" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Samuel Postlethwait" name_id="PS0079" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Lamberton" name_id="LJ0305" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jonathan Hoge" name_id="HJ0735" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Robert Whitehill" name_id="WR0153" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-12">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05446" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<sub_unit type="County" name="Cumberland" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<sub_unit type="District" name="Carlisle" geog_id="null">
+							<result candidate_ref="1" vote="236" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="41" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Captain George Herenson's Light Infantry Company" geog_id="null">
+							<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Lieutenant Colonel William MacFarlane's Detachment" geog_id="null">
+							<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05446">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 15, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05446">Dunlap and Claypoole's American Daily Advertiser (Philadelphia, PA).  October 23, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">General Advertiser (Philadelphia, PA).  October 24, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  November 12, 1794.</reference>
+</election_record>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1804 U.S. House of Representatives, District 7" type="General" iteration="First Ballot" date="1804" election_id="md.uscongress7.1804" handle="10427/27324" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Joseph H. Nicholson" name_id="NJ0026" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Goldsborough" name_id="GJ0096" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas James" name_id="JT0063" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="George Dawson" name_id="DG0040" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-22">
+				<candidate_summary candidate_ref="1" vote_total="1792" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<result candidate_ref="1" vote="1792" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Caroline" geog_id="mds_caroline">
+						<result candidate_ref="1" vote="600" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Queen Anne's" geog_id="mds_queenanne">
+						<result candidate_ref="1" vote="341" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02387" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Talbot" geog_id="mds_talbot">
+						<result candidate_ref="1" vote="851" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02387">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

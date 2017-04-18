@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="New York 1816 Constable, Hudson, Ward 1" type="General" iteration="First Ballot" date="1816" election_id="ny.constable.hudson.1.1816" handle="10427/68217" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="City">
+		<role title="Constable" scope="Ward">
+			<ballot>
+				<candidate name="James Norcott" name_id="NJ0128" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Paddock" name_id="PJ0299" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="David Porter" name_id="PD0054" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-10">
+				<candidate_summary candidate_ref="1" vote_total="206" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="206" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="156" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Hudson" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="156" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Hudson Bee (Hudson, NY).  April 16, 1816.</reference>
+</election_record>

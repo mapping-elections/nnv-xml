@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Auditor, Philadelphia City and Philadelphia County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.auditor.philadelphiacitycounty.1822" handle="10427/63697" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="District">
+		<role title="Auditor" scope="District">
+			<ballot>
+				<candidate name="John C. Tillinghast" name_id="TJ0545" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Roberts" name_id="RJ0511" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-20">
+				<candidate_summary candidate_ref="1" vote_total="5906" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4444" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07269" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07271" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07275" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) of October 12, the The Union. United States Gazette and True American (Philadelphia, PA) of October 15, the Franklin Gazette (Philadelphia, PA) of  October 16 and Lancaster Intelligencer (Lancaster, PA) report 5908 total votes for John C. Tillinghast in Philadelphia County, but they also report a different Philadelphia County total without listing individual township totals in the county.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="2047" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2623" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="3859" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1821" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) of October 12, the The Union. United States Gazette and True American (Philadelphia, PA) of October 15, the Franklin Gazette (Philadelphia, PA) of  October 16 and Lancaster Intelligencer (Lancaster, PA) report 3861 total votes for John C. Tillinghast in Philadelphia County.  However, The Democratic Press (Philadelphia, PA) and the The Union. United States Gazette and True American (Philadelphia, PA) in their October 10 editions, print all of the township totals in Philadelphia County, the sum of which equals 3859, as they list the total for Tillingham.  The other sources and editions do not include a listing of township totals in the county.</note>
+					<sub_unit type="District" name="Blockley and Kingsessing" geog_id="null">
+						<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Blockley" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Kingsessing" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Bristol" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bustleton" geog_id="null">
+						<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Frankford" geog_id="null">
+						<result candidate_ref="1" vote="190" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Germantown" geog_id="null">
+						<result candidate_ref="1" vote="264" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Kensington" geog_id="null">
+						<result candidate_ref="1" vote="423" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Moyamensing" geog_id="null">
+						<result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+						<result candidate_ref="1" vote="1419" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="714" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Passyunk" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Penn" geog_id="null">
+						<result candidate_ref="1" vote="404" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rose Hill" geog_id="null">
+						<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Roxborough" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Southwark" geog_id="null">
+						<result candidate_ref="1" vote="442" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="296" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07271">The Union. United States Gazette and True American (Philadelphia, PA).  October 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 12, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 12, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07275">The Union. United States Gazette and True American (Philadelphia, PA).  October 15, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07271">Franklin Gazette (Philadelphia, PA).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 19, 1822.</reference>
+</election_record>

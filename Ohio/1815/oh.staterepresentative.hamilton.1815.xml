@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1815 House of Representatives, Hamilton County" type="General" iteration="First Ballot" date="1815-10" election_id="oh.staterepresentative.hamilton.1815" handle="10427/59468" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Ephraim Brown" name_id="BE0253" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Bell" name_id="BP0050" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Burnet" name_id="BJ0912" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel MacHenry" name_id="MS0124" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-14">
+				<candidate_summary candidate_ref="1" vote_total="797" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="761" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="679" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="57" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05219" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+					<result candidate_ref="1" vote="797" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="761" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="679" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="57" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05219" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05219">Liberty Hall (Cincinnati, OH).  October 16, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05219">The Western Spy (Cincinnati, OH).  October 20, 1815.</reference>
+</election_record>

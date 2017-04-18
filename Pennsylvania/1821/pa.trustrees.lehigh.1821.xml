@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Trustee of the Academy, Lehigh County" type="General" iteration="First Ballot" date="1821" election_id="pa.trustrees.lehigh.1821" handle="10427/63505" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="Martin Ritter" name_id="RM0065" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Samuel Stabler" name_id="SS0334" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Solomon Batz" name_id="BS0282" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Jacob Kistler" name_id="KJ0341" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-18">
+				<candidate_summary candidate_ref="1" vote_total="852" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="837" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="406" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="402" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07148" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA) lists the Republicans as Anti-Administration and the Federalists as Administration.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="852" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="837" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="406" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="402" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07148" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07148">The Union. United States Gazette and True American (Philadelphia, PA).  October 23, 1821.</reference>
+</election_record>

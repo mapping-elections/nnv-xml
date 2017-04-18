@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1805 Assembly, Herkimer County" type="General" iteration="First Ballot" date="1805" election_id="ny.assembly.herkimer.1805" handle="10427/25399" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Eldad Corbet" name_id="CE0101" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Widrig" name_id="WG0055" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Wright" name_id="WS0122" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="George Rosecrantz" name_id="RG0043" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Charles Ward" name_id="WC0056" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Daniel Chapman" name_id="CD0093" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-11">
+				<candidate_summary candidate_ref="1" vote_total="1018" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="930" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="840" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="779" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="734" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="476" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04270" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04271" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albany Centinel (Albany, NY) lists Eldad Corbet, George Widrig, and Samuel Wright as "Moderate Republicans" and George Rosencrantz, Charles Ward, and Daniel Chapman as "Violent Republicans."</note>
+				<note resp="Philip Lampi">The Lansingburgh Gazette notes that George Widrig and Samuel Wright "also voted in favor of the Merchants' Bank; and the latter was falsely accused of attempting to bribe one of the members, and acquitted by the house."</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Herkimer" geog_id="null">
+					<result candidate_ref="1" vote="1018" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="930" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="840" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="779" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="734" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="476" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04271" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04270">The Albany Centinel (Albany, NY).  May 10, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04271">The Albany Gazette (Albany, NY).  May 13, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">Lansingburgh Gazette (Lansingburgh, NY).  May 14, 1805.</reference>
+</election_record>

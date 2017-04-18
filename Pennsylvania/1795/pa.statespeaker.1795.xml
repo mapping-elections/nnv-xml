@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 Speaker of the House" type="Legislative" iteration="First Ballot" date="1795" election_id="pa.statespeaker.1795" handle="10427/60840" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the House" office_id="ON104" scope="State">
+		<role title="Speaker of the House" scope="State">
+			<ballot>
+				<candidate name="George Latimer" name_id="LG0031" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Maclay" name_id="MW0293" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="13" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10769" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"A quorum met, 49 members present. Several returns were read. It was moved by Mr. Morgan that the house proceeded to the choice of a speaker. Mr. Smilie objected, as the house might be fuller to morrow. Precedent was cited in favor of proceeding."  The New-York Journal, and Patriotic Register (New York, NY).  December 5, 1795.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10769" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10769">The New-York Journal, and Patriotic Register (New York, NY).  December 5, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10769">The Western Telegraphe, and Washington Advertiser (Washington, PA).  December 15, 1795.</reference>
+</election_record>

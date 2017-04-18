@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1799 State Senate, Middlesex County, Ballot 2" type="Legislative" iteration="Second Ballot" date="1799" election_id="ma.senator.middlesex.2.1799" handle="10427/68903" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Timothy Bigelow" name_id="BT0122" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Eleazer Brooks" name_id="BE0031" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hildreth" name_id="HW0101" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Jonathan Maynard" name_id="MJ0295" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-05">
+				<candidate_summary candidate_ref="1" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="45" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In Convention. The two Houses proceeded to fill the vacancies in the Senate. The votes to fill the two in Middlesex district were 169 - of which the Hon. Eleazer Brooks and Timothy Bigelow, Esq's had each 124 and were chosen."  Columbian Centinel (Boston, MA).  June 1, 1799.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="45" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="45" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  June 1, 1799.</reference>
+</election_record>

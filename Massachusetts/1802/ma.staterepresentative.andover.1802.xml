@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1802 House of Representatives, Andover" type="General" iteration="First Ballot" date="1802-05" election_id="ma.staterepresentative.andover.1802" handle="10427/69061" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Thomas Kittredge" name_id="KT0032" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Phillips" name_id="PJ0215" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2013-12-05">
+                <candidate_summary candidate_ref="1" vote_total="187" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="157" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The federalists in Andover, supported and abetted by several members of the Essex Junto made great exertions at the late election to displace Dr. Kittredge, as Representative for that town. Mr. John Phillips, son of the late Lieut. Governor, was set up by the federalists, in opposition to Dr. Kitteridge; and happy are we to say, that the result has been highly honorable to the latter gentleman, and is the strongest mark of approbation which the inhabitants of that respectable town could bestow on his past conduct in the Legislature--while at the same time, it evinces their determination to support the only true and correct principles of our Republican government. Doctor Kittredge, the republican candidate, had 187 votes, and Mr. Phillips the federal candidate 157--majority for Dr. K. 30--and not 14 as the Gazette has purposely misstated."  The Salem Register (Salem, MA).  May 20, 1802.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Andover" geog_id="null">
+                    <result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Salem Register (Salem, MA).  May 20, 1802.</reference>
+</election_record>
+

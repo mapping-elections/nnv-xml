@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1819 Sheriff, Adams County" type="General" iteration="First Ballot" date="1819" election_id="ms.sheriff.adams.1819" handle="10427/58458" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Forsyth" name_id="FJ0451" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Archibald Lewis" name_id="LA0116" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Forsyth" name_id="FT0095" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-11-30">
+				<candidate_summary candidate_ref="1" vote_total="299" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="279" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15319" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<sub_unit type="Town" name="Natchez" geog_id="null">
+						<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+	<reference type="citation" resp="Philip Lampi">Mississippi Republican (Natchez, MS).  August 3, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15319">The Mississippi State Gazette (Natchez, MS).  August 7, 1819.</reference>
+</election_record>

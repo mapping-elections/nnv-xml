@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1804 Assembly, Essex County" type="General" iteration="First Ballot" date="1804" election_id="ny.assembly.essex.1804" handle="10427/25946" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Theodorus Ross" name_id="RT0073" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Stephen Cuyler" name_id="CS0117" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-25">
+				<candidate_summary candidate_ref="1" vote_total="530" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="336" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Essex" geog_id="null">
+					<result candidate_ref="1" vote="530" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="336" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Chesterfield" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Crown-Point" geog_id="null">
+						<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Elizabeth-Town" geog_id="null">
+						<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Jay" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Schroon" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ticonderoga" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Willsborough" geog_id="null">
+						<result candidate_ref="1" vote="241" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04244" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04244">Republican Watch-Tower (New York, NY).  May 26, 1804.</reference>
+</election_record>

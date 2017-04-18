@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 State Senate, District 1, Special" type="Special" iteration="First Ballot" date="1795-03" election_id="pa.senate.philadelphia.delaware.special.1795" handle="10427/66006" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Israel Whelen" name_id="WI0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samson Levy" name_id="LS0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Ball" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Joseph B. MacKean" name_id="MJ0710" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The returns from Bustletown and Germantown are wanting to complete the Philadelphia County Return; and that of Delaware County to complete the General District Return."  Aurora. General Advertiser (Philadelphia, PA).  March 19, 1795.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<sub_unit type="County" name="Delaware" geog_id="null">
+					</sub_unit>
+					<sub_unit type="City" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="798" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Philadelphia" geog_id="null">
+						<sub_unit type="Township" name="Blockley and Kingsessing" geog_id="null">
+							<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<result candidate_ref="4" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Bustletown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Germantown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Moyamensing and Passyunk" geog_id="null">
+							<result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+							<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Southwark" geog_id="null">
+							<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  March 19, 1795.</reference>
+</election_record>

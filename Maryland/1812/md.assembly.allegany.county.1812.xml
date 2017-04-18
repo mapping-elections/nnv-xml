@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1812 House of Delegates, Allegany County" type="General" iteration="First Ballot" date="1812" election_id="md.assembly.allegany.county.1812" handle="10427/27591" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Roger Perry" name_id="PR0015" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="James D. Cresap" name_id="CJ0253" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="George MacCulloch" name_id="MG0030" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="George Robinette" name_id="RG0031" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Benjamin Tomlinson" name_id="TB0041" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Thomas Porter" name_id="PT0058" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="George Bruce" name_id="BG0029" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="William Price" name_id="PW0052" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="588" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="580" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="577" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="576" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="508" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="501" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="498" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="493" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02747" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02748" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Allegany" geog_id="mds_allegany">
+					<result candidate_ref="1" vote="588" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="580" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="577" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="576" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="508" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="501" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="498" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="493" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02747" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02748" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02748">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 20, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02747">Hagers-town Gazette.  October 20, 1812.</reference>
+</election_record>

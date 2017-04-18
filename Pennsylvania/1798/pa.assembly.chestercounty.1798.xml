@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 House of Representatives, Chester County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.assembly.chestercounty.1798" handle="10427/60963" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Hemphill" name_id="HJ0774" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"/>
+				<candidate name="Abiah Taylor" name_id="TA0036" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas Bull" name_id="BT0234" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Roger Kirk" name_id="KR0009" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="James Hannum" name_id="HJ0760" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John Ralston" name_id="RJ0325" affiliation="Anti-Federalist" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="John Davis" name_id="DJ0407" affiliation="Anti-Federalist" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Samuel Cochran" name_id="CS0172" affiliation="Anti-Federalist" affiliation_id="A03" candidate_num="8"/>
+				<candidate name="John Heister" name_id="HJ0784" affiliation="Anti-Federalist" affiliation_id="A03" candidate_num="9"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-03">
+				<candidate_summary candidate_ref="1" vote_total="4037" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2944" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2926" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2882" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2563" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1659" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1131" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1123" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="1098" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05551" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="4037" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2944" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2926" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2882" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2563" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1659" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1131" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1123" resp="Philip Lampi"/>
+					<result candidate_ref="9" vote="1098" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05551">Porcupine's Gazette (Philadelphia, PA).  October 22, 1798.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1805 House of Representatives, New London, First Representative" type="General" iteration="First Ballot" date="1805" election_id="ct.representative1.firstballot.newlondon.1805" handle="10427/19021" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Lyman Law" name_id="LL0001" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Edward Chappell" name_id="CE0007" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="George Colfax" name_id="CG0001" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Simeon Smith" name_id="SS0005" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-13">
+				<candidate_summary candidate_ref="1" vote_total="126" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01529" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="New London" geog_id="cts_newlondon_newlondon">
+					<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01529" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01529">Connecticut Gazette (New London, CT).  September 18, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">Litchfield Monitor (Litchfield, CT).  September 25, 1805.</reference>
+</election_record>

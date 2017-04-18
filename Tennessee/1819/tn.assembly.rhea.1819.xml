@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1819 House of Representatives, Rhea County" type="General" iteration="First Ballot" date="1819" election_id="tn.assembly.rhea.1819" handle="10427/20800" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James C. Mitchell" name_id="MJ1383" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Preston" name_id="PJ0714" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-12">
+				<candidate_summary candidate_ref="1" vote_total="446" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="167" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08109" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Rhea" geog_id="null">
+					<result candidate_ref="1" vote="446" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="167" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08109" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16912">The Knoxville Register (Knoxville, TN).  August 10, 1819.</reference>
+</election_record>

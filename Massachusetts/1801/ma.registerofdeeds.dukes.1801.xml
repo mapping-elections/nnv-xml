@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1801 Registry of Deeds, Dukes County" type="General" iteration="First Ballot" date="1801" election_id="ma.registerofdeeds.dukes.1801" handle="10427/687" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Registry of Deeds" office_id="ON088" scope="County">
+        <role title="Registrar" scope="County">
+            <ballot>
+                <candidate name="Samuel Smith" name_id="SS0083" affiliation="null" affiliation_id="null" candidate_num="1"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-07-29">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="District" name="Dukes" geog_id="null">
+                    <sub_unit type="County" name="Dukes" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <sub_unit type="Town" name="Chilmark" geog_id="null">
+                        </sub_unit>
+                        <sub_unit type="Town" name="Edgartown" geog_id="null">
+                        </sub_unit>
+                        <sub_unit type="Town" name="Tisbury" geog_id="null">
+                            <result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Tisbury Town Records.  312.</reference>
+</election_record>

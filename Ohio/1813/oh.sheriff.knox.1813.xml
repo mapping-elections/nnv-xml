@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 Sheriff, Knox County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.sheriff.knox.1813" handle="10427/59347" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="John Hawn, Jr." name_id="HJ0327" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="William Mitchel" name_id="MW0084" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-21">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Knox" geog_id="ohs_richland">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Chester" geog_id="null">
+                        <result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Norton, A. Banning.  A History of Knox County, Ohio, From 1779 to 1862 Inclusive.  Columbus, OH: R. Nevins, 1862.  287.</reference>
+</election_record>

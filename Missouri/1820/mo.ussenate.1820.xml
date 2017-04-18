@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="Missouri 1820 U.S. Senate" type="Legislative" iteration="First Ballot" date="1820" election_id="mo.ussenate.1820" handle="10427/56596" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="David Barton" name_id="BD0064" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas H. Benton" name_id="BT0256" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John B.C. Lucas" name_id="LJ0123" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Henry Elliott" name_id="EH0002" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="John Rice Jones" name_id="JJ0151" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Nathaniel Cook" name_id="CN0017" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="version 1.0" modified="2009-02-10">
+				<candidate_summary candidate_ref="1" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="27" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="16" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="8" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This is the initial election after Missouri became a state to elect two United States Senators.</note>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="null" name="State Legislature" geog_id="null">
+					<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="8" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Shoemaker, F. C.  Missouri and Missourians: Land of Contrasts and People of Achievements.  Vol. I.  Chicago: Lewis Publishing, 1943.  410.</reference>
+</election_record>

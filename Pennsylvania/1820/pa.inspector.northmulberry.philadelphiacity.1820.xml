@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Inspector of the General Election, Philadelphia City, North Mulberry Ward" type="General" iteration="First Ballot" date="1820-09" election_id="pa.inspector.northmulberry.philadelphiacity.1820" handle="10427/63430" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Joseph S. Colliday" name_id="CJ0920" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jacob Mechlin" name_id="MJ0932" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph George" name_id="GJ0508" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="George Rex" name_id="RG0076" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Simon Geyer" name_id="GS0102" affiliation="Old School" affiliation_id="A07" candidate_num="5"/>
+				<candidate name="John MacClintock" name_id="MJ1229" affiliation="Old School" affiliation_id="A07" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-22">
+				<candidate_summary candidate_ref="1" vote_total="132" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="129" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="60" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="56" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="48" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07079" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07080" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="North Mulberry" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="48" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  September 30, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  September 30, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  September 30, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07079">The Union. United States Gazette and True American (Philadelphia, PA).  October 3, 1820.</reference>
+</election_record>

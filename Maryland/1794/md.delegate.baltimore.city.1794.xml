@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1794 House of Delegates, Baltimore" type="General" iteration="First Ballot" date="1794-10" election_id="md.delegate.baltimore.city.1794" handle="10427/34009" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="Town">
+			<ballot>
+				<candidate name="Alexander MacKim" name_id="MA0045" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Winchester" name_id="WJ0140" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="401" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="397" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02175" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Baltimore" geog_id="null">
+					<sub_unit type="Town" name="Baltimore" geog_id="null">
+						<result candidate_ref="1" vote="401" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="397" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02175" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02175">Baltimore Daily Intelligencer (Baltimore, MD).  October 10, 1794.</reference>
+</election_record>

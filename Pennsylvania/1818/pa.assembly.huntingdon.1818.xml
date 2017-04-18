@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 House of Representatives, Huntingdon County" type="General" iteration="First Ballot" date="1818-10" election_id="pa.assembly.huntingdon.1818" handle="10427/X" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Robert Young" name_id="YR0008" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John D. Aurandt" name_id="AJ0191" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Martin Graffius" name_id="GM0053" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-11">
+				<candidate_summary candidate_ref="1" vote_total="1953" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1171" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1038" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Republican candidates are listed as Caucus Candidates in The Huntingdon Gazette (Huntingdon, PA) from October 22, 1818.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="1953" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1171" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1038" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Huntingdon Gazette (Huntingdon, PA) lists 2053 votes for Robert Young.</note>
+					<note resp="Philip Lampi">The Huntingdon Gazette (Huntingdon, PA) lists 1070 votes for John D. Aurandt.</note>
+					<sub_unit type="Township" name="Alexandria" geog_id="null">
+						<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="115" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Coffee Run" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Dublin" geog_id="null">
+						<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Frankstown" geog_id="null">
+						<result candidate_ref="1" vote="224" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="136" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="310" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="280" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Shaver's Creek" geog_id="null">
+						<result candidate_ref="1" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="99" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shirley" geog_id="null">
+						<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tell" geog_id="null">
+						<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Tuckahoe" geog_id="null">
+						<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warriors Mark" geog_id="null">
+						<result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Williamsburg" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="108" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Huntingdon Gazette (Huntingdon, PA).  October 22, 1818.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 Treasurer, Dukes County" type="General" iteration="First Ballot" date="1822" election_id="ma.treasurer.dukes.1822" handle="10427/79343" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="County">
+		<role title="Treasurer" scope="County">
+			<ballot>
+				<candidate name="William Cottle" name_id="CW0348" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Jernegan" name_id="JW0026" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jabez Luce" name_id="LJ0606" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Smith" name_id="ST0116" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-15">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Dukes" geog_id="null">
+					<sub_unit type="Town" name="Chilmark" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Edgartown" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Tisbury" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Tisbury Town Records.  413.</reference>
+</election_record>

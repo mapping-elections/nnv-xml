@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="New York 1819 Assembly, Putnam County" type="General" iteration="First Ballot" date="1819" election_id="ny.assembly.putnam.1819" handle="10427/68023" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="David Knapp" name_id="KD0039" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-04">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Putnam" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Carmel" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Kent" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The town of Frederick was renamed to Kent in 1817.  In 1819, some newspapers still referred to the town as Frederick.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Patterson" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Phillipstown" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southeast" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

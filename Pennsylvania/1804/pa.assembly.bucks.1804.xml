@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 House of Representatives, Bucks County" type="General" iteration="First Ballot" date="1804-10" election_id="pa.assembly.bucks.1804" handle="10427/61448" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Smith" name_id="SJ0947" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Milnor" name_id="MW0326" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Smith" name_id="SS0260" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Smith" name_id="SR0223" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="1533" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1502" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1500" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1493" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05920" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="1533" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1502" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1500" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1493" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05920" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05920">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 16, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  November 7, 1804.</reference>
+</election_record>

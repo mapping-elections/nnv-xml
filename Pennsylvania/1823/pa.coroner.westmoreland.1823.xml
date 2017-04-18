@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Coroner, Westmoreland County" type="General" iteration="First Ballot" date="1823" election_id="pa.coroner.westmoreland.1823" handle="10427/65942" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William Mackey" name_id="MW0235" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Graff" name_id="GH0045" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-01">
+				<candidate_summary candidate_ref="1" vote_total="3102" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1690" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Westmoreland" geog_id="null">
+					<result candidate_ref="1" vote="3102" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1690" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Allegheny" geog_id="null">
+						<result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Derry" geog_id="null">
+						<result candidate_ref="1" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Donegal" geog_id="null">
+						<result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="236" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Greensburgh" geog_id="null">
+						<result candidate_ref="1" vote="633" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="365" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Greensburgh" geog_id="null">
+							<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Hempfield" geog_id="null">
+							<result candidate_ref="1" vote="452" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Mount Pleasant" geog_id="null">
+							<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Unity" geog_id="null">
+							<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="113" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Ligonier" geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Mount Pleasant" geog_id="null">
+						<result candidate_ref="1" vote="254" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="228" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="North Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="273" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rostraver" geog_id="null">
+						<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Salem" geog_id="null">
+						<result candidate_ref="1" vote="228" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="South Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Youngstown" geog_id="null">
+						<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Westmoreland Republican (Greensburgh, PA) lists Youngstown as the Unity District.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Greensburgh Gazette (Greensburg, PA).  October 17, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Westmoreland Republican (Greensburgh, PA).  October 17, 1823.</reference>
+</election_record>

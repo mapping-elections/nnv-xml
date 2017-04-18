@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 House of Representatives, Delaware County" type="General" iteration="First Ballot" date="1789-10" election_id="pa.assembly.delawarecounty.1789" handle="10427/60604" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Hugh Lloyd" name_id="LH0046" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Riley" name_id="RR0041" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-18">
+				<candidate_summary candidate_ref="1" vote_total="1022" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="728" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05370" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="1022" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="728" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05370" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Minutes of the First Session of the Fourteenth General Assembly of the Commonwealth of Pennsylvania, 1789.  5.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05370">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  October 17, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 21, 1789.</reference>
+</election_record>

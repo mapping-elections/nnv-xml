@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 State Senate, Bedford and Rutherford Counties" type="General" iteration="First Ballot" date="1817" election_id="tn.statesenate.5.1817" handle="10427/20713" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Jonathan Webster" name_id="WJ0961" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert H. Dyre" name_id="DR0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-09">
+				<candidate_summary candidate_ref="1" vote_total="2551" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1322" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08092" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="District" name="Bedford and Rutherford" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08092" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bedford" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08092" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Rutherford" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08092" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Readyville" geog_id="null">
+							<result candidate_ref="1" vote="279" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

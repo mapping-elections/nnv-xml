@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Assistant Burgess, Pittsburgh Borough" type="General" iteration="First Ballot" date="1803-05" election_id="pa.assistantburgesses.pittsburgh.1803" handle="10427/66177" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Burgess" office_id="ON008" scope="Borough">
+		<role title="Assistant Burgess" scope="Borough">
+			<ballot>
+				<candidate name="William Earls" name_id="EW0005" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hays" name_id="HW0035" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Mowry" name_id="MP0111" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Collins" name_id="CT0022" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James B. Clow" name_id="CJ0760" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Z. Tannehill" name_id="TZ0000" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="John Gormly" name_id="GJ0077" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Samuel MacCord" name_id="MS0163" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-29">
+				<candidate_summary candidate_ref="1" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="129" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="102" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="98" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The town officers were a chief burgess, a burgess and four assistant burgesses, a town clerk, a high constable, two assessors, and two supervisors.  The duties of the assistant burgesses were to assist the cheif burgess and the burgess in the performance of their duties."  Pittsburgh: A Sketch of Its Early Social Life, 101.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny">
+					<sub_unit type="Borough" name="Pittsburgh" geog_id="null">
+						<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="98" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  May 21, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Dahlinger, Charles W.  Pittsburgh: A Sketch of Its Early Social Life.  New York: The Knickerbocker Press, 1916.  101.</reference>
+</election_record>

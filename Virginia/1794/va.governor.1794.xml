@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1794 Governor" type="Legislative" iteration="First Ballot" date="1794" election_id="va.governor.1794" handle="10427/65087" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Robert Brooke" name_id="BR0139" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Wood" name_id="WJ0983" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<note resp="Philip Lampi"></note>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-04-15">
+				<candidate_summary candidate_ref="1" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="60" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23623" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Meeting in joint session, the two houses then elected Robert Brooke over Federalist James Wood (who had been Lieutenant Governor) by a margin of 90 to 60."  Chesapeake Politics, 1781-1800.  448/</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="House of Delegates" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23623">Risjord, Norman K.  Chesapeake Politics, 1781-1800.  New York: Columbia University Press, 1978.  448.</reference>
+</election_record>

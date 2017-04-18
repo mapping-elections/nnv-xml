@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1814 State Senate, New Orleans" type="General" iteration="First Ballot" date="1814" election_id="la.statesenate.neworleans.1814" handle="10427/57861" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="City">
+			<ballot>
+				<candidate name="Thomas Urquhart" name_id="UT0000" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Augustin Macarty" name_id="MA0041" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-09">
+				<candidate_summary candidate_ref="1" vote_total="569" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="175" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12517" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="City" name="New Orleans" geog_id="null">
+					<result candidate_ref="1" vote="569" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="175" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12517" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12517">The Louisiana Gazette and New-Orleans Advertiser (New Orleans, LA).  July 7, 1814.</reference>
+</election_record>

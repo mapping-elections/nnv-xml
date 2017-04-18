@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1823 Surveyor General, Ballot 3" type="Legislative" iteration="Third Ballot" date="1823" election_id="ga.surveyorgeneral3.1823" handle="10427/56071" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Surveyor" office_id="ON115" scope="State">
+		<role title="Surveyor" scope="State">
+			<ballot>
+				<candidate name="Thomas Mitchell" name_id="MT0007" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Sturges" name_id="SD0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-14">
+				<candidate_summary candidate_ref="1" vote_total="87" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="79" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10287" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10287" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Southern Recorder (Milledgeville, GA).  November 25, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10287">Niles' Weekly Register (Baltimore, MD).  Vol. 25.  178, 230.</reference>
+</election_record>

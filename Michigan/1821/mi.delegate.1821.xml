@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Michigan 1821 U.S. House of Representatives (Territorial Delegate)" type="General" iteration="First Ballot" date="1821-09" election_id="mi.delegate.1821" handle="10427/17784" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="Solomon Sibley" name_id="SS0143" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Augustus B. Woodward" name_id="WA0083" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James MacCloskey" name_id="MJ0359" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Abraham Edwards" name_id="EA0004" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Griffin" name_id="GJ0073" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="514" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="309" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="268" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01028" resp="Philip Lampi"/>
+				<note resp="Philiip Lampi">"By the oficial return of the votes given at the late election in this territory, for Delegate to Congress it appears that Mr. Sibley's majority over the highest candidate opposed to him, is 207."  True American (Trenton, NJ).  November 17, 1821.</note>
+				<note resp="Philip Lampi">Augustus B. Woodward received 1 vote as Augustin B. Woodward and 1 vote as Austin B. Woodward.</note>
+			</overview>
+			<admin_unit type="Territory" name="Michigan" geog_id="null">
+				<sub_unit type="County" name="Brown" geog_id="null">
+					<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Macomb" geog_id="null">
+					<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="74" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Michilimackinac" geog_id="null">
+					<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Monroe" geog_id="null">
+					<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Oakland" geog_id="null">
+					<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Saint Clair" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Wayne" geog_id="null">
+					<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="133" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">True American (Trenton, NJ).  November 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01028">Carter, Clarence Edwin, ed.  The Territorial Papers of the United States.  Vol. XI.  Washington, DC: U.S. Government Printing Office, 1942.  193-204.</reference>
+</election_record>

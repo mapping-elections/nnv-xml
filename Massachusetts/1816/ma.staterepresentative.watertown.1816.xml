@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 House of Representatives, Watertown" type="General" iteration="First Ballot" date="1816-05" election_id="ma.staterepresentative.watertown.1816" handle="10427/34083" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Thomas Clark" name_id="CT0116" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William White" name_id="WW0133" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-10-27">
+				<candidate_summary candidate_ref="1" vote_total="66" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="66" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03613" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Voted to send two representatives.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Watertown" geog_id="null">
+					<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03613" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03613">Watertown Records.  Vol. 8.  214.</reference>
+</election_record>

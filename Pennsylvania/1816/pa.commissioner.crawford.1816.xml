@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Commissioner, Crawford County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.commissioner.crawford.1816" handle="10427/66863" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Foster" name_id="FW0115" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Andrews" name_id="AH0018" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Curry" name_id="CJ0580" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="310" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="85" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="310" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="232" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  October 12, 1816.</reference>
+</election_record>

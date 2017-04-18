@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 House of Representatives, Lewiston" type="General" iteration="First Ballot" date="1812-05" election_id="ma.staterepresentative.lewiston.1812" handle="10427/69949" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Joel Thompson" name_id="TJ0148" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Dan Read" name_id="RD0040" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Ezra Purrington" name_id="PE0144" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-13">
+				<candidate_summary candidate_ref="1" vote_total="76" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="67" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Lewiston" geog_id="null">
+					<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Hodgkin, Douglas I., ed.  Records of Lewiston, Maine.  Vol. I.  Rockport, ME: Picton Press, 2001.  96.</reference>
+</election_record>

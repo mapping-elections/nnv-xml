@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 House of Representatives, Montgomery County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.assembly.montgomerycounty.1796" handle="10427/60882" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Cadwallader Evans" name_id="EC0027" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Schultz" name_id="SA0181" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Tyson" name_id="TJ0418" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Shoemaker" name_id="SJ0952" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Brooks" name_id="BB0076" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Nathaniel Boileau" name_id="BN0080" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Henry Pawling" name_id="PH0041" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Davis" name_id="null" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-21">
+				<candidate_summary candidate_ref="1" vote_total="1338" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="933" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="874" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="752" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="714" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="692" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="595" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="336" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05506" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) uses the spelling Shultz for Abraham Schultz.</note>
+				<note resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA) uses the name Bellew for Nathaniel Boileau and Brooke for Benjamin Brooks.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="1338" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="933" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="874" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="752" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="714" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="692" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="595" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="336" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05506">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA).  October 14, 1796.</reference>
+</election_record>

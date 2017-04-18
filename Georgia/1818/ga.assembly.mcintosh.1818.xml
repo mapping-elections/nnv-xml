@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1818 House of Representatives, McIntosh County" type="General" iteration="First Ballot" date="1818" election_id="ga.assembly.mcintosh.1818" handle="10427/19289" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="James Spalding" name_id="SJ0109" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="W. R. MacIntosh" name_id="MW0026" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="J. L. Hopkins" name_id="HJ0072" affiliation="null" affiliation_id="null" candidate_num="3"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2006-06-19">
+        <candidate_summary candidate_ref="1" vote_total="122" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="111" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="89" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01671" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="McIntosh" geog_id="null">
+          <result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="89" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01671" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01671">Savannah Republican (Savannah, GA).  October 8, 1818.</reference>
+</election_record>

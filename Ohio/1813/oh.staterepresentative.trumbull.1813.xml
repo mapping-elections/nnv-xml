@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 House of Representatives, Trumbull County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.staterepresentative.trumbull.1813" handle="10427/59331" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Benjamin Ross" name_id="RB0056" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Leavitt" name_id="LS0065" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Seth Tracy" name_id="TS0082" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Gifford" name_id="GJ0163" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Nathan Seely" name_id="SN0004" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Cavil Austin" name_id="AC0007" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Jacob Easton" name_id="EJ0092" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Simon Perkins" name_id="PS0070" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-10">
+				<candidate_summary candidate_ref="1" vote_total="715" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="456" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="380" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05191" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05192" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="715" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="456" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="380" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<result candidate_ref="7" resp="Philip Lampi"/>
+					<result candidate_ref="8" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05191" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05192" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"The votes from Canfield were rejected as illegally returned; they however would not have altered the election. A great number of scattering votes were given." Trump of Fame (Warren, OH), October 19, 1813.</note>
+					<sub_unit type="Township" name="null" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns of Unknown Township.  Western Reserve Historical Society, Cleveland.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05191">Trump of Fame (Warren, OH).  October 19, 1813.</reference>
+</election_record>

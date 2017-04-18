@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 House of Representatives, York County" type="General" iteration="First Ballot" date="1804-10" election_id="pa.assembly.york.1804" handle="10427/61501" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Matthew Clark" name_id="CM0060" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Adam Hendrix" name_id="HA0148" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Spangler" name_id="SG0089" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Michael Helman" name_id="HM0067" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Stouffer" name_id="SD0134" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Anthony Hinkle" name_id="HA0149" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-03">
+				<candidate_summary candidate_ref="1" vote_total="2133" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1289" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1253" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="879" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="853" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05965" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Die Harrisburger Morgenrothe (Harrisburg, PA) lists Michael Helman as Michael Hellman.</note>
+				<note resp="Philip Lampi">"Matthew Clark and Adam Hendrix for the Assembly...run in both Tickets." The York Recorder (York, PA).  October 18, 1804.</note>
+				<note resp="Philip Lampi">"The moderate republican ticket prevailed throughout York county, over the high flyers, viz. For assembly, George Spangler, Michael Helman, Mathew Clark and Adam Hendrix." The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 20, 1804.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="2133" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2122" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1289" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1253" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="879" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="853" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05965" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05965">The York Recorder (York, PA).  October 18, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">American Eagle (Easton, PA).  October 20, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Die Harrisburger Morgenrothe (Harrisburg, PA).  October 20, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 20, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  November 7, 1804.</reference>
+</election_record>

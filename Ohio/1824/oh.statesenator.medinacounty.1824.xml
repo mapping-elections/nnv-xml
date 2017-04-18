@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 State Senate, Medina and Portage Counties" type="General" iteration="First Ballot" date="1824-10" election_id="oh.statesenator.medinacounty.1824" handle="10427/60308" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Aaron Norton" name_id="NA0033" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elkanah Richardson" name_id="RE0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Moore" name_id="MJ0699" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-17">
+				<candidate_summary candidate_ref="1" vote_total="1060" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="377" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="23" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Medina and Portage" geog_id="null">
+					<result candidate_ref="1" vote="1060" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="377" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05349" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Medina" geog_id="ohs_medina">
+						<result candidate_ref="1" vote="358" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05349" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Portage" geog_id="ohs_portage">
+						<result candidate_ref="1" vote="702" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="377" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05354" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19721" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05349">Cleaveland Herald (Cleveland, OH).   October 29, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05354">Cleaveland Herald (Cleveland, OH).  November 5, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19721">The Ohio Repository (Canton, OH).  November 11, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  November 12, 1824.</reference>
+</election_record>

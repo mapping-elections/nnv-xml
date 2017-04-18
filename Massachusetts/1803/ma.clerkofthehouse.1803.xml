@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 Clerk of the House of Representatives" type="Legislative" iteration="First Ballot" date="1803" election_id="ma.clerkofthehouse.1803" handle="10427/69454" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Clerk of the House of Representatives" office_id="ON027" scope="State">
+        <role title="Clerk of the House of Representatives" scope="State">
+            <ballot>
+                <candidate name="Nicholas Tillinghast" name_id="TN0022" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Skinner" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Kilborn Whitman" name_id="WK0000" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-03-13">
+                <candidate_summary candidate_ref="1" vote_total="116" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="65" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="16" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10449" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The votes for Clerk were 197--necessary to make a choice 99; ... Mr. Tillinghast was accordingly declared to be elected."  Columbian Minerva (Dedham, MA).  May 31, 1803.</note>
+                <note resp="Philip Lampi">"Extract of a letter from our Correspondent at Boston, dated 26th April [sic], 1803. 'Yesterday was a proud day for Massachusetts. For five years we have not seen so paramount a display of genuine federalism. Our new legislature convened. The democrats had for a few days fondly hoped for a majority in the House; and their whole force was on the ground, officered and equipped. They had fixed on Mr. Morton for speaker; and a young man by the name of Skinner, son of General Skinner, of Berkshire, for Clerk. The federalists too, were alert. They made their arrangments with much cordiality and spirit. Local prepossessions and personal considerations gave way to the general principle. Mr. Nicholas Tillinghast, the gentleman who was lately removed by Granger from the post-office in Taunton, and who is a man of consideration, science and eloquence, had 116 votes of 197. Mr. Kilborn Whitman, also, a firm federalist, and who was the federal candidate for clerk last year, when Warren succeeded, had 16;--Skinner 65, which was the whole strength of the democrats then in the House.'"  New-York Evening Post (New York, NY).  May 30, 1803.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="null" name="General Court" geog_id="null">
+                    <sub_unit type="null" name="House of Representatives" geog_id="null">
+                        <result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="null" name="State Senate" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  May 26, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 27, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 28, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  May 30, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Minerva (Dedham, MA).  May 31, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10449">Frederick-Town Herald (Fredericktown, MD).  June 11, 1803.</reference>
+</election_record>
+

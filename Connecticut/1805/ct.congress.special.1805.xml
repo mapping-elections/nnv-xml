@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1805 U.S. House of Representatives, Special" type="Special" iteration="First Ballot" date="1805-09" election_id="ct.congress.special.1805" handle="10427/79665" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="State">
+			<ballot>
+				<candidate name="Timothy Pitkin, Jr." name_id="PT0001" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lewis B. Sturges" name_id="SL0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-09">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Special Election to replace Calvin Goddard and Roger Griswold, who resigned in 1805 before the convening of the Ninth Congress.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<result candidate_ref="1" resp="Philip Lampi"/>
+				<result candidate_ref="2" resp="Philip Lampi"/>
+				<sub_unit type="County" name="Fairfield" geog_id="null">
+					<sub_unit type="Town" name="Danbury" geog_id="null">
+						<result candidate_ref="1" vote="197" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="197" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Fairfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Hartford" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Litchfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Middlesex" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="New Haven" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="New London" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Tolland" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New England Republican (Danbury, CT).  September 18, 1805.</reference>
+</election_record>

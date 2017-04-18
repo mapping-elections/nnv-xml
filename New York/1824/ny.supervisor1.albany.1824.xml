@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Supervisor, Albany, Ward 1" type="General" iteration="First Ballot" date="1824" election_id="ny.supervisor1.albany.1824" handle="10427/65667" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Supervisor" office_id="ON113" scope="City">
+		<role title="Supervisor" scope="Ward">
+			<ballot>
+				<candidate name="James MacKown" name_id="MJ0448" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Friend Humphrey" name_id="HF0015" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-18">
+				<candidate_summary candidate_ref="1" vote_total="225" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="133" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Munsell, Joel.  The Annals of Albany.  Vol. VII.  Albany, NY: J. Munsell, 1855.  104.</reference>
+</election_record>

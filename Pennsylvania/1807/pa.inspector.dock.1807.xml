@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Inspector of the General Election, Philadelphia City, Dock Ward" type="General" iteration="First Ballot" date="1807-10" election_id="pa.inspector.dock.1807" handle="10427/61787" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Joseph S. Lewis" name_id="LJ0365" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Lownes" name_id="LJ0331" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Purdon" name_id="PJ0508" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-13">
+				<candidate_summary candidate_ref="1" vote_total="83" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06171" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06173" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The United States' Gazette (Philadelphia, PA) from October 3 lists John Purdon as a "Democratick" candidate for Inspector who received one vote. The paper also lists Joseph S. Lewis with 83 votes and Joseph Lownes with 82 votes. Both The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) from October 5 and The Democratic Press (Philadelphia, PA) from October 3 list no opposition to Joseph S. Lewis and Joseph Lownes. The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) lists Joseph S. Lewis with 81 votes and Joseph Lownes with 80 votes. The Democratic Press (Philadelphia, PA) states only that "the federal candidate had 80 votes."</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Dock" geog_id="null">
+						<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06171" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06172" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06173" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 3, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 3, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06171">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 5, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06173">The True American and Commercial Advertiser (Philadelphia, PA).  October 5, 1807.</reference>
+</election_record>

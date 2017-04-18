@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 Surveyor General, District 5" type="Legislative" iteration="First Ballot" date="1817" election_id="tn.surveyor.1817" handle="10427/64970" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Surveyor" office_id="ON115" scope="State">
+        <role title="Surveyor" scope="District">
+            <ballot>
+                <candidate name="Robert Armstrong" name_id="AR0059" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="John S. Fulton" name_id="FJ0028" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Robert Lindsey" name_id="LR0017" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-06">
+                <candidate_summary candidate_ref="1" vote_total="34" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="20" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="5" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null"> 
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                </sub_unit> 
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Journal of the Tennessee House of Representatives, 1817.  127.</reference>
+</election_record>

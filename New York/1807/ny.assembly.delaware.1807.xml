@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1807 Assembly, Delaware County" type="General" iteration="First Ballot" date="1807" election_id="ny.assembly.delaware.1807" handle="10427/67050" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John T. Moore" name_id="MJ0512" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Gabriel North" name_id="NG0009" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Patrick Lamb" name_id="LP0038" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="David Phelps" name_id="PD0045" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-26">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Colchester" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Delhi" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Franklin" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Hancock" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Harpersfield" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Kortright" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Meredith" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Middletown" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Pinesfield" geog_id="null">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Roxbury" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Sidney" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Stamford" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Walton" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pinefield Town Records.  Delaware County Clerk and Archives Office, Delhi.</reference>
+</election_record>

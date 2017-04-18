@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Commissioner, Lehigh County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.commissioner.lehigh.1820" handle="10427/67949" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Abraham Schafer" name_id="SA0222" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Philip Klein" name_id="KP0014" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-05">
+				<candidate_summary candidate_ref="1" vote_total="1489" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1274" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="1489" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1274" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Allentown" geog_id="null">
+						<result candidate_ref="1" vote="576" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="655" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Hanover" geog_id="null">
+							<result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="North Whitehall" geog_id="null">
+							<result candidate_ref="1" vote="140" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Borough" name="Northamptown" geog_id="null">
+							<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Salisbury" geog_id="null">
+							<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="129" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Saucon" geog_id="null">
+							<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="South Whitehall" geog_id="null">
+							<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Grimm's" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="251" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Heidelberg" geog_id="null">
+						<result candidate_ref="1" vote="320" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Heidelberg" geog_id="null">
+							<result candidate_ref="1" vote="269" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Lowhill" geog_id="null">
+							<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="445" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="306" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Macungie" geog_id="null">
+							<result candidate_ref="1" vote="233" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Upper Milford" geog_id="null">
+							<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="128" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Der Friedens-Bothe und Lecha. Northampton, Bucks und Montgomery Caunties wochentlicher Anzeiger (Allentown, PA).  October 12, 1820.</reference>
+</election_record>

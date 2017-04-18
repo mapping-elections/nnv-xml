@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Treasurer, Hamilton County, Cincinnati Township" type="General" iteration="First Ballot" date="1824-04" election_id="oh.treasurer.cincinnati.1824" handle="10427/60473" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Treasurer" office_id="ON122" scope="Township">
+        <role title="Treasurer" scope="Township">
+            <ballot>
+                <candidate name="Richard Fosdick" name_id="FR0003" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Richard L. Coleman" name_id="CR0065" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-28">
+                <candidate_summary candidate_ref="1" vote_total="1283" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="88" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+                    <sub_unit type="Township" name="Cincinnati" geog_id="null">
+                        <result candidate_ref="1" vote="1283" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The National Republican and Ohio Political Register (Cincinnati, OH).  April 9, 1824.</reference>
+</election_record>

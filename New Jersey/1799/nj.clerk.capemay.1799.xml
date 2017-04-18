@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New Jersey 1799 Clerk, Cape May" type="Legislative" iteration="First Ballot" date="1799" election_id="nj.clerk.capemay.1799" handle="10427/68376" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Clerk" office_id="ON023" scope="County">
+        <role title="Clerk" scope="County">
+            <ballot>
+                <candidate name="Jeremiah Hand" name_id="HJ0247" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Ebenezer Newton" name_id="NE0003" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2013-04-24">
+                <candidate_summary candidate_ref="1" vote_total="31" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="16" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"CAPE-MAY. ... Jeremiah Hand and Ebenezer Newton, esquires, being in nomination for clerk of the pleas, the meeting proceeded to the choice, when the votes stood as follow: ... Whereby it appeared that Mr. Hand was duly chosen; his commission to take effect from and after the 20th of November next."  Journal of the New Jersey State Assembly, 1799.  42-43.</note>
+                <note resp="Philip Lampi">"CAPE MAY.--Jeremiah Hand, appointed clerk of the county, after the expiration of office of Ebenezer Newton. State of the Votes.--Newton, 16. Hand, 31."  New-Jersey Journal (Elizabethtown, NJ).  November 7, 1799.</note>
+            </overview>
+            <admin_unit type="State" name="New Jersey" geog_id="null">
+                <sub_unit type="null" name="In convention" geog_id="null">
+                    <result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                    <sub_unit type="null" name="Legislative Council" geog_id="null">
+                        <result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="null" name="General Assembly" geog_id="null">
+                        <result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Journal of the New Jersey State Assembly, 1799.  42-43.</reference>
+    <reference type="citation" resp="Philip Lampi">New-Jersey Journal (Elizabethtown, NJ).  November 7, 1799.</reference>
+</election_record>
+

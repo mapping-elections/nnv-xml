@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 State Senate, Lancaster and York Counties" type="General" iteration="First Ballot" date="1790-10" election_id="pa.senator.lancaster.york.1790" handle="10427/60683" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Michael Schmyser" name_id="SM0113" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note><note resp="Philip Lampi">The Pennsylvania Herald, and York General Advertiser (York, PA) uses the spelling Smyser for Michael Schmyser.</note></candidate>
+				<candidate name="Sebastian Graff" name_id="GS0070" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Adam Hubley, Jr." name_id="HA0133" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" vote_total="3394" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2899" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2730" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05398" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05411" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Lancaster and York" geog_id="null">
+					<result candidate_ref="1" vote="3394" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2899" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2730" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Lancaster" geog_id="null">
+						<result candidate_ref="1" vote="1752" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1216" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1209" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="York" geog_id="null">
+						<result candidate_ref="1" vote="1642" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1683" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1521" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania State Senate.  4.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05398">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 20, 1790.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05411">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 21, 1790.</reference>
+</election_record>

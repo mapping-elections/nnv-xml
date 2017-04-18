@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1797 Legislative Council, Cumberland County" type="General" iteration="First Ballot" date="1797" election_id="nj.legislativecouncil.cumberland.1797" handle="10427/58605" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Samuel Ogden" name_id="OS0019" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ebenezer Elmer" name_id="EE0016" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-25">
+				<candidate_summary candidate_ref="1" vote_total="222" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="206" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="222" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

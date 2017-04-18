@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1809 Assembly, Cortland County" type="General" iteration="First Ballot" date="1809" election_id="ny.assembly.cortland.1809" handle="10427/67947" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Ephraim Fish" name_id="FE0052" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="John Keep" name_id="KJ0210" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+           <candidate name="John Kingman" name_id="KJ0216" affiliation="null" affiliation_id="null" candidate_num="3"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2014-02-27">
+           <candidate_summary candidate_ref="1" vote_total="459" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="446" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Cortland" geog_id="null">
+              <result candidate_ref="1" vote="459" resp="Philip Lampi"/>
+              <result candidate_ref="2" vote="446" resp="Philip Lampi"/>
+              <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Cincinnatus" geog_id="null">
+                <result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Homer" geog_id="null">
+                <result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Preble" geog_id="null">
+                <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Solon" geog_id="null">
+                <result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Truxton" geog_id="null">
+                <result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Virgil" geog_id="null">
+                <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>
+

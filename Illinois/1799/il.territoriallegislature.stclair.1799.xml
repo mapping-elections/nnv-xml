@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1799 Territorial Legislature, Saint Clair County" type="General" iteration="First Ballot" date="1799" election_id="il.territoriallegislature.stclair.1799" handle="10427/56049" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="Shadrach Bond" name_id="BS0067" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac Darneille" name_id="DI0007" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-16">
+				<candidate_summary candidate_ref="1" vote_total="113" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="72" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Saint Clair" geog_id="null">
+					<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">History of Saint Clair County, Illinois.  Philadelphia: Brink, McDonough and, Philadelphia, 1881.  70-71.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1806 House of Commons, Rutherford County" type="General" iteration="First Ballot" date="1806-08" election_id="nc.houseofcommons.rutherford.1806" handle="10427/43496" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Felix Walker" name_id="WF0041" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Terrel" name_id="TJ0373" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Porter" name_id="PW0175" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Withrow" name_id="WJ0505" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Abraham Crow" name_id="CA0122" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Hugh Mills" name_id="MH0078" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-04">
+				<candidate_summary candidate_ref="1" vote_total="729" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="664" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="608" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="388" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="72" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="62" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04807" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Rutherford" geog_id="null">
+					<result candidate_ref="1" vote="729" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="664" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="608" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="388" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="72" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="62" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04807" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04807">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  September 1, 1806.</reference>
+</election_record>

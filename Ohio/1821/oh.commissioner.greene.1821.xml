@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 Commissioner, Greene County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.commissioner.greene.1821" handle="10427/60010" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="William Buckles" name_id="BW0247" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Robert Watkins" name_id="WR0018" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Tinsley Heath" name_id="HT0037" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-21">
+                <candidate_summary candidate_ref="1" vote_total="489" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="191" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="100" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The Ohio Interior Gazette (Xenia, OH) lists William Buckles with 487 votes, but the township totals add up to 489.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Greene" geog_id="ohs_greene">
+                    <result candidate_ref="1" vote="489" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="191" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="100" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Bath" geog_id="null">
+                        <result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Beaver Creek" geog_id="null">
+                        <result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Caesar Creek" geog_id="null">
+                        <result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Miami" geog_id="null">
+                        <result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Ross" geog_id="null">
+                        <result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Silver Creek" geog_id="null">
+                        <result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Sugar Creek" geog_id="null">
+                        <result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Xenia" geog_id="null">
+                        <result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19532" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19532">Ohio Interior Gazette (Xenia, OH).  November 22, 1821.</reference>
+</election_record>

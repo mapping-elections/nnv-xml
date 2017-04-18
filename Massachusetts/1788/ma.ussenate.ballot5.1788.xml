@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1788 U.S. Senate, Ballot 6" type="Legislative" iteration="Sixth Ballot" date="1788-11" election_id="ma.ussenate.ballot5.1788" handle="10427/68736" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Nathan Dane" name_id="DN0011" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Tristram Dalton" name_id="DT0022" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-02-21">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="71" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The whole number of votes cast in the House was 145, with 73 votes needed to have the required majority vote.</note>
+				</sub_unit>
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"A message from the Hon. Senate was received, non-concurring the choice of Mr. Dane, and again sending down Mr. Dalton - on which, another motion for referring to the next session, was discussed, and lost."  The Hampshire Chronicle (Springfield, MA).  December 3, 1788.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Hampshire Chronicle (Springfield, MA).  December 3, 1788.</reference>
+</election_record>

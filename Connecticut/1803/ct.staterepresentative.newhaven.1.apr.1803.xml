@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1803 House of Representatives, New Haven, First Representative" type="General" iteration="First Ballot" date="1803-04" election_id="ct.staterepresentative.newhaven.1.apr.1803" handle="10427/16848" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Elizur Goodrich" name_id="GE0001" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Levi Ives" name_id="IL0000" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-06">
+				<candidate_summary candidate_ref="1" vote_total="300" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="11" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01507" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01508" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="New Haven" geog_id="cts_newhaven_newhaven">
+					<result candidate_ref="1" vote="300" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01507" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01508" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01507">The Visitor (New Haven, CT).  April 12, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01508">National Intelligencer and Washington Advertiser (Washington, DC).  April 20, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01508">The True American and Commercial Advertiser (Philadelphia, PA).  April 20, 1803.</reference>
+</election_record>

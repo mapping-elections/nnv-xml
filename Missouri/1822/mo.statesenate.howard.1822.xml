@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1822 State Senate, Howard County" type="General" iteration="First Ballot" date="1822" election_id="mo.statesenate.howard.1822" handle="10427/56604" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Benjamin H. Reeve" name_id="RB0044" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert W. Morris" name_id="MR0055" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-18">
+				<candidate_summary candidate_ref="1" vote_total="904" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="162" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11476"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Howard" geog_id="null">
+					<result candidate_ref="1" vote="904" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="162" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11476"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11476">Missouri Intelligencer (Franklin, MO).  August 13, 1822.</reference>
+</election_record>

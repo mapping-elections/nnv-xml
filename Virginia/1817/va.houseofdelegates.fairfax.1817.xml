@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1817 House of Delegates, Fairfax County" type="General" iteration="First Ballot" date="1817" election_id="va.houseofdelegates.fairfax.1817" handle="10427/33184" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Robert T. Thompson" name_id="TR0061" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John W. Ashton" name_id="AJ0391" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William H. Fitzhugh" name_id="FW0140" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-29">
+				<candidate_summary candidate_ref="1" vote_total="250" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="182" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="123" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09074" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09075" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The two former elected.  With respect to the poll for Mr. Fitzhugh, we believe it was opened without his privity or consent."  Alexandria Gazette, Commercial and Political (Alexandria, VA).  April 24, 1817.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Fairfax" geog_id="null">
+					<result candidate_ref="1" vote="250" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="182" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="123" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09074" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09075" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09074">The Alexandria Herald (Alexandria, VA).  April 23, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09075">Alexandria Gazette, Commercial and Political (Alexandria, VA).  April 24, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09075">National Intelligencer (Washington, DC).  April 24, 1817.</reference>
+</election_record>

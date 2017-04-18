@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 Auditor, Shelby County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.auditor.shelby.1821" handle="10427/60006" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Auditor" office_id="ON013" scope="County">
+        <role title="Auditor" scope="County">
+            <ballot>
+                <candidate name="James Wells" name_id="WJ0260" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="David Henry" name_id="HD0030" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-21">
+                <candidate_summary candidate_ref="1" vote_total="66" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="46" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19530" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Shelby" geog_id="ohs_shelby">
+                    <result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19530" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19530" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Orange" geog_id="null">
+                        <result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19530" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Perry" geog_id="null">
+                        <result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19530" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Turtle Creek" geog_id="null">
+                        <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19530" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19530">Original Shelby County Election Returns.</reference>
+</election_record>

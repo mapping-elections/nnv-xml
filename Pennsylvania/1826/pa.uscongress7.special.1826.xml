@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1826 U.S. House of Representatives, District 7, Special" type="Special" iteration="First Ballot" date="1826-10" election_id="pa.uscongress7.special.1826" handle="10427/65708" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Jacob Krebs" name_id="KJ0258" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Keck" name_id="KG0037" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-11-16">
+				<candidate_summary candidate_ref="1" vote_total="5063" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2859" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">In the room of Henry Wilson esquire deceased.</note>
+				<note resp="Philip Lampi">Though the county totals printed in The Berks and Schuylkill Journal (Reading, PA) only total 5045 votes, the Original Returns credit Jacob Krebs with 5063 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<result candidate_ref="1" vote="5063" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2859" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Berks" geog_id="null">
+						<result candidate_ref="1" vote="2976" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2116" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Lehigh" geog_id="null">
+						<result candidate_ref="1" vote="1545" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="485" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Schuylkill" geog_id="null">
+						<result candidate_ref="1" vote="524" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="258" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  October 14, 1826.</reference>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  October 21, 1826.</reference>
+</election_record>

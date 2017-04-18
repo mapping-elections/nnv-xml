@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Commissioner, Butler County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.commissioner.butlercounty.1823" handle="10427/60180" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Dennis Ball" name_id="BD0118" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Burnap" name_id="BG0102" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="1416" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="419" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05331" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Butler" geog_id="ohs_butler">
+					<result candidate_ref="1" vote="1416" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="419" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05331" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05331">Hamilton Intelligencer and Advertiser (Hamilton, OH).  October 20, 1823.</reference>
+</election_record>

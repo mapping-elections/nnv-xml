@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1788 Sheriff, Baltimore County" type="General" iteration="First Ballot" date="1788" election_id="md.sheriff.baltimore.1788" handle="10427/57986" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas Rutter, Jr." name_id="RT0132" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Henry Stevenson" name_id="SH0026" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Absalom Butler" name_id="BA0066" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="George Franciscus" name_id="FG0013" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Thomas Constable" name_id="CT0080" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="John Smith" name_id="SJ0179" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Benjamin Rogers" name_id="RB0008" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="2059" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1175" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="748" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="379" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="354" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="180" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="118" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02163" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02164" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14000" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Maryland Journal, and the Baltimore Advertiser (Baltimore, MD) lists George Franciscus with 334 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Baltimore County" geog_id="null">
+					<result candidate_ref="1" vote="2059" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1175" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="748" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="379" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="354" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="180" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="118" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02163" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02164" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14000">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02164">The Maryland Gazette: or, the Baltimore General Advertiser (Baltimore, MD).  October 14, 1788.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02163">The Maryland Journal, and the Baltimore Advertiser (Baltimore, MD).  October 14, 1788.</reference>
+</election_record>

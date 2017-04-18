@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Inspector of the General Election, Philadelphia City, North Mulberry Ward" type="General" iteration="First Ballot" date="1816-09" election_id="pa.inspector.northmulberry.1816" handle="10427/66989" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="James J. Rush" name_id="RJ0478" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Peterson" name_id="PH0047" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel J. Robbins" name_id="RS0111" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joseph Calladay" name_id="CJ0753" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-26">
+				<candidate_summary candidate_ref="1" vote_total="164" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="163" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="95" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The attempt failed, which was made last week, to unite the Democratic Party in the city and county of Philadelphia, by forming one General Ticket, out of two published by the opposing sections of that Party. This failure enabled the Federalists to elect their Candidates, for Inspectors, in 10 of the 14 Wards of the City." The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 5, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="North Mulberry" geog_id="null">
+						<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="95" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  September 28, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  September 28, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  September 30, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 2, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 5, 1816.</reference>
+</election_record>

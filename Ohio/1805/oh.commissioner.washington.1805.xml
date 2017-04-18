@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1805 Commissioner, Washington County" type="General" iteration="First Ballot" date="1805-10" election_id="oh.commissioner.washington.1805" handle="10427/58967" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="John Sharp" name_id="SJ0890" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="William R. Putnum" name_id="PW0188" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-13">
+                <candidate_summary candidate_ref="1" vote_total="258" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="179" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Washington" geog_id="ohs_washington">
+                    <result candidate_ref="1" vote="258" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="179" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Adams" geog_id="null">
+                        <result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Belpre" geog_id="null">
+                        <result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Grandview" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Marietta" geog_id="null">
+                        <result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Newport" geog_id="null">
+                        <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Waterford" geog_id="null">
+                        <result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Washington County Election Returns.</reference>
+</election_record>

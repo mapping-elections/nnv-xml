@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1814 U.S. House of Representatives, District 6" type="General" iteration="First Ballot" date="1814" election_id="ny.uscongress6.1814" handle="10427/25646"	xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Jonathan Fisk" name_id="FJ0199" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonas Storey" name_id="SJ0738" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas R. Cornell" name_id="CT0057" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jonas Stera" name_id="SJ0576" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-18">
+				<candidate_summary candidate_ref="1" vote_total="2345" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="660" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00743" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<result candidate_ref="1" vote="2345" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="660" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Orange" geog_id="null">
+						<result candidate_ref="1" vote="2345" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="660" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00743" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Blooming Grove" geog_id="null">
+							<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Cornwall" geog_id="null">
+							<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Deerpark" geog_id="null">
+							<result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Goshen" geog_id="null">
+							<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Minisink" geog_id="null">
+							<result candidate_ref="1" vote="350" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Monroe" geog_id="null">
+							<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Montgomery" geog_id="null">
+							<result candidate_ref="1" vote="338" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="New Windsor" geog_id="null">
+							<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Newburgh" geog_id="null">
+							<result candidate_ref="1" vote="324" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Wallkill" geog_id="null">
+							<result candidate_ref="1" vote="307" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Warwick" geog_id="null">
+							<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Orange County Gazette, and Public Advertiser (Goshen, NY).  May 10, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Orange County Patriot; or, the Spirit of Seventy-Six (Goshen, NY).  May 10, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  May 13, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00743">The Columbian (New York, NY).  June 10, 1814.</reference>
+</election_record>

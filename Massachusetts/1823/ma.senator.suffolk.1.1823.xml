@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1823 State Senate, Suffolk County, Special" type="Special" iteration="First Ballot" date="1823-06" election_id="ma.senator.suffolk.1.1823" handle="10427/79444" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="George Sullivan" name_id="SG0185" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Russell" name_id="RB0040" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-02">
+				<candidate_summary candidate_ref="1" vote_total="163" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="117" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to fill the seat of John Phillips, deceased.</note>
+				<note resp="Philip Lampi">"The committee on the ballots reported, the whole number to be 280 - 141 necessary to a choice."  Columbian Centinel (Boston, MA).  June 7, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  June 7, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Pittsfield Sun (Pittsfield, MA).  June 12, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Village Register, and Norfolk County Advertiser (Dedham, MA).  June 13, 1823.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1795 House of Delegates, Sussex County" type="General" iteration="First Ballot" date="1795" election_id="va.houseofdelegates.sussex.1795" handle="10427/32383" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Robert Booth" name_id="BR0160" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Mason" name_id="MJ1314" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Charles Nicholson" name_id="NC0020" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-08">
+				<candidate_summary candidate_ref="1" vote_total="236" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="234" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="115" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08323" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">William Massenburg and John Mason are elected and served, according to both the 1918 and the 1978 Registers of the General Assembly of Virginia.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Sussex" geog_id="null">
+					<result candidate_ref="1" vote="236" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="234" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="115" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08323" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08323">Sussex County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

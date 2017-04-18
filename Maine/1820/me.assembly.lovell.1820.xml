@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1820 House of Representatives, Lovell, Sweden and Waterford" type="General" iteration="First Ballot" date="1820" election_id="me.assembly.lovell.1820" handle="10427/58284" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="Josiah Shaw" name_id="SJ0012" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Eben Rice" name_id="RE0004" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Benjamin Webber" name_id="WB0024" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-13">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="District" name="Lovell, Sweden and Waterford" geog_id="null">
+                    <sub_unit type="Town" name="Lovell" geog_id="null">
+                        <result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Sweden" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Waterford" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Lovell Town Records.</reference>
+</election_record>

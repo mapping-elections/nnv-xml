@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1807 Assembly, Richmond County" type="General" iteration="First Ballot" date="1807" election_id="ny.assembly.richmond.1807" handle="10427/25718" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="David Merserau" name_id="MD0105" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Conner" name_id="CR0076" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-02">
+				<candidate_summary candidate_ref="1" vote_total="371" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="285" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04313" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="371" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="285" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04313" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Public Advertiser (New York, NY), May 2, lists 225 votes for Richard Conner in Richmond county.</note>
+					<sub_unit type="Town" name="Castleton" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04313" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Northfield" geog_id="null">
+						<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04313" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southfield" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04313" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Westfield" geog_id="null">
+						<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04313" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Public Advertiser (New York, NY).  May 2, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Watch-Tower (New York, NY).  May 2, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04313">Republican Watch-Tower (New York, NY).  May 5, 1807.</reference>
+</election_record>

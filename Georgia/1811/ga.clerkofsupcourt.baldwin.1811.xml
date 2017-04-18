@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1811 Clerk of the Superior Court, Baldwin County" type="General" iteration="First Ballot" date="1811-10" election_id="ga.clerkofsupcourt.baldwin.1811" handle="10427/56038" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Superior Court" office_id="ON031" scope="County">
+		<role title="Clerk of the Superior Court" scope="County">
+			<ballot>
+				<candidate name="Thomas H. Kenan" name_id="KT0002" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard W. Ellis" name_id="ER0003" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="629" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="49" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Baldwin" geog_id="null">
+					<result candidate_ref="1" vote="629" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Georgia Journal (Milledgeville, GA).  October 16, 1811.</reference>
+</election_record>

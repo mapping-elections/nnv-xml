@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1799 State Senate, Norfolk County, Ballot 2" type="Legislative" iteration="Second Ballot" date="1799" election_id="ma.senator.norfolk.2.1799" handle="10427/68904" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Seth Bullard" name_id="BS0035" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Read" name_id="RJ0542" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ebenezer Thayer" name_id="TE0036" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Aspinwall" name_id="AW0021" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Nathaniel Ames" name_id="AN0008" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Nathaniel Bailey" name_id="BN0010" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-08">
+				<candidate_summary candidate_ref="1" vote_total="128" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="127" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In Convention. The two Houses proceeded to fill the vacancies in the Senate. .... In Norfolk, three vacancy. Votes 172. The Hon. Ebenezer Thayer had 127, Hon. John Read, 127, Hon. Seth Bullard, Esquires, 128, and were chosen."  Columbian Centinel (Boston, MA).  June 1, 1799.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Norfolk" geog_id="null">
+					<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="127" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  June 1, 1799.</reference>
+</election_record>
+

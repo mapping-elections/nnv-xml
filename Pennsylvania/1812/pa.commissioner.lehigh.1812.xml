@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Commissioner, Lehigh County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.commissioner.lehigh.1812" handle="10427/66262" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Fenstermacher" name_id="FW0095" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Yeakel" name_id="YJ0046" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Greisheimer" name_id="GA0099" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Haas" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Saeger" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Yunde" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-13">
+				<candidate_summary candidate_ref="1" vote_total="1115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1074" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1057" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="515" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="483" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="439" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Der unabhangige Republikaner und Lecha County Freyheits Freund (Allentown, PA) from October 23 states that William Fenstermacher was elected for three years, John Yeakel for two years, and Abraham Greishemer for one year.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="1115" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1074" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1057" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="515" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="483" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="439" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Allentown" geog_id="null">
+						<result candidate_ref="1" vote="383" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="356" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="357" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="400" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="394" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="371" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Grimm's" geog_id="null">
+						<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="387" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="376" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="376" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="57" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Saeger's" geog_id="null">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="190" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Der unabhangige Republikaner und Lecha County Freyheits Freund (Allentown, PA).  October 23, 1812.</reference>
+</election_record>

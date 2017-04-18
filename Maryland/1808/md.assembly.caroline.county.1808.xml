@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1808 House of Delegates, Caroline County" type="General" iteration="First Ballot" date="1808" election_id="md.assembly.caroline.county.1808" handle="10427/27370" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Perrigine F. Bayard" name_id="BP0027" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Peter Willis" name_id="WP0027" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Richard Hughlett" name_id="HR0054" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Young" name_id="YJ0004" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Wallis Dixon" name_id="DW0040" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="John Boon" name_id="BJ0333" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-05-06">
+				<candidate_summary candidate_ref="1" vote_total="546" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="544" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="542" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="538" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02518" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Federal Republican lists 546 votes for Richard Hughlett.</note>
+				<note resp="Philip Lampi">Richard Hughlett was later stated to be a Republican.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Caroline" geog_id="mds_caroline">
+					<result candidate_ref="1" vote="546" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="544" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="542" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="538" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02518" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Federal Republican and Commercial Gazette (Baltimore, MD).  August 17, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02518">American, and Commercial Daily Advertiser (Baltimore, MD).  October 8, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02518">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 8, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Herald, and Hager's-Town Weekly Advertiser (Hagerstown, MD).  October 14, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Frederick-Town Herald (Fredericktown, MD).  August 12, 1809.</reference>
+</election_record>

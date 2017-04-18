@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 House of Representatives, Philadelphia City" type="General" iteration="First Ballot" date="1795-10" election_id="pa.assembly.philadelphiacity.1795" handle="10427/60827" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="George Latimer" name_id="LG0031" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin R. Morgan" name_id="MB0074" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Francis Gurney" name_id="GF0011" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Hiltzheimer" name_id="HJ0736" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lawrence Seckle" name_id="SL0042" affiliation="Federalist" affiliation_id="A01" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Waln" name_id="WR0132" affiliation="Federalist" affiliation_id="A01" candidate_num="6"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Pettit" name_id="PC0037" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Israel Israel" name_id="II0000" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+				<candidate name="Ferguson MacIlvaine" name_id="MF0017" affiliation="Republican" affiliation_id="A03" candidate_num="9"/>
+				<candidate name="Henry Kammerer" name_id="KH0037" affiliation="Republican" affiliation_id="A03" candidate_num="10"/>
+				<candidate name="Jacob Lawerswyler" name_id="LJ0320" affiliation="Republican" affiliation_id="A03" candidate_num="11"/>
+				<candidate name="William Barton" name_id="BW0270" affiliation="Republican" affiliation_id="A03" candidate_num="12"/>
+				<candidate name="Joseph Hopkinson" name_id="HJ0757" affiliation="Republican" affiliation_id="A03" candidate_num="13"/>
+				<candidate name="Benjamin Say" name_id="SB0099" affiliation="Republican" affiliation_id="A03" candidate_num="14"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="1648" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1620" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1618" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1591" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1586" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1493" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1093" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1033" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="1032" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="10" vote_total="1021" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="11" vote_total="1020" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="12" vote_total="1007" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="13" vote_total="73" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="14" vote_total="25" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05478" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Aurora General Advertiser uses the name Lawrence Seekle for Lawrence Seckle and Jacob L. Sawyer for Jacob Lawerswyler.</note>
+				<note resp="Philip Lampi">Neue Philadelphische Correspondez uses the name Loren Seckel for Lawrence Seckle, Henry Rammerer for Henry Kammerer, Benjamin Gay for Benjamin Say, and Jacob Lamerschmeiler for Jacob Lawerswyler.</note>
+				<note resp="Philip Lampi">Neue Philadelphische Correspondenz (Philadelphia, PA) reports 1593 votes for Robert Waln.  October 16, 1795.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="1648" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1620" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1618" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1591" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1586" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1493" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1093" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1033" resp="Philip Lampi"/>
+					<result candidate_ref="9" vote="1032" resp="Philip Lampi"/>
+					<result candidate_ref="10" vote="1021" resp="Philip Lampi"/>
+					<result candidate_ref="11" vote="1020" resp="Philip Lampi"/>
+					<result candidate_ref="12" vote="1007" resp="Philip Lampi"/>
+					<result candidate_ref="13" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="14" vote="25" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05478">Aurora. General Advertiser (Philadelphia, PA).  October 15, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi">Neue Philadelphische Correspondenz (Philadelphia, PA).  October 16, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi">Baumann, Roland Milton.  The Democratic-Republicans of Philadelphia: The Origins, 1776-1797.  Dissertation, Penn. State, 1970.  616.</reference>
+</election_record>

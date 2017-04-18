@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1816 Alderman, Hudson, Ward 2" type="General" iteration="First Ballot" date="1816" election_id="ny.alderman.hudson.2.1816" handle="10427/68156" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Alderman" office_id="ON001" scope="City">
+      <role title="Alderman" scope="City">
+        <ballot>
+           <candidate name="Jonathan Frary" name_id="FJ0206" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+           <candidate name="Barnabus Waterman" name_id="WB0061" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+           <candidate name="James Van Deusen" name_id="VJ0142" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+           <candidate name="John Gaul" name_id="GJ0319" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-04-22">
+           <candidate_summary candidate_ref="1" vote_total="157" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="156" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="57" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="57" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Hudson" geog_id="null">
+              <sub_unit type="Ward" name="Two" geog_id="null">
+                <result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="156" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="57" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="57" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">The Hudson Bee (Hudson, NY).  April 16, 1816.</reference>
+</election_record>

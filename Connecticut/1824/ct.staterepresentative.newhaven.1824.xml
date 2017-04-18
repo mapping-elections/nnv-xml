@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1824 House of Representatives, New Haven" type="General" iteration="First Ballot" date="1824" election_id="ct.staterepresentative.newhaven.1824" handle="10427/79850" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Cornelius Tuthill" name_id="TC0065" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Dennis Kimberly" name_id="KD0044" affiliation="null" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-20">
+				<candidate_summary candidate_ref="1" vote_total="231" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="144" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"A few independent freemen, who did not choose to submit to the dictation of a Caucus, held by a few individuals in a private corner, supported Gen. DENNIS KIMBERLY for second Representative."  Connecticut Herald (New Haven, CT).  April 6, 1824.</note>
+				<note resp="Philip Lampi">"The Election of Mr. Tuthill however was unsuccessfully contensted by a remnant of the 'Soureroots' who supported Gen. Dennis Kimberly for second Representative.  Their votes amounted to 144 - Those for Mr. Tuthill to 231 - with some scattering."  The Pilot (New Haven, CT).  April 13, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="New Haven" geog_id="null">
+					<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="144" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  April 6, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pilot (New Haven, CT).  April 13, 1824.</reference>
+</election_record>

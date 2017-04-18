@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 House of Representatives, Barre" type="General" iteration="First Ballot" date="1809-05" election_id="ma.staterepresentative.barre.1809" handle="10427/69177" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Nathaniel Jones" name_id="JN0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-14">
+				<candidate_summary candidate_ref="1" vote_total="150" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"This town has this day voted to send but one Representative.  The votes were 288 - of which Major N. Jones, the federal candidate, had 150; and is chosen.  We were democratically misrepresented last year.  It is to be hoped that democracy has here fallen, never to rise again."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 6, 1809.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Barre" geog_id="null">
+					<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 6, 1809.</reference>
+</election_record>

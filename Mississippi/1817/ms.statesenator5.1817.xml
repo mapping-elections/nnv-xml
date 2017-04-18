@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1817 State Senate, Adams County" type="General" iteration="First Ballot" date="1817" election_id="ms.statesenator5.1817" handle="10427/58448" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Henry Postlethwaite" name_id="PH0065" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="A. Campbell" name_id="CA0241" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-11-27">
+				<candidate_summary candidate_ref="1" vote_total="400" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="158" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="400" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Natchez" geog_id="null">
+						<result candidate_ref="1" vote="302" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15270" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15270" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15270">Washington Republican (Natchez, MS).  September 6, 1817.</reference>
+</election_record>

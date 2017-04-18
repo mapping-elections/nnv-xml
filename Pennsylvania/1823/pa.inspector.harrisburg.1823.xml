@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Inspector of the General Election, Dauphin County, Harrisburg Borough" type="General" iteration="First Ballot" date="1823" election_id="pa.inspector.harrisburg.1823" handle="10427/65922" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Borough">
+		<role title="Inspector" scope="Borough">
+			<ballot>
+				<candidate name="John A. Stehley" name_id="SJ1048" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Richard T. Jacobs" name_id="JR0047" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-03">
+				<candidate_summary candidate_ref="1" vote_total="248" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="245" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The election yesterday in this borough for Inspector terminated in favour of the Federal party.  JOHN A. STHEHLEY having a majority over RICHARD T. JACOBS of but three votes - the number votes given in was 493.  In 1820 Heister's Inspector had a majority of upwards of sixty."  The Democratic Press (Philadelphia, PA).  October 6, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<sub_unit type="Borough" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="248" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="245" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 6, 1823.</reference>
+</election_record>

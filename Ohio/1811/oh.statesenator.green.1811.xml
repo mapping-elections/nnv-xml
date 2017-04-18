@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1811 State Senate, Greene County" type="General" iteration="First Ballot" date="1811" election_id="oh.statesenator.green.1811" handle="10427/59192" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Jacob Smith" name_id="SJ0897" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William Buckles" name_id="BW0247" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-08">
+				<candidate_summary candidate_ref="1" vote_total="433" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="309" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05158" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"There is one township not heard from, which is not included in the above return, but it cannot materially affect the result."  The Ohio Centinel (Dayton, OH).  October 17, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Greene" geog_id="ohs_greene">
+					<result candidate_ref="1" vote="433" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="309" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05158" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05158">The Ohio Centinel (Dayton, OH).  October 17, 1811.</reference>
+</election_record>

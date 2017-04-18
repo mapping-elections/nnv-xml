@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 House of Representatives, Armstrong, Indiana, Jefferson, and Westmoreland Counties" type="General" iteration="First Ballot" date="1805-10" election_id="pa.assembly.armstrongindianajeffersonwestmoreland.1805" handle="10427/61523" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Henry Allhouse" name_id="AH0014" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacComb" name_id="MJ0924" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Sloan" name_id="SJ1037" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-24">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana, Jefferson and Westmoreland" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05973" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" vote="524" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="516" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="511" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05973" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05973" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05973" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Westmoreland" geog_id="null">
+						<result candidate_ref="1" vote="2152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2165" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2155" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06033" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Votes for Westmoreland and Indiana Counties are combined in The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) from October 26.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05973">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 26, 1805.</reference>
+</election_record>

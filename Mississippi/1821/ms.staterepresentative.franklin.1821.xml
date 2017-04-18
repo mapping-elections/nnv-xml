@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1821" election_id="ms.staterepresentative.franklin.1821" handle="10427/79907" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Barley E. Chaney" name_id="CB0109" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Cotton" name_id="CT0151" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Aloysius M. Kessgan" name_id="KA0064" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Joseph Robertson" name_id="RJ0726" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Andrew MacKenzie" name_id="MA0316" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-17">
+				<candidate_summary candidate_ref="1" vote_total="157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="153" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="149" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="145" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="32" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="149" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="145" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="32" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

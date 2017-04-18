@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1824 U.S. Senate" type="Legislative" iteration="First Ballot" date="1824" election_id="al.ussenator.1824" handle="10427/19072" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Henry Chambers" name_id="CH0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Kelly" name_id="KW0004" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2005-11-02">
+				<candidate_summary candidate_ref="1" vote_total="41" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="39" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09633" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Henry Chambers has been elected Senator from the State of Alabama for the six years ensuing, vice Wm. Kelly the present Senator."  Richmond Enquirer (Richmond, VA).  January 6, 1825.</note>
+				<note resp="Philip Lampi">Henry Chambers would serve less than one year, dying in office on January 24, 1826.</note>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09633" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09633">Richmond Enquirer (Richmond, VA).  January 6, 1825.</reference>
+</election_record>

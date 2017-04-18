@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1804 U.S. House of Representatives, District 8" type="General" iteration="First Ballot" date="1804" election_id="md.uscongress8.1804" handle="10427/27227" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Charles Goldsborough" name_id="GC0057" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Waggaman" name_id="WH0017" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Winder" name_id="WW0073" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-22">
+				<candidate_summary candidate_ref="1" vote_total="2397" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1840" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Eight" geog_id="null">
+					<result candidate_ref="1" vote="2397" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1840" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+						<result candidate_ref="1" vote="588" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="419" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02377" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02391" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="mds_somerset">
+						<result candidate_ref="1" vote="795" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="421" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Federal Gazette and the National Intelligencer and Washington Advertiser list Charles Goldsborough with 775 votes.</note>
+						<note resp="Philip Lampi">The National Intelligencer and Washington Advertiser lists the returns from Somerset County as coming from Dorchester County.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Worcester" geog_id="mds_worcester">
+						<result candidate_ref="1" vote="1014" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1000" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00330" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14334" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02377">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02391">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 8, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">National Intelligencer and Washington Advertiser (Washington, DC).  October 10, 1804.</reference>
+</election_record>

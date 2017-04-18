@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1804 Lieutenant Governor" type="General" iteration="First Ballot" date="1804-05" election_id="ri.ltgovernor.1804" handle="10427/64363" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Lieutenant Governor" office_id="ON073" scope="State">
+		<role title="Lieutenant Governor" scope="State">
+			<ballot>
+				<candidate name="Paul Mumford" name_id="MP0122" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Hoxsie" name_id="HT0200" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-09-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16174" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In many towns the Hon. Thomas Hoxsie had a number of votes for Lieut. Governor."  Newport Mercury (Newport, RI).  April 21, 1804.</note>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="County" name="Bristol" geog_id="ris_bristol">
+				</sub_unit>
+				<sub_unit type="County" name="Kent" geog_id="ris_kent">
+				</sub_unit>
+				<sub_unit type="County" name="Newport" geog_id="ris_newport">
+					<sub_unit type="Town" name="Newport" geog_id="ris_newport_newport">
+						<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="211" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Providence" geog_id="ris_providence">
+				</sub_unit>
+				<sub_unit type="County" name="Washington" geog_id="ris_washington">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16174">The Providence Phoenix (Providence, RI).  April 14, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Newport Mercury (Newport, RI).  April 21, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Herald of the United States (Warren, RI).  May 3, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Rhode-Island Republican (Newport, RI).  May 3, 1804.</reference>
+</election_record>

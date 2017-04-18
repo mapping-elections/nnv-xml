@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New York 1807 Constable, New York, Ward 9" type="General" iteration="First Ballot" date="1807" election_id="ny.constable9.newyork.1807" handle="10427/66941" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="City">
+		<role title="Constable" scope="Ward">
+			<ballot>
+				<candidate name="Ruben Ryder" name_id="RR0037" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Robertson" name_id="RD0057" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Law" name_id="LH0018" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-03">
+				<candidate_summary candidate_ref="1" vote_total="155" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="125" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="100" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="New York" geog_id="null">
+					<sub_unit type="Ward" name="Nine" geog_id="null">
+					<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="100" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Public Advertiser (New York, NY).  November 20, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  November 26, 1807.</reference>
+</election_record>

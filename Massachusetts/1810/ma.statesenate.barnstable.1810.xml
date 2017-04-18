@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1810 State Senate, Barnstable County" type="General" iteration="First Ballot" date="1810" election_id="ma.statesenate.barnstable.1810" handle="10427/69216" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Joseph Dimmick" name_id="DJ0123" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elijah Cobb" name_id="CE0033" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Solomon Freeman" name_id="FS0022" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-11">
+				<candidate_summary candidate_ref="1" vote_total="1151" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 1840.  Make a choice, 941."  Governor's Council Records.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Barnstable" geog_id="null">
+					<result candidate_ref="1" vote="1151" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Barnstable" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Brewster" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dennis" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Eastham" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Falmouth" geog_id="null">
+						<result candidate_ref="1" vote="220" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Harwich" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Orleans" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Provincetown" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Sandwich" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Truro" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Wellfleet" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Yarmouth" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Chatham Town Records.  166.</reference>
+	<reference type="citation" resp="Philip Lampi">Falmouth Town Records.  438-439.</reference>
+	<reference type="citation" resp="Philip Lampi">Provincetown Town Records.  110.</reference>
+	<reference type="citation" resp="Philip Lampi">Truro Town Records.  172.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  May 19, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Pratt, Enoch.  A Comprehensive History, Ecclesiastical and Civil, of Eastham, Wellfleet and Orleans.  Yarmouth, MA: W. S. Fisher and, 1844. 162.</reference>
+</election_record>

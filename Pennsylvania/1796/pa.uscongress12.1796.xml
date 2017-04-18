@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 U.S. House of Representatives, District 12" type="General" iteration="First Ballot" date="1796-10" election_id="pa.uscongress12.1796" handle="10427/60850" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Albert Gallatin" name_id="GA0061" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Woods" name_id="WJ0613" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas Stokeley" name_id="ST0214" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-26">
+				<candidate_summary candidate_ref="1" vote_total="2522" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1079" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="486" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00118X" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05512" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Twelve" geog_id="null">
+					<result candidate_ref="1" vote="2522" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1079" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="486" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Allegheny" geog_id="null">
+						<result candidate_ref="1" vote="465" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="618" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="2057" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="461" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="432" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The returns from Greene County are included in those from Washington County.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05512">Albert Gallatin Papers. Roll 3, Frame 0532.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsburgh Gazette (Pittsburgh, PA).  September 10, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsburgh Gazette (Pittsburgh, PA).  October 15, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Telegraphe, and Washington Advertiser (Washington, PA).  October 18, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">The New World (Philadelphia, PA).  October 28, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 29, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 29, 1796.</reference>
+</election_record>

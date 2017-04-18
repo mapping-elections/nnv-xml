@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1788 U.S. Senate" type="Legislative" iteration="First Ballot" date="1789-01" election_id="nh.ussenate.1789" handle="10427/78779" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Payne Wingate" name_id="WP0051" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="nay" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The House proceeded by ballot to the choice of a Senator to represent this State in the Congress of the United States, instead of the Hon. Josiah Bartlett, Esq. who declined accepting the appointment, and the ballots being counted, there appeared to be a majority in favore of Payne Wingate, Esq.  Upon which the yeas and nays being called, there were 58 yeas and 26 nays, so it passed in the affirmative."  The New-Hampshire Recorder, and the Weekly Advertiser (Keene, NH).  January 13, 1789.</note>
+				<note resp="Philip Lampi">"At the next session, on the first day of January, the House made choice of Paine Wingate for Senator, yeas 58, nays 26, and on the third day of January the Senate concurred."  New Hampshire Provincial and State Papers.  Vol. XXI.  Concord, NH: State of New Hampshire, 1867.  256.</note>
+				<note resp="Philip Lampi">Payne Wingate was assigned by lot to the second class of Senators, giving him a term of four years.</note>
+				<note resp="Philip Lampi">"This gentleman lately represented this state in the Congress of the United States, and is said to be a staunch Federalist."  The New-Hampshire Spy (Portsmouth, NH).  January 6, 1789.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Senate" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-Hampshire Spy (Portsmouth, NH).  January 6, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-Hampshire Recorder, and the Weekly Advertiser (Keene, NH).  January 13, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">New Hampshire Provincial and State Papers.  Vol. XXI.  Concord, NH: State of New Hampshire, 1867.  256.</reference>
+</election_record>

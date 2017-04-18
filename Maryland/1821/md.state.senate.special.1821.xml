@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1821 State Senate, Special" type="Special" iteration="First Ballot" date="1821" election_id="md.state.senate.special.1821" handle="10427/26411" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Reverdy Johnson" name_id="JR0020" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Warner" name_id="WG0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-01">
+				<candidate_summary candidate_ref="1" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10434" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The election of Reverdy Johnson was to fill the seat of General Stricker, who resigned.</note>
+				<note resp="Philip Lampi">"We omitted in yesterday's paper to publish the confirmation of the election on Monday of Reverdy Johnson, Esq. to the Senate, in the place of General Stricker, resigned. The votes stood- For Johnson, 10; Warner, 2."  American, and Commercial Daily Advertiser (Baltimore, MD).  December 13, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="State" name="Maryland" geog_id="null">
+					<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10434" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10434">American, and Commercial Daily Advertiser (Baltimore, MD).  December 13, 1821.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1806 Public Printer" type="Legislative" iteration="First Ballot" date="1806-09" election_id="tn.printer.1806" handle="10427/64911" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Public Printer" office_id="ON083" scope="State">
+        <role title="Public Printer" scope="State">
+            <ballot>
+                <candidate name="Elizabeth Roulstone" name_id="RE0017" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elizabeth Roulstone was elected.</note></candidate>
+                <candidate name="George Wilson" name_id="WG0117" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-11-26">
+                <candidate_summary candidate_ref="1" vote_total="28" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="7" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Elizabeth Roulstone was the widow of the late Public Printer, and the first woman elected to public office by the Tennessee Legislature.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952. 240.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1818 House of Delegates, Henrico County" type="General" iteration="First Ballot" date="1818-04" election_id="va.houseofdelegates.henrico.1818" handle="10427/33154" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Edward C. Mayo" name_id="ME0141" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Selden" name_id="SW0364" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William B. Chamberlayne" name_id="CW0326" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John S. Ellis" name_id="EJ0312" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-30">
+				<candidate_summary candidate_ref="1" vote_total="267" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="201" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="181" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="39" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09140" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Henrico" geog_id="null">
+					<result candidate_ref="1" vote="267" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="201" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="181" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="39" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09140" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09140">Richmond Enquirer (Richmond, VA).  April 7, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09140">The American Beacon and Commercial Diary (Norfolk, VA).  April 10, 1818.</reference>
+</election_record>

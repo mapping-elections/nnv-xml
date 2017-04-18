@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Coroner, Lycoming, McKean and Potter Counties" type="General" iteration="First Ballot" date="1819" election_id="pa.coroner.lycomingmckeanpottercounties.1819" handle="10427/63290" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="District">
+		<role title="Coroner" scope="District">
+			<ballot>
+				<candidate name="Abraham Tallman" name_id="TA0064" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James MacKey" name_id="MJ1213" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-06">
+				<candidate_summary candidate_ref="1" vote_total="675" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="32" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Lycoming, McKean and Potter" geog_id="null">
+					<sub_unit type="County" name="Lycoming" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="McKean" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Potter" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07005" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07005">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

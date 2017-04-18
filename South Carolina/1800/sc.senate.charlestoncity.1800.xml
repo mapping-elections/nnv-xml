@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1800 State Senate, Charleston City" type="General" iteration="First Ballot" date="1800" election_id="sc.senate.charlestoncity.1800" handle="10427/31833" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="City">
+			<ballot>
+				<candidate name="Charles C. Pinckney" name_id="PC0060" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Lee" name_id="LW0216" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-15">
+				<candidate_summary candidate_ref="1" vote_total="623" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="387" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="25" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07524" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07525" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07526" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Bee Holmes is also listed as serving in Biographical Directory of the South Carolina Senate.</note>	
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="623" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="387" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+					<sub_unit type="Parish" name="Saint Michael" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Parish" name="Saint Philip" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07525">City Gazette and Daily Advertiser (Charleston, SC).  October 15, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">South-Carolina State Gazette, and Timothy's Daily Advertiser (Charleston, SC).  October 15, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07524">The Times (Charleston, SC).  October 15, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07524">The Times (Charleston, SC).  October 17, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07524">City Gazette and Daily Advertiser (Charleston, SC).  October 18, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1827.</reference>
+</election_record>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assembly, Franklin County" type="General" iteration="First Ballot" date="1824" election_id="ny.assembly.franklin.1824" handle="10427/65629" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Asa Hascall" name_id="HA0099" affiliation="Clintonian" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="David Erwin" name_id="ED0015" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-11">
+				<candidate_summary candidate_ref="1" vote_total="628" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="402" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Supporters of DeWitt Clinton were known under several labels. While the older Clintonian / Federalist was still used, many were listed and ran as candidates of the People's Party with others favoring the term of Anti-Caucus. Those in opposition to DeWitt Clinton, although mainly Republicans were in this election also being referred to as King Caucus candidates and often called Bucktails.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="628" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="402" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Bangor" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>      
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chateaugay" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Constable" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dickinson" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Fort Covington" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="147" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Malone" geog_id="null">
+						<result candidate_ref="1" vote="207" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">History of Clinton and Franklin Counties, New York.  Philadelphia: J. W. Lewis and, 1880.  399.</reference>
+</election_record>

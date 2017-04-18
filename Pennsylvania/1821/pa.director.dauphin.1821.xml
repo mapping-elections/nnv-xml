@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Director of the Poor, Dauphin County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.director.dauphin.1821" handle="10427/67971" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Samuel Pool" name_id="PS0159" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Sloan" name_id="SR0129" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-22">
+				<candidate_summary candidate_ref="1" vote_total="1324" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1156" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1324" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1156" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Pennsylvania Intelligencer (Harrisburg, PA), October 19; the Lancaster Intelligencer (Lancaster, PA), October 20; the Harrisburg Chronicle (Harrisburg, PA), October 16; and The Oracle of Dauphin (Harrisburg, PA), October 13, report 1328 total votes for Samuel Pool.</note>
+					<sub_unit type="Borough" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="376" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="369" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Pennsylvania Intelligencer (Harrisburg, PA), October 19; the Harrisburg Chronicle (Harrisburg, PA), October 16; and The Oracle of Dauphin (Harrisburg, PA), October 13, report 380 votes for Samuel Pool in Harrisburg. The township votes reported in the Pennsylvania Intelligencer (Harrisburg, PA), October 12, add up to the 376 votes for Pool.</note>
+						<sub_unit type="Borough" name="Box" geog_id="null">
+							<result candidate_ref="1" vote="281" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="231" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Susquehanna" geog_id="null">
+							<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Swatara" geog_id="null">
+							<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 12, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 13, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Chronicle (Harrisburg, PA).  October 16, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 20, 1821.</reference>
+</election_record>

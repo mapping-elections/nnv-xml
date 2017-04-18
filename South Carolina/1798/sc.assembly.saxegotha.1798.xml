@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1798 House of Representatives, Saxe Gotha Parish" type="General" iteration="First Ballot" date="1798" election_id="sc.assembly.saxegotha.1798" handle="10427/31947" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="Robert Stark" name_id="SR0266" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John James Haig" name_id="HJ1222" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Fitzpatrick" name_id="FW0122" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Bynum" name_id="BJ1336" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="West Allen" name_id="AW0152" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-19">
+				<candidate_summary candidate_ref="1" vote_total="103" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="87" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="84" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="81" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07515" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saxe Gotha" geog_id="null">
+					<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="84" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="81" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07515" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07515">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

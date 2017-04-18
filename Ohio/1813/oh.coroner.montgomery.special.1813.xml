@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 Coroner, Montgomery County, Special" type="Special" iteration="First Ballot" date="1813-05" election_id="oh.coroner.montgomery.special.1813" handle="10427/59376" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="James Ritchie" name_id="RJ0175" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="David Squier" name_id="SD0114" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John Riggans" name_id="RJ0154" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="John Grimes" name_id="GJ0134" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="John Curtner" name_id="CJ0231" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Hugh MacCollom" name_id="MH0023" affiliation="null" affiliation_id="null" candidate_num="6"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-03">
+                <candidate_summary candidate_ref="1" vote_total="127" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="23" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="6" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  98.</reference>
+</election_record>

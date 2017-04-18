@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1824 House of Delegates, Sussex County" type="General" iteration="First Ballot" date="1824" election_id="va.houseofdelegates.sussex.1824" handle="10427/33900" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Joseph Mason" name_id="MJ1327" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Harrison" name_id="HW0304" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-26">
+				<candidate_summary candidate_ref="1" vote_total="95" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09627" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Sussex" geog_id="null">
+					<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09627" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09627">Sussex County Poll Book.  Library of Virginia, Richmond.</reference>
+</election_record>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1825 U.S. Senate, Ballot 32" type="Legislative" iteration="Thirty Second Ballot" date="1825-02" election_id="pa.ussenate.election4.5.1825" handle="10427/63990" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="William Marks" name_id="MW0335" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Burnside" name_id="BT0273" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Sergeant" name_id="SJ1073" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Samuel D. Ingham" name_id="IS0001" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-11-13">
+				<candidate_summary candidate_ref="1" vote_total="73" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="27" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10038" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10042" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Last Friday, on the 32nd ballot, this session, William Marks, Esq. Speaker of Senate, was elected a Senator of the U. States, for six years from the 3rd of March next.-- The ballotings have taken place as follows: On the 14th of December, 3 ballots; on the 17th, 5; on the 18th, 2; on the 17th January, 4; on the 31st, 4; on the 14th February, 12; and on the 18th, 5."  Crawford Messenger (Meadville, PA).  March 3, 1825.</note>
+				<note resp="Philip Lampi">"They Adjourned to Friday the 25th when after a few ballots Mr Marks was elected.  The claim to have the Senator east of the Susquehannah was so clear and strong that we are at a loss to account for the result."  Village Record, or Chester and Delaware Federalist (West Chester, PA).  February 23, 1825.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10038">Harrisburg Chronicle (Harrisburg, PA).  February 21, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  February 22, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Village Record, or Chester and Delaware Federalist (West Chester, PA).  February 23, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10042">Crawford Messenger (Meadville, PA).  March 3, 1825.</reference>
+</election_record>

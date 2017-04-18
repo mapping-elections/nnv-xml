@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Auditor, Lebanon County" type="General" iteration="First Ballot" date="1813-10" election_id="pa.auditor.lebanon.1813" handle="10427/62595" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Charles MacLaughlin" name_id="MC0056" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Martin Meily" name_id="MM0063" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Andreas Killinger" name_id="KA0046" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Peter Ensminger" name_id="EP0031" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-27">
+				<candidate_summary candidate_ref="1" vote_total="1250" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1247" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="697" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="549" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="1250" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1247" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="697" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="549" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Die Harrisburger Morgenrothe (Harrisburg, PA).  October 19, 1813.</reference>
+</election_record>

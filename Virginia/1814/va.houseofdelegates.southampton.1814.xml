@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1814 House of Delegates, Southampton County" type="General" iteration="First Ballot" date="1814" election_id="va.houseofdelegates.southampton.1814" handle="10427/33421" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Francis Ridley" name_id="RF0010" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Carr Bowers" name_id="BC0143" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin W. Johnson" name_id="JB0038" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John C. Gray" name_id="GJ0669" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-23">
+				<candidate_summary candidate_ref="1" vote_total="259" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="219" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="159" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="42" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08983" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08984" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Multiple poll books provide alternative results.  The second poll book lists the following return: Francis Ridley 261, Carr Bowers 218, Benjamin W. Johnson 159, and John C. Gray 42."</note>
+				<note resp="Philip Lampi">Multiple poll books provide alternative results.  The third poll book lists the following return: Francis Ridley 259, Carr Bowers 217, Benjamin W. Johnson 159, and John C. Gray 43."</note>
+				<note resp="Philip Lampi">Multiple poll books provide alternative results.  The fourth poll book lists the following return: Francis Ridley 262, Carr Bowers 218, Benjamin W. Johnson 162, and John C. Gray 42."</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Southampton" geog_id="null">
+					<result candidate_ref="1" vote="259" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="219" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="42" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08983" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08984" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08983">Southampton County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 Warden, Boston, Ward 12" type="General" iteration="First Ballot" date="1822" election_id="ma.warden.12.boston.1822" handle="10427/79353" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Warden" office_id="ON131" scope="Ward">
+		<role title="Warden" scope="Ward">
+			<ballot>
+				<candidate name="Eliphalet Williams" name_id="WE0214" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-05-18">
+				<candidate_summary candidate_ref="1" vote_total="281" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole No. 284."  The Repertory (Boston, MA).  April 11, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="scs">
+				<sub_unit type="City" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Twelve" geog_id="null">
+						<result candidate_ref="1" vote="281" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  April 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 11, 1822.</reference>
+</election_record>

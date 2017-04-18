@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 State Senate, Ross County" type="General" iteration="First Ballot" date="1816-10" election_id="oh.statesenator.ross.1816" handle="10427/59539" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="John MacDonald" name_id="MJ0658" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Robinson" name_id="RW0125" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Scott" name_id="ST0206" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-18">
+				<candidate_summary candidate_ref="1" vote_total="610" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="545" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="426" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05242" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ross" geog_id="ohs_ross">
+					<result candidate_ref="1" vote="610" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="545" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="426" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05242" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05242">The Supporter (Chillicothe, OH).  October 15, 1816.</reference>
+</election_record>

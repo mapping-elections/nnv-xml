@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1822 House of Representatives, Saint Bartholomew's Parish" type="General" iteration="First Ballot" date="1822" election_id="sc.assembly.st.bartholomews.1822" handle="10427/32334" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="John Lingard Hunter" name_id="HJ1256" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh L. Campbell" name_id="CH0135" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Raysor" name_id="RJ0611" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Simon Verdier" name_id="VS0023" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Simon Verdier is elected, and was also elected to the South Carolina Senate to replace James Morgan, where he served.</note></candidate>
+				<candidate name="Henry W. Rice" name_id="RH0067" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William Duboise" name_id="DW0205" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-09">
+				<candidate_summary candidate_ref="1" vote_total="333" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="308" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="306" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="287" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="224" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="179" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07937" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Bartholomew's" geog_id="null">
+					<result candidate_ref="1" vote="333" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="308" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="306" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="287" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="224" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="179" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07937" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">City Gazette and Commercial Advertiser (Charleston, SC).  October 19, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07937">Charleston Courier (Charleston, SC).  October 21, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  308.</reference>
+</election_record>

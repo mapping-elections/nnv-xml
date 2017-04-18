@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1811 Legislative Council, Cape May County" type="General" iteration="First Ballot" date="1811" election_id="nj.legislativecouncil.capemay.1811" handle="10427/20687" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Nathaniel Holmes" name_id="HN0034" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elijah Townsend" name_id="TE0049" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Dickerson" name_id="DJ0249" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-30">
+				<candidate_summary candidate_ref="1" vote_total="210" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04004" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The names of Cresse Townsend and Matthew Whillden are listed on the Original Election Returns but received no votes.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cape May" geog_id="null">
+					<result candidate_ref="1" vote="210" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3"  resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04004" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04004" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04004" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04004">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  November 5, 1811.</reference>
+</election_record>

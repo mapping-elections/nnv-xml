@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1819 State Senate, Greene County" type="General" iteration="First Ballot" date="1819" election_id="tn.statesenate.7.1819" handle="10427/20118" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Gass" name_id="GJ0629" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Hugh D. Hale" name_id="HH0124" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-12">
+				<candidate_summary candidate_ref="1" vote_total="830" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="738" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08101" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Greene" geog_id="null">
+					<result candidate_ref="1" vote="830" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="738" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08101" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08101">The Knoxville Register (Knoxville, TN).  August 10, 1819.</reference>
+</election_record>

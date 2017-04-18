@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Auditor, Montgomery County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.auditor.montgomery.1814" handle="10427/67057" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Thomas Amies, Jr." name_id="AT0033" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Crawford" name_id="CJ0737" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaiah Davis" name_id="DI0051" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James B. Harris" name_id="HJ0978" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Thomas Livesley" name_id="LT0110" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Cornelius Tyson" name_id="TC0056" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<sub_unit type="null" name="Camp Marques Hook" geog_id="null">
+							<sub_unit type="null" name="1st Company, Montgomery County Militia" geog_id="null">
+								<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+								<result candidate_ref="3" vote="52" resp="Philip Lampi"/>
+								<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+								<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+								<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="null" name="2nd Company, Montgomery County Militia" geog_id="null">
+								<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+								<result candidate_ref="3" vote="54" resp="Philip Lampi"/>
+								<result candidate_ref="4" vote="25" resp="Philip Lampi"/>
+								<result candidate_ref="5" vote="25" resp="Philip Lampi"/>
+								<result candidate_ref="6" vote="25" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="null" name="3rd Company, Montgomery County Militia" geog_id="null">
+								<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+								<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+								<result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+								<result candidate_ref="5" vote="7" resp="Philip Lampi"/>
+								<result candidate_ref="6" vote="7" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 31, 1814.</reference>
+</election_record>

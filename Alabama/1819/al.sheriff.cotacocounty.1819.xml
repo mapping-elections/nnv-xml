@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1819 Sheriff, Cotaco County" type="General" iteration="First Ballot" date="1819" election_id="al.sheriff.cotacocounty.1819" handle="10427/55829" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Washington Gray" name_id="GW0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Bolen" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="J.T. Rather" name_id="RJ0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Bishop" name_id="BJ0002" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William MacClellan" name_id="MW0001" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Jonathan L. Owen" name_id="OJ0000" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-14">
+				<candidate_summary candidate_ref="1" vote_total="324" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="96" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Cotaco" geog_id="null">
+					<result candidate_ref="1" vote="324" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="127" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="96" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 18, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 25, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  October 2, 1819.</reference>
+</election_record>

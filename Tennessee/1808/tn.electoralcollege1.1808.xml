@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1808 Electoral College, District 1" type="General" iteration="First Ballot" date="1808" election_id="tn.electoralcollege1.1808" handle="10427/64928" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="District">
+            <ballot>
+                <elector name="James Sevier" name_id="SJ0037" affiliation="Republican" affiliation_id="A03" declared_for="James Madison" elector_num="1"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-04-08">
+                <elector_summary elector_ref="1" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16712" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17155" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"We are requested to state that James Sevier, Esq. will be a candidate at the ensuing election for elector of the President and Vice President in the Washington district and that, if elected he will vote for Mr. Madison for President, and exercise his judgement for the public good in selecting the Vice President."</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="One" geog_id="null">
+                    <sub_unit type="County" name="Carter" geog_id="tns_carter">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Greene" geog_id="tns_greene">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Hawkins" geog_id="tns_hawkins">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sullivan" geog_id="tns_sullivan">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Washington" geog_id="tns_washington">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16712">Wilson's Knoxville Gazette (Knoxville, TN).  June 1, 1808.</reference>
+    <reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

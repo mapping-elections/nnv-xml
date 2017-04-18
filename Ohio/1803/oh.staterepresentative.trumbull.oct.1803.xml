@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1803 House of Representatives, Trumbull County" type="General" iteration="First Ballot" date="1803-10" election_id="oh.staterepresentative.trumbull.oct.1803" handle="10427/58889" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="David Abbott" name_id="AD0027" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Ephraim Quinby" name_id="QE0000" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Amos Spafford" name_id="SA0160" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="David Hudson" name_id="HD0033" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-05">
+                <candidate_summary candidate_ref="1" vote_total="22" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="19" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+                    <result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Kennedy, James Harrison.  A History of the City of Cleveland.  Cleveland: Imperial Press, 1896.  118.</reference>
+    <reference type="citation" resp="Philip Lampi">Orth, Samuel P.  A History of Cleveland, Ohio.  Chicago: S. J. Clarke, 1910.  233.</reference>
+    <reference type="citation" resp="Philip Lampi">Whittlesey, Charles.  Early History of Cleveland, Ohio.  Cleveland, 1867.  389.</reference>
+</election_record>

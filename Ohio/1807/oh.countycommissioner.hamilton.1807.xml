@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1807 Commissioner, Hamilton County" type="General" iteration="First Ballot" date="1807" election_id="oh.countycommissioner.hamilton.1807" handle="10427/59045" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Riddle" name_id="RJ0279" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Joseph Prince" name_id="PJ0367" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-23">
+				<candidate_summary candidate_ref="1" vote_total="564" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="208" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05130" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+					<result candidate_ref="1" vote="564" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05130" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Cincinnati" geog_id="null">
+						<result candidate_ref="1" vote="229" resp="Philip Lampi"/>
+						<result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Liberty Hall and Cincinnati Mercury (Cincinnati, OH).  October 16, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05130">Liberty Hall and Cincinnati Mercury (Cincinnati, OH).  October 26, 1807.</reference>
+</election_record>

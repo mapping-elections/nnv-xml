@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1811 Speaker of the House" type="Legislative" iteration="First Ballot" date="1811" election_id="vt.speakerofthehouse.1811" handle="10427/78657" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="Dudley Chase" name_id="CD0206" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="George Robinson" name_id="RG0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-06-23">
+                <candidate_summary candidate_ref="1" vote_total="114" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The Northern Centinel (Burlington, VT) reports 144 votes for Dudley Chase.</note>
+                <note resp="Philip Lampi">The Vermont Republican (Windsor, VT) and The Northern Centinel (Burlington, VT): "Geo. Robinson, Esq. and scattering, 72. Majority for Chase, 42."</note>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Vermont Republican (Windsor, VT).  October 14, 1811.</reference>
+    <reference type="citation" resp="Philip Lampi">Northern Centinel (Burlington, VT).  October 17, 1811.</reference>
+</election_record>
+

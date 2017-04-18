@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New Jersey 1799 Clerk" type="Legislative" iteration="First Ballot" date="1799" election_id="nj.clerk.cumberland.1799" handle="10427/68377" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Clerk" office_id="ON023" scope="County">
+        <role title="Clerk" scope="County">
+            <ballot>
+                <candidate name="James Giles" name_id="GJ0502" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Ebenezer Elmer" name_id="EE0016" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2013-04-22">
+                <candidate_summary candidate_ref="1" vote_total="27" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="21" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"CUMBERLAND. James Giles, esquire, requested leave, in writing, to resign his commission as clerk of the pleas; Resolved, That his resignation be accepted.  Ebenezer Elmer and James Giles, esquires, being in nomination, the meeting proceeded to the choice of a clerk, when the votes were as follow: ... Whereby it appeared that James Giles, esquire, was duly chosen."  Journal of the New Jersey State Assembly, 1799.  40.</note>
+                <note resp="Philip Lampi">"CUMBERLAND.--James Giles, re-appointed clerk of the county. State of the Votes.--Giles, 27. Elmer, 21."  New-Jersey Journal (Elizabethtown, NJ).  November 7, 1799.</note>
+            </overview>
+            <admin_unit type="State" name="New Jersey" geog_id="null">
+                <sub_unit type="null" name="In convention" geog_id="null">
+                    <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                    <sub_unit type="null" name="Legislative Council" geog_id="null">
+                        <result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="null" name="General Assembly" geog_id="null">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Journal of the New Jersey State Assembly, 1799.  40.</reference>
+    <reference type="citation" resp="Philip Lampi">New-Jersey Journal (Elizabethtown, NJ).  November 7, 1799.</reference>
+</election_record>
+

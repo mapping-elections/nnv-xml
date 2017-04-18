@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1810 Assembly, Schoharie County" type="General" iteration="First Ballot" date="1810" election_id="ny.assembly.schoharie.1810" handle="10427/25509" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Henry Becker" name_id="BH0044" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Hager" name_id="HH0044" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Fitch" name_id="FT0040" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-27">
+				<candidate_summary candidate_ref="1" vote_total="2018" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1258" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="931" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schoharie" geog_id="null">
+					<result candidate_ref="1" vote="2018" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1258" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="931" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Blenheim" geog_id="null">
+						<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="44" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Broome" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="100" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="36" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Cobleskill" geog_id="null">
+						<result candidate_ref="1" vote="313" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="128" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="228" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="63" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Middleburgh" geog_id="null">
+						<result candidate_ref="1" vote="364" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="206" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Columbian (New York, NY) of June 12 lists Hentry Becker with 366 votes.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Sharon" geog_id="null">
+						<result candidate_ref="1" vote="417" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="208" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04396" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Columbian (New York, NY) of June 12 lists Thomas Fitch with 202 votes.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04396">The Albany Register (Albany, NY).  June 5, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  June 12, 1810.</reference>
+</election_record>

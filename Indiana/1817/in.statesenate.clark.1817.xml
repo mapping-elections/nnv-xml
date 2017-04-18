@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1817 State Senate, Clark County" type="General" iteration="First Ballot" date="1817" election_id="in.statesenate.clark.1817" handle="10427/56419" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James Beggs" name_id="BJ0165" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Bartholomew" name_id="BJ0162" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="434" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="378" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Clark" geog_id="null">
+					<sub_unit type="Township" name="Bethlehem" geog_id="null">
+						<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Charlestown" geog_id="null">
+						<result candidate_ref="1" vote="316" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Collings" geog_id="null">
+						<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greenville" geog_id="null">
+						<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Jeffersonville" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="New Albany" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Woods" geog_id="null">
+						<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Robertson, Nellie Armstrong and Dorothy Riker, ed.  The John Tipton Papers.  Vol. I, 1809-1827.  Indianapolis: Indiana Historical Bureau, 1942.  137.</reference>
+</election_record>

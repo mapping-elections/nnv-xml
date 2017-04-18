@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1824 House of Representatives, Claremont District" type="General" iteration="First Ballot" date="1824" election_id="sc.assembly.claremont.1824" handle="10427/32391" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Francis Leggette Kennedy" name_id="KF0009" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Vaughan" name_id="VH0017" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Dugan" name_id="DT0103" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-12">
+				<candidate_summary candidate_ref="1" vote_total="456" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="431" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="423" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08013" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Claremont" geog_id="null">
+					<result candidate_ref="1" vote="456" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="431" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="423" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08013" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08013">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  310.</reference>
+</election_record>

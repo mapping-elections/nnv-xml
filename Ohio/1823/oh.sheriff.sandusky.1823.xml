@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Sheriff, Sandusky County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.sheriff.sandusky.1823" handle="10427/60269" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Josiah Rumery" name_id="RJ0159" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Daniel Brainard, Junior" name_id="BD0040" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" vote_total="151" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="79" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Sandusky" geog_id="ohs_sandusky">
+                    <result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Ballville" geog_id="null">
+                        <result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Clinton" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Croghan" geog_id="null">
+                        <result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Eden" geog_id="null">
+                        <result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Fort Seneca" geog_id="null">
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green Creek" geog_id="null">
+                        <result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Portage" geog_id="null">
+                        <result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Sandusky" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Thomson" geog_id="null">
+                        <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Townsend" geog_id="null">
+                        <result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="York" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Sandusky Clarion (Sandusky, OH).  October 29, 1823.</reference>
+</election_record>

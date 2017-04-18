@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1801 State Senate, District 10" type="General" iteration="First Ballot" date="1801" election_id="nh.statesenate.10.1801" handle="10427/78688" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Elisha Whitcomb" name_id="WE0192" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Noah Cook" name_id="CN0078" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Daniel Hawkins" name_id="HD0186" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="George Aldrich" name_id="AG0038" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Roswell Hubbard" name_id="HR0133" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Nahum Parker" name_id="PN0043" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-23">
+				<candidate_summary candidate_ref="1" vote_total="293" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="170" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="335" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">New Hampshire law required a majority for election.  Elisha Whitcomb would subsequently be elected by the Legislature.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<result candidate_ref="1" vote="293" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="170" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="335" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cheshire" geog_id="null">
+						<result candidate_ref="1" vote="293" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="170" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="335" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Chesterfield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Fitzwilliam" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Gilsum" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hinsdale" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Keene" geog_id="null">
+							<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Marlborough" geog_id="null">
+							<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Packersfield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Richmond" geog_id="null">
+							<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Sullivan" geog_id="null">
+							<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="6" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="5" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Surry" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Swanzey" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Westmoreland" geog_id="null">
+							<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="26" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Winchester" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-hampshire Sentinel (Keene, NH).  March 7, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">New-hampshire Sentinel (Keene, NH).  March 14, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Museum, or Lay Preacher's Gazette (Walpole, NH).  June 2, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  June 11, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Seward, Josiah Lafayette.  A History of the Town of Sullivan, New Hampshire: 1777-1917.  Keene, NH: J.L. Seward, 1921.  214.</reference>
+</election_record>

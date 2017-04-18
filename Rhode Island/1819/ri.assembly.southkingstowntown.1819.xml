@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1819 House of Representatives, South Kingstown Town" type="General" iteration="First Ballot" date="1819-09" election_id="ri.assembly.southkingstowntown.1819" handle="10427/64593" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Elisha Watson" name_id="WE0004" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elisha R. Potter" name_id="PE0102" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-02">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Mr. Watson was elected by the triumphant majority of 27, in a community where Mr. Potter has hitherto wielded a majority of about 200."  Providence Patriot, Columbian Phenix (Providence, RI).  September 4, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="Town" name="South Kingstown" geog_id="ris_washington_southkingstown">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Providence Patriot, Columbian Phenix (Providence, RI).  September 4, 1819.</reference>
+</election_record>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Coroner, Lancaster County" type="General" iteration="First Ballot" date="1800" election_id="pa.coroner.lancaster.1800" handle="10427/61131" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Jeremiah Mosher" name_id="MJ0860" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="George Thomas" name_id="TG0069" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-16">
+				<candidate_summary candidate_ref="1" vote_total="2298" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1803" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lancaster" geog_id="null">
+					<result candidate_ref="1" vote="2298" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1803" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Elizabeth" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+					</sub_unit>			
+					<sub_unit type="Township" name="Ephrata" geog_id="null">
+						<result candidate_ref="1" vote="183" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="201" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+					</sub_unit>			
+					<sub_unit type="Borough" name="Lancaster" geog_id="null">
+						<result candidate_ref="1" vote="740" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="668" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+					</sub_unit>			
+					<sub_unit type="Township" name="Manheim" geog_id="null">
+						<result candidate_ref="1" vote="289" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="162" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="New Holland" geog_id="null">
+						<result candidate_ref="1" vote="456" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="248" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Strasburg" geog_id="null">
+						<result candidate_ref="1" vote="332" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="156" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+					</sub_unit>		
+					<sub_unit type="Populated Place" name="Unicorn" geog_id="null">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="228" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05670" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05670">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 22, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 25, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">The Lancaster Correspondent (Lancaster, PA).  October 25, 1800.</reference>
+</election_record>

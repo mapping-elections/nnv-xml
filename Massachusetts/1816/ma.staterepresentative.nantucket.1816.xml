@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 House of Representatives, Nantucket" type="General" iteration="First Ballot" date="1816-05" election_id="ma.staterepresentative.nantucket.1816" handle="10427/34294" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Thaddeus Coffin" name_id="CT0125" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Bunker, Jr." name_id="BG0050" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-10-27">
+				<candidate_summary candidate_ref="1" vote_total="206" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="142" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03612" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The full representation of Nantucket is nine, but on opening the meeting a motion was made to send but one, which motion was passed without opposition.  Mr. Coffin is the first Federal Representative from this town for twenty years."  Nantucket Gazette (Nantucket, MA).  May 13, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Nantucket" geog_id="null">
+					<result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="142" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03612" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03612">Nantucket Gazette (Nantucket, MA).  May 13, 1816.</reference>
+</election_record>

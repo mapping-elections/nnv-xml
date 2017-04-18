@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Select Council, Philadelphia City" type="General" iteration="First Ballot" date="1822" election_id="pa.council.philadelphiacity.1822" handle="10427/63693" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Select Council" office_id="ON096" scope="City">
+		<role title="Select Councillor" scope="City">
+			<ballot>
+				<candidate name="Anthony Cuthbert" name_id="CA0160" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas Kittera" name_id="KT0071" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="George Worrell" name_id="WG0107" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Lewis D. Carpenter" name_id="CL0064" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Samuel Wetherill" name_id="WS0164" affiliation="Democrat" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Michael Fox" name_id="FM0039" affiliation="Democrat" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Levi Garrett" name_id="GL0020" affiliation="Democrat" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Robert Patterson" name_id="PR0075" affiliation="Democrat" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-20">
+				<candidate_summary candidate_ref="1" vote_total="2739" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2689" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2676" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2659" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2013" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1938" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1906" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1880" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07269" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07270" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="2739" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2689" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2676" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2659" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2013" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1938" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1906" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1880" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07270">Franklin Gazette (for the Country) (Philadelphia, PA).  October 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07269">The Union. United States Gazette and True American (Philadelphia, PA).  October 15, 1822.</reference>
+</election_record>

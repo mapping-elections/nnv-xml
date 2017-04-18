@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 Commissioner, Franklin County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.commissioner.franklincounty.1821" handle="10427/59945" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Horace Wolcott" name_id="WH0051" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert Armstrong" name_id="AR0036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Marshall" name_id="MJ0738" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David Jameson" name_id="JD0019" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel M. Kilgore" name_id="KS0030" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William Long" name_id="LW0142" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Thomas" name_id="TJ0411" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-27">
+				<candidate_summary candidate_ref="1" vote_total="589" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="539" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="521" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="361" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="250" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="230" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="197" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05308" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Franklin" geog_id="ohs_franklin">
+					<result candidate_ref="1" vote="589" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="539" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="521" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="361" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="250" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="230" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="197" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05308" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05308">Ohio Monitor (Columbus, OH).  October 13, 1821.</reference>
+</election_record>

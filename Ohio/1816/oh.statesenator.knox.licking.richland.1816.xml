@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 State Senate, Knox, Licking and Richland Counties" type="General" iteration="First Ballot" date="1816-10" election_id="oh.statesenator.knox.licking.richland.1816" handle="10427/59577" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="Mordecai Bartley" name_id="BM0087" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Gavitt" name_id="GW0115" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Joseph Brown" name_id="BJ0299" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Samuel Mott" name_id="MS0141" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Waitstill Hastings" name_id="HW0285" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Benjamin Martin" name_id="MB0062" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="Henry Smith" name_id="SH0017" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="William Stanbery" name_id="SW0192" affiliation="null" affiliation_id="null" candidate_num="8"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-11">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Knox, Licking and Richland" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Knox" geog_id="ohs_knox">
+                        <note resp="Philip Lampi">"The county gave small majorities for Martin for Senator and Miller for Representative."  A History of Knox County, 213.</note>
+                        <sub_unit type="Township" name="Clinton" geog_id="null">
+                            <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Miller" geog_id="null">
+                            <result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Morris" geog_id="null">
+                            <result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Licking" geog_id="ohs_licking">
+                    </sub_unit>
+                    <sub_unit type="County" name="Richland" geog_id="ohs_richland">
+                        <result candidate_ref="1" vote="339" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="10" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="6" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="6" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19189" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19189">The Ohio Register (Mount Vernon, OH).  October 16, 1816.</reference>
+    <reference type="citation" resp="Philip Lampi">Norton, A. Banning.  A History of Knox County, Ohio, From 1779 to 1862 Inclusive.  Columbus, OH: R. Nevins, 1862.  213, 215.</reference>
+</election_record>

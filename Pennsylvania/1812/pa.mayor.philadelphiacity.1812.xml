@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Mayor, Philadelphia City" type="Legislative" iteration="First Ballot" date="1812-10" election_id="pa.mayor.philadelphiacity.1812" handle="10427/62512" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Mayor" office_id="ON079" scope="City">
+		<role title="Mayor" scope="City">
+			<ballot>
+				<candidate name="John Barker" name_id="BJ0985" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Wharton" name_id="WR0138" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Geyer" name_id="GJ0416" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-17">
+				<candidate_summary candidate_ref="1" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="8" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06524" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Select and Common Councils have elected Alderman John Barker, Mayor of the city of Philadelphia." The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 24, 1812.</note>
+				<note resp="Philip Lampi">"The Select and Common Councils of this city, in joint meeting yesterday, proceeded to the election of a Mayor for the ensuing year. On counting the ballots...John Barker was duly elected to that office." The True American and Commercial Advertiser (Philadelphia, PA).  October 21, 1812, The Freeman's Journal and Philadelphia Mercantile Advertiser (Philadelphia, PA).  October 21, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="null" name="General Assembly" geog_id="null">
+						<sub_unit type="null" name="Common Council" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06577" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="null" name="Select Council" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06577" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06577">The Freeman's Journal and Philadelphia Mercantile Advertiser (Philadelphia, PA).  October 21, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06577">The True American and Commercial Advertiser (Philadelphia, PA).  October 21, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 24, 1812.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1821 House of Delegates, Amherst County" type="General" iteration="First Ballot" date="1821-04" election_id="va.houseofdelegates.amherst.1821" handle="10427/33867" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="David S. Garland" name_id="GD0070" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James S. Dillard" name_id="DJ0625" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Bennet A. Crawford" name_id="CB0105" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William M. Waller" name_id="WW0320" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-11">
+				<candidate_summary candidate_ref="1" vote_total="262" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="115" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09269" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09270" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Amherst" geog_id="vas_amherst">
+					<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="165" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="142" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="115" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09269" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09270" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Richmond Enquirer (Richmond, VA).  April 24, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09269">The Lynchburg Press (Lynchburg, VA).  April 27, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09270">Richmond Enquirer (Richmond, VA).  May 1, 1821.</reference>
+</election_record>

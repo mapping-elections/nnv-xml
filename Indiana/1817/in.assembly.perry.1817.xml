@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1817 House of Representatives, Perry County" type="General" iteration="First Ballot" date="1817" election_id="in.assembly.perry.1817" handle="10427/56379" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Samuel Conner" name_id="CS0007" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Aaron Cunningham" name_id="CA0047" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="163" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="39" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Perry" geog_id="null">
+					<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Hurricane" geog_id="null">
+						<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12279" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oil" geog_id="null">
+						<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+						<reference resp="Philip Lampi" type="page_image" urn="tufts:central:dca:MS115:MS115.002.DO.12281"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Troy" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<reference resp="Philip Lampi" type="page_image" urn="tufts:central:dca:MS115:MS115.002.DO.12281"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Robertson, Nellie Armstrong and Dorothy Riker, ed.  The John Tipton Papers.  Vol. I, 1809-1827.  Indianapolis: Indiana Historical Bureau, 1942.  138.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.002.DO.12279">History of Warrick, Spencer and Perry Counties, Indiana.  Chicago: Goodspeed, 1885. 264, 588, 592.</reference>
+</election_record>

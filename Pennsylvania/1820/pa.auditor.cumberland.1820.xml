@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Auditor, Cumberland County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.auditor.cumberland.1820" handle="10427/67656" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="A. S. MacKinney" name_id="MA0154" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Duncan, Jr." name_id="DJ0505" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-29">
+				<candidate_summary candidate_ref="1" vote_total="1905" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1803" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="1905" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1803" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="800" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="792" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gehr's" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="144" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreitzer's" geog_id="null">
+						<result candidate_ref="1" vote="227" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="220" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Newville" geog_id="null">
+						<result candidate_ref="1" vote="458" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="402" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Shippensburg" geog_id="null">
+						<result candidate_ref="1" vote="226" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="180" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Volunteer (Carlisle, PA).  October 12, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Republican (Carlisle, PA).  October 17, 1820.</reference>
+</election_record>

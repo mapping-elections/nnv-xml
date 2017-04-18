@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Commissioner, Ross County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.commissioner.ross.1823" handle="10427/60260" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Francis Baldwin" name_id="BF0010" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="James E. Swearingen" name_id="SJ0911" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John Hutt" name_id="HJ0295" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-22">
+                <candidate_summary candidate_ref="1" vote_total="686" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="555" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="52" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Ross" geog_id="ohs_ross">
+                    <result candidate_ref="1" vote="686" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="555" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="52" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Buckskin" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Colerain" geog_id="null">
+                        <result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Concord" geog_id="null">
+                        <result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The votes from Concord township were "rejected for want of date."</note>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Deerfield" geog_id="null">
+                        <result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Huntington" geog_id="null">
+                        <result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Paint" geog_id="null">
+                        <result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Paxton" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Scioto" geog_id="null">
+                        <result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Springfield" geog_id="null">
+                        <result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Twin" geog_id="null">
+                        <result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Supporter and Scioto Gazette (Chillicothe, OH).  October 25, 1823.</reference>
+</election_record>

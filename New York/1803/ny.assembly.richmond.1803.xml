@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1803 Assembly, Richmond County" type="General" iteration="First Ballot" date="1803" election_id="ny.assembly.richmond.1803" handle="10427/25954" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Houseman" name_id="HJ0525" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Paul S. Micheau" name_id="MP0074" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" vote_total="304" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="218" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04225" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="304" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="218" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04225" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Because Richmond county and Staten Island are synonymous, some sources attribute these votes to Staten Island.</note>
+					<sub_unit type="Town" name="Castletown" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04225" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Northfield" geog_id="null">
+						<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04225" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southfield" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04225" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Westfield" geog_id="null">
+						<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="114" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04225" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi">American Citizen (New York, NY).  April 30, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Watch-Tower (New York, NY).  April 30, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Morning Chronicle (New York, NY).  May 2, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04225">Republican Watch-Tower (New York, NY).  May 4, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04225">Chronicle Express (New York, NY).  May 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Register (Albany, NY).  May 6, 1803.</reference>
+</election_record>

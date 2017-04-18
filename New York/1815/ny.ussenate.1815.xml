@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record label="New York 1815 U.S. Senate" type="Legislative" iteration="First Ballot" date="1815-01" election_id="ny.ussenate.1815" handle="10427/25513" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Nathan Sanford" name_id="SN0094" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Emott" name_id="EJ0125" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Jay" name_id="JJ0123" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Philetus Swift" name_id="SP0092" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-12">
+				<candidate_summary candidate_ref="1" vote_total="89" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="40" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09899" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09899" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The vote for John Jay in the Assembly was cast by James Emott.</note>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09899" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The vote for Philetus Swift in the Senate was cast by Nathan Sanford.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1815.  169-171.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York State Senate, 1815.  91-93.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  February 10, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Commercial Advertiser (New York, NY).  February 10, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">New-York Spectator (New York, NY).  February 11, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Plebeian (Kingston, NY).  February 14, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Register (Albany, NY).  February 17, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09899">Ontario Messenger (Canandaigua, NY).  February 21, 1815.</reference>
+</election_record>

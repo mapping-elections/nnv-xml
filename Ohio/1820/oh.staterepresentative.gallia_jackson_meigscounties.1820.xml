@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 House of Representatives, Gallia, Jackson, and Meigs Counties" type="General" iteration="First Ballot" date="1820-10" election_id="oh.staterepresentative.gallia_jackson_meigscounties.1820" handle="10427/59878" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Robert G. Hanna" name_id="HR0169" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George House" name_id="HG0101" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Boggs" name_id="BD0115" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Everett" name_id="ES0017" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Brewster Higley" name_id="HB0129" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-04">
+				<candidate_summary candidate_ref="1" vote_total="1117" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="860" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="479" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="316" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="21" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05292" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Gallia, Jackson and Meigs" geog_id="null">
+					<result candidate_ref="1" vote="1117" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="860" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="479" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="316" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="21" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05292" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Gallia" geog_id="ohs_gallia">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jackson" geog_id="ohs_jackson">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Meigs" geog_id="ohs_meigs">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05292">The Gallia Gazette (Gallipolis, OH).  October 20, 1820.</reference>
+</election_record>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1806 State Senate, Plymouth County" type="General" iteration="First Ballot" date="1806" election_id="ma.senate.plymouth.1806" handle="10427/69414" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Nathan Willis" name_id="WN0035" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Albert Smith" name_id="SA0067" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel Goodwin" name_id="GN0009" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Nahum Mitchell" name_id="MN0055" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Joseph Smith" name_id="SJ0403" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-12-05">
+				<candidate_summary candidate_ref="1" vote_total="1985" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1962" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 3343.  Make a choice, 1672."  Governor's Council Records.</note>
+				<note resp="Philip Lampi">"SENATORS - Official. The Governor and Council on examination of the returns of votes from the several towns and districts within the Commonwealth, for Counsellors and Senators, find them to stand as follows: Plymouth. Number of Voters 3343. Make a choice 1672."</note>
+				<note resp="Philip Lampi">In the Marshfield Town Records.  the name Joseph Smith was listed below those for State Senators. However, the handwriting was different and it may have been intended as a scattering vote for Governor.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Plymouth" geog_id="null">
+					<result candidate_ref="1" vote="1985" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1962" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Abington" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Bridgewater" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Carver" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Duxbury" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Halifax" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Hanover" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Hingham" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Hull" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Kingston" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Marshfield" geog_id="null">
+						<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Middleborough" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Pembroke" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Plymouth" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Plympton" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Rochester" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Scituate" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Wareham" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Marshfield Town Records.  14.</reference>
+	<reference type="citation" resp="Philip Lampi">Wareham Town Records.  Book One.  208.</reference>
+	<reference type="citation" resp="Philip Lampi">Eastern Argus (Portland, ME).  May 15, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">Freeman's Friend (Saco, ME).  May 21, 1806.</reference>
+</election_record>

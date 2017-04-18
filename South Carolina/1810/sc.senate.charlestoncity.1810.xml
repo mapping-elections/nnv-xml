@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1810 State Senate, Charleston City" type="General" iteration="First Ballot" date="1810" election_id="sc.senate.charlestoncity.1810" handle="10427/31668" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="City">
+			<ballot>
+				<candidate name="Henry Middleton" name_id="MH0114" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Henry Middleton is elected, and was also elected to the office of Governor on December 8, 1810, where he served.</note></candidate>
+				<candidate name="William Rouse" name_id="RW0227" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Charles B. Cochran" name_id="CC0125" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-14">
+				<candidate_summary candidate_ref="1" vote_total="343" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="218" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="195" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="20" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07634" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07635" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07636" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Managers completed the counting of the votes for State Senator for Charleston this morning. Owing to the heavy calamity, which has befallen the city, only 776 votes were given."  The Times (Charleston, SC).  October 10, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="343" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="218" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="195" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="20" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="181" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07635" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Inspection" geog_id="null">
+						<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07635" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Market" geog_id="null">
+						<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07635" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07635">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07636">The Times (Charleston, SC).  October 10, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07634">City Gazette and Commercial Advertiser (Charleston, SC).  October 11, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07634">City Gazette and Commercial Advertiser (Charleston, SC).  October 12, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1837.</reference>
+</election_record>

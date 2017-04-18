@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1796 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1796" election_id="sc.uscongress.camden.1796" handle="10427/34319" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Thomas Sumpter" name_id="ST0266" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Winn" name_id="WR0158" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-18">
+				<candidate_summary candidate_ref="1" vote_total="854" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="831" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00125" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15458" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15459" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15460" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15462" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="854" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="831" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Camden" geog_id="null">
+						<result candidate_ref="1" vote="854" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="831" resp="Philip Lampi"/>
+						<sub_unit type="County" name="Richland" geog_id="null">
+							<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="144" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00125">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15458">City Gazette and Daily Advertiser (Charleston, SC).  October 18, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Herald, or the Southern Star (Charleston, SC).  October 19, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00125">South-Carolina State Gazette, and Timothy and Mason's Daily Advertiser (Charleston, SC).  November 1, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15459">City Gazette and Daily Advertiser (Charleston, SC).  December 10, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00125">South-Carolina State Gazette, and Timothy and Mason's Daily Advertiser (Charleston, SC).  December 12, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15462">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  December 22, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00125">The New World (Philadelphia, PA).  December 23, 1796.</reference>
+</election_record>

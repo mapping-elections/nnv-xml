@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Director of the Poor, York County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.director.york.1815" handle="10427/62879" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Gotlieb Ziegle" name_id="ZG0003" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Upp" name_id="UJ0025" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-20">
+				<candidate_summary candidate_ref="1" vote_total="2832" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2830" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06798" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Gotlieb Ziegle and Jacob Upp are elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="2832" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2830" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06798" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06798">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 28, 1815.</reference>
+</election_record>

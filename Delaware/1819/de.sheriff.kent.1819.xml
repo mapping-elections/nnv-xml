@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1819 Sheriff, Kent County" type="General" iteration="First Ballot" date="1819" election_id="de.sheriff.kent.1819" handle="10427/70217" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Reuben Anderson" name_id="AR0012" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Richard Harrington" name_id="HR0163" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas Fisher" name_id="FT0098" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="William Kennedy" name_id="KW0006" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2014-06-17">
+				<candidate_summary candidate_ref="1" vote_total="1058" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="869" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="863" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="845" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="1058" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="869" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="863" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="845" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Duck Creek" geog_id="des_kent_duckcreek">
+						<result candidate_ref="1" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="205" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="90" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mispillion" geog_id="des_kent_mispillion">
+						<result candidate_ref="1" vote="343" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="261" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="198" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Murderkill" geog_id="des_kent_murderkill">
+						<result candidate_ref="1" vote="356" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="367" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="354" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="294" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Saint Jones" geog_id="null">
+						<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette and Peninsula Advertiser (Wilmington, DE).  October 9, 1819.</reference>
+</election_record>

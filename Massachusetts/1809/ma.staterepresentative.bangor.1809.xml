@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1809 House of Representatives, Bangor" type="General" iteration="First Ballot" date="1809-05" election_id="ma.staterepresentative.bangor.1809" handle="10427/69176" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Carr" name_id="CJ0285" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Treat" name_id="TJ0601" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Charles Hammond" name_id="HC0047" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-20">
+				<candidate_summary candidate_ref="1" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="40" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Gazette of Maine. Hancock and Washington Advertiser (Buckstown, ME) and New-England Palladium (Boston, MA) list Joseph Treat with 48 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Bangor" geog_id="null">
+					<result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Gazette of Maine. Hancock and Washington Advertiser (Buckstown, ME).  May 6, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 19, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">"The Annals of Bangor", History of Penobscot County Maine.  Williams, Chase and, Cleveland: 1882.  552.</reference>
+</election_record>

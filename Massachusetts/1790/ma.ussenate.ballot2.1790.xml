@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1790 U.S. Senate, Ballot 2" type="Legislative" iteration="Second Ballot" date="1790" election_id="ma.ussenate.ballot2.1790" handle="10427/69020" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="George Cabot" name_id="CG0068" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Nathaniel Gorham" name_id="GN0007" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Charles Jarvis" name_id="JC0015" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Holten" name_id="HS0071" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-13">
+				<candidate_summary candidate_ref="1" vote_total="48" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="43" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="33" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="22" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The committee proceeded a second time and after having collected the votes reported the hole number of votes to be 123 - 62 making a choice; .... and no choice being made."  The Massachusetts Centinel (Boston, MA).  June 23, 1790.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="33" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="22" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="State Senate" geog_id="null">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Massachusetts Centinel (Boston, MA).  June 23, 1790.</reference>
+</election_record>

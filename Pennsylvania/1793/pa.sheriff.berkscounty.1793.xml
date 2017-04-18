@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1793 Sheriff, Berks County" type="General" iteration="First Ballot" date="1793-10" election_id="pa.sheriff.berkscounty.1793" handle="10427/60749" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Peter Freyly" name_id="FP0021" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Christ" name_id="CJ0701" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Campbell" name_id="CW0077" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-08">
+				<candidate_summary candidate_ref="1" vote_total="1683" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1264" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1055" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05435" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA) uses the spelling Froely for Peter Freyly.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Berks" geog_id="null">
+					<result candidate_ref="1" vote="1683" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1264" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1055" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Neue Unpartheyische Readinger Zeitung und Anzeigs-Nachrichten (Reading, PA).  October 9, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA).  October 16, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05435">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1793.</reference>
+</election_record>

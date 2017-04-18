@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1818 House of Delegates, Annapolis" type="General" iteration="First Ballot" date="1818" election_id="md.assembly.annapolis.city.1818" handle="10427/26659" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="City">
+			<ballot>
+				<candidate name="Dennis Claude" name_id="CD0036" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Stephen" name_id="SJ0211" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Robert Welch" name_id="WR0046" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Addison Ridout" name_id="RA0013" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-10">
+				<candidate_summary candidate_ref="1" vote_total="143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="136" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="113" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="107" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03048" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The October 15th edition of the Maryland Gazette lists 109 votes for Addison Ridout.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Annapolis" geog_id="null">
+					<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="113" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="107" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03048" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03048">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 6, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03048">The Maryland Republican and Political and Agricultural Museum (Annapolis, MD).  October 6, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03048">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 8, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03048">Republican Star and General Advertiser (Easton, MD).  October 13, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03048">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 15, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Republican and Political and Agricultural Museum (Annapolis, MD).  November 11, 1818.</reference>
+</election_record>

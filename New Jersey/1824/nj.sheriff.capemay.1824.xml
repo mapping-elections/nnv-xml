@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New Jersey 1824 Sheriff, Cape May County" type="General" iteration="First Ballot" date="1824" election_id="nj.sheriff.capemay.1824" handle="10427/58821" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Swain Townshend" name_id="TS0064" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas P. Hughes" name_id="HT0183" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Seth Young" name_id="YS0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2008-10-17">
+                <candidate_summary candidate_ref="1" vote_total="234" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="151" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="39" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="New Jersey" geog_id="null">
+                <sub_unit type="County" name="Cape May" geog_id="null">
+                    <result candidate_ref="1" vote="234" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+                    <sub_unit type="District" name="Lower" geog_id="null">
+                        <result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="District" name="Middle" geog_id="null">
+                        <result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="District" name="Upper" geog_id="null">
+                        <result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="38" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+    <reference type="citation" resp="Philip Lampi">Trenton Federalist (Trenton, NJ).  October 25, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">Sentinel of Freedom, and New-Jersey Advertiser (Newark, NJ).  October 26, 1824.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1812 Sheriff, Ross County" type="General" iteration="First Ballot" date="1812-10" election_id="oh.countysheriff.ross.1812" handle="10427/59288" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="James MacClintick" name_id="MJ0674" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Steel" name_id="ST0200" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John MacDougal" name_id="MJ0675" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Turner" name_id="TS0081" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Clark" name_id="CW0194" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William S. Hutt" name_id="HW0282" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-10">
+				<candidate_summary candidate_ref="1" vote_total="477" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="453" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="395" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="171" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="155" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="61" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05178" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ross" geog_id="ohs_ross">
+					<result candidate_ref="1" vote="477" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="453" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="395" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="171" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="155" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="61" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05178" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+		<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05178">The Supporter (Chillicothe, OH).  October 24, 1812.</reference>
+	</office>
+</election_record>

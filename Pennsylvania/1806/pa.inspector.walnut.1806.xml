@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Inspector of the General Election, Philadelphia City, Walnut Ward" type="General" iteration="First Ballot" date="1806-10" election_id="pa.inspector.walnut.1806" handle="10427/61681" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="James Ker" name_id="KJ0239" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Smith" name_id="SS0277" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Smiley" name_id="SW0221" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Vallance" name_id="VJ0095" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-25">
+				<candidate_summary candidate_ref="1" vote_total="112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="95" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="94" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06087" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Walnut" geog_id="null">
+						<result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="94" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06087" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 6, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 6, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06087">The True American and Commercial Advertiser (Philadelphia, PA).  October 7, 1806.</reference>
+</election_record>

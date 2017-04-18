@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1818 House of Representatives, Chatham County" type="General" iteration="First Ballot" date="1818" election_id="ga.assembly.chatham.1818" handle="10427/19733" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="Frederick S. Fell" name_id="FF0002" affiliation="null" affiliation_id="null" candidate_num="1"/>
+        <candidate name="Edward F. Tatnall" name_id="TE0021" affiliation="null" affiliation_id="null" candidate_num="2"/>
+        <candidate name="Moses Sheftall" name_id="SM0013" affiliation="null" affiliation_id="null" candidate_num="3"/>
+        <candidate name="Edward Harden" name_id="HE0029" affiliation="null" affiliation_id="null" candidate_num="4"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-11">
+        <candidate_summary candidate_ref="1" vote_total="479" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="409" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="423" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="357" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01670" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Chatham" geog_id="null">
+          <result candidate_ref="1" vote="479" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="409" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="423" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="357" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01670" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01670">Columbian Museum and Savannah Daily Gazette (Savannah, GA).  October 6, 1818.</reference>
+</election_record>

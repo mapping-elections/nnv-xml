@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1819 U.S. Senate, Class 3" type="Legislative" iteration="First Ballot" date="1819" election_id="al.ussenator2.1819" handle="10427/55857" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John W. Walker" name_id="WJ0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas D. Crabb" name_id="CT0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Phillips" name_id="PG0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William R. King" name_id="KW0001" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-13">
+				<candidate_summary candidate_ref="1" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This was one of two elections to elected U.S. Senators from the new state of Alabama.  John W. Walker was elected to a full six-year seat.</note>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="null" name="State House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  National Archives, Washington, DC.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the Alabama State Senate, 1819.  24-26.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  October 30, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Brewer, W.  Alabama: Her History, Resources, War Record, Public Men from 1540-1872.  Tuscaloosa, Alabama: Willo Publishing, 1964.</reference>
+</election_record>

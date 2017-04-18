@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1803 House of Representatives, New Haven, Second Representative" type="General" iteration="First Ballot" date="1803-04" election_id="ct.staterepresentative.newhaven.2.apr.1803" handle="10427/18114" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Noah Webster" name_id="WN0000" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Levi Ives" name_id="IL0000" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Painter" name_id="PT0008" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-06">
+				<candidate_summary candidate_ref="1" vote_total="288" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="153" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="25" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01507" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01508" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="New Haven" geog_id="cts_newhaven_newhaven">
+					<result candidate_ref="1" vote="288" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01507" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01508" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01507">The Visitor (New Haven, CT).  April 12, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01508">National Intelligencer and Washington Advertiser (Washington, DC).  April 20, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01508">The True American and Commercial Advertiser (Philadelphia, PA).  April 20, 1803.</reference>
+</election_record>

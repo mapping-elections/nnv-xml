@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 House of Representatives, Northumberland County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.assembly.northumberland.1810" handle="10427/62214" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Murray" name_id="MJ0979" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jared Irwin" name_id="IJ0076" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Leonard Rupert" name_id="RL0012" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick Evans" name_id="EF0007" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="D. Montgomery" name_id="MD0078" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Samuel Maclay" name_id="MS0148" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-04">
+				<candidate_summary candidate_ref="1" vote_total="1905" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1762" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1361" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1345" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In Northumberland, the old members are re-elected, with the exception of Abm. MacKinney...Jared Irwin (formerly sheriff) comes in place of Mr. MacKinney." Lancaster Journal (Lancaster, PA).  October 20, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northumberland" geog_id="null">
+					<result candidate_ref="1" vote="1905" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1762" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1361" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1345" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06410">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 20, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Libanoner Morgenstern (Lebanon, PA).  October 24, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Weekly Carlisle Gazette (Carlisle, PA).  October 26, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Linn, John Blair, ed.  Annals of Buffalo Valley, Pennsylvania: 1755-1855.  Harrisburg: Lane S. Hart, 1877.  389.</reference>
+</election_record>

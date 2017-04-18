@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 Commissioner, Luzerne County" type="General" iteration="First Ballot" date="1790-10" election_id="pa.commissioner.luzerne.1790" handle="10427/66041" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Hageman" name_id="HJ0215" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Hollenback" name_id="HJ0186" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" vote_total="284" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Luzerne" geog_id="null">
+					<result candidate_ref="1" vote="284" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Kingston" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Salem" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tioga" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tunkhannock" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wilkes-Barre" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Harvey, Oscar Jewell and Ernest Gray Smith.  A History of Wilkes-Barre.  Vol. III.  Wilkes-Barre, PA: Raeder Press, 1927.  1648.</reference>
+	<reference type="citation" resp="Philip Lampi">Murray, Louise Welles.  A History of Old Tioga Point and Early Athens.  Athens, PA, 1908.  327.</reference>
+</election_record>

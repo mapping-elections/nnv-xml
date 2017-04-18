@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1817 House of Commons, Chowan County" type="General" iteration="First Ballot" date="1817-08" election_id="nc.houseofcommons.chowan.1817" handle="10427/42915" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="James Skinner" name_id="SJ0163" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Jeremiah Mixson" name_id="MJ0058" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Saunders" name_id="SW0160" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Eli Bartie" name_id="BE0003" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-08">
+                <candidate_summary candidate_ref="1" vote_total="237" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="178" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="173" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="30" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18156" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Chowan" geog_id="null">
+                    <result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="173" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18156" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18156">The Raleigh Minerva (Raleigh, NC).  August 29, 1817.</reference>
+</election_record>

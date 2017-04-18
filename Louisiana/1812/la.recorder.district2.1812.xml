@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1812 Recorder, New Orleans" type="General" iteration="First Ballot" date="1812" election_id="la.recorder.district2.1812" handle="10427/57851" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Recorder" office_id="ON085" scope="City">
+		<role title="Recorder" scope="City">
+			<ballot>
+				<candidate name="Pierre Missonet" name_id="MP0013" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Charles Laveau" name_id="LC0010" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robelot" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Felix Arnaud" name_id="AF0003" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Charles Trudeau" name_id="TC0014" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="City" name="New Orleans" geog_id="null">
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="26" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Moniteur de la Louisiane (New Orleans, LA).  September 22, 1812.</reference>
+</election_record>

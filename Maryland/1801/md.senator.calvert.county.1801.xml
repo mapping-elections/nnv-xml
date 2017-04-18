@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1801 Electoral Assembly for State Senate, Calvert County" type="General" iteration="First Ballot" date="1801" election_id="md.senator.calvert.county.1801" handle="10427/27217" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Benjamin Wilkinson" name_id="WB0016" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas C. Gantt" name_id="GT0029" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Blake" name_id="BT0033" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Thomas Parran" name_id="PT0048" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-07">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01995" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01996" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01997" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Calvert" geog_id="mds_calvert">
+					<sub_unit type="District" name="Lower Marlborough" geog_id="null">
+						<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="76" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01995" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01996" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01997" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14257" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01995">Washington Federalist (Georgetown, DC).  September 7, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01996">National Intelligencer and Washington Advertiser (Washington, DC).  September 11, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01997">The True American and Commercial Advertiser (Philadelphia, PA).  September 15, 1801.</reference>
+</election_record>

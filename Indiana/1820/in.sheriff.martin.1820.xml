@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1820 Sheriff, Martin County" type="General" iteration="First Ballot" date="1820" election_id="in.sheriff.martin.1820" handle="10427/56479" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Adam Shirley" name_id="SA0024" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Julius Johnson" name_id="JJ0051" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="60" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The election of Shirley was disallowed by the county commissioners on the grounds that he had not been a resident of the county for the required twelve months although the county was not definitely established until February 1, 1820.  No return has been found covering the special election ordered and no commission for a sheriff is recorded for this year, but Julius Johnson was present as sheriff when the county commissioners met on November 14, 1820, and subsequently."  History of Martin County Indiana.  Harry Q. Holt.  Stout's Print Sho 1953.  205.</note>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Martin" geog_id="null">
+					<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Holt, Harry Q.  History of Martin County, Indiana.  Paoli, IN: Published by the author, 1953.  205.</reference>
+</election_record>

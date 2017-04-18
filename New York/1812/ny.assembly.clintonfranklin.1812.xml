@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 Assembly, Clinton and Franklin Counties" type="General" iteration="First Ballot" date="1812" election_id="ny.assembly.clintonfranklin.1812" handle="10427/25434" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="District">
+			<ballot>
+				<candidate name="Kinner Newcomb" name_id="NK0000" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Allen R. Moore" name_id="MA0132" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-09">
+				<candidate_summary candidate_ref="1" vote_total="1026" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="845" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04426" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The New-York Herald (New York, NY) uses the spelling Newcombe for Kinner Newcomb.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Clinton and Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1026" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="845" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clinton" geog_id="null">
+						<result candidate_ref="1" vote="579" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="530" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04426" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Chazy" geog_id="null">
+							<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04426" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Champlain" geog_id="null">
+							<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04426" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Mooers" geog_id="null">
+							<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04426" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Peru" geog_id="null">
+							<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04426" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Plattsburgh" geog_id="null">
+							<result candidate_ref="1" vote="277" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04426" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="315" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Chateaugay" geog_id="null">
+							<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Constable" geog_id="null">
+							<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Dickinson" geog_id="null">
+							<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Malone" geog_id="null">
+							<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Republican (Plattsburgh, NY).  May 1, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04426">Republican (Plattsburgh, NY).  May 8, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican (Plattsburgh, NY).  May 15, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  May 27, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04427">New-York Herald (New York, NY).  May 30, 1812.</reference>
+</election_record>

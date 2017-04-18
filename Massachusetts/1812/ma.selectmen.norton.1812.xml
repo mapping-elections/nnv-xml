@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 Selectman, Norton" type="General" iteration="First Ballot" date="1812-03" election_id="ma.selectmen.norton.1812" handle="10427/69919" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Selectman" office_id="ON097" scope="Town">
+		<role title="Selectman" scope="Town">
+			<ballot>
+				<candidate name="Samuel Copland" name_id="CS0262" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Hodge" name_id="HI0087" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Hunt" name_id="HS0305" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-01">
+				<candidate_summary candidate_ref="1" vote_total="138" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="119" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Democratic Candidates, average, 119."  Boston Gazette (Boston, MA).  March 23, 1812.</note>
+				<note resp="Philip Lampi">"A letter from a respectable inhabitant of Norton (Bristol County) states, that the result of the recent election for Town Officers, has given much satisfaction to the friends of order and good government, in that place, inasmuch as the town, for several years past, has been decidedly democratic in all their political transactions."  Boston Gazette (Boston, MA).  March 23, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Norton" geog_id="null">
+					<result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="137" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="119" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  March 23, 1812.</reference>
+</election_record>

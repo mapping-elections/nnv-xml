@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1820 City Council, Baltimore, First Branch, Ward 7" type="General" iteration="First Ballot" date="1820" election_id="md.citycouncil.baltimore.firstbranch.ward7.1820" handle="10427/58212" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="B. C. Howard" name_id="HB0060" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="R. Carroll" name_id="CR0028" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="E. L. Finley" name_id="FE0017" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Sinclair" name_id="SJ0060" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Lyde Goodwin" name_id="GL0009" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="E. H. Dorsey" name_id="DE0050" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Abner Neal" name_id="NA0012" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-24">
+				<candidate_summary candidate_ref="1" vote_total="179" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="125" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="56" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="17" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Federal Republican and Baltimore Telegraph (Baltimore, MD) lists 175 votes for R. Carroll.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Seven" geog_id="null">
+						<result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American, and Commercial Daily Advertiser (Baltimore, MD).  October 3, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 3, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Morning Chronicle and Baltimore Advertiser (Baltimore, MD).  October 4, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Republican and Baltimore Telegraph (Baltimore, MD).  October 5, 1820.</reference>
+</election_record>

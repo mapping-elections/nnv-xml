@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 Senate President" type="Legislative" iteration="First Ballot" date="1804" election_id="ma.senatepresident.1804" handle="10427/28064" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Senate President" office_id="ON098" scope="State">
+		<role title="Senate President" scope="State">
+			<ballot>
+				<candidate name="David Cobb" name_id="CD0056" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Bacon" name_id="BJ0484" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-14">
+				<candidate_summary candidate_ref="1" vote_total="22" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="13" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10451" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Senators present were 36--of which Mr. Cobb had the suffrages of 23."  Salem Gazette (Salem, MA).  June 1, 1804.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10451" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Salem Gazette (Salem, MA).  June 1, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10451">Columbian Centinel and Massachusetts Federalist (Boston, MA).  June 2, 1804.</reference>
+</election_record>

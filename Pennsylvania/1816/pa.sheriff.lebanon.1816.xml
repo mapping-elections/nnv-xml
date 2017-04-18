@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Sheriff, Lebanon County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.sheriff.lebanon.1816" handle="10427/62972" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Abraham Doebler" name_id="DA0101" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick Emblich" name_id="EF0008" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Etel" name_id="EJ0235" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-03">
+				<candidate_summary candidate_ref="1" vote_total="741" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="720" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="403" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06824" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="741" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="720" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="403" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06824" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06824">Der Readinger Adler (Reading, PA).  October 16, 1816.</reference>
+</election_record>

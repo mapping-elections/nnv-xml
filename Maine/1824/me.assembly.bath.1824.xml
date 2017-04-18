@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1824 House of Representatives, Bath" type="General" iteration="First Ballot" date="1824" election_id="me.assembly.bath.1824" handle="10427/58404" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Joseph F. Wingate" name_id="WJ0013" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2007-12-20">
+                <candidate_summary candidate_ref="1" vote_total="258" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="39" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">There were five candidates who received votes among the scattering.</note>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="County" name="Lincoln" geog_id="mes_lincoln">
+                    <sub_unit type="Town" name="Bath" geog_id="null">
+                        <result candidate_ref="1" vote="258" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Maine Gazette (Bath, ME).  September 17, 1824.</reference>
+</election_record>

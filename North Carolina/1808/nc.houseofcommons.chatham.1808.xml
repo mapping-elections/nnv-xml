@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1808 House of Commons, Chatham County" type="General" iteration="First Ballot" date="1808-08" election_id="nc.houseofcommons.chatham.1808" handle="10427/43419" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Andrew Headen" name_id="HA0110" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Mebane" name_id="MJ0554" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Barbee" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Charles Kennon" name_id="KC0022" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Ciegg" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-06">
+				<candidate_summary candidate_ref="1" vote_total="857" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="786" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="469" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="306" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="187" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04824" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Chatham" geog_id="null">
+					<result candidate_ref="1" vote="857" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="786" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="469" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="306" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="187" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04824" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04824">The Minerva (Raleigh, NC).  August 18, 1808.</reference>
+</election_record>

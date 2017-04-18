@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1811 Territorial Legislature, Orleans Parish" type="General" iteration="First Ballot" date="1811" election_id="la.legislature.orleans.1811" handle="10427/57836" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="Parish">
+			<ballot>
+				<candidate name="P. Labarre, Sr." name_id="LP0005" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="J. Blanque" name_id="BJ0253" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="P. Lacoste" name_id="LP0006" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="C. Delino" name_id="DC0014" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="L. Dorgenois, Sr." name_id="DL0007" affiliation="null" affiliation_id="null" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="A. Bienvenu" name_id="BA0063" affiliation="null" affiliation_id="null" candidate_num="6"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-14">
+				<candidate_summary candidate_ref="1" vote_total="60" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="55" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="52" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="50" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="42" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="39" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12471" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Telegraphe Louisianais and Mercantile Advertiser lists 29 votes for A. Bienvenu.</note>
+			</overview>
+			<admin_unit type="Territory" name="Orleans" geog_id="null">
+				<sub_unit type="Parish" name="Orleans" geog_id="null">
+					<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="52" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="50" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="39" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Louisiana Courier (New Orleans, LA).  October 11, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12471">Telegraphe Louisianais and Mercantile Advertiser.</reference>
+</election_record>

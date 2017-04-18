@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1797 House of Delegates, Frederick County" type="General" iteration="First Ballot" date="1797" election_id="md.assembly.frederick.county.1797" handle="10427/27612" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Henry R. Warfield" name_id="WH0013" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Thomas" name_id="TJ0160" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Upton Bruce" name_id="BU0000" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joshua Gist" name_id="GJ0094" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Henry Kuhn" name_id="KH0004" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Allen Quynn" name_id="QA0001" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="David Shriver" name_id="SD0025" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Benedict Jamison" name_id="JB0004" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="1617" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1575" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1555" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1551" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1341" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1318" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1298" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1198" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02195" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Frederick" geog_id="mds_frederick">
+					<result candidate_ref="1" vote="1617" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1575" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1555" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1551" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1341" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1318" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1298" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1198" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02195" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02195">Bartgis's Federal Gazette, or the Frederick County Weekly Advertiser (Fredericktown, MD).  October 11, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02195">Risjord, Norman K.  Chesapeake Politics: 1781-1800.  New York: Columbia University Press, 1978.  518-519.</reference>
+</election_record>

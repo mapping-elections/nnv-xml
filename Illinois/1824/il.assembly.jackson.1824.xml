@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 House of Representatives, Jackson County" type="General" iteration="First Ballot" date="1824-08" election_id="il.assembly.jackson.1824" handle="10427/56258" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Conrad Will" name_id="WC0015" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abner Flack" name_id="FA0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Matthew Duncan" name_id="DM0002" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="141" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="78" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="50" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Jackson" geog_id="null">
+					<result candidate_ref="1" vote="141" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="50" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  213.</reference>
+</election_record>

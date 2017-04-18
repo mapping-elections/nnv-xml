@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 State Senate, District 2" type="General" iteration="First Ballot" date="1808-10" election_id="pa.statesenator2.1808" handle="10427/61849" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Jonas Preston" name_id="PJ0428" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Pierce" name_id="PJ0631" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-05">
+				<candidate_summary candidate_ref="1" vote_total="4632" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3866" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="4632" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3866" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="3297" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3150" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06234" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06235" resp="Philip Lampi"/>
+						<sub_unit type="District" name="Westchester" geog_id="null">
+							<result candidate_ref="1" vote="718" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="187" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Delaware" geog_id="null">
+						<result candidate_ref="1" vote="1335" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="716" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Chester" geog_id="null">
+							<result candidate_ref="1" vote="292" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Concord" geog_id="null">
+							<result candidate_ref="1" vote="364" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="146" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Darby" geog_id="null">
+							<result candidate_ref="1" vote="272" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="203" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Newtown" geog_id="null">
+							<result candidate_ref="1" vote="407" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="128" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 15, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06234">Aurora. General Advertiser (Philadelphia, PA).  October 18, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 18, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06235">The True American and Commercial Advertiser (Philadelphia, PA).  October 19, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06245">Aurora. General Advertiser (Philadelphia, PA).  October 20, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 22, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 25, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 28, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  November 2, 1808.</reference>
+</election_record>

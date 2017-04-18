@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1795 House of Delegates, Anne Arundel County" type="General" iteration="First Ballot" date="1795" election_id="md.assembly.ann.arundel.county.1795" handle="10427/27699" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="William Pinkney" name_id="PW0043" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John G. Worthington" name_id="WJ0152" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Horatio Rideout" name_id="RH0021" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward Hall" name_id="HE0046" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Brogden" name_id="BW0116" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="W. Worthington" name_id="WW0076" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="517" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="513" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="500" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="378" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="282" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02181" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+					<result candidate_ref="1" vote="517" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="513" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="500" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="378" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="282" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02181" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02181">Federal Intelligencer and Baltimore Daily Gazette (Baltimore, MD).  October 12, 1795.</reference>
+</election_record>

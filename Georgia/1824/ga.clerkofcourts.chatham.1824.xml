@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1824 Clerk of the Court, Chatham County" type="General" iteration="First Ballot" date="1824" election_id="ga.clerkofcourts.chatham.1824" handle="10427/18268" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Court" office_id="ON025" scope="County">
+		<role title="Clerk of the Court" scope="County">
+			<ballot>
+				<candidate name="A.B. Fannin" name_id="FA0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Job T. Bolles" name_id="BJ0141" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-14">
+				<candidate_summary candidate_ref="1" vote_total="621" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="506" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01698" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Chatham" geog_id="null">
+					<result candidate_ref="1" vote="621" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="506" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01698" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01698">The Daily Georgian (Savannah, GA).  January 6, 1824.</reference>
+</election_record>

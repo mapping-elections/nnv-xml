@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 State Senate, District 11" type="General" iteration="First Ballot" date="1796-10" election_id="pa.statesenator11.1796" handle="10427/60843" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Hamilton" name_id="HJ0746" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Moreton" name_id="MT0135" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-22">
+				<candidate_summary candidate_ref="1" vote_total="2041" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1388" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00116" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05512" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA) lists Thomas Stokely, a Congressional candidate in the same district, in place of Thomas Moreton.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Eleven" geog_id="null">
+					<result candidate_ref="1" vote="2041" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1388" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Allegheny" geog_id="null">
+						<result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1018" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="1935" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="370" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The returns from Greene County are included in those from Washington County.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05512">Albert Gallatin Papers. Reel 3, Frame 0532.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsburgh Gazette (Pittsburgh, PA).  September 10, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsburgh Gazette (Pittsburgh, PA).  October 15, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Telegraphe, and Washington Advertiser (Washington, PA).  October 18, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">The New World (Philadelphia, PA).  October 28, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 29, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 29, 1796.</reference>
+</election_record>

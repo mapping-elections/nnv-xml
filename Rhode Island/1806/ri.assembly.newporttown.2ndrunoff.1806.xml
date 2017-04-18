@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1806 House of Representatives, Newport, Ballot 3" type="General" iteration="Third Ballot" date="1806-04" election_id="ri.assembly.newporttown.2ndrunoff.1806" handle="10427/64450" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William Moore" name_id="MW0044" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Melvill" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-09-26">
+				<candidate_summary candidate_ref="1" vote_total="156" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="Town" name="Newport" geog_id="ris_newport_newport">
+					<result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Newport Mercury (Newport, RI).  April 19, 1806.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1803 Governor" type="Legislative" iteration="First Ballot" date="1803" election_id="md.governor.1803" handle="10427/68921" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Robert Bowie" name_id="BR0037" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Johnson" name_id="JT0019" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Levin Winder" name_id="WL0015" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2013-10-31">
+				<candidate_summary candidate_ref="1" vote_total="75" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Federalists did not nominate a candidate for Governor.  Of the 27 Federalist legislators present, 21 voted for Robert Bowie.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Republican Advocate (Fredericktown, MD).  November 25, 1803.</reference>
+</election_record>

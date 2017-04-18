@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Sheriff, Armstrong County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.sheriff.armstrong.1814" handle="10427/65971" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Joseph Brown" name_id="BJ1063" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Truby" name_id="TJ0473" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-11-16">
+				<candidate_summary candidate_ref="1" vote_total="408" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="319" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Armstrong" geog_id="null">
+					<result candidate_ref="1" vote="408" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="319" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

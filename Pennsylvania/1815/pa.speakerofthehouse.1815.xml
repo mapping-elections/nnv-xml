@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Speaker of the House" type="Legislative" iteration="First Ballot" date="1815-12" election_id="pa.speakerofthehouse.1815" handle="10427/62899" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the House" office_id="ON104" scope="State">
+		<role title="Speaker of the House" scope="State">
+			<ballot>
+				<candidate name="Rees Hill" name_id="HR0193" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Smith" name_id="SR0240" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jacob Holgate" name_id="HJ0818" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-01">
+				<candidate_summary candidate_ref="1" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10814" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10815" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10816" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The vote total for Rees Hill is not clear. The Reporter (Washington, PA) from December 18, 1815 states: "On Tuesday the 5th inst. both branches formed a quorum. In the senate there were present 20 members. In the house of represenatives 82."  The Gleaner (Wilkes-Barre, PA) from December 22, 1815 states: The State Legislature, convened at Harrisburg on Tuesday the 5th inst. when a qurorum was formed in both branches. In the Senate there were present 20 members. In the House of Represenatives 90." The conservative total has been listed here.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10814" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10815" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10816" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10814">The Reporter (Washington, PA).  December 18, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10816">The Gleaner (Wilkes-Barre, PA).  December 22, 1815.</reference>
+</election_record>

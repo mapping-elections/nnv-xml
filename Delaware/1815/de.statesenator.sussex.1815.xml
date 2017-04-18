@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1815 State Senate, Sussex County" type="General" iteration="First Ballot" date="1815" election_id="de.statesenator.sussex.1815" handle="10427/43870" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Caleb Rodney" name_id="RC0002" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Benjamin Burton" name_id="BB0125" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph Hastel" name_id="HJ1122" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Manaen Bull" name_id="BM0003" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12130" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<sub_unit type="Hundred" name="Broad Creek" geog_id="des_sussex_broadcreek">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="90" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12130" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12130">American Watchman (Wilmington, DE).  October 21, 1815.</reference>
+</election_record>

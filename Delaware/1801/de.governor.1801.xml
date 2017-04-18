@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1801 Governor" type="General" iteration="First Ballot" date="1801" election_id="de.governor.1801" handle="10427/17501" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="David Hall" name_id="HD0005" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel Mitchell" name_id="MN0002" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="3475" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3457" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00242X" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12013" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"I have just rec'd a letter from Col. Hall announcing a Majority of 19 votes in his favor."  John Fisher to C. A. Rodney.  October 9, 1801.  Delaware Historical Society.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="1020" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1080" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00242X" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12009" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<result candidate_ref="1" vote="1465" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="682" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00242X" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12010" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12011" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="990" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1695" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00242X" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12012" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12013" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00242X">Journal of the Delaware State Senate, 1802.  20.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12013">John Fisher to C. A. Rodney.  October 9, 1801.  Delaware Historical Society, Wilmington, DE.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12010">Mirror of the Times, and General Advertiser (Wilmington, DE).  October 10, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00242X">Aurora, for the Country (Philadelphia, PA).  October 13, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12011">National Intelligencer and Washington Advertiser (Washington, DC).  October 14, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12012">Mirror of the Times, and General Advertiser (Wilmington, DE).  October 24, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00242X">Aurora, for the Country (Philadelphia, PA).  October 27, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Niles' Weekly Register (Baltimore, MD).  October 25, 1823.  121.</reference>
+</election_record>

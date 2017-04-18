@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Auditor, Franklin County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.auditor.franklincounty.1822" handle="10427/60063" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Joseph Grate" name_id="GJ0362" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Zachariah Mills" name_id="MZ0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-09">
+				<candidate_summary candidate_ref="1" vote_total="768" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="747" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05317" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Franklin" geog_id="ohs_franklin">
+					<result candidate_ref="1" vote="768" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="747" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05317" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05317">Columbus Gazette (Columbus, OH).  October 17, 1822.</reference>
+</election_record>

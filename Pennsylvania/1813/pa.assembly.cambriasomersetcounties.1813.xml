@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 House of Representatives, Cambria and Somerset Counties" type="General" iteration="First Ballot" date="1813-10" election_id="pa.assembly.cambriasomersetcounties.1813" handle="10427/62551" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Mitchell" name_id="MJ0932" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Stoy" name_id="SD0150" affiliation="Leibite" affiliation_id="A08" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Husband" name_id="HI0037" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Abraham Morrison" name_id="MA0238" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Jacob Schnider" name_id="SJ1154" affiliation="Leibite" affiliation_id="A08" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-24">
+				<candidate_summary candidate_ref="1" vote_total="842" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="715" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="682" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="315" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="150" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06656" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Somerset was one of those counties in Pennsylvania where the Republicans were so dominant that they became prone to state and regional infighting. This division within the Somerset Republican party often resulted in a host of candidates being offered in the Assembly elections. The Pennsylvania Republican (Harrisburg, PA)s went through a series of schisms and one of the players in this split was Michael Leib. Thus the description of "a kind of a Leib ticket to divide the Republicans" in the Original Returns. In 1811 Daniel Stoy was an unsuccessful candidate for the Assembly. He ran again in 1812, this time being elected and was re-elected in 1813. Although definitely elected as a Republican in 1812, he was apparently not endorsed for re-election by the party leaders (see the Republican Ticket published in The Intelligencer, and Weekly Advertiser (Lancaster, PA) from October 2, 1813.) In 1813, however, it appears that enough Republicans and many Federalists voted for him anyway, and he was re-elected. The author of the Original Returns breaks down the vote for Daniel Stoy, showing that he received much of his support from the Federalists (229 votes) and the remainder (368 votes) from Republicans. Both of the Leib candidates would be candidates again in 1814 but neither were elected and Daniel Stoy also ran unsuccessfully in 1815.</note>
+				<note resp="Philip Lampi">Der Readinger Alder (Adler) from November 2 attributes the votes for Abraham Morrison to Albert Harrison. This is a German language newspaper and the name may have been transcribed wrong in the translation from English to German.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Somerset and Columbia" geog_id="null">
+					<result candidate_ref="1" vote="842" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="715" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="682" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="315" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="150" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06656" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06599" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06656" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="649" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="597" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="510" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="229" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="146" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06653" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06654" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06655" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06656" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Der Readinger Adler (Reading, PA) from November 2 lists James Mitchell with 650 votes, Isaac Husband with 210 votes, and Jacob Schnider with 148.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06599">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06653">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 2, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06655">Der Readinger Adler (Reading, PA).  November 2, 1813.</reference>
+</election_record>

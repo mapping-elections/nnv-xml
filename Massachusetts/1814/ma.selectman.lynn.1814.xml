@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1814 Selectman, Lynn" type="General" iteration="First Ballot" date="1814-03" election_id="ma.selectman.lynn.1814" handle="10427/70230" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Selectman" office_id="ON097" scope="Town">
+		<role title="Selectman" scope="Town">
+			<ballot>
+				<candidate name="Henry Hallowell" name_id="HH0144" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nehemiah Silbee" name_id="SN0054" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Makepeace" name_id="MJ1400" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Mansfield" name_id="MR0054" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Ezra Collins" name_id="CE0180" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-06-05">
+				<candidate_summary candidate_ref="1" vote_total="440" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="344" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="344" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="191" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="169" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Henry Hallowell was also elected as Town Clerk.</note>
+				<note resp="Philip Lampi">All three Selectmen were additionally elected as Assessors.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Lynn" geog_id="null">
+					<result candidate_ref="1" vote="440" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="344" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="344" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="191" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="169" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 18, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  March 23, 1814.</reference>
+</election_record>

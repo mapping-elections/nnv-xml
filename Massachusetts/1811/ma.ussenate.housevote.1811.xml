@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 U.S. Senate, House of Representatives Vote" type="Legislative" iteration="First Ballot" date="1811-06" election_id="ma.ussenate.housevote.1811" handle="10427/34254" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Joseph B. Varnum" name_id="VJ0024" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Timothy Pickering" name_id="PT0078" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-08">
+				<candidate_summary candidate_ref="1" vote_total="320" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="251" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09812" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09813" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09814" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09815" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">A deadlock in the State Senate resulted in no choice in four ballots in 1810.  The election was pushed off to 1811.</note>
+				<note resp="Philip Lampi">"On Thursday last the House of Representatives came to the choice, on their part, of a Senator of the U.S. in the room of Timothy Pickering . . . Sent to the Senate for concurrence, where it was referred to tomorrow - The Senate concurred 21 to 19."  The Essex Register (Salem, MA).  June 8, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="320" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="251" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09812" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09813" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09814" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09815" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  June 8, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09812">United States' Gazette (Philadelphia, PA).  June 11, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09813">American Watchman; and Delaware Republican (Wilmington, DE).  June 15, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09815">Norfolk Gazette and Publick Ledger (Norfolk, VA).  June 17, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  June 18, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09814">Republican Star or Eastern Shore General Advertiser (Easton, MD).  June 18, 1811.</reference>
+</election_record>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1824 State Senate, New Castle County" type="General" iteration="First Ballot" date="1824-10" election_id="de.statesenator.newcastle.1824" handle="10427/43809" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Henry Whitely" name_id="WH0000" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Outten Davis" name_id="DO0004" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1410" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="699" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<result candidate_ref="1" vote="1410" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="699" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Appoquinimink" geog_id="des_newcastle_appoquinimink">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Brandywine" geog_id="des_newcastle_brandywine">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Christiana" geog_id="des_newcastle_christiana">
+						<result candidate_ref="1" vote="511" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="171" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mill Creek" geog_id="des_newcastle_millcreek">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="New Castle" geog_id="des_newcastle_newcastle">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Pencader" geog_id="des_newcastle_pencader">
+						<result candidate_ref="1" vote="131" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Red Lion" geog_id="des_newcastle_redlion">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Saint Georges" geog_id="des_newcastle_saintgeorges">
+						<result candidate_ref="1" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="White Clay Creek" geog_id="des_newcastle_whiteclaycreek">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 8, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">American Watchman and Delaware Advertiser (Wilmington, DE).  November 5, 1824.</reference>
+</election_record>

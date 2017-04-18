@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 House of Representatives, Rutherford County" type="General" iteration="First Ballot" date="1817" election_id="tn.assembly.rutherford.1817" handle="10427/20178" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Robert Jetter" name_id="JR0063" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Anderson" name_id="AS0071" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Robinson" name_id="RH0070" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jesse Brasher" name_id="BJ1413" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Alexander MacCullack" name_id="MA0284" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-09">
+				<candidate_summary candidate_ref="1" vote_total="1039" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="891" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="760" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="567" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="407" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08089" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Rutherford" geog_id="null">
+					<result candidate_ref="1" vote="1039" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="891" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="760" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="567" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="407" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08089" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Readyville" geog_id="null">
+						<result candidate_ref="1" vote="248" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="294" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1804 House of Representatives, Hamilton County" type="General" iteration="First Ballot" date="1804-10" election_id="oh.staterepresentative.hamilton.1804" handle="10427/58907" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Stephen Wood" name_id="WS0147" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hezekiah Price" name_id="PH0038" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Judah Willey" name_id="WJ0550" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Wallace" name_id="WJ0549" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="John R. Gaston" name_id="GJ0354" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Ichabod B. Miller" name_id="MI0039" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="525" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="522" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="516" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="208" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="199" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05094" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+					<result candidate_ref="1" vote="525" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="522" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="516" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="208" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="205" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="199" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05094">The Western Spy, and Hamilton Gazette (Cincinnati, OH).  October 17, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Scioto Gazette (Chillicothe, OH).  October 29, 1804.</reference>
+</election_record>

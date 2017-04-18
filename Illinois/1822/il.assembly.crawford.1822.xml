@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1822 House of Representatives, Crawford County" type="General" iteration="First Ballot" date="1822-08" election_id="il.assembly.crawford.1822" handle="10427/56161" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="David MacGahey" name_id="MD0018" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert C. Ford" name_id="FR0010" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Boyd" name_id="BJ0150" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David Stewart" name_id="SD0019" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William P. Bennett" name_id="BW0067" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Shaw" name_id="SJ0122" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Daniel Boatright" name_id="BD0014" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-01">
+				<candidate_summary candidate_ref="1" vote_total="142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="86" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="72" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="48" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="39" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="142" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="86" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="72" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="48" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="39" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Palestine" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<result candidate_ref="7" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  204.</reference>
+</election_record>

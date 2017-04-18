@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Coroner, Darke County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.coroner.darke.1824" handle="10427/60419" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="David Scott" name_id="SD0050" affiliation="null" affiliation_id="null" candidate_num="1"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-10">
+                <candidate_summary candidate_ref="1" vote_total="329" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Darke" geog_id="ohs_darke">
+                    <result candidate_ref="1" vote="329" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Adams" geog_id="null">
+                        <result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Butler" geog_id="null">
+                        <result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="German" geog_id="null">
+                        <result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Greenville" geog_id="null">
+                        <result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Harrison" geog_id="null">
+                        <result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Neave" geog_id="null">
+                        <result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Richland" geog_id="null">
+                        <result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Twin" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Darke County.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1792 State Senate, Kent County" type="General" iteration="First Ballot" date="1792" election_id="de.statesenator.kent.1792" handle="10427/44052" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="John Vining" name_id="VJ0002" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward White" name_id="WE0170" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Morris" name_id="MJ1084" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Lowber" name_id="LP0000" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Silas Snow" name_id="SS0309" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Douglass" name_id="DJ0591" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="929" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="906" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="903" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11936" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="929" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="906" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="903" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11936" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11936">The Delaware Gazette (Wilmington, DE).  October 13, 1792.</reference>
+	<reference type="citation" resp="Philip Lampi">Dunlap's American Daily Advertiser (Philadelphia, PA).  October 16, 1792.</reference>
+</election_record>

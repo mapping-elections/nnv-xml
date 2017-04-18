@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1823 Sheriff, Claiborne County" type="General" iteration="First Ballot" date="1823" election_id="ms.sheriff.claiborne.1823" handle="10427/58504" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Joseph Briggs" name_id="BJ1381" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John A. Barnes" name_id="BJ1382" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Hays" name_id="HJ1156" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-12-18">
+				<candidate_summary candidate_ref="1" vote_total="306" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="224" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="89" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15392" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Claiborne" geog_id="null">
+					<result candidate_ref="1" vote="306" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="224" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="89" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The town results for John A. Barnes listed in The Port-Gibson Correspondent (Port Gibson, MS) add up to 217 but the official totals listed in the Original Election Returns are 224.</note>
+					<sub_unit type="Populated Place" name="Miller's" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15392" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Port Gibson" geog_id="null">
+						<result candidate_ref="1" vote="251" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="58" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15392" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Rocky Spring" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15392" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15392">Port-Gibson Correspondent (Port Gibson, MS).  August 7, 1823.</reference>
+</election_record>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1824 Sheriff, Queen Anne's County" type="General" iteration="First Ballot" date="1824" election_id="md.sheriff.queen.anns.county.1824" handle="10427/26197" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas Roberts" name_id="RT0035" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Chaplin" name_id="CS0035" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Meeds" name_id="MW0156" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Stephen Vansant" name_id="VS0002" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-20">
+				<candidate_summary candidate_ref="1" vote_total="810" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="520" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="81" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03403" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03404" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Queen Ann's History and The Maryland Historical Society list Samuel Chaplin with 510 votes.</note>
+				<note resp="Philip Lampi">The Easton Gazette (Easton, MD) listed reverse return results for Centreville and Dixon's Districts from the Republican Star, or, General Advertiser (Easton, MD).</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Queen Anne's" geog_id="null">
+					<result candidate_ref="1" vote="810" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="520" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="81" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Centreville" geog_id="null">
+						<result candidate_ref="1" vote="251" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="23" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03403" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Church Hill" geog_id="null">
+						<result candidate_ref="1" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03403" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Dixons" geog_id="null">
+						<result candidate_ref="1" vote="342" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="215" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="51" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03403" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kent Island" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03403" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03403">Easton Gazette (Easton, MD).  October 9, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03403">Republican Star, or, General Advertiser (Easton, MD).  October 12, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03404">Emory, Frederic.  Queen Anne's County, Maryland.  Baltimore: Maryland Historical Society, 1950.  450.</reference>
+</election_record>

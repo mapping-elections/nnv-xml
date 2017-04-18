@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1808 House of Delegates, Powhatan County" type="General" iteration="First Ballot" date="1808" election_id="va.houseofdelegates.powhatan.1808" handle="10427/33120" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Edward Johnson" name_id="JE0038" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Pope" name_id="PW0223" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Mayo" name_id="MJ1278" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David Flourney" name_id="FD0058" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Haskins" name_id="HJ1331" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="109" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="44" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="43" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08650" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Powhatan" geog_id="null">
+					<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="70" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="44" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="43" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08650" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08650">Powhatan County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

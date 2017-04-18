@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record label="New York 1796 Assembly, Schoharie County" type="General" iteration="First Ballot" date="1796" election_id="ny.assembly.schoharie.1796" handle="10427/25893" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Rice" name_id="RJ0192" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Swart" name_id="SP0063" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John M. Brown" name_id="BJ0687" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-15">
+				<candidate_summary candidate_ref="1" vote_total="315" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="225" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="8" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04136" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schoharie" geog_id="null">
+					<result candidate_ref="1" vote="315" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04136" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Dorloch" geog_id="null">
+						<result candidate_ref="1" vote="234" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04136" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Schoharry" geog_id="null">
+						<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04136" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04136">The Albany Gazette (Albany, NY).  June 10, 1796.</reference>
+</election_record>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1806 Sheriff, Somerset County" type="General" iteration="First Ballot" date="1806" election_id="md.sheriff.somerset.county.1806" handle="10427/27095" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Daniel Ballard" name_id="BD0032" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Tubman Lowes" name_id="LT0028" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Dashiell" name_id="DJ0131" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-30">
+				<candidate_summary candidate_ref="1" vote_total="602" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="415" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="338" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02466" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14410" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Somerset" geog_id="mds_somerset">
+					<result candidate_ref="1" vote="602" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="415" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="338" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="287" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02466" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="270" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02466" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="288" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02466" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14410">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02466">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 14, 1806.</reference>
+</election_record>

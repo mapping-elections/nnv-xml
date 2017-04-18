@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1799 Sheriff, Sussex County" type="General" iteration="First Ballot" date="1799" election_id="de.sheriff.sussex.1799" handle="10427/44011" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Kendle Batson" name_id="BK0005" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="David Owens" name_id="OD0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Robinson" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1257" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="901" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="814" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11987" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11988" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="1257" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="901" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="814" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11987" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11988" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11987">The Delaware and Eastern Shore Advertiser (Wilmington, DE).  October 10, 1799.</reference>
+</election_record>

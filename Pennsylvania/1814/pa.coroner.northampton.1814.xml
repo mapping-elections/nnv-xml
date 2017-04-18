@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Coroner, Northampton County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.coroner.northampton.1814" handle="10427/66005" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Frederick Barthold" name_id="BF0048" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Abraham Depue" name_id="DA0113" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="541" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="111" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="541" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 17, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Northampton Correspondent (Easton, PA).  October 21, 1814.</reference>
+</election_record>

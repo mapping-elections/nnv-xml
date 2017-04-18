@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1822 Assembly, Bergen County" type="General" iteration="First Ballot" date="1822" election_id="nj.assemblybergen.1822" handle="10427/20452" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Westervelt, Jr." name_id="WJ0377" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"/>
+				<candidate name="Peter Sip" name_id="SP0049" affiliation="supported by both parties" affiliation_id="A10" candidate_num="2"/>
+				<candidate name="David I. Christie" name_id="CD0087" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Nathaniel Board" name_id="BN0064" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2008-12-11">
+				<candidate_summary candidate_ref="1" vote_total="1621" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1612" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1022" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="683" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04060" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Bergen" geog_id="null">
+					<result candidate_ref="1" vote="1621" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1612" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1022" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="683" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04060" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  October 15, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times, and New Brunswick Advertiser (New Brunswick, NJ).  October 17, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04060">The True American (Trenton, NJ).  October 19, 1822.</reference>
+</election_record>

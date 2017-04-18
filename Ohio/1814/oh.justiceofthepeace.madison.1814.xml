@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 Justice of the Peace, Montgomery County, Madison Township" type="General" iteration="First Ballot" date="1814-08" election_id="oh.justiceofthepeace.madison.1814" handle="10427/59378" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Justice of the Peace" office_id="ON068" scope="Township">
+        <role title="Justice of the Peace" scope="Township">
+            <ballot>
+                <candidate name="Samuel Hagar" name_id="HS0024" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Olinger" name_id="OJ0063" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-07">
+                <candidate_summary candidate_ref="1" vote_total="21" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="8" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <sub_unit type="Township" name="Madison" geog_id="null">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  99.</reference>
+</election_record>

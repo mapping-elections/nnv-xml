@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 House of Representatives, Crawford and Venango Counties" type="General" iteration="First Ballot" date="1822-10" election_id="pa.assembly.crawfordvenangocounty.1822" handle="10427/63624" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Cochran" name_id="CJ0802" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert L. Potter" name_id="PR0077" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Andrew Bowman" name_id="BA0229" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Broadfoot" name_id="BJ1282" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-20">
+				<candidate_summary candidate_ref="1" vote_total="669" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="662" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="263" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="257" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07218" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07219" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07220" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07288" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07289" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Crawford and Venango Counties" geog_id="null">
+					<result candidate_ref="1" vote="669" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="662" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="263" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="257" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Crawford" geog_id="null">
+						<result candidate_ref="1" vote="617" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="511" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Venango" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="260" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="251" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07219">Crawford Messenger (Meadville, PA).  October 15, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07288">Crawford Messenger (Meadville, PA).  October 22, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 23, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07220">Erie Gazette (Erie, PA).  October 24, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07219">The Union. United States Gazette and True American (Philadelphia, PA).  October 24, 1822.</reference>
+</election_record>

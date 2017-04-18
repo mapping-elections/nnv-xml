@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1822 House of Representatives, Saint Louis County, Special" type="Special" iteration="First Ballot" date="1822" election_id="mo.specialassembly.stlouis.1822" handle="10427/56599" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="O'Fallon" name_id="null" affiliation="Anti-Relief" affiliation_id="A09" candidate_num="1"/>
+				<candidate name="C. Busseron" name_id="BC0034" affiliation="Relief" affiliation_id="A09" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11475"/>
+				<note resp="Philip Lampi">"The result of this county on Monday last, to supply the vacancy in the house of representatives occasioned by the resignation of Mr. Leduc, is as follows:"  Western Monitor (Lexington, KY).  November 29, 1822.</note>
+				<note resp="Philip Lampi">"Col. O'Fallon has been one of the most active among the opponents of the relief system.  Mr. Busseron, it is understood, has been one of its supporters."  Western Monitor (Lexington, KY).  November 29, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Saint Louis" geog_id="null">
+					<sub_unit type="Town" name="Bonhomme" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11475"/>
+						<note resp="Philip Lampi">"It is said there was no election held in the township of Bonhomme."  Western Monitor (Lexington, KY).  November 29, 1822.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Saint Ferdinand" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="98" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11475"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Saint Louis" geog_id="null">
+						<result candidate_ref="1" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11475"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11475">Western Monitor (Lexington, KY).  November 29, 1822.</reference>
+</election_record>

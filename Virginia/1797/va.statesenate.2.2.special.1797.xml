@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1797 State Senate, Class 2, District 2, Special" type="Special" iteration="First Ballot" date="1797-12" election_id="va.statesenate.2.2.special.1797" handle="10427/32289" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Peter Johnston" name_id="JP0026" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Carrington" name_id="CG0016" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Wyatt" name_id="WJ0975" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-05-03">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23710" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">David Clarke was elected in 1795 and would have been up for re-election in 1798. I can only assume that for some reason he did not serve out his full term, and there was a special election to fill his vacancy. If Peter Johnson won this special election, he apparently did not run for the Senate seat in the regular scheduled election in 1798, but opted instead to be a candidate for the House of Delegates. It is also possible that I misread the hand writing and George Covington is actually George Carrington, who was chosen a State Senator from this district in the 1798 election. Perhaps he also won the Special election of December 27, 1797 and was then re-elected to the regular term in 1798."</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<sub_unit type="County" name="Charlotte" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Halifax" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Prince Edward" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23710">Prince Edward County Poll Book.  Library of Virginia, Richmond.</reference>
+</election_record>

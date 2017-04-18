@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Auditor, Erie County" type="General" iteration="First Ballot" date="1823" election_id="pa.auditor.erie.1823" handle="10427/65875" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Daniel Sayre" name_id="SD0184" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Hamlin Russell" name_id="RH0083" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Abiather Crane" name_id="CA0174" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-19">
+				<candidate_summary candidate_ref="1" vote_total="563" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="345" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="202" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Erie" geog_id="null">
+					<result candidate_ref="1" vote="563" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="345" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="202" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Beaverdam" geog_id="null">
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Conniant" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Conniauttee" geog_id="null">
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Elkcreek" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Erie and Millcreek" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairview" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greenfield" geog_id="null">
+						<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Harborcreek" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="McKain" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="North East" geog_id="null">
+						<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Springfield" geog_id="null">
+						<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Union and Concord" geog_id="null">
+						<note resp="Philip Lampi">"By referring to the official return of the election in this county, contained in to-day's paper, it will be perceived that the above district did not elect.  The reasons we are informed, are these: after six or seven votes had been handed in, the judges were told that they had taken an illegal vote; and that it was useless to take any more."  Erie Gazette (Erie, PA).  October 23, 1823.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Venango" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Waterford and Le Boeuff" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Erie Gazette (Erie, PA).  October 23, 1823.</reference>
+</election_record>

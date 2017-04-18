@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 State Senate, District 12" type="General" iteration="First Ballot" date="1798-10" election_id="pa.statesenator12.1798" handle="10427/60940" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Samuel King" name_id="KS0033" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Presley Carr Lane" name_id="LP0039" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-11">
+				<candidate_summary candidate_ref="1" vote_total="2129" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1759" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05558" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05581" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Twelve" geog_id="null">
+					<result candidate_ref="1" vote="2129" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1759" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="421" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="850" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Crossings" geog_id="null">
+							<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="236" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Georges" geog_id="null">
+							<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="287" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Red Stone" geog_id="null">
+							<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Union" geog_id="null">
+							<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Westmoreland" geog_id="null">
+						<result candidate_ref="1" vote="1708" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="909" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel 1.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05581">The Pittsburgh Gazette (Pittsburgh, PA).  October 13, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05558">The Herald of Liberty (Washington, PA).  October 15, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Telegraphe, and Washington Advertiser (Washington, PA).  October 16, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 19, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsburgh Gazette (Pittsburgh, PA).  October 20, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Porcupine's Gazette (Philadelphia, PA).  October 26, 1798.</reference>
+</election_record>

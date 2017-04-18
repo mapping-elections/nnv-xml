@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 House of Representatives, Taunton" type="General" iteration="First Ballot" date="1811-05" election_id="ma.staterepresentative.taunton.1811" handle="10427/69293" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Samuel Crocker" name_id="CS0057" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Simeon Tisdale" name_id="TS0151" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-01">
+				<candidate_summary candidate_ref="1" vote_total="319" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="256" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Federalists, at a previous meeting had agreed to support four candidates.  To try only one the first time, and if successful, to try for the other three.  On Monday, at our first trial, the Federal candidate had 319 votes, the democratic 256 - leaving a Federal majority of 63.  And on the second trial, which was for the other candidates, (notwithstanding the audacious fraud, and glaring insult upon the town and the public, of an unprincipled and impertinent democrat, who actually put in two votes, and was detected in attempting with his guilty hand, to put in the third) the result was such as to make an average majority in favour of the four Federal candidates to be 52."  Boston Gazette (Boston, MA).  May 16, 1811.</note>
+				<note resp="Philip Lampi">"Yesterday we held our meeting for the choice of Representatives.  It was the largest ever known in this town."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 18, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Taunton" geog_id="null">
+					<result candidate_ref="1" vote="319" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="256" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  May 16, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 18, 1811.</reference>
+</election_record>

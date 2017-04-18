@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1806 Electoral Assembly for State Senate, Caroline County" type="General" iteration="First Ballot" date="1806" election_id="md.senator.caroline.county.1806" handle="10427/27030" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Frederick Holbrook" name_id="HF0004" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Pergrine F. Bayard" name_id="BP0027" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Potter" name_id="PW0046" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Mitchell" name_id="MJ0207" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-30">
+				<candidate_summary candidate_ref="1" vote_total="619" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="563" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="263" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02019" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Caroline" geog_id="mds_caroline">
+					<result candidate_ref="1" vote="619" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="563" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="314" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="263" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02019" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="170" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="41" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02019" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="142" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02019" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="80" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02019" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02019">Republican Star or Eastern Shore General Advertiser (Easton, MD).  September 9, 1806.</reference>
+</election_record>

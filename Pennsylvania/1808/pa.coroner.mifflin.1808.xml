@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Coroner, Mifflin County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.coroner.mifflin.1808" handle="10427/61909" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="James Glasgow" name_id="GJ0424" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James Millikin" name_id="MJ1003" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-18">
+				<candidate_summary candidate_ref="1" vote_total="903" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="776" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06258" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reversed the results for Commissioner and Coroner of Mifflin County.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="903" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="776" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06258" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06258">The Democratic Press (Philadelphia, PA).  November 16, 1808.</reference>
+</election_record>

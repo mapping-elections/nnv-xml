@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1820 House of Representatives, Lewiston and Wales" type="General" iteration="First Ballot" date="1820" election_id="me.staterepresentative.lewistonwales.1820" handle="10427/80038" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="Daniel Read" name_id="RD0124" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Oliver Herrick" name_id="HO0011" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="William Garcelon" name_id="GW0191" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Calvin Gorham" name_id="GC0078" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Stephen Hart" name_id="HS0331" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-01">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">A majority was required to elect.  There was no choice.  A second ballot would be held on April 17, 1820.</note>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="District" name="Lewiston and Wales" geog_id="null">
+                    <sub_unit type="Town" name="Lewiston" geog_id="null">
+                        <result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Wales" geog_id="null">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Hodgkin, Douglas I., ed.  Records of Lewiston, Maine.  Vol. I.  Rockport, ME: Picton Press, 2001.  163.</reference>
+</election_record>

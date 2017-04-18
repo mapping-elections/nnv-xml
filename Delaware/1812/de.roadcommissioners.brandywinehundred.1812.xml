@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1812 Road Commission, Brandywine Hundred" type="General" iteration="First Ballot" date="1812" election_id="de.roadcommissioners.brandywinehundred.1812" handle="10427/43890" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Road Commission" office_id="ON090" scope="Hundred">
+		<role title="Road Commissioner" scope="Hundred">
+			<ballot>
+				<candidate name="Thomas Beeson" name_id="BT0004" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Harman Talley" name_id="TH0055" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="133" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="133" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12098" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"All the above gentlemen, true disciples of Washington's policy, were elected on Tuesday last without opposition; the democrats for the first time these many years, had no ticket."  The Freeman's Journal and Philadelphia Mercantile Advertiser (Philadelphia, PA).  September 21, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<sub_unit type="Hundred" name="Brandywine" geog_id="des_newcastle_brandywine">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12098" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12098">The Freeman's Journal and Philadelphia Mercantile Advertiser (Philadelphia, PA).  September 21, 1812.</reference>
+</election_record>

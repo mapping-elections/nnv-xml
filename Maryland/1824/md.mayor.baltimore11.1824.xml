@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1824 Electoral Assembly for Mayor, Baltimore, Ward 11" type="General" iteration="First Ballot" date="1824" election_id="md.mayor.baltimore11.1824" handle="10427/65561" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral Assembly for Mayor" office_id="ON054" scope="City">
+        <role title="Elector" scope="Ward">
+            <ballot>
+                <elector name="Adam Welsh" name_id="WA0003" affiliation="null" affiliation_id="null" declared_for="John Montgomery" elector_num="1"/>
+                <elector name="Basil S. Elder" name_id="EB0003" affiliation="null" affiliation_id="null" declared_for="Edward Johnson" elector_num="2"/>
+                <elector name="Andrew Brunner" name_id="BA0008" affiliation="null" affiliation_id="null" declared_for="Small" elector_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-18">
+                <elector_summary elector_ref="1" vote_total="354" resp="Philip Lampi"/>
+                <elector_summary elector_ref="2" vote_total="181" resp="Philip Lampi"/>
+                <elector_summary elector_ref="3" vote_total="108" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03368" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03369" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03370" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Prior to 1833, the mayor of Baltimore was not directly elected, but was chosen by electors.  The electors were directly elected.</note>
+            </overview>
+            <admin_unit type="State" name="Maryland" geog_id="mds">
+                <sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+                    <sub_unit type="Ward" name="Eleven" geog_id="null">
+                        <result elector_ref="1" vote="354" resp="Philip Lampi"/>
+                        <result elector_ref="2" vote="181" resp="Philip Lampi"/>
+                        <result elector_ref="3" vote="108" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03368">American, and Commercial Daily Advertiser (Baltimore, MD).  September 17, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 5, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">The Maryland Republican and Political and Agricultural Museum (Annapolis, MD).  October 9, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">Republican Star, or, General Advertiser (Easton, MD).  October 12, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">The Torch Light and Public Advertiser (Hagerstown, MD).  October 12, 1824.</reference>
+</election_record>

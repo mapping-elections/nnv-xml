@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Governor, Republican Nomination" type="General" iteration="First Ballot" date="1817-03" election_id="pa.governor.nomination.1817" handle="10427/67755" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="William Findlay" name_id="FW0061" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Nominated.</note></candidate>
+				<candidate name="N. B. Borleau" name_id="BN0080" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-09-10">
+				<candidate_summary candidate_ref="1" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="14" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The delegates chosen by the citizens of the respective counties of this Commonwealth to put in nomination a suitable person to be supported by the democratic republicans of this state for the office of Governor at the next general election, met on Tuesday the 4th day of March 1817, at the court house in the borough of Harrisburg."  York Gazette (York, PA).  March 6, 1817.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="Convention" geog_id="null">
+					<result candidate_ref="1" vote="99" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">York Gazette (York, PA).  March 6, 1817.</reference>
+</election_record>

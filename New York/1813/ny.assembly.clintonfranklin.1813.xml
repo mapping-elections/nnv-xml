@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1813 Assembly, Clinton and Franklin Counties" type="General" iteration="First Ballot" date="1813" election_id="ny.assembly.clintonfranklin.1813" handle="10427/25723" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="District">
+			<ballot>
+				<candidate name="Allen R. Moore" name_id="MA0132" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Asa Wheeler" name_id="WA0112" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"From a Correspondent, 'Plattsburgh, 5th May 1813. I send you a statement of votes taken in Clinton and Franklin. You may publish it without the fear of being ultimately detected in an error. 'Before I proceed, however, to give you this statement I would remark, that the result of the election in these two counties is more favorable than we had expected. There had been a small gain in favor of the peace ticket, which was altogether unlooked for. We knew there would be a very great reduction of votes in all the frontier towns, owing to the removal of many of the inhabitants out of the counties ; and as these towns were all federal by large majorities, we were convinced that the effect of this reduction must necessarily have an unfavorable bearing upon our cause -- All therefore we calculated upon was to hold our own. We have however, done something more -- ... Mr. Moore the peace candidate for the Assembly is re-elected by about 120 majority -- '"  New-York Evening Post (New York, NY).  May 12, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Clinton and Franklin" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clinton" geog_id="null">
+						<result candidate_ref="1" vote="547" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="493" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Champlin" geog_id="null">
+							<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04449" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Chazy" geog_id="null">
+							<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04449" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Mooers" geog_id="null">
+							<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04449" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Peru" geog_id="null">
+							<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04449" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Plattsburgh" geog_id="null">
+							<result candidate_ref="1" vote="275" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="185" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04449" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"In three towns in the County of Franklin, the federal candidate for Assembly has a majority of 144."  Republican (Plattsburgh, NY).  May 7, 1813.</note>
+						<sub_unit type="Town" name="Chateaugay" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Constable" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Dickinson" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Malone" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04449">Republican (Plattsburgh, NY).  May 7, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  May 12, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  May 14, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian. (For the Country) (New York, NY).  May 15, 1813.</reference>
+</election_record>

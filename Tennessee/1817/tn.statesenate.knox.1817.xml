@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 State Senate, Knox County" type="General" iteration="First Ballot" date="1817" election_id="tn.statesenate.knox.1817" handle="10427/64953" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="Hugh L. White" name_id="WH0063" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Anderson" name_id="AJ0377" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-06">
+                <candidate_summary candidate_ref="1" vote_total="1248" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="401" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Majority for Hugh L. White--847."  The Knoxville Register (Knoxville, TN).  August 14, 1817.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="County" name="Knox" geog_id="null">
+                    <result candidate_ref="1" vote="1248" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="401" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Knoxville Register (Knoxville, TN).  August 14, 1817.</reference>
+</election_record>

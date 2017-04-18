@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1809 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1809" election_id="ga.ussenate.special.1.1809" handle="10427/17582" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Charles Tait" name_id="TC0002" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Elijah Clarke" name_id="CE0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Flournoy" name_id="FT0002" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-07">
+				<candidate_summary candidate_ref="1" vote_total="40" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="32" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="31" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09683" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The legislature on the 20th, proceeded to the election of a senator in the congress of the United States, to supply the vacancy created by the resignation of the Hon. John Milledge."  The Republican and Savannah Evening Ledger (Savannah, GA).  December 5, 1809.</note>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09683" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Monitor (Washington, GA).  December 2, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">Mirror of the Times (Augusta, GA).  December 3, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09683">The Republican and Savannah Evening Ledger (Savannah, GA).  December 5, 1809.</reference>
+</election_record>

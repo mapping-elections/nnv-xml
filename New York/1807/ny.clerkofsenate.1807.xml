@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1807 Clerk of the Senate" type="Legislative" iteration="First Ballot" date="1807" election_id="ny.clerkofsenate.1807" handle="10427/66814" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Senate" office_id="ON030" scope="State">
+		<role title="Clerk of the Senate" scope="State">
+			<ballot>
+				<candidate name="Solomon Southwick" name_id="SS0188" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Bleeker" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-02">
+				<candidate_summary candidate_ref="1" vote_total="17" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="11" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="null" geog_id="null">
+					<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Independent Republican (New York, NY).  February 13, 1807.</reference>
+</election_record>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1802 State Senate, Saint John's Berkeley Parish" type="General" iteration="First Ballot" date="1802" election_id="sc.senate.st.johnsberkeley.1802" handle="10427/32110" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="Robert Marion" name_id="MR0181" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Laurens" name_id="LH0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-15">
+				<candidate_summary candidate_ref="1" vote_total="46" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="27" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07544" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">73 voters participated in this election.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint John's Berkeley" geog_id="null">
+					<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07544" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">31 voters in the Lower District participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">42 voters in the Upper District participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07544">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

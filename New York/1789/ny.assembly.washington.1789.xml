@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="New York 1789 Assembly, Washington County" type="General" iteration="First Ballot" date="1789" election_id="ny.assembly.washington.1789" handle="10427/67000" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Thomas Converse" name_id="CT0056" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Zina Hitchcock" name_id="HZ0003" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathan Morgan" name_id="MN0033" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Rowan" name_id="RJ0664" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph MacCracken" name_id="MJ0038" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Edward Savage" name_id="SE0051" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Peter B. Tierce" name_id="TP0023" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Alexander Webster" name_id="WA0107" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-27">
+				<candidate_summary candidate_ref="1" vote_total="347" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="261" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="173" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="347" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="173" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="173" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Washington County Board of Supervisors, Fort Edward.</reference>
+</election_record>

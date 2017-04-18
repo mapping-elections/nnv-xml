@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1820 Collector, Albany" type="General" iteration="First Ballot" date="1820" election_id="ny.collector.albany.1820" handle="10427/31423" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Collector" office_id="ON033" scope="City">
+		<role title="Collector" scope="City">
+			<ballot>
+				<candidate name="Joseph Russell" name_id="RJ0239" affiliation="Administration" affiliation_id="A07" candidate_num="1"/>
+				<candidate name="Adam Russ" name_id="RA0034" affiliation="Anti-Administration" affiliation_id="A07" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-01">
+				<candidate_summary candidate_ref="1" vote_total="247" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="100" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04624" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<result candidate_ref="1" vote="247" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04624" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04624">The Albany Gazette (Albany, NY).  May 4, 1820.</reference>
+</election_record>

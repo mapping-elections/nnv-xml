@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 House of Representatives, Charlestown" type="General" iteration="First Ballot" date="1803-05" election_id="ma.staterepresentative.charlestown.1803" handle="10427/27735" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Thomas Harris" name_id="HT0071" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Bridge" name_id="BM0039" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Oliver Holden" name_id="HO0008" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Phillips Payson" name_id="PP0005" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-09-24">
+				<candidate_summary candidate_ref="1" vote_total="275" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="272" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="134" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03451" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03452" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Charlestown" geog_id="null">
+					<result candidate_ref="1" vote="275" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="272" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="140" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="134" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03451" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"'Federalism reviving in Charlestown'--It was determined to send two members to the General Court this year, for that town. Captain Thomas Harris, who was the representative last year, had 276 votes, and Matthew Bridge Esq. 272; both these gentlemen are true Republicans, and will do honor to that respectable town--The federal candidates, Messrs. Payson and Holden had 140.--Thus has 'federalism revived in Charlestown'! We hope it will meet with the same success in every town, county and state in the Union; and so it would if the people were left to act their own judgment, unbiased by artful and designing aristocrats. In April last, the republican list of Senators for Middlesex, obtained in Charlestown only a majority of 28, and this was exultingly proclaimed as evidence of the decline of republicanism in that town; but behold the result of the election on Monday last! instead of the meagre majority of 28, they obtained the splendid one of 137 votes, over the priest ridden party!"  The Independent Chronicle (Boston, MA).  May 5, 1803.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03451">Republican Gazetteer (Boston, MA).  May 4, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  May 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Salem Register (Salem, MA).  May 9, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03452">Rhode-Island Republican (Newport, RI).  May 14, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 2, 1803.</reference>
+</election_record>

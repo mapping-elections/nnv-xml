@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1793 State Senate, Dukes and Nantuck Counties" type="General" iteration="First Ballot" date="1793" election_id="ma.senator.dukesnantucket.1793" handle="10427/69114" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="William Jernigan" name_id="JW0026" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Shobal Cottle" name_id="CS0241" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-07">
+				<candidate_summary candidate_ref="1" vote_total="220" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 257.  Make a choice, 129."  Governor's Council Records.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="District" name="Dukes and Nantucket" geog_id="null">
+					<result candidate_ref="1" vote="220" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dukes" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Chilmark" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Edgartown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Tisbury" geog_id="null">
+							<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Nantucket" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Sherburn" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Tisbury Town Records.  289.</reference>
+</election_record>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 State Senate, Ashtabula, Cuyahoga, Geauga, Huron and Portage Counties" type="General" iteration="First Ballot" date="1819-10" election_id="oh.statesenator.ashtabulacuyahogageaugahuronportage.1819" handle="10427/59750" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Almon Ruggles" name_id="RA0062" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Aaron Wheeler" name_id="WA0130" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Levi Gaylord" name_id="GL0014" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Kingsbury" name_id="KJ0160" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-11">
+				<candidate_summary candidate_ref="1" vote_total="1590" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="726" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="412" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="72" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05287" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Ashtabula, Cuyahoga, Geauga, Huron and Portage" geog_id="null">
+					<result candidate_ref="1" vote="1590" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="726" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="412" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="72" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05287" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Ashtabula" geog_id="ohs_ashtabula">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="263" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05270" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Cuyahoga" geog_id="ohs_cuyahoga">
+						<result candidate_ref="1" vote="203" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="72" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05274" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Geauga" geog_id="ohs_geauga">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="148" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05275" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Huron" geog_id="ohs_huron">
+						<result candidate_ref="1" vote="473" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="183" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05277" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Portage" geog_id="ohs_portage">
+						<result candidate_ref="1" vote="638" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05280" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05270">The Cleaveland Herald (Cleveland, OH).  November 2, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05287">The Western Reserve Chronicle (Warren, OH).  November 4, 1819.</reference>
+</election_record>

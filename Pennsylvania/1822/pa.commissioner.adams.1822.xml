@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Commissioner, Adams County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.commissioner.adams.1822" handle="10427/68067" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Harman Wierman" name_id="WH0096" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="David Griest" name_id="GD0084" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-26">
+				<candidate_summary candidate_ref="1" vote_total="1311" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="803" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1311" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="803" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Conewago" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="296" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Adams Centinel (Gettysburg, PA) lists votes in Gettysburg under its classification, as "Borough" rather than under the name Gettysburg.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Littlestown" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="183" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tyrone" geog_id="null">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Republican Compiler (Gettysburg, PA) lists these votes under "Heidlersburg", while the Adams Centinel (Gettysburg, PA) lists them under "Tyrone."  Today, Heidlersburg is the name of an unincorporated community within Tyrone Township.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="York Springs" geog_id="null">
+						<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Republican Compiler (Gettysburg, PA) lists these votes under "York Springs", while the Adams Centinel (Gettysburg, PA) lists them under "Petersburg."  The area known today as York Springs Borough was informally called "York Springs", "York Sulphur Springs", or "Petersburg" until it was incorporated in 1869.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Lancaster Intelligencer (Lancaster, PA).  October 19, 1822.</reference>
+</election_record>

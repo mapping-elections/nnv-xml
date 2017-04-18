@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New York 1823 Assembly, Wayne County" type="General" iteration="First Ballot" date="1823" election_id="ny.assembly.wayne.1823" handle="10427/31371" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Russell Whipple" name_id="WR0103" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Dickson" name_id="DJ0348" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Leach" name_id="LJ0253" affiliation="Clintonian" affiliation_id="A05" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-27">
+				<candidate_summary candidate_ref="1" vote_total="1096" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="660" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="430" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04712" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Wayne" geog_id="null">
+					<result candidate_ref="1" vote="1096" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="660" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="430" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04712" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04712">The Cayuga Patriot (Auburn, NY).  December 17, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04712">Original Manuscript of New York Assembly Elections.  Michael J. Dubin.</reference>
+</election_record>

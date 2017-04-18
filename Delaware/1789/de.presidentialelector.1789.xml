@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1789 Electoral College" type="General" iteration="First Ballot" date="1789-01" election_id="de.presidentialelector.1789" handle="10427/44077" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral College" office_id="ON056" scope="Federal">
+		<role title="Elector" scope="State">
+			<ballot>
+				<elector name="John Banning" name_id="BJ0072" affiliation="Federalist" affiliation_id="A01" declared_for="George Washington / John Jay" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="George Mitchell" name_id="MG0005" affiliation="Federalist" affiliation_id="A01" declared_for="George Washington / John Jay" elector_num="2"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="Gunning Bedford, Sen." name_id="BG0162" affiliation="Federalist" affiliation_id="A01" declared_for="George Washington / John Jay" elector_num="3"><note resp="Philip Lampi">Elected.</note></elector>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<elector_summary elector_ref="1" resp="Philip Lampi"/>
+				<elector_summary elector_ref="2" resp="Philip Lampi"/>
+				<elector_summary elector_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11919" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The election law, passed 28 October 1788, called for elections on 7 January 1789, with voters in each county required to hand in, 'on one ticket or piece of paper,' the names of two persons (of whom at least one could not be an inhabitant of the county) for Representative, and the name of one person (who must be an inhabitant of the county) for Elector.  The persons receiving the most statewide votes would be the winners."  The Documentary History of the First Federal Elections 1788-1790, Volume II.  The University of Wisconsin Press.  81-85.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result elector_ref="1" resp="Philip Lampi"/>
+					<result elector_ref="2" resp="Philip Lampi"/>
+					<result elector_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11919" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Kent County voted for John Banning "unanimously".  The Delaware Gazette, and General Advertiser (Wilmington, DE).  January 10, 1789.</note>
+				</sub_unit>
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<result elector_ref="3" vote="163" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11919" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result elector_ref="2" vote="522" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11919" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11919">The Delaware Gazette, and General Advertiser (Wilmington, DE).  January 10, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvania Packet, and Daily Advertiser (Philadelphia, PA).  January 15, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11919">The Delaware Gazette, and General Advertiser (Wilmington, DE).  January 17, 1789.</reference>
+	<reference type="citation" resp="Philip Lampi">DenBoer, Gordon and Lucy Trumbull Brown, ed.  The Documentary History of the First Federal Elections: 1788-1790.  Vol. II.  Madison, WI: University of Wisconsin Press, 1976.  81-85.</reference>
+</election_record>

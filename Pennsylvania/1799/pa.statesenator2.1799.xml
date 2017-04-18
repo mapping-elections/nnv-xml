@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1799 State Senate, District 2" type="General" iteration="First Ballot" date="1799-10" election_id="pa.statesenator2.1799" handle="10427/61003" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Zebulon Potts" name_id="PZ0005" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Richards" name_id="RJ0314" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-17">
+				<candidate_summary candidate_ref="1" vote_total="6809" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="6155" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00185" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05590" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05592" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05608" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05609" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05610" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05611" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="6809" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="6155" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bucks" geog_id="null">
+						<result candidate_ref="1" vote="2154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2056" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Bristol" geog_id="null">
+							<result candidate_ref="1" vote="341" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="309" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Newton" geog_id="null">
+							<result candidate_ref="1" vote="866" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="389" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="2883" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1883" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="1772" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2216" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Norristown Gazette (Norristown, PA) and The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA) report 1775 votes for Zebulon Potts and 2211 votes for John Richards.</note>
+						<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) reports 1785 votes for Zebulon Potts and 2221 votes for John Richards.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05608">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05590">Aurora. General Advertiser (Philadelphia, PA).  October 10, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05609">The Norristown Gazette (Norristown, PA).  October 11, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05611">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05590">Aurora. General Advertiser (Philadelphia, PA).  October 15, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05610">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  October 16, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">The Norristown Gazette (Norristown, PA).  October 18, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  November 1, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  January 18, 1800.</reference>
+</election_record>

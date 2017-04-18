@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1808 U.S. Senate" type="Legislative" iteration="First Ballot" date="1808-12" election_id="oh.ussenate.1808" handle="10427/59061" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Return J. Meigs Jr." name_id="MR0090" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Campbell" name_id="CA0131" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Pritchard" name_id="PJ0360" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-27">
+				<candidate_summary candidate_ref="1" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="17" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09954" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Held the same day as the Special Election to fill the remaining months of John Smith's term, this was the election to fill the next term.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09954">Taylor, William A.  Ohio Statesmen and Annals of Progress: From the year 1788 to the year 1900.  Columbus, OH: Press of the Westbote, 1899.  57.</reference>
+</election_record>

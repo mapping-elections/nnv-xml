@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Commissioner, Lycoming County" type="General" iteration="First Ballot" date="1818" election_id="pa.commissioner.lycoming.1818" handle="10427/63152" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Henry Hughes" name_id="HH0112" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Alexander Scott" name_id="SA0246" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-08">
+				<candidate_summary candidate_ref="1" vote_total="638" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="377" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06931" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lycoming" geog_id="null">
+					<result candidate_ref="1" vote="638" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="377" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06931" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06931">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06931">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1818.</reference>
+</election_record>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Associate Judge, Hamilton County, Ballot 2" type="General" iteration="Second Ballot" date="1823-01" election_id="oh.associatejudge.hamilton.2.1823" handle="10427/60283" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Associate Judge" office_id="ON011" scope="County">
+        <role title="Associate Judge" scope="County">
+            <ballot>
+                <candidate name="Samuel R. Miller" name_id="MS0005" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="MacHenry" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" vote_total="53" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="44" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Supporter and Scioto Gazette (Chillicothe, OH).  January 18, 1823.</reference>
+</election_record>

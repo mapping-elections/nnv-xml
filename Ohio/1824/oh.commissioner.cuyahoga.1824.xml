@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Commissioner, Cuyahoga County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.commissioner.cuyahoga.1824" handle="10427/60477" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Long" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Fisher" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Lyman" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-28">
+                <candidate_summary candidate_ref="1" vote_total="460" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="365" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="66" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Cuyahoga" geog_id="ohs_cuyahoga">
+                    <result candidate_ref="1" vote="460" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="365" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Bedford" geog_id="null">
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Bricksville" geog_id="null">
+                        <result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Brooklyn" geog_id="null">
+                        <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Chagrin" geog_id="null">
+                        <result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Cleaveland" geog_id="null">
+                        <result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Dover" geog_id="null">
+                        <result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Euclid" geog_id="null">
+                        <result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Independence" geog_id="null">
+                        <result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Mayfield" geog_id="null">
+                        <result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Middleburgh" geog_id="null">
+                        <result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Newburgh" geog_id="null">
+                        <result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Orange" geog_id="null">
+                        <result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Rockport" geog_id="null">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Royalton" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Strongsville" geog_id="null">
+                        <result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Warrensville" geog_id="null">
+                        <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Cleaveland Herald (Cleveland, OH).  October 22, 1824.</reference>
+</election_record>

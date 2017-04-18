@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1821 Electoral Assembly for State Senate, Harford County" type="General" iteration="First Ballot" date="1821" election_id="md.senator.harford.county.1821" handle="10427/26890" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Stevenson Archer" name_id="AS0013" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jacob Michael" name_id="MJ0294" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-31">
+				<candidate_summary candidate_ref="1" vote_total="195" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="194" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02129" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Harford" geog_id="mds_harford">
+					<result candidate_ref="1" vote="195" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="194" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02129" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02129" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02129" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02129" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02129" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02129">George W. Archer Historical Scrapbooks.  Historical Society of Harford County, Bel Air.</reference>
+</election_record>

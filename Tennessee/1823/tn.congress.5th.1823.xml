@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1823 U.S. House of Representatives, District 5" type="General" iteration="First Ballot" date="1823" election_id="tn.congress.5th.1823" handle="10427/65009" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>	
+                <candidate name="Robert Allen" name_id="AR0060" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Edward D. Trailor" name_id="TE0068" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-27">
+                <candidate_summary candidate_ref="1" vote_total="4828" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="11" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17006" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17019" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17030" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The Original Election Returns list Robert Allen with 3535 votes as "Sumner neglected to send in vote tally."</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Five" geog_id="null">
+                    <result candidate_ref="1" vote="4828" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Smith" geog_id="null">
+                        <result candidate_ref="1" vote="2095" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sumner" geog_id="null">
+                        <result candidate_ref="1" vote="1293" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Wilson" geog_id="null">
+                        <result candidate_ref="1" vote="1440" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17006">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17030">Richmond Enquirer (Richmond, VA).  August 29, 1823.</reference>
+</election_record>

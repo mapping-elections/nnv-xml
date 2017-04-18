@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record label="New York 1821 Assembly, Greene County" type="General" iteration="First Ballot" date="1821" election_id="ny.assembly.greene.1821" handle="10427/25610" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="James Powers" name_id="PJ0317" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jacob Roggen" name_id="RJ0240" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Edward Daily" name_id="DE0049" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Perkins King" name_id="KP0020" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-15">
+				<candidate_summary candidate_ref="1" vote_total="1427" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1423" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1164" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1160" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04650" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04660" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Greene" geog_id="null">
+					<result candidate_ref="1" vote="1427" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1423" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1164" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1160" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04660" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="New Baltimore" geog_id="null">
+						<result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="108" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New Baltimore Town Records.  55.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04660">The Albany Argus (Albany, NY).  May 25, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04660">The Albany Argus (Albany, NY).  May 29, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04660">American (For the Country).  July 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04660">Spirit of the Times (Batavia, NY).  July 27, 1821.</reference>
+</election_record>

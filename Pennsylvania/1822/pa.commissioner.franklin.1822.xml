@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Commissioner, Franklin County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.commissioner.franklin.1822" handle="10427/68236" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="James Walker" name_id="WJ0694" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Philip Laufman" name_id="LP0021" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-20">
+				<candidate_summary candidate_ref="1" vote_total="1829" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1569" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1829" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1569" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="458" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="480" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fannett" geog_id="null">
+						<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Greencastle" geog_id="null">
+						<result candidate_ref="1" vote="233" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lurgan" geog_id="null">
+						<result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mercersburg" geog_id="null">
+						<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="218" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Metal" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Thomas" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Southampton" geog_id="null">
+						<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Strasburg" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Waynesburg" geog_id="null">
+						<result candidate_ref="1" vote="299" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="282" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Franklin Repository (Chambersburg, PA).  October 15, 1822.</reference>
+</election_record>

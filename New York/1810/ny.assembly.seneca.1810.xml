@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1810 Assembly, Seneca County" type="General" iteration="First Ballot" date="1810" election_id="ny.assembly.seneca.1810" handle="10427/66370" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Robert S. Rose" name_id="RR0038" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter LeConte" name_id="LP0049" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Daniel Avery" name_id="AD0015" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Harris" name_id="HJ0541" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Cornelius Humphrey" name_id="HC0064" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-31">
+				<candidate_summary candidate_ref="1" vote_total="1236" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="469" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Seneca" geog_id="null">
+					<result candidate_ref="1" vote="1236" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="469" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Peter LeConte received 10 vote as Peter LeConte Chapman.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Hector" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Robert S. Rose received 5 votes as Robert S. Roose, 2 votes as Robert S. Ross, 2 votes as Robert S. Ropes and 1 vote as Robert S. Rosse.</note>
+						<note resp="Philip Lampi">Peter LeConte received 3 vote as Peter LeContee and 1 vote as Peter LeContes.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Junius" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="110" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Geneva Gazette (Geneva, NY) of May 30 lists Robert S. Rose with 124 votes.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Ovid" geog_id="null">
+						<result candidate_ref="1" vote="270" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Robert S. Rose received 1 vote as Rose S. Rose.</note>
+						<note resp="Philip Lampi">Peter LeConte received 1 vote as Petere LawCounte.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Romulus" geog_id="null">
+						<result candidate_ref="1" vote="247" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ulysses" geog_id="null">
+						<result candidate_ref="1" vote="274" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Wolcott" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi">The Geneva Gazette (Geneva, NY).  May 30, 1810.</reference>
+</election_record>

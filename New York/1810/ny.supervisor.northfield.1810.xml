@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="New York 1810 Supervisor, Northfield" type="General" iteration="First Ballot" date="1810" election_id="ny.supervisor.northfield.1810" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/66585" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Supervisor" office_id="ON113" scope="Town">
+		<role title="Supervisor" scope="Town">
+			<ballot>
+				<candidate name="Henry Crocheron" name_id="CH0097" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Dunn" name_id="DJ0306" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-08">
+				<candidate_summary candidate_ref="1" vote_total="105" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="52" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04391" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"It is worthy of remark, that the republican candidate as supervisor, was judge Crocheron, lately removed from office by one of the many arbitrary and unjustifiable acts of the present council of appointment."  The Balance, and New-York State Journal (Albany, NY).  April 6, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<sub_unit type="Town" name="Northfield" geog_id="null">
+						<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Balance, and New-York State Journal (Albany, NY).  April 6, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04391">The Albany Register (Albany, NY).  April 17, 1810.</reference>
+</election_record>

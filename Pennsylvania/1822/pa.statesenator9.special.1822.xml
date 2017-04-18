@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 State Senate, District 9, Special" type="Special" iteration="First Ballot" date="1822-12" election_id="pa.statesenator9.special.1822" handle="10427/68246" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Lewis Dewart" name_id="DL0043" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ner Middleswarth" name_id="MN0070" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Ebenezer G. Bradford" name_id="BE0104" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-08">
+				<candidate_summary candidate_ref="1" vote_total="1192" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1059" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="606" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Lewis Dewart, Esq. a Federalist, has been elected to the senate of Pennsylvania for Northumberland and Union, in place of the deceased Mr. Albright.  The cause of his success was the division of the republicans, some voting for Mr. Bradford and others for Mr. Middlesworth."  Franklin Gazette (Philadelphia, PA).  January 11, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Nine" geog_id="null">
+					<result candidate_ref="1" vote="1192" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1059" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="606" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Northumberland" geog_id="null">
+						<result candidate_ref="1" vote="618" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="215" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="523" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="574" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="844" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="82" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Chronicle (Harrisburg, PA).  January 9, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  January 11, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Juniata Gazette (Lewistown, PA).  January 14, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Linn, John Blair, ed.  Annals of Buffalo Valley, Pennsylvania: 1755-1855.  Harrisburg: Lane S. Hart, 1877.  457.</reference>
+</election_record>

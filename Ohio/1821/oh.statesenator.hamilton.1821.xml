@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 State Senate, Hamilton County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.statesenator.hamilton.1821" handle="10427/59982" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Benjamin Piatt" name_id="PB0066" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Corry" name_id="CW0188" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-20">
+                <candidate_summary candidate_ref="1" vote_total="1087" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="733" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+                    <result candidate_ref="1" vote="1087" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="733" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Anderson" geog_id="null">
+                        <result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The votes of Anderson township were rejected on account of some informality in the return.</note>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Cincinnati" geog_id="null">
+                        <result candidate_ref="1" vote="493" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Colerain" geog_id="null">
+                        <result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Columbia" geog_id="null">
+                        <result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="110" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Crosby" geog_id="null">
+                        <result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Delhi" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Miami" geog_id="null">
+                        <result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Millcreek" geog_id="null">
+                        <result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Springfield" geog_id="null">
+                        <result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Sycamore" geog_id="null">
+                        <result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="144" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Whitewater" geog_id="null">
+                        <result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Liberty Hall and Cincinnati Gazette (Cincinnati, OH).  October 17, 1821.</reference>
+    <reference type="citation" resp="Philip Lampi">Western Spy, and Literary Cadet (Cincinnati, OH).  October 20, 1821.</reference>
+</election_record>
+

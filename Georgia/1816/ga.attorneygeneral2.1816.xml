@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1816 Attorney General, Ballot 2" type="Legislative" iteration="Second Ballot" date="1816" election_id="ga.attorneygeneral2.1816" handle="10427/56008" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Attorney General" office_id="ON012" scope="State">
+		<role title="Attorney General" scope="State">
+			<ballot>
+				<candidate name="Roger Lawson Gamble" name_id="GR0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Allen" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Holt" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-16">
+				<candidate_summary candidate_ref="1" vote_total="74" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="43" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Georgia Journal (Milledgeville, GA).  November 13, 1816.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 Commissioner, Muskingum County" type="General" iteration="First Ballot" date="1820-10" election_id="oh.commissioner.muskingumcounty.1820" handle="10427/59855" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Simeon Sims" name_id="SS0238" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jared Brush" name_id="BJ0931" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Welsh Richey" name_id="RW0143" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-09">
+				<candidate_summary candidate_ref="1" vote_total="1094" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="719" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05299" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Muskingum" geog_id="ohs_muskingum">
+					<result candidate_ref="1" vote="1094" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="719" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05299" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05299">Muskingum Messenger (Zanesville, OH).  October 17, 1820.</reference>
+</election_record>

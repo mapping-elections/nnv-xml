@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Trustee of the Academy, Lycoming County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.trustee.lycoming.1812" handle="10427/66241" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="Samuel Torbert" name_id="TS0088" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jeremiah Tallman, Jr." name_id="TJ0450" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-20">
+				<candidate_summary candidate_ref="1" vote_total="333" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="332" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lycoming" geog_id="null">
+					<result candidate_ref="1" vote="333" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="332" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Potter County was created in 1804 from Lycoming County and remained attached "to Lycoming County until 1814 when it was authorized to elect commissioners jointly with McKean County. McKean and Potter Counties were separated in 1824, but Potter was still attached to McKean for judicial purposes. It was fully organized in 1835." History of the Counties McKean, Elk, Cameron and Potter, Pennsylvania.  Chicago: J.H. Beers and, 1890.</note>
+					<sub_unit type="Populated Place" name="Big Island" geog_id="null">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"According to a History of Lycoming County, there were several islands in the Susquehanna River which runs through the county. Over time, many of these islands just washed away. The biggest of these islands was called Bailey's Island, but the term Big Island is used in early election returns as a voting district."</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Elklands" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Muncy" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pine Creek" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Williamsport" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Potter" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Eulalia" geog_id="null">
+							<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Eulalia Township was the first township in Potter County. When the county was created the whole county was put in Eulalia TownshiEulalia is listed as Ulalia in The Lycoming Gazette from October 21.</note>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Lycoming Gazette (Williamsport, PA).  October 21, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">History of the Counties McKean, Elk, Cameron and Potter, Pennsylvania.  Chicago: J.H. Beers and, 1890.</reference>
+</election_record>

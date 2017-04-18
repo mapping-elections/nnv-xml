@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1811 House of Delegates, Bath County" type="General" iteration="First Ballot" date="1811" election_id="va.houseofdelegates.bath.1811" handle="10427/33536" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Robert Given" name_id="GR0079" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Berry" name_id="BJ1457" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Ewin" name_id="EJ0309" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Valentine White" name_id="WV0008" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-27">
+				<candidate_summary candidate_ref="1" vote_total="249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="89" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="68" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08739" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Bath" geog_id="null">
+					<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="89" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="68" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08739" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08739">Bath County Poll Book.  139-142.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

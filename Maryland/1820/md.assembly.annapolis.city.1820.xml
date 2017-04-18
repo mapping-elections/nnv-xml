@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1820 House of Delegates, Annapolis" type="General" iteration="First Ballot" date="1820" election_id="md.assembly.annapolis.city.1820" handle="10427/26953" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="City">
+			<ballot>
+				<candidate name="James Boyle" name_id="BJ0330" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Lewis Duvall" name_id="DL0010" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Henry Maynidier" name_id="MH0050" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Alexander C. Magruder" name_id="MA0076" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-18">
+				<candidate_summary candidate_ref="1" vote_total="152" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="149" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="109" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="106" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03150" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03151" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Annapolis" geog_id="null">
+					<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="109" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="106" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03150" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03151" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03150">Annapolis Pollbook, No. 10.  Folder 5117.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03151">The Maryland Republican and Political and Agricultural Museum (Annapolis, MD).  October 3, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03151">Morning Chronicle and Baltimore Advertiser (Baltimore, MD).  October 4, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03151">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 5, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 5, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">National Intelligencer (Washington, DC).  October 5, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Star and General Advertiser (Easton, MD).  October 10, 1820.</reference>
+</election_record>

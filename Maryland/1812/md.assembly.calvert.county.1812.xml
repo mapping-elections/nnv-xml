@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1812 House of Delegates, Calvert County" type="General" iteration="First Ballot" date="1812" election_id="md.assembly.calvert.county.1812" handle="10427/27250" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Thomas Reynolds" name_id="RT0038" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Michael Taney" name_id="TM0017" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Samuel Turner" name_id="TS0015" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Peter Emerson" name_id="EP0009" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Thomas C. Gantt" name_id="GT0029" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="William Holland" name_id="HW0108" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="John Gray" name_id="GJ0125" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Daniel Kent" name_id="KD0011" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="408" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="393" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="390" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="388" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="336" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="335" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="333" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="332" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02761" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Calvert" geog_id="mds_calvert">
+					<result candidate_ref="1" vote="408" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="393" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="390" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="388" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="336" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="335" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="333" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="332" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02761" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02761">Federal Republican, and Commercial Gazette (Georgetown, DC).  October 9, 1812.</reference>
+</election_record>

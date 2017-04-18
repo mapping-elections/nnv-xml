@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1804 House of Delegates, Caroline County" type="General" iteration="First Ballot" date="1804" election_id="md.assembly.caroline.county.1804" handle="10427/26970" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Frederick Holbrook" name_id="HF0004" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Tillotson" name_id="TJ0191" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Peter Rich" name_id="RP0010" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Potter" name_id="PW0046" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James Pearce" name_id="PJ0142" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Thomas Turpin" name_id="TT0030" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Thomas Hardcastle" name_id="HT0017" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-15">
+				<candidate_summary candidate_ref="1" vote_total="538" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="464" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="430" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="372" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02374" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Frederick Holdbrook, John Tillotson, Peter Rich and Thomas Hardcastle were "adopted by Democratic Republican Committee Convention on March 31, 1804."</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Caroline" geog_id="mds_caroline">
+					<result candidate_ref="1" vote="538" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="464" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="430" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="372" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<result candidate_ref="7" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02374" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02374">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi">Herald and Eastern Shore Intelligencer (Easton, MD).  October 9, 1804.</reference>
+</election_record>

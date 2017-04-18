@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="New Hampshire 1817 U.S. Senate, Ballot 7" type="Legislative" iteration="Seventh Ballot" date="1817" election_id="nh.ussenate.7.1817" handle="10427/79229" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Clement Storer" name_id="SC0058" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Jeremiah Smith" name_id="SJ0471" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-07-10">
+				<candidate_summary candidate_ref="1" vote_total="83" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="83" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"We learn that the House again balloted on Tuesday last, and that Messrs SMITH and STORER had an equal number of votes, viz. 83, and a postponement ensured till Wednesday." - P.S. - The Senate, of which Gen. Storer is President, forestalled the proceedings of the House, on Tuesday, by electing him Senator, but the House did not concur."  The Portsmouth Oracle (Portsmouth, NH).  June 28, 1817.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Portsmouth Oracle (Portsmouth, NH).  June 28, 1817.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Sheriff, York County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.sheriff.york.1810" handle="10427/62256" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Benjamin Hersh" name_id="HB0131" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Wilson" name_id="WR0137" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Daniel Heckert" name_id="HD0095" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="George Leitner" name_id="LG0074" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="John Irwin" name_id="IJ0035" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-10">
+				<candidate_summary candidate_ref="1" vote_total="1948" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1268" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="861" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="381" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="380" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="1948" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1268" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="861" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="381" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="380" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">York Recorder (York, PA).  October 13, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06434">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 6, 1810.</reference>
+</election_record>

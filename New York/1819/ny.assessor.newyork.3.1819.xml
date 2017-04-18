@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1819 Assessor, New York, Ward 3" type="General" iteration="First Ballot" date="1819" election_id="ny.assessor.newyork.3.1819" handle="10427/68027" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="City">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="Nathaniel C. Griffith" name_id="GN0023" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jackson Haines" name_id="HJ0732" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-03">
+				<candidate_summary candidate_ref="1" vote_total="626" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="624" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The National Advocate (New York, NY) lists the Federalist party as the "North River Squad Ticket."</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="New York" geog_id="null">
+					<sub_unit type="Ward" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="626" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="624" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">National Advocate (New York, NY).  May 1, 1819.</reference>
+</election_record>

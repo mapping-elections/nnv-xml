@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1787 Sheriff, Luzerne County" type="General" iteration="First Ballot" date="1787" election_id="pa.sheriff.luzerne.1787" handle="10427/60521" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Lord Butler" name_id="BL0063" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Mason Fistz Alden" name_id="AM0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="William Ross" name_id="RW0054" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Lawrence Myers" name_id="ML0027" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Arnold Colt" name_id="CA0148" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Christopher Hurlbert" name_id="HC0022" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="John Hurlbut" name_id="HJ0210" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="Abraham Westbrook" name_id="WA0045" affiliation="null" affiliation_id="null" candidate_num="8"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2011-08-11">
+                <candidate_summary candidate_ref="1" vote_total="1012" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="39" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="39" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="28" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Pennsylvania" geog_id="null">
+                <sub_unit type="County" name="Luzerne" geog_id="null">
+                    <result candidate_ref="1" vote="1012" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="28" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+                    <result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Montgomery, Thomas Lynch, ed.  Pennsylvania Archives, Sixth Series.  Vol. XI.  Harrisburg, PA: Harrisburg Publishing, 1907.  231.</reference>
+</election_record>

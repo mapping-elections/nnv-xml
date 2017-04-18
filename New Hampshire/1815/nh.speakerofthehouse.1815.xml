@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New Hampshire 1815 Speaker of the House" type="Legislative" iteration="First Ballot" date="1815-06" election_id="nh.speakerofthehouse.1815" handle="10427/79214" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="George B. Upham" name_id="UG0000" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="David L. Morrill" name_id="MD0059" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Toppan" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+                <candidate name="scattering" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2015-01-26">
+                <candidate_summary candidate_ref="1" vote_total="98" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="77" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="New Hampshire" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  June 10, 1815.</reference>
+    <reference type="citation" resp="Philip Lampi">New-Hampshire Patriot (Concord, NH).  June 13, 1815.</reference>
+    <reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  June 15, 1815.</reference>
+    <reference type="citation" resp="Philip Lampi">Alexandria Gazette, Commercial and Political (Alexandria, VA).  June 19, 1815.</reference>
+    <reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  June 27, 1815.</reference>
+</election_record>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1822 House of Delegates, Allegany County" type="General" iteration="First Ballot" date="1822" election_id="md.assembly.alleghany.county.1822" handle="10427/27253" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Thomas Greenwell" name_id="GT0032" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John A. Hoffman" name_id="HJ0250" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Pollard" name_id="PT0060" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Benjamin Tomlinson" name_id="TB0041" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Thomas Cresap" name_id="CT0089" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-01">
+				<candidate_summary candidate_ref="1" vote_total="638" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="599" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="516" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="493" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="332" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03267" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Allegany" geog_id="null">
+					<result candidate_ref="1" vote="638" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="599" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="516" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="493" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="332" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03267" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03267">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 12, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03267">American, and Commercial Daily Advertiser (Baltimore, MD).  October 14, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Herald, and Hager's-Town Weekly Advertiser (Hagerstown, MD).  October 15, 1822.</reference>
+</election_record>

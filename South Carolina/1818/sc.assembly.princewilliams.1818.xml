@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1818 House of Representatives, Prince William Parish" type="General" iteration="First Ballot" date="1818" election_id="sc.assembly.princewilliams.1818" handle="10427/32355" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="Thomas Hutson Colcock" name_id="CT0228" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Deloach" name_id="DJ0566" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Joyner" name_id="JW0096" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Bowers" name_id="BW0386" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-03">
+				<candidate_summary candidate_ref="1" vote_total="132" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="117" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="78" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07828" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07829" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Charleston Courier lists 92 votes for William Joyner.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Prince William" geog_id="null">
+					<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="96" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="78" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07828" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07829" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07829">Charleston Courier (Charleston, SC).  October 17, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07828">City Gazette and Commercial Advertiser (Charleston, SC).  October 17, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  297.</reference>
+</election_record>

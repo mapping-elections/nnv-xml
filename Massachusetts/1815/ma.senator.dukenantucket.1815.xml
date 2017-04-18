@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1815 State Senate, Dukes and Nantucket District" type="General" iteration="First Ballot" date="1815" election_id="ma.senator.dukenantucket.1815" handle="10427/78560" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Walter Folger, Jr." name_id="FW0026" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thaddeus Coffin" name_id="CT0125" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Allen Mayhew" name_id="MA0305" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Josiah Barker" name_id="BJ0508" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="William Gray" name_id="GW0055" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-06-24">
+				<candidate_summary candidate_ref="1" vote_total="419" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="289" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 930.  Make a choice, 466."  Governor's Council Records.</note>
+				<note resp="Philip Lampi">Massachusetts law required a majority to elect.  Thaddeus Coffin would subsequently be elected by the Massachusetts General Court.</note>
+				<note resp="Philip Lampi">Walter Folger, Jr. lost this election as some votes cast for him were incorrectly recorded as being for Walter Foleger.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="District" name="Dukes and Nantucket" geog_id="null">
+					<result candidate_ref="1" vote="419" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="289" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dukes" geog_id="null">
+						<sub_unit type="Town" name="Chilmark" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Edgartown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Tisbury" geog_id="null">
+							<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="37" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Nantucket" geog_id="null">
+						<sub_unit type="Town" name="Nantucket" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Tisbury Town Records.  370.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Bedford Mercury (New Bedford, MA).  May 19, 1815.</reference>
+</election_record>

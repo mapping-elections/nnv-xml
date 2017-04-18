@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1815 State Senate, Person County" type="General" iteration="First Ballot" date="1815" election_id="nc.statesenator.person.1815" handle="10427/43032" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Robert Van Hook" name_id="VR0017" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Braintree" name_id="BJ0826" affiliation="Peace" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-08">
+				<candidate_summary candidate_ref="1" vote_total="255" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="134" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05002" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18040" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Person" geog_id="null">
+					<result candidate_ref="1" vote="255" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05002" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18040" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05002">The Raleigh Minerva (Raleigh, NC).  August 18, 1815.</reference>
+</election_record>

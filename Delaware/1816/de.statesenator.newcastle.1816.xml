@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1816 State Senate, New Castle County" type="General" iteration="First Ballot" date="1816" election_id="de.statesenator.newcastle.1816" handle="10427/19051" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="George Clark" name_id="CG0013" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Broom" name_id="BJ0090" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1712" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1077" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00811" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Delaware Gazette and Peninsula Advertiser (Wilmington, DE) of October 14, 1816 and the American Watchman (Wilmington, DE) of October 19, 1816 both refer to James Broom as James M. Broom and to George Clark as George Clarke.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<result candidate_ref="1" vote="1712" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1077" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Appoquinimink" geog_id="des_newcastle_appoquinimink">
+						<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="204" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Brandywine" geog_id="des_newcastle_brandywine">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="201" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Christiana" geog_id="des_newcastle_christiana">
+						<result candidate_ref="1" vote="581" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="275" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mill Creek" geog_id="des_newcastle_millcreek">
+						<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="New Castle" geog_id="des_newcastle_newcastle">
+						<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Pencander" geog_id="null">
+						<result candidate_ref="1" vote="141" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Red Lion" geog_id="des_newcastle_redlion">
+						<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Saint Georges" geog_id="des_newcastle_saintgeorges">
+						<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="White Clay Creek" geog_id="des_newcastle_whiteclaycreek">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00811">Delaware Gazette and Peninsula Advertiser (Wilmington, DE).  October 14, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00811">American Watchman (Wilmington, DE).  October 16, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00811">Delaware Gazette and Peninsula Advertiser (Wilmington, DE).  October 17, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00811">American Watchman (Wilmington, DE).  October 19, 1816.</reference>
+</election_record>

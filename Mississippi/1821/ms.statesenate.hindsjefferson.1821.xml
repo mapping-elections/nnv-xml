@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 State Senate, Hinds and Jefferson Counties" type="General" iteration="First Ballot" date="1821" election_id="ms.statesenate.hindsjefferson.1821" handle="10427/79909" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Trumbull" name_id="TJ0634" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Edward Duggan" name_id="DE0086" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-17">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="District" name="Hinds and Jefferson" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Hinds" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="299" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

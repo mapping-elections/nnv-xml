@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 House of Representatives, Fayette County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.assembly.fayettecounty.1798" handle="10427/60972" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Huston" name_id="HJ0785" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"/>
+				<candidate name="John Cunningham" name_id="CJ0711" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Samuel Jackson" name_id="JS0036" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-05">
+				<candidate_summary candidate_ref="1" vote_total="1224" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="913" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="381" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05558" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albert Gallatin Papers list 6 blank ballots in Union and 3 in Georges, for a total of 9 blanks.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="1224" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="913" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="381" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Crossings" geog_id="null">
+						<result candidate_ref="1" vote="277" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Georges" geog_id="null">
+						<result candidate_ref="1" vote="312" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="313" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Red Stone" geog_id="null">
+						<result candidate_ref="1" vote="311" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="173" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="324" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="187" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="155" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel 1.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05558">The Herald of Liberty (Washington, PA).  October 15, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Telegraphe, and Washington Advertiser (Washington, PA).  October 16, 1798.</reference>
+</election_record>

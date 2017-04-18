@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 State Senate, Dukes and Nantucket Counties" type="General" iteration="First Ballot" date="1804" election_id="ma.senator.dukesnantucket.1804" handle="10427/69876" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="Isaac Coffin" name_id="CI0010" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Josiah Barker" name_id="BJ0508" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-10-09">
+                <candidate_summary candidate_ref="1" vote_total="424" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="234" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"No. Voters, 658.  Make a choice, 330."  Governor's Council Records.</note>
+                <note resp="Philip Lampi">"'To the Editor, Nantucket.  April 12th. I am happy to inform you that the Honorable Isaac Coffin, Esq. is chosen Senator, by a very large majority--he had 327 votes in this town and 119 on the Vineyard, a majority of 257 votes.'"  The Democrat (Boston, MA).  April 18, 1804.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="District" name="Dukes and Nantucket" geog_id="null">
+                    <result candidate_ref="1" vote="424" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="234" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Dukes" geog_id="null">
+                        <result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+                        <sub_unit type="Town" name="Chilmark" geog_id="null">
+                            <result candidate_ref="1" resp="Philip Lampi"/>
+                            <result candidate_ref="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Town" name="Edgartown" geog_id="null">
+                            <result candidate_ref="1" resp="Philip Lampi"/>
+                            <result candidate_ref="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Town" name="Tisbury" geog_id="null">
+                            <result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Nantucket" geog_id="null">
+                        <result candidate_ref="1" vote="327" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+                        <sub_unit type="Town" name="Nantucket" geog_id="null">
+                            <result candidate_ref="1" vote="327" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+    <reference type="citation" resp="Philip Lampi">Tisbury Town Records.  319.</reference>
+    <reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  April 13, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">The Democrat (Boston, MA).  April 18, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 15, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel and Massachusetts Federalist (Boston, MA).  May 19, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 4, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">Republican Spy (Springfield, MA).  June 11, 1804.</reference>
+</election_record>
+

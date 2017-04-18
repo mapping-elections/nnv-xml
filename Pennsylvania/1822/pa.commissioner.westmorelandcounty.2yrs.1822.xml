@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Commissioner, Westmoreland County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.commissioner.westmorelandcounty.2yrs.1822" handle="10427/63726" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Neal Boyle" name_id="BN0111" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Moses Murphy" name_id="MM0078" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-20">
+				<candidate_summary candidate_ref="1" vote_total="2224" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2037" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07296" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Neal Boyle is elected to serve a two year term.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Westmoreland" geog_id="null">
+					<result candidate_ref="1" vote="2224" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2037" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Both sources list Neal Boyle with 2284 total votes, but the sum of the township totals listed in each of these sources is 2224.</note>
+					<sub_unit type="Township" name="Allegheny" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Derry" geog_id="null">
+						<result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="229" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Donegal" geog_id="null">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="168" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Greensburgh" geog_id="null">
+						<result candidate_ref="1" vote="600" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="526" resp="Philip Lampi"/>
+						<sub_unit type="Borough" name="Greensburgh" geog_id="null">
+							<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Hempfield" geog_id="null">
+							<result candidate_ref="1" vote="392" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="192" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Mount Pleasant" geog_id="null">
+							<result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Unity" geog_id="null">
+							<result candidate_ref="1" vote="140" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="194" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="District" name="Mount Pleasant" geog_id="null">
+						<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="North Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="203" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="227" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rostraver" geog_id="null">
+						<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Salem" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="193" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="South Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="203" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Greensburgh Gazette (Greensburg, PA).  October 11, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07296">The Westmoreland Republican (Greensburgh, PA).  October 11, 1822.</reference>
+</election_record>

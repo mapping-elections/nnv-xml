@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Inspector of the General Election, Philadelphia City, Cedar Ward" type="General" iteration="First Ballot" date="1813-10" election_id="pa.inspector.philadelphiacity.cedar.1813" handle="10427/62639" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Benjamin Lyndall" name_id="LB0055" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Summers" name_id="SG0102" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Callender" name_id="CT0209" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="F. Wharton" name_id="WF0059" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-05">
+				<candidate_summary candidate_ref="1" vote_total="239" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="238" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="87" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="87" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06638" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06639" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Cedar" geog_id="null">
+						<result candidate_ref="1" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="238" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="87" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06638" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 2, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06638">The Democratic Press (Philadelphia, PA).  October 2, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06638">Political and Commercial Register (Philadelphia, PA).  October 2, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 4, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 5, 1813.</reference>
+</election_record>

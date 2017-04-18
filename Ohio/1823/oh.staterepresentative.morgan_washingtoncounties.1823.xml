@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 House of Representatives, Morgan and Washington Counties" type="General" iteration="First Ballot" date="1823-10" election_id="oh.staterepresentative.morgan_washingtoncounties.1823" handle="10427/60179" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="William Skinner" name_id="SW0167" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Patterson" name_id="PJ0402" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Wharton" name_id="WA0134" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-11">
+				<candidate_summary candidate_ref="1" vote_total="768" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="468" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="257" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05341" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Morgan and Washington" geog_id="null">
+					<result candidate_ref="1" vote="768" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="468" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="257" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05341" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Morgan" geog_id="ohs_morgan">
+						<result candidate_ref="1" vote="588" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="325" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="247" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05341" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="ohs_washington">
+						<result candidate_ref="1" vote="180" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05341" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05341">American Friend and Marietta Gazette (Marietta, OH).  October 30, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05341">Marietta Minerva (Marietta, OH).  November 12, 1823.</reference>
+</election_record>

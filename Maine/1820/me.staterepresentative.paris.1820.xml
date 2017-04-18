@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1820 House of Representatives, Greenwood, Paris and Woodstock" type="General" iteration="First Ballot" date="1820" election_id="me.staterepresentative.paris.1820" handle="10427/80040" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="James Hopper" name_id="HJ1356" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Elias Stowell" name_id="SE0222" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-01">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="District" name="Greenwood, Paris and Woodstock" geog_id="null">
+                    <sub_unit type="Town" name="Greenwood" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Paris" geog_id="null">
+                        <result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Woodstock" geog_id="null">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Lapham, William B., and Silas P. Maxim.  History of Paris, Maine.  Paris, ME: Printed for the Authors, 1884.  785.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1806 State Senate, Chatham County" type="General" iteration="First Ballot" date="1806-08" election_id="nc.statesenator.chatham.1806" handle="10427/43492" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Winship Stedman" name_id="SW0154" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="J. Brantley" name_id="BJ0799" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="I. Smith" name_id="SI0070" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-04">
+				<candidate_summary candidate_ref="1" vote_total="435" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="284" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="183" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04794" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Chatham" geog_id="null">
+					<result candidate_ref="1" vote="435" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="284" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="183" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04794" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04794">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 25, 1806.</reference>
+</election_record>

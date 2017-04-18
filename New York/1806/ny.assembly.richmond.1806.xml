@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1806 Assembly, Richmond County" type="General" iteration="First Ballot" date="1806" election_id="ny.assembly.richmond.1806" handle="10427/25371" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="David Merserau" name_id="MD0105" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Dunn" name_id="DJ0306" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-19">
+				<candidate_summary candidate_ref="1" vote_total="302" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="295" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04294" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" vote="302" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="295" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04294" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Castletown" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04294" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Northfield" geog_id="null">
+						<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04294" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southfield" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04294" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Westfield" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04294" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi">American Citizen (New York, NY).  May 3, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04294">Republican Watch-Tower (New York, NY).  May 5, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Watch-Tower (New York, NY).  May 6, 1806.</reference>
+</election_record>

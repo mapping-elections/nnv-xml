@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Assessor, Philadelphia County, Passayunk Township" type="General" iteration="First Ballot" date="1823" election_id="pa.assessor.passayunk.1823" handle="10427/65923" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Township">
+		<role title="Assessor" scope="Township">
+			<ballot>
+				<candidate name="Richard Peltz" name_id="PR0109" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-17">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Passayunk" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Richard Peltz was unanimously elected assesor, and David Farrel Inspector of Passayunk township; both of the gentlemen are democrats.  The number of votes was about 25."  The Democratic Press (Philadelphia, PA).  October 4, 1823.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 4, 1823.</reference>
+</election_record>

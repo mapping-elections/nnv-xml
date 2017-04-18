@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Alabama 1819 Clerk of the Circuit Court, Limestone County" type="General" iteration="First Ballot" date="1819" election_id="al.circuitcourtclerk.limestonecounty.1819" handle="10427/55775" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Court" office_id="ON025" scope="County">
+		<role title="Clerk of the Court" scope="County">
+			<ballot>
+				<candidate name="Gamble" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edmondson" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Erwin" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Pane" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-14">
+				<candidate_summary candidate_ref="1" vote_total="491" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="474" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="182" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Limestone" geog_id="null">
+					<result candidate_ref="1" vote="491" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="474" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="182" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  October 2, 1819.</reference>
+</election_record>

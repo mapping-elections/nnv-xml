@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1812 Commissioner, Franklin County" type="General" iteration="First Ballot" date="1812-10" election_id="oh.countycommissioner.franklin.1812" handle="10427/59266" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Shaw" name_id="SW0179" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Jamison" name_id="JD0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William MacElvain" name_id="MW0265" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Stephen Maynard" name_id="MS0129" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Huffman" name_id="HJ0694" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Michael Fisher" name_id="FM0037" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-13">
+				<candidate_summary candidate_ref="1" vote_total="163" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="120" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="108" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="106" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="79" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="70" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05173" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Franklin" geog_id="ohs_franklin">
+					<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="108" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="106" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="79" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="70" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05172" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05173" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05172">Freeman's Chronicle (Franklinton, OH).  October 19, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05173">Western Intelligencer (Worthington, OH).  October 21, 1812.</reference>
+</election_record>

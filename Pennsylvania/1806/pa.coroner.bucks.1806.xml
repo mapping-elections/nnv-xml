@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Coroner, Bucks County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.coroner.bucks.1806" handle="10427/61624" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Andrew Quintin" name_id="QA0000" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Mann" name_id="MJ0961" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-27">
+				<candidate_summary candidate_ref="1" vote_total="1728" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1527" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The United States' Gazette (Philadelphia, PA) from October 20, The True American and Commercial Advertiser (Philadelphia, PA) from October 21, and Northampton Farmer and Easton Weekly Advertiser (Easton, PA) from October 26 list John Mann with 1528 total votes, however none of these sources lists township totals.  The Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA) does list township totals, which add up to 1527 total votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="1728" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1527" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bedminster" geog_id="null">
+						<result candidate_ref="1" vote="178" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="300" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bristol" geog_id="null">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="190" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Buckingham" geog_id="null">
+						<result candidate_ref="1" vote="481" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="272" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="625" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="343" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Nockamixon" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Richland" geog_id="null">
+						<result candidate_ref="1" vote="215" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="288" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06049" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 20, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">The True American and Commercial Advertiser (Philadelphia, PA).  October 21, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">Northampton Farmer and Easton Weekly Advertiser (Easton, PA).  October 26, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06049">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 27, 1806.</reference>
+</election_record>

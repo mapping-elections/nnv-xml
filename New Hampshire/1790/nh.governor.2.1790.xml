@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1790 President, Ballot 2" type="Legislative" iteration="Second Ballot" date="1790-06" election_id="nh.governor.2.1790" handle="10427/78674" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="John Pickering" name_id="PJ0232" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Josiah Bartlett" name_id="BJ0544" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-17">
+				<candidate_summary candidate_ref="1" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="5" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">No candidate had achieved a majority of the general election, forcing the legislature to elect a President.</note>
+				<note resp="Philip Lampi">"The Hon. House of Representatives on Friday sent up to the Hon. Senate, the names of the Hon. John Pickering and Josiah Bartlett, Esquires as candidates for the Presidency, the Senate proceeded to ballot, the Hon. Josiah Bartlett, Esq. had 6 votes, and the Hon. John Pickering, Esq. 5, therefore the Hon. Josiah Bartlett, Esq. is elected President of this State for the year ensuing."  The New-Hampshire Gazette, and the General Advertiser (Portsmouth, NH).  June 10, 1790.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="County" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-Hampshire Gazette, and the General Advertiser (Portsmouth, NH).  June 10, 1790.</reference>
+</election_record>

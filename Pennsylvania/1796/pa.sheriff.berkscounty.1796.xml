@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 Sheriff, Berks County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.sheriff.berkscounty.1796" handle="10427/60864" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Christ" name_id="CJ0701" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Conrad Feger" name_id="FC0030" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Shnell" name_id="SJ0976" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="1900" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1507" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="317" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05488" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05489" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Reading Weekly Advertiser and Readinger Zeitung report 1566 votes for Conrad Feger.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Berks" geog_id="null">
+					<result candidate_ref="1" vote="1900" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1507" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="317" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05489">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05488">The Weekly Advertiser, of Reading, in the County of Berks (Reading, PA).  October 15, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05488">Neue Unpartheyische Readinger Zeitung und Anzeigs-Nachrichten (Reading, PA).  October 19, 1796.</reference>
+</election_record>

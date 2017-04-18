@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 Commissioner, Washington County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.commissioner.washingtoncounty.1798" handle="10427/60988" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Campbell" name_id="CW0222" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Henry Moore" name_id="MH0093" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="J. MacCready" name_id="MJ0844" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Edward Todd" name_id="TE0071" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Leaven Williams" name_id="WL0060" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-05">
+				<candidate_summary candidate_ref="1" vote_total="842" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="640" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="428" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="411" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="362" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05578" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Western Telegraphe, and Washington Advertiser (Washington, PA) uses the spelling Moor for Henry Moore.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="842" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="640" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="428" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="411" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="362" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Burgetts" geog_id="null">
+						<result candidate_ref="1" vote="328" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Cannonsburgh" geog_id="null">
+						<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="276" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Hamilton's" geog_id="null">
+						<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="266" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Hills" geog_id="null">
+						<result candidate_ref="2" vote="307" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="14" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Urie's" geog_id="null">
+						<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="205" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="261" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05578">The Herald of Liberty (Washington, PA).  October 15, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Telegraphe, and Washington Advertiser (Washington, PA).  October 16, 1798.</reference>
+</election_record>

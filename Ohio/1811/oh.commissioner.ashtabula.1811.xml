@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1811 Commissioner, Ashtabula County" type="General" iteration="First Ballot" date="1811-10" election_id="oh.commissioner.ashtabula.1811" handle="10427/59239" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Orestas K. Hawley" name_id="HO0002" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Levi Gaylord" name_id="GL0014" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="James Harper" name_id="HJ0716" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Titus Hays" name_id="HT0035" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Nathan Strong" name_id="SN0003" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-07-09">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Ashtabula" geog_id="ohs_ashtabula">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                    <result candidate_ref="5" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Windsor" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18924" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

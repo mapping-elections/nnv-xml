@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1811 Levy Court Commissioner, Sussex County" type="General" iteration="First Ballot" date="1811" election_id="de.levycourtcommissioner.sussex.1811" handle="10427/43905" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Levy Court Commissioner" office_id="ON071" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Alligood" name_id="AW0112" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="George Howard" name_id="HG0002" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="R. Robertson" name_id="RR0086" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1587" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1572" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1567"  resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12086" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="1587" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1572" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1567" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12086" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12086">American Watchman; and Delaware Republican (Wilmington, DE).  October 16, 1811.</reference>
+</election_record>

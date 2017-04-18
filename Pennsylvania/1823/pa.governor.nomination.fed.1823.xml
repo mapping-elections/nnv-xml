@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Governor, Federalist Nomination" type="General" iteration="First Ballot" date="1823-05" election_id="pa.governor.nomination.fed.1823" handle="10427/66001" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Andrew Gregg" name_id="GA0060" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Nominated.</note></candidate>
+				<candidate name="Nathaniel B. Borleau" name_id="BN0080" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Jonathan Roberts" name_id="RJ0377" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-03">
+				<candidate_summary candidate_ref="1" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Andrew Gregg would lose the October election for Governor to John Andrew Shulze.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="Convention" geog_id="null">
+					<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The York Recorder (York, PA).  May 20, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Chronicle (Harrisburg, PA).  May 22, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The York Recorder (York, PA).  May 27, 1823.</reference>
+</election_record>

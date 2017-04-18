@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1811 State Senate, Belmont County" type="General" iteration="First Ballot" date="1811-10" election_id="oh.statesenator.belmont.1811" handle="10427/59191" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James Caldwell" name_id="CJ0608" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Elijah Woods" name_id="WE0117" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-08">
+				<candidate_summary candidate_ref="1" vote_total="792" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="513" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05156" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The returns from two small townships are not received, but are said not to affect materialy the above statement. Thus has Belmont retrieved the reputation which she lost twelve months since, by shaking off the shackles of Federalism, whose partial success last year was announced, as an 'abandonment of the principles of jacobinism, and a return to the mild principles of republicanism.'"  Muskingum Messenger (Zanesville, OH).  October 20, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Belmont" geog_id="ohs_belmont">
+					<result candidate_ref="1" vote="792" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="513" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05156" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18927" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18927">Muskingum Messenger (Zanesville, OH).  October 20, 1811.</reference>
+</election_record>

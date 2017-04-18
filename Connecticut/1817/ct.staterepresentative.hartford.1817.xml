@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1817 House of Representatives, Hartford" type="General" iteration="First Ballot" date="1817" election_id="ct.staterepresentative.hartford.1817" handle="10427/79746" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Jonathan W. Edwards" name_id="EJ0007" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Sylvester Wells" name_id="WS0011" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-09">
+				<candidate_summary candidate_ref="1" vote_total="456" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="415" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"This out of 880 votes dont (sic) look much like that 'overwhelming majority' with which we were threatened previous to the election.  It is short of four on a hundred.  Last fall according to our recollection their majority was sixty-four."  American Mercury (Hartford, CT).  April 15, 1817.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<sub_unit type="City" name="Hartford" geog_id="null">
+						<result candidate_ref="1" vote="456" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="415" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  April 15, 1817.</reference>
+</election_record>

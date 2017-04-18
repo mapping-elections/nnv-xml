@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1820 House of Representatives, Parsonsfield" type="General" iteration="First Ballot" date="1820" election_id="me.staterepresentative.parsonsfield.1820" handle="10427/80041" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="John Buzzell" name_id="BJ1589" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected, declined.</note></candidate>
+                <candidate name="David Marston" name_id="MD0218" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Samuel Garland" name_id="GS0008" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-01">
+                <candidate_summary candidate_ref="1" vote_total="156" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="132" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="8" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="Town" name="Parsonsfield" geog_id="null">
+                    <result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Dearborn, Jeremiah Wadleigh.  A History of the First Century of the Town of Parsonsfield, Maine.  Portland, ME: Brown, Thurston and Company, 1888.  430.</reference>
+</election_record>

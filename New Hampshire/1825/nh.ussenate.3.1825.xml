@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1825 U.S. Senate, Ballot 3" type="Legislative" iteration="Third Ballot" date="1825-06" election_id="nh.ussenate.3.1825" handle="10427/79539" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Levi Woodbury" name_id="WL0039" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Dinsmoor" name_id="DS0099" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jeremiah Mason" name_id="MJ0387" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John F. Parrott" name_id="PJ0260" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-08">
+				<candidate_summary candidate_ref="1" vote_total="93" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Patriot and State Gazette (Concord, NH).  June 13, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">New Hampshire Republican (Dover, NH).  June 14, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">New-hampshire Sentinel (Keene, NH).  June 17, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Statesman (Concord, NH).  June 20, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Pittsfield Sun (Pittsfield, MA).  June 23, 1825.</reference>
+</election_record>

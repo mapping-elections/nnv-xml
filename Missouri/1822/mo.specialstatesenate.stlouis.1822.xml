@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1822 State Senate, Saint Louis County, Special" type="Special" iteration="First Ballot" date="1822" election_id="mo.specialstatesenate.stlouis.1822" handle="10427/56600" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James MacAllister" name_id="MJ0364" affiliation="Anti-Relief Ticket" affiliation_id="A09" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John B.C. Lucas" name_id="LJ0123" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John T. Nash" name_id="NJ0049" affiliation="Relief Ticket" affiliation_id="A09" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-18">
+				<candidate_summary candidate_ref="1" vote_total="215" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="62" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11473"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11474"/>
+				<note resp="Philip Lampi">"We understand that the result of the election in this county on Monday last to supply the vacancy in the senate occasioned by the death of Col. Rector is as follows:"  Western Monitor (Lexington, KY).  October 22, 1822.</note>
+				<note resp="Philip Lampi">"This is a complete triumph of the anti-relief ticket. Mc'Alister was announced as opposed to relief measures.  Some gentlemen on the same side of the question, not having full confidence in him resolved to run Judge Lucas (who had repeatedly refused to become a candidate) and took measures accordingly on the day before the election. Dr. Nash, radically a relief candidate, was distanced as is seen in the above statement."  Western Monitor (Lexington, KY).  October 22, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Saint Louis" geog_id="null">
+					<result candidate_ref="1" vote="215" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="62" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Bonhomme" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11473"/>
+						<note resp="Philip Lampi">No election was held in Bonhomme.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Saint Ferdinand" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="50" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11473"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Saint Louis" geog_id="null">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11473"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11473">Missouri Republican (Saint Louis, MO).  October 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11473">Missouri Republican (Saint Louis, MO).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11474">Western Monitor (Lexington, KY).  October 22, 1822.</reference>
+</election_record>

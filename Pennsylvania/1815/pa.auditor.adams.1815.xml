@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Auditor, Adams County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.auditor.adams.1815" handle="10427/66621" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="John King" name_id="KJ0270" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert MacIlvain" name_id="MR0150" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-18">
+				<candidate_summary candidate_ref="1" vote_total="1421" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="560" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1421" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="560" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="195" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="194" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="211" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Six" geog_id="null">
+						<result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Seven" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Eight" geog_id="null">
+						<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Nine" geog_id="null">
+						<result candidate_ref="1" vote="131" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  October 18, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 28, 1815.</reference>
+</election_record>

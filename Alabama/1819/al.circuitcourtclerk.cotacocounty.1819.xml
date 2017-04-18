@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1819 Clerk of the Circuit Court, Cotaco County" type="General" iteration="First Ballot" date="1819" election_id="al.circuitcourtclerk.cotacocounty.1819" handle="10427/55773" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Court" office_id="ON025" scope="County">
+		<role title="Clerk of the Court" scope="County">
+			<ballot>
+				<candidate name="John Gillespie" name_id="GJ0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="A. Craft" name_id="CA0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Hickman" name_id="HW0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James B. Graham" name_id="GJ0000" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Echols" name_id="EJ0000" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="John Ready" name_id="RJ0000" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Stringfield" name_id="SJ0000" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Michael Corbit" name_id="CM0000" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-14">
+				<candidate_summary candidate_ref="1" vote_total="159" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="153" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="67" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="40" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Alabama Republican (Huntsville, AL) of September 18 lists the position as Clerk of the Superior Court rather than Clerk of the Circuit Court.</note>
+				<note resp="Philip Lampi">John Stringfield and Michael Corbit were listed as candidates in The Alabama Republican (Huntsville, AL) of September 18, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Cotaco" geog_id="null">
+					<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="142" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="90" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="67" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="40" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 18, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 25, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  October 2, 1819.</reference>
+</election_record>

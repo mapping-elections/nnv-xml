@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1811 House of Representatives, Miami County" type="General" iteration="First Ballot" date="1811-10" election_id="oh.staterepresentative.miami.1811" handle="10427/59199" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Evans" name_id="EJ0139" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Armstrong Brandon" name_id="BA0168" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-09">
+				<candidate_summary candidate_ref="1" vote_total="330" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="114" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05160" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Miami" geog_id="ohs_miami">
+					<result candidate_ref="1" vote="330" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="114" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05160" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05160">Liberty Hall (Cincinnati, OH).  October 30, 1811.</reference>
+</election_record>

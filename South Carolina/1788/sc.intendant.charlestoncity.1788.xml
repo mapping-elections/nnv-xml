@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1788 Intendant, Charleston City" type="General" iteration="First Ballot" date="1788" election_id="sc.intendant.charlestoncity.1788" handle="10427/31271" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Intendant" office_id="ON066" scope="City">
+		<role title="Intendant" scope="City">
+			<ballot>
+				<candidate name="Rawlins Lowndes" name_id="LR0081" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Lynah" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-11">
+				<candidate_summary candidate_ref="1" vote_total="279" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="136" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07411" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="279" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07411" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07411">The City Gazette, or the Daily Advertiser (Charleston, SC).  September 30, 1788.</reference>
+</election_record>

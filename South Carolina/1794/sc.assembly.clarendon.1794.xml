@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1794 House of Representatives, Clarendon County" type="General" iteration="First Ballot" date="1794" election_id="sc.assembly.clarendon.1794" handle="10427/31987" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Burchill Richardson" name_id="RJ0578" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas MacFaddin" name_id="MT0217" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Frierston" name_id="FJ0419" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Davis" name_id="DJ0544" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-11-17">
+				<candidate_summary candidate_ref="1" vote_total="120" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="41" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07441" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">208 voters participated in this election.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Clarendon" geog_id="null">
+					<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="41" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07441" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07441">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  240.</reference>
+</election_record>

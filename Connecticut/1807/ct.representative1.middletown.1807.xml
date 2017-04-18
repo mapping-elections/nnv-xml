@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1807 House of Representatives, Middletown, First Representative" type="General" iteration="First Ballot" date="1807" election_id="ct.representative1.middletown.1807" handle="10427/19266" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Elijah Hubbard" name_id="HE0013" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="null" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-15">
+				<candidate_summary candidate_ref="1" vote_total="208" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="145" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01544" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="Middletown" geog_id="null">
+					<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01544" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01544">Middlesex Gazette (Middletown, CT).  April 17, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Pittsfield, MA).  May 2, 1807.</reference>
+</election_record>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1812 Electoral College, District 1" type="General" iteration="First Ballot" date="1812" election_id="tn.elector.first.1812" handle="10427/64947" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="District">
+            <ballot>
+                <elector name="John Talbot" name_id="TJ0479" affiliation="Republican" affiliation_id="A03" declared_for="James Madison" elector_num="1"><note resp="Philip Lampi">John Talbot of Greenville.</note></elector>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-04-28">
+                <elector_summary elector_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="One" geog_id="null">
+                    <sub_unit type="County" name="Carter" geog_id="tns_carter">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Greene" geog_id="tns_greene">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Hawkins" geog_id="tns_hawkins">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sullivan" geog_id="tns_sullivan">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Washington" geog_id="tns_washington">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Wilson's Knoxville Gazette (Knoxville, TN).  October 26, 1812.</reference>
+</election_record>

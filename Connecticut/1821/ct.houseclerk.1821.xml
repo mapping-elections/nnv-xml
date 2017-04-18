@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1821 Clerk of the House of Representatives, First Clerk, Ballot 2" type="Legislative" iteration="Second Ballot" date="1821" election_id="ct.houseclerk.1821" handle="10427/79793" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the House of Representatives" office_id="ON027" scope="State">
+		<role title="Clerk of the House of Representatives" scope="State">
+			<ballot>
+				<candidate name="Nathan Johnson" name_id="JN0022" affiliation="Republican" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Calvin Willey" name_id="WC0000" affiliation="Federalist" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Henry Terry" name_id="TH0051" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Edmund Badger" name_id="BE0262" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel Church" name_id="CS0269" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Timothy Pitkin" name_id="PT0001" affiliation="Federalist" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-15">
+				<candidate_summary candidate_ref="1" vote_total="149" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="24" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On the first ballot for first Clerk there was no choice."  Connecticut Gazette (New London, CT).  May 9, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  May 7, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  May 8, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  May 9, 1821.</reference>
+</election_record>

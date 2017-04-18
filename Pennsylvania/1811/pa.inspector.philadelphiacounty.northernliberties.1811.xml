@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Inspector of the General Election, Philadelphia City, Northern Liberties" type="General" iteration="First Ballot" date="1811-09" election_id="pa.inspector.philadelphiacounty.northernliberties.1811" handle="10427/62375" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="Jacob Belsterling" name_id="BJ1090" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"/>
+				<candidate name="Isaac Johnson" name_id="JI0011" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Timmings" name_id="TT0109" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Leonard Stricker" name_id="SL0051" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Daniel Bickley" name_id="BD0146" affiliation="Old School Democrat" affiliation_id="A07" candidate_num="5"/>
+				<candidate name="Adam Strieby" name_id="SA0218" affiliation="Old School Democrat" affiliation_id="A07" candidate_num="6"/>
+				<candidate name="Simon Shugart" name_id="SS0287" affiliation="Old School Democrat" affiliation_id="A07" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-01">
+				<candidate_summary candidate_ref="1" vote_total="759" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="527" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="526" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="525" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="238" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="236" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="233" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06501" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="District" name="Northern Liberties" geog_id="null">
+						<result candidate_ref="1" vote="759" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="527" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="526" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="525" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="238" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="236" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="233" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06501" resp="Philip Lampi"/>
+						<sub_unit type="District" name="East" geog_id="null">
+							<result candidate_ref="1" vote="360" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="219" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="218" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="219" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="146" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="145" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="143" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06501" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="West" geog_id="null">
+							<result candidate_ref="1" vote="399" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="308" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="308" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="306" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="92" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="91" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="90" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06501" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06501">The Democratic Press (Philadelphia, PA).  September 28, 1811.</reference>
+</election_record>

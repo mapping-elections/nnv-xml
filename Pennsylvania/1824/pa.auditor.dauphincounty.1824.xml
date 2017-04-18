@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Auditor, Dauphin County" type="General" iteration="First Ballot" date="1824" election_id="pa.auditor.dauphincounty.1824" handle="10427/63873" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Martin Hocker" name_id="HM0085" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Hoffer" name_id="HS0242" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2014-01-13">
+				<candidate_summary candidate_ref="1" vote_total="1739" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1146" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07365" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Pennsylvanian (Harrisburg, PA) lists Samuel Hoffer with 1046 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1739" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1146" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="203" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="423" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="318" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvanian (Harrisburg, PA).  October 16, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07365">Harrisburg Chronicle (Harrisburg, PA).  October 18, 1824.</reference>
+</election_record>

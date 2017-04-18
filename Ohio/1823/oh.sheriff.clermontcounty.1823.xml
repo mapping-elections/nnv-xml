@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Sheriff, Clermont County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.sheriff.clermontcounty.1823" handle="10427/60193" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Daniel Hankins" name_id="HD0079" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Miley" name_id="MA0201" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Kain" name_id="KT0059" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Philip P. Byrn" name_id="BP0065" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Charles M. Strader" name_id="SC0107" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="David Morris" name_id="MD0151" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="728" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="513" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="425" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="259" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="225" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="116" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05332" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Clermont" geog_id="ohs_clermont">
+					<result candidate_ref="1" vote="728" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="513" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="425" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="259" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="225" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="116" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05332" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05332">The National Republican and Ohio Political Register (Cincinnati, OH).  October 28, 1823.</reference>
+</election_record>

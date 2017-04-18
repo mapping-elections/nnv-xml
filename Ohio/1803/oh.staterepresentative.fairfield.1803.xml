@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1803 House of Representatives, Fairfield County" type="General" iteration="First Ballot" date="1803-01" election_id="oh.staterepresentative.fairfield.1803" handle="10427/58856" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="David Rees" name_id="RD0043" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Trimble" name_id="TW0082" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Goss" name_id="GW0113" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Irwin" name_id="IW0018" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-06">
+				<candidate_summary candidate_ref="1" vote_total="309" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="161" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="143" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05076" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Fairfield" geog_id="ohs_fairfield">
+					<result candidate_ref="1" vote="309" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="157" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="143" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05076" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05076">The Scioto Gazette (Chillicothe, OH).  January 15, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Spy, and Hamilton Gazette (Cincinnati, OH).  January 26, 1803.</reference>
+</election_record>

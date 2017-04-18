@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Trustee of the Academy, Chester County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.trustee.chester.1820" handle="10427/67582" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="Israel Davis" name_id="DI0021" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Harris" name_id="HJ0899" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-29">
+				<candidate_summary candidate_ref="1" vote_total="6243" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="6176" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="6243" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="6176" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Village Record reports 6186 total votes for John Harris, though the township votes add up to 6176.</note>
+					<sub_unit type="Populated Place" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="454" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="454" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Downingtown" geog_id="null">
+						<result candidate_ref="1" vote="311" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="246" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Republican (Downingtown, PA) reports 311 votes for John Harris.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gum Tree" geog_id="null">
+						<result candidate_ref="1" vote="322" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="322" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Manor" geog_id="null">
+						<result candidate_ref="1" vote="637" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="637" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Marshallton" geog_id="null">
+						<result candidate_ref="1" vote="307" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="307" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New London Cross Roads" geog_id="null">
+						<result candidate_ref="1" vote="301" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="301" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="375" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="374" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Republican (Downingtown, PA) reports 374 votes for Israel Davis and 375 votes for John Harris.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Old Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="382" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="379" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="455" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="455" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Republican (Downingtown, PA) refers to Oxford as "Hood's".  October 17, 1820.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Paoli" geog_id="null">
+						<result candidate_ref="1" vote="924" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="924" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pughtown" geog_id="null">
+						<result candidate_ref="1" vote="812" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="815" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sloan's" geog_id="null">
+						<result candidate_ref="1" vote="333" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="333" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="West Chester" geog_id="null">
+						<result candidate_ref="1" vote="630" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="629" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The American Republican (Downingtown, PA).  October 17, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Village Record, or Chester and Delaware Federalist (West Chester, PA).  October 18, 1820.</reference>
+</election_record>

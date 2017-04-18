@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1793 Coroner, Berks County" type="General" iteration="First Ballot" date="1793-10" election_id="pa.coroner.berkscounty.1793" handle="10427/60748" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Thomas Wildborn" name_id="WT0202" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="H. Brown" name_id="BH0111" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Philip Zieber" name_id="ZP0002" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-08">
+				<candidate_summary candidate_ref="1" vote_total="2301" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1393" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1187" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05435" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA) reports 2303 votes for Thomas Wildborn.</note>
+				<note resp="Philip Lampi">The Neue Unpartheyische Readinger Zeitung und Anzeigs-Nachrichten (Reading, PA) uses the spelling Wildbahn for Thomas Wildborn.</note>
+				<note resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA) uses the spelling Widbahn for Thomas Wildborn.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Berks" geog_id="null">
+					<result candidate_ref="1" vote="2301" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1393" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1187" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Neue Unpartheyische Readinger Zeitung und Anzeigs-Nachrichten (Reading, PA).  October 9, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA).  October 16, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05435">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1793.</reference>
+</election_record>

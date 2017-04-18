@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1794-03" election_id="pa.ussenate.1794" handle="10427/60803" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="James Ross" name_id="RJ0316" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Coleman" name_id="CR0102" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Samuel Sitgreaves" name_id="SS0245" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-14">
+				<candidate_summary candidate_ref="1" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="35" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09973"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Five members of the House of Representatives failed to vote.</note>
+					</sub_unit>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">One member of the State Senate failed to vote.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09973">Journal of the Pennsylvania House of Representatives, 1793.  316-318.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09973">Journal of the Pennsylvania State Senate, 1793.  166-168.</reference>
+</election_record>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1811 Assembly, Westchester County" type="General" iteration="First Ballot" date="1811" election_id="ny.assembly.westchester.1811" handle="10427/25793" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Abraham Miller" name_id="MA0109" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Darius Crosby" name_id="CD0100" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Odell" name_id="OJ0074" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Youngs" name_id="YS0004" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Robert Graham" name_id="GR0078" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Abraham Odell" name_id="OA0031" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-21">
+				<candidate_summary candidate_ref="1" vote_total="1383" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1358" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1332" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1196" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1193" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1192" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04423" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schoharie" geog_id="null">
+					<result candidate_ref="1" vote="1383" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1358" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1332" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1196" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1193" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1192" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04423" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Courtlandt" geog_id="null">
+						<result candidate_ref="1" vote="211" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="64" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Public Advertiser (New York, NY).  May 8, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The New York Journal (New York, NY).  May 11, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04423">The Columbian (New York, NY).  May 15, 1811.</reference>
+</election_record>

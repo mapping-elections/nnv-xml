@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 House of Representatives, Dorchester" type="General" iteration="First Ballot" date="1812-05" election_id="ma.staterepresentative.dorchester.1812" handle="10427/34232" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Humphreys" name_id="HJ1139" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Capen" name_id="CJ0910" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Pope" name_id="PW0171" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-22">
+				<candidate_summary candidate_ref="1" vote_total="223" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="196" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03564" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Yesterday the inhabitants of Dorchester chose their Representatives to the next General Court.  The highest Federal Republican Candidate had 223 votes, highest Democratic 196.  This town has been Democratic for 19 years; but the effects of the measures of rulers have produced conviction and change.  The Washingtonians, with pleasure, welcome its return to their family."  New-England Palladium (Boston, MA).  May 12, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Dorchester" geog_id="null">
+					<result candidate_ref="1" vote="223" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="196" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03564" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 12, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03564">The True American and Commercial Advertiser (Philadelphia, PA).  May 16, 1812.</reference>
+</election_record>

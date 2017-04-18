@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assembly, Putnam County" type="General" iteration="First Ballot" date="1824" election_id="ny.assembly.putnam.1824" handle="10427/65640" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="David Knapp" name_id="KD0039" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Abraham Smith" name_id="SA0150" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="694" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="498" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Supporters of DeWitt Clinton were known under several labels. While the older Clintonian / Federalist was still used, many were listed and ran as candidates of the People's Party with others favoring the term of Anti-Caucus. Those in opposition to DeWitt Clinton, although mainly Republicans were in this election also being referred to as King Caucus candidates and often called Bucktails.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Putnam" geog_id="null">
+					<result candidate_ref="1" vote="694" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="498" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Carmel" geog_id="null">
+						<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="184" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Kent" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Patterson" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Phillipstown" geog_id="null">
+						<result candidate_ref="1" vote="305" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southeast" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

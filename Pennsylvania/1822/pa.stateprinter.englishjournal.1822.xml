@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 State Printer, English Journal" type="Legislative" iteration="First Ballot" date="1822" election_id="pa.stateprinter.englishjournal.1822" handle="10427/63755" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Public Printer" office_id="ON083" scope="State">
+		<role title="Public Printer" scope="State">
+			<ballot>
+				<candidate name="John S. Wiestling" name_id="WJ0849" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Greer and Minshall" name_id="MG0121" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-15">
+				<candidate_summary candidate_ref="1" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="32" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10868" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10869" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10868" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10869" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10868">Harrisburg Chronicle (Harrisburg, PA).  December 12, 1822.</reference>
+</election_record>

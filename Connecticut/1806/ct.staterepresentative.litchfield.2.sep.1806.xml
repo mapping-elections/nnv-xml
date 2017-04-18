@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1806 House of Representatives, Litchfield, Second Representative" type="General" iteration="First Ballot" date="1806-09" election_id="ct.staterepresentative.litchfield.2.sep.1806" handle="10427/17812" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Aaron Bradley" name_id="BA0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Norman Buel" name_id="BN0002" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Moses Seymour" name_id="SM0001" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Uriel Holmes" name_id="HU0000" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-13">
+				<candidate_summary candidate_ref="1" vote_total="345" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="284" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01537" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Mr. Seymour has so often said that he does not approve of all the measures of the Democrats, that he draws off a few federal votes.  The votes for Mr. Bradley, it is presumed, show the true state of parties."  Letter to the Editor, printed in New England Republican (Danbury, CT).  September 23, 1806.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Litchfield" geog_id="cts_litchfield_litchfield">
+					<result candidate_ref="1" vote="345" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="284" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01537" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New England Republican (Danbury, CT).  September 23, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01537">Litchfield Monitor (Litchfield, CT).  September 24, 1806.</reference>
+</election_record>

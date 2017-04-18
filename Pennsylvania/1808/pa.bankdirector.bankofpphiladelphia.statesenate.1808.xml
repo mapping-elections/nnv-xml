@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Director, Bank of Philadelphia" type="Legislative" iteration="First Ballot" date="1808" election_id="pa.bankdirector.bankofpphiladelphia.statesenate.1808" handle="10427/61968" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Bank Director" office_id="ON014" scope="State">
+		<role title="Bank Director" scope="State">
+			<ballot>
+				<candidate name="Henry Orth" name_id="OH0011" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Harris, Jr." name_id="HR0181" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Theophilus Harris" name_id="HT0174" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Michael Leib" name_id="LM0058" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James MacGlathery" name_id="MJ0999" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Samuel Meeker" name_id="MS0173" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-23">
+				<candidate_summary candidate_ref="1" vote_total="25" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="14" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="11" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10793" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10794" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Henry Orth had a unanimous vote."  The True American and Commercial Advertiser (Philadelphia, PA).  January 29, 1808.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10793" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10794" resp="Philip Lampi"/>
+					</sub_unit></sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10793">The True American and Commercial Advertiser (Philadelphia, PA).  January 29, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10794">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  January 29, 1808.</reference>
+</election_record>

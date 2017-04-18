@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Coroner, Trumbull County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.coroner.trumbull.1822" handle="10427/60145" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="Charles Olcott" name_id="OC0008" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Benjamin Armitage" name_id="AB0003" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Toyal B. Tanner" name_id="TT0022" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-02-15">
+                <candidate_summary candidate_ref="1" vote_total="1118" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="570" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+                    <result candidate_ref="1" vote="1118" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="570" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="null" geog_id="null">
+                        <result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns, Trumbull County, unknown township.</reference>
+    <reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  October 19, 1822.</reference>
+</election_record>
+

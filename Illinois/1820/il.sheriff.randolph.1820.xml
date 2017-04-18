@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1820 Sheriff, Randolph County" type="General" iteration="First Ballot" date="1820-08" election_id="il.sheriff.randolph.1820" handle="10427/56223" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Samuel C. Christy" name_id="CS0004" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="W. MacBride" name_id="MW0039" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John MacFerron" name_id="MJ0100" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-01">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11244" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Madison" geog_id="null">
+					<sub_unit type="Town" name="Kaskaskia" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Mary" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Plumb Creek" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="30" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Prairie du Rocher" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Springfield" geog_id="null">
+						<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Williamsburg" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11244">The Illinois Intelligencer (Kaskaskia, IL).  August 12, 1820.</reference>
+</election_record>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1788 House of Delegates, Prince Edward County" type="General" iteration="First Ballot" date="1788" election_id="va.houseofdelegates.princeedward.1788" handle="10427/32578" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Patrick Henry" name_id="HP0078" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Tarlton Woodson" name_id="WT0187" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-22">
+				<candidate_summary candidate_ref="1" vote_total="231" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="186" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08238" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Prince Edward" geog_id="null">
+					<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="186" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08238" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08238">Prince Edward County Poll Lists.  Library of Virginia, Richmond.</reference>
+</election_record>

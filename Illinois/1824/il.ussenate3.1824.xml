@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 U.S. Senate, Special, Ballot 3" type="Special" iteration="Third Ballot" date="1824" election_id="il.ussenate3.1824" handle="10427/56412" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John MacLean" name_id="MJ0101" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ninian Edwards" name_id="EN0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Nathaniel Pope" name_id="PN0016" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="31" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">To supply the vacancy occasioned by the resignation of Ninian Edwards.</note>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+				<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Edwardsville Spectator (Edwardsville, IL).  November 30, 1824.</reference>
+</election_record>

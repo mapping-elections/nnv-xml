@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 House of Representatives, Fayette and Montgomery Counties" type="General" iteration="First Ballot" date="1824-08" election_id="il.assembly.montgomeryandfayette.1824" handle="10427/56302" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John A. Wakefield" name_id="WJ0095" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert K. MacLaughlin" name_id="MR0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Warnock" name_id="WJ0085" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="202" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="198" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314"/>
+				<note resp="Philip Lampi">Robert K. McLaughlin presented to the house a written charge that John A. Wakefield owed his election to corruption.  The charge was laid on the table wehen received, December 11; December 13 the house refused to take up the matter; the next day it was taken up, and McLaughlin given leave to withdraw the papers.</note>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Fayette and Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314"/>
+						<sub_unit type="Town" name="Vandalia" geog_id="null">
+							<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+							<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Wakefield" geog_id="null">
+							<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+							<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314"/>
+						<sub_unit type="Town" name="Hillsborough" geog_id="null">
+							<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+							<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Hurricane" geog_id="null">
+							<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+							<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Illinois House of Representatives, 1824.  82, 87, 94.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11314">The Illinois Intelligencer (Vandalia, IL).  August 6, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  212.</reference>
+</election_record>

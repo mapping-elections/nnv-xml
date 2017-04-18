@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 House of Representatives, Lebanon County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.assembly.lebanon.1822" handle="10427/63647" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="George Seltzer" name_id="SG0141" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Adam Ritscher" name_id="RA0106" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Weiss" name_id="WJ0876" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Adam Ulrich" name_id="UA0003" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-30">
+				<candidate_summary candidate_ref="1" vote_total="1297" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1257" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1077" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="967" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07236" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07237" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="1297" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1257" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1077" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="967" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA) the Pennsylvania Intelligencer (Harrisburg, PA) and the Der Unpartheyische Berichter (Lebanon, PA) are the only sources which list totals for each township and total vote counts for Lebanon County for the candidates.  They list Adam Ulrich with 967 total votes, which is the correct sum of the township totals they list.  All other sources only list total vote counts for Lebanon County and list Ulrich with 947 total votes.</note>
+					<sub_unit type="Township" name="Annville" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="142" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Campbelltown" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="108" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="East Hanover" geog_id="null">
+						<result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Jonestown" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="90" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="199" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="188" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Myerstown" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="109" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Schaefferstown" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="168" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Stumpstown" geog_id="null">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Der Unpartheyische Berichter (Lebanon, PA).  October 12, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 15, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07237">Franklin Gazette (Philadelphia, PA).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07236">Lancaster Journal (Lancaster, PA).  October 18, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 18, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07237">The Union. United States Gazette and True American (Philadelphia, PA).  October 18, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">American Sentinel and Mercantile Advertiser (Philadelphia, PA).  October 19, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07236">Lancaster Intelligencer (Lancaster, PA).  October 19, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October, 1822.</reference>
+</election_record>

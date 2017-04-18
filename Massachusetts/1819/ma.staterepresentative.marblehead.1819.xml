@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1819 House of Representatives, Marblehead" type="General" iteration="First Ballot" date="1819" election_id="ma.staterepresentative.marblehead.1819" handle="10427/79041" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John Hopper" name_id="HJ1147" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-14">
+				<candidate_summary candidate_ref="1" vote_total="93" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="59" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Dear Sir, John Hopper, Esq. (a Federalist!) has this day been elected the Representative of this town in the Legislature of this Commonwealth, by 93 of 152 votes, the whole number given in. .... It is more than twenty years since Marblehead has chosen a Federal Representative."  Salem Gazette (Salem, MA).  May 11, 1819.</note>
+				<note resp="Philip Lampi">"The votes in Marblehead for Representative were on 10th May 1819, J. Hooper 93, for six candidates 59, all the votes 152."  The Essex Register (Salem, MA).  May 15, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Marblehead" geog_id="null">
+					<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Salem Gazette (Salem, MA).  May 11, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  May 15, 1819.</reference>
+</election_record>

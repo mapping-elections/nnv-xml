@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Commissioner, Berks County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.commissioner.berks.1810" handle="10427/66294" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Daniel Ruth" name_id="RD0070" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"/>
+				<candidate name="John Huy" name_id="HJ0924" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-29">
+				<candidate_summary candidate_ref="1" vote_total="1942" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1709" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Huy is listed as a Snyderite in The Freeman's Journal and Columbian Chronicle (Philadelphia, PA) from October 19, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Berks" geog_id="null">
+					<result candidate_ref="1" vote="1942" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1709" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bethel" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Crolls" geog_id="null">
+						<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Forrest" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hamburg" geog_id="null">
+						<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="207" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Kutztown" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="174" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mahantango" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Muthardt" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Orwigsburg" geog_id="null">
+						<result candidate_ref="1" vote="254" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pine Grove" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Reading" geog_id="null">
+						<result candidate_ref="1" vote="804" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="495" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tulpehocken" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Whitehorse" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wommelsdorf" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 19, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Libanoner Morgenstern (Lebanon, PA).  October 24, 1810.</reference>
+</election_record>

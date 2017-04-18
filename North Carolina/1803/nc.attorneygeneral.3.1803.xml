@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1803 Attorney General, Ballot 3" type="Legislative" iteration="Third Ballot" date="1803-12" election_id="nc.attorneygeneral.3.1803" handle="10427/43589" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Attorney General" office_id="ON012" scope="State">
+        <role title="Attorney General" scope="State">
+            <ballot>
+                <candidate name="Henry Seawell" name_id="SH0104" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Evan Alexander" name_id="AE0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Robert Williams" name_id="WR0105" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-01">
+                <candidate_summary candidate_ref="1" vote_total="80" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="50" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="45" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17481" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="45" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17481" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17481">Minerva; or, Anti-Jacobin (Raleigh, NC).  December 12, 1803.</reference>
+</election_record>

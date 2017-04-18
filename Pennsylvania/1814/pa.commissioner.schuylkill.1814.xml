@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Commissioner, Schuylkill County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.commissioner.schuylkill.1814" handle="10427/62750" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Henry Strauch" name_id="SH0161" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Hoch" name_id="HJ1020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Michael Webber" name_id="WM0099" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Peter Kutz" name_id="KP0017" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="344" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="237" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="91" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="89" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06712" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Schuylkill" geog_id="null">
+					<result candidate_ref="1" vote="344" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="237" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="91" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="89" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">These vote totals do not include the votes cast in the military camps.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06712">Der Readinger Adler (Reading, PA).  October 18, 1814.</reference>
+</election_record>

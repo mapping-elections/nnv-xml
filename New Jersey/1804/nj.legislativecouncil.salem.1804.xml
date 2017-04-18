@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1804 Legislative Council, Salem County" type="General" iteration="First Ballot" date="1804-10" election_id="nj.legislativecouncil.salem.1804" handle="10427/20296" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Jacob Hufty" name_id="HJ0423" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaiah Shinn" name_id="SI0050" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Artis Segrave" name_id="SA0103" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-22">
+				<candidate_summary candidate_ref="1" vote_total="441" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Samuel Ray, a candidate for Assembly, is listed on the Original Election Returns tally sheet under both Assembly and Council. He did not receive any votes for Council.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Salem" geog_id="null">
+					<result candidate_ref="1" vote="441" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Elsenborough" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Alloways Creek" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Penn's Neck" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mannington" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Piles Grove" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pitts Grove" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Salem" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Alloways Creek" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Penn's Neck" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03940">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

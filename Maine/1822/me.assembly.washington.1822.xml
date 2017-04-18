@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1822 House of Representatives, Calais, New Limerick, Perry, Robbinstown, Houlton Plantation and Plantations No. 3, 6 and 7" type="General" iteration="First Ballot" date="1822" election_id="me.assembly.washington.1822" handle="10427/58327" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="Samuel Tuttle" name_id="TS0012" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Goulden" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Dudley" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2007-10-05">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">No choice.</note>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="District" name="Calais, New Limerick, Perry, Robbinstown, Houlton Plantation and Plantations No. 3, 6 and 7" geog_id="null">
+                    <sub_unit type="Town" name="Calais" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Houlton Plantation" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="New Limerick" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Perry" geog_id="null">
+                        <result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Plantation No. 3" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Plantation No. 6" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Plantation No. 7" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="Town" name="Robbinstown" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Eastport Sentinel (Eastport, ME).  September 14, 1822.</reference>
+</election_record>

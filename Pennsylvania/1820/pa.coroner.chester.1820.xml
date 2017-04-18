@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Coroner, Chester County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.coroner.chester.1820" handle="10427/67578" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Emmor Bradley" name_id="BE0199" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Buffington" name_id="BR0129" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-29">
+				<candidate_summary candidate_ref="1" vote_total="3244" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3066" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="3244" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3066" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The American Republican and the Village Record report 3284 votes for Emmor Bradley, though the township votes add up to 3244.</note>
+					<sub_unit type="Populated Place" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="346" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Downingtown" geog_id="null">
+						<result candidate_ref="1" vote="242" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gum Tree" geog_id="null">
+						<result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="170" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Manor" geog_id="null">
+						<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="413" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Marshallton" geog_id="null">
+						<result candidate_ref="1" vote="286" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Republican (Downingtown, PA) reports 20 votes for Robert Buffington.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New London Cross Roads" geog_id="null">
+						<result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="224" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="277" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Old Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="245" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="344" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Republican (Downingtown, PA) refers to Oxford as "Hood's".</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Paoli" geog_id="null">
+						<result candidate_ref="1" vote="528" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="398" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pughtown" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="636" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sloan's" geog_id="null">
+						<result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="205" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="West Chester" geog_id="null">
+						<result candidate_ref="1" vote="503" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The American Republican (Downingtown, PA).  October 17, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Village Record, or Chester and Delaware Federalist (West Chester, PA).  October 18, 1820.</reference>
+</election_record>

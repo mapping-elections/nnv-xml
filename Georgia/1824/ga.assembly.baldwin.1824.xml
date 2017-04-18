@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1824 House of Representatives, Baldwin County" type="General" iteration="First Ballot" date="1824" election_id="ga.assembly.baldwin.1824" handle="10427/16387" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="James C. Watson" name_id="WJ0079" affiliation="Crawford" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Tomlinson Fort" name_id="FT0008" affiliation="Crawford" affiliation_id="A07" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="John Rutherford" name_id="RJ0015" affiliation="Jackson" affiliation_id="A03" candidate_num="3"/>
+        <candidate name="Hammond" name_id="null" affiliation="Jackson" affiliation_id="A03" candidate_num="4"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-04-02">
+        <candidate_summary candidate_ref="1" vote_total="439" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="436" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="335" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="261" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01693" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14296" resp="Philip Lampi"/>
+        <note resp="Philip Lampi">The Georgia Journal refers to Hammond as "Homeson."</note>
+        <note resp="Philip Lampi">The Georgia Journal of October 12, 1824 lists John Rutherford and Hammond as Crawford candidates, and James C. Watson and Tomlinson Fort as Jackson candidates.</note>
+        <note resp="Philip Lampi">The Georgia Journal of October 12, 1824 lists John Rutherford with 336 votes.</note>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Baldwin" geog_id="null">
+          <result candidate_ref="1" vote="439" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="436" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="335" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="261" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01693" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14296" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01693">The Daily Georgian (Savannah, GA).  October 12, 1824.</reference>
+  <reference type="citation" resp="Philip Lampi">Georgia Journal (Milledgeville, GA).  October 12, 1824.</reference>
+</election_record>

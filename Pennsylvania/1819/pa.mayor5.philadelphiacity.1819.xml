@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Mayor, Philadelphia City, Ballot 5" type="Legislative" iteration="Fifth Ballot" date="1819-10" election_id="pa.mayor5.philadelphiacity.1819" handle="10427/68064" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Mayor" office_id="ON079" scope="City">
+		<role title="Mayor" scope="City">
+			<ballot>
+				<candidate name="James N. Barker" name_id="BJ1248" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Lawler" name_id="LM0057" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert Wharton" name_id="WR0138" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Geyer" name_id="GJ0416" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-24">
+				<candidate_summary candidate_ref="1" vote_total="17" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="11" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="0" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">This was the fifth of five ballots taken among the Select and Common Council members to elect a mayor for the city of Philadelphia. No candidate received the required majority of votes until the fifth ballot.</note>
+					<note resp="Philip Lampi">"Joseph Watson of the Select Council, and Alexander Adams of the Common Council, were then deputed to inform Mr. Barker of his election; who, having returned, reported, that Mr. Barker, sensible of the honour done him by the Select and Common Councils, accepted of the Office conferred upon him; whereupon, Mr. Barker was introduced into the Chamber, and qualified by the Recorder, in the presence of the joing meeting." Poulson's American Daily Advertiser (Philadelphia, PA).  October 20, 1819.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 20, 1819.</reference>
+</election_record>

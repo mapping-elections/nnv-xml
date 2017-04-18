@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Auditor, York County" type="General" iteration="First Ballot" date="1813-10" election_id="pa.auditor.york.1813" handle="10427/62669" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Thomas Metzlar" name_id="MT0174" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James Barnitz" name_id="BJ1173" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Smith" name_id="SJ1243" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Andrew Clarkson" name_id="CA0171" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Jacob Metzger" name_id="MJ1111" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Lewis Rosenmiller" name_id="RL0035" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-29">
+				<candidate_summary candidate_ref="1" vote_total="1676" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1665" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1659" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="805" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="799" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="729" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06666" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Jacob Metzger is also listed as Jacob Metzgar.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="1676" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1665" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1659" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="805" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="799" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="729" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06666" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Adams Centinel (Gettysburg, PA).  September 29, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06666">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 23, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06666">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 30, 1813.</reference>
+</election_record>

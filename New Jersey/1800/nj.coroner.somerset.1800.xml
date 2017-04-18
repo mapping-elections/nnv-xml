@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1800 Coroner, Somerset County" type="General" iteration="First Ballot" date="1800" election_id="nj.coroner.somerset.1800" handle="10427/67218" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William Forman" name_id="FW0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Christian Eoff" name_id="EC0001" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Nicholas Perrins" name_id="PN0057" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-08">
+				<candidate_summary candidate_ref="1" vote_total="247" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="92" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Original Election Returns tally sheet has a column for William Covenhoven for coroner, but he did not receive any votes.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Somerset" geog_id="null">
+					<result candidate_ref="1" vote="247" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bedminster" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bernards" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bridgewater" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hillsborough" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate.  New Jersey State Library, Trenton.</reference>
+</election_record>

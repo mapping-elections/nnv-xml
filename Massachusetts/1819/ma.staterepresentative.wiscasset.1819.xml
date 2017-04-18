@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1819 House of Representatives, Wiscasset" type="General" iteration="First Ballot" date="1819" election_id="ma.staterepresentative.wiscasset.1819" handle="10427/79052" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Samuel E. Smith" name_id="SS0329" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Erastus Foote" name_id="FE0062" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-16">
+				<candidate_summary candidate_ref="1" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="96" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Extract of a letter from Wiscasset dated May 11, 1819. We yesterday had our election for two Representatives, and after the warmest struggle that has been in this place for many years, the Republican Ticket has prevailed. The town has been Federal for several years. Whole number of votes 190. Necessary for a choice 96."  Boston Patriot and Daily Chronicle (Boston, MA).  May 15, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Wiscasset" geog_id="null">
+					<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Patriot and Daily Chronicle (Boston, MA).  May 15, 1819.</reference>
+</election_record>

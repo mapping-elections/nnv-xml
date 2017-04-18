@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1820 State Senate, Avoyelles, Catahoula and Rapide Parishes" type="General" iteration="First Ballot" date="1820" election_id="la.statesenate.1820" handle="10427/57905" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Philip Caldwell" name_id="CP0003" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac MacNutt" name_id="MI0008" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-09">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="District" name="Avoyelles, Catahoula and Rapide" geog_id="null">
+					<sub_unit type="Parish" name="Avoyelles" geog_id="null">
+						<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Parish" name="Catahoula" geog_id="null">
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Parish" name="Rapide" geog_id="null">
+						<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Louisiana Herald (Alexandria, LA).  July 8, 1820.</reference>
+</election_record>

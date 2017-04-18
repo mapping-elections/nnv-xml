@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1811 Sheriff, Franklin County" type="General" iteration="First Ballot" date="1811-10" election_id="oh.sheriff.franklin.1811" handle="10427/59234" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Samuel Shannon" name_id="SS0063" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Adam Hosack" name_id="HA0077" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John M. White" name_id="WJ0591" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-07-09">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Franklin" geog_id="ohs_franklin">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Worthington" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Western Intelligencer (Worthington, OH).  October 9, 1811.</reference>
+</election_record>

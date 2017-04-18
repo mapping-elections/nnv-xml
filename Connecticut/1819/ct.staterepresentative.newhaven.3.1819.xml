@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1819 House of Representatives, New Haven, First Representative, Ballot 3" type="General" iteration="Third Ballot" date="1819" election_id="ct.staterepresentative.newhaven.3.1819" handle="10427/79783" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Ralph I. Ingersoll" name_id="IR0000" affiliation="Republican" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Bostwick" name_id="BC0003" affiliation="Federalist" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-16">
+				<candidate_summary candidate_ref="1" vote_total="489" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="474" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"We have been thus particular in giving the state of the votes on each ballot because, means the most base and dishonorable have been resorted to be the federalist to cover their defeat, by creating an impression that the election of Mr. Ingersoll was an unfair one."  Columbian Register (New Haven, CT).  April 13, 1819.</note>
+				<note resp="Philip Lampi">"The sudden and mysterious acquisition of 39 Toleration votes, on the third round for first Representative, surprised every honest man - We can bring testimony that one man voted twice and was taken no notice of by the Board."  The Connecticut Journal (New Haven, CT).  April 6, 1819.</note>
+				<note resp="Philip Lampi">"[Charles Bostwick], though a republican, was put in nomination by the federalists, with a view of dividing our strength."  Columbian Register (New Haven, CT).  April 13, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="New Haven" geog_id="null">
+					<sub_unit type="City" name="New Haven" geog_id="null">
+						<result candidate_ref="1" vote="489" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="474" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Connecticut Journal (New Haven, CT).  April 6, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 9, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Register (New Haven, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald, and General Advertiser (New Haven, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Connecticut Journal (New Haven, CT).  April 13, 1819.</reference>
+</election_record>

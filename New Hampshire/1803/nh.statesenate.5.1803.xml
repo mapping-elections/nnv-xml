@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1803 State Senate, District 5" type="General" iteration="First Ballot" date="1803" election_id="nh.statesenate.5.1803" handle="10427/78767" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="William K. Atkinson" name_id="AW0040" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Waldron" name_id="WJ0324" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Moses L. Neal" name_id="NM0001" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Wingate" name_id="WJ0995" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-24">
+				<candidate_summary candidate_ref="1" vote_total="528" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="497" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="159" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">William K. Atkinson would be appointed a Judge of the Superior Court of New Hampshire, forcing the choice for the Legislature to be between John Waldron and Moses L. Neal.  The State Legislature would choose John Waldron as Senator.</note>
+				<note resp="Philip Lampi">The Courier of New Hampshire (Concord, NH) lists 1022 total votes, 471 for William K. Atkinson and 385 for John Waldron.  These totals are only possible if the votes from Durham were rejected.</note>
+				<note resp="Philip Lampi">"District No. 5 - no choice - Wm. K. Atkinson, (Federal) 471, John Waldron, (Republican) 385."  Farmer's Cabinet (Amherst, NH).  May 19, 1803.</note>
+				<note resp="Philip Lampi">William Hale (Federalist) and John MacDuffee (Republican) are listed as the candidates in Farmer's Cabinet (Amherst, NH) of February 17, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<result candidate_ref="1" vote="528" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="497" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Strafford" geog_id="null">
+						<result candidate_ref="1" vote="528" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="497" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Barrington" geog_id="null">
+							<result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Dover" geog_id="null">
+							<result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">The United States Oracle, and Portsmouth Advertiser (Portsmouth, NH) lists William K. Atkinson with 81 votes and John Waldron with 133 votes.</note>
+							<note resp="Philip Lampi">The Courier of New Hampshire (Concord, NH), March 10 and 17, reports William K. Atkinson with 81 votes and John Waldron with 153 votes in Dover.</note>
+						</sub_unit>
+						<sub_unit type="Town" name="Durham" geog_id="null">
+							<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">The results from Durham appear to have been rejected.</note>
+						</sub_unit>
+						<sub_unit type="Town" name="Farmington" geog_id="null">
+							<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Lee" geog_id="null">
+							<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Madbury" geog_id="null">
+							<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="New Durham" geog_id="null">
+							<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Rochester" geog_id="null">
+							<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Somersworth" geog_id="null">
+							<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  February 15, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  February 17, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  March 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  March 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  March 10, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  March 12, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  March 19, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  March 19, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Ledger, and Portsmouth Price Current (Portsmouth, NH).  March 22, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, (For the Country) (Portsmouth, NH).  March 22, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  April 2, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  April 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  April 7, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  April 14, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  May 5, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  May 17, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  May 19, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  May 26, 1803.</reference>
+</election_record>

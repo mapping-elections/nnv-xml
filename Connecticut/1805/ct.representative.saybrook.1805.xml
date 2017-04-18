@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1805 House of Representatives, Saybrook" type="General" iteration="First Ballot" date="1805-04" election_id="ct.representative.saybrook.1805" handle="10427/16987" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Joseph Hill" name_id="HJ0015" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Timothy Pratt" name_id="PT0012" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Tully" name_id="TW0003" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Joel Pratt" name_id="PJ0007" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-13">
+				<candidate_summary candidate_ref="1" vote_total="255" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="254" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="150" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="141" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01526" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Saybrook" geog_id="null">
+					<result candidate_ref="1" vote="255" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="254" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="150" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="141" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01526" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01526">Middlesex Gazette (Middletown, CT).  April 12, 1805.</reference>
+</election_record>

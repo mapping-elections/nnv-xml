@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Commissioner, Lebanon County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.commissioner.lebanoncounty.1822" handle="10427/68238" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Gottlieb Kintzle" name_id="KG0030" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Michael Kohr" name_id="KM0029" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-27">
+				<candidate_summary candidate_ref="1" vote_total="1172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1074" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="1172" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1074" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Annville" geog_id="null">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Campbelltown" geog_id="null">
+						<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="East Hanover" geog_id="null">
+						<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Jonestown" geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lebanon" geog_id="null">
+						<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="185" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Myerstown" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="98" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Schaefferstown" geog_id="null">
+						<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Stumpstown" geog_id="null">
+						<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Unpartheyische Berichter (Lebanon, PA).  October 12, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 18, 1822.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="New York 1814 Supervisor, Poughkeepsie" type="General" iteration="First Ballot" date="1814" election_id="ny.supervisor.poughkeepsie.1814" handle="10427/25461" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Supervisor" office_id="ON113" scope="Town">
+		<role title="Supervisor" scope="Town">
+			<ballot>
+				<candidate name="Livingston" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Meyers" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-04">
+				<candidate_summary candidate_ref="1" vote_total="329" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="157" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04469" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"At the election for Town Officers in Poughkeepsie on Tuesday last, the federal candidates succeeded by a large majority. The vote for Supervisor stood thus: with a Federal majority of 178.- N.Y. Ev. Post."  Political and Commercial Register (Philadelphia, PA).  April 12, 1814.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="Town" name="Poughkeepsie" geog_id="null">
+					<result candidate_ref="1" vote="329" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04469" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  April 12, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04469">Political and Commercial Register (Philadelphia, PA).  April 12, 1814.</reference>
+</election_record>

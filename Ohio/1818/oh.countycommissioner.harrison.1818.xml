@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 Commissioner, Harrison County" type="General" iteration="First Ballot" date="1818-10" election_id="oh.countycommissioner.harrison.1818" handle="10427/59696" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Willey" name_id="WW0208" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert MacLaughlin" name_id="MR0045" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert Forbes" name_id="FR0005" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Daniel Kilgore" name_id="KD0008" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-09">
+				<candidate_summary candidate_ref="1" vote_total="694" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05256" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Harrison" geog_id="ohs_harrison">
+					<result candidate_ref="1" vote="694" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05256" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Archer" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Cadiz" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Freeport" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Green" geog_id="null">
+						<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="North" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Nottingham" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rock" geog_id="null">
+						<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Short Creek" geog_id="null">
+						<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stock" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Abstract of Votes, Harrison County.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05256">Western Herald and Steubenville Gazette (Steubenville, OH).  October 24, 1818.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1824 House of Representatives, Leominster" type="General" iteration="Second Ballot" date="1824-05" election_id="ma.staterepresentative.1.leominster.1824" handle="10427/79586" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William Perry" name_id="PW0168" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="David Wilder" name_id="WD0149" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Israel Nichols" name_id="NI0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Joel Crosby" name_id="CJ0909" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-18">
+				<candidate_summary candidate_ref="1" vote_total="86" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="81" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="16" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Total Votes 187, no choice.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Leominster" geog_id="null">
+					<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Leominster Town Records.  128.</reference>
+</election_record>

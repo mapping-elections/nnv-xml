@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1808 House of Representatives, Highland County" type="General" iteration="First Ballot" date="1808" election_id="oh.staterepresentative.highland.1808" handle="10427/59076" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Swearingen" name_id="SJ0894" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected. </note></candidate>
+				<candidate name="John Gossett" name_id="GJ0356" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Keys" name_id="KW0072" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Anthony Franklin" name_id="FA0046" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-27">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05143" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Highland" geog_id="ohs_highland">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05143">Scott, Daniel.  A History of the Early Settlement of Highland County, Ohio.  Hillsboro, OH: The Gazette, 1890.  174-175.</reference>
+</election_record>

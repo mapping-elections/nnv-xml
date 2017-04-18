@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1792 House of Representatives, York County" type="General" iteration="First Ballot" date="1792-10" election_id="pa.assembly.yorkcounty.1792" handle="10427/60741" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Stewart" name_id="SJ0949" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Lilly" name_id="LT0085" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William MacPherson" name_id="MW0283" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Thornburgh" name_id="TT0090" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Turner" name_id="TA0027" affiliation="null" affiliation_id="null" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Gartner" name_id="GP0036" affiliation="null" affiliation_id="null" candidate_num="6"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-01">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05433" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Pennsylvania Herald, and York General Advertiser (York, PA) uses the spelling Stuart for John Stewart and Gardner for Philip Gartner.</note>
+				<note resp="Philip Lampi">The Independent Gazeteer and Agricultural Repository (Philadelphia, PA) uses the name Philip Lardner for Philip Gartner.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05433" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania House of Representatives, 1792.  3.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05433">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 17, 1792.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Gazeteer and Agricultural Repository (Philadelphia, PA).  December 8, 1792.</reference>
+</election_record>

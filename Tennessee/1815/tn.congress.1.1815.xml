@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1815 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1815-08" election_id="tn.congress.1.1815" handle="10427/19951" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Samuel Powell" name_id="PS0136" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note><note resp="Philip Lampi">Samuel Powell of Hawkins County.</note></candidate>
+				<candidate name="John Rhea" name_id="RJ0595" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">John Rhea of Sullivan County</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-05">
+				<candidate_summary candidate_ref="1" vote_total="2702" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1882" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00791" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16839" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16842" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16844" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="2702" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1882" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Carter" geog_id="null">
+						<result candidate_ref="1" vote="445" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00791" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Greene" geog_id="null">
+						<result candidate_ref="1" vote="553" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="644" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00791" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Hawkins" geog_id="null">
+						<result candidate_ref="1" vote="717" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="192" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00791" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Rogersville" geog_id="null">
+							<result candidate_ref="1" vote="717" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="192" resp="Philip Lampi"/>
+							<sub_unit type="Populated Place" name="Court House" geog_id="null">
+								<result candidate_ref="1" vote="717" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="192" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Sullivan" geog_id="null">
+						<result candidate_ref="1" vote="546" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="240" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00791" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="441" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="717" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00791" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16842">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16839">National Intelligencer (Washington, DC).  August 15, 1815.</reference>
+</election_record>

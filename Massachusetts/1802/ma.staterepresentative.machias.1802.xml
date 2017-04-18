@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1802 House of Representatives, Machias" type="General" iteration="First Ballot" date="1802-05" election_id="ma.staterepresentative.machias.1802" handle="10427//69067" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Phineas Bruce" name_id="BP0030" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Gideon O'Brien" name_id="OG0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-08-26">
+                <candidate_summary candidate_ref="1" vote_total="26" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Machias" geog_id="null">
+                    <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Drisko, George W.  Narrative of the Town of Machias.  Machias, MA: Press of the Republican, 1904. 287.</reference>
+</election_record>
+

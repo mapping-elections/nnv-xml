@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1818 Sheriff, Madison County" type="General" iteration="First Ballot" date="1818-09" election_id="il.sheriff.madison.1818" handle="10427/56190" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William B. Whiteside" name_id="WW0045" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isom Gillham" name_id="GI0003" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Borough" name_id="BJ0144" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-30">
+				<candidate_summary candidate_ref="1" vote_total="260" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="106" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Madison" geog_id="null">
+					<result candidate_ref="1" vote="260" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="106" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Hair, James T.  Index, Gazetteer of Madison County.  Alton, IL: James T. Hair, 1866.  269.</reference>
+	<reference type="citation" resp="Philip Lampi">Norton, W. T., ed.  Centennial History of Madison County, Illinois and Its People 1812 to 1912.  Vol. I.  New York: The Lewis Publishing Company, 1912.  146.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 Senate President" type="Legislative" iteration="First Ballot" date="1808" election_id="ma.senatepresident.1808" handle="10427/69841" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Senate President" office_id="ON098" scope="State">
+		<role title="Senate President" scope="State">
+			<ballot>
+				<candidate name="Harrison Gray Otis" name_id="OH0028" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Samuel Dana" name_id="DS0058" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-16">
+				<candidate_summary candidate_ref="1" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="17" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The whole number of votes was 38, .... the two candidates for President not voting."  Portland Gazette and Maine Advertiser.  May 30, 1808.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 28, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Portland Gazette and Maine Advertiser.  May 30, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pittsfield Sun (Pittsfield, MA).  June 4, 1808.</reference>
+</election_record>

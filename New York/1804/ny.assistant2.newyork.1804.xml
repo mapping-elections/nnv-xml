@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1804 Assistant Alderman, New York, Ward 2" type="General" iteration="First Ballot" date="1804" election_id="ny.assistant2.newyork.1804" handle="10427/65766" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Alderman" office_id="ON006" scope="City">
+		<role title="Assistant Alderman" scope="Ward">
+			<ballot>
+				<candidate name="Samuel M. Hopkins" name_id="HS0156" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Garret H. Van Wagenen" name_id="VG0017" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" vote_total="376" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="278" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="New York" geog_id="null">
+					<sub_unit type="Ward" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="376" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="278" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Citizen (New York, NY).  November 29, 1804.</reference>
+</election_record>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1804 State Senate, District 5" type="General" iteration="First Ballot" date="1804" election_id="nh.statesenate.5.1804" handle="10427/78768" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Waldron" name_id="WJ0324" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Wingate" name_id="WJ0995" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Moses L. Neal" name_id="NM0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-24">
+				<candidate_summary candidate_ref="1" vote_total="749" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="726" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="159" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="130" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">New Hampshire law required a majority to elect.  John Waldron would subsequently be elected Senator by the legislature.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<result candidate_ref="1" vote="749" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="726" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="130" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Strafford" geog_id="null">
+						<result candidate_ref="1" vote="749" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="726" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="130" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Barnstead" geog_id="null">
+							<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Barrington" geog_id="null">
+							<result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="258" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH) lists John Waldron with 67 votes in Barrington.</note>
+						</sub_unit>
+						<sub_unit type="Town" name="Brookfield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Dover" geog_id="null">
+							<result candidate_ref="1" vote="168" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Effingham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Farmington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Madbury" geog_id="null">
+							<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Middleton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Milton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="New Durham" geog_id="null">
+							<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Rochester" geog_id="null">
+							<result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="135" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Somersworth" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Wakefield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Wolfsborough" geog_id="null">
+							<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  March 17, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  March 20, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Portsmouth Oracle (Portsmouth, NH).  March 24, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  May 30, 1804.</reference>
+</election_record>

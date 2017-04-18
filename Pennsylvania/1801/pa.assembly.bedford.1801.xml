@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 House of Representatives, Bedford County" type="General" iteration="First Ballot" date="1801-10" election_id="pa.assembly.bedford.1801" handle="10427/61167" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Moore" name_id="MJ0778" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Alexander" name_id="AW0076" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Bartley" name_id="BH0115" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Davis" name_id="DJ0410" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-09">
+				<candidate_summary candidate_ref="1" vote_total="721" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="697" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="281" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="257" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05716" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05717" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05718" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Farmers Instructor, and Harrisburgh Courant (Harrisburg, PA), October 21, reports 624 votes for John Moore, 603 votes for William Alexander, 237 votes for Hugh Bartley, and 216 votes for John Davis in Bedford County.</note>
+				<note resp="Philip Lampi">The Farmers Instructor, and Harrisburgh Courant (Harrisburg, PA), October 28, reports the same totals as the October 21 issue, except that it reports 264 votes for John Moore, which is likely a typographical error.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bedford" geog_id="null">
+					<result candidate_ref="1" vote="721" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="697" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="281" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="257" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05716" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05717" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05718" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05716">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05717">The Farmers Instructor, and Harrisburgh Courant (Harrisburg, PA).  October 21, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">The Farmers Instructor, and Harrisburgh Courant (Harrisburg, PA).  October 28, 1801.</reference>
+</election_record>

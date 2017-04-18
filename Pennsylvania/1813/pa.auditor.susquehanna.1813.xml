@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Auditor, Susquehanna County" type="General" iteration="First Ballot" date="1813-10" election_id="pa.auditor.susquehanna.1813" handle="10427/62656" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Hosea Tiffany, Jr." name_id="TH0048" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Asa Dimock" name_id="DA0097" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Asa Parke" name_id="PA0095" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Isaac A. Chapman" name_id="CI0029" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Frederick Bailey" name_id="BF0051" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Thomas Parke" name_id="PT0131" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-29">
+				<candidate_summary candidate_ref="1" vote_total="253" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="237" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="182" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="181" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="177" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06657" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06658" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Susquehanna Democrat (Wilkes-Barre, PA) from October 22 refers to the Republican Ticket as the American Party and the Federal Ticket as the Anti-American Ticket.</note>
+				<note resp="Philip Lampi">"In Susquehanna County, the votes in the Chocanut District were not returned agreeably to law, and not in the official return. The following is the result of the Susquehanna Election, including the votes given in the Chocanut, viz:" The Susquehanna Democrat (Wilkes-Barre, PA).  October 22, 1813.</note>
+				<note resp="Philip Lampi">The Susquehanna Democrat (Wilkes-Barre, PA) from October 22 lists Frederick Bailey with 128 votes and Frederick A. Bailey with 53 votes. These toals have been combined to give Frederick Bailey 181 total votes, which is the reported total in The Gleaner (Wilkes-Barre, PA) from October 29.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Susquehanna" geog_id="null">
+					<result candidate_ref="1" vote="253" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="249" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="237" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="182" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="181" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="177" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06657" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06658" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06657">The Susquehanna Democrat (Wilkes-Barre, PA).  October 22, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06658">The Gleaner (Wilkes-Barre, PA).  October 29, 1813.</reference>
+</election_record>

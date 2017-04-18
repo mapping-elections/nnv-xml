@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 House of Representatives, Brookfield, Fourth Representative" type="General" iteration="First Ballot" date="1808" election_id="ma.staterepresentative.brookfield.4.1808" handle="10427/69855" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Isaac Nichols" name_id="NI0017" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Pliny Merrick" name_id="MP0066" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Cheney Read" name_id="RC0048" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-23">
+				<candidate_summary candidate_ref="1" vote_total="212" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="123" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Brookfield held four separate ballots for the four Representatives they were entitled to elect.</note>
+				<note resp="Philip Lampi">Fourth Ballot - Whole number of votes 336.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Brookfield" geog_id="null">
+					<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Brookfield Town Records.</reference>
+	<reference type="citation" resp="Philip Lampi">Norfolk Repository (Dedham, MA).  June 28, 1808.</reference>
+</election_record>

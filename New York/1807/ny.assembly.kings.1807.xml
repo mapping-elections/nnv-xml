@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1807 Assembly, Kings County" type="General" iteration="First Ballot" date="1807" election_id="ny.assembly.kings.1807" handle="10427/25395" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Hicks" name_id="HJ0531" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jeremiah Johnson" name_id="JJ0130" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-26">
+				<candidate_summary candidate_ref="1" vote_total="412" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="388" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Kings" geog_id="null">
+					<result candidate_ref="1" vote="412" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="388" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Brooklyn" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="244" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Bushwick" geog_id="null">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Flatbush" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Flatlands" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Gravesend" geog_id="null">
+						<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="New Utrecht" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04308" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Citizen (New York, NY).  May 2, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Public Advertiser (New York, NY).  May 2, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04308">Republican Watch-Tower (New York, NY).  May 5, 1807.</reference>
+</election_record>

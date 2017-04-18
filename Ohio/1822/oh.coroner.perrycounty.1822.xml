@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Coroner, Perry County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.coroner.perrycounty.1822" handle="10427/60071" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="N. Dennis" name_id="DN0030" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="J. Cassel" name_id="CJ0658" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-09">
+				<candidate_summary candidate_ref="1" vote_total="677" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="246" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05326" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Perry" geog_id="null">
+					<result candidate_ref="1" vote="677" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="246" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05326" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05326">The Ohio Eagle (Lancaster, OH).  October, 1822.</reference>
+</election_record>

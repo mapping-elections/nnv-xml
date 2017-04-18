@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1806 House of Representatives, Milton" type="General" iteration="First Ballot" date="1806-05" election_id="ma.staterepresentative.milton.1806" handle="10427/69433" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="David Tucker" name_id="TD0097" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph MacKean" name_id="MJ1271" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Ford" name_id="FJ0456" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Glover" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-12-10">
+				<candidate_summary candidate_ref="1" vote_total="64" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="51" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Milton" geog_id="null">
+					<result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 13, 1806.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1788 U.S. Senate, Ballot 3" type="Legislative" iteration="Third Ballot" date="1788-11" election_id="nh.ussenate.3.1788" handle="10427/78781" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Josiah Bartlett" name_id="BJ0544" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="nay" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-28">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Senate the same day [November 12, 1788] made choice of Josiah Bartlett for a Senator in the Congress of the United States and the House concurred; 61 years, 16 nays. . . . Dr. Bartlett declined the appointment."  New Hampshire Provincial and State Papers.  Vol. XXI.  Concord, NH: State of New Hampshire, 1867.  256.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Senate" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New Hampshire Provincial and State Papers.  Vol. XXI.  Concord, NH: State of New Hampshire, 1867.  256.</reference>
+</election_record>

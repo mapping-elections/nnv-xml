@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1815 House of Commons, Mecklenburg County" type="General" iteration="First Ballot" date="1815-08" election_id="nc.houseofcommons.mecklenburg.1815" handle="10427/43055" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="John Rea" name_id="RJ0268" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abden Alexander" name_id="AA0070" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joab Alexander" name_id="AJ0215" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Polk" name_id="PT0114" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="David Kerr" name_id="KD0041" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William L. Davidson" name_id="DW0128" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-28">
+				<candidate_summary candidate_ref="1" vote_total="697" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="510" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="507" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="423" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="280" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="240" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04999" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05000" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18041" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">William L. Davidson was not a candidate.</note>
+				<note resp="Philip Lampi">The Star (Raleigh, NC) lists John Rea with 696 votes.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Mecklenburg" geog_id="null">
+					<result candidate_ref="1" vote="697" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="510" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="507" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="423" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="280" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="240" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05000" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18041" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04999">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  September 1, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05000">The Star (Raleigh, NC).  September 1, 1815.</reference>
+</election_record>

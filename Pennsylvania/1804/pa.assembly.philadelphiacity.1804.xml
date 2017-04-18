@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 House of Representatives, Philadelphia City" type="General" iteration="First Ballot" date="1804-10" election_id="pa.assembly.philadelphiacity.1804" handle="10427/61488" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="James Sharswood" name_id="SJ0999" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Pearson" name_id="PJ0476" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Odenheimer" name_id="OP0007" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Ferguson" name_id="FH0026" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Mitchell" name_id="MJ0921" affiliation="Republican" affiliation_id="A03" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Israel Israel" name_id="II0000" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Samuel Carver" name_id="CS0177" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-02">
+				<candidate_summary candidate_ref="1" vote_total="2928" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2917" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2906" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1593" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1577" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1361" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1357" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05951" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">American Eagle (Easton, PA) lists Jacob Mitchell as Jacob Mitchel, and lists Philip Odenheimer as Phillip Odenheimer.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="2928" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2917" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2906" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1593" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1577" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1361" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1357" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05951" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05951">Aurora. General Advertiser (Philadelphia, PA).  October 11, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">American Eagle (Easton, PA).  October 20, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  November 7, 1804.</reference>
+</election_record>

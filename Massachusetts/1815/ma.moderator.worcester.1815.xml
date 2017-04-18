@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1815 Moderator, Worcester" type="General" iteration="First Ballot" date="1815" election_id="ma.moderator.worcester.1815" handle="10427/34026" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Moderator" office_id="ON080" scope="Town">
+		<role title="Moderator" scope="Town">
+			<ballot>
+				<candidate name="Levi Heywood" name_id="HL0013" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Nathaniel Paine" name_id="PN0020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Edward Bangs" name_id="BE0170" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-10-13">
+				<candidate_summary candidate_ref="1" vote_total="206" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="145" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03605" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Worcester" geog_id="null">
+					<sub_unit type="Town" name="Worcester" geog_id="null">
+						<result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03605" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03605">Worcester Town Records.  307.</reference>
+</election_record>

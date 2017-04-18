@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1818 State Senate, Randolph County" type="General" iteration="First Ballot" date="1818-08" election_id="nc.statesenator.randolph.1818" handle="10427/42855" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Charles Steed" name_id="SC0005" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Brown" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-11">
+                <candidate_summary candidate_ref="1" vote_total="476" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="268" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Randolph" geog_id="null">
+                    <result candidate_ref="1" vote="476" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="268" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Ashboro" geog_id="null">
+                        <result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Gram's" geog_id="null">
+                        <result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Harris's" geog_id="null">
+                        <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Hoover's" geog_id="null">
+                        <result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Ingram's" geog_id="null">
+                        <result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Johnstonville" geog_id="null">
+                        <result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="York's" geog_id="null">
+                        <result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Certificate.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

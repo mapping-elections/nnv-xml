@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1817 State Senate, Wilkes County" type="General" iteration="First Ballot" date="1817-08" election_id="nc.statesenator.wilkes.1817" handle="10427/42920" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="William Hulme" name_id="HW0256" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Wellborn" name_id="WJ0517" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Charles P. Gordon" name_id="GC0006" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-08">
+                <candidate_summary candidate_ref="1" vote_total="172" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="73" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18154" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Wilkes" geog_id="null">
+                    <result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="73" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Howard's" geog_id="null">
+                        <result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Little River" geog_id="null">
+                        <result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Red River" geog_id="null">
+                        <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="School House" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Sales" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Trap Hill" geog_id="null">
+                        <result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wilkesboro" geog_id="null">
+                        <result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">William Lenoir Memorandum Book.  March, 1816 - August, 1817.  Folder 592.  The Southern Historical Collection, Louis Round Wilson Special Collections Library, University of North Carolina.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18158">The Raleigh Minerva (Raleigh, NC).  August 29, 1817.</reference>
+</election_record>

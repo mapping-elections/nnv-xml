@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 Town Clerk, Haverhill" type="General" iteration="First Ballot" date="1812-03" election_id="ma.townclerk.haverhill.1812" handle="10427/69971" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Town">
+		<role title="Town Clerk" scope="Town">
+			<ballot>
+				<candidate name="Wingate" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Duncan" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-01">
+				<candidate_summary candidate_ref="1" vote_total="225" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="198" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Haverhill" geog_id="null">
+					<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  March 25, 1812.</reference>
+</election_record>

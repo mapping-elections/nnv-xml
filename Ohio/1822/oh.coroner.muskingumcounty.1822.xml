@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Coroner, Muskingum County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.coroner.muskingumcounty.1822" handle="10427/60070" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Glass" name_id="GJ0366" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Conly" name_id="CJ0657" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Forgave" name_id="FW0059" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Isaac Spangler" name_id="SI0075" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-09">
+				<candidate_summary candidate_ref="1" vote_total="828" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="722" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="441" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="86" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05325" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Muskingum" geog_id="ohs_muskingum">
+					<result candidate_ref="1" vote="828" resp="Philip Lampi"/>
+					<result candidate_ref="1" vote="722" resp="Philip Lampi"/>
+					<result candidate_ref="1" vote="441" resp="Philip Lampi"/>
+					<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05325" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05325">Muskingum Messenger (Zanesville, OH).  October 15, 1822.</reference>
+</election_record>

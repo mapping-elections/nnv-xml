@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 U.S. House of Representatives, District 10" type="General" iteration="First Ballot" date="1798-10" election_id="pa.uscongress10.1798" handle="10427/60945" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Henry Woods" name_id="WH0059" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Johnston" name_id="JT0037" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="David Bard" name_id="BD0120" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-11">
+				<candidate_summary candidate_ref="1" vote_total="2546" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1228" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="968" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05559" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">While several newspapers list Henry Woods with 2580 votes and the sum of the county totals add up to 2380, the Original Election Returns list him with 2546 votes.</note>
+				<note resp="Philip Lampi">The Maryland Herald, and Elizabeth-Town Advertiser (Elizabethtown, MD) reports 1117 total votes for Thomas Johnston, and 935 total votes for David Bard.</note>
+				<note resp="Philip Lampi">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA) lists a James Bard in place of David Bard.</note>
+				<note resp="Philip Lampi">Henry Woods is reported to have received 2580 total votes but the sum of his results in individual counties is 2380 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<result candidate_ref="1" vote="2546" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1228" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="968" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bedford" geog_id="null">
+						<result candidate_ref="1" vote="459" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="253" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="1098" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="443" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="378" resp="Philip Lampi"/>
+						<sub_unit type="District" name="Chambersburg" geog_id="null">
+							<result candidate_ref="1" vote="425" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="80" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="345" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="418" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="284" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="478" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="290" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05559">The Farmer's Register (Chambersburg, PA).  October 17, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 17, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 19, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 19, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  October 19, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 25, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  October 29, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Herald, and Elizabeth-Town Advertiser (Elizabethtown, MD).  November 1, 1798.</reference>
+</election_record>

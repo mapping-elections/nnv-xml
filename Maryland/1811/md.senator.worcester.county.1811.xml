@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1811 Electoral Assembly for State Senate, Worcester County" type="General" iteration="First Ballot" date="1811" election_id="md.senator.worcester.county.1811" handle="10427/27089" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="George Hayward" name_id="HG0015" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Ephraim K. Wilson" name_id="WE0025" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="George Purnell" name_id="PG0026" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Williams" name_id="WJ0163" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="943" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="943" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="702" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="697" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02071" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02072" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Republican Star or Eastern Shore General Advertiser (Easton, MD) lists Ephraim K. Wilson with 843 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Worcester" geog_id="mds_worcester">
+					<result candidate_ref="1" vote="943" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="943" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="702" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="697" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02071" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02071">Federal Republican and Commercial Gazette (Baltimore, MD).  September 7, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02071">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  September 9, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02071">The Sun (Baltimore, MD).  September 9, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02072">Republican Star or Eastern Shore General Advertiser (Easton, MD).  September 10, 1811.</reference>
+</election_record>

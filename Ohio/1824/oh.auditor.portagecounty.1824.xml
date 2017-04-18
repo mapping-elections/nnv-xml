@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Auditor, Portage County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.auditor.portagecounty.1824" handle="10427/60339" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Samuel D. Harris" name_id="HS0181" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elkanah Richardson" name_id="RE0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-18">
+				<candidate_summary candidate_ref="1" vote_total="852" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="279" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05354" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19721" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Portage" geog_id="ohs_portage">
+					<result candidate_ref="1" vote="852" resp="Philip Lampi"/>
+					<result candidate_ref="1" vote="279" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05354" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19721" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05354">Cleaveland Herald (Cleveland, OH).  November 5, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19721">The Ohio Repository (Canton, OH).  November 11, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  November 12, 1824.</reference>
+</election_record>

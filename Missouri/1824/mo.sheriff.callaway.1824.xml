@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1824 Sheriff, Callaway County" type="General" iteration="First Ballot" date="1824" election_id="mo.sheriff.callaway.1824" handle="10427/56613" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Wynkoop Warner" name_id="WW0137" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Henry May" name_id="MH0057" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Bartley" name_id="BG0055" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="180" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="61" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Callaway" geog_id="null">
+					<result candidate_ref="1" vote="180" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">History of Callaway County, Missouri.  Saint Louis: National Historic, 1884.  414.</reference>
+</election_record>

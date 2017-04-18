@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1800 State Senate, Prince George Winyah and Williamsburg County" type="General" iteration="First Ballot" date="1800" election_id="sc.senate.princegeorgewinyaw.and.williamsburgh.1800" handle="10427/32132" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John James" name_id="JJ0255" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">John James Elected.</note></candidate>
+				<candidate name="James Burgess" name_id="BJ1331" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Theodore Gourdin" name_id="GT0086" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Robert Grant" name_id="GR0085" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Keith" name_id="KJ0380" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Nathan Huggin" name_id="HN0073" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-02">
+				<candidate_summary candidate_ref="1" vote_total="142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="139" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="93" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="22" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07523" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Prince George Winyah" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">120 votes given in Winyaw.</note>
+				</sub_unit>
+				<sub_unit type="District" name="Williamsburg" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The City Gazette and Daily Advertiser (Charleston, SC), 27 October 1800, lists that Williamsburg returned a majority for John James.  No vote numbers given.</note>
+					<sub_unit type="Populated Place" name="Indian Town" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">65 votes given at Indian Town.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kings Tree" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">222 votes given at KingsTree.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07523">Original Poll Sheet.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">City Gazette and Daily Advertiser (Charleston, SC).  October 27, 1800.</reference>
+</election_record>

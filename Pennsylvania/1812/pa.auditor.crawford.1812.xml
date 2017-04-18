@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Auditor, Crawford County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.auditor.crawford.1812" handle="10427/62447" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Hugh Andrews" name_id="AH0018" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Cochran" name_id="CJ0802" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Carmack" name_id="CD0175" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ralph Marlin" name_id="MR0146" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Thomas R. Kennedy" name_id="KT0070" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="James Foster" name_id="FJ0365" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-10">
+				<candidate_summary candidate_ref="1" vote_total="383" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="376" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="333" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="166" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="156" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="129" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06529" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="383" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="376" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="333" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="166" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="156" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="129" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06529" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06529">The Crawford Weekly Messenger (Meadville, PA).  October 21, 1812.</reference>
+</election_record>

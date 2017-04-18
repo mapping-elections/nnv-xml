@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1803 House of Representatives, Amherst" type="General" iteration="First Ballot" date="1803" election_id="nh.staterepresentative.amherst.1803" handle="10427/78978" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="J. K. Smith" name_id="SJ0517" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Warner" name_id="WD0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-10">
+				<candidate_summary candidate_ref="1" vote_total="210" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="66" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="County" name="Hillsborough" geog_id="null">
+					<sub_unit type="Town" name="Amherst" geog_id="null">
+						<result candidate_ref="1" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  March 10, 1803.</reference>
+</election_record>

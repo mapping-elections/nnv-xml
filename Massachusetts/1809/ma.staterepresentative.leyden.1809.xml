@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 House of Representatives, Leyden" type="General" iteration="First Ballot" date="1809-05" election_id="ma.staterepresentative.leyden.1809" handle="10427/27947" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Hezekiah Newcomb" name_id="NH0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jah Esin" name_id="EJ0076" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="David Denison" name_id="DD0037" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Abner Chapin" name_id="CA0061" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joseph Green" name_id="GJ0172" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Charles Packer" name_id="PC0017" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-15">
+				<candidate_summary candidate_ref="1" vote_total="67" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="40" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03514" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Leyden" geog_id="null">
+					<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03514" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03514">Leyden Town Records.  22.</reference>
+</election_record>

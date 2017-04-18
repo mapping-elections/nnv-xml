@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1822 House of Representatives, Randolph, Ballot 5" type="General" iteration="Fifth Ballot" date="1822" election_id="vt.houseofrepresentatives.randolph.5.1822" handle="10427/79872" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Lebeus Egerton" name_id="EL0010" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Dudley Chace" name_id="CD0206" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Shubel Converse" name_id="CS0209" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="null" modified="2015-11-02">
+                <candidate_summary candidate_ref="1" vote_total="138" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="128" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="63" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="County" name="Orange" geog_id="null">
+                    <sub_unit type="Town" name="Randolph" geog_id="null">
+                        <result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="128" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="63" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Woodstock Observer (Woodstock, VT).  September 10, 1822.</reference>
+</election_record>

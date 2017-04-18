@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1792 House of Representatives, Chester County" type="General" iteration="First Ballot" date="1792-10" election_id="pa.assembly.chestercounty.1792" handle="10427/60734" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Dennis Whelen" name_id="WD0082" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note><note resp="Philip Lampi">The Independent Gazeteer and Agricultural Repository (Philadelphia, PA) uses the name Dennis Wheling for Dennis Whelen.</note></candidate>
+				<candidate name="Charles Dilworth" name_id="DC0048" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Hannum" name_id="HJ0743" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Sharp" name_id="SS0246" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-31">
+				<candidate_summary candidate_ref="1" vote_total="2883" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2362" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1864" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1713" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05430" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2883" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2362" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1864" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1713" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania House of Representatives, 1792.  3.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Gazeteer and Agricultural Repository (Philadelphia, PA).  December 8, 1792.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05430">Futhey, John Smith and Gilbert Cope.  History of Chester County, Pennsylvania.  Philadelphia: L. H. Everts, 1881.  380.</reference>
+</election_record>

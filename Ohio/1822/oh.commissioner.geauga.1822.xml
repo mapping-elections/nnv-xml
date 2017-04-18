@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Commissioner, Geauga County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.commissioner.geauga.1822" handle="10427/60140" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Charles Curtiss" name_id="CC0025" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Daniel Kerr" name_id="KD0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Uri Seeley" name_id="SU0003" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="David Brooks" name_id="BD0042" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-02-23">
+                <candidate_summary candidate_ref="1" vote_total="524" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="174" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="48" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="21" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="41" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Geauga" geog_id="ohs_geauga">
+                    <result candidate_ref="1" vote="524" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="174" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="48" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="41" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Leroy" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Leroy Township Pollbook.  October 9, 1822.</reference>
+    <reference type="citation" resp="Philip Lampi">Painesville Telegraph (Painesville, OH).  October 16, 1822.</reference>
+    <reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  October 19, 1822.</reference>
+</election_record>

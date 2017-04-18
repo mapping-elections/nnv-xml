@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Commissioner, Union County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.commissioner.union.1816" handle="10427/67014" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Henry Rausch" name_id="RH0084" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Forster" name_id="FW0103" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-26">
+				<candidate_summary candidate_ref="1" vote_total="1188" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="558" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Union" geog_id="null">
+					<result candidate_ref="1" vote="1188" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="558" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Bieber" geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="East Buffalo" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="211" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hartleton" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="New Berlin" geog_id="null">
+						<result candidate_ref="1" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Perry" geog_id="null">
+						<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Selinsgrove" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Straupstaun" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Swinefordstown" geog_id="null">
+						<result candidate_ref="1" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="West Buffalo" geog_id="null">
+						<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="White Deer" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Northumberl. Republicaner, und Northumberland, Union und Columbia Counties Adverteiser (Sunbury, PA).  October 18, 1816.</reference>
+</election_record>

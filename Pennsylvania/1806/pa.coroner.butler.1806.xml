@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Coroner, Butler County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.coroner.butler.1806" handle="10427/61616" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Robert Stuart" name_id="SR0233" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Dodds" name_id="DW0140" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="James Coulter" name_id="CJ0786" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-21">
+				<candidate_summary candidate_ref="1" vote_total="326" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="281" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="242" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06044" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Butler" geog_id="null">
+					<result candidate_ref="1" vote="326" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="281" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="242" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06044" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06044">The Commonwealth (Pittsburgh, PA).  October 22, 1806.</reference>
+</election_record>

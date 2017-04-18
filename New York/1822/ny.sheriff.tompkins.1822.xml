@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 Sheriff, Tompkins County" type="General" iteration="First Ballot" date="1822" election_id="ny.sheriff.tompkins.1822" handle="10427/66497" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Nicholas Townley" name_id="TN0011" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Nicholl Halsey" name_id="HN0046" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-28">
+				<candidate_summary candidate_ref="1" vote_total="1028" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="986" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Election: The Inspectors of elections of the town of Ithaca, have given notice, that on Monday the 4th of November next, first day of election, the poll will be opened in the forenoon, at the house of Eseck Angel, in the north-west part of the town; and will adjourn to the house of Henry Stringer, up the inlet, where it will be held in the afternoon. On Tuesday, the second day of election - forenoon at the house of John King, on the south hill, and afternoon at the house of William D. Hammond, in the east part of town. Wednesday, the third day of election, at the Hotel in this village."  Republican Chronicle (Ithaca, NY).  October 30, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tompkins" geog_id="null">
+					<result candidate_ref="1" vote="1028" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="986" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Dryden" geog_id="null">
+						<result candidate_ref="1" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Enfield " geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Groton" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Nicoll Halsey received 4 votes as Nicholas Halsey.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Hector" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ithaca" geog_id="null">
+						<result candidate_ref="1" vote="230" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="186" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Nicoll Halsey received 3 vote as N. Halsey, 1 vote as Nicholas Halsey and 1 vote as N. Townley.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Lansing" geog_id="null">
+						<result candidate_ref="1" vote="190" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ulysses" geog_id="null">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="272" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Nicoll Halsey received 1 vote as N. Halsey.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Republican Chronicle (Ithaca, NY).  October 30, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">American Journal (Ithaca, NY).  November 20, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Chronicle (Ithaca, NY).  November 20, 1822.</reference>
+</election_record>

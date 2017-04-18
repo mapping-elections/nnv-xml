@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1813 House of Representatives, Amherst" type="General" iteration="First Ballot" date="1813-05" election_id="ma.staterepresentative.amherst.2.1813" handle="10427/27703" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Simeon Strong" name_id="SS0125" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Ebenezer Mattoon, Jr." name_id="ME0042" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Calvin Merrill" name_id="MC0026" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-29">
+				<candidate_summary candidate_ref="1" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03578" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Amherst" geog_id="null">
+					<result candidate_ref="1" vote="99" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03578" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03578">Amherst Town Records.  204-205.</reference>
+</election_record>

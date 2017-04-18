@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1791 U.S. House of Representatives, District 3" type="General" iteration="First Ballot" date="1791-10" election_id="pa.uscongress3.1791" handle="10427/60710" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Israel Jacobs" name_id="JI0006" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Muhlenberg" name_id="MP0089" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-31">
+				<candidate_summary candidate_ref="1" vote_total="1878" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1585" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00029" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05420" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05423" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Three" geog_id="null">
+					<result candidate_ref="1" vote="1878" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1585" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="1221" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="811" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="657" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="774" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05423">The Federal Gazette and Philadelphia Daily Advertiser (Philadelphia, PA).  October 13, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05420">The Pennsylvania Mercury, and Philadelphia Price-Current (Philadelphia, PA).  October 15, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA).  October 19, 1791.</reference>
+</election_record>

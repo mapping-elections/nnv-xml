@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1819 Clerk of the Court, Sumter District" type="General" iteration="First Ballot" date="1819-01" election_id="sc.clerk.sumter.1819" handle="10427/32540" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Court" office_id="ON025" scope="District">
+		<role title="Clerk of the Court" scope="District">
+			<ballot>
+				<candidate name="I. G. Mathis" name_id="MI0064" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Brunson" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Murcell" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Gordon" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-12">
+				<candidate_summary candidate_ref="1" vote_total="674" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="468" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="62" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="47" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07850" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Sumter" geog_id="null">
+					<result candidate_ref="1" vote="674" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="468" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="62" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="47" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07850" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07850">Camden Gazette and Mercantile Advertiser (Camden, SC).  January 21, 1819.</reference>
+</election_record>

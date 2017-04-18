@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 Sheriff, Marion County" type="General" iteration="First Ballot" date="1824-08" election_id="il.sheriff.marion.1824" handle="10427/56376" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Mark Tully" name_id="TM0008" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="H. C. Nichols" name_id="NH0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="55" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="38" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Marion" geog_id="null">
+					<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Brinkerhoff, J. H. G.  Brinkerhoff's History of Marion County Illinois.  Indianapolis: Bowen and Company, 1909.  57.</reference>
+</election_record>

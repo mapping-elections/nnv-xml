@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assistant Alderman, Albany, Ward 2" type="General" iteration="First Ballot" date="1824" election_id="ny.assistant.alderman2.albany.1824" handle="10427/65652" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Alderman" office_id="ON006" scope="City">
+		<role title="Assistant Alderman" scope="Ward">
+			<ballot>
+				<candidate name="Jacob J. Lansing" name_id="LJ0348" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="Daniel MacGlashan" name_id="MD0058" affiliation="People's Ticket" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="William Seymour" name_id="SW0201" affiliation="Caucus" affiliation_id="A06" candidate_num="3"/>
+				<candidate name="Elihu Lewis" name_id="LE0055" affiliation="Caucus" affiliation_id="A06" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="282" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="279" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="104" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="279" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="104" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  September 30, 1824.</reference>
+</election_record>

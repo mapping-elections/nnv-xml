@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1813 Assembly, Seneca County" type="General" iteration="First Ballot" date="1813" election_id="ny.assembly.seneca.1813" handle="10427/31376" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="James MacCall" name_id="MJ0507" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="Wilhelmus Mynderse" name_id="MW0216" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-24">
+           <candidate_summary candidate_ref="1" vote_total="1611" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="526" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Seneca" geog_id="null">
+              <result candidate_ref="1" vote="1611" resp="Philip Lampi"/>
+              <result candidate_ref="2" vote="526" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Fayette" geog_id="null">
+                <result candidate_ref="1" vote="219" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Galen" geog_id="null">
+                <result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Hector" geog_id="null">
+                <result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Junius" geog_id="null">
+                <result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Ovid" geog_id="null">
+                <result candidate_ref="1" vote="427" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Romulus" geog_id="null">
+                <result candidate_ref="1" vote="251" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Ulysses" geog_id="null">
+                <result candidate_ref="1" vote="345" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Wilhelmus Mynderse received 1 vote as Wilhel Minis.</note>
+              </sub_unit>
+              <sub_unit type="Town" name="Wolcott" geog_id="null">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+   <reference type="citation" resp="Philip Lampi">The Geneva Gazette (Geneva, NY).  April 26, 1813.</reference>
+</election_record>
+

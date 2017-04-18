@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Auditor, Warren County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.auditor.warren.1824" handle="10427/60454" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Auditor" office_id="ON013" scope="County">
+        <role title="Auditor" scope="County">
+            <ballot>
+                <candidate name="Allen Wright" name_id="WA0055" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Joseph Whitehill" name_id="WJ0280" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-03">
+                <candidate_summary candidate_ref="1" vote_total="1408" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1042" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The vote total for Allen Wright is listed as 1398 but the township totals add up to 1408.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Warren" geog_id="ohs_warren">
+                    <result candidate_ref="1" vote="1408" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1042" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Clearcreek" geog_id="null">
+                        <result candidate_ref="1" vote="197" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Deerfield" geog_id="null">
+                        <result candidate_ref="1" vote="213" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Franklin" geog_id="null">
+                        <result candidate_ref="1" vote="183" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hamilton" geog_id="null">
+                        <result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Turtle Creek" geog_id="null">
+                        <result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="403" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Star and Gazette (Lebanon, OH).  October 23, 1824.</reference>
+</election_record>
+

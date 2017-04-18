@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1804 Auditor" type="Legislative" iteration="First Ballot" date="1804-12" election_id="va.auditor.1804" handle="10427/32999" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="State">
+		<role title="Auditor" scope="State">
+			<ballot>
+				<candidate name="Samuel Shepard" name_id="SS0317" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Robertson" name_id="RW0222" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-22">
+				<candidate_summary candidate_ref="1" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="38" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10952" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="House of Delegates" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10952">The Enquirer (Richmond, VA).  January 3, 1805.</reference>
+</election_record>

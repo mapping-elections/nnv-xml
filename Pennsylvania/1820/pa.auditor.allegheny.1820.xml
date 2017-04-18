@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Auditor, Allegheny County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.auditor.allegheny.1820" handle="10427/67383" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="James Fletcher" name_id="FJ0319" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Magnus M. Murray" name_id="MM0097" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert Glenn" name_id="GR0046" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-17">
+				<candidate_summary candidate_ref="1" vote_total="1574" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1516" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="307" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">These totals are incomplete. They do not include those votes cast in Mifflin Township, which were returned late.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" vote="1574" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1516" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="307" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Mercury (Pittsburgh, PA).  October 18, 1820.</reference>
+</election_record>

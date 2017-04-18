@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1801 State Senate, Essex County, Special" type="Special" iteration="First Ballot" date="1801" election_id="ma.senator.essex.special.1801" handle="10427/68867" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Thomas Kittredge" name_id="KT0032" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected but declined.</note></candidate>
+                <candidate name="Jacob Crowninshield" name_id="CJ0329" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-07-31">
+                <candidate_summary candidate_ref="1" vote_total="134" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="104" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Samuel Phillips vacated his seat when he became Lieutenant Governor. On June 2, 1801, there was a special legislative election to replace him. Thomas Kitteridge was elected, but declined to serve. On June 5, in another legislative vote, Jacob Crowninshield was elected.</note>
+                <note resp="Philip Lampi">Thomas Kitteridge was a Republican, but in this election he was supported by the  Federalists.</note>
+                <note resp="Philip Lampi">"Legislature of Massachusetts ... Friday, May 29 ... The two houses then in convention proceeded to choose a Senator for the district of Essex, in the room of the Hon. Samuel Phillips, chosen Lieutenant Governor.--The Candidates were Capt. Jacob Crowninshield, and Thomas Kitteridge, Esq. The whole number of votes was 238; of which Thomas Kitteridge, Esq. had 134, and was chosen."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  June 3, 1801.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="null" name="General Court" geog_id="null">
+                    <result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+                    <sub_unit type="null" name="House of Representatives" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="null" name="State Senate" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  June 3, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  June 6, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">Jenks' Portland Gazette (Portland, ME).  June 8, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">The Western Star (Stockbridge, MA).  June 15, 1801.</reference>
+</election_record>
+

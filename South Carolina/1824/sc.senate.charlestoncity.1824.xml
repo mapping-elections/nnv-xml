@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1824 State Senate, Charleston City" type="General" iteration="First Ballot" date="1824" election_id="sc.senate.charlestoncity.1824" handle="10427/32507" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="Henry Deas" name_id="DH0064" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Moser" name_id="MP0120" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-12">
+				<candidate_summary candidate_ref="1" vote_total="1209" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="754" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08006" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08007" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08008" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="1209" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="754" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08006" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="617" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="241" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08006" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Inspection" geog_id="null">
+						<result candidate_ref="1" vote="223" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08006" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Market" geog_id="null">
+						<result candidate_ref="1" vote="369" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="341" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08006" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 13, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08006">Charleston Courier (Charleston, SC).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08008">Charleston Mercury, and Morning Advertiser (Charleston, SC).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08007">City Gazette and Commercial Daily Advertiser (Charleston, SC).  October 14, 1824.</reference>
+</election_record>

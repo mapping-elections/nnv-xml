@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Inspector of the General Election, Philadelphia City, Locust Ward" type="General" iteration="First Ballot" date="1823" election_id="pa.inspector.locust.1823" handle="10427/63812" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Samuel H. Thomas" name_id="TS0096" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas T. Stiles" name_id="ST0234" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Robert Desilver" name_id="DR0057" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Robert Miles" name_id="MR0173" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-07">
+				<candidate_summary candidate_ref="1" vote_total="282" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="281" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="165" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07328" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Locust" geog_id="null">
+						<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="281" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="165" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07328" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Observer (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Gazette (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07340">United States Gazette (Philadelphia, PA).  October 6, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA).  October 7, 1823.</reference>
+</election_record>

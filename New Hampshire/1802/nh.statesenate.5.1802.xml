@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1802 State Senate, District 5" type="General" iteration="First Ballot" date="1802" election_id="nh.statesenate.5.1802" handle="10427/26220" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John MacDuffee" name_id="MJ0384" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hale" name_id="HW0187" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-07-10">
+				<candidate_summary candidate_ref="1" vote_total="788" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="540" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03833" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<result candidate_ref="1" vote="788" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="540" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Strafford" geog_id="null">
+						<result candidate_ref="1" vote="788" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="540" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Barrington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Dover" geog_id="null">
+							<result candidate_ref="1" vote="146" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Durham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Farmington" geog_id="null">
+							<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Lee" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Madbury" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="New Durham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Rochester" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Somersworth" geog_id="null">
+							<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  March 13, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  March 20, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03833">The Sun. Dover Gazette and County Advertiser (Dover, NH).  April 3, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  April 14, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Museum, or Lay Preacher's Gazette (Walpole, NH).  May 25, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  June 12, 1802.</reference>
+</election_record>

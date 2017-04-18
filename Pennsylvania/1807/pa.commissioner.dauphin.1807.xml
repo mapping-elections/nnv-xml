@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Commissioner, Dauphin County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.commissioner.dauphin.1807" handle="10427/61746" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Harrison" name_id="HJ0827" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Boal" name_id="BJ1074" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Wenrich" name_id="WT0210" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-29">
+				<candidate_summary candidate_ref="1" vote_total="478" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="404" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="208" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06138" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Many published sources explain that the "Jonestown district was rejected, and Middle Paxton returns did not come in," as stated in The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) on October 21 and the Oracle of Dauphin on October 17.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="478" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="404" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="208" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06138" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Die Harrisburger Morgenrothe (Harrisburg, PA).  October 17, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06138">Dauphin Guardian (Harrisburg, PA).  October 20, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06139">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 21, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Freymuthige Libanoner (Lebanon, PA).  October 21, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Freymuthige Libanoner (Lebanon, PA).  October 28, 1807.</reference>
+</election_record>

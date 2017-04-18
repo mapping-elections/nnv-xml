@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 State Senate, Barnstable County" type="General" iteration="First Ballot" date="1811" election_id="ma.statesenate.barnstable.1811" handle="10427/69244" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Timothy Phinney" name_id="PT0013" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elisha Doane" name_id="DE0095" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph Dimmick" name_id="DJ0123" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="David Nye" name_id="ND0004" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-02">
+				<candidate_summary candidate_ref="1" vote_total="740" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 1295.  Make a choice, 740."  Governor's Council Records.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Barnstable" geog_id="null">
+					<result candidate_ref="1" vote="740" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Barnstable" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Brewster" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dennis" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Eastham" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Falmouth" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Harwich" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Orleans" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Provincetown" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Sandwich" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Truro" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Wellfleet" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Yarmouth" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Chatham Town Records.  171.</reference>
+	<reference type="citation" resp="Philip Lampi">Falmouth Town Records.  448.</reference>
+	<reference type="citation" resp="Philip Lampi">Provincetown Town Records.  123.</reference>
+	<reference type="citation" resp="Philip Lampi">Truro Town Records.  176.</reference>
+	<reference type="citation" resp="Philip Lampi">Independent Chronicle (Boston, MA).  May 16, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Eastern Argus (Portland, ME).  May 23, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Hampshire Federalist (Springfield, MA).  June 6, 1811.</reference>
+</election_record>

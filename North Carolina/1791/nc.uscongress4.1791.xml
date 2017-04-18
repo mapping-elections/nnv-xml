@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1791 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1791-01" election_id="nc.uscongress4.1791" handle="10427/43770" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="Hugh Williamson" name_id="WH0019" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Charles Johnson" name_id="JC0019" affiliation="Federalist" affiliation_id="A01" candidate_num="2"></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-02-08">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17199" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17200" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The 4th District was also known as the Albemarle District.</note>
+                <note resp="Philip Lampi">"The Hon. Hugh Williamson, Esq. is re-elected a member of the House of Representatives of the United States for the Albermarle division of this state, by a majority of 896."  The General Advertiser and Political, Commercial and Literary Journal (Philadelphia, PA).  February 24, 1791.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="District" name="Four" geog_id="null">
+                    <sub_unit type="County" name="Beaufort" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Bertie" geog_id="null">
+                        <result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="217" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Camden" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Carteret" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Chowan" geog_id="null">
+                        <result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="234" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Curritack" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Gates" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Hertford" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Hyde" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Pasquotank" geog_id="null">
+                        <result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Perquimans" geog_id="null">
+                        <result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Pitt" geog_id="null">
+                    </sub_unit>
+                    <sub_unit type="County" name="Tyrell" geog_id="null">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17199">The General Advertiser and Political, Commercial and Literary Journal (Philadelphia, PA).  February 24, 1791.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17200">Osborne's New-Hampshire Spy (Portsmouth, NH).  March 9, 1791.</reference>
+    <reference type="citation" resp="Philip Lampi">Hinshaw, Seth Beeson, ed.  North Carolina Election Returns 1790-1866: Covering the Races for President, Governor and U.S. House.  1992.  State Library of North Carolina, Raleigh.</reference>
+</election_record>

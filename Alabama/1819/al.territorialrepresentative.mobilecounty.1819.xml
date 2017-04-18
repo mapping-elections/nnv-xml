@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1819 Territorial Legislature, Mobile County" type="General" iteration="First Ballot" date="1819" election_id="al.territorialrepresentative.mobilecounty.1819" handle="10427/55854" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="D. C. Robinson" name_id="RD0000" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Cyrus Sibley" name_id="SC0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jonathan Woodward" name_id="WJ0005" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-15">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11015" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Mobile" geog_id="null">
+					<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="38" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11015">Mobile Gazette and Commercial Advertiser (Mobile, AL).  May 25, 1819.</reference>
+</election_record>

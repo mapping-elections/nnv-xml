@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 U.S. Senate" type="Legislative" iteration="First Ballot" date="1802-12" election_id="pa.us.senate.1802" handle="10427/61333" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Samuel Maclay" name_id="MS0148" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Weaver" name_id="WI0042" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Maclay" name_id="MW0293" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-30">
+				<candidate_summary candidate_ref="1" vote_total="66" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="11" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09983" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09984" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09985" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Extract of a letter from Lancaster, Dec. 14 -- "This day, at high noon, both branches of the Legislature proceeded to the choice of a Senator to represent this state in the Senate of the United States -- whereupon Samuel Maclay, Esq. was duly elected." The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA). Deceber 17, 1802.</note>
+				<note resp="Philip Lampi">"On Wednesday last the election of a Senator to represent this state in the Senate of the United States, took place in the chamber of the House of Representatives."  Kline's Carlisle Weekly Gazette (Carlisle, PA).  December 22, 1802.</note>
+				<note resp="Philip Lampi">"On the 14th ult. the Legislature of Pennsylvania made choice of Samuel MacClay, Esq. to represent this State in the Senate of the United States, in place of James Ross, whose time expires on the 4th of March next."  The Western Star (Lewistown, PA).  January 4, 1803.</note>
+				<note resp="Philip Lampi">There were 6 members of the Legislature who did not vote: 1 from the Senate and 5, who were absent, from the House of Representatives.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09983" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09983" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09984">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  December 17, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09983">Kline's Carlisle Weekly Gazette (Carlisle, PA).  December 22, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09985">The Western Star (Lewistown, PA).  January 4, 1803.</reference>
+</election_record>

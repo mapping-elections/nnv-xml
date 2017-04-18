@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1801 Lieutenant Governor, Ballot 2" type="Legislative" iteration="Second Ballot" date="1801" election_id="ma.ltgovernor2.1801" handle="10427/68799" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Lieutenant Governor" office_id="ON073" scope="State">
+        <role title="Lieutenant Governor" scope="State">
+            <ballot>
+                <candidate name="Samuel Phillips" name_id="PS0029" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Edward H. Robbins" name_id="RE0018" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+                <candidate name="William Heath" name_id="HW0171" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+                <candidate name="Elbridge Gerry" name_id="GE0049" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-07-25">
+                <candidate_summary candidate_ref="1" vote_total="162" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="136" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="95" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="89" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"There being no choice by the people, the House, agreeably to the Constitution, proceeded to elect two of the persons from the above four, to be sent to the Senate for them to choose one for Lieutenant Governor; when the whole number of votes was found to be 227; and that the Hon. SAMUEL PHILLIPS had 133, and the Hon. EDWARD H. ROBBINS had 136, and they wre accordingly sent u(Gen. HEATH had 95, and Mr. GERRY 89 votes.)  The Senate then proceeded to complete the choice, when the whole number of votes being 32, the Hon. SAMUEL PHILLIPS had 29 and was elected Lieutenant Governor of this Commonwealth for the ensuing year."  The Telescope: or, American Herald (Leominster, MA).  June 4, 1801.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="null" name="General Court" geog_id="null">
+                    <result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="89" resp="Philip Lampi"/>
+                    <sub_unit type="null" name="House of Representatives" geog_id="null">
+                        <result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="95" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="89" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="null" name="State Senate" geog_id="null">
+                        <result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Telescope: or, American Herald (Leominster, MA).  June 4, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">Jenks' Portland Gazette (Portland, ME).  June 8, 1801.</reference>
+</election_record>
+

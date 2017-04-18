@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1824 House of Representatives, Weston" type="General" iteration="First Ballot" date="1824-05" election_id="ma.staterepresentative.weston.1824" handle="10427/27437" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Nathan Hobbs" name_id="HN0024" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Eliphalet Slack" name_id="SE0035" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Fiske" name_id="FI0006" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-12-04">
+				<candidate_summary candidate_ref="1" vote_total="73" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="51" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03650" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Weston" geog_id="null">
+					<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03650" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03650">Weston Town Records.  Vol. II.  326.</reference>
+</election_record>

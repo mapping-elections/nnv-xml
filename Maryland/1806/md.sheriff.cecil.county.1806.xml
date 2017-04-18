@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1806 Sheriff, Cecil County" type="General" iteration="First Ballot" date="1806" election_id="md.sheriff.cecil.county.1806" handle="10427/26847" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Joseph Baxter" name_id="BJ0325" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Taylor" name_id="TT0038" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Cumming" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-30">
+				<candidate_summary candidate_ref="1" vote_total="699" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="491" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="478" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02445" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02446" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14409" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Joseph Baxton is listed as John Baxton in the Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Cecil" geog_id="mds_cecil">
+					<result candidate_ref="1" vote="699" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="491" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="478" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Charlestown" geog_id="null">
+						<result candidate_ref="1" vote="246" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="84" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02445" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02446" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Elkton" geog_id="null">
+						<result candidate_ref="1" vote="131" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="337" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="135" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02445" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02446" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Rising Sun" geog_id="null">
+						<result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="1" vote="251" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02445" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02446" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Warwick" geog_id="null">
+						<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02445" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02446" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02445">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02446">Baltimore Evening Post (Baltimore, MD).  October 8, 1806.</reference>
+</election_record>

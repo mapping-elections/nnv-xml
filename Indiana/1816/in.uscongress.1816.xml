@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1816 U.S. House of Representatives" type="General" iteration="First Ballot" date="1816" election_id="in.uscongress.1816" handle="10427/56405" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="State">
+			<ballot>
+				<candidate name="William Hendricks" name_id="HW0072" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Allen D. Thom" name_id="TA0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George R.C. Sullivan" name_id="SG0008" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="5160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1269" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12251" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12262" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12272" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12273" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The votes for Congress in the state of Indiana ... Mr. Hendricks in 1816 was 5160." National Intelligencer (Washington, DC).  October 8, 1817.</note>
+				<note resp="Philip Lampi">"We have 'till yet only the returns of 9 counties, viz. Clark, Harrison, Jackson, Jefferson, Orange, Knox, Switzerland, Washington and Wayne ... and Mr. Hendrick's majority of 2253 votes over Mr. Thom, for Congress ... There are 6 counties, viz. Dearborn, Franklin, Gibson, Perry, Posey and Warrick, we have not yet heard from." The Western Sun (Vincennes, IN).  August 31, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Clark" geog_id="null">
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12262" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"By the returns from three counties, Clark, Jefferson and Switzerland . . give 1117 majority to William Hendricks, as Representative to Congress." Liberty Hall and Cincinnati Gazette (Cincinnati, OH).  August 19, 1816.</note> 
+				</sub_unit>	
+				<sub_unit type="County" name="Dearborn" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="449" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Gibson" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Harrison" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Jackson" geog_id="null">
+					<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12262" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Knox" geog_id="null">
+					<result candidate_ref="1" vote="170" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="543" resp="Philip Lampi"/>
+					
+				</sub_unit>
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<result candidate_ref="1" vote="191" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Leatherwood" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Orleans" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Perry" geog_id="null">
+				</sub_unit>	
+				<sub_unit type="County" name="Posey" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Switzerland" geog_id="null">
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12262" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Warrick" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="499" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Jackson" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Orange" geog_id="null">
+						<result candidate_ref="1" vote="191" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Wayne" geog_id="null">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Western Sun (Vincennes, IN).  July 6, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Sun (Vincennes, IN).  August 3, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Sun (Vincennes, IN).  August 17, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12262">Liberty Hall and Cincinnati Gazette (Cincinnati, OH).  August 19, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Sun (Vincennes, IN).  August 24, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Sun (Vincennes, IN).  August 31, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Louisville Correspondent (Louisville, KY).  September 9, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12272">National Intelligencer (Washington, DC).  October 8, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12272">Republican Star or General Advertiser (Easton, MD).  October 14, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12273">The Ohio Repository (Canton, OH).  October 30, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12272">Missouri Gazette (Saint Louis, MO).  December 20, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Dubin, Michael J.  United States Congressional Elections, 1788-1997: The Official Results of the Elections of the 1st through 105th Congresses.  Jefferson, NC: McFarland and Company, 1998.  55.</reference>
+	<reference type="citation" resp="Philip Lampi">Paoli Business and Professional Womans Club.  History of Orange County, Indiana.  Vol. I.  Orange County, IN: Stout's Print Shop, 1950.  34.</reference>
+	<reference type="citation" resp="Philip Lampi">Reifel, August J.  History of Franklin County, Indiana.  Indianapolis: B. F. Bowen Company, 1915.  81.</reference>
+	<reference type="citation" resp="Philip Lampi">Riker, Dorothy Lois and Gayle Thornbrough.  Indiana Election Returns 1816-1851.  Indianapolis: Indiana Historical Bureau, 1960.  137.</reference>
+	<reference type="citation" resp="Philip Lampi">History of Lawrence and Monroe Counties.  Bloomington: B. F. Bowen, 1914.  66.</reference>
+	<reference type="citation" resp="Philip Lampi">History of Warrick, Spencer and Perry Counties, Indiana.  Chicago: Goodspeed, 1885.</reference>
+</election_record>

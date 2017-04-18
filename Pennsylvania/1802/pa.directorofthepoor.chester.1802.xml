@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 Director of the Poor, Chester County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.directorofthepoor.chester.1802" handle="10427/61283" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="John G. Parke" name_id="PJ0455" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Stringfellow" name_id="SS0262" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Marshall" name_id="MJ0837" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="William West" name_id="WW0224" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-23">
+				<candidate_summary candidate_ref="1" vote_total="2306" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2274" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2042" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2022" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05793" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05794" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA) from October 20 lists William West with 2202 total votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2306" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2274" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2042" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2022" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05793" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05794" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05793">Aurora. General Advertiser (Philadelphia, PA).  October 19, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 20, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05794">Der Readinger Adler (Reading, PA).  November 2, 1802.</reference>
+</election_record>

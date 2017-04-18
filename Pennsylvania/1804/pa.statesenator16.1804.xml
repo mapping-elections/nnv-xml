@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1804 State Senate, District 16" type="General" iteration="First Ballot" date="1804-10" election_id="pa.statesenator16.1804" handle="10427/61420" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Joseph Vance" name_id="VJ0096" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-09">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00359" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"As had been unfortunately witnessed in this district, several, who had been republicans, forsook their principles and joined the federalist against the republican candidates: but happily the federalists and quids of Washington county have been completely defeated...Mr. John Israel of Pittsburg, has been one of the principle promoters of third partyism." Aurora. General Advertiser (Philadelphia, PA).  October 22, 1804.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Sixteen" geog_id="null">
+					<sub_unit type="County" name="Washington" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00359" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05958" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05958">Aurora. General Advertiser (Philadelphia, PA).  October 22, 1804.</reference>
+</election_record>

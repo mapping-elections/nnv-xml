@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Sheriff, Ashtabula County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.sheriff.ashtabulacounty.1822" handle="10427/60058" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Lynds Jones" name_id="JL0014" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Whelpley" name_id="WS0154" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-09">
+				<candidate_summary candidate_ref="1" vote_total="798" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="219" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05314" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ashtabula" geog_id="ohs_ashtabula">
+					<result candidate_ref="1" vote="798" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="219" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05314" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05314">Painesville Telegraph (Painesville, OH).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  October 19, 1822.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1809 Assembly, Niagara County" type="General" iteration="First Ballot" date="1809" election_id="ny.assembly.niagara.1809" handle="10427/69791" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Archibald S. Clarke" name_id="CA0097" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Zenas Barker" name_id="BZ0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2014-03-13">
+           <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+           <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04354" resp="Philip Lampi"/>
+           <note resp="Philip Lampi">"The average republican majority for member of Assembly is 71.  Mr. Clarke, their former member is re-elected."  Cornucopia (Batavia, NY).  May 12, 1809.</note>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Niagara" geog_id="null">
+              <result candidate_ref="1" resp="Philip Lampi"/>
+              <result candidate_ref="2" resp="Philip Lampi"/>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04354">Cornucopia (Batavia, NY).  May 12, 1809.</reference>
+</election_record>

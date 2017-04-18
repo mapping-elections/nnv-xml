@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1793 State Senate, District 8" type="General" iteration="First Ballot" date="1793" election_id="nh.statesenate.8.1793" handle="10427/58519" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Henry Gerrish" name_id="GH0029" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert Wallace" name_id="WR0086" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Bradley" name_id="BJ0551" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Flanders" name_id="FJ0135" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Duncan" name_id="DW0065" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Peter Green" name_id="GP0014" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Aaron Greeley" name_id="GA0018" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2007-03-30">
+				<candidate_summary candidate_ref="1" vote_total="284" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="277" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="160" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"For the 8th District, the whole number of votes returned amount to 830 - no one person having a majority."  New Hampshire Provincial and State Papers.  Vol. XXII.  Concord, NH: State of New Hampshire, 1867.  743.</note>
+				<note resp="Philip Lampi">The Phenix (Dover, NH), May 28, reports 279 total votes for Robert Wallace.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Eight" geog_id="null">
+					<result candidate_ref="1" vote="284" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="277" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Hillsborough" geog_id="null">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="274" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="160" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Andover" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Boscawen" geog_id="null">
+							<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Bradford" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Henniker" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hillsborough" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hopkinton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Kearsage Gore" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="New London" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Salisbury" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Sutton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Warner" geog_id="null">
+							<result candidate_ref="3" vote="67" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">The Mirrour (Concord, NH), April 1, reports 67 votes for James Flanders and 3 votes for Aaron Greeley in Warner.</note>
+						</sub_unit>
+						<sub_unit type="Town" name="Weare" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Concord" geog_id="null">
+							<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="6" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Concord Town Records, 1732-1820.  277.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03759">Concord Herald (Concord, NH).  March 7, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03758">The Mirrour (Concord, NH).  March 11, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03759">The Herald of Liberty (Exeter, NH).  March 20, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03760">The Mirrour (Concord, NH).  April 1, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The American Herald of Liberty (Exeter, NH).  May 21, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  May 21, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">Concord Herald (Concord, NH).  May 23, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirrour (Concord, NH).  May 27, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Phenix (Dover, NH).  May 28, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">New Hampshire Provincial and State Papers.  Vol. XXII.  Concord, NH: State of New Hampshire, 1867.  743.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1816 House of Commons, Warren County" type="General" iteration="First Ballot" date="1816-08" election_id="nc.houseofcommons.warren.1816" handle="10427/42974" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Robert H. Jones" name_id="JR0034" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="J. M. Walker" name_id="WJ0537" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philemon Hawkins" name_id="HP0023" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-01">
+				<candidate_summary candidate_ref="1" vote_total="461" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="450" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="312" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05023" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18094" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Warren" geog_id="null">
+					<result candidate_ref="1" vote="461" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="450" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="312" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05023" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18094" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05023">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  August 16, 1816.</reference>
+</election_record>

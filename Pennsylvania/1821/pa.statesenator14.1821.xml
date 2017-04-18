@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 State Senate, District 14" type="General" iteration="First Ballot" date="1821-10" election_id="pa.statesenator14.1821" handle="10427/63443" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="David Mann" name_id="MD0201" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Reynolds" name_id="RW0207" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-17">
+				<candidate_summary candidate_ref="1" vote_total="2746" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1958" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01040" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07177" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07113" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07114" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07178" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07123" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07124" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Lancaster Intelligencer (Lancaster, PA), October 27, lists David Mann as David Martin.</note>
+				<note resp="Philip Lampi">The October 19th edition of the Pennsylvania Intelligencer (Harrisburg, PA) and the October 24th edition of the Bellefonte Patriot (Bellefonte, PA) report 2540 total votes for David Mann and 1841 total votes for William Reynolds. It appears that these totals do not include votes from Cambria County.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Fourteen" geog_id="null">
+					<result candidate_ref="1" vote="2746" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1958" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bedford" geog_id="null">
+						<result candidate_ref="1" vote="1533" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1090" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="1007" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="751" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Genius of Liberty (Uniontown, PA).  October 16, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07113">The Union. United States Gazette and True American (Philadelphia, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">York Gazette (York, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07178">Franklin Gazette (Philadelphia, PA).  October 20, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 23, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Bellefonte Patriot (Bellefonte, PA).  October 24, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07123">Franklin Gazette (Philadelphia, PA).  October 24, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07123">The Union. United States Gazette and True American (Philadelphia, PA).  October 26, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07124">Lancaster Intelligencer (Lancaster, PA).  October 27, 1821.</reference>
+</election_record>

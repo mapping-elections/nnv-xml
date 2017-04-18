@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 Commissioner, Scioto County" type="General" iteration="First Ballot" date="1818-10" election_id="oh.countycommissioner.scioto.1818" handle="10427/59698" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Samuel B. Burt" name_id="BS0229" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Smith" name_id="SJ0914" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Gabriel Feurt" name_id="FG0021" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-09">
+				<candidate_summary candidate_ref="1" vote_total="178" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="177" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="80" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05264" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Scioto" geog_id="ohs_scioto">
+					<result candidate_ref="1" vote="178" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="177" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="80" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05264" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05264">Evans, Nelson W.  A History of Scioto County, Ohio.  Portsmouth, OH: Nelson W. Evans, 1903.  342.</reference>
+</election_record>

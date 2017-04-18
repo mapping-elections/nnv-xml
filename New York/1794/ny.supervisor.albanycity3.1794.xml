@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="New York 1794 Supervisor, Albany, Ward 3" type="General" iteration="First Ballot" date="1794" election_id="ny.supervisor.albanycity3.1794" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/25896" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Supervisor" office_id="ON113" scope="City">
+		<role title="Supervisor" scope="Ward">
+			<ballot>
+				<candidate name="Enoch Leonard" name_id="LE0046" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Stringer" name_id="SS0173" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-04-26">
+				<candidate_summary candidate_ref="1" vote_total="24" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="20" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04120" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04120" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04121" resp="Philip Lampi"/>
+					<sub_unit type="Ward" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04120" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04121" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04120">The Albany Register (Albany, NY).  May 12, 1794.</reference>
+</election_record>

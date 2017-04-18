@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 State Senate, Dukes and Nantucket Counties" type="General" iteration="First Ballot" date="1811" election_id="ma.statesenate.dukes.1811" handle="10427/69247" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Walter Folger, Jr." name_id="FW0026" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Josiah Barker" name_id="BJ0508" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-03">
+				<candidate_summary candidate_ref="1" vote_total="490" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 731.  Make a choice, 366."  Governor's Council Records.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="District" name="Dukes and Nantucket" geog_id="null">
+					<result candidate_ref="1" vote="490" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dukes" geog_id="null">
+						<result candidate_ref="1" vote="108" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Chilmark" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Edgartown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Tisbury" geog_id="null">
+							<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Walter Folger, Jr. received 2 votes as Wal Fol, Jr.</note>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Nantucket" geog_id="null">
+						<result candidate_ref="1" vote="382" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="195" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Nantucket" geog_id="null">
+							<result candidate_ref="1" vote="382" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="195" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Tisbury Town Records.  355.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Bedford Mercury (New Bedford, MA).  April 12, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Independent Chronicle (Boston, MA).  May 16, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Eastern Argus (Portland, ME).  May 23, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Hampshire Federalist (Springfield, MA).  June 6, 1811.</reference>
+</election_record>

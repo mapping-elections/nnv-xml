@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Commissioner, Moyamensing Township" type="General" iteration="First Ballot" date="1824" election_id="pa.commissioner.moyamensing.1824" handle="10427/65745" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="Township">
+		<role title="Commissioner" scope="Township">
+			<ballot>
+				<candidate name="Jacob Snyder" name_id="SJ0881" affiliation="People's Ticket" affiliation_id="A09" candidate_num="1"/>
+				<candidate name="Alexander W. Reed" name_id="RA0107" affiliation="People's Ticket" affiliation_id="A09" candidate_num="2"/>
+				<candidate name="Edward Smith" name_id="SE0109" affiliation="People's Ticket" affiliation_id="A09" candidate_num="3"/>
+				<candidate name="Thomas Bartholemew" name_id="BT0146" affiliation="People's Ticket" affiliation_id="A09" candidate_num="4"/>
+				<candidate name="William Ouram" name_id="OW0019" affiliation="Family Ticket" affiliation_id="A09" candidate_num="5"/>
+				<candidate name="James Davis" name_id="DJ0341" affiliation="Family Ticket" affiliation_id="A09" candidate_num="6"/>
+				<candidate name="Samuel Baker" name_id="BS0183" affiliation="Family Ticket" affiliation_id="A09" candidate_num="7"/>
+				<candidate name="William Wallace" name_id="WW0254" affiliation="Family Ticket" affiliation_id="A09" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-17">
+				<candidate_summary candidate_ref="1" vote_total="172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="161" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="158" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="70" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"If in narrating 'passing events' it is proper to remark, we can say, that the commissioners elected are men of good standing in society, and talents sufficient to fill the situations to which they have been called."  The Democratic Press (Philadelphia, PA).  March 20, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Moyamensing" geog_id="null">
+						<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  March 20, 1824.</reference>
+</election_record>

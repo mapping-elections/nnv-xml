@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 State Senate, Harrison and Jefferson Counties" type="General" iteration="First Ballot" date="1813-10" election_id="oh.statesenator.harrison.jefferson.1813" handle="10427/59349" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="John MacLaughlin" name_id="MJ0639" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas MacCune" name_id="MT0088" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-07">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Harrison and Jefferson" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Harrison" geog_id="ohs_harrison">
+                        <result candidate_ref="1" vote="422" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+                        <sub_unit type="Township" name="Archer" geog_id="null">
+                            <result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Cadiz" geog_id="null">
+                            <result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Green" geog_id="null">
+                            <result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="North" geog_id="null">
+                            <result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Short Creek" geog_id="null">
+                            <result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Jefferson" geog_id="ohs_jefferson">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Harrison County.</reference>
+</election_record>

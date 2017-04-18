@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 Assembly, Seneca County" type="General" iteration="First Ballot" date="1812" election_id="ny.assembly.seneca.1812" handle="10427/31376" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="James MacCall" name_id="MJ0507" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="Benjamin Dey" name_id="DB0016" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+           <candidate name="Ebenezer Hewitt" name_id="HE0085" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+           <candidate name="Elijah Miller" name_id="ME0078" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+           <candidate name="Oliver C. Comstock" name_id="CO0016" affiliation="null" affiliation_id="null" candidate_num="5"/>
+           <candidate name="William B. Hall" name_id="HW0153" affiliation="null" affiliation_id="null" candidate_num="6"/>
+           <candidate name="William Himrod" name_id="HW0122" affiliation="null" affiliation_id="null" candidate_num="7"/>
+           <candidate name="Joseph L. Richardson" name_id="RJ0224" affiliation="null" affiliation_id="null" candidate_num="8"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2012-05-16">
+           <candidate_summary candidate_ref="1" vote_total="1111" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="411" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="9" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="8" vote_total="1" resp="Philip Lampi"/>
+           <note resp="Philip Lampi">Ebenezer Hewitt, Elijah Miller, and Joseph L. Richardson were were candidates for U.S. House of Representatives.</note>
+           </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Seneca" geog_id="null">
+              <result candidate_ref="1" vote="1111" resp="Philip Lampi"/>
+              <result candidate_ref="2" vote="411" resp="Philip Lampi"/>
+              <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+              <result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+              <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+              <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+              <result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+              <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                <sub_unit type="Town" name="Fayette" geog_id="null">
+                   <result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+                   <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="Town" name="Galen" geog_id="null">
+                   <result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="Town" name="Hector" geog_id="null">
+                   <result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+                   <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                   <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                   <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                   <note resp="Philip Lampi">James McCall received 1 vote as James M. Call.</note>
+                </sub_unit>
+                <sub_unit type="Town" name="Junius" geog_id="null">
+                   <result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+                   <note resp="Philip Lampi">James McCall received 2 votes as James M. Call.</note>
+                </sub_unit>
+                <sub_unit type="Town" name="Ovid" geog_id="null">
+                   <result candidate_ref="1" vote="242" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+                   <result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+                   <result candidate_ref="4" vote="5" resp="Philip Lampi"/>
+                   <result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+                   <note resp="Philip Lampi">Benjamin Dey received 1 vote as Ben Dey.</note>
+                </sub_unit>
+                <sub_unit type="Town" name="Romulus" geog_id="null">
+                   <result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="Town" name="Ulysses" geog_id="null">
+                   <result candidate_ref="1" vote="246" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                   <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="Town" name="Wolcott" geog_id="null">
+                   <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                   <result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>
+

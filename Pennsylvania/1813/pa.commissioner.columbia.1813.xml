@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Commissioner, Columbia County" type="General" iteration="First Ballot" date="1813-10" election_id="pa.commissioner.columbia.1813" handle="10427/62565" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Russell Park" name_id="PR0073" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Joseph Gaston" name_id="GJ0433" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Levi Aikman" name_id="AL0007" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-29">
+				<candidate_summary candidate_ref="1" vote_total="1259" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1029" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="656" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06601" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="1259" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1029" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="656" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06601" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06601">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

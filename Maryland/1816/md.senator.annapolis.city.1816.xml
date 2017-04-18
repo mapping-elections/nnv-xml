@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1816 Electoral Assembly for State Senate, Annapolis" type="General" iteration="First Ballot" date="1816" election_id="md.senator.annapolis.city.1816" handle="10427/27243" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="City">
+			<ballot>
+				<candidate name="William Kilty" name_id="KW0023" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Francis T. Clements" name_id="CF0007" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-03">
+				<candidate_summary candidate_ref="1" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="51" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02074" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02075" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Annapolis" geog_id="null">
+					<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02074" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02075" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02074">The Maryland Republican (Annapolis, MD).  September 7, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02075">American, and Commercial Daily Advertiser (Baltimore, MD).  September 9, 1816.</reference>
+</election_record>

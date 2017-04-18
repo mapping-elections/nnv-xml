@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Coroner, Lehigh County" type="General" iteration="First Ballot" date="1824" election_id="pa.coroner.lehighcounty.1824" handle="10427/63916" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Benjamin Fogel" name_id="FB0028" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Michael Ritter" name_id="RM0072" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-31">
+				<candidate_summary candidate_ref="1" vote_total="1059" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1039" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07378" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No Federal opposition."  The Franklin Gazette (Philadelphia, PA).  October 19, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="1059" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1039" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07378">The Franklin Gazette (Philadelphia, PA).  October 19, 1824.</reference>
+</election_record>

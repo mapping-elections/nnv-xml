@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Commissioner, Centre County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.commissioner.centre.1821" handle="10427/67963" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Adams" name_id="AJ0201" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Irvin" name_id="IW0008" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Irwin, Jr." name_id="IJ0075" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John L. Gray" name_id="GJ0473" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Thomas Hastings" name_id="HT0175" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Robert Elder" name_id="ER0025" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Henry Sharrer" name_id="SH0097" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-24">
+				<candidate_summary candidate_ref="1" vote_total="706" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="422" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="167" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="126" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="119" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="52" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="34" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Centre" geog_id="null">
+					<result candidate_ref="1" vote="706" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="422" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="167" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="126" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="119" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="52" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="34" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Bellefonte Patriot (Bellefonte, PA).  October 17, 1821.</reference>
+</election_record>

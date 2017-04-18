@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Commissioner, Franklin County" type="General" iteration="First Ballot" date="1823" election_id="pa.commissioner.franklin.1823" handle="10427/65881" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Jacob Wonderlich" name_id="WJ0848" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Radebaugh" name_id="RJ0463" affiliation="Independent Republican" affiliation_id="A07" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-24">
+				<candidate_summary candidate_ref="1" vote_total="2417" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1995" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="2417" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1995" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="590" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="605" resp="Philip Lampi"/>
+						<sub_unit type="Borough" name="Chambersburg" geog_id="null">
+							<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="217" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Green" geog_id="null">
+							<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Guilford" geog_id="null">
+							<result candidate_ref="1" vote="210" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Hamilton" geog_id="null">
+							<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="97" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Fannett" geog_id="null">
+						<result candidate_ref="1" vote="180" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Green Castle" geog_id="null">
+						<result candidate_ref="1" vote="319" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="205" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Letterkenny" geog_id="null">
+						<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lurgan" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mercersburg" geog_id="null">
+						<result candidate_ref="1" vote="373" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="310" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Metal" geog_id="null">
+						<result candidate_ref="1" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Thomas" geog_id="null">
+						<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Southampton" geog_id="null">
+						<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Waynesburg" geog_id="null">
+						<result candidate_ref="1" vote="299" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="349" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Franklin Repository (Chambersburg, PA).  September 30, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Franklin Repository (Chambersburg, PA).  October 21, 1823.</reference>
+</election_record>

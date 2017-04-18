@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Commissioner, Perry County" type="General" iteration="First Ballot" date="1823" election_id="pa.commissioner.perry.1823" handle="10427/65933" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Maxwell" name_id="MJ0606" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Basserman" name_id="BP0124" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-26">
+				<candidate_summary candidate_ref="1" vote_total="994" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="908" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Perry" geog_id="null">
+					<result candidate_ref="1" vote="994" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="908" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Buffaloe" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greenwood" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Juniata" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="213" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Liverpool" geog_id="null">
+						<result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Rye" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="193" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saville" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Toboyne" geog_id="null">
+						<result candidate_ref="1" vote="257" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tyrone" geog_id="null">
+						<result candidate_ref="1" vote="327" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Volunteer (Carlisle, PA).  October 16, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Perry Forester (Landisburg, PA).  October 16, 1823.</reference>
+</election_record>

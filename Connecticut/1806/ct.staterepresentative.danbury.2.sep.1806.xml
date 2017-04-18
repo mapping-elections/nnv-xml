@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1806 House of Representatives, Danbury, Second Representative" type="General" iteration="First Ballot" date="1806-09" election_id="ct.staterepresentative.danbury.2.sep.1806" handle="10427/16044" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Amos Cooke" name_id="CA0002" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Hickok" name_id="HB0013" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-13">
+				<candidate_summary candidate_ref="1" vote_total="282" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="272" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="8" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01536" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Danbury" geog_id="null">
+					<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="272" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01536" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01536">Republican Farmer (Danbury, CT).  September 17, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">New England Republican (Danbury, CT).  September 23, 1806.</reference>
+</election_record>

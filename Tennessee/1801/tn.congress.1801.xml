@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1801 U.S. House of Representatives" type="General" iteration="First Ballot" date="1801-08" election_id="tn.congress.1801" handle="10427/20437" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="State">
+			<ballot>
+				<candidate name="William C.C. Claiborne" name_id="CW0037" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Rhea" name_id="RJ0595" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Sevier" name_id="SJ0166" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-11">
+				<candidate_summary candidate_ref="1" vote_total="7977" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1261" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00250" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16648" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="tns">	
+				<result candidate_ref="1" vote="7977" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="1261" resp="Philip Lampi"/>
+				<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00250" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16648" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"...the Speaker of the Senate announced, in the presence of both Houses, that it appeared from the returns made that William Charles Cole Claiborne had 79977 votes for Member of Congress--John Rhea, 1261 and--Sevier 2." Journal of the House of Representatives 1801, pgs. 8-9.</note>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00250">Journal of the Tennessee House of Representatives, 1801.  8-9.</reference>
+	<reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

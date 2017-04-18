@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1814 Territorial Legislature, Clark County" type="General" iteration="First Ballot" date="1814" election_id="in.assembly.clark.1814" handle="10427/80193" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="Alexander Buckner" name_id="BA0316" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Begges" name_id="BC0009" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2016-01-28">
+				<candidate_summary candidate_ref="1" vote_total="234" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="230" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Charles Begges contested the election, arguing that the votes from the rejected towns would have resulted in his election.</note>
+			</overview>
+			<admin_unit type="Territory" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Clark" geog_id="null">
+					<result candidate_ref="1" vote="234" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="230" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Blue River" geog_id="null">
+						<note resp="Philip Lampi">The votes from Blue River were rejected.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Clarksville" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Silver Creek" geog_id="null">
+						<note resp="Philip Lampi">The votes from Silver Creek were rejected.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Springhill" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Springville" geog_id="null">
+						<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="181" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Louisville Correspondent (Louisville, KY).  August 24, 1814.</reference>
+</election_record>

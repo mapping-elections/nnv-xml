@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 Coroner, Hamilton County" type="General" iteration="First Ballot" date="1818-10" election_id="oh.coroner.hamilton.1818" handle="10427/59722" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="William Butler" name_id="BW0254" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="James Kemper" name_id="KJ0073" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="James Wilson" name_id="WJ0261" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-03">
+                <candidate_summary candidate_ref="1" vote_total="1371" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="461" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="413" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+                    <result candidate_ref="1" vote="1371" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="461" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="413" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Anderson" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="54" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Cincinnati" geog_id="null">
+                        <result candidate_ref="1" vote="467" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="300" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Colerain" geog_id="null">
+                        <result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Columbia" geog_id="null">
+                        <result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Crosby" geog_id="null">
+                        <result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Delhi" geog_id="null">
+                        <result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Miami" geog_id="null">
+                        <result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Millcreek" geog_id="null">
+                        <result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Springfield" geog_id="null">
+                        <result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Sycamore" geog_id="null">
+                        <result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Whitewater" geog_id="null">
+                        <result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Liberty Hall and Cincinnati Gazette (Cincinnati, OH).  October 20, 1818.</reference>
+</election_record>
+

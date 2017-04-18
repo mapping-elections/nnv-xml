@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 House of Representatives, North Brookfield" type="General" iteration="First Ballot" date="1812-05" election_id="ma.staterepresentative.northbrookfield.1812" handle="10427/69953" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Ezra Batchelder" name_id="BE0187" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Hale" name_id="HT0058" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-13">
+				<candidate_summary candidate_ref="1" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="87" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"That the whole number of votes given in for a Representative, at said meeting, was 179 - that 90 votes were necessary to make a choice."  Boston Gazette (Boston, MA).  June 11, 1812.</note>
+				<note resp="Philip Lampi">This election was contested and the Committee on Elections decided based on depositions given that Ezra Batchelder was not entitled to his seat.  Three of the voters who had voted for Batcheldor were declared to have been ineligible to vote.  "Upon these facts, the Committee unanimously report, that the said supposed election of the said Ezra Batcheldor was utterly void and of no effect, and that he is not entitled to a seat in this House, and that his seat therein should be declared vacated."  Hampshire Federalist (Springfield, MA).  June 18, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="North Brookfield" geog_id="null">
+					<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  June 11, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">Hampshire Federalist (Springfield, MA).  June 18, 1812.</reference>
+</election_record>

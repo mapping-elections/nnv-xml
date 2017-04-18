@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1814 House of Representatives, Williamsburg District" type="General" iteration="First Ballot" date="1814" election_id="sc.assembly.williamsburgh.1814" handle="10427/31790" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="William Burrows" name_id="BW0381" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas M. Brown" name_id="BT0261" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel R. Mouzon" name_id="MS0231" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Graham" name_id="GW0172" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-21">
+				<candidate_summary candidate_ref="1" vote_total="260" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="189" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="154" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07764" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07765" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Williamsburg" geog_id="null">
+					<result candidate_ref="1" vote="260" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="189" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="172" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="154" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07764" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07765" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07764">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07765">City Gazette and Commercial Advertiser (Charleston, SC).  October 29, 1814.</reference>
+</election_record>

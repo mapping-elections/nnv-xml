@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Commissioner, Marion County, Special" type="Special" iteration="First Ballot" date="1824-05" election_id="oh.commissioner.marion.may.1824" handle="10427/60370" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Enoch B. Merriman" name_id="ME0105" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Amos C. Wilson" name_id="WA0135" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Cochran" name_id="CW0105" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Page" name_id="PJ0404" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Alexander Berry, Junior" name_id="BA0056" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Eber Baker" name_id="BE0021" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="David Tipton" name_id="TD0005" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="William Wyatt" name_id="WW0075" affiliation="null" affiliation_id="null" candidate_num="8"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-11">
+                <candidate_summary candidate_ref="1" vote_total="247" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="157" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="122" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="102" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="69" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="53" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" vote_total="47" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" vote_total="26" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Marion" geog_id="ohs_marion">
+                    <result candidate_ref="1" vote="247" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="122" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="102" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="69" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="53" resp="Philip Lampi"/>
+                    <result candidate_ref="7" vote="47" resp="Philip Lampi"/>
+                    <result candidate_ref="8" vote="26" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Jacoby, J. Wilbur.  History of Marion County.  Chicago: Biographical Publishing, 1907.  88.</reference>
+    <reference type="citation" resp="Philip Lampi">The History of Marion County, Ohio.  Chicago: Leggett, Conaway,  1883.  312.</reference>
+</election_record>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1823 House of Delegates, Charles County" type="General" iteration="First Ballot" date="1823" election_id="md.assembly.charles.county.1823" handle="10427/27182" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Walter M. Millar" name_id="MW0163" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Edelin" name_id="EJ0075" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Rogerson" name_id="RT0042" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Robert Garner" name_id="GR0060" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James J. Weems" name_id="WJ0234" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William W. Dunnington" name_id="DW0058" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-07">
+				<candidate_summary candidate_ref="1" vote_total="638" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="592" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="508" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="400" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="362" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="205" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03336" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03337" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Baltimore Patriot and Mercantile Advertiser (Baltimore, MD). lists Thomas Rogerson with 505 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Charles" geog_id="mds_charles">
+					<result candidate_ref="1" vote="638" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="592" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="508" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="400" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="362" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="205" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03336" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03337" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03337">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 11, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03336">National Intelligencer (Washington, DC).  October 11, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03336">The Torch Light and Public Advertiser (Hagerstown, MD).  October 14, 1823.</reference>
+</election_record>

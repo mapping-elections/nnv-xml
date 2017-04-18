@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Commissioner, Montgomery County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.commissioner.montogomery.1812" handle="10427/62486" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Owen Evans" name_id="EO0006" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James B. Harris" name_id="HJ0978" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-13">
+				<candidate_summary candidate_ref="1" vote_total="2739" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2116" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06659" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06660" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="2739" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2116" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06659" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06660" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Several sources published results which are lower than the correct returns, in part because "the returns from Kreps' district are not yet received," as explained in The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA) from October 21.</note>
+					<sub_unit type="Township" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="290" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="323" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hughes's" geog_id="null">
+						<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="371" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreps's" geog_id="null">
+						<result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Merion" geog_id="null">
+						<result candidate_ref="1" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="583" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="481" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pottsgrove" geog_id="null">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Pottsgrove is also known as Pottstown.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sumneytown" geog_id="null">
+						<result candidate_ref="1" vote="290" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="309" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="340" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="324" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06659">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 21, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">The Weekly Register (Norristown, PA).  October 21, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06660">The True American and Commercial Advertiser (Philadelphia, PA).  October 22, 1812.</reference>
+</election_record>

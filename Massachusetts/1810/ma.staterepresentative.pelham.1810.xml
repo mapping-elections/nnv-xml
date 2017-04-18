@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1810 House of Representatives, Pelham" type="General" iteration="First Ballot" date="1810-05" election_id="ma.staterepresentative.pelham.1810" handle="10427/69233" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Abercrombie" name_id="AJ0279" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Abercrombie" name_id="AI0011" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-09">
+				<candidate_summary candidate_ref="1" vote_total="69" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="67" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The defeated candidate had served for several terms but failed of a re-election.  His brother, James Abercrombie, being elected by a majority of two.  Both were sons of Rev. Robert Abercrombie, the first settled minister in the town.  It was a contest that quite likely brought out a full voting strength of the town."  History of Pelham, Mass., 180.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Pelham" geog_id="null">
+					<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Parmenter, C. O.  History of Pelham, Mass.: from 1738 to 1898, Including the Early History of Prescott.  Amherst, MA: Press of Carpenter and Morehouse, 1898.  180.</reference>
+</election_record>

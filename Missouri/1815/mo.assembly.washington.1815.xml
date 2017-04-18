@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1815 Territorial Legislature, Washington County, Special" type="Special" iteration="First Ballot" date="1815" election_id="mo.assembly.washington.1815" handle="10427/56516" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="Stephen T. Austin" name_id="AS0033" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Hardage Lane" name_id="LH0061" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Stephenson" name_id="SW0114" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Abraham Brinker" name_id="BA0116" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.1" modified="2008-01-02">
+				<candidate_summary candidate_ref="1" vote_total="200" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="177" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="77" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="12" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11375" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="177" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="77" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11375" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11375">Missouri Gazette (Saint Louis, MO).  August 19, 1815.</reference>
+</election_record>

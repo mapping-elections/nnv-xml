@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1798 Lieutenant Governor" type="Legislative" iteration="First Ballot" date="1798" election_id="sc.lt.governor.1798" handle="10427/64674" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Lieutenant Governor" office_id="ON073" scope="State">
+        <role title="Lieutenant Governor" scope="State">
+            <ballot>
+                <candidate name="John Drayton" name_id="DJ0540" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-10-04">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Georgetown Gazette (Georgetown, SC).  December 18, 1798.</reference>
+    <reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  December 24, 1798.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15481">Connecticut Gazette (New London, CT).  January 2, 1799.</reference>
+</election_record>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Coroner, Indiana and Jefferson Counties" type="General" iteration="First Ballot" date="1821" election_id="pa.coroner.indianajeffersocounties.1821" handle="10427/63530" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="District">
+		<role title="Coroner" scope="District">
+			<ballot>
+				<candidate name="Peter Sutton Jr." name_id="SP0162" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Lucas" name_id="LW0201" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-10">
+				<candidate_summary candidate_ref="1" vote_total="626" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="538" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07144" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Indiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="626" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="538" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Washington" geog_id="null">
+							<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07144" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Votes from Washington Township were not included in the official vote totals; they have been added to the totals listed here.  The original election returns note that voting took place "At the house of David Fulton in Washington township which is not included in the above Return on account that there was but two Judges attended to conduct and carry on the Election."</note>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07144" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07144">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

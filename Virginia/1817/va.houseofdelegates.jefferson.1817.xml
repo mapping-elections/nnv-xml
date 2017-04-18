@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1817 House of Delegates, Jefferson County" type="General" iteration="First Ballot" date="1817-04" election_id="va.houseofdelegates.jefferson.1817" handle="10427/33329" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="George W. Humphreys" name_id="HG0135" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="George Reynolds, Jr." name_id="RG0079" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Braxton Davenport" name_id="DB0040" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Richard Duffield" name_id="DR0081" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-29">
+				<candidate_summary candidate_ref="1" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="159" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="109" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="79" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09084" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09085" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Farmer's Repository (Charlestown, WV) lists George W. Humphreys with 166 votes and George Reynolds, Jr. with 158 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="159" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="109" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="79" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09084" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09085" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09084">Farmer's Repository (Charlestown, WV).  April 30, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09085">Alexandria Gazette, Commercial and Political (Alexandria, VA).  May 2, 1817.</reference>
+</election_record>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 House of Representatives, Trumbull County" type="General" iteration="First Ballot" date="1816-10" election_id="oh.staterepresentative.trumbull.1816" handle="10427/59603" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Henry Lane" name_id="LH0043" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Homer Hine" name_id="HH0059" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Elisha Whittlesey" name_id="WE0121" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Dan Eaton" name_id="ED0019" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="John Struthers" name_id="SJ0314" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-18">
+                <candidate_summary candidate_ref="1" vote_total="663" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="511" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="288" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="234" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="183" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+                    <result candidate_ref="1" vote="663" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="511" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="288" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="234" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="183" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="null" geog_id="null">
+                        <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="64" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="29" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Trumbull County Election Returns, Unknown Township.</reference>
+    <reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  October 18, 1816.</reference>
+</election_record>

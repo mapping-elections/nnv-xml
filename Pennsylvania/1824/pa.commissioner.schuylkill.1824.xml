@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Commissioner, Schuylkill County" type="General" iteration="First Ballot" date="1824" election_id="pa.commissioner.schuylkill.1824" handle="10427/65823" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Zehner" name_id="ZJ0010" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Adam Miller" name_id="MA0202" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-17">
+				<candidate_summary candidate_ref="1" vote_total="517" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="385" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Schuylkill" geog_id="null">
+					<result candidate_ref="1" vote="517" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="385" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Artz's" geog_id="null">
+						<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Baer's" geog_id="null">
+						<result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Biddler's" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Blue's" geog_id="null">
+						<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Bolich's" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Friedensburg" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Hartlein's" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="McKeansburg" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Orwigsburg" geog_id="null">
+						<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pottsville" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="West Penn" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  October 23, 1824.</reference>
+</election_record>

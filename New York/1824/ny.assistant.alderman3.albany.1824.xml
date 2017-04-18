@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assistant Alderman, Albany, Ward 3" type="General" iteration="First Ballot" date="1824" election_id="ny.assistant.alderman3.albany.1824" handle="10427/65653" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Alderman" office_id="ON006" scope="City">
+		<role title="Assistant Alderman" scope="Ward">
+			<ballot>
+				<candidate name="John Mancius" name_id="MJ0686" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="John M. Cuyler" name_id="CJ0480" affiliation="People's Ticket" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="Robert Davis" name_id="DR0083" affiliation="People's Ticket" affiliation_id="A05" candidate_num="3"/>
+				<candidate name="George W. Stanton" name_id="SG0092" affiliation="People's Ticket" affiliation_id="A05" candidate_num="4"/>
+				<candidate name="John Igget" name_id="IJ0021" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="102" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="20" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The division in this ward were all of a local nature; all the candidates but one, and he counts the lowest, are advocates of the people's rights." The Daily Advertiser (New York, NY).  September 30, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  September 30, 1824.</reference>
+</election_record>

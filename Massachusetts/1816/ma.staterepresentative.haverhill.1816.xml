@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 House of Representatives, Haverhill" type="General" iteration="First Ballot" date="1816" election_id="ma.staterepresentative.haverhill.1816" handle="10427/78845" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="David How" name_id="HD0191" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Moses Wingate" name_id="WM0044" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-22">
+				<candidate_summary candidate_ref="1" vote_total="237" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="221" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Representative Election in this town took place on Thursday last. The whole number of votes was 458."  Merrimack Intelligencer (Haverhill, MA).  May 11, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Haverhill" geog_id="null">
+					<result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="221" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Merrimack Intelligencer (Haverhill, MA).  May 11, 1816.</reference>
+</election_record>

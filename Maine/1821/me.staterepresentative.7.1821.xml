@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1821 House of Representatives, Calais, New Limerick, Perry, Robbinstown, Houlton Plantation and Plantations No. 3, 6 and 7" type="General" iteration="Second Ballot" date="1821" election_id="me.assembly.district7.1821" handle="10427/58300" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON057" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="George Downes" name_id="DG0012" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Goulding" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-09-11">
+				<candidate_summary candidate_ref="1" vote_total="139" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="68" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Robinson Palmer, Esq. declined being considered a candidate."  Eastport Sentinel and Passamquoddy Advertiser (Eastport, ME).  October 6, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="Maine" geog_id="null">
+				<sub_unit type="District" name="Calais, New Limerick, Perry, Robbinstown, Houlton Plantation and Plantations No. 3, 6 and 7" geog_id="null">
+					<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Calais" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Houlton Plantation" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="New Limerick" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Perry" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Robbinstown" geog_id="null">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Plantation No. 3" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Plantation No. 6" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Plantation No. 7" geog_id="null">
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Eastport Sentinel and Passamquoddy Advertiser (Eastport, ME).  October 6, 1821.</reference>
+</election_record>

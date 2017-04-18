@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="New York 1804 Alderman, New York, Ward 5" type="General" iteration="First Ballot" date="1804" election_id="ny.alderman5.newyork.1804" handle="10427/65759" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Alderman" office_id="ON001" scope="City">
+		<role title="Alderman" scope="Ward">
+			<ballot>
+				<candidate name="Jacob Delamontagnie" name_id="DJ0189" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Leonard Lispenard" name_id="LL0015" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" vote_total="540" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="214" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The American Citizen (New York, NY) lists Leonard Lispenard as a "Burrite."</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="New York" geog_id="null">
+					<sub_unit type="Ward" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="540" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="214" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Citizen (New York, NY).  November 29, 1804.</reference>
+</election_record>

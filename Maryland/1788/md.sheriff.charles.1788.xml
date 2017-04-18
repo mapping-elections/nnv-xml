@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1788 Sheriff, Charles County" type="General" iteration="First Ballot" date="1788" election_id="md.sheriff.charles.1788" handle="10427/57990" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas Andrew Dyson" name_id="DT0040" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Benjamin Cawood" name_id="CB0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-18">
+				<candidate_summary candidate_ref="1" vote_total="767" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="639" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14000" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Charles" geog_id="mds_charles">
+					<result candidate_ref="1" vote="767" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="639" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14000" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14000">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+</election_record>

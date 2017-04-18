@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1797 Sheriff, Bucks County" type="General" iteration="First Ballot" date="1797-10" election_id="pa.sheriff.buckscounty.1797" handle="10427/60908" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Daniel Thomas" name_id="TD0072" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Phinehas Paxton" name_id="PP0020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Parker" name_id="PJ0435" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-29">
+				<candidate_summary candidate_ref="1" vote_total="1115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1003" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="943" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05521" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05522" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="1115" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1003" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="943" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05521">Porcupine's Gazette (Philadelphia, PA).  October 17, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05522">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 18, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05522">Aurora. General Advertiser (Philadelphia, PA).  October 19, 1797.</reference>
+</election_record>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1817 House of Representatives, Lycoming, McKean, and Potter Counties" type="General" iteration="First Ballot" date="1817-10" election_id="pa.assembly.lycoming.1817" handle="10427/63043" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John MacMeens" name_id="MJ1119" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph J. Wallis" name_id="WJ0834" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="James Lawson" name_id="LJ0445" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-28">
+				<candidate_summary candidate_ref="1" vote_total="1034" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="639" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="195" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06875" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Lycoming, McKean and Potter" geog_id="null">
+					<result candidate_ref="1" vote="1034" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="639" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="195" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Lycoming" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06875" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="McKean" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Potter" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06875">Harrisburg Republican (Harrisburg, PA).  November 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 11, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 15, 1817.</reference>
+</election_record>

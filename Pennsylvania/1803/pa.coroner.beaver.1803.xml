@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Coroner, Beaver County" type="General" iteration="First Ballot" date="1803-10" election_id="pa.coroner.beaver.1803" handle="10427/61350" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Ezekiel Jones" name_id="JE0030" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Moore" name_id="MJ0797" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Joseph Edgar" name_id="EJ0182" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Porter" name_id="PT0128" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-15">
+				<candidate_summary candidate_ref="1" vote_total="537" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="471" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="188" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="40" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05856" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Beaver" geog_id="null">
+					<result candidate_ref="1" vote="537" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="471" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="188" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="40" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Allen's" geog_id="null">
+						<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05856" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Beaver" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="39" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05856" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Georgetown" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05856" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Johnston's" geog_id="null">
+						<result candidate_ref="1" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="26" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05856" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Raccoon" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05856" resp="Philip Lampi"/>
+					</sub_unit>	
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05856">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  October 22, 1803.</reference>
+</election_record>

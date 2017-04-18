@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1810 Assembly, Lewis County" type="General" iteration="First Ballot" date="1810" election_id="ny.assembly.lewis.1810" handle="10427/25365" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Nathaniel Merriam" name_id="MN0064" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Oliver Bush" name_id="BO0002" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-20">
+				<candidate_summary candidate_ref="1" vote_total="534" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="342" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Columbian Gazette (Utica, NY) lists Nathaniel Merriam as Nathanial Merriman.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Lewis" geog_id="null">
+					<result candidate_ref="1" vote="534" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="342" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Denmark" geog_id="null">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Harrisburgh" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Leyden" geog_id="null">
+						<result candidate_ref="1" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Lowville" geog_id="null">
+						<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Martinsburgh" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Pinckney" geog_id="null">
+						<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Turin" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04386" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04386">Columbian Gazette (Utica, NY).  May 29, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  June 6, 1810.</reference>
+</election_record>

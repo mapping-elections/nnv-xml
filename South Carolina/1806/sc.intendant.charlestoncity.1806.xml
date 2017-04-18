@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1806 Intendant, Charleston City" type="General" iteration="First Ballot" date="1806" election_id="sc.intendant.charlestoncity.1806" handle="10427/31934" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Intendant" office_id="ON066" scope="City">
+		<role title="Intendant" scope="City">
+			<ballot>
+				<candidate name="John Dawson, Jr." name_id="DJ0548" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John C. Faber" name_id="FJ0423" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-20">
+				<candidate_summary candidate_ref="1" vote_total="391" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="174" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07573" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="391" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="174" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07573" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07573">Charleston Courier (Charleston, SC).  September 9, 1806.</reference>
+</election_record>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 House of Representatives, Fayette County" type="General" iteration="First Ballot" date="1790-10" election_id="pa.assembly.fayette.1790" handle="10427/66047" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Findley" name_id="FJ0083" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Albert Gallatin" name_id="GA0061" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Mason" name_id="MI0019" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Nathaniel Brandon" name_id="BN0128" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James Hammon" name_id="HJ0216" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="John Gilchrist" name_id="GJ0060" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-24">
+				<candidate_summary candidate_ref="1" vote_total="902" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="891" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="424" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="342" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="26" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="13" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="902" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="891" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="424" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="342" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="61" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="26" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="13" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Crossings" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Georges" geog_id="null">
+						<result candidate_ref="1" vote="251" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Red Stone" geog_id="null">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="354" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="328" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Uniontown" geog_id="null">
+						<result candidate_ref="1" vote="378" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="278" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel 1. Frame 0478.</reference>
+</election_record>

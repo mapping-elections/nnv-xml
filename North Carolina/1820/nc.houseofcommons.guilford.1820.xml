@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1820 House of Commons, Guilford County" type="General" iteration="First Ballot" date="1820-08" election_id="nc.houseofcommons.guilford.1820" handle="10427/42771" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="John Rankin" name_id="RJ0381" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="David Worth" name_id="WD0019" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="J. Dickey" name_id="DJ0202" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="J. Gordon" name_id="GJ0025" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="R. Donnell" name_id="DR0011" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-09-11">
+                <candidate_summary candidate_ref="1" vote_total="1093" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="751" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="616" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="499" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="283" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18252" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The Raleigh Minerva (Raleigh, NC) lists John Rankin with 1098 votes, David Worth with 750 votes, J. Gordon with 616 votes, R. Donnell with 499 votes and does not list J. Dickey.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Guilford" geog_id="null">
+                    <result candidate_ref="1" vote="1093" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="751" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="616" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="499" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="283" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18252" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18252">The Raleigh Minerva (Raleigh, NC).  August 18, 1820.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18252">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  August 18, 1820.</reference>
+</election_record>

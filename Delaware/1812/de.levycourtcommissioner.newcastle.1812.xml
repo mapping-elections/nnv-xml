@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1812 Levy Court Commissioner, New Castle County" type="General" iteration="First Ballot" date="1812" election_id="de.levycourtcommissioner.newcastle.1812" handle="10427/43898" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Levy Court Commissioner" office_id="ON071" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="George Gillaspie" name_id="GG0004" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William W. Haslet" name_id="HW0047" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Morgan Jones" name_id="JM0021" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Jacob Vandegrift" name_id="VJ0193" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="James Ross" name_id="RJ0674" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Nathan Baldin" name_id="BN0125" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="John Deputy" name_id="DJ0594" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="Outen Davis" name_id="DO0004" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<sub_unit type="Hundred" name="Christiana" geog_id="des_newcastle_christiana">
+						<result candidate_ref="1" vote="526" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="526" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="526" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="526" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="276" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="276" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="276" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="276" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12095" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12095">American Watchman; and Delaware Republican (Wilmington, DE).  October 10, 1812.</reference>
+</election_record>

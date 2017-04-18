@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1788 House of Delegates, Baltimore County" type="General" iteration="First Ballot" date="1788" election_id="md.assembly.baltimore.county.1788" handle="10427/34106" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Charles Ridgely" name_id="RC0020" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Charles Ridgely, of William" name_id="RC0025" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Cockey Doye" name_id="DT0036" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Edward Cockey" name_id="CE0051" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Harry Dorsey" name_id="DH0012" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Gettings" name_id="GJ0088" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Craddock" name_id="CJ0194" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Nathan Cromwell" name_id="CN0009" affiliation="null" affiliation_id="null" candidate_num="8"/>
+				<candidate name="Job Hunt" name_id="HJ0151" affiliation="null" affiliation_id="null" candidate_num="9"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="1407" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1275" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1080" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1019" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="849" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="456" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="401" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="236" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02162" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Baltimore" geog_id="mds_baltimore">
+					<result candidate_ref="1" vote="1407" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1275" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1115" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1080" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1019" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="849" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="456" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="401" resp="Philip Lampi"/>
+					<result candidate_ref="9" vote="236" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02162" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02162">The Maryland Journal, and the Baltimore Advertiser (Baltimore, MD).  October 14, 1788.</reference>
+</election_record>

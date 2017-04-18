@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Inspector of the General Election, Philadelphia County, Penn Township" type="General" iteration="First Ballot" date="1824" election_id="pa.inspectors.penntownship.1824" handle="10427/63921" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="David Hotz" name_id="HD0115" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John F. Warner" name_id="WJ0900" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Lawrence Shuster" name_id="SL0057" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-11-02">
+				<candidate_summary candidate_ref="1" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07395" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Penn" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07395" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07395">United States Gazette (Philadelphia, PA).  October 2, 1824.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1803 House of Delegates, Rockingham County" type="General" iteration="First Ballot" date="1803" election_id="va.houseofdelegates.rockingham.1803" handle="10427/32929" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Henry I. Gambill" name_id="GH0070" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edwin Nichols" name_id="NE0014" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="S. Matthews" name_id="MS0253" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-27">
+				<candidate_summary candidate_ref="1" vote_total="694" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="693" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="55" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08516" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.23981" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Rockingham" geog_id="null">
+					<result candidate_ref="1" vote="694" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="693" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="55" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08516" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08516">The Virginia Gazette, and General Advertiser (Richmond, VA).  May 4, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.23981">The Virginia Argus (Richmond, VA).  May 4, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

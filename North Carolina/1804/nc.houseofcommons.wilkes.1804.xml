@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1804 House of Commons, Wilkes County" type="General" iteration="First Ballot" date="1804-08" election_id="nc.houseofcommons.wilkes.1804" handle="10427/43561" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Edmund Jones" name_id="JE0025" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Hulme" name_id="HW0256" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="J. H. Robinett" name_id="RJ0099" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Robert Martin" name_id="MR0013" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-02-29">
+                <candidate_summary candidate_ref="1" vote_total="530" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="509" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="419" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="409" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Wilkes" geog_id="null">
+                    <result candidate_ref="1" vote="530" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="509" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="419" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="409" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Courthouse" geog_id="null">
+                        <result candidate_ref="1" vote="252" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="223" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="194" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="146" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Dula's" geog_id="null">
+                        <result candidate_ref="1" vote="190" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Roaring River" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="113" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">William Lenoir Memorandum Book.  May 7, 1804 - November 1, 1806.  Folder 567.  The Southern Historical Collection, Louis Round Wilson Special Collections Library, University of North Carolina.</reference>
+</election_record>

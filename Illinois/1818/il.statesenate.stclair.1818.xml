@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1818 State Senate, Saint Clair County" type="General" iteration="First Ballot" date="1818-09" election_id="il.statesenate.stclair.1818" handle="10427/56216" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="William Kinney" name_id="KW0008" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Biggs" name_id="BW0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-30">
+				<candidate_summary candidate_ref="1" vote_total="294" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="252" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Saint Clair" geog_id="null">
+					<result candidate_ref="1" vote="294" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="252" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  185.</reference>
+	<reference type="citation" resp="Philip Lampi">History of Saint Clair County, Illinois.  Philadelphia: Brink, McDonough and, Philadelphia, 1881.  72.</reference>
+</election_record>

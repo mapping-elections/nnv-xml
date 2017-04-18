@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1813 Warden, Charleston City, Ward 1" type="General" iteration="First Ballot" date="1813" election_id="sc.warden.charlestoncity.1813" handle="10427/32020" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Warden" office_id="ON131" scope="City">
+		<role title="Warden" scope="Ward">
+			<ballot>
+				<candidate name="James Gilchrist" name_id="GJ0588" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Michael Kelly" name_id="KM0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-17">
+				<candidate_summary candidate_ref="1" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="111" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07714" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07714" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07714">Charleston Courier (Charleston, SC).  September 15, 1813.</reference>
+</election_record>

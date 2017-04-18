@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1814 Assembly, Queens County" type="General" iteration="First Ballot" date="1814" election_id="ny.assembly.queens.1814" handle="10427/25523" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Stephen Carman" name_id="CS0101" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Daniel Kissam" name_id="KD0033" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Solomon Wooden" name_id="WS0124" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Daniel Bedell" name_id="BD0106" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+           <candidate name="Singleton Mitchell" name_id="MS0069" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+           <candidate name="Samuel Sherman" name_id="SS0211" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-31">
+           <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+           <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04483" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Queens" geog_id="null">
+              <result candidate_ref="1" resp="Philip Lampi"/>
+              <result candidate_ref="2" resp="Philip Lampi"/>
+              <result candidate_ref="3" resp="Philip Lampi"/>
+              <result candidate_ref="4" resp="Philip Lampi"/>
+              <result candidate_ref="5" resp="Philip Lampi"/>
+              <result candidate_ref="6" resp="Philip Lampi"/>
+             <sub_unit type="Town" name="Flushing" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Hempstead" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Jamaica" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Newtown" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="North Hempstead" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Oyster Bay" geog_id="null">
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+</election_record>
+

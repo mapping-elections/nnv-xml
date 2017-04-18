@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Auditor, Marion County, Special" type="Special" iteration="First Ballot" date="1824-05" election_id="oh.auditor.marion.may.1824" handle="10427/60371" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Auditor" office_id="ON013" scope="County">
+        <role title="Auditor" scope="County">
+            <ballot>
+                <candidate name="Hezekiah Gorton" name_id="GH0061" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Matthew Merritt" name_id="MM0054" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Jacob Keptum" name_id="KJ0064" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="William Hoddy" name_id="HW0058" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-11">
+                <candidate_summary candidate_ref="1" vote_total="275" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="209" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="47" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="19" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Marion" geog_id="ohs_marion">
+                    <result candidate_ref="1" vote="275" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="209" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="47" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="19" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Jacoby, J. Wilbur.  History of Marion County.  Chicago: Biographical Publishing, 1907.  88.</reference>
+    <reference type="citation" resp="Philip Lampi">The History of Marion County, Ohio.  Chicago: Leggett, Conaway,  1883.  312.</reference>
+</election_record>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1824 Moderator, Lynn" type="General" iteration="First Ballot" date="1824" election_id="ma.moderator.lynn.1824" handle="10427/79563" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Moderator" office_id="ON080" scope="Town">
+		<role title="Moderator" scope="Town">
+			<ballot>
+				<candidate name="John Lummus" name_id="LJ0587" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James Gardner" name_id="GJ0175" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-10">
+				<candidate_summary candidate_ref="1" vote_total="166" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="63" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Lynn" geog_id="null">
+					<sub_unit type="Town" name="Lynn" geog_id="null">
+						<result candidate_ref="1" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  March 22, 1824.</reference>
+</election_record>

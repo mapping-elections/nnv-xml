@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1821 State Senate, District 10, Nomination, Ballot 2" type="General" iteration="Second Ballot" date="1821" election_id="nh.statesenate.10.nomination2.1821" handle="10427/79385" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Thomas C. Drew" name_id="DT0126" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Nominated.</note></candidate>
+				<candidate name="John Tappan" name_id="TJ0457" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Gawen Gilmore" name_id="GG0087" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-26">
+				<candidate_summary candidate_ref="1" vote_total="12" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Delegates from several towns in the 10th Senatorial District, being convened at the house of Thomas C. Drew, Esq. in Walpole, on Tuesday the 23d day of January, 1821, for the purpose of nominating a candidate for Senator, for said district, for the year ensuing."  New-hampshire Sentinel (Keene, NH).  February 24, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<sub_unit type="County" name="Cheshire" geog_id="null">
+						<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-hampshire Sentinel (Keene, NH).  February 24, 1821.</reference>
+</election_record>

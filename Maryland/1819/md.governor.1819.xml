@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1819 Governor" type="Legislative" iteration="First Ballot" date="1819" election_id="md.governor.1819" handle="10427/26998" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Samuel Sprigg" name_id="SS0079" affiliation="Republican" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Goldsborough" name_id="GC0057" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-18">
+				<candidate_summary candidate_ref="1" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="36" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10423" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14827" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14828" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Samuel Sprigg, Esq. of Prince George's county, was yesterday elected Governor of the state of Maryland, by both branches of the legislature for the ensuing year, 49 votes to 36 in opposition to Charles Goldsborough, Esq."  Republican Star and General Advertiser (Easton, MD).  December 21, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10423" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14827" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14828" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Votes and Proceedings of the Maryland State Senate.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  December 14, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14827">Daily National Intelligencer (Washington, DC).  December 16, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10423">Republican Star and General Advertiser (Easton, MD).  December 21, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14828">The Westmoreland Republican (Greensburgh, PA).  December 24, 1819.</reference>
+</election_record>

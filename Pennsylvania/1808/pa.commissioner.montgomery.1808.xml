@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Commissioner, Montgomery County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.commissioner.montgomery.1808" handle="10427/66335" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Mahlon Van Buskirk" name_id="VM0008" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Joshua Tyson" name_id="TJ0458" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-02">
+				<candidate_summary candidate_ref="1" vote_total="2792" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2302" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="2792" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2302" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="279" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="322" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreps" geog_id="null">
+						<result candidate_ref="1" vote="338" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Lower Merion" geog_id="null">
+						<result candidate_ref="1" vote="183" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="167" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="524" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="489" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 515 votes for Mahlon Van Buskirk and 470 votes for Joshua Tyson.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pottstown" geog_id="null">
+						<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sumneytown" geog_id="null">
+						<result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="361" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="252" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Webers" geog_id="null">
+						<result candidate_ref="1" vote="241" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="468" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 467 votes for Joshua Tyson.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="359" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="355" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 12, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 21, 1808.</reference>
+</election_record>

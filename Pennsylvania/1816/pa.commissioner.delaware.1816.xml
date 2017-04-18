@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Commissioner, Delaware County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.commissioner.delaware.1816" handle="10427/66872" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Lewis, Jr." name_id="LW0133" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Bunting" name_id="BJ1076" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="898" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="829" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="898" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="829" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="284" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="190" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="281" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="268" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">William Lewis, Jr. received 14 votes as William Lewis.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="227" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="223" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 9, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 14, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 15, 1816.</reference>
+</election_record>

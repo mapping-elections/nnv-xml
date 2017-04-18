@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1792 House of Representatives, Hallowell" type="General" iteration="First Ballot" date="1792-05" election_id="ma.staterepresentative.hallowell.1792" handle="10427/69104" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Daniel Cony" name_id="CD0042" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Bridge" name_id="BJ0319" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-20">
+				<candidate_summary candidate_ref="1" vote_total="53" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="41" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"May 7, 1792. Doctor Cony was chosen representative May 7th by fifty-three votes over his competitor James Bridge, who had forty-one. But Cony having been chosen Senator, an election was held in September, when the vacancy was filled by the election of Nathaniel Dummer, who was the first representative elected from the Hook."  The History of Augusta, 237.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Hallowell" geog_id="null">
+					<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">North, James W.  The History of Augusta.  Augusta, ME: Clapp and Norton, 1870.  237.</reference>
+</election_record>

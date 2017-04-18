@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Inspector of the General Election, Philadelphia City, Locust Ward" type="General" iteration="First Ballot" date="1810-09" election_id="pa.inspector.philadelphiacity.locust.1810" handle="10427/62225" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Abijah Price" name_id="PA0093" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Allison" name_id="AW0092" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Marris" name_id="MW0368" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joseph P. Musgrave" name_id="MJ1044" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Thomas Tompkins" name_id="TT0111" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="George Sees" name_id="SG0116" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-05">
+				<candidate_summary candidate_ref="1" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="50" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="49" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06411" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06412" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA) lists 65 votes for William Marris.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Locust" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="49" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06411" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  September 29, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  September 29, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  September 29, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 1, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06411">The True American and Commercial Advertiser (Philadelphia, PA).  October 1, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 1, 1810.</reference>
+</election_record>

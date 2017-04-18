@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 Treasurer, Dukes County" type="General" iteration="First Ballot" date="1808" election_id="ma.countytreasurer.dukes.1808" handle="10427/69833" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="County">
+		<role title="Treasurer" scope="County">
+			<ballot>
+				<candidate name="John Hancock" name_id="HJ0325" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Jernegan" name_id="JT0084" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-14">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Dukes" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Chilmark" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Edgar" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Tisbury" geog_id="null">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Tisbury Town Records.  339.</reference>
+</election_record>

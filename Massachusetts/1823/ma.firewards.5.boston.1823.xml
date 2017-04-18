@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1823 Fireward, Boston, Ward 5" type="General" iteration="First Ballot" date="1823" election_id="ma.firewards.5.boston.1823" handle="10427/79425" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Fireward" office_id="ON059" scope="City">
+		<role title="Fireward" scope="Ward">
+			<ballot>
+				<candidate name="Jonathan Thaxter" name_id="TJ0606" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Allen" name_id="AJ0303" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Dennis" name_id="DS0105" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Oliver C. Greenleaf" name_id="GO0012" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Peter MacIntosh, Jr." name_id="MP0128" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-05-19">
+				<candidate_summary candidate_ref="1" vote_total="467" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="235" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="231" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="scs">
+				<sub_unit type="City" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="467" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="231" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Independent Chronicle and Boston Patriot (Boston, MA).  April 16, 1823.</reference>
+</election_record>

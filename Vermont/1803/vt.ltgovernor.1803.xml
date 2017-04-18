@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1803 Lieutenant Governor" type="General" iteration="First Ballot" date="1803" election_id="vt.ltgovernor.1803" handle="10427/69075" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Lieutenant Governor" office_id="ON073" scope="State">
+        <role title="Lieutenant Governor" scope="State">
+            <ballot>
+                <candidate name="Paul Brigham" name_id="BP0101" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            	<candidate name="John Leverett" name_id="LJ0544" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            	<candidate name="Lewis R. Morris" name_id="ML0045" affiliation="Federalist" affiliation_id="null" candidate_num="3"/>
+            	<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"></candidate>
+            </ballot>
+            <overview status="null" modified="2014-09-24">
+                <candidate_summary candidate_ref="1" vote_total="7700" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="2803" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="153" resp="Philip Lampi"/>
+            	<candidate_summary candidate_ref="4" vote_total="414" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+            	<result candidate_ref="1" vote="7700" resp="Philip Lampi"/>
+            	<result candidate_ref="2" vote="2803" resp="Philip Lampi"/>
+            	<result candidate_ref="3" vote="153" resp="Philip Lampi"/>
+            	<result candidate_ref="4" vote="414" resp="Philip Lampi"/>
+				<sub_unit type="County" name="Addison" geog_id="null">
+				    <sub_unit type="Town" name="Middlebury" geog_id="null">
+				        <result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+				        <result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+				    </sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Bennington" geog_id="null">
+				    <sub_unit type="Town" name="Sandgate" geog_id="null">
+				        <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+				        <result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+				    </sub_unit>
+				</sub_unit>
+                <sub_unit type="County" name="Caledonia" geog_id="null">
+                    <sub_unit type="Town" name="Peacham" geog_id="null">
+                        <result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+				</sub_unit>
+                <sub_unit type="County" name="Chittenden" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Essex" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Franklin" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Orange" geog_id="null">
+				    <sub_unit type="Town" name="Randolph" geog_id="null">
+				        <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+				        <result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+				    </sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Orleans" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Rutland" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+				</sub_unit>
+                <sub_unit type="County" name="Windsor" geog_id="null">
+				</sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Green Mountain Patriot (Peacham, VT).  September 7, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Middlebury Mercury (Middlebury, VT).  September 7, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Weekly Wanderer (Randolph, VT).  September 10, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Vermont Gazette (Bennington, VT).  September 13, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Vermont Centinel (Burlington, VT).  October 20, 1803.</reference>
+</election_record>

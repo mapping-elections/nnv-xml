@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Tennessee 1803 U.S. Senate, Ballot 2" type="Legislative" iteration="Second Ballot" date="1803" election_id="tn.ussenate.2.1803" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/20026" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Joseph Anderson" name_id="AJ0370" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Daniel Smith" name_id="SD0206" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-21">
+				<candidate_summary candidate_ref="1" vote_total="18" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="18" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10123" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Knoxville, 21st of September 1803. At eleven o'clock this day, the speaker and other members of senate appeared in this house, and proceeded to ballot for a senator to represent this state in the senate of the United States - General Daniel Smith and Joseph Anderson being in nomination, both houses proceeded to ballot;... Therefore it is resolved that this house will proceed on tomorrow, at eleven o'clock, to ballot."  Journal of the Tennessee House of Representatives, 1803.  15-17.</note>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="tns">
+				<sub_unit type="null" name="House of Representatives" geog_id="tns">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>	
+				<sub_unit type="null" name="Senate" geog_id="tns">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10123">Journal of the Tennessee House of Representatives, 1803.  15-17.</reference>
+	<reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

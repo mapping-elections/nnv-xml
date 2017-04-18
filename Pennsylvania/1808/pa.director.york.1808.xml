@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Director of the Poor, York County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.director.york.1808" handle="10427/61958" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Martin Weiser" name_id="WM0089" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="George Lottman" name_id="LG0063" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Yost Herbach" name_id="HY0000" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="P. I. King" name_id="KP0027" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-23">
+				<candidate_summary candidate_ref="1" vote_total="2834" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2678" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1702" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1702" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06304" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="2834" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2678" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1702" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1702" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06304" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06304">The Democratic Press (Philadelphia, PA).  October 24, 1808.</reference>
+</election_record>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1808 Assembly, Genesee County" type="General" iteration="First Ballot" date="1808" election_id="ny.assembly.genesee.1808" handle="10427/25731" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="William Rumsey" name_id="RW0096" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David MacCracken" name_id="MD0107" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-10">
+				<candidate_summary candidate_ref="1" vote_total="582" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="239" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albany Register (Albany, NY) reports 339 votes for David McCracken in Genesee County; however, the sum of totals per town is 239.</note>
+				<note resp="Philip Lampi">David McCracken was a Republican who was supported by the Federalists in this election.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Genesee" geog_id="null">
+					<result candidate_ref="1" vote="582" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="339" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Batavia" geog_id="null">
+						<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Caledonia" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Leicester" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Northampton" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Sheldon" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Warsaw" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04319" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04319">The Albany Register (Albany, NY).  June 3, 1808.</reference>
+</election_record>

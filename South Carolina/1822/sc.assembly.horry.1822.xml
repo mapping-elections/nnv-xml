@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1822 House of Representatives, Horry District" type="General" iteration="First Ballot" date="1822" election_id="sc.assembly.horry.1822" handle="10427/32512" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Bethel Durant" name_id="DB0033" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Moses Harrelson" name_id="HM0088" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Richard Green" name_id="GR0082" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-09">
+				<candidate_summary candidate_ref="1" vote_total="217" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="134" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="20" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07923" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07924" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Horry" geog_id="null">
+					<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="20" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Conway Borough" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07924" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Henry Avant's" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07924" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="William Graham's" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07924" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="William Thompson's" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07924" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07924">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07923">Charleston Courier (Charleston, SC).  October 26, 1822.</reference>
+</election_record>

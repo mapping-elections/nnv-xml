@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1824 Speaker of the House, Special, Ballot 2" type="Special" iteration="Second Ballot" date="1824-11" election_id="vt.speakerofthehouse.2.1824" handle="10427/79884" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="Isaac Fletcher" name_id="FI0021" affiliation="null" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Titus Hutchinson" name_id="HT0218" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Robert Temple" name_id="TR0066" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="L. B. Hunt" name_id="HL0063" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-11-24">
+                <candidate_summary candidate_ref="1" vote_total="100" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="11" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="9" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Election to replace George E. Wales, resigned.</note>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Vermont Watchman (Montpelier, VT).  November 23, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">American Repertory (Saint Albans, VT).  November 25, 1824.</reference>
+</election_record>

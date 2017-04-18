@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1794 Levy Court Commissioner, Kent County" type="General" iteration="First Ballot" date="1794" election_id="de.levycourtcommissioner.kent.1794" handle="10427/44038" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Levy Court Commissioner" office_id="ON071" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Warner" name_id="WW0019" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Hughlet" name_id="HW0044" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="616" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="553" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11944" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="616" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="553" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11944" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11944">The Delaware and Eastern Shore Advertiser (Wilmington, DE).  October 11, 1794.</reference>
+</election_record>

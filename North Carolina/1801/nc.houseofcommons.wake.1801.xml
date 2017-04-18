@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1801 House of Commons, Wake County" type="General" iteration="First Ballot" date="1801" election_id="nc.houseofcommons.wake.1801" handle="10427/43638" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Matthew MacCullers" name_id="MM0041" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Henry Seawell" name_id="SH0104" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="L. Bledsoe" name_id="BL0048" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Nathaniel Jones" name_id="JN0005" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Allen Rogers" name_id="RA0039" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-15">
+				<candidate_summary candidate_ref="1" vote_total="714" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="674" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="370" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="358" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="216" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04766" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Wake" geog_id="null">
+					<result candidate_ref="1" vote="714" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="674" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="370" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="358" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="216" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04766" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04766">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 18, 1801.</reference>
+</election_record>

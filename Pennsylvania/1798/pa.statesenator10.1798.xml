@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 State Senate, District 10" type="General" iteration="First Ballot" date="1798-10" election_id="pa.statesenator10.1798" handle="10427/60939" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Samuel Maclay" name_id="MS0148" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Walker" name_id="WJ0638" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05563" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05566" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Samuel Maclay is elected for the district composed of the counties of Mifflin, Northumberland, Luzerne, and Lycoming by a majority of upwards of 900 votes." Wilkesbarre Gazette and Luzerne Advertiser (Wilkes-Barre, PA).  October 23, 1798.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Luzerne" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="777" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Lycoming" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Northumberland" geog_id="null">
+						<result candidate_ref="1" vote="1981" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="848" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05563">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05563">Wilkesbarre Gazette and Luzerne Advertiser (Wilkes-Barre, PA).  October 16, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05566">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Wilkesbarre Gazette and Luzerne Advertiser (Wilkes-Barre, PA).  October 23, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 27, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Unpartheyische Readinger Adler (Reading, PA).  October 30, 1798.</reference>
+</election_record>

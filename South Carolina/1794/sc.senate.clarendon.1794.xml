@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1794 State Senate, Clarendon County" type="General" iteration="First Ballot" date="1794" election_id="sc.senate.clarendon.1794" handle="10427/32143" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Isham Moore" name_id="MI0060" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Laurence Manning" name_id="ML0039" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William MacConnier" name_id="MW0373" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas MacFadden" name_id="MT0217" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Hubert Rees" name_id="RH0060" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Roger Wilson" name_id="WR0156" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Reuben Long" name_id="LR0082" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-14">
+				<candidate_summary candidate_ref="1" vote_total="162" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="44" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="40" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="39" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="12" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07441" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Clarendon" geog_id="null">
+					<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="39" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07441" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07441">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

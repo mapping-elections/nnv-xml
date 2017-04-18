@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1822 Alderman, New Orleans, District 7" type="General" iteration="First Ballot" date="1822" election_id="la.alderman7th.neworleans.1822" handle="10427/57921" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Alderman" office_id="ON001" scope="City">
+		<role title="Alderman" scope="District">
+			<ballot>
+				<candidate name="P. A. Rousseau" name_id="RP0006" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="J. A. Fort" name_id="FJ0060" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="P. E. Foucher" name_id="FP0003" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-02">
+				<candidate_summary candidate_ref="1" vote_total="39" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="22" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12604" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Orleans" geog_id="null">
+					<sub_unit type="City" name="New Orleans" geog_id="null">
+						<sub_unit type="District" name="Seven" geog_id="null">
+							<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Courrier de la Louisiane (New Orleans, LA).  May 8, 1822.</reference>
+</election_record>

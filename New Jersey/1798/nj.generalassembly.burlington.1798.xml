@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1798 Assembly, Burlington County" type="General" iteration="First Ballot" date="1798" election_id="nj.generalassembly.burlington.1798" handle="10427/20271" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="William Stockton" name_id="SW0121" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Job Lippincott" name_id="LJ0149" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Coxe, Jr." name_id="CW0104" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Budd" name_id="BJ0601" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Pearson" name_id="PW0138" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-03">
+				<candidate_summary candidate_ref="1" vote_total="1522" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1433" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1317" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1106" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="691" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03859" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Burlington" geog_id="null">
+					<result candidate_ref="1" vote="1522" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1433" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1317" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1106" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="691" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03859" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03859">The State Gazette, and New-Jersey Advertiser (Trenton, NJ).  October 16, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  October 30, 1798.</reference>
+</election_record>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 U.S. House of Representatives, District 15" type="General" iteration="First Ballot" date="1816-10" election_id="pa.uscongress15.1816" handle="10427/62916" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Robert Moore" name_id="MR0144" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Clark" name_id="CW0272" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Wilson" name_id="WT0157" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-10">
+				<candidate_summary candidate_ref="1" vote_total="1723" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1641" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="31" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00845" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Fifteen" geog_id="null">
+					<result candidate_ref="1" vote="1723" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1641" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Several sources lists Robert Moore with 1717 total votes. This is due to a problem with six of the votes cast in Erie County, which have been included here. Because of the discrepancy in the vote total at the time of the vote, the returns from Erie County were not returned to the election judges by the previously determined deadline. Therefore, for this district the judges signed a return without any votes recorded for Erie County.</note>
+					<sub_unit type="County" name="Beaver" geog_id="null">
+						<result candidate_ref="1" vote="781" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00845" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06804" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Crawford" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="545" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00845" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Erie" geog_id="null">
+						<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="274" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00845" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06819" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">In Erie County, 181 votes were cast for "Robert Moore of Beaver" while an additional 6 votes were cast for "Robert Moore." All 187 of these votes were intended for the same candidate.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Mercer" geog_id="null">
+						<result candidate_ref="1" vote="622" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="276" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00845" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06829" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Venango" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="441" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00845" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06845" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The votes cast in Warren County are included in the Venango County election returns.</note>
+						<sub_unit type="County" name="Warren" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  October 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06804">The Crawford Weekly Messenger (Meadville, PA).  October 19, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  October 21, 1816.</reference>
+</election_record>

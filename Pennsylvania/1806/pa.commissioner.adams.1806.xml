@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Commissioner, Adams County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.commissioner.adams.1806" handle="10427/61607" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Boner" name_id="BJ1050" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Miley" name_id="MJ0840" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-19">
+				<candidate_summary candidate_ref="1" vote_total="1368" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="330" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06038" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The following is the correct return of the election of this county-- Districts. 1st. 2d. 3d. 4th. 5th. Tot: Congress... Assembly... Coroner... Sheriff... Commissioner.... And it will also be seen, by the above statement, that Adams county still perseveres in her 'steady habits,'  and that democracy gradually advances backwards. -- In fact, we cannot perceive how the democrats (republicans they call themselves) can hope to gain the ascendency when they nominate such men as William Cooper, for the Assembly, and John Miley, ESQUIRE, for Commissioner -- What little talents belong to the party have uniformly been kept in the back ground.  And for this there is a very obvious reason--perhaps there is not a county in the state, where the leaders of the democratic party so justly and cordially despise each other, and hate and are hated by their followers, as they are in this county.  From hence arises the necessity of their supporting ignoramuses for office, or suffering a total dissolution of the faction."  The Centinel (Gettysburg, PA).  October 22, 1806.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1368" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="330" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06038" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="560" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06038" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="288" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06038" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06038" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="180" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06038" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06038" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Centinel (Gettysburg, PA).  October 18, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06038">The Centinel (Gettysburg, PA).  October 22, 1806.</reference>
+</election_record>

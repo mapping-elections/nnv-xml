@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1804 Judge, Middle District" type="Legislative" iteration="First Ballot" date="1804" election_id="ga.judge.middledistrict.1804" handle="10427/55951" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Judge" office_id="ON067" scope="State">
+		<role title="Judge" scope="District">
+			<ballot>
+				<candidate name="Skrine" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stith" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-31">
+				<candidate_summary candidate_ref="1" vote_total="48" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Augusta Chronicle (Augusta, GA).  November 24, 1804.</reference>
+</election_record>

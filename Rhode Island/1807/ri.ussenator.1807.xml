@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1807 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1807" election_id="ri.ussenator.1807" handle="10427/31289" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Elisha Matthewson" name_id="ME0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Russell" name_id="RJ0591" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Burrill, Jr." name_id="BJ1312" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-08-20">
+				<candidate_summary candidate_ref="1" vote_total="57" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="18" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10057" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Elisha Matthewson, Esq. of Scituate was chosen a Senator from this state to the Congress of the United States, in the room of the Hon. James Fenner, elected Governor."  Newport Mercury (Newport, RI).  November 7, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10057">Newport Mercury (Newport, RI).  November 7, 1807.</reference>
+</election_record>

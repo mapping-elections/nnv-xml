@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 House of Representatives, Fulton and Pike Counties" type="General" iteration="First Ballot" date="1824-08" election_id="il.assembly.fultonandpike.1824" handle="10427/56250" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Nicholas Hansen" name_id="HN0005" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Shaw" name_id="SJ0123" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="177" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="168" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Nicholas Hansen's election was contested by John Shaw.  The committee reported in Hansen's favor and the house concurred unanimously.</note>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Fulton and Pike" geog_id="null">
+					<result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="168" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Fulton" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11317"/>
+					</sub_unit>
+					<sub_unit type="County" name="Pike" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11318"/>
+						<sub_unit type="Town" name="Cape au Gris" geog_id="null">
+							<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Colesgrove" geog_id="null">
+							<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Franklin" geog_id="null">
+							<result candidate_ref="1" vote="32" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Illinois House of Representatives, 1824.  4, 40-42.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11317">Edwardsville Spectator (Edwardsville, IL).  August 10, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  210.</reference>
+</election_record>

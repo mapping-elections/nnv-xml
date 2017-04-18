@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1795 Constitutional Convention, Sevier County" type="General" iteration="First Ballot" date="1795" election_id="tn.constitutionalconvention.sevier.1795" handle="10427/64842" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Constitutional Convention" office_id="ON039" scope="State">
+        <role title="Convention Delegate" scope="County">
+            <ballot>
+                <candidate name="Peter Bryan" name_id="BP0043" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Samuel Wear" name_id="WS0034" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Spencer Clack" name_id="CS0215" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="John Clack" name_id="CJ0031" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Thomas Buckenham" name_id="BT0217" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Governor Blount recommended that an election be held on the 18th and 19th days of December 1795 to select five persons from each county to meet in covention in Knoxville, January 11, 1796 for the purpose of forming a constitution and organizing a permanent form of government." Andrew Jackson and Early Tennessee History, S.G. Heiskell.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="County" name="Sevier" geog_id="tns_sevier">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                    <result candidate_ref="5" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Heiskell, S. G.  Andrew Jackson and Early Tennessee History.  Nashville: Ambrose Printing, 1918.</reference>
+</election_record>

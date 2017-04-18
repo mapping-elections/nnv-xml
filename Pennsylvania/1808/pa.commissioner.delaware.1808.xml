@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Commissioner, Delaware County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.commissioner.delaware.1808" handle="10427/61886" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="George B. Lowens" name_id="LG0069" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jesse Lobb" name_id="LJ0372" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-12">
+				<candidate_summary candidate_ref="1" vote_total="1335" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="741" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="1335" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="741" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="295" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="249" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="364" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="269" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="202" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="407" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06245" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06245">Aurora. General Advertiser (Philadelphia, PA).  October 20, 1808.</reference>
+</election_record>

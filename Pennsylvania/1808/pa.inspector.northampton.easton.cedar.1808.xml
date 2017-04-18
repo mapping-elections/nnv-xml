@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Inspector of the General Election, Northampton County, Easton Borough" type="General" iteration="First Ballot" date="1808" election_id="pa.inspector.northampton.easton.cedar.1808" handle="10427/61911" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Borough">
+		<role title="Inspector" scope="Borough">
+			<ballot>
+				<candidate name="Abraham Horne, Jr." name_id="HA0153" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"/>
+				<candidate name="S. Findlay" name_id="FS0108" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-18">
+				<candidate_summary candidate_ref="1" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="56" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06262" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<sub_unit type="Borough" name="Easton" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lpi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06262" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06262">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 5, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06262">The True American and Commercial Advertiser (Philadelphia, PA).  October 5, 1808.</reference>
+</election_record>

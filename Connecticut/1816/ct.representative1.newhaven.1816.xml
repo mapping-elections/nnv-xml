@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1816 House of Representatives, New Haven, First Representative" type="General" iteration="First Ballot" date="1816" election_id="ct.representative1.newhaven.1816" handle="10427/18060" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="Charles Denison" name_id="DC0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-22">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01566" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Charles Denison is elected without opposition.</note>
+				<note resp="Philip Lampi">"O, SHAME!  Triumph of Apostacy and Delusion!!!  In this federal town of New-Haven, where four fifths of the FREE-men are the friends of order and 'steady habits,' prejudice, apostacy and fanatacism are triumphant!  THe result of the Election this day furnishes the fullest evidence that moral depravity and personal debasement form no barrier to political delusion and sectarian prejudice. - O, SHAME!"  Connecticut Journal (New Haven, CT).  April 9, 1816.</note>
+				<note resp="Philip Lampi">"Mr. DENISON received the votes of all or nearly all the Federalists; and of all the Democrats.  In voting for Mr. Denison, the Federalists acted consistently.  They would not desert their principles."  Connecticut Journal (New Haven, CT).  April 16, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="New Haven" geog_id="cts_newhaven">
+					<sub_unit type="City" name="New Haven" geog_id="cts_newhaven_newhaven">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01566" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01566">Connecticut Journal (New Haven, CT).  April 9, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Journal (New Haven, CT).  April 16, 1816.</reference>
+</election_record>

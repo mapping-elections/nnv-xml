@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 State Senate, District 13" type="General" iteration="First Ballot" date="1823" election_id="pa.statesenator13.1823" handle="10427/63835" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Thomas Burnside" name_id="BT0273" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-05">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01111" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Thirteen" geog_id="null">
+					<sub_unit type="County" name="Centre" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07309" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Lycoming" geog_id="null">
+						<result candidate_ref="1" vote="1373" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07319" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The votes from Lycoming, McKean and Potter were reported together, as McKean and Potter Counties were not yet independent counties.</note>
+					</sub_unit>
+					<sub_unit type="County" name="McKean" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Potter" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01111" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 23, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07319">The Franklin Gazette (Philadelphia, PA).  October 23, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Cumberland Metropolitan (Carlisle, PA).  November 4, 1823.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1788 Constitutional Convention, Shenandoah County" type="General" iteration="First Ballot" date="1788-03" election_id="va.constitutionalconvention.shenandoah.1788" handle="10427/32346" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="Jacob Rinker" name_id="RJ0604" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Williams" name_id="WJ0971" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Isaac Zane" name_id="ZI0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-18">
+				<candidate_summary candidate_ref="1" vote_total="270" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="223" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="193" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08230" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Isaac Zane was elected from Shenandoah County to the House of Delegates for the years 1788 - 1795 (he died in 1795). Shenandoah County would become one of the most Republican (Jeffersonian) counties in Virginia. He was most likely an Anti-federalist in 1788, but the newspapers did not apply that distinction to him when reporting the returns.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Shenandoah" geog_id="null">
+					<result candidate_ref="1" vote="270" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="223" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="193" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08230" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08230">The Virginia Gazette, and Winchester Advertiser (Winchester, VA).  April 2, 1788.</reference>
+</election_record>

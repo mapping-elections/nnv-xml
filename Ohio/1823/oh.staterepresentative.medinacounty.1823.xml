@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 House of Representatives, Medina and Portage Counties" type="General" iteration="First Ballot" date="1823-10" election_id="oh.staterepresentative.medinacounty.1823" handle="10427/60176" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James Moore" name_id="MJ0699" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George B. Depeyster" name_id="DG0041" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Rial MacArthur" name_id="MR0116" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Phils Welton" name_id="WP0084" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="210" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="168" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="144" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05335" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Medina and Portage" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Medina" geog_id="ohs_medina">
+						<result candidate_ref="1" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="168" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="144" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05335" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Portage" geog_id="ohs_portage">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05335">The Ohio Repository (Canton, OH).  October 30, 1823.</reference>
+</election_record>

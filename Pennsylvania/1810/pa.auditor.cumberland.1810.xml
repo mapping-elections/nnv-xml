@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Auditor, Cumberland County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.auditor.cumberland.1810" handle="10427/62163" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="John Scott" name_id="SJ1166" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Cochran" name_id="CT0201" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Henry Adams" name_id="AH0020" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-13">
+				<candidate_summary candidate_ref="1" vote_total="2208" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2204" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1731" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="2208" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2204" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1731" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Buffalo" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="684" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="685" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="595" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Kritzer" geog_id="null">
+						<result candidate_ref="1" vote="195" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="194" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="164" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Landisburgh" geog_id="null">
+						<result candidate_ref="1" vote="207" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="207" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Newville" geog_id="null">
+						<result candidate_ref="1" vote="402" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="402" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="381" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Petersburgh" geog_id="null">
+						<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="92" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Shippensburgh" geog_id="null">
+						<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="264" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="243" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Toboine" geog_id="null">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="162" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06389">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Carlisle Herald (Carlisle, PA).  October 19, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Weekly Carlisle Gazette (Carlisle, PA).  October 19, 1810.</reference>
+</election_record>

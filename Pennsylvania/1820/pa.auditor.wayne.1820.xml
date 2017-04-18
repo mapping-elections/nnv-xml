@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Auditor, Wayne County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.auditor.wayne.1820" handle="10427/67908" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="J. Mainford, Jr." name_id="MJ0708" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-05">
+				<candidate_summary candidate_ref="1" vote_total="369" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Wayne" geog_id="null">
+					<result candidate_ref="1" vote="369" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Buckingham" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Canaan" geog_id="null">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Damascus" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Dyberry" geog_id="null">
+						<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mount Pleasant" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Palmyra" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Salem" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Sterling" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

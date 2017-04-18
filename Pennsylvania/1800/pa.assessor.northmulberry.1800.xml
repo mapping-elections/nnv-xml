@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Assessor, Philadelphia City, North Mulberry Ward" type="General" iteration="First Ballot" date="1800-10" election_id="pa.assessor.northmulberry.1800" handle="10427/66094" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="City">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="John Etris" name_id="EJ0223" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-27">
+				<candidate_summary candidate_ref="1" vote_total="43" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Etris is elected without opposition.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="North Mulberry" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 6, 1800.</reference>
+</election_record>

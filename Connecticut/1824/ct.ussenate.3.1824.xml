@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1824 U.S. Senate, Ballot 3" type="Legislative" iteration="Third Ballot" date="1824" election_id="ct.ussenate.3.1824" handle="10427/79854" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Calvin Willey" name_id="WC0000" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John S. Peters" name_id="PJ0016" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="against" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-29">
+				<candidate_summary candidate_ref="1" vote_total="123" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="65" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="6" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The bill for a Senator to serve in the Congress of the U. States, six years, from the 4th of March next, came from the Senate indefinitely postponed.  The house concurred in the vote of the Senate."  Connecticut Mirror (Hartford, CT).  June 14, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">With six votes against Calvin Willey, the State Senate refused to concur on the election and the vote was forced back to the House of Representatives for another ballot.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  June 1, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times and Hartford Advertiser (Hartford, CT).  June 1, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">American Sentinel (Middletown, CT).  June 2, 1824.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Commissioner, Allegheny County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.commissioner.allegheny.1821" handle="10427/63452" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Benjamin Miller" name_id="MB0092" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Lea" name_id="LW0200" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Robert Magee" name_id="MR0169" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Charles M. Doughty" name_id="DC0054" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-03">
+				<candidate_summary candidate_ref="1" vote_total="1421" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="542" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="445" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="215" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07106" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" vote="1421" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="542" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="445" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="215" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07106" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07106">The Mercury (Pittsburgh, PA).  October 17, 1821.</reference>
+</election_record>

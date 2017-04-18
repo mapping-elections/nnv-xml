@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 State Senate, Cocke and Jefferson Counties" type="General" iteration="First Ballot" date="1817" election_id="tn.statesenate.6.1817" handle="10427/20614" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Charles F. Keith" name_id="KC0030" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Robert MacFarland" name_id="MR0200" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-09">
+				<candidate_summary candidate_ref="1" vote_total="1042" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="747" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08092" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="District" name="Cocke and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="1042" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="747" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08092" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cocke" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08092" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="616" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="475" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08088" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Dendridge" geog_id="null">
+							<sub_unit type="District" name="Court House" geog_id="null">
+								<result candidate_ref="1" vote="578" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="231" resp="Philip Lampi"/>
+								<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08088" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="House of Robert McFarland" geog_id="null">
+							<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="244" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08088" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08088">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1809 U.S. House of Representatives, District 21, Special" type="Special" iteration="First Ballot" date="1809" election_id="va.uscongress.21.special.1809" handle="10427/65105" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="David S. Garland" name_id="GD0070" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas M. Randolph" name_id="RT0122" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.24222" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"David S. Garland, Esq. is elected a member of the House of Representatives of the United States, to supply the vacancy occasioned by the resignation of Wilson C. Nicholas, esq."  Norfolk Gazette and Publick Ledger (Norfolk, VA), January 10, 1810 and Republican Star or Eastern Shore General Advertiser (Easton, MD), January 23, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Twenty One" geog_id="null">
+					<sub_unit type="County" name="Albermarle" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Amherst" geog_id="vas_amherst">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Fluvanna" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24222">Norfolk Gazette and Publick Ledger (Norfolk, VA).  January 10, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24222">Republican Star or Eastern Shore General Advertiser (Easton, MD).  January 23, 1810.</reference>
+</election_record>

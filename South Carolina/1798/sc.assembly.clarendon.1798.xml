@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1798 House of Representatives, Clarendon County" type="General" iteration="First Ballot" date="1798" election_id="sc.assembly.clarendon.1798" handle="10427/31799" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Frierson" name_id="FJ0419" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James B. Richardson" name_id="RJ0578" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-18">
+				<candidate_summary candidate_ref="1" vote_total="149" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="148" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07507" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Clarendon" geog_id="null">
+					<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">There were 64 voters at Captain Weatherspoon's and 87 voters at the Court House.</note>
+					<sub_unit type="Populated Place" name="Captain Weatherspoon's" geog_id="null">
+						<result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07507" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07507" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07507">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 House of Representatives, Huntingdon County" type="General" iteration="First Ballot" date="1800-10" election_id="pa.assembly.huntingdon.1800" handle="10427/61076" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Kerr" name_id="KJ0187" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Steel" name_id="SW0206" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Cadwallader" name_id="CJ0709" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-19">
+				<candidate_summary candidate_ref="1" vote_total="607" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="469" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="39" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00223" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05665" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="607" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="469" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05666" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05665">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 15, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">Gazette of the United States and Daily Evening Advertiser (Philadelphia, PA).  October 20, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05666">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 20, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">Wilkesbarre Gazette and Luzerne Advertiser (Wilkes-Barre, PA).  October 21, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 22, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05666">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 22, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">Aurora. General Advertiser (Philadelphia, PA).  October 23, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">Gazette of the United States and Daily Evening Advertiser (Philadelphia, PA).  October 23, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">The Herald of Liberty (Washington, PA).  October 27, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00223">Aurora. General Advertiser (Philadelphia, PA).  November 3, 1800.</reference>
+</election_record>

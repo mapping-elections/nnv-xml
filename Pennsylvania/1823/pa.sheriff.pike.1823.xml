@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Sheriff, Pike County" type="General" iteration="First Ballot" date="1823" election_id="pa.sheriff.pike.1823" handle="10427/63832" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Solomon Westbrook, Jr." name_id="WS0193" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas P. Guston" name_id="GT0082" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="C. B. Seaman" name_id="SC0131" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-05">
+				<candidate_summary candidate_ref="1" vote_total="264" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="219" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="197" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07342" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Pike" geog_id="null">
+					<result candidate_ref="1" vote="264" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="219" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="197" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Coolbaugh's" geog_id="null">
+						<result candidate_ref="1" vote="142" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07342" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Delaware" geog_id="null">
+						<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07342" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lackawaxen" geog_id="null">
+						<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07342" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Milford" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="90" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07342" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Palmyra" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07342" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Price's" geog_id="null">
+						<result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07342" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07342">The Easton Centinel (Easton, PA).  October 24, 1823.</reference>
+</election_record>

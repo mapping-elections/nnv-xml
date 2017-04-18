@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1804 Commissioner, Hamilton County" type="General" iteration="First Ballot" date="1804-10" election_id="oh.countycommissioner.hamilton.1804" handle="10427/58925" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Zebulon Foster" name_id="FZ0002" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David E. Wade" name_id="WD0026" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="512" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="203" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05095" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+					<result candidate_ref="1" vote="512" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="203" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05095" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05094">The Western Spy, and Hamilton Gazette (Cincinnati, OH).  October 17, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Scioto Gazette (Chillicothe, OH).  October 29, 1804.</reference>
+</election_record>

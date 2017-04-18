@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.assembly.franklin.1802" handle="10427/61295" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Poe" name_id="PJ0412" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Statler" name_id="SJ0990" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Peoples" name_id="PR0056" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacLenahan" name_id="MJ0821" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Andrew Shiveley" name_id="SA0193" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John MacClay" name_id="MJ0802" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-17">
+				<candidate_summary candidate_ref="1" vote_total="1379" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1373" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1240" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="728" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="704" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="682" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05808" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA), October 20, uses the name People for Robert Peoples, Lenahan for James McLenahan, and Shively for Andrew Shiveley.</note>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA), October 27, uses the name Snively for Andrew Shiveley.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1379" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1373" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1240" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="728" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="704" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="682" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="418" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="427" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="401" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="185" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="197" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05805" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05806" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05807" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA) reports 167 votes for John MacClay.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05805">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 19, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05807">Aurora. General Advertiser (Philadelphia, PA).  October 20, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05806">Gazette of the United States (Philadelphia, PA).  October 20, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05805">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 26, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05808">Aurora. General Advertiser (Philadelphia, PA).  October 27, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Carlisle Herald (Carlisle, PA).  October 27, 1802.</reference>
+</election_record>

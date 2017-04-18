@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1788 U.S. Senate" type="Legislative" iteration="First Ballot" date="1788-11" election_id="ma.ussenate.1788" handle="10427/68731" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Caleb Strong" name_id="SC0023" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Jarvis" name_id="JC0015" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Theodore Sedgwick" name_id="ST0102" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Lowell" name_id="LJ0103" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Holten" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Gorham" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-02-21">
+				<candidate_summary candidate_ref="1" vote_total="152" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="79" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="67" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="39" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="23" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="67" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="59" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="39" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="23" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The whole number of votes cast in the House was 201, with 101 votes needed to have the required majority vote.  For the first Senate seat, Caleb Strong received the majority necessary to be sent to the Senate.  No candidate received a majority for the second seat.</note>
+				</sub_unit>
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Massachusetts Centinel (Boston, MA).  November 22, 1788.</reference>
+	<reference type="citation" resp="Philip Lampi">The Hampshire Chronicle (Springfield, MA).  December 3, 1788.</reference>
+</election_record>

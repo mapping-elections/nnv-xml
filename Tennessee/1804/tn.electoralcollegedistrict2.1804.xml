@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1804 Electoral College, District 2" type="General" iteration="First Ballot" date="1804" election_id="tn.electoralcollegedistrict2.1804" handle="10427/64903" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="District">
+            <ballot>
+                <elector name="Richard Mitchell" name_id="MR0004" affiliation="Republican" affiliation_id="A03" declared_for="Thomas Jefferson" elector_num="1"><note resp="Philip Lampi">Elected with a "majority of 48 votes."</note></elector>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-23">
+                <elector_summary elector_ref="1"  resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16671" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"In concurrence with the executive recommendation, a law was enacted on November 3, 1803, dividing the state into five sections and providing that each section was entitled to elect one elector who was empowered to cast his vote for President and Vice-President of the Unites States. The 'sections' as they were specified in the law were as follows: Second; Hawkins, Claiborne, Grainger, Jefferson, and Cocke counties." White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="Two" geog_id="tns_hawkins">
+                    <sub_unit type="County" name="Claiborne" geog_id="tns_claiborne">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Cocke" geog_id="tns_cocke">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Grainger" geog_id="tns_grainger">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Hawkins" geog_id="tns_hawkins">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Jefferson" geog_id="tns_jefferson">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16671">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

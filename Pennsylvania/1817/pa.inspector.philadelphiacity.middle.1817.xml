@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Inspector of the General Election, Philadelphia City, Middle Ward" type="General" iteration="First Ballot" date="1817-10" election_id="pa.inspector.philadelphiacity.middle.1817" handle="10427/67683" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="S. J. Robbins" name_id="RS0111" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward Parker" name_id="PE0091" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Barnes" name_id="BJ1201" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Thomas Harper" name_id="HT0185" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-21">
+				<candidate_summary candidate_ref="1" vote_total="157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="156" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="54" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">S. J. Robbins and Edward Parker are listed as "Friends of Heister." Joseph Barnes and Thomas Harper are listed as "Friends of Findlay."</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  October 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 8, 1817.</reference>
+</election_record>

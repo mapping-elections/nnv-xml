@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Commissioner, Union County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.commissioner.union.1820" handle="10427/67894" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Whitmer" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Kimble" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-05">
+				<candidate_summary candidate_ref="1" vote_total="1488" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1088" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Union" geog_id="null">
+					<result candidate_ref="1" vote="1488" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1088" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The American Sentinel reports 1083 votes for Kimble.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Sentinel (Philadelphia, PA).  October 20, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 20, 1820.</reference>
+</election_record>

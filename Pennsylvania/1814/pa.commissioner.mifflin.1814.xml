@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Commissioner, Mifflin County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.commissioner.mifflin.1814" handle="10427/62740" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Kinzer" name_id="KJ0306" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Hart" name_id="HH0088" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-04">
+				<candidate_summary candidate_ref="1" vote_total="676" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="664" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06699" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Mr. Hart had 34 more votes, but owing to a typographical error, (overlooked in the hurry of printing the tickets) they were refused by the judges of the election." Juniata Gazette (Lewistown, PA).  October 21, 1814.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="676" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="664" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06699" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06699">Juniata Gazette (Lewistown, PA).  October 21, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 28, 1814.</reference>
+</election_record>

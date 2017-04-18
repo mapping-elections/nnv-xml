@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Select Council, Philadelphia City, Special" type="Special" iteration="First Ballot" date="1822-10" election_id="pa.selectcouncil.philadelphiacity.special.1822" handle="10427/68247" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Select Council" office_id="ON096" scope="City">
+		<role title="Select Councillor" scope="City">
+			<ballot>
+				<candidate name="John Miller, Jr." name_id="MJ1240" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elijah Griffith" name_id="GE0074" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-08">
+				<candidate_summary candidate_ref="1" vote_total="2666" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1890" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John Miller, Jr. is elected to fill the seat of J. Watson, resigned.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="2666" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1890" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Democratic Press of October 9 lists Elijah Griffith with 1896 votes.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA).  October 15, 1822.</reference>
+</election_record>

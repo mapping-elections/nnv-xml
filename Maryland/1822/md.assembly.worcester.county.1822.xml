@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1822 House of Delegates, Worcester County" type="General" iteration="First Ballot" date="1822" election_id="md.assembly.worcester.county.1822" handle="10427/27246" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="John P. Slemaker" name_id="SJ0338" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William Spence" name_id="SW0088" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Irving Spence" name_id="SI0032" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Henry Franklin, Jr." name_id="FH0001" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Henry Dickenson" name_id="DH0022" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-05">
+				<candidate_summary candidate_ref="1" vote_total="1000" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="948" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="941" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="931" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="401" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03315" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Worcester" geog_id="mds_worcester">
+					<result candidate_ref="1" vote="1000" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="948" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="941" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="931" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="401" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03315" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03315">The Maryland Republican and Political and Agricultural Museum (Annapolis, MD).  October 26, 1822.</reference>
+</election_record>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1808 Speaker of the House" type="Legislative" iteration="First Ballot" date="1808" election_id="nh.speakerofthehouse.1808" handle="10427/79863" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="Charles Cutts" name_id="CC0034" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-10-23">
+                <candidate_summary candidate_ref="1" vote_total="156" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"In a late Boston Centinel we find it stated that the votes for Speaker in the New-Hampshire Legislature, at their late session, were 89 republican, and 72 federal - by which it would be understood that a Federalist had 72 votes.  From what data the editor of that paper made his calculations, we are not informed; but it is a fact, taht (sic) of 157 votes given for Speaker, CHARLES CUTTS, Esq. a republican, had 156!  If the strength of Federalism is to rest upon this vote, it will be found to be in the 'back ground.'"  Political Observatory (Walpole, NH).  June 27, 1808.</note>
+            </overview>
+            <admin_unit type="State" name="New Hampshire" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Political Observatory (Walpole, NH).  June 27, 1808.</reference>
+</election_record>
+

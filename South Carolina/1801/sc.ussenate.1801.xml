@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1801 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1801" election_id="sc.ussenate.1801" handle="10427/31917" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Thomas Sumter" name_id="ST0266" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Rutledge" name_id="RJ0621" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas Evans" name_id="ET0042" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-20">
+				<candidate_summary candidate_ref="1" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="47" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10085" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10086" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10087" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"One vote cast for Thomas Evans, making one vote in excess."  Report of the Committee on the Election of a Senator to Congress.</note>
+				<note resp="Philip Lampi">"In the place of Charles Pinckney, Resigned. [sic] Appointed minister to the Court of Madrid."  The City Gazette and Daily Advertiser (Charleston, SC).  December 7, 1801.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">107 representatives voted.</note>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">30 senators voted.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10085">Report of the Committee on the Election of a Senator to Congress.  December 3, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10087">City Gazette and Daily Advertiser (Charleston, SC).  December 7, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10086">Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA).  December 12, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10087">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  December 15, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10087">Kline's Carlisle Weekly Gazette (Carlisle, PA).  December 30, 1801.</reference>
+</election_record>

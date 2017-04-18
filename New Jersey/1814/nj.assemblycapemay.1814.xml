@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1814 Assembly, Cape May County" type="General" iteration="First Ballot" date="1814" election_id="nj.assemblycapemay.1814" handle="10427/20383" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Robert M. Holmes" name_id="HR0108" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Cresse Townsend" name_id="TC0034" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Furman Leaming" name_id="LF0003" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-08-20">
+				<candidate_summary candidate_ref="1" vote_total="368" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="36" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cape May" geog_id="null">
+					<result candidate_ref="1" vote="368" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

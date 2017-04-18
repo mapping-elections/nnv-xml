@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1813 Alderman, New York, Ward 8" type="General" iteration="First Ballot" date="1813" election_id="ny.alderman.newyork.8.1813" handle="10427/65619" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Alderman" office_id="ON001" scope="City">
+      <role title="Alderman" scope="City">
+        <ballot>
+           <candidate name="Peter H. Wendover" name_id="WP0068" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="John Hopkins" name_id="HJ0538" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-28">
+           <candidate_summary candidate_ref="1" vote_total="598" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="348" resp="Philip Lampi"/>
+           <note resp="Philip Lampi">"The return of the Eigth Ward had not been received at the Clerk's Office, but the Republican majority in this Ward is 252."  National Advocate (New York, NY).  November 20, 1813.</note>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="New York" geog_id="null">
+              <sub_unit type="Ward" name="Eight" geog_id="null">
+                <result candidate_ref="1" vote="598" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="348" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">National Advocate (New York, NY).  November 20, 1813.</reference>
+   <reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  November 20, 1813.</reference>
+</election_record>

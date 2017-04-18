@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1812 U.S. Senate, Ballot 7" type="Legislative" iteration="Seventh Ballot" date="1812-12" election_id="nh.ussenate.7.1812" handle="10427/26336" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John Goddard" name_id="GJ0185" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="J. K. Smith" name_id="SJ0517" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-07-10">
+				<candidate_summary candidate_ref="1" vote_total="84" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="79" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="13" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09833" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09840" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">On December 11, 1812 the House again began the election of a U.S. Senator and held six ballots, with no choice being made.</note>
+				<note resp="Philip Lampi">88 being necessary for a majority, no choice was made.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09833" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09833">Concord Gazette (Concord, NH).  December 29, 1812.</reference>
+</election_record>

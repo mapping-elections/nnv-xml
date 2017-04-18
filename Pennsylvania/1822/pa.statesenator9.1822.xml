@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 State Senate, District 9" type="General" iteration="First Ballot" date="1822-10" election_id="pa.statesenator9.1822" handle="10427/63597" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Andrew Albright" name_id="AA0077" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lewis Dewart" name_id="DL0043" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-15">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01090" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07258" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07259" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10861" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Andrew Albright died early in the session and was replaced by Lewis Dewart, who was elected in December 1822 and seated in January 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Nine" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Andrew Albright was elected with a majority of 350 votes in the district.</note>
+					<sub_unit type="County" name="Northumberland" geog_id="null">
+						<result candidate_ref="1" vote="812" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="727" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Union" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 17, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07258">The Union. United States Gazette and True American (Philadelphia, PA).  October 18, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">American Sentinel and Mercantile Advertiser (Philadelphia, PA).  October 19, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07258">Franklin Gazette (Philadelphia, PA).  October 19, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07259">Spirit of Pennsylvania (Easton, PA).  October 25, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Westmoreland Republican (Greensburgh, PA).  November 1, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Butler Sentinel (Butler, PA).  November 2, 1822.</reference>
+</election_record>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Auditor, Huntingdon County" type="General" iteration="First Ballot" date="1819-10" election_id="pa.auditor.huntingdon.1819" handle="10427/X" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="James Steel" name_id="SJ0979" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Conrod Bucher" name_id="BC0109" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-20">
+				<candidate_summary candidate_ref="1" vote_total="1086" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="684" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="1086" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="684" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Alexandria" geog_id="null">
+						<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Coffee Run" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Dublin" geog_id="null">
+						<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Frankstown" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="259" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Shaver's Creek" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="182" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shirley" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Springfield" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tell" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Tuckahoe" geog_id="null">
+						<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warriors Mark" geog_id="null">
+						<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Williamsburg" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Huntingdon Gazette (Huntingdon, PA).  October 19, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Huntingdon Gazette (Huntingdon, PA).  October 21, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 30, 1819.</reference>
+</election_record>

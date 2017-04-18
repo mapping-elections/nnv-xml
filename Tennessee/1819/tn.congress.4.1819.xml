@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1819 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1819" election_id="tn.congress.4.1819" handle="10427/20216" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Robert Allen" name_id="AR0060" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hadley" name_id="HW0347" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-13">
+				<candidate_summary candidate_ref="1" vote_total="4312" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2722" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00954" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16918" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16922" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16923" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"[Robert] Allen's majority--1590."  The Knoxville Register (Knoxville, TN), August 24, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="4312" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2722" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Jackson" geog_id="null">
+						<result candidate_ref="1" vote="758" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00954" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Smith" geog_id="null">
+						<result candidate_ref="1" vote="1977" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="146" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00954" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Original Election Returns, State Archives, Nashville, report William Hadley with 140 votes in Smith County.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Sumner" geog_id="null">
+						<result candidate_ref="1" vote="406" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1517" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00954" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Wilson" geog_id="null">
+						<result candidate_ref="1" vote="1171" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="918" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00954" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00954">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16923">The Nashville Gazette (Nashville, TN).  August 14, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16922">The Knoxville Register (Knoxville, TN).  August 24, 1819.</reference>
+</election_record>

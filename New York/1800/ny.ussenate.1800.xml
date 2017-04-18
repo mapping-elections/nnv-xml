@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="New York 1800 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1800-04" election_id="ny.ussenate.1800" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/26037" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Gouverneur Morris" name_id="MG0047" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Gansevoort" name_id="GP0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Morris" name_id="MT0003" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-04-02">
+				<candidate_summary candidate_ref="1" vote_total="79" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09884" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09885" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09886" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to replace James Watson, resigned.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1800.  265.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09886">The Albany Centinel (Albany, NY).  April 4, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09885">Aurora. General Advertiser (Philadelphia, PA).  April 10, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09884">The Centinel of Liberty, or George-town and Washington Advertiser (Georgetown, DC).  April 15, 1800.</reference>
+</election_record>

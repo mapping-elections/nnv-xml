@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1803 Sheriff, Adams County" type="General" iteration="First Ballot" date="1803-01" election_id="oh.countysheriff.adams.1803" handle="10427/58863" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Lodwick" name_id="LJ0282" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Noble Grimes" name_id="GN0033" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Nathaniel Beasley" name_id="BN0076" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-06">
+				<candidate_summary candidate_ref="1" vote_total="244" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="210" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="157" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05072" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Adams" geog_id="ohs_adams">
+					<result candidate_ref="1" vote="244" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="210" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="157" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05072" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05072">The Scioto Gazette (Chillicothe, OH).  January 15, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Spy, and Hamilton Gazette (Cincinnati, OH).  January 26, 1803.</reference>
+</election_record>

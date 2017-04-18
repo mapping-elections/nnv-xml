@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record label="New York 1823 Assembly, Putnam County" type="General" iteration="First Ballot" date="1823" election_id="ny.assembly.putnam.1823" handle="10427/65698" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Stephen C. Barnum" name_id="BS0188" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Henry Garrison" name_id="GH0024" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-25">
+				<candidate_summary candidate_ref="1" vote_total="581" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="235" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Putnam" geog_id="null">
+					<result candidate_ref="1" vote="581" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="235" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Carmel" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Kent" geog_id="null">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Patterson" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Phillipstown" geog_id="null">
+						<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southeast" geog_id="null">
+						<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1800 House of Delegates, Saint Mary's County" type="General" iteration="First Ballot" date="1800" election_id="md.assembly.saint.marys.county.1800" handle="10427/26826" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="John Leigh" name_id="LJ0071" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Raphael Neale" name_id="NR0018" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hebb" name_id="HW0105" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Enoch Joseph Miller" name_id="ME0024" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-02-01">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02260" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"There was little or no opposition in this county."  The Centinel of Liberty, or George-town and Washington Advertiser (Georgetown, DC).  October 21, 1800.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Saint Mary's" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02260" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02260">Journal of the Maryland House of Delegates, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Liberty, or George-town and Washington Advertiser (Georgetown, DC).  October 21, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 28, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">American. And Daily Advertiser (Baltimore, MD).  November 28, 1800.</reference>
+</election_record>

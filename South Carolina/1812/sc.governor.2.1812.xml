@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1812 Governor, Ballot 2" type="Legislative" iteration="Second Ballot" date="1812" election_id="sc.governor.2.1812" handle="10427/64735" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="Joseph Alston" name_id="AJ0348" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Geddes" name_id="GJ0575" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Richardson" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="blank" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-14">
+				<candidate_summary candidate_ref="1" vote_total="63" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="63" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="37" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15707" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15710" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15713" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Charleston Courier lists 36 votes for Col. Richardson.</note>
+				<note resp="Philip Lampi">No choice affected; election proceeded to another ballot.</note>
+				<note resp="Philip Lampi">Col. Richardson withdrew his candidacy after the second ballot of this election.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="null" name="House of Representatives">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">121 Representatives voted.</note>
+				</sub_unit>
+				<sub_unit type="null" name="Senate">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">43 Senators voted.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15707">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15713">Charleston Courier (Charleston, SC).  December 12, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15710">City Gazette and Commercial Advertiser (Charleston, SC).  December 14, 1812.</reference>
+</election_record>

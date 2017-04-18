@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1813 State Senate, Class 2, District 5, Special" type="Special" iteration="First Ballot" date="1813-12" election_id="va.statesenate.2.5.special.1813" handle="10427/65116" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Burr Powell" name_id="PB0087" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Armistead T. Mason" name_id="MA0249" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-13">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.24595" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.24596" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"From the Leesburg Washingtonian "An election was held at the court house in this town on the 30th ult. to fill the vacancy occasioned in the state senate, by the resignation of Mr. John Scott; it resulted as follows .... We understand that Major B. Powell obtained in the county of Fauquier, a majority of 105 votes over his opponent, which places him 152 ahead in the District."  The Alexandria Herald (Alexandria, VA).  January 14, 1814.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<sub_unit type="County" name="Fauquier" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Loudoun" geog_id="null">
+						<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24595">Loudoun County Poll Book.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24596">The Alexandria Herald (Alexandria, VA).  January 14, 1814.</reference>
+</election_record>

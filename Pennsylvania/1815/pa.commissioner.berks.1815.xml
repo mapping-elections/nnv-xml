@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Commissioner, Berks County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.commissioner.berks.1815" handle="10427/66645" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Daniel Levan" name_id="LD0042" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hoch" name_id="HW0168" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-18">
+				<candidate_summary candidate_ref="1" vote_total="1525" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1163" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Berks" geog_id="null">
+					<result candidate_ref="1" vote="1525" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1163" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Standhafte Patriot und Berks Cauntier Averteiser in Reading (Reading, PA).  October 25, 1815.</reference>
+</election_record>

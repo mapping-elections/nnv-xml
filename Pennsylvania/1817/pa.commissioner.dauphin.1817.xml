@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1817 Commissioner, Dauphin County" type="General" iteration="First Ballot" date="1817-10" election_id="pa.commissioner.dauphin.1817" handle="10427/67612" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="David Doebler" name_id="DD0080" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Pool" name_id="PS0159" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-31">
+				<candidate_summary candidate_ref="1" vote_total="1699" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1150" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1699" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1150" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="422" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="326" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Paxton" geog_id="null">
+						<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lykens" geog_id="null">
+						<result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="253" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Paxton" geog_id="null">
+						<result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="West Hanover" geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Chronicle or Harrisburgh Visitor (Harrisburg, PA).  October 20, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Harrisburg Republican (Harrisburg, PA).  October 21, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 25, 1817.</reference>
+</election_record>

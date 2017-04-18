@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1805 House of Representatives, Cocke and Jefferson Counties" type="General" iteration="First Ballot" date="1805" election_id="tn.assembly.jeffersoncocke.1805" handle="10427/20245" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Schorn" name_id="SJ0016" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Christopher Hains" name_id="HC0135" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-03-23">
+				<candidate_summary candidate_ref="1" vote_total="408" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="212" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08058" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="tns">
+				<sub_unit type="District" name="Cocke and Jefferson" geog_id="tns_cocke">
+					<result candidate_ref="1" vote="408" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="212" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08058" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cocke" geog_id="tns_cocke">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08058" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="jefferson">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08058" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08058">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

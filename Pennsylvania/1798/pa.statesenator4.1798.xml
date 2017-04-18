@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 State Senate, District 4" type="General" iteration="First Ballot" date="1798-10" election_id="pa.statesenator4.1798" handle="10427/60942" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Abraham Carpenter" name_id="CA0141" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Boude" name_id="BT0242" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-11">
+				<candidate_summary candidate_ref="1" vote_total="952" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="877" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05561" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05562" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="952" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="877" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Lancaster" geog_id="null">
+						<result candidate_ref="1" vote="952" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="877" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Cocalico" geog_id="null">
+							<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Borough" name="Lancaster" geog_id="null">
+							<result candidate_ref="1" vote="297" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="439" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Lower Cross Roads" geog_id="null">
+							<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="New Holland" geog_id="null">
+							<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="168" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Strasberg" geog_id="null">
+							<result candidate_ref="1" vote="254" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Upper Cross Roads" geog_id="null">
+							<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05561">Lancaster Journal (Lancaster, PA).  October 13, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 16, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 17, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05562">The Daily Advertiser (New York, NY).  October 18, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  October 31, 1798.</reference>
+</election_record>

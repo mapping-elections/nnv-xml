@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1816 Constable, Albany, Ward 1" type="General" iteration="First Ballot" date="1816" election_id="ny.constable1.albany.1816" handle="10427/68219" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Constable" office_id="ON038" scope="City">
+      <role title="Constable" scope="Ward">
+        <ballot>
+           <candidate name="Newman Bliss" name_id="BN0050" affiliation="null" affiliation_id="null" candidate_num="1"/>
+           <candidate name="Daniel Butterfield" name_id="BD0101" affiliation="null" affiliation_id="null" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-10">
+           <candidate_summary candidate_ref="1" vote_total="207" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="201" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Albany" geog_id="null">
+              <sub_unit type="Ward" name="One" geog_id="null">
+                <result candidate_ref="1" vote="207" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="201" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  May 10, 1816.</reference>
+</election_record>

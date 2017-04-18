@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1823 U.S. Senate" type="Legislative" iteration="First Ballot" date="1823-01" election_id="ma.ussenate.1823" handle="10427/79465" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="James Lloyd" name_id="LJ0107" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel Silsbee" name_id="SN0057" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Gray" name_id="GW0148" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Leverett Saltonstall" name_id="SL0023" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-08">
+				<candidate_summary candidate_ref="1" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="32" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Thursday, January 9 - Agreeably to assignment ... proceeded to the choice of a Senator of the U. States for six years, commencing on the 4th March next .... As both the Senate and House concurred on their choice, James Lloyd was declared to be elected."  Columbian Centinel (Boston, MA).  January 11, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  January 11, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  January 11, 1823.</reference>
+</election_record>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1798 State Senate, District 10" type="General" iteration="First Ballot" date="1798" election_id="nh.statesenate.10.1798" handle="10427/78685" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Elisha Whitcomb" name_id="WE0192" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Daniel Newcomb" name_id="ND0018" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Calvin Frink" name_id="FC0041" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jeremiah Stiles" name_id="SJ0473" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-23">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The two branches being assembled in convention, to fill the vacancies in the Senate, made choice of the following gentlemen: District No. 10.  Elisha Whitcomb, Esq."  The Mirror (Concord, NH).  June 12, 1798.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cheshire" geog_id="null">
+						<sub_unit type="Town" name="Chesterfield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Fitzwilliam" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Gilsum" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hinsdale" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Keene" geog_id="null">
+							<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03819" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Marlborough" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Packersfield" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Richmond" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Sullivan" geog_id="null">
+							<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Surry" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Swanzey" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Westmoreland" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Winchester" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03819">The Rising Sun (Keene, NH).  March 10, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  May 22, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirror (Concord, NH).  May 22, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Oracle of the Day (Portsmouth, NH).  May 26, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirror (Concord, NH).  June 12, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Seward, Josiah Lafayette.  A History of the Town of Sullivan, New Hampshire: 1777-1917.  Keene, NH: J.L. Seward, 1921.  214.</reference>
+</election_record>

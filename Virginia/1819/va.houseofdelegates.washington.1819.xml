@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1819 House of Delegates, Washington County" type="General" iteration="First Ballot" date="1819" election_id="va.houseofdelegates.washington.1819" handle="10427/33520" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Nathaniel Dryden" name_id="DN0034" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Mayo" name_id="MP0095" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William P. Thompson" name_id="TW0157" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Poston" name_id="PW0186" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-05">
+				<candidate_summary candidate_ref="1" vote_total="347" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="335" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="320" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="319" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09222" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09223" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"State of the poll in Washington. . . . This election contested."  City of Washington Gazette (Washington, DC).  May 13, 1819.</note>
+				<note resp="Philip Lampi">The Richmond Enquirer (Richmond, VA) lists 330 votes for Peter Mayo.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="347" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="335" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="320" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="319" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09222" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09223" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09223">Richmond Enquirer (Richmond, VA).  May 7, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09222">City of Washington Gazette (Washington, DC).  May 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

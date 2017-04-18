@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 House of Representatives, Miami County" type="General" iteration="First Ballot" date="1821-10" election_id="oh.staterepresentative.miami.1821" handle="10427/59994" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Thomas W. Furnas" name_id="FT0051" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John P. Finley" name_id="FJ0104" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-18">
+                <candidate_summary candidate_ref="1" vote_total="515" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="384" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19528" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Miami" geog_id="ohs_miami">
+                    <result candidate_ref="1" vote="515" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="384" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19528" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19528">Piqua Gazette and Register of News, Agriculture, Arts and Manufactures (Piqua, OH).  October 18, 1821.</reference>
+</election_record>

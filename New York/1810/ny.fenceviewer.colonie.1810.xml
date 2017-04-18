@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1810 Fence Viewer, Colonie" type="General" iteration="First Ballot" date="1810" election_id="ny.fenceviewer.colonie.1810" handle="10427/66519" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Fence Viewer" office_id="ON058" scope="Town">
+      <role title="Fence Viewer" scope="Town">
+        <ballot>
+           <candidate name="John Davis" name_id="DJ0227" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+           <candidate name="Robert Dottridge" name_id="DR0071" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+           <candidate name="John Waltz" name_id="WJ0829" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+           <candidate name="Daniel Sickles" name_id="SD0138" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2012-09-06">
+           <candidate_summary candidate_ref="1" vote_total="120" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="120" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="39" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="38" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="Town" name="Colonie" geog_id="null">
+              <result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+              <result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+              <result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+              <result candidate_ref="4" vote="38" resp="Philip Lampi"/>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">The Balance, and New-York State Journal (Albany, NY).  April 6, 1810.</reference>
+</election_record>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Commissioner, Bucks County" type="General" iteration="First Ballot" date="1811-10" election_id="pa.commissioner.bucks.1811" handle="10427/62290" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Jonathan Smith" name_id="SJ1218" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Tomlinson" name_id="TH0046" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-25">
+				<candidate_summary candidate_ref="1" vote_total="1900" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1667" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06446" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA) from October 21 explains that "In the 13th district (Haycock) 53 votes were given for Commissioner with the name of Thomas Tomlinson." It is not clear if these votes were for a separate cadidate or intended for Henry Tomlinson. If the votes were intended for Henry Tomlinson, his vote total would be 1720 total votes. The Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA) disregards the 53 votes and lists Henry Tomlinson with 1667 total votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="1900" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1667" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06446" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bensalem" geog_id="null">
+						<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bristol" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="117" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Buckingham" geog_id="null">
+						<result candidate_ref="1" vote="409" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="175" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Cross Roads" geog_id="null">
+						<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="211" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Falls" geog_id="null">
+						<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Haycock" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Makefield" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="400" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="349" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Nockamixon" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Richland" geog_id="null">
+						<result candidate_ref="1" vote="240" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Rockhill" geog_id="null">
+						<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="229" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Solebury" geog_id="null">
+						<result candidate_ref="1" vote="170" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Springfield" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06446">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 21, 1811.</reference>
+</election_record>

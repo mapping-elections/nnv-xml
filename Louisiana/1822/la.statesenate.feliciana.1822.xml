@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1822 State Senate, Feliciana Parish" type="General" iteration="First Ballot" date="1822" election_id="la.statesenate.feliciana.1822" handle="10427/57924" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="Isaac A. Smith" name_id="SI0024" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Leake" name_id="LW0045" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Turner" name_id="TJ0156" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-05">
+				<candidate_summary candidate_ref="1" vote_total="260" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="102" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="74" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Feliciana" geog_id="null">
+					<result candidate_ref="1" vote="260" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="74" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12627" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Asylum, and Feliciana Advertiser (Saint Francisville, LA).  July 5, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republic (Baton Rouge, LA).  July 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Courrier de la Louisiane (New Orleans, LA).  July 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republic (Baton Rouge, LA).  July 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Asylum, and Feliciana Advertiser (Saint Francisville, LA).  July 19, 1822.</reference>
+</election_record>

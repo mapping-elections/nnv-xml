@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1791 Sheriff, Monmouth County" type="General" iteration="First Ballot" date="1791" election_id="nj.sheriff.monmouth.1791" handle="10427/58550" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Elisha Walton" name_id="WE0075" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Asher Thomas" name_id="TA0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-11">
+				<candidate_summary candidate_ref="1" vote_total="843" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="361" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Monmouth" geog_id="null">
+					<result candidate_ref="1" vote="843" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="361" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Dover" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Freehold" geog_id="null">
+						<result candidate_ref="1" vote="299" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="174" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shrewbury" geog_id="null">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stafford" geog_id="null">
+						<result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Freehold" geog_id="null">
+						<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-Jersey Journal, and Political Intelligencer (Elizabethtown, NJ).  November 2, 1791.</reference>
+</election_record>

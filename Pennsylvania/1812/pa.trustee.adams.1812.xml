@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Trustee of the Academy, Adams County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.trustee.adams.1812" handle="10427/62420" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Trustee of the Academy" office_id="ON124" scope="County">
+		<role title="Trustee of the Academy" scope="County">
+			<ballot>
+				<candidate name="John Edie" name_id="EJ0174" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Samuel Witherow" name_id="WS0167" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Robinson" name_id="RJ0379" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Jacob Eyster" name_id="EJ0211" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-20">
+				<candidate_summary candidate_ref="1" vote_total="1493" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1493" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="554" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="553" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06515" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1493" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1493" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="554" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="553" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06515" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06515">The Centinel (Gettysburg, PA).  October 21, 1812.</reference>
+</election_record>

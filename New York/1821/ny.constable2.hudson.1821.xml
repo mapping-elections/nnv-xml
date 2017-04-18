@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1821 Constable, Hudson, Ward 2" type="General" iteration="First Ballot" date="1821" election_id="ny.constable2.hudson.1821" handle="10427/66742" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="City">
+		<role title="Constable" scope="Ward">
+			<ballot>
+				<candidate name="John Colville" name_id="CJ0393" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Adams" name_id="AJ0144" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John T. Everts" name_id="EJ0140" affiliation="Bucktail" affiliation_id="A06" candidate_num="3"/>
+				<candidate name="Solomon Davis" name_id="DS0042" affiliation="Bucktail" affiliation_id="A06" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-01">
+				<candidate_summary candidate_ref="1" vote_total="214" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="191" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="84" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Hudson" geog_id="null">
+					<sub_unit type="Ward" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="191" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Northern Whig (Hudson, NY).  April 10, 1821.</reference>
+</election_record>        

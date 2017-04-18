@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Alderman, Albany, Ward 3" type="General" iteration="First Ballot" date="1824" election_id="ny.alderman3.albany.1824" handle="10427/65621" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Alderman" office_id="ON001" scope="City">
+		<role title="Alderman" scope="Ward">
+			<ballot>
+				<candidate name="James Van Ingen" name_id="VJ0188" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="Gilbert F. Lush" name_id="LG0045" affiliation="People's Ticket" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="Gerrit Gates" name_id="GG0040" affiliation="People's Ticket" affiliation_id="A05" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-10">
+				<candidate_summary candidate_ref="1" vote_total="208" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="87" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The division in this ward were all of a local nature; all the candidates but one, and he counts the lowest, are advoctes of the people's rights." The Daily Advertiser (New York, NY).  September 30, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="130" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  September 30, 1824.</reference>
+</election_record>

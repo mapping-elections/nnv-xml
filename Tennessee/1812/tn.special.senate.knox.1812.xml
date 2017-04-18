@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1812 State Senate, Knox County, Special" type="Special" iteration="First Ballot" date="1812" election_id="tn.special.senate.knox.1812" handle="10427/20550" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="George Wilson" name_id="WG0117" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Armstrong" name_id="AR0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-04-28">
+				<candidate_summary candidate_ref="1" vote_total="273" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="239" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08068" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The election for Senator and Representative to fill the vacancies in the Legislature of Tennessee, occassioned by the resignations of Archibald Roanes and Pleasant M. Miller esquires of Knox county, was held on Thursday and Friday last. It being the harvest season not more than one third of the voters appeared at the polls."  Wilson's Knoxville Gazette (Knoxville, TN).  July 6, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Knox" geog_id="null">
+					<result candidate_ref="1" vote="273" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08068" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08068">Wilson's Knoxville Gazette (Knoxville, TN).  July 6, 1812.</reference>
+</election_record>

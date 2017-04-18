@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 Selectman, Boston, Special" type="Special" iteration="First Ballot" date="1803" election_id="ma.selectman.boston.special.1803" handle="10427/69394" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Selectman" office_id="ON097" scope="Town">
+        <role title="Selectman" scope="Town">
+            <ballot>
+                <candidate name="Jonathan Chapman" name_id="CJ0347" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John May" name_id="MJ0350" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Francis Wright" name_id="WF0037" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas Lewis" name_id="LT0043" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Caleb Bingham" name_id="BC0031" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="John Lord" name_id="LJ0185" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="7"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-09-09">
+                <candidate_summary candidate_ref="1" vote_total="428" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="428" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="428" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="120" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="102" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="100" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"At a meeting of the Freeholders and other Inhabitants of the town of Boston duly qualified and legally warned in public Town meeting assembled at Faneuil Hall on Thursday the twelfth day of May Anno Domini 1803 at 10 o'clock AM.--... On motion, the Inhabitants were directed to bring in their votes for three Selectmen, and half past eleven o'clock assigned for closing the Poll. On counting the votes it appeared that the whole number was 523 and that the following Gentlemen were chosen."  Thirty-Fifth Report Boston Records: Boston Town Records 1796-1813, p.147.</note>
+                <note resp="Philip Lampi">"TOWN-MEETING. On Thursday, another meeting was held, for municipal purposes. Three vacancies having risen in the Board of Selectmen, a poll was opened to supply them--at the close of which the result was declared to be as follows: The whole number of votes 553.--... and a few scattered votes."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 14, 1803.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Boston" geog_id="null">
+                    <result candidate_ref="1" vote="428" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="428" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="428" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="120" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="102" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="100" resp="Philip Lampi"/>
+                    <result candidate_ref="7" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Boston Town Records.  147.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 14, 1803.</reference>
+</election_record>
+

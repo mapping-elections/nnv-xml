@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Commissioner, Butler County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.commissioner.butler.1806" handle="10427/61615" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Jacob Smith" name_id="SJ0232" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Francis Anderson" name_id="AF0002" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Hugh Conway" name_id="CH0006" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Cunningham" name_id="CJ0096" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-21">
+				<candidate_summary candidate_ref="1" vote_total="201" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="187" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="164" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="151" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06044" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Butler" geog_id="null">
+					<result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="187" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="164" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="151" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06044" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06044">The Commonwealth (Pittsburgh, PA).  October 22, 1806.</reference>
+</election_record>

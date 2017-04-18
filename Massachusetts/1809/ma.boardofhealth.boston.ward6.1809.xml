@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 Board of Health, Boston, Ward 6" type="General" iteration="First Ballot" date="1809-04" election_id="ma.boardofhealth.boston.ward6.1809" handle="10427/69130" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Board of Health" office_id="ON015" scope="Town">
+		<role title="Board of Health" scope="Ward">
+			<ballot>
+				<candidate name="James Ridgway" name_id="RJ0698" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas W. Sumner" name_id="ST0125" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-11">
+				<candidate_summary candidate_ref="1" vote_total="169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Six" geog_id="null">
+						<result candidate_ref="1" vote="169" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Independent Chronicle (Boston, MA).  April 10, 1809.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1821 House of Representatives, Dresden and Palermo" type="General" iteration="First Ballot" date="1821" election_id="me.staterepresentative.dresden.1821" handle="10427/80061" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="George Houdlette" name_id="HG0186" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Alfred J.S.G. Lithgow" name_id="LA0153" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="James Paris" name_id="PJ0785" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-07">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="District" name="Dresden and Palermo" geog_id="null">
+                    <sub_unit type="Town" name="Dresden" geog_id="null">
+                        <result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Palermo" geog_id="null">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Allen, Charles Edwin.  History of Dresden, ME: formerly a part of the old town of Pownalborough from its earliest settlement to the year 1900.  Augusta, ME: Kennebec Journal Print Shop, 1931.  585.</reference>
+</election_record>

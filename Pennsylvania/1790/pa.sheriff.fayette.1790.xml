@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 Sheriff, Fayette County" type="General" iteration="First Ballot" date="1790-10" election_id="pa.sheriff.fayette.1790" handle="10427/66031" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Joseph Huston" name_id="HJ0785" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Uriah Springer" name_id="SU0002" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Hugh Laughton" name_id="LH0003" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Adam Dunlap" name_id="DA0017" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" vote_total="532" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="454" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="417" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="200" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="532" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="454" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="417" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="200" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Crossings" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="24" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Georges" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Red Stone" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="331" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Uniontown" geog_id="null">
+						<result candidate_ref="1" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="134" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel No. 1. Frame 0478.</reference>
+</election_record>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1812 Sheriff, Montgomery County" type="General" iteration="First Ballot" date="1812" election_id="md.sheriff.montgomery.county.1812" handle="10427/27249" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Robert W. Fleming" name_id="FR0025" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Brice Shelby" name_id="SB0021" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-12">
+				<candidate_summary candidate_ref="1" vote_total="816" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="796" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02785" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14610" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Federal Republican lists 815 votes for Robert W. Fleming.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Montgomery" geog_id="mds_montgomery">
+					<result candidate_ref="1" vote="816" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="796" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Berry's" geog_id="null">
+						<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02785" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="268" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02785" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Goshen" geog_id="null">
+						<result candidate_ref="1" vote="246" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="326" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02785" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Medley's" geog_id="null">
+						<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="191" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02785" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14610">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02785">Federal Republican, and Commercial Gazette (Georgetown, DC).  October 7, 1812.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Commissioner, York County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.commissioner.york.1810" handle="10427/62257" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Klein" name_id="KJ0253" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Clarkson" name_id="CA0171" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-10">
+				<candidate_summary candidate_ref="1" vote_total="2074" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1102" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA) from October 27, 1810 lists the name John Cline in place of John Klein.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="2074" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1102" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA) from October 27, 1810 lists 1109 total votes for Andrew Clarkson.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">York Recorder (York, PA).  October 13, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06434">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1810.</reference>
+</election_record>

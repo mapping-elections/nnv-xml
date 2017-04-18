@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1802 Speaker of the House" type="Legislative" iteration="First Ballot" date="1802" election_id="ma.speakerofthehouse.1802" handle="10427/69058" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="John Coffin Jones" name_id="JJ0099" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+                <candidate name="Perez Morton" name_id="MP0042" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Henry Knox" name_id="KH0025" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+                <candidate name="Bigelow" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+                <candidate name="Harrison Gray Otis" name_id="OH0028" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-08-21">
+                <candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="47" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="9" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="9" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"... the House proceeded to the choice of a Speaker.--At the first trial there was no choice, the federal votes were for Hon. Mr. JONES 68, Gen. KNOX 10, Hon. Mr. BIGELOW 9, Hon. Mr. OTIS 9.--The democratic votes were for Mr. MORTON 47."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 29, 1802.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 29, 1802.</reference>
+    <reference type="citation" resp="Philip Lampi">The Telescope: or, American Herald (Leominster, MA).  June 3, 1802.</reference>
+</election_record>
+

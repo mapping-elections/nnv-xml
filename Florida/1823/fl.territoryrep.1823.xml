@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Florida 1823 U.S. House of Representatives (Territorial Delegate)" type="General" iteration="First Ballot" date="1823" election_id="fl.territoryrep.1823" handle="10427/43793" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="Richard Keith Call" name_id="CR0008" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph M. Hernandez" name_id="HJ0045" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Alexander Hamilton" name_id="HA0013" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Farquhar Bethune" name_id="BF0000" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-09">
+				<candidate_summary candidate_ref="1" vote_total="496" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="252" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="36" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11533"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11534"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11535"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11536"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11542"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11543"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11544"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11545"/>
+				<note resp="Philip Lampi">"Extract of a Letter from a Gentleman in Pensacola to his friend in Saint Augustine: June 6, 1823. 'The polls closed here on Wednesday; the first two days were so bad that but few voters turned out.  Genl R. K. Call received 320 votes in the City of Pensacola, and only 23 at the Town of Florida.  I apprehend a poor vote from Escambia County, the river was very high and the weather was bad'."  East Florida Herald (Saint Augustine, FL).  July 12, 1823.</note>
+				<note resp="Philip Lampi">"During the summer of 1823 Call, for the third time, was requested to become a candidate for Congress; this time he gave his consent.  The election was a complete triumph for Call, who polled 100% of the votes in Escambia county, and a large majority of all the votes in West Florida.  His popularity had not spread to East Florida, for there he received only six votes, but J. M. Hernandez, Alexander Hamilton, and H. Bethune (sic), the other three candidates, split the vote in such a way that Call received a majority of the total number of votes in the territory."  The Florida Historical Quarterly. (April 1943) Vol. XXI No. 4, 335.</note>
+			</overview>
+			<admin_unit type="Territory" name="Florida" geog_id="null">
+				<sub_unit type="County" name="Duval" geog_id="null">
+					<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="36" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Fernandina" geog_id="null">
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="36" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11545"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Escambia" geog_id="null">
+					<result candidate_ref="1" vote="398" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11542"/>
+					<sub_unit type="Town" name="Barrows Ferry" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Florida" geog_id="null">
+						<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Oneals Ferry" geog_id="null">
+						<result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Pensacola" geog_id="null">
+						<result candidate_ref="1" vote="320" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Jackson" geog_id="null">
+					<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11542"/>
+					<sub_unit type="Populated Place" name="Dempsey Jones" geog_id="null">
+						<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Owen Williams'" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="School House" geog_id="null">
+						<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Thomas Russ's" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Saint John's" geog_id="null">
+					<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="249" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Fairbanks" geog_id="null">
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11545"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Mosquito" geog_id="null">
+						<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11545"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Saint Augustine" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="212" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="42" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11543"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11545"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540">East Florida Herald (Saint Augustine, FL).  June 7, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540">East Florida Herald (Saint Augustine, FL).  June 14, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11545">The Floridian (Pensacola, FL).  June 14, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11543">City Gazette and Commercial Advertiser (Charleston, SC).  June 20, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540">East Florida Herald (Saint Augustine, FL).  June 28, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11544">Charleston Courier (Charleston, SC).  July 11, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11540">East Florida Herald (Saint Augustine, FL).  July 12, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11545">The Floridian (Pensacola, FL).  July 12, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11534">The Nashville Whig (Nashville, TN).  July 14, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11533">Independent Gazette (Franklin, TN).  July 18, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11536">United States Gazette (Philadelphia, PA).  July 28, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11541">The Floridian (Pensacola, FL).  August 23, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11542">East Florida Herald (Saint Augustine, FL).  September 27, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11535">Richmond Equirer.  October 31, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Carter, Clarence Edwin, ed.  The Territorial Papers of the United States.  Vol. XXII: The Territory of Florida 1821-1824.  Washington, DC: U.S. Government Printing Office, 1956.  693.</reference>
+	<reference type="citation" resp="Philip Lampi">The Florida Historical Quarterly.  Vol. XXI, no. 4 (April 1943): 335.</reference>
+</election_record>

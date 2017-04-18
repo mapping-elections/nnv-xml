@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1812 House of Representatives, Kent County" type="General" iteration="First Ballot" date="1812" election_id="de.stateassembly.kent.1812" handle="10427/43901" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Cornelius P. Comegys" name_id="CC0002" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Robert Dill" name_id="DR0087" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas Clayton" name_id="CT0005" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Samuel White" name_id="WS0028" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Luff Lewis" name_id="LL0024" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John Williams" name_id="WJ1079" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Jacob Stout" name_id="SJ0074" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1329" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1322" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1321" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1316" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1316" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1307" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12094" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Those gentlemen are all the real disciples of the immortal Washington, and have been elected by an overwhelming majority of near seven hundred."  Federal Republican, and Commercial Gazette (Georgetown, DC).  October 23, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="1329" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1322" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1321" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1316" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1316" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1314" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1307" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12094" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12094">Federal Republican, and Commercial Gazette (Georgetown, DC).  October 23, 1812.</reference>
+</election_record>

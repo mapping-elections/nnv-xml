@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Coroner, Bradford County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.coroner.bradford.1815" handle="10427/66649" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Reuben Wilber" name_id="WR0064" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="E. B. Gregory" name_id="GE0036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-18">
+				<candidate_summary candidate_ref="1" vote_total="421" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="308" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bradford" geog_id="null">
+					<result candidate_ref="1" vote="421" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="308" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Athens and Ulster" geog_id="null">
+						<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Burlington" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Canton" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Cliffsburg" geog_id="null">
+						<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Orwell" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pike" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Towanda" geog_id="null">
+						<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wyalusing" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wysox" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Bradford Gazette (Towanda, PA).  October 15, 1815.</reference>
+</election_record>

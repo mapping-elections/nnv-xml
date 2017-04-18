@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 House of Representatives, Mercer and Venango Counties" type="General" iteration="First Ballot" date="1808-10" election_id="pa.assembly.mercervenangocounties.1808" handle="10427/61906" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Samuel Dale" name_id="DS0145" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Bevan Pearson" name_id="PB0072" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Leech" name_id="LJ0317" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Thomas MacKee" name_id="MT0156" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-24">
+				<candidate_summary candidate_ref="1" vote_total="1180" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1061" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="487" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="306" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Mercer and Venango" geog_id="null">
+					<result candidate_ref="1" vote="1180" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1061" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="487" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="306" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Mercer" geog_id="null">
+						<result candidate_ref="1" vote="774" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="694" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="401" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="223" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06256" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06257" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Venango" geog_id="null">
+						<result candidate_ref="1" vote="406" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="367" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="83" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06256" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06294" resp="Philip Lampi"/>
+						<sub_unit type="District" name="French Creek, Sugar Creek, and Scrubgrass" geog_id="null">
+							<result candidate_ref="1" vote="362" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="324" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="83" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06293" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania House of Representatives, 1808.  7.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06293">The Crawford Weekly Messenger (Meadville, PA).  October 20, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  October 26, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06257">Aurora. General Advertiser (Philadelphia, PA).  November 5, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 15, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06294">The Democratic Press (Philadelphia, PA).  November 16, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06256">The Democratic Press (Philadelphia, PA).  November 18, 1808.</reference>
+</election_record>

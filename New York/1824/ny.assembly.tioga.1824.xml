@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assembly, Tioga County" type="General" iteration="First Ballot" date="1824" election_id="ny.assembly.tioga.1824" handle="10427/65645" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Samuel Winton" name_id="WS0133" affiliation="Clintonian" affiliation_id="A05" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Pumpelly" name_id="PC0051" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William H. Mann" name_id="MW0152" affiliation="Clintonian" affiliation_id="A05" candidate_num="3"/>
+				<candidate name="John Tuthill" name_id="TJ0207" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Daniel Williams" name_id="WD0076" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tioga" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Owego" geog_id="null">
+						<result candidate_ref="1" vote="244" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="57" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Owego Town Records.</reference>
+</election_record>

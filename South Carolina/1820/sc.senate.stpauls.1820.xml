@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1820 State Senate, Saint Paul's Parish" type="General" iteration="First Ballot" date="1820" election_id="sc.senate.stpauls.1820" handle="10427/64801" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="Parish">
+            <ballot>
+                <candidate name="John Ramsay" name_id="RJ0594" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-12-16">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <sub_unit type="Parish" name="Saint Paul's" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">City Gazette and Commercial Advertiser (Charleston, SC).  October 13, 1820.</reference>
+</election_record>

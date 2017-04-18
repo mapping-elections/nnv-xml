@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1811 House of Commons, Warren County" type="General" iteration="First Ballot" date="1811" election_id="nc.houseofcommons.warren.1811" handle="10427/43239" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="William R. Johnson" name_id="JW0047" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Miller" name_id="MW0232" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Solomon Cotton" name_id="CS0157" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-17">
+				<candidate_summary candidate_ref="1" vote_total="514" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="358" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="230" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04910" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Warren" geog_id="null">
+					<result candidate_ref="1" vote="514" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="358" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="230" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04910" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04910">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 16, 1811.</reference>
+</election_record>

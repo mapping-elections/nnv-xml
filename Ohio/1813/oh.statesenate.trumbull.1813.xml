@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 State Senate, Trumbull County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.statesenate.trumbull.1813" handle="10427/59323" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Daniel Eaton" name_id="ED0019" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Montgomery" name_id="MR0100" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jonah Wetmore" name_id="WJ0323" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John D. Seely" name_id="SJ0920" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-10">
+				<candidate_summary candidate_ref="1" vote_total="598" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="170" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05191" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05192" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The votes from Canfield were rejected as illegally returned; they however would not have altered the election. A great number of scattering votes were given." Trump of Fame (Warren, OH), October 19, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="598" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="170" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05191" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05192" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="null" geog_id="null">
+						<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The original election returns list Daniel Eaton as a State Representative candidate.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns of Unknown Township.  Western Reserve Historical Society, Cleveland.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05191">Trump of Fame (Warren, OH).  October 19, 1813.</reference>
+</election_record>

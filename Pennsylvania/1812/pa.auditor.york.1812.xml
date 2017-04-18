@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Auditor, York County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.auditor.york.1812" handle="10427/66267" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Jacob Hahn" name_id="HJ0931" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Findley" name_id="FJ0325" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Weyer" name_id="WJ0808" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Alexander Wallace" name_id="WA0201" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Isaac Kirk" name_id="KI0008" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="William Ness" name_id="NW0031" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-13">
+				<candidate_summary candidate_ref="1" vote_total="3004" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2126" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2116" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1617" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1431" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="544" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="3004" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2126" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2116" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1617" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1431" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="544" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">York Recorder (York, PA).  October 24, 1812.</reference>
+</election_record>

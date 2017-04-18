@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Coroner, Butler County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.coroner.butler.1821" handle="10427/67958" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="David Shannon" name_id="SD0187" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Run" name_id="RJ0484" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Burkhart" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Bail" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Muntz" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-22">
+				<candidate_summary candidate_ref="1" vote_total="891" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="275" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="132" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="110" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="91" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Butler" geog_id="null">
+					<result candidate_ref="1" vote="891" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="275" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="132" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="110" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="91" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Buffalo" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Butler" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Centre" geog_id="null">
+						<result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Connoquenessing" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Cranberry" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="55" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Donegal" geog_id="null">
+						<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Mercer and Slipperyrock" geog_id="null">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="26" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Mercer" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Slipperyrock" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Middlesex" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Muddy Creek" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Parker and Venango" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Parker" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Township" name="Venango" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Butler Sentinel (Butler, PA).  October 16, 1821.</reference>
+</election_record>

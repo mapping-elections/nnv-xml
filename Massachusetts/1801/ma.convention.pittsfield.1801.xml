@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Massachusetts 1801 Constitutional Convention, Pittsfield" type="General" iteration="First Ballot" date="1801" election_id="ma.convention.pittsfield.1801" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/68796" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Constitutional Convention" office_id="ON039" scope="State">
+        <role title="Convention Delegate" scope="Town">
+            <ballot>
+                <candidate name="Joshua Danforth" name_id="DJ0187" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="J.C. Williams" name_id="WJ0390" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="T. Childs" name_id="CT0113" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 0.5" modified="2013-09-09">
+                <candidate_summary candidate_ref="1" vote_total="101" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="56" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Pittsfield" geog_id="null">
+                    <result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Pittsfield Town Records.</reference>
+</election_record>
+

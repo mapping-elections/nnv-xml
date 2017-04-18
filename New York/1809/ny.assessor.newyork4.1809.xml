@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1809 Assessor, New York, Ward 4" type="General" iteration="First Ballot" date="1809" election_id="ny.assessor.newyork4.1809" handle="10427/68098" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="Nehemiah Allen" name_id="AN0011" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Lewis Hartman" name_id="HL0042" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Peter Wynkoop" name_id="WP0033" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+           <candidate name="Peter Bonnett" name_id="BP0052" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2014-04-02">
+           <candidate_summary candidate_ref="1" vote_total="515" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="514" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="509" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="507" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="New York" geog_id="null">
+              <sub_unit type="Ward" name="Four" geog_id="null">
+                <result candidate_ref="1" vote="515" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="514" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="509" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="507" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Public Advertiser (New York, NY).  November 29, 1809.</reference>
+</election_record>
+
+

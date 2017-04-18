@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 House of Representatives, Dresden" type="General" iteration="First Ballot" date="1808" election_id="ma.staterepresentative.dresden.1808" handle="10427/69856" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John Johnson" name_id="JJ0266" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James H. Patterson" name_id="PJ0740" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Edmund Bridge, Jr." name_id="BE0232" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel T. Goodwin" name_id="GS0135" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-26">
+				<candidate_summary candidate_ref="1" vote_total="42" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="38" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Dresden" geog_id="null">
+					<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Norfolk Repository (Dedham, MA).  June 28, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Allen, Charles Edwin.  History of Dresden, Maine: formerly a part of the old town of Pownalborough from its earliest settlement to the year 1900.  Augusta, Maine : Kennebec Journal Print Shop, 1931.  509.</reference>
+</election_record>       

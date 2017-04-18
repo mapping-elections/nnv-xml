@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 House of Representatives, Bedford County" type="General" iteration="First Ballot" date="1823" election_id="pa.assembly.bedford.1823" handle="10427/63767" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Alexander Thompson" name_id="TA0068" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Mann" name_id="MA0227" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="C. MacDowell" name_id="MC0068" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Wilds" name_id="WJ0891" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-12">
+				<candidate_summary candidate_ref="1" vote_total="2174" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2018" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1188" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1054" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07305" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bedford" geog_id="null">
+					<result candidate_ref="1" vote="2174" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2018" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1188" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1054" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07305" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 21, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07305">The Franklin Gazette (Philadelphia, PA).  October 21, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 28, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Unpartheyische Berichter (Lebanon, PA).  November 1, 1823.</reference>
+</election_record>

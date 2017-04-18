@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Coroner, Erie County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.coroner.erie.1806" handle="10427/61645" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Milroy" name_id="MJ0947" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Hurst" name_id="HG0124" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Martin Strong" name_id="SM0120" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-10">
+				<candidate_summary candidate_ref="1" vote_total="187" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="142" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06061" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Erie" geog_id="null">
+					<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="142" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="142" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06061" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Waterford, McKean, and Broken Straw" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06061" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"The following returns from Waterford, McKean and Broken Straw were made out on October 18, 1806...The returns for the rest of the county had been made out on October 17, 1806."  Original Election Returns.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06061">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06060">The Crawford Weekly Messenger (Meadville, PA).  August 28, 1806.</reference>
+</election_record>

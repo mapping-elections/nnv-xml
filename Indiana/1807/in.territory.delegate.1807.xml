@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1807 U.S. House of Representatives (Territorial Delegate)" type="Legislative" iteration="First Ballot" date="1807-09" election_id="in.territory.delegate.1807" handle="10427/56256" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="Benjamin Parke" name_id="PB0003" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Shadrack Bond" name_id="BS0053" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Rice Jones" name_id="JJ0037" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Waller Taylor" name_id="TW0011" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-07-16">
+				<candidate_summary candidate_ref="1" vote_total="8" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12211" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On Thursday the 2rd September, the Legislative Council and House of Representatives, went into join ballot for the election of a delegate to Congress." The Western Sun (Vincennes, IN).  September 12, 1807.</note>
+			</overview>
+			<admin_unit type="Territory" name="Indiana" geog_id="null">
+				<sub_unit type="null" name="Territorial Legislature" geog_id="null">
+					<result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12211" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference resp="Philip Lampi" type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12211">The Western Sun (Vincennes, IN).  September 12, 1807.</reference>
+</election_record>

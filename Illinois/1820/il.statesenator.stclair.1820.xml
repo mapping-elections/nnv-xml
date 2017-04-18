@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1820 State Senate, Saint Clair County" type="General" iteration="First Ballot" date="1820-08" election_id="il.statesenator.stclair.1820" handle="10427/56249" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James Lemen, Jr." name_id="LJ0033" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joshua Oglesby" name_id="OJ0003" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Moses Short" name_id="SM0029" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jacob Ogle" name_id="OJ0004" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-01">
+				<candidate_summary candidate_ref="1" vote_total="400" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="192" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Saint Clair" geog_id="null">
+					<result candidate_ref="1" vote="400" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="192" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="96" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Belleville" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="75" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Cahokia" geog_id="null">
+						<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chambers" geog_id="null">
+						<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Illinois" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Manville" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ogle" geog_id="null">
+						<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Scott" geog_id="null">
+						<result candidate_ref="1" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Silver Creek" geog_id="null">
+						<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Spring" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Turkey Hill" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  186.</reference>
+</election_record>

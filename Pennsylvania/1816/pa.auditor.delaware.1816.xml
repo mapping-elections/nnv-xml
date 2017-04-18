@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Auditor, Delaware County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.auditor.delaware.1816" handle="10427/66900" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Thomas Pennell" name_id="PT0130" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Baker" name_id="BW0332" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Hunter" name_id="HG0125" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Samuel Davis" name_id="DS0150" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="993" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="986" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="687" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="685" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="993" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="986" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="687" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="685" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="233" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="266" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="267" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="110" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="195" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="190" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="207" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="207" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="315" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="313" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="135" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 14, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 15, 1816.</reference>
+</election_record>

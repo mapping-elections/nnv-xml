@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Auditor, Franklin County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.auditor.franklin.1821" handle="10427/67981" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Thomas Waddle" name_id="WT0103" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John King" name_id="KJ0343" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-24">
+				<candidate_summary candidate_ref="1" vote_total="1934" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1689" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1934" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1689" resp="Philip Lampi"/>
+					<sub_unit type="Borough" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="487" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="518" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Franklin" geog_id="null">
+							<result candidate_ref="1" vote="131" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="201" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Greene" geog_id="null">
+							<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Guilford" geog_id="null">
+							<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Hamilton" geog_id="null">
+							<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Township" name="Fannett" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="68" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Greencastle" geog_id="null">
+						<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="188" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Letterkenny" geog_id="null">
+						<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lurgan" geog_id="null">
+						<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mercersburg" geog_id="null">
+						<result candidate_ref="1" vote="275" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="259" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Metal" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="86" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Thomas" geog_id="null">
+						<result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Southampton" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Waynesburg" geog_id="null">
+						<result candidate_ref="1" vote="281" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="305" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Franklin Repository (Chambersburg, PA).  October 16, 1821.</reference>
+</election_record>

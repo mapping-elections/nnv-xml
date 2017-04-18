@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1808 State Senate, Orange County" type="General" iteration="First Ballot" date="1808-08" election_id="nc.statesenator.orange.1808" handle="10427/43388" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="James Mebane" name_id="MJ0546" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Ray" name_id="RD0037" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-10">
+				<candidate_summary candidate_ref="1" vote_total="706" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="502" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04836" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The election of James Mebane was contested under the grounds that he had acted as a Councillor of the State during the year in which he was elected a Senator.  It was decided that since had had resigned his office as Councillor before his election as Senator, he could keep his seat.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<result candidate_ref="1" vote="706" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="502" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04836" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04836">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 18, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  December 8, 1808.</reference>
+</election_record>

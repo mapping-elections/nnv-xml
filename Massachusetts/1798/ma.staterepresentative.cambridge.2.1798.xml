@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1798 House of Representatives, Cambridge, Ballot 2" type="General" iteration="Second Ballot" date="1798-05" election_id="ma.staterepresentative.cambridge.2.1798" handle="10427/68853" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Aaron Hill" name_id="HA0051" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stephen Dana" name_id="DS0129" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-01">
+				<candidate_summary candidate_ref="1" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="53" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Second Trial the whole number was 107 - of which Dr. H. had 54, and was chosen."  Columbian Centinel (Boston, MA).  May 9, 1798.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Cambridge" geog_id="null">
+					<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  May 9, 1798.</reference>
+</election_record>

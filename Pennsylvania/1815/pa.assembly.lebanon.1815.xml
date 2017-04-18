@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 House of Representatives, Lebanon County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.assembly.lebanon.1815" handle="10427/62843" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Jacob Guthard" name_id="GJ0470" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Sawyer" name_id="SJ1185" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Bickle, Jr." name_id="BJ1189" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-07">
+				<candidate_summary candidate_ref="1" vote_total="1242" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="816" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="423" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06758" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06759" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Chronicle or Harrisburgh Visitor (Harrisburg, PA) from October 16, 1815 lists Jacob Guthard as Jacob Guthart and John Bickle, Jr. as John Bicklegr.</note>
+				<note resp="Philip Lampi">There was no federal opposition to this election.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="1242" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="816" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="423" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06758" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06759" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 14, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06758">The Chronicle or Harrisburgh Visitor (Harrisburg, PA).  October 16, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06759">The Chronicle or Harrisburgh Visitor (Harrisburg, PA).  October 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06758">Pennsylvania Republican (Harrisburg, PA).  October 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 21, 1815.</reference>
+</election_record>

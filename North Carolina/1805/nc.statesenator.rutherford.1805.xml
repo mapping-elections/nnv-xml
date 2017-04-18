@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1805 State Senate, Rutherford County" type="General" iteration="First Ballot" date="1805" election_id="nc.statesenator.rutherford.1805" handle="10427/43515" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Jonathan Hampton" name_id="HJ0626" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Greene" name_id="GW0097" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-18">
+				<candidate_summary candidate_ref="1" vote_total="391" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="386" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04790" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Rutherford" geog_id="null">
+					<result candidate_ref="1" vote="391" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="386" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04790" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04790">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  September 2, 1805.</reference>
+</election_record>

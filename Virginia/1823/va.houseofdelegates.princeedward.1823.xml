@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1823 House of Delegates, Prince Edward County" type="General" iteration="First Ballot" date="1823" election_id="va.houseofdelegates.princeedward.1823" handle="10427/33790" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Henry E. Watkins" name_id="WH0111" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Asa Dupuy" name_id="DA0123" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-25">
+				<candidate_summary candidate_ref="1" vote_total="203" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="203" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09528" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Prince Edward" geog_id="null">
+					<result candidate_ref="1" vote="203" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="203" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09528" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09528">Prince Edward County Poll Book.  Library of Virginia, Richmond.</reference>
+</election_record>

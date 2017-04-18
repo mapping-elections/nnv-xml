@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record label="New York 1821 Assembly, Suffolk County" type="General" iteration="First Ballot" date="1821" election_id="ny.assembly.suffolk.1821" handle="10427/66728" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Hugh Halsey" name_id="HH0062" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John M. Williamson" name_id="WJ0512" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Tredwell Scudder" name_id="ST0177" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Mordecai Homan" name_id="HM0060" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Platt Buffett" name_id="BW0221" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Oliver Post" name_id="PO0011" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-25">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Suffolk" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Brookhaven" geog_id="null">
+						<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="124" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="212" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="211" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Brookhaven Town Records.  230-231.</reference>
+</election_record>

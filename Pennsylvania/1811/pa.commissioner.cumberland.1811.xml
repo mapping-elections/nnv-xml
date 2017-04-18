@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Commissioner, Cumberland County" type="General" iteration="First Ballot" date="1811-10" election_id="pa.commissioner.cumberland.1811" handle="10427/62306" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Devor" name_id="DW0167" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Woodburn" name_id="WJ0702" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Andrew Emminger" name_id="EA0061" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-27">
+				<candidate_summary candidate_ref="1" vote_total="1914" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="356" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="264" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06458" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Carlisle Herald (Carlisle, PA) from October 18 and Kline's Weekly Carlisle Gazette (Carlisle, PA) from October 11, list William Devor with 1774 total votes. The vote total listed here is taken from the Original Returns. Individual township totals are only reported in the Carlisle Herald (Carlisle, PA) and Kline's Weekly Carlisle Gazette (Carlisle, PA), and therefore the township totals listed here add up to a total which does not match the Origianl Returns.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="1914" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="356" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="264" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06458" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Buffalo" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="508" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kritzer" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Landisburg" geog_id="null">
+						<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newville" geog_id="null">
+						<result candidate_ref="1" vote="371" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Petersburg" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="42" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shippensburg" geog_id="null">
+						<result candidate_ref="1" vote="256" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="27" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Toboyne" geog_id="null">
+						<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06458">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Weekly Carlisle Gazette (Carlisle, PA).  October 11, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Carlisle Herald (Carlisle, PA).  October 18, 1811.</reference>
+</election_record>

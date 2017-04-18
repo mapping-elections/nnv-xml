@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record label="Missouri 1820 Coroner, Saint Louis County" type="General" iteration="First Ballot" date="1820" election_id="mo.coroner.stlouis.1820" handle="10427/56560" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Bobb" name_id="BJ1443" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William H. Pococke" name_id="PW0053" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="R. Chitwood" name_id="CR0187" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="version 1.0" modified="2009-02-10">
+				<candidate_summary candidate_ref="1" vote_total="528" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="266" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="234" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="mos">
+				<result candidate_ref="1" vote="528" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="266" resp="Philip Lampi"/>
+				<result candidate_ref="3" vote="234" resp="Philip Lampi"/>
+				<sub_unit type="Town" name="Bonhomme" geog_id="null">
+					<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="47" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="Town" name="Saint Ferdinand" geog_id="null">
+					<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="187" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="Town" name="Saint Louis" geog_id="null">
+					<result candidate_ref="1" vote="401" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="182" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11430">Saint Louis Enquirer (Saint Louis, MO).  August 30, 1820.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1805 City Council, Baltimore, Ward 2" type="General" iteration="First Ballot" date="1805" election_id="md.city.council.baltimore.ward2.1805" handle="10427/58124" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="Jacob Small" name_id="SJ0214" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Walter Simpson" name_id="SW0041" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Carey" name_id="CJ0230" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-22">
+				<candidate_summary candidate_ref="1" vote_total="186" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="111" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02405" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="143" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02405" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American, and Commercial Daily Advertiser (Baltimore, MD).  October 8, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02405">Baltimore Evening Post (Baltimore, MD).  October 8, 1805.</reference>
+</election_record>

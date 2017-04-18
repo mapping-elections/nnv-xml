@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 Commissioner, Chester County" type="General" iteration="First Ballot" date="1801-10" election_id="pa.commissioner.chester.1801" handle="10427/61172" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Reinhart" name_id="RJ0346" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Harris" name_id="HW0325" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-16">
+				<candidate_summary candidate_ref="1" vote_total="2200" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2090" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05720" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05721" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05722" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="2200" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2090" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05720" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05721" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05722" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05720">Aurora. General Advertiser (Philadelphia, PA).  October 21, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05721">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 21, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05721">Poulson's American Daily Advertiser (Philadelphia, PA).  October 22, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05722">The True American and Commercial Advertiser (Philadelphia, PA).  October 22, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">American Eagle (Easton, PA).  October 24, 1801.</reference>
+</election_record>

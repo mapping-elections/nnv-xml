@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Massachusetts 1805 House of Representatives, Orange and Warwick" type="General" iteration="First Ballot" date="1805-05" election_id="ma.staterepresentative.warwickorange.1805" handle="10427/69372" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Caleb Mayo" name_id="MC0107" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Ebenezer Williams" name_id="WE0205" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-20">
+				<candidate_summary candidate_ref="1" vote_total="154" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="148" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The parties were almost equally balanced here: while the district of Orange was united with us in the choice of a representative; and they were as divided, as acrimonious, and as uncompromising, as we were. At the May meeting this year, the inhabitants of Warwick and Orange assembled to choose a representative."  History of the Town of Warwick, 88-90.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="District" name="Orange and Warwick" geog_id="null">
+					<sub_unit type="District" name="Orange" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Warwick" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Blake, Jonathan  History of the Town of Warwick.  Boston: Noyes, Holmes and, 1873. 88-90.</reference>
+</election_record>
+

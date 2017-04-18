@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1803 House of Representatives, Richmond County" type="General" iteration="First Ballot" date="1803" election_id="ga.assembly.richmond.1803" handle="10427/19074" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="Robert Watkins" name_id="WR0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="George Walker" name_id="WG0004" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Walter Leigh" name_id="LW0008" affiliation="null" affiliation_id="null" candidate_num="3"/>
+        <candidate name="John Twiggs" name_id="TJ0073" affiliation="null" affiliation_id="null" candidate_num="4"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-04">
+        <candidate_summary candidate_ref="1" vote_total="234" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="213" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="177" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="147" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01615" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01616" resp="Philip Lampi"/>
+        <note resp="Philip Lampi">The Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA) lists 224 votes for Robert Watkins.</note>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Richmond" geog_id="null">
+          <result candidate_ref="1" vote="234" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="213" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="177" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="147" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01615" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01615">Augusta Herald (Augusta, GA).  October 5, 1803.</reference>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01616">Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA).  October 8, 1803.</reference>
+</election_record>

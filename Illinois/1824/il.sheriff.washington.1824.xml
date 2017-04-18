@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Illinois 1824 Sheriff, Washington County" type="General" iteration="First Ballot" date="1824-02" election_id="il.sheriff.washington.1824" handle="10427/56380" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Carrigin" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Moore" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="66" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Edwardsville Spectator (Edwardsville, IL).  April 20, 1824.</reference>
+</election_record>

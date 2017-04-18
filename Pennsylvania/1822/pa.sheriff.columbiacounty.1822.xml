@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Sheriff, Columbia County" type="General" iteration="First Ballot" date="1822-10" election_id="pa.sheriff.columbiacounty.1822" handle="10427/63623" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Andrew MacReynolds" name_id="MA0306" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Alward" name_id="AH0025" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-19">
+				<candidate_summary candidate_ref="1" vote_total="1018" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="488" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07216" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Mr. M'Reynolds, the democratic candidate for sheriff, was elected by a majority of 557, over the highest federal candidate. This is convincing proof, that the democrats of Columbia have seen the error of their ways, and are returning, with a determination to support the 'good old cause' with redoubled ardour."  Pennsylvania Intelligencer (Harrisburg, PA).  October 18, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="1018" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="488" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 18, 1822.</reference>
+</election_record>

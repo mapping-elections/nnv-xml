@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 House of Representatives, Coshocton and Tuscarawas Counties" type="General" iteration="First Ballot" date="1819-10" election_id="oh.staterepresentative.coshocton_tuscarawascounties.1819" handle="10427/59753" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="George Richardson" name_id="RG0051" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph W. Pigman" name_id="PJ0395" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Abraham Ricksecker" name_id="RA0061" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-07">
+				<candidate_summary candidate_ref="1" vote_total="707" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="505" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="121" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05273" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19359" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Coshocton and Tuscarawas" geog_id="null">
+					<result candidate_ref="1" vote="707" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="505" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="121" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19359" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Coshocton" geog_id="ohs_coshocton">
+						<result candidate_ref="1" vote="298" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="354" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05272" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05273" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19359" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19360" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Tuscarawas" geog_id="ohs_tuscarawas">
+						<result candidate_ref="1" vote="409" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="121" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05273" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05283" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19359" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05273">The Ohio Repository (Canton, OH).  October 22, 1919.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19360">Muskingum Messenger (Zanesville, OH).  October 27, 1819.</reference>
+</election_record>

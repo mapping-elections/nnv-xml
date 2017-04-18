@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1820 House of Representatives, Greene and Marengo Counties" type="General" iteration="First Ballot" date="1820-08" election_id="al.staterepresentative.marengocounty.1820" handle="10427/55822" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Coats" name_id="CJ0005" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Pleasant Wing" name_id="WP0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Anthony Kinnaird" name_id="KA0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Watts S. Ciley" name_id="CW0001" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-10">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="District" name="Greene and Marengo" geog_id="null">
+					<sub_unit type="County" name="Greene" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Marengo" geog_id="null">
+						<result candidate_ref="1" vote="269" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="24" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11023">Original Election Certificate.  Alabama Department of Archives and History, Montgomery.</reference>
+	<reference type="citation" resp="Philip Lampi">The Halcyon and Tombeckbe Public Advertiser (Saint Stephens, AL).  August 28, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 1, 1820.</reference>
+</election_record>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1819 State Senate, Plymouth County, Ballot 2" type="Legislative" iteration="Second Ballot" date="1819" election_id="ma.senator.plymouth.1.1819" handle="10427/79030" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Ebenezer Gay" name_id="GE0012" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Weston" name_id="WT0092" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-09">
+				<candidate_summary candidate_ref="1" vote_total="212" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="105" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole number of votes 317."  Boston Daily Advertiser (Boston, MA).  May 28, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Daily Advertiser (Boston, MA).  May 28, 1819.</reference>
+</election_record>

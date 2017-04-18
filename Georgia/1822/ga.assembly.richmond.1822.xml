@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1822 House of Representatives, Richmond County" type="General" iteration="First Ballot" date="1822" election_id="ga.assembly.richmond.1822" handle="10427/18112" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="Robert Watkins" name_id="WR0006" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Lewis Harris" name_id="HL0002" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Joseph Hutchinson" name_id="HJ0059" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="L. Watkins" name_id="WL0004" affiliation="null" affiliation_id="null" candidate_num="4"/>
+        <candidate name="E. Tarver" name_id="TE0022" affiliation="null" affiliation_id="null" candidate_num="5"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-14">
+        <candidate_summary candidate_ref="1" vote_total="402" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="398" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="349" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="217" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="5" vote_total="203" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01684" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01685" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Richmond" geog_id="null">
+          <result candidate_ref="1" vote="402" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="398" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="349" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="217" resp="Philip Lampi"/>
+          <result candidate_ref="5" vote="203" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01684" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01684">Augusta Chronicle and Georgia Advertiser (Augusta, GA).  October 8, 1822.</reference>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01685">The Daily Georgian (Savannah, GA).  October 12, 1822.</reference>
+</election_record>

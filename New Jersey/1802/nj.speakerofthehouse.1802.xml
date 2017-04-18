@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New Jersey 1802 Speaker of the Assembly" type="Legislative" iteration="First Ballot" date="1802" election_id="nj.speakerofthehouse.1802" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/68600" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the Assembly" office_id="ON103" scope="State">
+        <role title="Speaker of the Assembly" scope="State">
+            <ballot>
+                <candidate name="William Coxe" name_id="CW0104" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="unknown" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2013-06-19">
+                <candidate_summary candidate_ref="1" vote_total="20" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="19" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The lower House, consisting of 39 members, 20 of whom being federal, gave a majority of one for William Coxe Speaker."  The Centinel of Freedom (Newark, NJ).  November 2, 1802.</note>
+            </overview>
+            <admin_unit type="State" name="New Jersey" geog_id="null">
+                <sub_unit type="null" name="In convention" geog_id="null">
+                    <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  November 2, 1802.</reference>
+</election_record>
+

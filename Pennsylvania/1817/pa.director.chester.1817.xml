@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Director of the Poor, Chester County" type="General" iteration="First Ballot" date="1817-10" election_id="pa.director.chester.1817" handle="10427/67593" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="William Bennett" name_id="BW0317" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="George Meredith" name_id="MG0090" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-24">
+				<candidate_summary candidate_ref="1" vote_total="3211" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3135" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="3211" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3135" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="384" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gum Tree" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="174" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Manor" geog_id="null">
+						<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="427" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Marshalton" geog_id="null">
+						<result candidate_ref="1" vote="301" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New London Cross Roads" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="270" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="392" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press from October 20 lists Oxford as "Hoods."</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Paoli" geog_id="null">
+						<result candidate_ref="1" vote="493" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="416" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pughtown" geog_id="null">
+						<result candidate_ref="1" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="664" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="399" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="276" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sloan's" geog_id="null">
+						<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="217" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="West Chester" geog_id="null">
+						<result candidate_ref="1" vote="490" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press from October 20 reports 137 votes for George Meredith.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 20, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">The Chester and Delaware Federalist (West Chester, PA).  October 22, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 25, 1817.</reference>
+</election_record>

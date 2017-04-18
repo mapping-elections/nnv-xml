@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1813 House of Representatives, Chelmsford" type="General" iteration="First Ballot" date="1813-05" election_id="ma.staterepresentative.chelmsford.1813" handle="10427/27599" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Amos Whitney" name_id="WA0066" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Adams" name_id="AW0033" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Peckens" name_id="PJ0216" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-09-29">
+				<candidate_summary candidate_ref="1" vote_total="109" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="31" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="24" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03585" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Chelmsford" geog_id="null">
+					<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03585" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03585">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 8, 1813.</reference>
+</election_record>

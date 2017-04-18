@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1815 House of Representatives, Miami County" type="General" iteration="First Ballot" date="1815-10" election_id="oh.staterepresentative.miami.1815" handle="10427/59470" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Robert Montgomery" name_id="MR0100" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected</note></candidate>
+				<candidate name="Samuel Kyle" name_id="KS0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas W. Furnas" name_id="FT0051" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-14">
+				<candidate_summary candidate_ref="1" vote_total="194" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="171" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="161" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05223" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Miami" geog_id="ohs_miami">
+					<result candidate_ref="1" vote="194" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="171" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="161" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05223" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05223">Ohio Republican (Dayton, OH).  October 23, 1815.</reference>
+</election_record>

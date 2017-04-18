@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Auditor, Huron County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.auditor.huron.1823" handle="10427/60246" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Auditor" office_id="ON013" scope="County">
+        <role title="Auditor" scope="County">
+            <ballot>
+                <candidate name="Moses Kimball" name_id="KM0007" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-18">
+                <candidate_summary candidate_ref="1" vote_total="726" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Moses Kimball is elected without opposition.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Huron" geog_id="ohs_huron">
+                    <result candidate_ref="1" vote="726" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Sandusky Clarion (Sandusky, OH).  October 22, 1823.</reference>
+</election_record>

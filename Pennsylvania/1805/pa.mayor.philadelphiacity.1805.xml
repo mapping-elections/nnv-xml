@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 Mayor, Philadelphia City" type="Legislative" iteration="First Ballot" date="1805-10" election_id="pa.mayor.philadelphiacity.1805" handle="10427/61575" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Mayor" office_id="ON079" scope="City">
+		<role title="Mayor" scope="City">
+			<ballot>
+				<candidate name="John Inskeep" name_id="IJ0051" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Lawler" name_id="LM0057" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-22">
+				<candidate_summary candidate_ref="1" vote_total="23" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06021" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The select and Common Councils of the city this morning convened in the common council chamber and proceeded by joint ballot to the choice of a mayor for the ensuing year...We have not heard whether Mr. Inskeep will consent to serve." The Enquirer (Richmond, VA).  October 25, 1805.</note>
+				<note resp="Philip Lampi">"At a meeting of the Select and Common Councils, held yesterday, John Inskeep, Esq. was elected Mayor of this city for the ensuing year. The votes were~" Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 21, 1805.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06021" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 15, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 21, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06021">The Enquirer (Richmond, VA).  October 25, 1805.</reference>
+</election_record>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1815 House of Representatives, Maury County" type="General" iteration="First Ballot" date="1815" election_id="tn.assembly.maury.1815" handle="10427/20629" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Nathaniel Willis" name_id="WN0077" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lemuel Prewitt" name_id="PL0029" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Mack" name_id="MR0199" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Campbell" name_id="CJ1067" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Alexander Carthy" name_id="CA0216" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Joel Casey" name_id="CJ1068" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-04-29">
+				<candidate_summary candidate_ref="1" vote_total="1197" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="808" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="589" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="384" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="339" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="58" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Maury" geog_id="null">
+					<result candidate_ref="1" vote="1197" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="808" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="589" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="384" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="339" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="58" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Cathy's Creek" geog_id="null">
+						<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="212" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Columbia's Court House" geog_id="null">
+						<result candidate_ref="1" vote="948" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="733" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="513" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="364" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="57" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08080">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

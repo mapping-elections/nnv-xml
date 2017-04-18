@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1798 House of Delegates, Frederick County" type="General" iteration="First Ballot" date="1798" election_id="md.general.assembly.frederick.county.1798" handle="10427/27688" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Henry Ridgely Warfield" name_id="WH0013" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Gwinn" name_id="GJ0009" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Thomas" name_id="TJ0160" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Upton Bruce" name_id="BU0000" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-01-19">
+				<candidate_summary candidate_ref="1" vote_total="2432" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2381" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2363" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2338" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02206" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Frederick" geog_id="mds_frederick">
+					<result candidate_ref="1" vote="2432" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2381" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2363" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2338" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02206" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02206">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 9, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02206">The Telegraphe and Daily Advertiser (Baltimore, MD).  October 9, 1798.</reference>
+</election_record>

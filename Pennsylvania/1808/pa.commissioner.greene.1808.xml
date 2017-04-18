@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Commissioner, Greene County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.commissioner.greene.1808" handle="10427/61900" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Andrew MacClelland" name_id="MA0252" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Felax Danley" name_id="DF0023" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Slater" name_id="ST0222" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Hugh Stevenson" name_id="SH0149" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-18">
+				<candidate_summary candidate_ref="1" vote_total="470" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="238" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="224" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="179" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06252" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Greene" geog_id="null">
+					<result candidate_ref="1" vote="470" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="238" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="224" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="179" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06252" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06252">The Reporter (Washington, PA).  November 7, 1808.</reference>
+</election_record>

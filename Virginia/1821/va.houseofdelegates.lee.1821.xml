@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1821 House of Delegates, Lee County" type="General" iteration="First Ballot" date="1821" election_id="va.houseofdelegates.lee.1821" handle="10427/33612" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Stephen T. Neill" name_id="NS0029" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Andrew MacMillan" name_id="MA0240" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Yearry" name_id="YW0011" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-13">
+				<candidate_summary candidate_ref="1" vote_total="164" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="149" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="122" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09322" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Lee" geog_id="null">
+					<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="122" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09322" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09322">Richmond Enquirer (Richmond, VA).  May 15, 1821.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1799 Public Printer" type="Legislative" iteration="First Ballot" date="1799-11" election_id="nc.stateprinter.1799" handle="10427/43681" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Public Printer" office_id="ON083" scope="State">
+        <role title="Public Printer" scope="State">
+            <ballot>
+                <candidate name="Hodge and Boylan" name_id="BH0060" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Joseph Gales" name_id="GJ0043" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Allmand Hall" name_id="HA0036" affiliation="null" affiliation_id="null" candidate_num="3"></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-02-14">
+                <candidate_summary candidate_ref="1" vote_total="107" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="36" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="17" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17334" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"In the nomination made by this house yesterday for a public Printer, the name of Abraham Hodge was inserted; which ought to have been Hodge and Boylan."  North Carolina State Senate Journal, 1800.  7.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17334" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Journal of the North Carolina State Senate, 1800.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17334">The North-Carolina Minerva, and Raleigh Advertiser (Raleigh, NC).  November 26, 1799.</reference>
+</election_record>

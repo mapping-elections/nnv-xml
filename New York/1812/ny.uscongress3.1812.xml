@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 U.S. House of Representatives, District 3" type="General" iteration="First Ballot" date="1812" election_id="ny.uscongress3.1812" handle="10427/25507" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Peter DeNoyelles" name_id="DP0026" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Valentine Morris" name_id="MR0070" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Pierre Van Cortlandt, Jr." name_id="VP0039" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-03">
+				<candidate_summary candidate_ref="1" vote_total="1404" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1307" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="569" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00658" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The National Advocate (New York, NY) and The Columbian (New York, NY) report 1390 votes for Peter DeNoyelles, 1254 votes for Richard Valentine Morris, and 560 votes for Pierre Van Cortlandt, Jr.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Three" geog_id="null">
+					<result candidate_ref="1" vote="1404" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1307" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="569" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Rockland" geog_id="null">
+						<result candidate_ref="1" vote="401" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="55" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00658" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Richard Valentine Morris received 43 votes as Richard Morris.</note>
+						<note resp="Philip Lampi">Peter D. Noyelles received 1 vote as Deter D. Noyelles.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Westchester" geog_id="null">
+						<result candidate_ref="1" vote="1003" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1214" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="514" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00658" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Richard Valentine Morris received 4 votes as Richard Morris, 2 votes as Valentine Morris, 1 vote as Robert Valentine Morris, and 1 vote as Walentine Morris.</note>
+						<note resp="Philip Lampi">Pierre Van Cortlandt, Jr. received 7 votes as Pierre Van Cortlandt, 1 vote as Peare Van Cortlandt, 1 vote as Pearow Van Cortlandt, and 1 vote as Perow Van Cortlandt.</note>
+						<note resp="Philip Lampi">The National Advocate (New York, NY) and The Columbian (New York, NY) report 989 votes for Peter DeNoyelles, 1199 votes for Richard Valentine Morris, and 467 votes for Pierre Van Cortlandt, Jr. in Westchester County.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Columbian (New York, NY).  December 28, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">National Advocate (New York, NY).  December 28, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00658">The Albany Register (Albany, NY) (Supplement).  January 26, 1813.</reference>
+</election_record>

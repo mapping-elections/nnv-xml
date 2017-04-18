@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1792 Sheriff, New Castle County" type="General" iteration="First Ballot" date="1792" election_id="de.sheriff.newcastle.1792" handle="10427/44049" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Daniel J. Adams" name_id="AD0002" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Crow" name_id="CJ0116" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="725" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="514" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11937" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="New Castle" geog_id="des_newcastle">
+					<result candidate_ref="1" vote="725" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="514" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11937" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11937">The Delaware Gazette (Wilmington, DE).  October 6, 1792.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11937">General Advertiser (Philadelphia, PA).  October 13, 1792.</reference>
+	<reference type="citation" resp="Philip Lampi">Newspaper clipping from manuscript collection at the University of Delaware - no source given.</reference>
+</election_record>

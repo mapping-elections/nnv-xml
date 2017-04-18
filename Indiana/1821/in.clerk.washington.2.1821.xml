@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1821 Clerk, Washington County" type="General" iteration="First Ballot" date="1821-03" election_id="in.clerk.washington.2.1821" handle="10427/56466" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk" office_id="ON023" scope="County">
+		<role title="Clerk" scope="County">
+			<ballot>
+				<candidate name="John De Pauw" name_id="DJ0639" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Green" name_id="GJ0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Woolfington" name_id="WJ0118" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="483" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="198" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="12" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"At the late election for clerk in the county of Washington, Gen. DePauw was again successful."  New-Albany Chronicle (New-Albany, IN).  March 17, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="483" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Albany Chronicle (New-Albany, IN).  March 17, 1821.</reference>
+</election_record>

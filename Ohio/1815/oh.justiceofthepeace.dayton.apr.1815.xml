@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1815 Justice of the Peace, Montgomery County, Dayton Township" type="General" iteration="First Ballot" date="1815-04" election_id="oh.justiceofthepeace.dayton.apr.1815" handle="10427/59517" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Justice of the Peace" office_id="ON068" scope="Township">
+        <role title="Justice of the Peace" scope="Township">
+            <ballot>
+                <candidate name="Isaac G. Burnet" name_id="BI0031" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Kerr" name_id="KJ0057" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Charles Smith" name_id="SC0027" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Joseph Kerr" name_id="KJ0058" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="William H. Smith" name_id="SW0134" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-06">
+                <candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="57" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="15" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <sub_unit type="Township" name="Dayton" geog_id="null">
+                        <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  100.</reference>
+</election_record>

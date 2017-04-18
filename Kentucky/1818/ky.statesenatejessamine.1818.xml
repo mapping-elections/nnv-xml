@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Kentucky 1818 State Senate, Jessamine and Woodford Counties" type="General" iteration="First Ballot" date="1818" election_id="ky.statesenatejessamine.1818" handle="10427/28271" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="State Senate" office_id="ON109" scope="State">
+    <role title="State Senator" scope="District">
+      <ballot>
+        <candidate name="William B. Blackburn" name_id="BW0080" affiliation="Against New Election" affiliation_id="A09" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Herman Bowmar" name_id="BH0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2008-05-29">
+        <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Kentucky" geog_id="null">
+        <sub_unit type="District" name="Jessamine and Woodford" geog_id="null">
+          <sub_unit type="County" name="Jessamine" geog_id="null">
+            <result candidate_ref="1" vote="503" resp="Philip Lampi"/>
+            <result candidate_ref="2" vote="359" resp="Philip Lampi"/>
+            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01846" resp="Philip Lampi"/>
+          </sub_unit>
+          <sub_unit type="County" name="Woodford" geog_id="null">
+            <result candidate_ref="1" resp="Philip Lampi"/>
+            <result candidate_ref="2" resp="Philip Lampi"/>
+          </sub_unit>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01846">The Western Monitor (Lexington, KY).  August 8, 1818.</reference>
+</election_record>

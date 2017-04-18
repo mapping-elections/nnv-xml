@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1803 House of Representatives, Danbury" type="General" iteration="First Ballot" date="1803-04" election_id="ct.staterepresentative.danbury.sep.1803" handle="10427/79658" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Clark" name_id="CJ0048" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel B. Cooke" name_id="CD0004" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel H. Phillips" name_id="PS0004" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Joshua Benedict" name_id="BJ1549" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-01">
+				<candidate_summary candidate_ref="1" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="117" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="116" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"September Election 1803 - Representatives: Last fall [1803] the federal candidate for member of Assembly in this place had 165 votes.... Last year the Republican Candidate for member of Assembly had 116 votes."  Republican Farmer (Danbury, CT).  April 11, 1804.</note>
+				<note resp="Philip Lampi">"September Election - James Clark and Daniel B. Cooke, Esq's. were elected representative. They received about 165 votes each. Mr. Phillips had 117."  Republican Farmer (Danbury, CT).  September 11, 1805.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Danbury" geog_id="null">
+					<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="165" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="117" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="116" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Republican Farmer (Danbury, CT).  April 11, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Farmer (Danbury, CT).  September 11, 1805.</reference>
+</election_record>

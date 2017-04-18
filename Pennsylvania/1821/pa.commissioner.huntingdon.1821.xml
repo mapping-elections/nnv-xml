@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Commissioner, Huntingdon County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.commissioner.huntingdon.1821" handle="10427/67984" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Stewart" name_id="SJ1098" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="James Oliver" name_id="OJ0126" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-24">
+				<candidate_summary candidate_ref="1" vote_total="1315" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1188" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="1315" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1188" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Republican Advocate (Huntingdon, PA), October 18, reports 1318 votes for John Stewart and 1118 for James Oliver, though the township votes listed add up to 1315 for Stewart and 1188 for Oliver.</note>
+					<sub_unit type="Borough" name="Alexandria" geog_id="null">
+						<result candidate_ref="1" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Antis" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Dublin" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Frankstown" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" vote="329" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Shaver's Creek" geog_id="null">
+						<result candidate_ref="1" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shirley" geog_id="null">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Springfield" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Tell" geog_id="null">
+						<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Warriors Mark" geog_id="null">
+						<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Woodbury" geog_id="null">
+						<result candidate_ref="1" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="127" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Republican Advocate (Huntingdon, PA).  October 18, 1821.</reference>
+</election_record>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Auditor, Erie County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.auditor.erie.1812" handle="10427/62464" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Elisha Marvin" name_id="ME0113" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Martin" name_id="MC0049" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Lytle" name_id="LJ0330" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-10">
+				<candidate_summary candidate_ref="1" vote_total="143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="131" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06539" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Erie" geog_id="null">
+					<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="131" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06539" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06539">The Crawford Weekly Messenger (Meadville, PA).  October 21, 1812.</reference>
+</election_record>

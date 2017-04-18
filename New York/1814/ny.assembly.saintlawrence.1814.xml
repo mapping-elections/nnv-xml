@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1814 Assembly, Saint Lawrence County" type="General" iteration="First Ballot" date="1814" election_id="ny.assembly.saintlawrence.1814" handle="10427/34264" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="David A. Ogden" name_id="OD0006" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Thomas J. Davis" name_id="DT0034" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-31">
+           <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Saint Lawrence" geog_id="null">
+              <result candidate_ref="1" resp="Philip Lampi"/>
+              <result candidate_ref="2" resp="Philip Lampi"/>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+</election_record>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1822 House of Delegates, Prince George's County" type="General" iteration="First Ballot" date="1822" election_id="md.assembly.prince.georges.county.1822" handle="10427/26443" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Benjamin B. Mackall" name_id="MB0034" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Benedict I. Semmes" name_id="SB0035" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Henry Culver" name_id="CH0069" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William T. Wooten" name_id="WW0107" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-05">
+				<candidate_summary candidate_ref="1" vote_total="472" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="428" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="424" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="420" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03301" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03302" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Prince George's" geog_id="null">
+					<result candidate_ref="1" vote="472" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="428" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="424" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="420" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03301" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03302" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03301">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Star, or, General Advertiser (Easton, MD).  October 22, 1822.</reference>
+</election_record>

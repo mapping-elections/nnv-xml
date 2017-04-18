@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1820 City Council, Baltimore, First Branch, Ward 11" type="General" iteration="First Ballot" date="1820" election_id="md.citycouncil.baltimore.firstbranch.ward11.1820" handle="10427/58216" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="Henry Honk" name_id="HH0016" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="H. P. Low" name_id="LH0020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Henry Brice" name_id="BH0037" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Griffith" name_id="GT0016" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-22">
+				<candidate_summary candidate_ref="1" vote_total="339" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="39" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Eleven" geog_id="null">
+						<result candidate_ref="1" vote="339" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="314" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="39" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American, and Commercial Daily Advertiser (Baltimore, MD).  October 3, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 3, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Morning Chronicle and Baltimore Advertiser (Baltimore, MD).  October 4, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Republican and Baltimore Telegraph (Baltimore, MD).  October 5, 1820.</reference>
+</election_record>

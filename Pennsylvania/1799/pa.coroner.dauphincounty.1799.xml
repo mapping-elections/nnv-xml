@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1799 Coroner, Dauphin County" type="General" iteration="First Ballot" date="1799-10" election_id="pa.coroner.dauphincounty.1799" handle="10427/61021" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Benjamin Kurtz" name_id="KB0003" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Samuel Berryhill" name_id="BS0243" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="William Connelly" name_id="CW0220" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-13">
+				<candidate_summary candidate_ref="1" vote_total="1540" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1016" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="505" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05596" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="1540" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1016" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="505" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05596" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05596">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 14, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">Unpartheyische Harrisburg Morgenrothe Zeitung (Harrisburg, PA).  October 15, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 16, 1799.</reference>
+</election_record>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 House of Representatives, Armstrong, Indiana and Jefferson Counties" type="General" iteration="First Ballot" date="1820-10" election_id="pa.assembly.armstrongindianajeffersoncounties.1820" handle="10427/63356" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Robert Orr, Jr." name_id="OR0014" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Mitchell" name_id="MR0161" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Sharp" name_id="ST0251" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Samuel Houston" name_id="HS0223" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-06">
+				<candidate_summary candidate_ref="1" vote_total="1700" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1104" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1016" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="808" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07038" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="1700" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1104" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1016" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="808" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" vote="1364" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="195" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="357" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="637" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Lancaster Intelligencer reports 159 votes for Robert Mitchell.</note>
+					</sub_unit>
+					<sub_unit type="District" name="Indiana and Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="336" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="909" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="659" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="171" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 21, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07038">American Sentinel (Philadelphia, PA).  October 25, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07038">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 4, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  November 8, 1820.</reference>
+</election_record>

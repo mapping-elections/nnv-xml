@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1815 House of Commons, Sampson County" type="General" iteration="First Ballot" date="1815-08" election_id="nc.houseofcommons.sampson.1815" handle="10427/43040" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="William Blackman" name_id="BW0234" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Matthews" name_id="MJ0563" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Herring" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-28">
+				<candidate_summary candidate_ref="1" vote_total="527" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="462" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="328" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05009" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18041" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Sampson" geog_id="null">
+					<result candidate_ref="1" vote="527" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="462" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="328" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05009" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18041" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05009">The Raleigh Minerva (Raleigh, NC).  August 18, 1815.</reference>
+</election_record>

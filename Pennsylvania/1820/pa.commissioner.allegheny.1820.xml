@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Commissioner, Allegheny County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.commissioner.allegheny.1820" handle="10427/67381" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Scull" name_id="SJ0886" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Miller" name_id="MB0092" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Baird" name_id="BT0248" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Edward Patchell" name_id="PE0110" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-17">
+				<candidate_summary candidate_ref="1" vote_total="1517" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1408" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="265" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="227" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">These totals are incomplete. They do not include those votes cast in Mifflin Township, which were returned late.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" vote="1517" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1408" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="265" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="227" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Mercury (Pittsburgh, PA).  October 18, 1820.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 Collector, Portland" type="General" iteration="First Ballot" date="1812" election_id="ma.collector.portland.1812" handle="10427/69909" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Collector" office_id="ON033" scope="Town">
+		<role title="Collector" scope="Town">
+			<ballot>
+				<candidate name="Joseph M. Gerrish" name_id="GJ0576" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-01">
+				<candidate_summary candidate_ref="1" vote_total="384" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="121" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="99" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="12" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Besides the votes for Mr. Gerrish, another federal candidate had 99."  Portland Gazette, and Maine Advertiser (Portland, ME).  March 9, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Portland" geog_id="null">
+					<result candidate_ref="1" vote="374" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="99" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Portland Gazette, and Maine Advertiser (Portland, ME).  March 9, 1812.</reference>
+</election_record>

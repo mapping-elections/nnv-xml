@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 State Senate, Hamilton County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.statesenator.hamilton.1824" handle="10427/60403" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Clayton Webb" name_id="WC0059" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Daniel Hosbrook" name_id="HD0077" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-10">
+                <candidate_summary candidate_ref="1" vote_total="1855" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1761" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+                    <result candidate_ref="1" vote="1855" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1761" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Anderson" geog_id="null">
+                        <result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Cincinnati" geog_id="null">
+                        <result candidate_ref="1" vote="692" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="820" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Colerain" geog_id="null">
+                        <result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Columbia" geog_id="null">
+                        <result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Crosby" geog_id="null">
+                        <result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Delhi" geog_id="null">
+                        <result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Miami" geog_id="null">
+                        <result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Mill-Creek" geog_id="null">
+                        <result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="74" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Springfield" geog_id="null">
+                        <result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="198" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Sycamore" geog_id="null">
+                        <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="230" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Symmes" geog_id="null">
+                        <result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Whitewater" geog_id="null">
+                        <result candidate_ref="1" vote="177" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">National Republican and Ohio Political Register (Cincinnati, OH).  October 22, 1824.</reference>
+</election_record>
+

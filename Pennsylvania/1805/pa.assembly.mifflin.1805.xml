@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 House of Representatives, Mifflin County" type="General" iteration="First Ballot" date="1805-10" election_id="pa.assembly.mifflin.1805" handle="10427/61562" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Beale" name_id="BW0278" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Wilson" name_id="WW0247" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Brown" name_id="BJ1047" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-08">
+				<candidate_summary candidate_ref="1" vote_total="1333" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="973" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="410" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06008" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="1333" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="973" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="410" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06008" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06008">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 26, 1805.</reference>
+</election_record>

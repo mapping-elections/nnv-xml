@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1811 Assembly, Seneca County" type="General" iteration="First Ballot" date="1811" election_id="ny.assembly.seneca.1811" handle="10427/66637" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Oliver C. Comstock" name_id="CO0016" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter LeConte" name_id="LP0049" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="James Van Horne" name_id="VJ0149" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Abraham Yost" name_id="YA0008" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="DeWitt Clinton" name_id="CD0092" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Casper M. Rouse" name_id="RC0067" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Nicholas Fish" name_id="FN0016" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="George W. Rogers" name_id="RG0024" affiliation="null" affiliation_id="null" candidate_num="8"/>
+				<candidate name="Jared Sanford" name_id="SJ0726" affiliation="null" affiliation_id="null" candidate_num="9"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-01">
+				<candidate_summary candidate_ref="1" vote_total="995" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="38" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">DeWitt Clinton and Nicholas Fish were candidates for Lieutenant Governor.  Casper M. Rouse and Jared Sanford were candidates for State Senate.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Seneca" geog_id="null">
+					<result candidate_ref="1" vote="995" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="9" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Oliver C. Comstock received 1 vote as C. Comstock and 1 vote as Oliver Comstock.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Hector" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Junius" geog_id="null">
+						<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ovid" geog_id="null">
+						<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="9" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Romulus" geog_id="null">
+						<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ulysses" geog_id="null">
+						<result candidate_ref="1" vote="233" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Wolcott" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

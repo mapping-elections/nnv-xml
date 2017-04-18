@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1797 House of Representatives, Augusta" type="General" iteration="First Ballot" date="1797" election_id="ma.staterepresentative.augusta.1797" handle="10427/68820" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Daniel Cony" name_id="CD0042" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Nathan Weston" name_id="WN0012" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-04-23">
+				<candidate_summary candidate_ref="1" vote_total="60" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="57" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Augusta" geog_id="null">
+					<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">North, James W.  The History of Augusta.  Augusta, ME: Clapp and Norton, 1870.  306.</reference>
+</election_record>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1805 Coroner, Montgomery County" type="General" iteration="First Ballot" date="1805-10" election_id="oh.coroner.montgomery.1805" handle="10427/58964" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="James Miller" name_id="MJ0096" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Folkerth" name_id="FJ0278" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Christian Frittz" name_id="FC0007" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-13">
+                <candidate_summary candidate_ref="1" vote_total="187" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="160" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Early Settlers of Montgomery County, Ohio mistakenly lists this election as being held in April, 1806.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Dayton" geog_id="null">
+                        <result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Elizabeth" geog_id="null">
+                        <result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="German" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Harding" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Randolph" geog_id="null">
+                        <result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Montgomery County Election Returns.</reference>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  92.</reference>
+</election_record>

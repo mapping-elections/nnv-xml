@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1811 House of Commons, Nash County" type="General" iteration="First Ballot" date="1811" election_id="nc.houseofcommons.nash.1811" handle="10427/43246" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Exum Philips" name_id="PE0080" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Michael Collins" name_id="CM0041" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Amos Gandy" name_id="GA0040" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel Westray" name_id="WS0141" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-17">
+				<candidate_summary candidate_ref="1" vote_total="434" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="377" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="327" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="88" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04903" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Nash" geog_id="null">
+					<result candidate_ref="1" vote="434" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="377" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="327" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="88" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04903" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04903">The Star (Raleigh, NC).  August 9, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 16, 1811.</reference>
+</election_record>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1803 U.S. Senate" type="Legislative" iteration="First Ballot" date="1803" election_id="ny.ussenate.special1.1803" handle="10427/65606" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John Woodworth" name_id="WJ0439" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Theodorus Bailey" name_id="BT0171" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Gouverneur Morris" name_id="MG0047" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-11">
+				<candidate_summary candidate_ref="1" vote_total="62" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="26" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="24" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09888" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09889" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09890" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">In choosing a United States Senator, each branch of the legislature voted separately. For a candidate to be elected, it was required that he receive a majority in both the State Senate and Assembly.  If that did not happen, then both brances would convene together and, in a joint ballot, choose from between the two highest candidates. In this election, no choice was made between the two branches, necessitating a joint ballot.</note>
+				<note resp="Philip Lampi">This election took place "in the room of the Hon. Gouerneur Morris, Esq. whose time of service expires on the 4th day of March next." American Citizen (New York, NY).  February 9, 1803.</note>
+				<note resp="Philip Lampi">A resolution nominating Theodorus Bailey as U.S. Senator on behalf of the State Senate was amended by a motion naming John Woodworth in the place of Theodurus Bailey.  The vote to replace Theodurus Bailey was 16 negative and 9 affirmative, thus confirming the original resolution endorsing Theodorus Bailey as the candidate nominated by he State Senate.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09889" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09890" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09889">Journal of the New York Assembly, 1803.  39-40.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York State Senate, 1803.  12-14.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09890">The Albany Register (Albany, NY).  February 4, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">American Citizen (New York, NY).  February 9, 1803.</reference>
+</election_record>

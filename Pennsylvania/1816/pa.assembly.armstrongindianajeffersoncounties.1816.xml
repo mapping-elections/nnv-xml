@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 House of Representatives, Armstrong, Indiana and Jefferson Counties" type="General" iteration="First Ballot" date="1816-10" election_id="pa.assembly.armstrongindianajeffersoncounties.1816" handle="10427/62928" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James M. Kelly" name_id="KJ0277" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joshua Lewis" name_id="LJ0387" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Simeon Hovey" name_id="HS0219" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David Lawson" name_id="LD0026" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="902" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="504" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="492" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="394" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06802" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="902" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="504" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="492" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="394" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06802" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06802" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Buffalo" geog_id="null">
+							<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="27" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Kittanning" geog_id="null">
+							<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="83" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="39" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06823" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Black Lick" geog_id="null">
+							<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+							<result candidate_ref="4" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Centre" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Borough" name="Indiana" geog_id="null">
+							<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="64" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Mahoning" geog_id="null">
+							<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="5" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The votes cast in Jefferson County are included in the Indiana County election returns.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06823">Greensburgh and Indiana Register (Greensburg, PA).  October 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06802">The Greensburgh Gazette (Greensburg, PA).  October 19, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  October 21, 1816.</reference>
+</election_record>

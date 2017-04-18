@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Coroner, York County" type="General" iteration="First Ballot" date="1811-10" election_id="pa.coroner.york.1811" handle="10427/62387" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Michael Gardner" name_id="GM0054" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Rouse" name_id="RJ0396" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-01">
+				<candidate_summary candidate_ref="1" vote_total="1895" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1893" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06514" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Despite Michael Gardner receiving the higher number of votes for coroner, "Gardner, however, being appointed sheriff, upon the resignation of Benjamin Hirsch, in 1811, did not receive any commission as coroner by reason whereof the person then in office (Dr. Thomas Jameson), was continued."  History of York County Pennsylvania, 108.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="1895" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1893" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06514" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06514">York Recorder (York, PA).  October 12, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 19, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Powell, George R.  History of York County Pennsylvania.  Vol. I.  Chicago: F.A. Battey Publishing, 1907.  108.</reference>
+</election_record>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Sheriff, Centre and Clearfield Counties" type="General" iteration="First Ballot" date="1821-10" election_id="pa.sheriff.centreclearfieldcounties.1821" handle="10427/67962" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="District">
+		<role title="Sheriff" scope="District">
+			<ballot>
+				<candidate name="Joseph Butler" name_id="BJ1249" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph B. Shugert" name_id="SJ1099" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Rankin" name_id="RJ0433" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Benjamin Goodwin" name_id="GB0045" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="J. Rothrock" name_id="RJ0477" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William MacMinn" name_id="MW0175" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-24">
+				<candidate_summary candidate_ref="1" vote_total="1103" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="387" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="288" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="263" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="192" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="144" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Centre and Clearfield" geog_id="null">
+					<result candidate_ref="1" vote="1103" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="387" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="288" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="263" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="192" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="144" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Centre" geog_id="null">
+						<result candidate_ref="1" vote="1030" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="279" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="223" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="135" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Bellefonte Patriot (Bellefonte, PA).  October 17, 1821.</reference>
+</election_record>

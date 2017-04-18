@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1824 Sheriff, Dorchester County" type="General" iteration="First Ballot" date="1824" election_id="md.sheriff.dorchester.county.1824" handle="10427/26416" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas H. Hicks" name_id="HT0056" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Andrew Banning" name_id="BA0085" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-20">
+				<candidate_summary candidate_ref="1" vote_total="1053" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="961" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03394" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03395" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+					<result candidate_ref="1" vote="1053" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="961" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03394" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03395" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03395">The American, and Commercial Daily Advertiser (Baltimore, MD).  October 15, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03394">Jones, Elias.  History of Dorchester County, Maryland.  1902 Baltimore: Williams and Wilkins, 1902.  149-150.</reference>
+</election_record>

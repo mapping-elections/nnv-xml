@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1799 Commissioner, Allegheny County" type="General" iteration="First Ballot" date="1799" election_id="pa.commissioner.alleghenycounty.1799" handle="10427/61008" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Johnston" name_id="JJ0191" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Nathan Plumer" name_id="PN0080" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-12">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05583" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Fayette" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Noblesburgh" geog_id="null">
+							<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05583" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">"... a true account of the number of Votes for each Candidate at the General Election, held at the house of Henry Noble, in Noblesburgh, for part of Fayette Township, 6th election district of Allegheny County."  Herald of Liberty (Washington, PA).  November 18, 1799.</note>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05583">The Herald of Liberty (Washington, PA).  November 18, 1799.</reference>
+</election_record>

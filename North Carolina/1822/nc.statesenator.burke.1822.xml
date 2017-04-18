@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1822 State Senate, Burke County" type="General" iteration="First Ballot" date="1822-08" election_id="nc.statesenator.burke.1822" handle="10427/45101" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Samuel P. Carson" name_id="CS0161" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="J. R. MacDowell" name_id="MJ0588" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Perkins" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-29">
+                <candidate_summary candidate_ref="1" vote_total="348" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="338" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="193" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18339" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Burke" geog_id="null">
+                    <result candidate_ref="1" vote="348" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="338" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="193" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18339" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18339">Western Carolinian (Salisbury, NC).  August 20, 1822.</reference>
+</election_record>

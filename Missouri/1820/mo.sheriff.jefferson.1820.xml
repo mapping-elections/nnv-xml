@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Missouri 1820 Sheriff, Jefferson County" type="General" iteration="First Ballot" date="1820" election_id="mo.sheriff.jefferson.1820" handle="10427/56576" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="George Hammond" name_id="HG0052" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Johnson" name_id="JS0043" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="version 1.0" modified="2009-02-10">
+				<candidate_summary candidate_ref="1" vote_total="215" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="27" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="mos">
+				<sub_unit type="County" name="Jefferson" geog_id="mos_jefferson">
+					<result candidate_ref="1" vote="215" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432">Missouri Gazette and Public Advertiser (Saint Louis, MO).  September 6, 1820.</reference>
+</election_record>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 State Senate, Coshocton, Guernsey, Morgan and Tuscarawas Counties" type="General" iteration="First Ballot" date="1819-10" election_id="oh.statesenator.coshoctonguernseymorgantuscarawas.1819" handle="10427/59751" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="David Robb" name_id="RD0046" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Simon Beymer" name_id="BS0228" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-07">
+				<candidate_summary candidate_ref="1" vote_total="1443" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="917" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05288" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Coshocton, Guernsey, Morgan and Tuscarawas" geog_id="null">
+					<result candidate_ref="1" vote="1443" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="917" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Coshocton" geog_id="ohs_coshocton">
+						<result candidate_ref="1" vote="327" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="400" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05272" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05288" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19360" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Guernsey" geog_id="ohs_guernsey">
+						<result candidate_ref="1" vote="433" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="442" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05276" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05288" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Morgan" geog_id="ohs_morgan">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05288" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Tuscarawas" geog_id="ohs_tuscarawas">
+						<result candidate_ref="1" vote="618" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05283" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05288" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05276">Muskingum Messenger (Zanesville, OH).  October 20, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05283">The Ohio Repository (Canton, OH).  October 22, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05288">Muskingum Messenger (Zanesville, OH).  October 27, 1819.</reference>
+</election_record>

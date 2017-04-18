@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1812" election_id="ny.uscongress4.1812" handle="10427/25784" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Thomas J. Oakley" name_id="OT0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Theodorus R. Van Wyck" name_id="VT0016" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-03">
+				<candidate_summary candidate_ref="1" vote_total="2000" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1489" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00658" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="2000" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1489" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dutchess" geog_id="null">
+						<result candidate_ref="1" vote="1687" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="944" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00658" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Amenia" geog_id="null">
+							<result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Beekman" geog_id="null">
+							<result candidate_ref="1" vote="317" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Dover" geog_id="null">
+							<result candidate_ref="1" vote="169" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Fishkill" geog_id="null">
+							<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="345" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Northeast" geog_id="null">
+							<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="165" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Pawlings" geog_id="null">
+							<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Poughkeepsie" geog_id="null">
+							<result candidate_ref="1" vote="307" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Stanford" geog_id="null">
+							<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Washington" geog_id="null">
+							<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Putnam" geog_id="null">
+						<result candidate_ref="1" vote="313" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="545" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Carmel" geog_id="null">
+							<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Thomas J. Oakley received 2 votes as Thomas P. Oakley and 1 vote as Thomas J. Oakley, Jun.</note>
+						</sub_unit>
+						<sub_unit type="Town" name="Frederick" geog_id="null">
+							<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Patterson" geog_id="null">
+							<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Phillipstown" geog_id="null">
+							<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Southeast" geog_id="null">
+							<result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Thomas J. Oakley received 2 votes as Thomas P. Oakley.</note>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi">Original Election Books.  Dutchess County Historian, Poughkeepsie.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00658">The Albany Register (Albany, NY) (Supplement).  January 26, 1813.</reference>
+</election_record>

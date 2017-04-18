@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1825 U.S. House of Representatives, District 8" type="General" iteration="First Ballot" date="1825" election_id="tn.congress.8th.1825" handle="10427/65029" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="John H. Marable" name_id="MJ1391" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James B. Reynolds" name_id="RJ0680" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Willie Blount" name_id="BW0403" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-11-25">
+                <candidate_summary candidate_ref="1" vote_total="2177" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1922" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1533" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08154" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Eight" geog_id="null">
+                    <result candidate_ref="1" vote="2177" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1922" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1533" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Dickson" geog_id="null">
+                        <result candidate_ref="1" vote="410" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="362" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08154" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Hickman" geog_id="null">
+                        <result candidate_ref="1" vote="337" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="461" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="122" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17095" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Humphreys" geog_id="null">
+                        <result candidate_ref="1" vote="270" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="249" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="123" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17095" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The Nashville Whig (Nashville, TN) listed 269 votes for James B. Reynolds in Humphreys County.</note>
+                    </sub_unit>
+                    <sub_unit type="County" name="Montgomery" geog_id="null">
+                        <result candidate_ref="1" vote="620" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="526" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17095" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The Nashville Whig (Nashville, TN) corrected its returns report of August 13, 1825 in its issue of August 20, 1825. The corrected issue listed 167 votes for James B. Reynolds in Montgomery County.</note>
+                    </sub_unit>
+                    <sub_unit type="County" name="Robertson" geog_id="null">
+                        <result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="796" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="295" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17095" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Stewart" geog_id="null">
+                        <result candidate_ref="1" vote="426" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="105" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17095" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17089">Nashville Republican (Nashville, TN).  August 13, 1825.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17095">The Nashville Whig (Nashville, TN).  August 13, 1825.</reference>
+</election_record>

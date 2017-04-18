@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1804 Electoral College, District 4" type="General" iteration="First Ballot" date="1804" election_id="tn.electoralcollgedistrict4.1804" handle="10427/64905" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="District">
+            <ballot>
+                <elector name="William Martin" name_id="MW0387" affiliation="null" affiliation_id="null" declared_for="null" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-23">
+                <elector_summary elector_ref="1"  resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16671" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"In concurrence with the executive recommendation, a law was enacted on November 3, 1803, dividing the state into five sections and providing that each section was entitled to elect one elector who was empowered to cast his vote for President and Vice-President of the Unites States. The 'sections' as they were specified in the law were as follows: Fourth; Jackson, Smith, Wilson, and Sumner counties."  Messages of the Governors of Tennessee, 1796-1821</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="Four" geog_id="tns_hawkins">
+                    <sub_unit type="County" name="Jackson" geog_id="tns_jackson">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Smith" geog_id="tns_smith">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+                    <sub_unit type="County" name="Sumner" geog_id="tns_sumner">
+                        <result elector_ref="1"  resp="Philip Lampi"/>
+                    </sub_unit>
+                <sub_unit type="County" name="Wilson" geog_id="tns_wilson">
+                    <result elector_ref="1"  resp="Philip Lampi"/>
+                </sub_unit>
+              </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16671">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi">White, Robert Hiram.  Messages of the Governors of Tennessee, 1796-1821.  Vol. 1.  Nashville: The Tennessee Historical Commission, 1952.</reference>
+</election_record>

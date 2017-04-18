@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1801 House of Delegates, Norfolk County" type="General" iteration="First Ballot" date="1801" election_id="va.houseofdelegates.norfolk.1801" handle="10427/32925" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Arthur Lee" name_id="LA0120" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James S. Mathews" name_id="MJ1231" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Callis" name_id="CJ1101" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Robert Butt" name_id="BR0171" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Thomas Sheppard" name_id="ST0138" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Bernard Magnum" name_id="MB0101" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Samuel C. Haten" name_id="HS0262" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-14">
+				<candidate_summary candidate_ref="1" vote_total="155" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="133" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="66" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="33" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08438" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08439" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Norfolk" geog_id="null">
+					<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="133" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="33" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08438" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08438">Original Election Returns.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08439">Epitome of the Times (Norfolk, VA).  April 24, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

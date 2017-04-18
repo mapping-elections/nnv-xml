@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 Town Clerk, Boston, Special" type="Special" iteration="First Ballot" date="1809-12" election_id="ma.townclerk.boston.special.1809" handle="10427/69137" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Town">
+		<role title="Town Clerk" scope="Town">
+			<ballot>
+				<candidate name="Thomas Clark" name_id="CT0156" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Russell" name_id="RJ0132" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Charles Bulfinch" name_id="BC0029" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-26">
+				<candidate_summary candidate_ref="1" vote_total="789" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="672" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="108" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to replace William Cooper, who died on November 28, 1809 at age 88, having held the office for 49 years.</note>
+				<note resp="Philip Lampi">"The Inhabitants were desired to bring in their Votes for a Town Clerk, and it was Voted, to close the poll at 12 O'Clock.  The Votes, being counted, it appeared that the whole number was 1587 and that 794 was necessary for a choice . . . no person had a majority of votes; whereupon Voted, To adjourn the Meeting for choice of Town Clerk, untill tomorrow 14th at 10 O'Clock."  Boston Town Records.  259.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<result candidate_ref="1" vote="789" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="672" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="108" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Town Records.  259.</reference>
+</election_record>

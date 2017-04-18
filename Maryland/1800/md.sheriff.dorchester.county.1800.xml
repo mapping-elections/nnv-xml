@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1800 Sheriff, Dorchester County" type="General" iteration="First Ballot" date="1800" election_id="md.sheriff.dorchester.county.1800" handle="10427/26971" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Ezekiel Richardson" name_id="RE0012" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas J. Pattison" name_id="PT0053" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-01">
+				<candidate_summary candidate_ref="1" vote_total="857" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="760" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02243" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14166" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+					<result candidate_ref="1" vote="857" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="760" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02243" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14166" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02243">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

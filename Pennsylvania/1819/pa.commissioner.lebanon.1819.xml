@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Commissioner, Lebanon County" type="General" iteration="First Ballot" date="1819" election_id="pa.commissioner.lebanon.1819" handle="10427/63282" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Peter Wolfersberger" name_id="WP0109" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Christian Gehert" name_id="GC0066" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Leonard Ramler" name_id="RL0036" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Jacob Schwar" name_id="SJ1328" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-03">
+				<candidate_summary candidate_ref="1" vote_total="1296" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1246" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="803" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="762" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06996" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06997" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="1296" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1246" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="803" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="762" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06996" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06997" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA) lists 808 votes for Leonard Ramler.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 19, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06996">Franklin Gazette (Philadelphia, PA).  October 20, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06996">The Union. United States Gazette and True American (Philadelphia, PA).  October 21, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06997">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 23, 1819.</reference>
+</election_record>

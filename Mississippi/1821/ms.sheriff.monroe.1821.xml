@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 Sheriff, Monroe County" type="General" iteration="First Ballot" date="1821-04" election_id="ms.sheriff.monroe.1821" handle="10427/79931" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Bartlet Sims" name_id="SB0154" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel MacKinzie" name_id="MD0216" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-18">
+				<candidate_summary candidate_ref="1" vote_total="245" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="166" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Monroe" geog_id="null">
+					<result candidate_ref="1" vote="245" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="166" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Columbus" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Henry Green's" geog_id="null">
+						<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Stephen Smith's" geog_id="null">
+						<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

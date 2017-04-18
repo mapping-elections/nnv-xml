@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Speaker of the House" type="Legislative" iteration="First Ballot" date="1800-11" election_id="pa.speakerofthehouse.1800" handle="10427/61151" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the House" office_id="ON104" scope="State">
+		<role title="Speaker of the House" scope="State">
+			<ballot>
+				<candidate name="Isaac Weaver" name_id="WI0042" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonas Preston" name_id="PJ0428" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Penrose" name_id="PW0209" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Alexander Scott" name_id="SA0184" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-27">
+				<candidate_summary candidate_ref="1" vote_total="53" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="20" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10777" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Extract of a letter from a gentleman in Lancaster, to the Editor of the Herald, dated November 8th, 1800: 'On Wednesday the 5th instant, seventy five members of the House of Representatives met, after reading the returns of the general election, proceeded to the choice of a Speaker ... it appeared Isaac Weaver was duly elected Speaker, on Friday the 7th.'"  Herald of Liberty (Washington, PA).  December 1, 1800.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+				<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10777" resp="Philip Lampi"/>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10777">The Herald of Liberty (Washington, PA).  December 1, 1800.</reference>
+</election_record>

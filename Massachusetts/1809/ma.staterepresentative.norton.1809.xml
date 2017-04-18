@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1809 House of Representatives, Norton" type="General" iteration="First Ballot" date="1809-05" election_id="ma.staterepresentative.norton.1809" handle="10427/27755" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Bryant Hall" name_id="HB0085" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Shepard" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-19">
+				<candidate_summary candidate_ref="1" vote_total="135" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03516" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03517" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03518" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Norton" geog_id="null">
+					<result candidate_ref="1" vote="135" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03516" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03517" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03518" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"From Taunton, May 4 - 'Norton has awoke!' - Federalism arising, has triumphed, and given us Major Hall."  New-Bedford Mercury (New Bedford, MA).  May 5, 1809.</note>
+					<note resp="Philip Lampi">"2 or 3 scattering votes."  New-Bedford Mercury (New Bedford, MA).  May 5, 1809.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03516">New-Bedford Mercury (New Bedford, MA).  May 5, 1809.</reference>
+</election_record>

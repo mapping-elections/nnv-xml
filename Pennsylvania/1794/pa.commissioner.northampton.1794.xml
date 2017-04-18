@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 Commissioner, Northampton County" type="General" iteration="First Ballot" date="1794-10" election_id="pa.commissioner.northampton.1794" handle="10427/66011" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Horn" name_id="HJ0212" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jacob Schreiber" name_id="SJ0259" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Adam Heckman" name_id="HA0146" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-12">
+				<candidate_summary candidate_ref="1" vote_total="392" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="327" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="321" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="392" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="327" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="321" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Neuer Unpartheyischer Eastoner Bothe, und Northamptoner Kundschafter (Easton, PA).  October 22, 1794.</reference>
+</election_record>

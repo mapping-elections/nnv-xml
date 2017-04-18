@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1815 House of Commons, Rowan County" type="General" iteration="First Ballot" date="1815" election_id="nc.houseofcommons.rowan.1815" handle="10427/43054" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Jesse A. Pearson" name_id="PJ0354" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George MacCulloch" name_id="MG0058" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Moore" name_id="MR0087" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Daniel Hunt" name_id="HD0065" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-29">
+				<candidate_summary candidate_ref="1" vote_total="1529" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1476" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="846" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="832" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05004" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18041" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Rowan" geog_id="null">
+					<result candidate_ref="1" vote="1529" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1476" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="846" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="832" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05004" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18041" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Thompson's Mile" geog_id="null">
+						<result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05005" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Misplaced Tickets: Congress Box -- Bodenhammer 4. Senate Box -- Joseph Pearson 3; for Hunt and Moore 1. Commons Box -- Bodenhammer 1, Leatherman 1."  Original Election Returns.  State Archives of North Carolina, Raleigh.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05005">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05004">The Raleigh Minerva (Raleigh, NC).  August 25, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05004">The Star (Raleigh, NC).  August 25, 1815.</reference>
+</election_record>

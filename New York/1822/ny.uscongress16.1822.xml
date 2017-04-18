@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 U.S. House of Representatives, District 16" type="General" iteration="First Ballot" date="1822" election_id="ny.uscongress16.1822" handle="10427/31625" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John W. Cady" name_id="CJ0528" affiliation="Clintonian/Federalist" affiliation_id="A05" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Sheldon" name_id="SA0122" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Alfred Conkling" name_id="CA0117" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jesse J. De Graaf" name_id="DJ0281" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Adam Smith" name_id="SA0142" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-28">
+				<candidate_summary candidate_ref="1" vote_total="2215" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2148" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01078" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">John W. Cady received 1 vote as J. W. Cady and 1 vote as W. Cady.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="Sixteen" geog_id="null">
+					<result candidate_ref="1" vote="2215" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2148" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="2215" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2148" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01078" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Mohawk Herald (Amsterdam, NY).  November 20, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01077">The Albany Argus (Albany, NY).  December 6, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  December 10, 1822.</reference>
+</election_record>

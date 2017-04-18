@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1802 House of Representatives, Norwalk" type="General" iteration="Second Ballot" date="1802-09" election_id="ct.representative.norwalk.1802" handle="10427/79653" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William M. Betts" name_id="BW0009" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Phenias Miller" name_id="MP0115" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-21">
+				<candidate_summary candidate_ref="1" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="30" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"We again rejoice at the opportunity of greeting our fellow citizens with the happy news of Republicanism Triumphant. .... in their semi-annual meeting, held yesterday, made choice of Mr. William M. Betts and Dr. Phenias Miller."  Independent Republican (Norwalk, CT).  October 6, 1802.</note>
+				<note resp="Philip Lampi">"In our last, we had the pleasure to announce the success of the Republican Ticket .... we feel much gratified in giving the following correct statement of the vote."  Independent Republican (Norwalk, CT).  October 6, 1802.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Norwalk" geog_id="null">
+					<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Independent Republican (Norwalk, CT).  October 6, 1802.</reference>
+</election_record>

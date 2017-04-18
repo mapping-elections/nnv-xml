@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Coroner, Cumberland County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.coroner.cumberland.1810" handle="10427/62166" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William Irvine" name_id="IW0012" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jacob Myers" name_id="MJ1043" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-13">
+				<candidate_summary candidate_ref="1" vote_total="2200" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1907" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06389" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="2200" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1907" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Buffalo" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="660" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="485" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Kritzer" geog_id="null">
+						<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="113" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Landisburgh" geog_id="null">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Newville" geog_id="null">
+						<result candidate_ref="1" vote="399" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="399" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Petersburgh" geog_id="null">
+						<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Shippensburgh" geog_id="null">
+						<result candidate_ref="1" vote="261" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Toboine" geog_id="null">
+						<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06389">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Carlisle Herald (Carlisle, PA).  October 19, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Weekly Carlisle Gazette (Carlisle, PA).  October 19, 1810.</reference>
+</election_record>

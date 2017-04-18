@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1822 State Senate, Greene, Hancock, Jackson and Perry Counties" type="General" iteration="First Ballot" date="1822" election_id="ms.statesenate.greenehancockjacksonperry.1822" handle="10427/79964" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Laughlin MacKay" name_id="ML0076" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Noel Jourdan" name_id="JN0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-19">
+				<candidate_summary candidate_ref="1" vote_total="443" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="288" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Greene, Hancock, Jackson and Perry" geog_id="null">
+					<result candidate_ref="1" vote="443" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="288" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Greene" geog_id="null">
+						<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Hancock" geog_id="null">
+						<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Frazer's" geog_id="null">
+							<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Red Creek" geog_id="null">
+							<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Shieldsborough" geog_id="null">
+							<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Slackhouse's" geog_id="null">
+							<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Jackson" geog_id="null">
+						<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Perry" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

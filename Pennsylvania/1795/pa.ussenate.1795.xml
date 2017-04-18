@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 U.S. Senate" type="Legislative" iteration="First Ballot" date="1795-02" election_id="pa.ussenate.1795" handle="10427/60839" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="William Bingham" name_id="BW0271" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Muhlenberg" name_id="MP0089" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="58" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="35" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09974" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"This day the Legislature of this Commonwealth elected William Bingham, Esq. Senator of the United States, in the room of Robert Morris, Esq. whose term will expire the third of March next; and who has declined a re-election."  Gazette of the United States (Philadelphia, PA).  February 26, 1795.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Five members of the House of Representatives failed to vote.</note>
+					</sub_unit>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Four members of the Senate failed to vote.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09974">Gazette of the United States (Philadelphia, PA).  February 26, 1795.</reference>
+</election_record>

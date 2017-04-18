@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1803 Assembly, Delaware County" type="General" iteration="First Ballot" date="1803" election_id="ny.assembly.delaware.1803" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/26188" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Elias Osborn" name_id="OE0012" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Gabriel North" name_id="NG0009" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Sherwood" name_id="SS0183" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Benjamin Beardsley" name_id="BB0045" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-29">
+				<candidate_summary candidate_ref="1" vote_total="746" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="639" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="476" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="352" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04215" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="746" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="639" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="476" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="352" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04215" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04215">Republican Watch-Tower (New York, NY).  May 21, 1803.</reference>
+</election_record>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1787 House of Delegates, Baltimore" type="General" iteration="First Ballot" date="1787" election_id="md.delegate.general.assembly.baltimore.city.1787" handle="10427/34028" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="Town">
+			<ballot>
+				<candidate name="Samuel Chase" name_id="CS0019" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="David MacMechen" name_id="MD0029" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James MacHenry" name_id="MJ0196" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Philip Rogers" name_id="RP0008" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2005-12-22">
+				<candidate_summary candidate_ref="1" vote_total="612" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="593" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="206" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="168" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02148" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Baltimore" geog_id="null">
+					<sub_unit type="Town" name="Baltimore" geog_id="null">
+						<result candidate_ref="1" vote="612" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="593" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="168" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02148" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02148">The Maryland Journal, and the Baltimore Advertiser (Baltimore, MD).  October 5, 1787.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02148">The Maryland Chronicle, or the Universal Advertiser (Fredericktown, MD).  October 17, 1787.</reference>
+</election_record>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1791 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1791-10" election_id="pa.uscongress2.1791" handle="10427/60709" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Frederick A. Muhlenberg" name_id="MF0016" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Amos Gregg" name_id="GA0063" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Jones" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-31">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00029" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05419" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<sub_unit type="County" name="Bucks" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Newtown" geog_id="null">
+							<result candidate_ref="1" vote="707" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="825" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="210" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Smithfield" geog_id="null">
+							<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">"The vote in Smithfield may be a delegate vote for nomination."  Pennsylvania Correspondent.  October 7, 1791.</note>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Delaware" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 7, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States (Philadelphia, PA).  October 15, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05419">The Pennsylvania Mercury, and Philadelphia Price-Current (Philadelphia, PA).  October 15, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA).  October 19, 1791.</reference>
+</election_record>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 House of Representatives, Delaware County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.assembly.delaware.1816" handle="10427/66871" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Samuel Anderson" name_id="AS0059" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Cheyney" name_id="CW0255" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George G. Leiper" name_id="LG0067" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Henry Forrest" name_id="FH0038" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="1061" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1043" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="694" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="689" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA) lists the name "Thomas Forrest" in place of "Henry Forrest." October 16, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="1061" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1043" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="694" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="689" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="248" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="244" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="243" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="241" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="296" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="289" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="105" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="207" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="316" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="311" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="136" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Several newspaper sources report 326 votes for Samuel Anderson, 320 votes for William Cheney, and 140 votes for George G. Leiper in Newton Township, including the October 11th edition of The Freeman's Journal and Columbian Chronicle (Philadelphia, PA), the October 11th edition of Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA), and the October 19th edition of The Berks and Schuylkill Journal (Reading, PA).</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 11, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  October 11, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 14, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 15, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 16, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  October 19, 1816.</reference>
+</election_record>

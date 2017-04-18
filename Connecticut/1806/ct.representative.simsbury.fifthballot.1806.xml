@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1806 House of Representatives, Simsbury, Ballot 5" type="General" iteration="Fifth Ballot" date="1806" election_id="ct.representative.simsbury.fifthballot.1806" handle="10427/19613" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William Mather" name_id="MW0010" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Noah A. Phelps" name_id="PN0004" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-13">
+				<candidate_summary candidate_ref="1" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="232" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01535" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">After the fifth ballot, as it was late, there was a motion to dissolve the meeting, which passed, but many objected and although some voters had left, the meeting proceeded. There was much discussion about this and conflicting details were reported in the Connecticut Courant and American Mercury.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Simsbury" geog_id="null">
+					<result candidate_ref="1" vote="232" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="232" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01535" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  April 23, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">New England Republican (Danbury, CT).  April 29, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01535">Litchfield Monitor (Litchfield, CT).  April 30, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  May 8, 1806.</reference>
+</election_record>

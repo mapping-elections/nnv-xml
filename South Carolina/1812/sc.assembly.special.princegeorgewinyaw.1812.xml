@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1812 House of Representatives, Prince George, Winyah Parish, Special" type="Special" iteration="First Ballot" date="1812-12" election_id="sc.assembly.special.princegeorgewinyaw.1812" handle="10427/31764" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="Benjamin Huger" name_id="HB0145" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas R. Mitchell" name_id="MT0226" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Carr" name_id="CT0223" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-10">
+				<candidate_summary candidate_ref="1" vote_total="154" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="11" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07702" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was held because Benjamin Huger had successfully contested the previous election of Thomas R. Mitchell, who was disqualified on November 28, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Prince George, Winyah" geog_id="null">
+					<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07702" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07702">Charleston Courier (Charleston, SC).  December 19, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  285.</reference>
+</election_record>

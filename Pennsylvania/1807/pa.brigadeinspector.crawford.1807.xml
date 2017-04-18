@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Brigade Inspector, Crawford County" type="General" iteration="First Ballot" date="1807-07" election_id="pa.brigadeinspector.crawford.1807" handle="10427/61737" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Brigade Inspector" office_id="ON016" scope="County">
+		<role title="Brigade Inspector" scope="County">
+			<ballot>
+				<candidate name="Joseph Hackney" name_id="HJ0895" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Bevan Pearson" name_id="PB0072" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Clark" name_id="CW0231" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-08">
+				<candidate_summary candidate_ref="1" vote_total="158" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="105" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="19" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06132" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"At an election held yesterday at the court house in this town for militia officers of the 137th regement the votes were given as follows:" The Crawford Weekly Messenger (Meadville, PA).  July 9, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="158" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="105" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06132" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06132">The Crawford Weekly Messenger (Meadville, PA).  July 9, 1807.</reference>
+</election_record>

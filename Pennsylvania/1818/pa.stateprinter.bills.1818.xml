@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 State Printer, Bills" type="Legislative" iteration="First Ballot" date="1818" election_id="pa.stateprinter.bills.1818" handle="10427/63208" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Public Printer" office_id="ON083" scope="State">
+		<role title="Public Printer" scope="State">
+			<ballot>
+				<candidate name="John S. Westling" name_id="WJ0849" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Green" name_id="GW0154" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Hamilton and MacSwaine" name_id="MH0107" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-15">
+				<candidate_summary candidate_ref="1" vote_total="50" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10831" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10831" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10831">Franklin Gazette (Philadelphia, PA).  December 9, 1818.</reference>
+</election_record>

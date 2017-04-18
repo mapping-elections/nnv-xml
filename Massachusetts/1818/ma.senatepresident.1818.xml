@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1818 Senate President" type="Legislative" iteration="First Ballot" date="1818-05" election_id="ma.senatepresident.1818" handle="10427/27686" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Senate President" office_id="ON098" scope="State">
+		<role title="Senate President" scope="State">
+			<ballot>
+				<candidate name="John Phillips" name_id="PJ0215" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William King" name_id="KW0033" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-11-03">
+				<candidate_summary candidate_ref="1" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="12" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10524" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10524" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The whole number of votes was 33.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10524">Boston Patriot and Daily Chronicle (Boston, MA).  May 30, 1818.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1795 House of Representatives, Hallowell, Special" type="Special" iteration="First Ballot" date="1795-05" election_id="ma.staterepresentative.hallowell.1795" handle="10427/69277" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Bridge" name_id="BJ0319" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Amos Stoddard" name_id="SA0072" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Howard" name_id="HW0088" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-28">
+				<candidate_summary candidate_ref="1" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="12" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Daniel Cony was chosen Representative, and having been elected Senator a meeting was called to fill the vacancy, when the question of sending a representative was considered and one hundred and four polled in favor of sending to fifty against."  The History of Augusta.  260.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Hallowell" geog_id="null">
+					<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">North, James W.  The History of Augusta.  Augusta, ME: Clapp and Norton, 1870.  260.</reference>
+</election_record>

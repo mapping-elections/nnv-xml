@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Coroner, Philadelphia City and Philadelphia County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.coroner.philadelphiacitycounty.1820" handle="10427/63398" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Dennis" name_id="DJ0414" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lewis Rush" name_id="RL0016" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Jacob Fitler" name_id="FJ0361" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="George Ritter" name_id="RG0075" affiliation="Old School Republican" affiliation_id="A07" candidate_num="4"/>
+				<candidate name="Charles Johnson" name_id="JC0020" affiliation="Old School Republican" affiliation_id="A07" candidate_num="5"/>
+				<candidate name="Joseph W. Lyndall" name_id="LJ0500" affiliation="Old School Republican" affiliation_id="A07" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-20">
+				<candidate_summary candidate_ref="1" vote_total="8409" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4523" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1804" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07082" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07084" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The American Daily Advertiser, October 12, is the only source that reports returns for Lewis Rush, Jacob Fitler, Charles Johnson, and Joseph W. Lyndall. Votes for several of these candidates are not listed in the returns for Philadelphia County, and it is unclear whether or not they received votes in the county or only in the City of Philadelphia.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="3304" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1759" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1498" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="811" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="561" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="208" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The American Daily Advertiser, October 12, reports 6304 votes for John Dennis.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="5105" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2764" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="993" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07084" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Several newspaper sources report 5000 votes for John Dennis in Philadelphia County, including the October 11th edition of The Franklin Gazette (Philadelphia, PA), the October 11th edition of The Democratic Press (Philadelphia, PA), and the October 13th edition of The Union. United States Gazette and True American (Philadelphia, PA). The township votes listed, however, add up to 5105.</note>
+					<sub_unit type="District" name="Blockley and Kingsessing" geog_id="null">
+						<result candidate_ref="1" vote="302" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="14" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bristol" geog_id="null">
+						<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bustleton" geog_id="null">
+						<result candidate_ref="1" vote="245" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Frankford" geog_id="null">
+						<result candidate_ref="1" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="34" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Germantown" geog_id="null">
+						<result candidate_ref="1" vote="457" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Kensington" geog_id="null">
+						<result candidate_ref="1" vote="654" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="91" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Moyamensing" geog_id="null">
+						<result candidate_ref="1" vote="197" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+						<result candidate_ref="1" vote="1418" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="598" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA) reports 1413 votes for John Dennis.</note>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 578 votes for George Ritter.</note>
+					</sub_unit>
+					<sub_unit type="Township" name="Passyunk" geog_id="null">
+						<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Penn" geog_id="null">
+						<result candidate_ref="1" vote="515" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Roxborough" geog_id="null">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="42" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Southwark" geog_id="null">
+						<result candidate_ref="1" vote="702" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 11, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 11, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 12, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07082">The Union. United States Gazette and True American (Philadelphia, PA).  October 13, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 16, 1820.</reference>
+</election_record>

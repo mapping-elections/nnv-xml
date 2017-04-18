@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1824 House of Representatives, Wilkinson County, Special" type="Special" iteration="First Ballot" date="1824" election_id="ms.assembly.wilkinson.special.1824" handle="10427/80032" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Johnson" name_id="JJ0304" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William L. Brandon" name_id="BW0492" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-12-18">
+				<candidate_summary candidate_ref="1" vote_total="363" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="223" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"To fill the vacancy occasioned by the death of Col. William Yerby."  Original Election Returns.</note>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Wilkinson" geog_id="null">
+					<result candidate_ref="1" vote="363" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="223" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

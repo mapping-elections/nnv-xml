@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1809 House of Commons, Sampson County" type="General" iteration="First Ballot" date="1809" election_id="nc.houseofcommons.sampson.1809" handle="10427/43353" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="William R. King" name_id="KW0001" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Matthews" name_id="MJ0563" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jesse Darden" name_id="DJ0355" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-21">
+				<candidate_summary candidate_ref="1" vote_total="674" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="531" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="456" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04861" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Sampson" geog_id="null">
+					<result candidate_ref="1" vote="674" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="531" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="456" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04861" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04861">The Star (Raleigh, NC).  August 31, 1809.</reference>
+</election_record>

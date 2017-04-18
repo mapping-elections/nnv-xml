@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1798 U.S. House of Representatives" type="General" iteration="First Ballot" date="1798" election_id="ri.uscongress.1strep.1798" handle="10427/25392" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="State">
+			<ballot>
+				<candidate name="Christopher G. Champlin" name_id="CC0006" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-08-20">
+				<candidate_summary candidate_ref="1" vote_total="2836" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="72" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00173" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16075" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16076" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="Town" name="Providence" geog_id="ris_providence_providence">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<reference type="citation" urn="tufts:central:dca:MS115:MS115.001.DO.16079" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Bristol" geog_id="ris_bristol">
+				</sub_unit>
+				<sub_unit type="County" name="Kent" geog_id="ris_kent">
+				</sub_unit>
+				<sub_unit type="County" name="Newport" geog_id="ris_newport">
+					<sub_unit type="Town" name="New Shoreham" geog_id="ris_newport_newshoreham">
+						<note resp="Philip Lampi">No returns were reported from New Shoreham.</note>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Providence" geog_id="ris_providence">
+					<note resp="Philip Lampi">"Majority in Providence, for Mr. Champlin, as second Representative 619."  The United States Chronicle (Providence, RI).  August 30, 1798.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Washington" geog_id="ris_washington">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00173">Reports of the Rhode Island General Assembly.  Vol. 5.  126.</reference>
+	<reference type="citation" resp="Philip Lampi">The United States Chronicle (Providence, RI).  August 30, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16075">The Companion; and Commercial Centinel (Newport, RI).  September 1, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16076">The Newport Mercury (Newport, RI).  September 4, 1798.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1824 Chaplain of the House of Representatives" type="Legislative" iteration="Second Ballot" date="1824" election_id="ma.housechaplain.1.1824" handle="10427/79559" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Chaplain of the House of Representatives" office_id="ON019" scope="State">
+		<role title="Chaplain of the House of Representatives" scope="State">
+			<ballot>
+				<candidate name="Daniel Sharp" name_id="SD0237" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Jenks" name_id="JW0070" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Ware" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-09">
+				<candidate_summary candidate_ref="1" vote_total="95" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="85" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="23" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="6" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Second Ballot.  Whole number of votes 209.  Necessary to a choice 105.  No Choice."  Independent Chronicle and Boston Patriot (Boston, MA).  May 29, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Independent Chronicle and Boston Patriot (Boston, MA).  May 29, 1824.</reference>
+</election_record>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1793 State Senate, District 1" type="General" iteration="First Ballot" date="1793" election_id="nh.statesenate.1.1793" handle="10427/58524" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Christopher Toppan" name_id="TC0019" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jonathan Warner" name_id="WJ0321" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Andrew Wiggin" name_id="WA0086" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Sheafe" name_id="SJ0463" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="John Pierce" name_id="PJ0236" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2007-04-04">
+				<candidate_summary candidate_ref="1" vote_total="288" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="95" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="188" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Upon examining and casting up the returns of the votes for Senators in the first District we find that the whole number of votes returned, amount to six hundred and forty three no one person having a majority."  New Hampshire Provincial and State Papers.  Vol. XXII.  Concord, NH: State of New Hampshire, 1867.  742.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="288" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="188" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<result candidate_ref="1" vote="288" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="188" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Greenland" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hampton Falls" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="New Castle" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Newington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Newmarket" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="North Hampton" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Portsmouth" geog_id="null">
+							<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="13" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+							<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03761"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Rye" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Seabrook" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Stratham" geog_id="null">
+							<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03761">The New Hampshire Gazette (Portsmouth, NH).  March 19, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Herald of Liberty (Exeter, NH).  March 20, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirrour (Concord, NH).  March 25, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Herald of Liberty (Exeter, NH).  March 27, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The American Herald of Liberty (Exeter, NH).  May 21, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  May 21, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">Concord Herald (Concord, NH).  May 23, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirrour (Concord, NH).  May 27, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">The Phenix (Dover, NH).  May 28, 1793.</reference>
+	<reference type="citation" resp="Philip Lampi">New Hampshire Provincial and State Papers.  Vol. XXII.  Concord, NH: State of New Hampshire, 1867.  742.</reference>
+</election_record>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Commissioner, Montgomery County" type="General" iteration="First Ballot" date="1823" election_id="pa.commissioner.montgomery.1823" handle="10427/65908" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Henry Daub" name_id="DH0057" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Henry Hallman" name_id="HH0118" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-26">
+				<candidate_summary candidate_ref="1" vote_total="3200" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2504" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="3200" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2504" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hatfield" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hatborough" geog_id="null">
+						<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="268" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Heist's" geog_id="null">
+						<result candidate_ref="1" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="184" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hughes'" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreps'" geog_id="null">
+						<result candidate_ref="1" vote="366" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lower Merion" geog_id="null">
+						<result candidate_ref="1" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="187" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Moyers" geog_id="null">
+						<result candidate_ref="1" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="632" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="582" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pottsgrove" geog_id="null">
+						<result candidate_ref="1" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Sumneytown" geog_id="null">
+						<result candidate_ref="1" vote="402" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Trap" geog_id="null">
+						<result candidate_ref="1" vote="317" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="272" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="384" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="254" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pottstown Times (Pottstown, PA).  October 15, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 22, 1823.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 Senate President" type="Legislative" iteration="First Ballot" date="1811-05" election_id="ma.senatepresident.1811" handle="10427/27382" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Senate President" office_id="ON098" scope="State">
+		<role title="Senate President" scope="State">
+			<ballot>
+				<candidate name="Harrison G. Otis" name_id="OH0028" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Samuel Dana" name_id="DS0058" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Ezra Starkweather" name_id="SE0024" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-27">
+				<candidate_summary candidate_ref="1" vote_total="20" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No choice having been made, a second trial took place."  The Traveller (Greenfield, MA).  June 4, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Traveller (Greenfield, MA).  June 4, 1811.</reference>
+</election_record>

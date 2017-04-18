@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="New York 1807 Constable, Hudson" type="General" iteration="First Ballot" date="1807" election_id="ny.constable.hudson.1807" handle="10427/66879" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="City">
+		<role title="Constable" scope="City">
+			<ballot>
+				<candidate name="Shubael C. Bingham" name_id="BS0132" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Isaac Lum" name_id="LI0036" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="David Ingersoll" name_id="ID0004" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joseph Watson" name_id="WJ0525" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Solomon Davis" name_id="DS0042" affiliation="supported by both parties" affiliation_id="A10" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-03">
+				<candidate_summary candidate_ref="1" vote_total="318" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="276" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="272" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="270" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Hudson" geog_id="null">
+					<result candidate_ref="1" vote="318" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="276" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="272" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="270" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Bee (Hudson, NY).  April 14, 1807.</reference>
+</election_record>

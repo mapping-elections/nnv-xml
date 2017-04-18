@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Florida 1822 U.S. House of Representatives (Territorial Delegate)" type="General" iteration="First Ballot" date="1822" election_id="fl.territoryrep.1822" handle="10427/43795" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="Joseph Marion Hernandez" name_id="HJ0045" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Barnett" name_id="BW0035" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James C. Bronaugh" name_id="BJ0109" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Grant Forbes" name_id="FJ0015" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-09-07">
+				<candidate_summary candidate_ref="1" vote_total="396" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="150" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11527"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11528"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11529"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11530"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11531"/>
+				<note resp="Philip Lampi">"The East Florida Herald of the 39th ult. states that the votes in East Florida for Hernandez, were 396 - in West Florida there were but 150 votes, which were for Col. Barnett."  Charleston Courier (Charleston, SC).  October 24, 1822.</note>
+			</overview>
+			<admin_unit type="Territory" name="Florida" geog_id="null">
+				<sub_unit type="County" name="Duval" geog_id="null">
+					<sub_unit type="Town" name="Cowford" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11530"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11531"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Fernandina" geog_id="null">
+						<result candidate_ref="1" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11531"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Escambia" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Jackson" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Saint John's" geog_id="null">
+					<sub_unit type="Town" name="Saint Augustine" geog_id="null">
+						<result candidate_ref="1" vote="252" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11531"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11529">The Union. United States Gazette and True American (Philadelphia, PA).  September 13, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11531">Charleston Courier (Charleston, SC).  October 24, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11531">Alexandria Gazette and Advertiser (Alexandria, VA).  October 26, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11528">Charleston Courier (Charleston, SC).  December 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11530">Alexandria Gazette and Advertiser (Alexandria, VA).  December 26, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11527">Columbian Centinel (Boston, MA).  December 28, 1822.</reference>
+</election_record>

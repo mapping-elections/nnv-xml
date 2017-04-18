@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 House of Representatives, York County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.assembly.york.1810" handle="10427/62255" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James S. Mitchell" name_id="MJ1038" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Moses Rankin" name_id="RM0044" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Rudolph Spangler" name_id="SR0215" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Nace" name_id="NG0032" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Adam Forney" name_id="FA0060" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Isaac Kirk" name_id="KI0008" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Robert Gemmil" name_id="GR0097" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="George Spangler" name_id="SG0089" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-10">
+				<candidate_summary candidate_ref="1" vote_total="2133" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2075" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2069" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2036" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1138" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1111" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1101" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1090" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="2133" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2075" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2069" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2036" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1138" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1111" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1101" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1090" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">York Recorder (York, PA).  October 13, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06434">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 6, 1810.</reference>
+</election_record>

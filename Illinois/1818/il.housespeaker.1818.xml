@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1818 Speaker of the House" type="Legislative" iteration="First Ballot" date="1818-10" election_id="il.housespeaker.1818" handle="10427/56182" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the House" office_id="ON104" scope="Territory">
+		<role title="Speaker of the House" scope="Territory">
+			<ballot>
+				<candidate name="Thomas Messinger" name_id="MT0022" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Risdon Moore" name_id="MR0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-30">
+				<candidate_summary candidate_ref="1" vote_total="13" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="11" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Illinois" geog_id="null">
+				<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+				<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Illinois Emigrant (Shawneetown, IL).  October 17, 1818.</reference>
+</election_record>

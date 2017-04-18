@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1821 Electoral Assembly for State Senate, Somerset County" type="General" iteration="First Ballot" date="1821" election_id="md.senator.somerset.county.1821" handle="10427/26750" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Matthias Dashiell" name_id="DM0011" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas K. Carroll" name_id="CT0097" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="James Polk" name_id="PJ0173" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Woodford" name_id="WJ0199" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Thomas Bayly" name_id="BT0056" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-31">
+				<candidate_summary candidate_ref="1" vote_total="321" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="316" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="156" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02141" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Somerset" geog_id="mds_somerset">
+					<result candidate_ref="1" vote="321" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="316" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="169" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="156" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="87" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="13" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02141" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02141">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

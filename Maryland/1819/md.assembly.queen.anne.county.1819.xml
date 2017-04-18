@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1819 House of Delegates, Queen Anne's County" type="General" iteration="First Ballot" date="1819" election_id="md.assembly.queen.anne.county.1819" handle="10427/26876" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="William R. Stuart" name_id="SW0073" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Kensey Harrison" name_id="HK0001" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Hollingsworth" name_id="HJ0245" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Charles R. Nicholson" name_id="NC0003" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="George Palmer" name_id="PG0023" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Richard C. Downes" name_id="DR0023" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-16">
+				<candidate_summary candidate_ref="1" vote_total="668" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="582" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="538" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="464" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="360" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="107" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03136" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Queen Anne's" geog_id="mds_queenanne">
+					<result candidate_ref="1" vote="668" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="582" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="538" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="464" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="360" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="107" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03136" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="365" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="338" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="280" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="72" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03136" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="244" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="187" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="236" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="261" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="33" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03136" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03136">Republican Star and General Advertiser (Easton, MD).  October 12, 1819.</reference>
+</election_record>

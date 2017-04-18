@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Director of the Poor, Bucks County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.directorofthepoor.bucks.1807" handle="10427/61730" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Ralph Stover" name_id="SR0203" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John MacMasters" name_id="MJ0873" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Chapman" name_id="CJ0800" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Gillingham" name_id="GS0083" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Isaac Hicks" name_id="HI0026" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Amos Gregg" name_id="GA0063" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-13">
+				<candidate_summary candidate_ref="1" vote_total="2284" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2110" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1967" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1458" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1067" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1041" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06125" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="2284" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2110" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1967" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1458" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1067" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1041" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Buckingham" geog_id="null">
+						<result candidate_ref="1" vote="682" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="398" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="352" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="615" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="87" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06128" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06128">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 16, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06125">The Aurora. General Advertiser (Philadelphia, PA).  October 20, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  October 22, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06125">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 27, 1807.</reference>
+</election_record>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 Commissioner, Crawford County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.commissioner.crawford.1815" handle="10427/66676" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Samuel Lord" name_id="LS0078" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Andrews" name_id="AH0018" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Herrington" name_id="HJ0819" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Cornelius Vanhorn" name_id="VC0019" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-25">
+				<candidate_summary candidate_ref="1" vote_total="344" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="178" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="174" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="51" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="344" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="178" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="174" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="51" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  October 14, 1815.</reference>
+</election_record>

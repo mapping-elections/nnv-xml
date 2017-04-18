@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1815 State Senate, Montgomery County" type="General" iteration="First Ballot" date="1815-10" election_id="oh.statesenator.montgomery.1815" handle="10427/59461" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Daniel C. Cooper" name_id="CD0143" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Philip Gunkel" name_id="GP0029" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Newcom" name_id="NG0015" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-17">
+				<candidate_summary candidate_ref="1" vote_total="522" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="35" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05224" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Ohio Republican (Dayton, OH) lists Philip Gunckel with 167 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+					<result candidate_ref="1" vote="522" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="35" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05224" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Dayton" geog_id="null">
+						<result candidate_ref="1" vote="265" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="German" geog_id="null">
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Jackson" geog_id="null">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Madison" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Randolph" geog_id="null">
+						<result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washisngton" geog_id="null">
+						<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Abstract of Votes, Montgomery County.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05224">Ohio Republican (Dayton, OH).  October 16, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  100.</reference>
+</election_record>

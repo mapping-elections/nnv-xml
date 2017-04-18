@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1818 Sheriff, Talbot County" type="General" iteration="First Ballot" date="1818" election_id="md.sheriff.talbot.county.1818" handle="10427/26402" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Allen Bowie" name_id="BA0077" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Helsby, Jr." name_id="HJ0239" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Jones" name_id="JT0023" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="James Chambers" name_id="CJ0290" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Richard Harrington" name_id="HR0085" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-11">
+				<candidate_summary candidate_ref="1" vote_total="675" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="376" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="301" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="269" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="172" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03086" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14814" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Republican Star, or, General Advertiser (Easton, MD) lists 356 votes for John Helsby, Jr.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Talbot" geog_id="mds_talbot">
+					<result candidate_ref="1" vote="675" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="376" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="301" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="269" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="172" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chapel" geog_id="null">
+						<result candidate_ref="1" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03086" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Easton" geog_id="null">
+						<result candidate_ref="1" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="11" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03086" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Saint Michaels" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="17" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="156" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03086" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03086" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14814">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03086">Republican Star and General Advertiser (Easton, MD).  October 13, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 15, 1818.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1803 Speaker of the House" type="Legislative" iteration="First Ballot" date="1803" election_id="nh.speakerofthehouse.1803" handle="10427/78979" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="John Prentice" name_id="PJ0235" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Langdon" name_id="LJ0127" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Nahum Parker" name_id="PN0043" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-10-10">
+                <candidate_summary candidate_ref="1" vote_total="82" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="67" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="New Hampshire" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Courier of New Hampshire (Concord, NH).  June 2, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  June 7, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  June 9, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">New-hampshire Sentinel (Keene, NH).  June 11, 1803.</reference>
+    <reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  June 14, 1803.</reference>
+</election_record>
+

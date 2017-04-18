@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1814 Assembly, Essex County" type="General" iteration="First Ballot" date="1814" election_id="ny.assembly.essex.1814" handle="10427/25621" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Reuben Sanford" name_id="SR0165" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Levi Thompson" name_id="TL0020" affiliation="Federalist" affiliation_id="A01" candidate_num="2"></candidate>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-28">
+           <candidate_summary candidate_ref="1" vote_total="701" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="536" resp="Philip Lampi"/>
+           <note resp="Philip Lampi">There are no figures available for most of the towns in Essex County.  The Albany Argus (Albany, NY) reports 165 majority for Reuben Sanford for Assembly.</note>
+           <note resp="Philip Lampi">"We understand that Mr. Sandford, the republican candidate, has succeeded in Essex County, by about one hundred majority -- last year Mr. Thompson, (Clintonian) had a majority of 122."  Plattsburgh Republican (Plattsburgh, NY).  May 7, 1814.</note>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Essex" geog_id="null">
+              <result candidate_ref="1" vote="701" resp="Philip Lampi"/>
+              <result candidate_ref="2" vote="536" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Chesterfield" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Crown Point" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Elizabethtown" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Essex" geog_id="null">
+                <result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Jay" geog_id="null">
+                <result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Keen" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Lewis" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Moriah" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Schroon" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Ticonderoga" geog_id="null">
+              </sub_unit>
+              <sub_unit type="Town" name="Willisborough" geog_id="null">
+                <result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Plattsburgh Republican (Plattsburgh, NY).  May 7, 1814.</reference>
+   <reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  May 20, 1814.</reference>
+   <reference type="citation" resp="Philip Lampi">National Advocate (New York, NY).  May 23, 1814.</reference>
+   <reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  June 7, 1814.</reference>
+</election_record>
+

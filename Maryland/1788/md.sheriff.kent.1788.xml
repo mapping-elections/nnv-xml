@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1788 Sheriff, Kent County" type="General" iteration="First Ballot" date="1788" election_id="md.sheriff.kent.1788" handle="10427/57994" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Edward Worrell" name_id="WE0023" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Josiah Johnson" name_id="JJ0077" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-18">
+				<candidate_summary candidate_ref="1" vote_total="835" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="576" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14000" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Kent" geog_id="mds_kent">
+					<result candidate_ref="1" vote="835" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="576" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14000" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14000">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+</election_record>

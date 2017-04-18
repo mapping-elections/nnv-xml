@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1806 Assembly, Chenango County" type="General" iteration="First Ballot" date="1806" election_id="ny.assembly.chenango.1806" handle="10427/66613" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Obadiah German" name_id="GO0001" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Simons" name_id="SJ0556" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Lyon" name_id="LT0055" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Benjamin Jones" name_id="JB0028" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Elisha Smith" name_id="SE0100" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Roswell Marshal" name_id="MR0089" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Ozias Yale" name_id="YO0000" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-18">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Chenango" geog_id="null">
+					<sub_unit type="Town" name="Brookfield" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Cazenovia" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Coventry" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="De Ruyter" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Greene" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Hamilton" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Jericho" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Norwich" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Oxford" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Sherburne" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Town" name="Sullivan" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Smith, James H.  History of Chenango and Madison Counties New York.  Syracuse, NY: D. Mason and, 1880.</reference>
+</election_record>

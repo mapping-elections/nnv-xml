@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Director of the Poor, Delaware County" type="General" iteration="First Ballot" date="1824" election_id="pa.director.delawarecounty.1824" handle="10427/63918" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Micajah Speakman" name_id="SM0143" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Larkin, Jr." name_id="LJ0506" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-31">
+				<candidate_summary candidate_ref="1" vote_total="588" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="536" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07369" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="588" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="536" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07369">Village Record, or Chester and Delaware Federalist (West Chester, PA).  October 20, 1824.</reference>
+</election_record>

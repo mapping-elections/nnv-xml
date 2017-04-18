@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 House of Representatives, Farmington" type="General" iteration="First Ballot" date="1804" election_id="ma.staterepresentative.farmington.1804" handle="10427/69987" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Ebenezer Norton" name_id="NE0027" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-10-20">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Farmington, hitherto federal, has given 33 majority for a Republican."  Eastern Argus (Portland, ME).  May 11, 1804.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Farmington" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Eastern Argus (Portland, ME).  May 11, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 4, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">Republican Spy (Springfield, MA).  June 11, 1804.</reference>
+</election_record>
+

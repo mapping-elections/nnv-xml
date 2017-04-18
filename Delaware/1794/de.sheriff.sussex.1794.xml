@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1794 Sheriff, Sussex County" type="General" iteration="First Ballot" date="1794" election_id="de.sheriff.sussex.1794" handle="10427/44039" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Isaac Griffith" name_id="GI0038" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Fisher" name_id="FT0097" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Wingate Hall" name_id="HW0306" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="930" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="881" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="619" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11946" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="930" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="881" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="619" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11946" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11946">The Delaware and Eastern Shore Advertiser (Wilmington, DE).  October 15, 1794.</reference>
+</election_record>

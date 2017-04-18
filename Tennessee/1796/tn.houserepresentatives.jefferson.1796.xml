@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1796 House of Representatives, Jefferson County" type="General" iteration="First Ballot" date="1796-03" election_id="tn.houserepresentatives.jefferson.1796" handle="10427/64855" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Alexander Outlaw" name_id="OA0019" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Adam Peck" name_id="PA0008" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The following gentlemen are elected members of the general assembly, which is to meet in this town on Monday the 28 instant." The Knoxville Gazette (Knoxville, TN).  March 16, 1796.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="County" name="Jefferson" geog_id="tns_jefferson">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Knoxville Gazette (Knoxville, TN).  March 16, 1796.</reference>
+</election_record>

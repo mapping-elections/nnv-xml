@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 House of Representatives, Bedford County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.assembly.bedford.1821" handle="10427/63458" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Peter Schell" name_id="SP0157" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Logan" name_id="LT0105" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Piper" name_id="PJ0407" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="David Hunter" name_id="HD0161" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-17">
+				<candidate_summary candidate_ref="1" vote_total="1497" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1347" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1155" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1151" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07113" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07114" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bedford" geog_id="null">
+					<result candidate_ref="1" vote="1497" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1347" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1155" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1151" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07113" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07114" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Intelligencer (Harrisburg, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07113">The Union. United States Gazette and True American (Philadelphia, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">York Gazette (York, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 23, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Bellefonte Patriot (Bellefonte, PA).  October 24, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Perry Forester (Landisburg, PA).  October 25, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  October 27, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07114">Lancaster Intelligencer (Lancaster, PA).  October 27, 1821.</reference>
+</election_record>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 U.S. House of Representatives, District 7" type="General" iteration="First Ballot" date="1802-10" election_id="pa.uscongress7.1802" handle="10427/61267" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Rea" name_id="RJ0310" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Woods" name_id="WH0059" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John MacLain" name_id="MJ0895" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-05">
+				<candidate_summary candidate_ref="1" vote_total="2173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="941" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="147" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00279" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA), October 27, uses the name John McClean for John McLain.</note>
+				<note resp="Philip Lampi">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA) uses the name James McLain for John McLain.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<result candidate_ref="1" vote="2173" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="941" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="147" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bedford" geog_id="null">
+						<result candidate_ref="1" vote="787" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="428" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00279" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05787" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05788" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="1386" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="513" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="147" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00279" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05805" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05808" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Kline's Carlisle Weekly Gazette lists Henry Woods with 686 votes.</note>
+						<sub_unit type="District" name="Chambersburg" geog_id="null">
+							<result candidate_ref="1" vote="427" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05805" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05807" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">The Gazette of the United States (Philadelphia, PA) and Aurora. General Advertiser (Philadelphia, PA) list John Rea with 429 votes, Henry Woods with 251 votes, and do not include any votes for John MacLain.</note>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">Poulson's American Daily Advertiser (Philadelphia, PA).  October 14, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">Gazette of the United States (Philadelphia, PA).  October 16, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">The Luzerne Federalist: and Susquehannah Intelligencer (Wilkes-Barre, PA).  October 16, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">The Adams Centinel (Gettysburg, PA).  October 19, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05805">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 19, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05807">Aurora. General Advertiser (Philadelphia, PA).  October 20, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05806">Gazette of the United States (Philadelphia, PA).  October 20, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">Aurora. General Advertiser (Philadelphia, PA).  October 23, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05787">The Farmers Register (Greensburg, PA).  October 23, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">Der Readinger Adler (Reading, PA).  October 26, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05805">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 26, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05808">Aurora. General Advertiser (Philadelphia, PA).  October 27, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Carlisle Herald (Carlisle, PA).  October 27, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 27, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">Aurora. General Advertiser (Philadelphia, PA).  October 30, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05788">Poulson's American Daily Advertiser (Philadelphia, PA).  October 30, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 2, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00278">The Pittsburgh Gazette (Pittsburgh, PA).  November 5, 1802.</reference>
+</election_record>

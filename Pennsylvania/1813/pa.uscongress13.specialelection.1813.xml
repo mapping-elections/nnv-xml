@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 U.S. House of Representatives, District 13, Special" type="Special" iteration="First Ballot" date="1813-02" election_id="pa.uscongress13.specialelection.1813" handle="10427/62530" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Isaac Griffin" name_id="GI0024" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-30">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to fill the seat of John Smiie, deceased.</note>
+				<note resp="Philip Lampi">"To Nathaniel B. Boileau, Esquire, Secretary of the Commonwealth of Pennsylvania, At a special election held on the 16th instant in the counties of Fayette and Greene composing the thirteenth District for a representative in the Congress of the United States, and after comparing and casting up tho' several returns, Isaac Griffin, Esquire, had seven hundred and seventy nine votes of a majority given under our hands and seals this 23rd February 1813." Original Election Certificate.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Thirteen" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Fayette" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Greene" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  February 27, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Republican (Harrisburg, PA).  March 9, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Dubin, Michael J.  United States Congressional Elections, 1788-1997: The Official Results of the Elections of the 1st through 105th Congresses.  Jefferson, NC: McFarland and Company, 1998.  50.</reference>
+</election_record>

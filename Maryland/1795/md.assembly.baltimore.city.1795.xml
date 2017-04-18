@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1795 House of Delegates, Baltimore" type="General" iteration="First Ballot" date="1795-10" election_id="md.assembly.baltimore.city.1795" handle="10427/27449" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="Town">
+			<ballot>
+				<candidate name="James Wincester" name_id="WJ0140" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David MacMechen" name_id="MD0029" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richardson Stewart" name_id="SR0047" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Carroll" name_id="CJ0203" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="752" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="504" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="263" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="86" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02182" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02183" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02184" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Maryland Journal, and the Baltimore Advertiser (Baltimore, MD) and The Aurora list James Carroll with 80 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Baltimore" geog_id="null">
+					<sub_unit type="Town" name="Baltimore" geog_id="null">
+						<result candidate_ref="1" vote="752" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="504" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="263" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="86" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02182" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02183" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02184" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02182">Federal Intelligencer and Baltimore Daily Gazette (Baltimore, MD).  October 9, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02183">The Maryland Journal, and the Baltimore Advertiser (Baltimore, MD).  October 9, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02184">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1795.</reference>
+</election_record>

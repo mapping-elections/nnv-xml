@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1803 Supervisor, Hudson" type="General" iteration="First Ballot" date="1803" election_id="ny.supervisor.hudson.1803" handle="10427/65605" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Supervisor" office_id="ON113" scope="City">
+		<role title="Supervisor" scope="City">
+			<ballot>
+				<candidate name="Cotton Gelston" name_id="GC0028" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jared Coffin" name_id="CJ0473" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-11">
+				<candidate_summary candidate_ref="1" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="180" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10606" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<sub_unit type="City" name="Hudson" geog_id="null">
+						<result candidate_ref="1" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="180" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The History of the City of Hudson, New York reports that that this "charter election [was] 'not warmly contested and [was] not a full vote.'"</note>
+						<note resp="Philip Lampi">"In five towns in this county, besides Hudson, viz. Canaan, Chatham, Gallatin, Granger, and Germantown, federal supervisors have been elected-in the other five, viz. Kinderhook, Livingston, Claverack, Hillsdale and Clermont, the democratic ticked was successful.  From this result, we have reason to expect a very handsome federal majority at the county election."  The Balance, and Columbian Repository (Hudson, NY).  April 12, 1803.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Balance, and Columbian Repository (Hudson, NY).  April 12, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10606">Bradbury, Anna R.  The History of the City of Hudson, New York.  Hudson, NY: Record Printing, 1908.</reference>
+</election_record>

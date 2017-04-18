@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1824 Brigadier General" type="Legislative" iteration="First Ballot" date="1824-11" election_id="vt.brigadiergeneral.1824" handle="10427/79885" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Brigadier General" office_id="ON017" scope="State">
+        <role title="Brigadier General" scope="State">
+            <ballot>
+                <candidate name="Martin Roberts" name_id="RM0066" affiliation="null" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Henry Robinson" name_id="RH0088" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="O. C. Merrill" name_id="MO0010" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2015-11-04">
+                <candidate_summary candidate_ref="1" vote_total="94" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="87" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Both Houses met in joint committee and proceeded to the choice of a Brig. General of the 1st Brigade and 2nd Div. of the Militia of this state."  American Repertory (Saint Albans, VT).  November 25, 1824.</note>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">American Repertory (Saint Albans, VT).  November 25, 1824.</reference>
+</election_record>

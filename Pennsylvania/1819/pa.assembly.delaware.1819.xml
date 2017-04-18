@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 House of Representatives, Delaware County" type="General" iteration="First Ballot" date="1819" election_id="pa.assembly.delaware.1819" handle="10427/63268" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Kerlin" name_id="KJ0310" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Robinson" name_id="RT0098" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward Siter" name_id="SE0112" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Thomas H. Brinton" name_id="BT0243" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-13">
+				<candidate_summary candidate_ref="1" vote_total="827" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="824" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="628" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="611" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06987" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="827" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="824" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="628" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="611" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06987" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Democratic Press lists 927 votes for John Kerlin.</note>
+					<sub_unit type="District" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="229" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="201" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="200" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="202" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="85" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="176" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="248" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="255" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="150" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 20, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 22, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06987">The Union. United States Gazette and True American (Philadelphia, PA).  October 23, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Village Record, or Chester and Delaware Federalist (West Chester, PA).  October 27, 1819.</reference>
+</election_record>

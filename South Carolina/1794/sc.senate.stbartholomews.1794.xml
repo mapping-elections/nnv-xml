@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1794 State Senate, Saint Bartholomew's Parish" type="General" iteration="First Ballot" date="1794" election_id="sc.senate.stbartholomews.1794" handle="10427/32083" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="Paul Hamilton" name_id="HP0069" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Bellinger" name_id="BG0169" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Perry" name_id="PJ0659" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Wilson Glover" name_id="GW0166" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-14">
+				<candidate_summary candidate_ref="1" vote_total="118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="92" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="18" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="12" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07452" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07453" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Bartholomew's" geog_id="null">
+					<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="92" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07452" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07453" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Ashepoo Church" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Ponpon Church" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">92 voters at Ponpon and Ashepoo Churches participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Salt Catcher Meeting House" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">156 voters at Salt Catcher Meeting House participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07452">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07453">City Gazette and Daily Advertiser (Charleston, SC).  October 20, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07453">South-Carolina State Gazette, and Timothy and Mason's Daily Advertiser (Charleston, SC).  October 23, 1794.</reference>
+</election_record>

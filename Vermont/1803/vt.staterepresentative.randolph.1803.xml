@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1803 House of Representatives, Randolph" type="General" iteration="First Ballot" date="1803" election_id="vt.staterepresentative.randolph.1803" handle="10427/69077" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Tarbox" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Weston" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="null" modified="2014-09-24">
+                <candidate_summary candidate_ref="1" vote_total="87" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="47" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="12" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="County" name="Orange" geog_id="null">
+                    <sub_unit type="Town" name="Randolph" geog_id="null">
+                        <result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Weekly Wanderer (Randolph, VT).  September 10, 1803.</reference>
+</election_record>
+
+

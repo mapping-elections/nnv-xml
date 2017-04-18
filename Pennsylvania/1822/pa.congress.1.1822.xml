@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1822-10" election_id="pa.congress.1.1822" handle="10427/63569" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Samuel Breck" name_id="BS0262" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joel B. Sutherland" name_id="SJ1275" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Edward Heston" name_id="HE0120" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-21">
+				<candidate_summary candidate_ref="1" vote_total="1083" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="892" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="86" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01086" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="1083" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="892" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="86" resp="Philip Lampi"/>
+					<sub_unit type="City" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="496" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<sub_unit type="Ward" name="Cedar" geog_id="null">
+							<result candidate_ref="1" vote="223" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Ward" name="New Market" geog_id="null">
+							<result candidate_ref="1" vote="273" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="587" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="661" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="86" resp="Philip Lampi"/>
+						<sub_unit type="District" name="Blockley and Kingsessing" geog_id="null">
+							<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="80" resp="Philip Lampi"/>
+							<sub_unit type="Township" name="Blockley" geog_id="null">
+								<result candidate_ref="1" resp="Philip Lampi"/>
+								<result candidate_ref="2" resp="Philip Lampi"/>
+								<result candidate_ref="3" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="Township" name="Kingsessing" geog_id="null">
+								<result candidate_ref="1" resp="Philip Lampi"/>
+								<result candidate_ref="2" resp="Philip Lampi"/>
+								<result candidate_ref="3" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+						<sub_unit type="Township" name="Moyamensing" geog_id="null">
+							<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Passyunk" geog_id="null">
+							<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Southwark" geog_id="null">
+							<result candidate_ref="1" vote="370" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="433" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA).  October 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA).  October 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA).  October 15, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">National Intelligencer (Washington, DC).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Washington Republican (Washington, DC).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Correspondent and Farmers' Advertiser (Doylestown, PA).  October 22, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Westmoreland Republican (Greensburgh, PA).  November 1, 1822.</reference>
+</election_record>

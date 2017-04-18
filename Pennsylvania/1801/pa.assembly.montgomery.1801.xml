@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 House of Representatives, Montgomery County" type="General" iteration="First Ballot" date="1801-10" election_id="pa.assembly.montgomery.1801" handle="10427/61206" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Isaiah Davis" name_id="DI0051" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel B. Boileau" name_id="BN0080" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick Conrad" name_id="CF0031" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Henderson" name_id="HS0185" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Roberts" name_id="RJ0313" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John Markeley" name_id="MJ1046" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Christian Sheid" name_id="SC0125" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-16">
+				<candidate_summary candidate_ref="1" vote_total="1985" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1782" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1516" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1344" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1178" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="817" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="481" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05747" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05748" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="1985" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1782" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1516" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1344" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1178" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="817" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="481" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05747" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05748" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05748">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05747">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 16, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">American Eagle (Easton, PA).  October 24, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 28, 1801.</reference>
+</election_record>

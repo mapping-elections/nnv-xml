@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 Sheriff, Greene County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.sheriff.greene.1802" handle="10427/61300" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Benjamin Bell" name_id="BB0078" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jacob Burly" name_id="BJ1011" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-28">
+				<candidate_summary candidate_ref="1" vote_total="338" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="304" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05810" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Greene" geog_id="null">
+					<result candidate_ref="1" vote="338" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="304" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05810" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05810">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

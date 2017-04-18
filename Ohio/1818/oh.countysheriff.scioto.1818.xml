@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 Sheriff, Scioto County" type="General" iteration="First Ballot" date="1818-10" election_id="oh.countysheriff.scioto.1818" handle="10427/59709" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Nathan Wheeler" name_id="WN0107" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Noel" name_id="NJ0099" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-09">
+				<candidate_summary candidate_ref="1" vote_total="389" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05264" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Scioto" geog_id="ohs_scioto">
+					<result candidate_ref="1" vote="389" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05264" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05264">Evans, Nelson W.  A History of Scioto County, Ohio.  Portsmouth, OH: Nelson W. Evans, 1903.  342.</reference>
+</election_record>

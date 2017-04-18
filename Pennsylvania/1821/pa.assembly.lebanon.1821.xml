@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 House of Representatives, Lebanon County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.assembly.lebanon.1821" handle="10427/63499" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Harrison" name_id="HJ0827" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Andrew Schulze" name_id="SJ1397" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Keller" name_id="KD0058" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joseph Barnett" name_id="BJ1263" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-17">
+				<candidate_summary candidate_ref="1" vote_total="978" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="974" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="703" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="594" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07146" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07147" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lebanon" geog_id="null">
+					<result candidate_ref="1" vote="978" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="974" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="703" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="594" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA), October 13 and 20, and Der Readinger Adler (Reading, PA), October 16, both report 982 votes for John Harrison and 978 votes for John Andrew Schulze.</note>
+					<note resp="Philip Lampi">The York Recorder, and Independent Republican (York, PA), October 16, reports 678 votes for John Harrison.</note>
+					<note resp="Philip Lampi">The Union. United States Gazette and True American (Philadelphia, PA), October 23, reports 798 votes for John Harrison.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  October 13, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 16, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The York Recorder, and Independent Republican (York, PA).  October 16, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Bellefonte Patriot (Bellefonte, PA).  October 17, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">York Gazette (York, PA).  October 19, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  October 20, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07147">Lancaster Intelligencer (Lancaster, PA).  October 20, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07146">The Union. United States Gazette and True American (Philadelphia, PA).  October 23, 1821.</reference>
+</election_record>

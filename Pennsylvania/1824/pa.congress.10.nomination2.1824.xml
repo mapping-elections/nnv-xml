@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 U.S. House of Representatives, District 10, Republican Nomination, Ballot 2" type="Legislative" iteration="Second Ballot" date="1824" election_id="pa.congress.10.nomination2.1824" handle="10427/65749" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="James S. Mitchell" name_id="MJ1038" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Nominated.</note></candidate>
+				<candidate name="John Gardner" name_id="GJ0533" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-22">
+				<candidate_summary candidate_ref="1" vote_total="23" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="20" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Ten" geog_id="null">
+					<sub_unit type="null" name="Convention" geog_id="null">
+						<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"As some are under the impression that Mr. Gardner, was left off the assembly ticket contrary to his inclination, we are authorised to state that that Mr. Gardner declined being considered a candidate before the delegates met."  The Democratic Press (Philadelphia, PA).  September 23, 1824.</note>
+						<note resp="Philip Lampi">James S. Mitchell would run unopposed in the Congressional election in October and be re-elected.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  September 23, 1824.</reference>
+</election_record>

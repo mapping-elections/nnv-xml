@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1805 U.S. Senate, Ballot 2" type="Legislative" iteration="Second Ballot" date="1805-02" election_id="ma.ussenate.2.1805" handle="10427/27861" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="William Eustis" name_id="EW0031" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Timothy Pickering" name_id="PT0078" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Isaac Parker" name_id="PI0010" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-24">
+				<candidate_summary candidate_ref="1" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="98" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Total number of votes was 200.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="98" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09786" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"Yesterday, came on in the House of representatives, the choice of a Senator, for this commonwealth, in the Senate of the United States, for six years from the 4th of March next.  Three trials, were made before the choice was effected."  The Providence Phoenix (Providence, RI).  February 9, 1805.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09786">The Providence Phoenix (Providence, RI).  February 9, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">Suffolk Gazette (Sag Harbor, NY).  March 5, 1805.</reference>
+</election_record>

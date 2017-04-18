@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="New York 1817 Assembly, Putnam County" type="General" iteration="First Ballot" date="1817" election_id="ny.assembly.putnam.1817" handle="10427/67813" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="William H. Johnstone" name_id="JW0036" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-06">
+				<candidate_summary candidate_ref="1" vote_total="509" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Putnam" geog_id="null">
+					<result candidate_ref="1" vote="509" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Carmel" geog_id="null">
+						<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Frederick" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Patterson" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Phillipstown" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Southeast" geog_id="null">
+						<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>

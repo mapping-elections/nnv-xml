@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1823 House of Representatives, Greene County" type="General" iteration="First Ballot" date="1823" election_id="tn.assembly.greene.1823" handle="10427/65024" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="John Balch" name_id="BJ1415" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="MacGaughey" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Patterson" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-26">
+                <candidate_summary candidate_ref="1" vote_total="702" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="468" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="394" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="County" name="Greene" geog_id="null">
+                    <result candidate_ref="1" vote="702" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="468" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="394" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Farnsworth's" geog_id="null">
+                        <result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="55" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Greeneville" geog_id="null">
+                        <result candidate_ref="1" vote="313" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="294" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="188" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Newmansville" geog_id="null">
+                        <result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Rinkers" geog_id="null">
+                        <result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Warrensburg" geog_id="null">
+                        <result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="58" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">American Economist and East Tennessee Statesman (Greeneville, TN).  August 9, 1823.</reference>
+    <reference type="citation" resp="Philip Lampi">American Economist and East Tennessee Statesman (Greeneville, TN).  August 16, 1823.</reference>
+</election_record>

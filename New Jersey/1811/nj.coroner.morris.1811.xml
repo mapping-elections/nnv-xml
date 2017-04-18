@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1811 Coroner, Morris County" type="General" iteration="First Ballot" date="1811" election_id="nj.coroner.morris.1811" handle="10427/68362" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Samuel Halliday" name_id="HS0127" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Scott" name_id="SJ0065" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Hiram Condict" name_id="CH0120" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="David Heath" name_id="HD0169" affiliation="Opposition Republican" affiliation_id="A07" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-30">
+				<candidate_summary candidate_ref="1" vote_total="1238" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1145" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="548" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="519" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Morris" geog_id="null">
+					<result candidate_ref="1" vote="1238" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1145" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="548" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="519" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  October 15, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Palladium of Liberty (Morristown, NJ).  October 15, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The True American (Trenton, NJ).  October 21, 1811.</reference>
+</election_record>

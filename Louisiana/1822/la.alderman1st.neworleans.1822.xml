@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1822 Alderman, New Orleans, District 1" type="General" iteration="First Ballot" date="1822" election_id="la.alderman1st.neworleans.1822" handle="10427/57915" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Alderman" office_id="ON001" scope="City">
+		<role title="Alderman" scope="District">
+			<ballot>
+				<candidate name="N. Morse" name_id="MN0010" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="C. Paulding" name_id="PC0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="M. Reynaud" name_id="RM0007" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-02">
+				<candidate_summary candidate_ref="1" vote_total="74" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="61" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="43" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The election of Mr. Morse was declared null as there was some questions about his maintaining the requried residency qualifications."  Courrier de la Louisiane (New Orleans, LA).  May 8, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Orleans" geog_id="null">
+					<sub_unit type="City" name="New Orleans" geog_id="null">
+						<sub_unit type="District" name="One" geog_id="null">
+							<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Courrier de la Louisiane (New Orleans, LA).  May 8, 1822.</reference>
+</election_record>

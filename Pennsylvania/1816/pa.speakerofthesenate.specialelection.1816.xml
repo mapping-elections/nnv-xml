@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Speaker of the Senate, Special" type="Special" iteration="First Ballot" date="1816-12" election_id="pa.speakerofthesenate.specialelection.1816" handle="10427/63006" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the Senate" office_id="ON106" scope="State">
+		<role title="Speaker of the Senate" scope="State">
+			<ballot>
+				<candidate name="Isaac Weaver" name_id="WI0042" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Walter Lowrie" name_id="LW0173" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-03">
+				<candidate_summary candidate_ref="1" vote_total="21" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10821" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"John Todd, Esq. Speaker of the Senate of Pennsylvania, has resigned the office of Speaker having some private business to attend to and Isaac Weaver, Esq. is elected."  Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  December 31, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10821" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10821">Pennsylvania Correspondent, and Farmers' Advertiser (Doylestown, PA).  December 31, 1816.</reference>
+</election_record>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1808 Assembly, Niagara County" type="General" iteration="First Ballot" date="1808" election_id="ny.assembly.niagara.1808" handle="10427/25460" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Archibald S. Clarke" name_id="CA0097" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Phineas Stevens" name_id="SP0082" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Zenas Barker" name_id="BZ0001" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Peter B. Porter" name_id="PP0008" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-10">
+				<candidate_summary candidate_ref="1" vote_total="186" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="141" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04325" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Peter B. Porter was a candidate for U.S. House of Representatives.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Niagara" geog_id="null">
+					<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="141" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04325" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="27" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04325" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chautaugue" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04325" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Clarence" geog_id="null">
+						<result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="45" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04325" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Pomfret" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04325" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Willink" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04325" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04325">Journal of the New York Assembly, 1808.  9-10.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Gazette (Utica, NY).  May 17, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">History of Niagara County, New York, N. Y.  New York: Sanford and, 1878.  227.</reference>
+</election_record>

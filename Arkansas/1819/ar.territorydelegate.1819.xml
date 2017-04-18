@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Arkansas 1819 U.S. House of Representatives (Territorial Delegate)" type="General" iteration="First Ballot" date="1819-11" election_id="ar.territorydelegate.1819" handle="10427/18546" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="James W. Bates" name_id="BJ0015" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stephen F. Austin" name_id="AS0000" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Alexander S. Walker" name_id="WA0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Henry Cassidy" name_id="CH0007" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Robert F. Slaughter" name_id="SR0002" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Perly Wallis" name_id="WP0001" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-17">
+				<candidate_summary candidate_ref="1" vote_total="405" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="331" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="228" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="154" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00936" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11158" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11159" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11161" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11162" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"James W. Bates is elected the first Delegate to Congress from the Territory of Arkansas.  The whole number of votes given in at the election was 1263; of which Mr. Bates received 401.  There were five candidates."  Connecticut Gazette (New London, CT).  February 2, 1820.</note>
+				<note resp="Philip Lampi">The Missouri Gazette and Public Advertiser (Saint Louis, MO) of December 29, 1819 lists 401 for James W. Bates, 343 for Stephen F. Austin, 226 for Alexander S. Walker, 155 for Henry Cassidy, and 138 for Robert F. Slaughter. </note>
+				<note resp="Philip Lampi">"Mr. Austin was declared a candidate only thirteen days previous to the day of election; and was not known as a candidate in the county of Arkansas, and in two townships of Lawrence county, until after the election."  Arkansas Gazette (Little Rock, AR).  December 11, 1819.</note>
+			</overview>
+			<admin_unit type="Territory" name="Arkansas" geog_id="art">
+				<sub_unit type="County" name="Arkansas" geog_id="art_arkansas">
+					<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="113" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00936" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11161" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11162" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Arkansas" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="10" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11161" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Cash" geog_id="null">
+						<result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopefield" geog_id="null">
+						<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="15" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mississippi" geog_id="null">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Point Chico" geog_id="null">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Francis" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="77" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Clark" geog_id="art_clark">
+					<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00936" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11162" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Hempstead" geog_id="null">
+					<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="179" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="102" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00936" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11162" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Arkansas Gazette of December 11, 1819 lists James W. Bates with 8 votes, Stephen F. Austin with 180 votes and Henry Cassidy with 4 votes.</note>
+				</sub_unit>
+				<sub_unit type="County" name="Lawrence" geog_id="art_lawrence">
+					<result candidate_ref="1" vote="224" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="63" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00936" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11162" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Pulaski" geog_id="art_pulaski">
+					<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="73" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00936" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11162" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Arkansas Gazette (Little Rock) of November 27, 1819 lists Stephen F. Austin with 11 votes, Alexander S. Walker with 0 votes, Henry Cassidy with 20 votes and Perly Wallis with 5 votes.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11160">Arkansas Gazette (Arkansas Post, AR).  November 20, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Arkansas Gazette (Arkansas Post, AR).  November 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Arkansas Gazette (Arkansas Post, AR).  December 4, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Arkansas Gazette (Arkansas Post, AR).  December 11, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00936">Arkansas Gazette (Arkansas Post, AR).  December 25, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11162">Missouri Gazette and Public Advertiser (Saint Louis, MO).  December 29, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Arkansas Gazette (Arkansas Post, AR).  January 1, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11159">Connecticut Gazette (New London, CT).  February 2, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11159">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  February 4, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11158">Plattsburgh Republican (Plattsburgh, NY).  February 5, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11161">Carter, Clarence Edwin, ed.  The Territorial Papers of the United States.  Vol. XIX, 1819-1825.  Washington, DC: U.S. Government Printing Office, 1953.  118-119.</reference>
+</election_record>

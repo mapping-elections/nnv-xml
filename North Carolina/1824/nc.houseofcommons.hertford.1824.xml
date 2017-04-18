@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1824 House of Commons, Hertford County" type="General" iteration="First Ballot" date="1824-08" election_id="nc.houseofcommons.hertford.1824" handle="10427/45262" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Isaac Carter" name_id="CI0004" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Vann" name_id="VJ0022" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Carr Warden" name_id="WC0039" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-05-05">
+                <candidate_summary candidate_ref="1" vote_total="348" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="334" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="292" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18425" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Hertford" geog_id="null">
+                    <result candidate_ref="1" vote="348" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="334" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="292" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18425" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18425">Raleigh Register, and North-Carolina State Gazette (Raleigh, NC).  August 24, 1824.</reference>
+    <reference type="citation" resp="Philip Lampi">The Star, and North-Carolina State Gazette (Raleigh, NC).  August 27, 1824.</reference>
+</election_record>

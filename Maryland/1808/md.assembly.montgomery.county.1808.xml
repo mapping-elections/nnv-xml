@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1808 House of Delegates, Montgomery County" type="General" iteration="First Ballot" date="1808" election_id="md.assembly.montgomery.county.1808" handle="10427/27200" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="William Carroll" name_id="CW0053" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Henry C. Gaither" name_id="GH0020" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Samuel Thomas" name_id="TS0011" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Hezekiah Veatch" name_id="VH0001" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Howard Griffith" name_id="GH0019" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Richard West" name_id="WR0045" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Elijah Vears" name_id="VE0006" affiliation="Republican" affiliation_id="A03" candidate_num="7"><note resp="Philip Lampi">Spelled Viers in the Federal Republican.</note></candidate>
+				<candidate name="Benjamin Higgins" name_id="HB0049" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+				<candidate name="Benjamin Ray" name_id="RB0010" affiliation="Federalist" affiliation_id="A01" candidate_num="9"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-05-06">
+				<candidate_summary candidate_ref="1" vote_total="1080" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1048" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1036" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1002" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="490" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="463" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="451" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="413" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02542" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02543" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02544" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02546" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02547" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14466" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The National Intelligencer and Washington Advertiser (Washington, DC) lists Benjamin Higgins with 407 votes.</note>
+				<note resp="Philip Lampi">Henry C. Gaither is listed with 1063 votes in the American, and Commercial Daily Advertiser (Baltimore, MD), with 1068 votes in the Washington Federalist (Georgetown, DC) and Frederick-Town Herald (Fredericktown, MD).</note>
+				<note resp="Philip Lampi">The Federal Republican lists 462 votes for Richard West.</note>
+				<note resp="Philip Lampi">The Maryland Herald lists 462 votes for Richard West.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="1080" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1048" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1036" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1002" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="490" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="463" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="451" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="413" resp="Philip Lampi"/>
+					<result candidate_ref="9" vote="166" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Barry's" geog_id="null">
+						<result candidate_ref="1" vote="238" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="245" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="79" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02545" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14466">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Republican and Commercial Gazette (Baltimore, MD).  August 17, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02545">National Intelligencer and Washington Advertiser (Washington, DC).  October 5, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02544">Republican Advocate (Frederickstown).  October 6, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02543">Washington Federalist (Georgetown, DC).  October 6, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02546">National Intelligencer and Washington Advertiser (Washington, DC).  October 7, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02542">American, and Commercial Daily Advertiser (Baltimore, MD).  October 10, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Herald, and Hager's-Town Weekly Advertiser (Hagerstown, MD).  October 14, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02547">Frederick-Town Herald (Fredericktown, MD).  August 12, 1809.</reference>
+</election_record>

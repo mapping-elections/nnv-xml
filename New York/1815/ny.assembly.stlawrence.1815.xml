@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="New York 1815 Assembly, Saint Lawrence County" type="General" iteration="First Ballot" date="1815" election_id="ny.assembly.stlawrence.1815" handle="10427/68276" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="David A. Ogden" name_id="OD0006" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Nathaniel F. Winslow" name_id="WN0097" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-01">
+				<candidate_summary candidate_ref="1" vote_total="595" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="310" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04531" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Saint Lawrence" geog_id="null">
+					<result candidate_ref="1" vote="595" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="310" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Utica Patriot (Utica, NY).  May 23, 1815.</reference>
+</election_record>

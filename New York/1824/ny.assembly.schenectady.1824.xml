@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assembly, Schenectady County" type="General" iteration="First Ballot" date="1824" election_id="ny.assembly.schenectady.1824" handle="10427/65644" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John S. Vrooman" name_id="VJ0165" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Nicholas F. Beck" name_id="BN0073" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="872" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="808" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schenectady" geog_id="null">
+					<result candidate_ref="1" vote="872" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="808" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Duanesburgh" geog_id="null">
+						<result candidate_ref="1" vote="257" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Glenville" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="217" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Niskayuna" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Princeton" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Rotterdam" geog_id="null">
+						<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Schenectady" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="310" resp="Philip Lampi"/>
+						<sub_unit type="Ward" name="One" geog_id="null">
+							<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="150" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Ward" name="Two" geog_id="null">
+							<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Cabinet (Schenectady, NY).  November 23, 1824.</reference>
+</election_record>

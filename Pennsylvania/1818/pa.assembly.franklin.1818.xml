@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1818" election_id="pa.assembly.franklin.1818" handle="10427/63138" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Andrew Robinson" name_id="RA0105" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ludwick Heck" name_id="HL0039" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stephen Wilson" name_id="WS0183" affiliation="Democrat" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Nevin" name_id="NJ0139" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Robert Crooks" name_id="CR0105" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John Storer" name_id="SJ1245" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-10">
+				<candidate_summary candidate_ref="1" vote_total="1496" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1475" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1473" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="951" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="949" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="946" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06919" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06920" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1496" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1475" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1473" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="951" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="949" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="946" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06919" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06920" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06919">Franklin Gazette (Philadelphia, PA).  October 26, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06920">Der Readinger Adler (Reading, PA).  October 27, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06920">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 14, 1818.</reference>
+</election_record>

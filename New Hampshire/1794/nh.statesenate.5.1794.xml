@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1794 State Senate, District 5" type="General" iteration="First Ballot" date="1794" election_id="nh.statesenate.5.1794" handle="10427/26735" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Samuel Hale" name_id="HS0107" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="J. MacDuffee" name_id="MJ0384" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Waldron" name_id="WJ0324" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-07-07">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03772" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Strafford" geog_id="null">
+						<sub_unit type="Town" name="Barrington" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Dover" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Durham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Lee" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Madbury" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="New Durham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Rochester" geog_id="null">
+							<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03772" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Town" name="Somersworth" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03772">The Phenix (Dover, NH).  April 12, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The New Hampshire Gazette (Portsmouth, NH).  May 20, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mirrour (Concord, NH).  May 26, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">The Eagle: or, Dartmouth Centinel (Hanover, NH).  June 2, 1794.</reference>
+</election_record>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1792 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1792" election_id="md.uscongress2.1792" handle="10427/34174" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John F. Mercer" name_id="MJ0200" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Thomas" name_id="TJ0160" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Richard A. Contee" name_id="CR0017" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="1405" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1039" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="23" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14047" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14049" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="1405" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1039" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+						<result candidate_ref="1" vote="608" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="667" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+						<sub_unit type="City" name="Annapolis" geog_id="null">
+							<result candidate_ref="1" vote="104" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Prince George's" geog_id="mds_princegeorges">
+						<result candidate_ref="1" vote="797" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="372" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="23" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00042">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14049">The Maryland Gazette (Annapolis, MD).  November 1, 1792.</reference>
+</election_record>

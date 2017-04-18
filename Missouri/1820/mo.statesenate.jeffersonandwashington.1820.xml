@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record label="Missouri 1820 State Senate, Jefferson and Washington Counties" type="General" iteration="First Ballot" date="1820" election_id="mo.statesenate.jeffersonandwashington.1820" handle="10427/56587" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Samuel Perry" name_id="PS0097" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Dunkin" name_id="DD0100" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Brackenridge" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="version 1.0" modified="2009-02-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="mos">
+				<sub_unit type="District" name="Jefferson and Washington" geog_id="mos_jefferson">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432"/>
+					<sub_unit type="County" name="Jefferson" geog_id="mos_jefferson">
+						<result candidate_ref="1" vote="178" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="26" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="mos_washington">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11432">Missouri Gazette and Public Advertiser (Saint Louis, MO).  September 6, 1820.</reference>
+</election_record>

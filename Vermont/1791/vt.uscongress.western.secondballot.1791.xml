@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1791 U.S. House of Representatives, Western District, Ballot 2" type="General" iteration="Second Ballot" date="1791-09" election_id="vt.uscongress.western.secondballot.1791" handle="10427/20473" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Israel Smith" name_id="SI0092" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Lyon" name_id="LM0053" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Tichenor" name_id="TI0032" affiliation="Federalist" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="null" modified="2014-05-16">
+				<candidate_summary candidate_ref="1" vote_total="2588" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="85" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00036" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Sometime previous to the election, Mr. Tichenor published his wish of not being considered a candidate."  Vermont Gazette (Bennington, VT).  September 26, 1791.</note>
+			</overview>
+			<admin_unit type="State" name="Vermont" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="2588" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1112" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="85" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00036" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Addison" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Bennington" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Chittenden" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Rutland" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00036">The Vermont Gazette (Bennington, VT).  September 26, 1791.</reference>
+</election_record>

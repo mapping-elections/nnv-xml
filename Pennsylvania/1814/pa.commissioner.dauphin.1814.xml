@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Commissioner, Dauphin County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.commissioner.dauphin.1814" handle="10427/65986" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Zinn" name_id="ZJ0002" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Allison" name_id="AW0098" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Fager" name_id="FJ0403" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-14">
+				<candidate_summary candidate_ref="1" vote_total="709" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="192" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="16" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">During the War of 1812, there was some British military movement in and around the Chesapeake Bay area and in an attempt to prepare for any military actions that the British might take, there were a host of military camps set up in some of the counties close to the Chesapeake Bay and Philadelphia City. In the October 1814 Pennsylvania state elections, the members of the military camps native to Pennsylvania were allowed to vote. When the newspapers reported these returns they listed them under "camp" or "army" votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="709" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="192" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The totals for Dauphin County are missing the military votes.</note>
+					<sub_unit type="Township" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Upper Paxton (Hawk's)" geog_id="null">
+						<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Upper Paxton (Snyder's)" geog_id="null">
+						<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="West Hanover" geog_id="null">
+						<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 15, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">The Chronicle or Harrisburgh Visitor (Harrisburg, PA).  October 17, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Republican (Harrisburg, PA).  October 18, 1814.</reference>
+</election_record>

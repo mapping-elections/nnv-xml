@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1823 U.S. Senate, Special, Ballot 2" type="Special" iteration="Second Ballot" date="1823" election_id="de.ussenator.second.1823" handle="10427/19576" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Samuel H. Black" name_id="BS0038" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="George Read Jr." name_id="RG0002" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Nicholas Van Dyke" name_id="VN0010" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Arthur Johns" name_id="JA0002" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Willard Hall" name_id="HW0048" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="13" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="8" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09670" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Special election to fill the vacancy caused by the resignation of Caesar A. Rodney. After five ballots, no choice was made. The legislature adjourned to convene again for another attempt.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09670" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09670">Delaware Gazette (Wilmington, DE).  February 7, 1823.</reference>
+</election_record>

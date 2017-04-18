@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1819 State Senate, Hertford County" type="General" iteration="First Ballot" date="1819-08" election_id="nc.statesenator.hertford.1819" handle="10427/42797" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="John H. Fraser" name_id="FJ0075" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Boon Felton" name_id="FB0005" affiliation="null" affiliation_id="null" candidate_num="2"></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-14">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">John H. Fraser is elected by a majority of 10 votes.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Hertford" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Edenton Gazette, and North-Carolina General Advertiser (Edenton, NC).  August 24, 1819.</reference>
+</election_record>

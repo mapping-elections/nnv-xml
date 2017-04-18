@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1824 House of Representatives, Boone County, Special" type="Special" iteration="First Ballot" date="1824" election_id="mo.specialassembly.boone.1824" handle="10427/56619" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Thomas W. Conyers" name_id="CT0134" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Tyre Harris" name_id="HT0095" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James W. Moss" name_id="MJ0369" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="212" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="163" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="66" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Special election for Representative, November 4th, 1824, caused by the death of D. C. Westerfield.</note>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Boone" geog_id="null">
+					<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Cedar" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Columbia" geog_id="null">
+						<result candidate_ref="1" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="47" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Missouri" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Perche" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Rockyfork" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">History of Boone County, Missouri.  Cape Girardeau, MO: Ramfre Press, 1970.  149.</reference>
+</election_record>

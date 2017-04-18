@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Director of the Poor, Delaware County" type="General" iteration="First Ballot" date="1817-10" election_id="pa.director.delaware.1817" handle="10427/67616" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="William Trimble" name_id="TW0093" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas H. Brinton" name_id="BT0243" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Mattson" name_id="MJ0836" affiliation="Quid" affiliation_id="A04" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-31">
+				<candidate_summary candidate_ref="1" vote_total="1075" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="573" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="83" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="1075" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="573" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="83" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="256" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="26" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="264" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="233" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="322" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 20, 1817.</reference>
+</election_record>

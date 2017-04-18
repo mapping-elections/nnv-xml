@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1822 Sergeant at Arms, Ballot 4" type="Legislative" iteration="Fourth Ballot" date="1822" election_id="pa.sergeantatarms.fourthballot.1822" handle="10427/63752" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sergeant at Arms" office_id="ON099" scope="State">
+		<role title="Sergeant at Arms" scope="State">
+			<ballot>
+				<candidate name="James Smith" name_id="SJ1388" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Daniel Stine" name_id="SD0181" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Wilson" name_id="WJ0604" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Samuel C. Stambaugh" name_id="SS0344" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James Taylor" name_id="TJ0549" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-17">
+				<candidate_summary candidate_ref="1" vote_total="29" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="29" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10867" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10867" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10867">Harrisburg Chronicle (Harrisburg, PA).  December 9, 1822.</reference>
+</election_record>

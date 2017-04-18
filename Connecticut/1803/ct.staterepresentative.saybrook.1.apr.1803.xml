@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1803 House of Representatives, Saybrook, First Representative" type="General" iteration="First Ballot" date="1803-04" election_id="ct.staterepresentative.saybrook.1.apr.1803" handle="10427/79661" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Jonathan Lay" name_id="LJ0004" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Hart" name_id="HW0015" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-28">
+				<candidate_summary candidate_ref="1" vote_total="286" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="5" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On a fair calculation (after all the intrigue the art of man could invent) they do not muller but 55 democrats in this town.  True Gen. Hart has 112 votes for representative - but that is owing to the agitation of the people of the first Parish, on account of the alteration of the turnpike road to the ferry."  Middlesex Gazette (Middletown, CT).  April 18, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Saybrook" geog_id="null">
+					<result candidate_ref="1" vote="286" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Middlesex Gazette (Middletown, CT).  April 18, 1803.</reference>
+</election_record>

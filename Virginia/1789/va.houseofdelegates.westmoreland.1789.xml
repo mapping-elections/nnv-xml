@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1789 House of Delegates, Westmoreland County" type="General" iteration="First Ballot" date="1789" election_id="va.houseofdelegates.westmoreland.1789" handle="10427/32613" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Henry Lee" name_id="LH0064" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Richard Lee" name_id="LR0089" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Alexander Campbell" name_id="CA0219" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-25">
+				<candidate_summary candidate_ref="1" vote_total="212" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="154" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="114" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08245" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Westmoreland" geog_id="null">
+					<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="114" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08245" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08245">Westmoreland County Inventories No. 6.  482-489.</reference>
+</election_record>

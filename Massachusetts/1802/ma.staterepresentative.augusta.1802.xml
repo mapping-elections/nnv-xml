@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1802 House of Representatives, Augusta" type="General" iteration="First Ballot" date="1802-05" election_id="ma.staterepresentative.augusta.1802" handle="10427/69062" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Samuel Howard" name_id="HS0067" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Nathan Weston" name_id="WN0012" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Samuel Titcomb" name_id="TS0042" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-08-21">
+                <candidate_summary candidate_ref="1" vote_total="93" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="47" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Edes' Kennebec Gazette (Augusta, ME) reports 5 votes for Samuel Titcomb.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="Town" name="Augusta" geog_id="null">
+                    <result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Edes' Kennebec Gazette (Augusta, ME).  May 7, 1802.</reference>
+    <reference type="citation" resp="Philip Lampi">North, James W.  The History of Augusta.  Augusta, ME: Clapp and Norton, 1870.  323.</reference>
+</election_record>
+

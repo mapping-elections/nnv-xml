@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Assessor, Albany, Ward 2" type="General" iteration="First Ballot" date="1824" election_id="ny.assessor2.albany.1824" handle="10427/65648" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="City">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="Jeremiah Waterman" name_id="WJ0498" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Seymour" name_id="SW0201" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-12">
+				<candidate_summary candidate_ref="1" vote_total="277" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="116" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="277" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Munsell, Joel.  The Annals of Albany.  Vol. III.  Albany, NY: J. Munsell, 1852.  104.</reference>
+</election_record>

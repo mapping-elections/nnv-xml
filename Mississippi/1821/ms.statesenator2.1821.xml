@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 State Senate, Claiborne and Warren Counties" type="General" iteration="First Ballot" date="1821" election_id="ms.statesenator2.1821" handle="10427/58482" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Ralph Rogan" name_id="RR0088" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Freeland" name_id="FT0096" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-17">
+				<candidate_summary candidate_ref="1" vote_total="431" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="358" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15361" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="District" name="Claiborne and Warren" geog_id="null">
+					<result candidate_ref="1" vote="431" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="358" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Mississippi Republican (Natchez, MS) lists Ralph Rogan as Ralph Regan and lists him with 250 votes.</note>
+					<sub_unit type="County" name="Claiborne" geog_id="null">
+						<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="237" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Mississippi Republican (Natchez, MS) lists Ralph Rogan as Ralph Regan and lists him with 250 votes.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Warren" geog_id="null">
+						<result candidate_ref="1" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15361">Mississippi Republican (Natchez, MS).  August 14, 1821.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Rhode Island 1812 House of Representatives, Newport, Second Representative" type="General" iteration="First Ballot" date="1812-04" election_id="ri.assembly.newporttown2.1812" handle="10427/64538" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Benjamin Hazard" name_id="HB0006" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin B. Mumford" name_id="MB0002" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-05-05">
+				<candidate_summary candidate_ref="1" vote_total="307" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="255" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16389" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16391" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Rhode Island" geog_id="ris">
+				<sub_unit type="Town" name="Newport" geog_id="ris_newport_newport">
+					<result candidate_ref="1" vote="307" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="255" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Newport Mercury (Newport, RI).  April 18, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">The Rhode-Island American, and General Advertiser (Providence, RI).  May 12, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">Providence Gazette and Country Journal (Providence, RI).  May 16, 1812.</reference>
+</election_record>

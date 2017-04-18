@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Sheriff, Adams County" type="General" iteration="First Ballot" date="1803-10" election_id="pa.sheriff.adams.1803" handle="10427/61343" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="James Gettys" name_id="GJ0383" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Horner" name_id="HJ0846" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="William Kuhn" name_id="KW0076" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Gilliland" name_id="GJ0399" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-09">
+				<candidate_summary candidate_ref="1" vote_total="1131" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1111" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="784" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="269" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05854" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Adams Centinel (Gettysburg, PA) from October 19 lists John Gilliland with 299 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1131" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1111" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="784" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="269" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="423" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="376" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="221" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="39" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05853" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) from October 19 lists James Gettys with 433 votes.</note>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="144" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="89" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05853" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05853" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="195" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="141" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="74" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05853" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="181" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="55" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05853" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05854">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  October 12, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  October 19, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05853">Aurora. General Advertiser (Philadelphia, PA).  October 19, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Carlisle Herald (Carlisle, PA).  October 19, 1803.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1795 Constitutional Convention, Washington County" type="General" iteration="First Ballot" date="1795" election_id="tn.constitutionalconvention.washington.1795" handle="10427/64844" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Constitutional Convention" office_id="ON039" scope="State">
+        <role title="Convention Delegate" scope="County">
+            <ballot>
+                <candidate name="Landon Carter" name_id="CL0068" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="John Tipton" name_id="TJ0594" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Leeroy Taylor" name_id="TL0025" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="James Stuart" name_id="SJ1531" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Samuel Handley" name_id="HS0050" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="County" name="Washington" geog_id="tns_washington">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                    <result candidate_ref="5" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Heiskell, S. G.  Andrew Jackson and Early Tennessee History.  Nashville: Ambrose Printing, 1918.</reference>
+</election_record>

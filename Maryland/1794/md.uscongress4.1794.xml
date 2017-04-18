@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1794 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1794" election_id="md.uscongress4.1794" handle="10427/27447" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Thomas Sprigg" name_id="ST0060" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Roger Nelson" name_id="NR0020" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="1698" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1066" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00071" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14070" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The General Advertiser lists 1758 votes for Thomas Sprigg and 1030 votes for Roger Nelson.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="1698" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1066" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Allegany" geog_id="mds_allegany">
+						<result candidate_ref="1" vote="516" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00071" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14064" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14065" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14067" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14069" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Dunlap and Claypoole's Daily American Advertiser, the Baltimore Daily Intelligencer (Baltimore, MD) and the Gazete of the United States list 520 votes for Thomas Sprigg and 136 votes for Roger Nelson.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Frederick" geog_id="mds_frederick">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="873" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02179" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14064" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14065" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Washington" geog_id="mds_washington">
+						<result candidate_ref="1" vote="1181" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00071" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14064" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14065" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14067" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14069" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Dunlap and Claypoole's Daily American Advertiser lists 1200 votes for Thomas Sprigg and 36 votes for Roger Nelson.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14065">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14065">Dunlap and Claypoole's American Daily Advertiser (Philadelphia, PA).  October, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi">Baltimore Daily Intelligencer (Baltimore, MD).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14069">Gazette of the United States and Daily Evening Advertiser (Philadelphia, PA).  October 18, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02179">Baltimore Daily Intelligencer (Baltimore, MD).  October 20, 1794.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14070">General Advertiser (Philadelphia, PA).  October 27, 1794.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 Clerk, Boston, Ward 10" type="General" iteration="First Ballot" date="1822" election_id="ma.clerk.10.boston.1822" handle="10427/79251" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk" office_id="ON023" scope="Ward">
+		<role title="Clerk" scope="Ward">
+			<ballot>
+				<candidate name="George W. Thayer" name_id="TG0068" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Hales" name_id="HW0287" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-04-13">
+				<candidate_summary candidate_ref="1" vote_total="120" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="107" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole No. 228."  The Repertory (Boston, MA).  April 9, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="scs">
+				<sub_unit type="City" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Ten" geog_id="null">
+						<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 9, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  April 10, 1822.</reference>
+</election_record>

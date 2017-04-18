@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1809 Assessor, New York, Ward 7" type="General" iteration="First Ballot" date="1809" election_id="ny.assessor.newyork7.1809" handle="10427//68101" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assessor" office_id="ON004" scope="City">
+      <role title="Assessor" scope="Ward">
+        <ballot>
+           <candidate name="James MacMaster" name_id="MJ0950" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Benjamin S. Knapp" name_id="KB0019" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Charles E. Duncan" name_id="DC0021" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+           <candidate name="Phelix Cunningham" name_id="CP0058" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2014-04-02">
+           <candidate_summary candidate_ref="1" vote_total="547" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="320" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="319" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="302" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="New York" geog_id="null">
+              <sub_unit type="Ward" name="Seven" geog_id="null">
+                <result candidate_ref="1" vote="547" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="320" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="319" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="302" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Public Advertiser (New York, NY).  November 29, 1809.</reference>
+</election_record>
+

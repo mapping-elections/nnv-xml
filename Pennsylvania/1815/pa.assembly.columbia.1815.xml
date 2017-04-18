@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 House of Representatives, Columbia County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.assembly.columbia.1815" handle="10427/62815" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James MacClure" name_id="MJ1136" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David E. Owen" name_id="OD0007" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Samuel Webb Jr." name_id="WS0177" affiliation="Federal Republican" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-01">
+				<candidate_summary candidate_ref="1" vote_total="892" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="579" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06738" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06739" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06740" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In Columbia County the Republicans are again unfortunately divided and have formed two tickets - at Danville, on the 22nd, August - Davide E. Owen and at Bloomburg on the 17th of August - Col. James MacClure."  The Susquehanna Democrat (Wilkes-Barre, PA).  September 22, 1815.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="892" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="579" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06738" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06739" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06740" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06740">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06739">Northumberl. Republicaner, und Northumberland, Union und Columbia Counties Adverteiser (Sunbury, PA).  September 22, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06738">The Susquehanna Democrat (Wilkes-Barre, PA).  September 22, 1815.</reference>
+</election_record>

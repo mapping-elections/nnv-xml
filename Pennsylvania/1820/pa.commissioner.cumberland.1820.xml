@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Commissioner, Cumberland County" type="General" iteration="First Ballot" date="1820-10" election_id="pa.commissioner.cumberland.1820" handle="10427/67655" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Martin Rupp" name_id="RM0035" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="George MacFeely" name_id="MG0106" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="John Rupley" name_id="RJ0387" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Frederick Sharretts" name_id="SF0042" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-29">
+				<candidate_summary candidate_ref="1" vote_total="1897" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1876" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1826" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1824" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="1897" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1876" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1826" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1824" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="781" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="795" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="791" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="821" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gehr's" geog_id="null">
+						<result candidate_ref="1" vote="141" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="141" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="69" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreitzer's" geog_id="null">
+						<result candidate_ref="1" vote="244" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="230" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="204" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Newville" geog_id="null">
+						<result candidate_ref="1" vote="452" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="438" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="423" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="408" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Shippensburg" geog_id="null">
+						<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="222" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="181" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Volunteer (Carlisle, PA).  October 12, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Carlisle Republican (Carlisle, PA).  October 17, 1820.</reference>
+</election_record>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 Sheriff, Fayette County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.sheriff.fayette.1802" handle="10427/61294" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="James Allen" name_id="AJ0266" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Oliphant" name_id="OA0028" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="James Gregg" name_id="GJ0392" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="George Manypenny" name_id="MG0079" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-28">
+				<candidate_summary candidate_ref="1" vote_total="1399" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="838" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="591" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="330" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05803" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="1399" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="838" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="591" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="330" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05803" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05803">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 22, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  October 23, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 2, 1802.</reference>
+</election_record>

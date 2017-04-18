@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1810 House of Representatives, Falmouth" type="General" iteration="First Ballot" date="1810-05" election_id="ma.staterepresentative.falmouth.1810" handle="10427/27586" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="James Hinckley" name_id="HJ0306" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Braddock Dimmick" name_id="DB0011" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Prince Gifford, Jr." name_id="GP0008" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thomas Fish, Jr." name_id="FT0021" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Weston Jenkins" name_id="JW0028" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-22">
+				<candidate_summary candidate_ref="1" vote_total="98" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03530" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Voted to send two Representatives."  Falmouth Town Records.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Falmouth" geog_id="null">
+					<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03530" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03530">Falmouth Town Records.  440.</reference>
+</election_record>

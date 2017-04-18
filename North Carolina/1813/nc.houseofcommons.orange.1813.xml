@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1813 House of Commons, Orange County" type="General" iteration="First Ballot" date="1813-08" election_id="nc.houseofcommons.orange.1813" handle="10427/43158" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Duncan Cameron" name_id="CD0126" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Craig" name_id="CJ0552" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Clendenning" name_id="CJ0558" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Street" name_id="SJ0821" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="J. Moore" name_id="MJ0579" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-20">
+				<candidate_summary candidate_ref="1" vote_total="1266" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="726" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="565" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="492" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="307" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04956" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04958" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Star (Raleigh, NC) lists John Craig with 765 votes.</note>
+				<note resp="Philip Lampi">The Raleigh Register, and North-Carolina Gazette (Raleigh, NC) lists Joseph Clendennin with 567 votes.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<result candidate_ref="1" vote="1266" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="726" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="565" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="492" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="307" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04957" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04956">The Raleigh Minerva (Raleigh, NC).  August 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04957">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  August 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04958">The Star (Raleigh, NC).  August 20, 1813.</reference>
+</election_record>

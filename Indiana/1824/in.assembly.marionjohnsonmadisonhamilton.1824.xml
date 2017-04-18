@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1824 House of Representatives, Hamilton, Johnson, Madison and Marion Counties" type="General" iteration="First Ballot" date="1824" election_id="in.assembly.marionjohnsonmadisonhamilton.1824" handle="10427/56502" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Conner" name_id="CJ0157" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Hawkins" name_id="HJ0104" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="James Scott" name_id="SJ0147" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jacob Whitinger" name_id="WJ0119" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Daniel B. Wick" name_id="WD0003" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-16">
+				<candidate_summary candidate_ref="1" vote_total="382" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="194" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="16" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12436" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="District" name="Hamilton, Johnson, Madison and Marion" geog_id="null">
+					<result candidate_ref="1" vote="382" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="194" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="82" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="16" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Hamilton" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12439" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Johnson" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="7" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12439" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Madison" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12439" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Marion" geog_id="null">
+						<result candidate_ref="1" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12439" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12436">Indianapolis Gazette (Indianapolis, IN).  August 10, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12436">Indianapolis Gazette (Indianapolis, IN).  August 17, 1824.</reference>
+</election_record>

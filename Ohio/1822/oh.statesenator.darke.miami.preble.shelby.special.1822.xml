@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 State Senate, Darke, Miami, Preble and Shelby Counties, Special" type="Special" iteration="First Ballot" date="1822-04" election_id="oh.statesenator.darke.miami.preble.shelby.special.1822" handle="10427/65398" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="John P. Finley" name_id="FJ0104" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="David Purviance" name_id="PD0061" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="James Riley" name_id="RJ0299" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Eaton" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-24">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Darke, Miami, Preble and Shelby" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Darke" geog_id="ohs_darke">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Miami" geog_id="ohs_miami">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Preble" geog_id="ohs_preble">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Shelby" geog_id="ohs_shelby">
+                        <result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                        <sub_unit type="Township" name="Clinton" geog_id="null">
+                            <result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Green" geog_id="null">
+                            <result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Loramie" geog_id="null">
+                            <result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Orange" geog_id="null">
+                            <result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Perry" geog_id="null">
+                            <result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                            <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Turtle Creek" geog_id="null">
+                            <result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Town Election Certificates and County Summary Sheet.</reference>
+</election_record>

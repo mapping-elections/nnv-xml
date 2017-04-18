@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1798 U.S. House of Representatives, District 8" type="General" iteration="First Ballot" date="1798" election_id="md.uscongress8.1798" handle="10427/34002" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Dennis" name_id="DJ0122" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-01">
+				<candidate_summary candidate_ref="1" vote_total="460" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00152" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Eight" geog_id="null">
+					<result candidate_ref="1" vote="460" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00152" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14127" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14128" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Poll list has 119 names of persons voting and one certificate lists this as the vote; the other one has 114 as the return. This return omits the votes given on 4 of the poll list.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="mds_somerset">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00152" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Worcester" geog_id="mds_worcester">
+						<result candidate_ref="1" vote="261" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00152" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14127" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00152">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1812 Electoral college, District 2" type="General" iteration="First Ballot" date="1812" election_id="tn.elector.second.1812" handle="10427/64949" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Electoral College" office_id="ON056" scope="Federal">
+        <role title="Elector" scope="District">
+            <ballot>
+                <elector name="Henry Bradford" name_id="BH0165" affiliation="Republican" affiliation_id="A03" declared_for="James Madison" elector_num="1"><note resp="Philip Lampi">Henry Bradford of Jefferson County.</note></elector>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-04-28">
+                <elector_summary elector_ref="1" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16764" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="District" name="Two" geog_id="null">
+                    <sub_unit type="County" name="Claiborne" geog_id="tns_claiborne">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Cocke" geog_id="tns_cocke">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Grainger" geog_id="tns_grainger">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Jefferson" geog_id="tns_jefferson">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit> 
+                    <sub_unit type="County" name="Sevier" geog_id="tns_rhea">
+                        <result elector_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16764">Wilson's Knoxville Gazette (Knoxville, TN).  October 12, 1812.</reference>
+</election_record>

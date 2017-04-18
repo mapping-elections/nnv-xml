@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1817 House of Representatives, Jefferson County" type="General" iteration="First Ballot" date="1817" election_id="in.assembly.jeffersonjenningsripley.1817" handle="10427/56420" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Williamson Dunn" name_id="DW0022" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Nathaniel Hunt" name_id="HN0011" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Smock" name_id="SS0034" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Carpenter" name_id="CW0017" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Richard Hopkins" name_id="HR0023" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Zacheriah Tannehill" name_id="TZ0000" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Samuel Ryker" name_id="RS0007" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Moses Hooper" name_id="HM0013" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="395" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="395" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="292" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="108" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="78" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="64" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12283" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="395" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="395" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="292" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="205" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="108" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="78" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="64" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="6" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Jefferson" geog_id="null">
+						<result candidate_ref="1" vote="348" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="326" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="271" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="205" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12283" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Jennings" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="31" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12283" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The votes from Ripley are included with Jennings.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12283">Indiana Republican (Madison, IN).  August 9, 1817.</reference>
+</election_record>

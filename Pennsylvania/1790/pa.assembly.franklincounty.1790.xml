@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1790-10" election_id="pa.assembly.franklincounty.1790" handle="10427/60679" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Johnston" name_id="JJ0180" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacLene" name_id="MJ0807" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" vote_total="1656" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1564" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05395" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05396" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05397" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Pennsylvania Herald and The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA) use the spelling McLean for James McLene.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="1656" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1564" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania House of Representatives, 1790.  4.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05396">The Carlisle Gazette, and the Western Repository of Knowledge (Carlisle, PA).  October 20, 1790.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 20, 1790.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05395">The Pennsylvania Mercury and Universal Advertiser (Philadelphia, PA).  October 23, 1790.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05397">The Pennsylvania Packet, and Daily Advertiser (Philadelphia, PA).  October 27, 1790.</reference>
+</election_record>

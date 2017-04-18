@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1820 House of Representatives, Dallas County" type="General" iteration="First Ballot" date="1820-08" election_id="al.staterepresentative.dallascounty.1820" handle="10427/55798" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Horatio G. Perry" name_id="PH0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac S. MacMeans" name_id="MI0000" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Randal Duckworth" name_id="DR0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Saffold" name_id="SJ0004" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="J. L. Baird" name_id="BJ0006" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-15">
+				<candidate_summary candidate_ref="1" vote_total="278" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="261" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="201" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="195" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="31" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11039" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Alabama Watchman (Cahawba, AL) refers to Isaac S. MacMeans as J. S. MacMeans.</note>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Dallas" geog_id="null">
+					<result candidate_ref="1" vote="278" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="201" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="195" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="31" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Cahawba" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="24" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11039" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Portland" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11039" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Selma" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11039" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  National Archives, Washington, DC.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11039">Alabama Watchman (Cahawba, AL).  August 8, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 1, 1820.</reference>
+</election_record>

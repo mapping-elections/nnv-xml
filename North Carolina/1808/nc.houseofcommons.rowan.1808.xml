@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1808 House of Commons, Rowan County" type="General" iteration="First Ballot" date="1808-08" election_id="nc.houseofcommons.rowan.1808" handle="10427/43429" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="Jesse A. Pearson" name_id="PJ0354" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Smith" name_id="SJ0811" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Mumford" name_id="MG0056" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Daniel Leatherman" name_id="LD0017" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-08">
+				<candidate_summary candidate_ref="1" vote_total="1725" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="986" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="957" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="647" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04838" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Rowan" geog_id="null">
+					<result candidate_ref="1" vote="1725" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="986" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="957" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="647" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04838" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Forks" geog_id="null">
+						<result candidate_ref="1" vote="347" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="233" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="47" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04839" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Salisbury" geog_id="null">
+						<result candidate_ref="1" vote="425" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="544" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="155" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04839" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04839">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04838">The Minerva (Raleigh, NC).  August 25, 1808.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 House of Representatives, Delaware County" type="General" iteration="First Ballot" date="1807-10" election_id="pa.assembly.delaware.1807" handle="10427/61748" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Trimble" name_id="TW0093" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Pennock" name_id="PW0224" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Hunter" name_id="HG0125" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Pierce" name_id="PJ0631" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-21">
+				<candidate_summary candidate_ref="1" vote_total="949" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="942" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="626" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="619" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06142" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Both candidates on the Federalist ticket: "At a respectable meeting of the federal republicans of Delaware county, convened pursuant to public notice, at the Black Horse tavern in the township of Middletown, on Saturday, the 15t inst. Dr. Jonas Preston was called to the chair, and Dr. Samuel Anderson appointed secretary." The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  August 25, 1807.</note>
+				<note resp="Philip Lampi">Both candidates on the Second [Federalist] ticket: "At a respectable meeting of the citizens of Delaware county, convened agreeably to notice at Isaac Cochran's tavern, in the township of Upper Providence, on Saturday 29th Aug. 1807. Isaac Malin, chairman - Samuel Edwards, sec." The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  September 4, 1807.</note>
+				<note resp="Philip Lampi">Vote totals for republican candidates George Hunter and John Pierce are extrapolated (based on a total vote of 1568).</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="949" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="942" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="626" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="619" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06142" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06142">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06141">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  August 25, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06141">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  September 4, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 17, 1807.</reference>
+</election_record>

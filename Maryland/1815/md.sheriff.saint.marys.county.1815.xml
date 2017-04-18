@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1815 Sheriff, Saint Mary's County" type="General" iteration="First Ballot" date="1815" election_id="md.sheriff.saint.marys.county.1815" handle="10427/26440" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Cole" name_id="CJ0265" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Kilgour" name_id="KW0022" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-26">
+				<candidate_summary candidate_ref="1" vote_total="701" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="290" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02959" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02960" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14698" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"John Cole, the federal candidate for the sheriff-atty, was elected by a majority of 540 votes over Thomas Barber, the democratic candidate, who only got 161 votes in the county, notwithstanding the insidious attempts which were made by the democrats to produce a schism in the federal ranks." Federal Republican (Georgetown, DC).  October 17, 1815.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Saint Mary's" geog_id="mds_saintmarys">
+					<result candidate_ref="1" vote="701" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="290" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02959" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14698" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02959">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02960">Federal Republican (Georgetown, DC).  October 17, 1815.</reference>
+</election_record>

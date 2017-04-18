@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1823 Mayor, Saint Louis" type="General" iteration="First Ballot" date="1823-04" election_id="mo.mayor.stlouis.1823" handle="10427/56569" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Mayor" office_id="ON079" scope="City">
+		<role title="Mayor" scope="City">
+			<ballot>
+				<candidate name="William Carr Lane" name_id="LW0085" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Auguste Chouteau" name_id="CA0069" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Marie P. Leduc" name_id="LM0033" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-12-19">
+				<candidate_summary candidate_ref="1" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="28" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11488"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="City" name="Saint Louis" geog_id="null">
+					<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="28" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11488">Missouri Republican (Saint Louis, MO).  April 9, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Western Monitor (Lexington, KY).  April 29, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Scharf, J. Thomas.  History of Saint Louis City and County.  Philadelphia: L. H. Everts, 1883.  654.</reference>
+</election_record>

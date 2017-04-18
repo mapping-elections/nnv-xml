@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1815 Speaker of the House" type="Legislative" iteration="First Ballot" date="1815" election_id="vt.speakerofthehouse.1815" handle="10427/79000" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="William A. Griswold" name_id="GW0183" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="David Edmond" name_id="ED0031" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-10-23">
+                <candidate_summary candidate_ref="1" vote_total="114" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="98" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The following vote for Speaker, decides the majority in the House."  National Standard (Middlebury, VT).  October 18, 1815.</note>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="98" resp="Philip Lampi"/>
+                    </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">National Standard (Middlebury, VT).  October 18, 1815.</reference>
+</election_record>
+

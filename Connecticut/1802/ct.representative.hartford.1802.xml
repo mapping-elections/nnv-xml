@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1802 House of Representatives, Hartford" type="General" iteration="First Ballot" date="1802-04" election_id="ct.representative.hartford.1802" handle="10427/79650" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="John Caldwell" name_id="CJ0040" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Morgan" name_id="MJ1169" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Jonathan Bull" name_id="BJ0024" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Hart" name_id="HW0015" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-19">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The number of Freemen collected on this occasion in this town was greater perhaps than was ever before known, the votes for representatives being 455; a majority of which both for the State and Congressional lists, was federal."  Connecticut Courant (Hartford, CT).  April 19, 1802.</note>
+				<note resp="Philip Lampi">In reporting on the September election, the Connecticut Courant of September 27, 1802 compared the Republican votes for the spring and fall elections, reporting that their vote in April for representative was Jonathan Bull 209 and William Hart 3, giving them a total of 212. It does not state whether this was the vote for the first or second representative. It is possible that one of the Federalist candidates was unopposed, so there would be only one contest strictly between opposing individuals. Whatever the scenario, at least one Federalist candidate polled 243 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="Hartford" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  April 19, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  September 27, 1802.</reference>
+</election_record>

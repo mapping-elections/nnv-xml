@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1817 Assessor, Salem, Ballot 2" type="General" iteration="Second Ballot" date="1817-03" election_id="ma.assessor.salem.2.1817" handle="10427/78882" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Town">
+		<role title="Assessor" scope="Town">
+			<ballot>
+				<candidate name="James Odell" name_id="OJ0025" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Holman, Jr." name_id="HS0298" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Archer" name_id="AJ0117" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Benjamin Blanchard" name_id="BB0165" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-08-19">
+				<candidate_summary candidate_ref="1" vote_total="770" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="760" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="734" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="727" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Assessors - Whole number 1505; necessary for a choice, 735; Messrs Holman (fed.) and Odell (demo.) were therefore chosen and this board completed."  Salem Gazette (Salem, MA).  March 14, 1817.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Salem" geog_id="null">
+					<result candidate_ref="1" vote="770" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="760" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="734" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="727" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  March 12, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 14, 1817.</reference>
+</election_record>

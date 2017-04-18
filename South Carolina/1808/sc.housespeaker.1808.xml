@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1808 Speaker of the House, Special" type="Special" iteration="First Ballot" date="1808" election_id="sc.housespeaker.1808" handle="10427/64714" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Speaker of the House" office_id="ON104" scope="State">
+		<role title="Speaker of the House" scope="State">
+			<ballot>
+				<candidate name="Joseph Alston" name_id="AJ0348" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Paul Hamilton" name_id="HP0069" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-27">
+				<candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="35" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15648" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Today the House of Representatives proceeded to an election of a Speaker in place of Mr. Gaillard, appointed a Judge.  Upon casting up the ballots it appearerd that the Hon. Joseph Alston had 68 votes, and Paul Hamilton, Esq. late Governor, 35. The former Elected."  City Gazette and Daily Advertiser (Charleston, SC).  December 26, 1808.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15648" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15648">City Gazette and Daily Advertiser (Charleston, SC).  December 26, 1808.</reference>
+</election_record>

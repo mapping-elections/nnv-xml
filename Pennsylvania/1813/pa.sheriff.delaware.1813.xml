@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1813 Sheriff, Delaware County" type="General" iteration="First Ballot" date="1813-10" election_id="pa.sheriff.delaware.1813" handle="10427/62583" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Daniel Thomson" name_id="TD0086" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Mendenhall" name_id="MW0347" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Richard P. Lloyd" name_id="LR0063" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Isaac Barton" name_id="BI0040" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="George Irwin" name_id="IG0004" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="John Levis" name_id="LJ0389" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-07">
+				<candidate_summary candidate_ref="1" vote_total="779" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="757" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="513" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="336" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="336" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="311" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06608" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The following is the result of the election in Delaware county, taken from the official returns; last year the average federalist majority was about 600, this year it is about 250--except the Sheriff, whom the Democrats have elected for the first time since the county was organized." The Democratic Press (Philadelphia, PA).  October 18, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="779" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="757" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="513" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="336" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="336" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="311" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06608" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 13, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06608">The Democratic Press (Philadelphia, PA).  October 18, 1813.</reference>
+</election_record>

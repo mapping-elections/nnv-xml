@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1825 U.S. Senate, Ballot 3" type="Legislative" iteration="Third Ballot" date="1825" election_id="ct.ussenate.7.1825" handle="10427/79861" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Calvin Willey" name_id="WC0000" affiliation="Republican" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Lanman" name_id="LJ0005" affiliation="Republican" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel A. Foote" name_id="FS0001" affiliation="Republican" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Oliver Wolcott" name_id="WO0026" affiliation="Republican" affiliation_id="null" candidate_num="4"/>
+				<candidate name="scattering" name_id="null" affiliation="Republican" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-28">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<note resp="Philip Lampi">"On counting the votes, it appeared that CALVIN WILLEY, Esq. had a majority.  Mr. Willey has also been elected on the part of the House.  His term of service will expire March 4, 1831."  The Times and Hartford Advertiser (Hartford, CT).  May 31, 1825.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Times and Hartford Advertiser (Hartford, CT).  May 24, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times and Hartford Advertiser (Hartford, CT).  May 31, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">American Sentinel (Middletown, CT).  June 1, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Norwich Courier (Norwich, CT).  June 1, 1825.</reference>
+</election_record>

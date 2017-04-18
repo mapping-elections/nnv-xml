@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1802 State Senate, Suffolk County" type="General" iteration="First Ballot" date="1802" election_id="ma.senator.suffolk.1802" handle="10427/69051" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Oliver Wendell" name_id="WO0023" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Quincy Adams" name_id="AJ0043" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Peleg Coffin" name_id="CP0027" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Tudor" name_id="TW0044" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Benjamin Austin, Jr." name_id="AB0013" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+                <candidate name="James Bowdoin" name_id="BJ0467" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+                <candidate name="Nathaniel Fellows" name_id="FN0032" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+                <candidate name="David Tilden" name_id="TD0030" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-08-20">
+                <candidate_summary candidate_ref="1" vote_total="2479" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="2477" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="2477" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="2473" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"No. Voters, 4099.  Make a choice, 2050."  Governor's Council Records.</note>
+                <note resp="Philip Lampi">"We may safely felicitate the citizens of Suffolk and Essex, on the election of the following gentlemen for their Senators the ensuing year, by a very large majority, viz.--Hon. OLIVER WENDELL, WILLIAM TUDOR, PELEC COFFIN, and JOHN QUINCY ADAMS, Esquires."  The Political Repository: Or, Farmer's Journal (Brookfield, MA).  April 13, 1802.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="County" name="Suffolk" geog_id="null">
+                    <result candidate_ref="1" vote="2479" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="2477" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2477" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="2473" resp="Philip Lampi"/>
+                    <sub_unit type="Town" name="Boston" geog_id="null">
+                        <result candidate_ref="1" vote="2375" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2373" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2375" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="2373" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1498" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="1497" resp="Philip Lampi"/>
+                        <result candidate_ref="7" vote="1495" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="1495" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">The New-England Palladium (Boston, MA) reports 2374 votes for William Tudor, 2375 votes for John Quincy Adams and 1498 votes for Benjamin Austin, Jr.</note>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Chelsea" geog_id="null">
+                        <result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="7" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="9" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Hingham" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Town" name="Hull" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+    <reference type="citation" resp="Philip Lampi">Boston Town Records.  124.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  April 7, 1802.</reference>
+    <reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  April 9, 1802.</reference>
+    <reference type="citation" resp="Philip Lampi">The Political Repository: Or, Farmer's Journal (Brookfield, MA).  April 13, 1802.</reference>
+</election_record>
+

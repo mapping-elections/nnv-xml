@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1816 Treasurer, Lynn" type="General" iteration="First Ballot" date="1816-03" election_id="ma.treasurer.lynn.1816" handle="10427/78861" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="Town">
+		<role title="Treasurer" scope="Town">
+			<ballot>
+				<candidate name="unknown" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="unknown" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-15">
+				<candidate_summary candidate_ref="1" vote_total="289" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="211" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The whole number of ballots rendered in was 503, making 252 necessary to a choice."  Salem Gazette (Salem, MA).  March 15, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Lynn" geog_id="null">
+					<result candidate_ref="1" vote="289" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="211" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 15, 1816.</reference>
+</election_record>

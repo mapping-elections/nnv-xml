@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1824 U.S. Senate, Ballot 30" type="Legislative" iteration="Thirtieth Ballot" date="1824-12" election_id="nh.ussenate.30.1824" handle="10427/79518" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Samuel Dinsmoor" name_id="DS0099" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jeremiah Mason" name_id="MJ0387" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Arthur Livermore" name_id="LA0074" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Levi Woodbury" name_id="WL0039" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-08-13">
+				<candidate_summary candidate_ref="1" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Patriot and State Gazette (Concord, NH).  December 13, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Repository (Concord, NH).  December 13, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Statesman (Concord, NH).  December 13, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Gazette (Portsmouth, NH).  December 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  December 18, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Portsmouth Journal of Literature and Politics (Portsmouth, NH).  December 18, 1824.</reference>
+</election_record>

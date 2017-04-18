@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1819 House of Representatives, Feliciana Parish, Special" type="Special" iteration="First Ballot" date="1819" election_id="la.assembly.feliciana.1819" handle="10427/57901" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="Baldwin" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thos. W. Chinn" name_id="CT0014" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Fluker" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-09">
+				<candidate_summary candidate_ref="1" vote_total="59" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="41" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12557" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The Election for a representative to the Legislature, to fill the vacancy occasioned by the death of Nathaniel Evans, Esq. are as follows."  The Louisianian (Saint Francisville, LA).  November 20, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Feliciana" geog_id="null">
+					<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="41" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12557" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12557">The Louisianian (Saint Francisville, LA).  November 20, 1819.</reference>
+</election_record>

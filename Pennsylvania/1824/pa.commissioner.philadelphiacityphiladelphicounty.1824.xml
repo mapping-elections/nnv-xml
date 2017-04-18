@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Commissioner, Philadelphia City and Philadelphia County" type="General" iteration="First Ballot" date="1824" election_id="pa.commissioner.philadelphiacityphiladelphicounty.1824" handle="10427/63888" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Conrad Wilde" name_id="WC0067" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Robert Brooke" name_id="BR0138" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Liberty Browne" name_id="BL0065" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William MacCorkle" name_id="MW0418" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2014-01-10">
+				<candidate_summary candidate_ref="1" vote_total="5576" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4321" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="250" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="108" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07391" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07393" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07394" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Franklin Gazette (Philadelphia, PA) lists Conrad Wilde with 5586 votes, but this is a misprint as the other totals are the same.</note>
+				<note resp="Philip Lampi">"Majority for Conrad Wile, 1255."</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="3354" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1755" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="233" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="84" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="2222" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2566" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="24" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA) lists Conrad Wilde with 1899 votes and Robert Brooke with 2344 votes.  These are the same results listed in the Aurora. General Advertiser (Philadelphia, PA) of October 13, 1824, labelled as "the City vote with the exception of Saint Mulbery Ward."</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 13, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 13, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07391">Poulson's American Daily Advertiser (Philadelphia, PA).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07391">United States Gazette (Philadelphia, PA).  October 14, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Gazette (Philadelphia, PA).  October 15, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07393">Poulson's American Daily Advertiser (Philadelphia, PA).  October 16, 1824.</reference>
+</election_record>

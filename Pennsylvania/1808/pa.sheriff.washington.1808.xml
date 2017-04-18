@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Sheriff, Washington County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.sheriff.washington.1808" handle="10427/66318" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Robert Anderson" name_id="AR0042" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James Kerr" name_id="KJ0190" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Gillespie" name_id="GT0081" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-02">
+				<candidate_summary candidate_ref="1" vote_total="3067" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1650" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="779" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Commonwealth (Pittsburgh, PA) lists James Kerr as a Republican candidate.  October 19, 1808.</note>
+				<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) lists James Kerr as a Federalist candidate.  October 26, 1808.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Washington" geog_id="null">
+					<result candidate_ref="1" vote="3067" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1650" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="779" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Amity" geog_id="null">
+						<result candidate_ref="1" vote="252" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Burgettstown" geog_id="null">
+						<result candidate_ref="1" vote="554" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Canonsburg" geog_id="null">
+						<result candidate_ref="1" vote="240" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="288" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="64" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hamilton's" geog_id="null">
+						<result candidate_ref="1" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="355" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hill's" geog_id="null">
+						<result candidate_ref="1" vote="330" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="282" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mount Pleasant" geog_id="null">
+						<result candidate_ref="1" vote="150" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Stevenson's" geog_id="null">
+						<result candidate_ref="1" vote="316" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Taylorstown" geog_id="null">
+						<result candidate_ref="1" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="115" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="683" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="268" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="94" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="West's" geog_id="null">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  October 17, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  October 19, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 26, 1808.</reference>
+</election_record>

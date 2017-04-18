@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1800 Sheriff, Morris County" type="General" iteration="First Ballot" date="1800" election_id="nj.sheriff.morris.1800" handle="10427/58644" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Israel Canfield" name_id="CI0009" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lewis Condict" name_id="CL0013" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Moses Kitchell" name_id="KM0034" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Napthali Byram" name_id="BN0108" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-08">
+				<candidate_summary candidate_ref="1" vote_total="1022" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="341" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Morris" geog_id="null">
+					<result candidate_ref="1" vote="1022" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="341" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mendham" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Morristown" geog_id="null">
+						<result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pequannock" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Roxbury" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Genius of Liberty (Morristown, NJ).  October 23, 1800.</reference>
+</election_record>

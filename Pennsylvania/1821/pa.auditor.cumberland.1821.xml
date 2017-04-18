@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Auditor, Cumberland County" type="General" iteration="First Ballot" date="1821-10" election_id="pa.auditor.cumberland.1821" handle="10427/63482" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Richard M. Crain" name_id="CR0128" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John Swartzwelder" name_id="SJ1359" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Rupley" name_id="RJ0387" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-12-10">
+				<candidate_summary candidate_ref="1" vote_total="1419" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="572" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="169" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07133" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Mr. J. Swartzwelder was taken up without his knowledge or consent, and had, publicly, declined standing a poll." American Volunteer (Carlisle, PA).  October 18, 1821.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="1419" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="572" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="169" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07133" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Carlisle" geog_id="null">
+						<result candidate_ref="1" vote="672" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="114" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gehr's" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreitzer's" geog_id="null">
+						<result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Newville" geog_id="null">
+						<result candidate_ref="1" vote="307" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="33" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Shippensburg" geog_id="null">
+						<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Volunteer (Carlisle, PA).  October 18, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Perry Forester (Landisburg, PA).  October 18, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07133">Franklin Gazette (Philadelphia, PA).  October 24, 1821.</reference>
+</election_record>

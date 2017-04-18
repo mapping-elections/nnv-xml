@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1817 Commissioner, Licking County" type="General" iteration="First Ballot" date="1817-10" election_id="oh.countycommissioner.licking.1817" handle="10427/59621" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Alexander Holden" name_id="HA0125" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Cunningham" name_id="CJ0636" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-19">
+				<candidate_summary candidate_ref="1" vote_total="578" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="246" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05249" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Licking" geog_id="ohs_licking">
+					<result candidate_ref="1" vote="578" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="246" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05249" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05249">Muskingum Messenger (Zanesville, OH).  October 29, 1817.</reference>
+</election_record>

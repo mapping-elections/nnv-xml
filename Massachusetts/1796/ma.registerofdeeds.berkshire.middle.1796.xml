@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1796 Registry of Deeds, Berkshire County, Middle District" type="General" iteration="First Ballot" date="1810" election_id="ma.registerofdeeds.berkshire.middle.1796" handle="10427/68760" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Registry of Deeds" office_id="ON088" scope="County">
+		<role title="Registrar" scope="County">
+			<ballot>
+				<candidate name="Samuel Quincy" name_id="QS0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Daniel Williams" name_id="WD0144" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Eldad Lewis" name_id="LE0031" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Thaddeus Thompson" name_id="TT0067" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-04-02">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"From the incorporation of the county, in 1761, to 1790 there were but one registry of deeds at Great Barrington. The register was Mark Hopkins till 1776 and Moses Hopkins till 1790. In that year the county was divided into three districts, Southern, Middle and Northern and the previous records were removed to the county seat in the Middle District." History of Berkshire County, Massachusetts, Vol. 1.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Berkshire" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<sub_unit type="Town" name="Lee" geog_id="null">
+							<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Lee Town Records.  84.</reference>
+	<reference type="citation" resp="Philip Lampi">Smith, Joseph Edward Adams.  History of Berkshire County, Massachusetts.  Vol. 1.  New York: J. B. Beers and Co.  1885.  339.</reference>
+</election_record>

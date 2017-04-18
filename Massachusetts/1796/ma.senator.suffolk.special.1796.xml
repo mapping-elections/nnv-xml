@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1796 State Senate, Suffolk County, Special" type="Special" iteration="First Ballot" date="1796-05" election_id="ma.senator.suffolk.special.1796" handle="10427/68785" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Theophilus Cushing" name_id="CT0036" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Cushing" name_id="CC0035" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-04-03">
+				<candidate_summary candidate_ref="1" vote_total="145" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="20" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Friday May 27. The two houses having assembled in Convention .... The Hon. John C. Jones, Esq. having declined accepting a seat in the Senate, the two branches proceeded to fill the vacancy. .... the Hon. Theophilus Cushing, had 145, and was chosen."  Political Gazette (Newburyport, MA).  June 2, 1796.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Political Gazette (Newburyport, MA).  June 2, 1796.</reference>
+</election_record>

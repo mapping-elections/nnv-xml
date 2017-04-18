@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1816 Alderman, Albany, Ward 4" type="General" iteration="First Ballot" date="1816-09" election_id="ny.alderman.albany.4.1816" handle="10427/68153" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Alderman" office_id="ON001" scope="City">
+      <role title="Alderman" scope="City">
+        <ballot>
+           <candidate name="Charles D. Cooper" name_id="CC0048" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="Solomon Allen" name_id="AS0050" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+           <candidate name="Peter Van Loon" name_id="VP0035" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+           <candidate name="Joseph Alexander" name_id="AJ0118" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-04-22">
+           <candidate_summary candidate_ref="1" vote_total="191" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="188" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="183" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" vote_total="175" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="Albany" geog_id="null">
+              <sub_unit type="Ward" name="Four" geog_id="null">
+                <result candidate_ref="1" vote="191" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="188" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="183" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="175" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">The Albany Advertiser (Albany, NY).  September 28, 1816.</reference>
+</election_record>

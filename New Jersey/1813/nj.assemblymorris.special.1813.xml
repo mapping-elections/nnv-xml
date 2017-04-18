@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1813 Assembly, Morris County, Special" type="Special" iteration="First Ballot" date="1813" election_id="nj.assemblymorris.special.1813" handle="10427/68408" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="David Thompson, Jr" name_id="TD0046" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jeptha B. Munn" name_id="MJ0423" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Benjamin Condict" name_id="CB0063" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Richard Hunt" name_id="HR0115" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-08-13">
+				<candidate_summary candidate_ref="1" vote_total="533" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="455" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="54" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"At the close of the polls, last week, to supply the place of Mahlon Dickerson, Esq. in the Legislature, the votes for the principal characters taken up, stand thus:"  Centinel of Freedom.  December 14, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Morris" geog_id="null">
+					<result candidate_ref="1" vote="533" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="455" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="115" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="54" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Freedom (Newark, NJ).  December 14, 1813.</reference>
+</election_record>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1820 House of Representatives, Saint Helena Parish" type="General" iteration="First Ballot" date="1820" election_id="sc.assembly.st.helena.1820" handle="10427/32320" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="John Tripp" name_id="TJ0624" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Archibald Calder Baynard" name_id="BA0276" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Fickling" name_id="FJ0426" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-15">
+				<candidate_summary candidate_ref="1" vote_total="110" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="74" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07889" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Archibald C. Baynard is listed as an elected candidate in Biographical Directory of the South Carolina House of Representatives.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Helena" geog_id="null">
+					<result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="74" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Church on Saint Helena Island" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07889" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"It was discovered that in the book from Saint Helena Island there were 44 Votes and on the list but 41 names, being the number of voters taken there."  Original Election Returns.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Council House Beaufort" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07889" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">109 voters were at Council House Beaufort.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07889">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  303.</reference>
+</election_record>

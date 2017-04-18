@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 Sheriff, Scioto County" type="General" iteration="First Ballot" date="1820-10" election_id="oh.sheriff.sciotocounty.1820" handle="10427/59863" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Noel" name_id="NJ0099" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Elijah MacInteer" name_id="ME0099" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Marcus Bosworth" name_id="BM0085" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Elijah Glover" name_id="GE0077" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Oldfield" name_id="OW0021" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Joseph Bonser" name_id="BJ0932" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-07">
+				<candidate_summary candidate_ref="1" vote_total="229" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="170" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="128" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="9" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05302" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">On 342 of A History of Scioto County, Marcus Bosworth is listed with 123 votes, but on 141 he is listed with 128 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Scioto" geog_id="ohs_scioto">
+					<result candidate_ref="1" vote="229" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="170" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="128" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="100" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="96" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="9" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05302" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05302">The Scioto Telegraph and Lawrence Gazette (Portsmouth, OH).  October 19, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Evans, Nelson W.  A History of Scioto County, Ohio.  Portsmouth, OH: Nelson W. Evans, 1903.  141, 342.</reference>
+</election_record>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<election_record label="New York 1791 U.S. House of Representatives, District 1, Special" type="Special" iteration="First Ballot" date="1791" election_id="ny.uscongressspecial.1791" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/26199" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Thomas Tredwell" name_id="TT0055" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Vanderbilt" name_id="VJ0061" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Henry Peters" name_id="PH0027" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Ezra L'Hommedieu" name_id="LE0003" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="4"/>
+				<candidate name="Stephen Carman" name_id="CS0101" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Isaac Ledyard" name_id="LI0009" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-04-05">
+				<candidate_summary candidate_ref="1" vote_total="666" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="481" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="369" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="361" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="360" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="301" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00028" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Queens County in Olden Times lists an alternate spelling of Thomas Tredwell as "Thomas Treadwell."</note>
+				<note resp="Philip Lampi">This election was held to fill the vacancy caused by the death of James Townsend.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="666" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="481" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="369" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="361" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="360" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="301" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Kings" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="255" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="29" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00028" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Queens" geog_id="null">
+						<result candidate_ref="1" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="268" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="338" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="272" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00028" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04093" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Richmond" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00028" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Suffolk" geog_id="null">
+						<result candidate_ref="1" vote="434" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="289" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00028" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00028">The Daily Advertiser (New York, NY).  June 2, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04093">Onderdonk, Henry, Jr.  Queens County in Olden Times.  Jamaica, NY: Charles Welling, 1865. 77.</reference>
+</election_record>

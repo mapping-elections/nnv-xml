@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1809 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1809-10" election_id="pa.assembly.franklin.1809" handle="10427/62034" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Jacob Dechart" name_id="DJ0439" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Archibald Bard" name_id="BA0215" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Smith" name_id="SJ1158" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-29">
+				<candidate_summary candidate_ref="1" vote_total="854" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="854" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="854" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Jacob Dechart, Archibald Bard, and James Smith, democrats, are elected to the assembly, by a unanimous vote of 854 votes, no other candidates running against them.  But in order to show the complete apathy into which the citizens of this state are plunged, it may be necessary to state, that last year Franklin county polled 3318 votes...which shows that upwards of 2464 voters in that county are so completely disgusted with the 'powers that be' that they refuse to exercise their privileges as freemen." Political and Commercial Register (Philadelphia, PA).  October 23, 1809.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="854" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="854" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="854" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06334">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  September 12, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 21, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">Political and Commercial Register (Philadelphia, PA).  October 23, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06335">Independent American (Georgetown, DC).  October 31, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06334">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1809.</reference>
+</election_record>

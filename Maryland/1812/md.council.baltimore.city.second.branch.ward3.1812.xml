@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1812 City Council, Baltimore, Second Branch, Ward 3" type="General" iteration="First Ballot" date="1812" election_id="md.council.baltimore.city.second.branch.ward3.1812" handle="10427/58186" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="James Calhoun" name_id="CJ0243" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-11">
+				<candidate_summary candidate_ref="1" vote_total="126" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14651c">American, and Commercial Daily Advertiser (Baltimore, MD).  October 9, 1812.</reference>
+</election_record>

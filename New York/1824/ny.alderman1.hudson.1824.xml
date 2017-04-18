@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Alderman, Hudson, Ward 1" type="General" iteration="First Ballot" date="1824" election_id="ny.alderman1.hudson.1824" handle="10427/65619" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Alderman" office_id="ON001" scope="City">
+		<role title="Alderman" scope="Ward">
+			<ballot>
+				<candidate name="Samuel Coleman" name_id="CS0139" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Job B. Coffin" name_id="CJ0457" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="O. Wiswall" name_id="WO0007" affiliation="Crawford" affiliation_id="A07" candidate_num="3"/>
+				<candidate name="C. MacArthur" name_id="MC0064" affiliation="Crawford" affiliation_id="A07" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-10">
+				<candidate_summary candidate_ref="1" vote_total="228" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="221" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="146" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Hudson" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="228" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="221" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="146" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-York American (New York, NY).  April 9, 1824.</reference>
+</election_record>

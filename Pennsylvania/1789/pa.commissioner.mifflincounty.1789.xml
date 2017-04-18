@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Commissioner, Mifflin County" type="General" iteration="First Ballot" date="1789-10" election_id="pa.commissioner.mifflincounty.1789" handle="10427/60618" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Enoch Hastings" name_id="HE0119" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Lyon" name_id="LJ0115" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert Lyttle" name_id="LR0029" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John MacConnel" name_id="MJ0828" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-17">
+				<candidate_summary candidate_ref="1" vote_total="1129" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="617" resp="Philipi Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="592" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="444" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05373" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">There were two sets of returns reported for Mifflin County as there was some dispute about the legality of the elections held in certain places. The returns for John MacConnel were only reported in the first set of returns. His results were not reported in the second set, probably because his vote did not change. These totals include the votes from the disputed polling locations.</note>
+				<note resp="Philip Lampi">"There was also received this day returns of elections held at the house of the Widow Stackpole, for the township of Lack, and of an election for Greenwood township, in this county, held at the house of Henry McConnol. The legality of holding elections at these places being disputed by part of the Judges, the law for authorising said elections not being present, we have thought proper to forward to your Honorable Body a statement of the election, both with and without the returns of these townships of Lack and Greenwood."  Minutes of the First Session of the Fourteenth General Assembly of the Commonwealth of Pennsylvania.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="1129" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="617" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="592" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="444" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05373" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Minutes of the First Session of the Fourteenth General Assembly of the Commonwealth of Pennsylvania, 1789.  5-6.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05373">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  October 24, 1789.</reference>
+</election_record>

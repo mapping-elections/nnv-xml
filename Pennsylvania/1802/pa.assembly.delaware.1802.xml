@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 House of Representatives, Delaware County" type="General" iteration="First Ballot" date="1802" election_id="pa.assembly.delaware.1802" handle="10427/61291" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Benjamin H. Smith" name_id="SB0104" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac G. Gilpin" name_id="GI0023" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Withy" name_id="WJ0670" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Pennell" name_id="PW0218" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-28">
+				<candidate_summary candidate_ref="1" vote_total="727" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="694" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="609" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="597" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05801" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05802" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Gazette of the United States, The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA), Aurora. General Advertiser (Philadelphia, PA), Poulson's American Daily Advertiser (Philadelphia, PA) and Der Readinger Adler (Reading, PA) use the spelling Pennel for William Pennell.</note>
+				<note resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA) uses the name Witby for James Withy.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="727" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="694" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="609" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="597" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="185" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05801" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05802" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="141" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05801" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05802" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="188" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="188" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05801" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05802" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="83" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05801" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05802" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  October 18, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05801">Gazette of the United States (Philadelphia, PA).  October 18, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA) and Daily Advertiser.  October 18, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05802">Poulson's American Daily Advertiser (Philadelphia, PA).  October 19, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 26, 1802.</reference>
+</election_record>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Sheriff, Venango and Warren Counties" type="General" iteration="First Ballot" date="1808-10" election_id="pa.sheriff.venangowarrencounties.1808" handle="10427/61951" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="District">
+		<role title="Sheriff" scope="District">
+			<ballot>
+				<candidate name="Samuel Hays" name_id="HS0238" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Patrick Jack" name_id="JP0015" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Abraham Witherup" name_id="WA0148" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-20">
+				<candidate_summary candidate_ref="1" vote_total="405" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06293" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Venango and Warren" geog_id="null">
+					<result candidate_ref="1" vote="405" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Venango" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Two districts are yet to hear from - it is expected they will give a majority in favor of the Republican ticket." The Crawford Weekly Messenger (Meadville, PA).  October 20, 1808.</note>
+						<sub_unit type="District" name="French Creek, Sugar Creek, and Scrubgrass" geog_id="null">
+							<result candidate_ref="1" vote="309" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="60" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06293" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Warren" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06294">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06293">The Crawford Weekly Messenger (Meadville, PA).  October 20, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06294">The Democratic Press (Philadelphia, PA).  November 16, 1808.</reference>
+</election_record>

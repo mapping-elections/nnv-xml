@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 Sheriff, Somerset County" type="General" iteration="First Ballot" date="1810-10" election_id="pa.sheriff.somerset.1810" handle="10427/62244" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Frederick Neff" name_id="NF0009" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Abraham Miller" name_id="MA0204" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-27">
+				<candidate_summary candidate_ref="1" vote_total="661" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="433" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06427" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Somerset" geog_id="null">
+					<result candidate_ref="1" vote="661" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="433" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06427" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06427">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

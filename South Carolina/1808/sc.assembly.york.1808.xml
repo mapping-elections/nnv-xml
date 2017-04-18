@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1808 House of Representatives, York District" type="General" iteration="First Ballot" date="1808" election_id="sc.assembly.york.1808" handle="10427/32125" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John MacClennahan" name_id="MJ1309" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Duff" name_id="DJ0560" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Pettus" name_id="PW0245" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">William Pettus is elected, but was declared ineligible by the house on November 30, 1808.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-24">
+				<candidate_summary candidate_ref="1" vote_total="531" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="357" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="339" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07630" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="York" geog_id="null">
+					<result candidate_ref="1" vote="531" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="357" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="339" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07630" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07630">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  277.</reference>
+</election_record>

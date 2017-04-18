@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1813 House of Representatives, Marshfield" type="General" iteration="First Ballot" date="1813" election_id="ma.staterepresentative.marshfield.1813" handle="10427/70022" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Jotham Tilden" name_id="TJ0595" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel Clift" name_id="CN0089" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Durfee" name_id="DT0017" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Thomas" name_id="TJ0607" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joseph Hewitt" name_id="HJ1184" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Chandler Samson" name_id="SC0120" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-29">
+				<candidate_summary candidate_ref="1" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="48" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="24" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Marshfield" geog_id="null">
+					<result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Marshfield Town Records.</reference>
+</election_record>

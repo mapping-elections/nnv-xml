@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1794 Sheriff, Monmouth County" type="General" iteration="First Ballot" date="1794" election_id="nj.sheriff.monmouth.1794" handle="10427/67636" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William Lloyd" name_id="LW0096" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel P. Forman" name_id="FS0069" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-11">
+				<candidate_summary candidate_ref="1" vote_total="774" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="320" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Monmouth" geog_id="null">
+					<result candidate_ref="1" vote="774" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="320" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Dover" geog_id="null">
+						<result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Freehold" geog_id="null">
+						<result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Shrewsbury" geog_id="null">
+						<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stafford" geog_id="null">
+						<result candidate_ref="1" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper Freehold" geog_id="null">
+						<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

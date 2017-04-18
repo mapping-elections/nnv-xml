@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1808 House of Representatives, Amherst, Second Representative" type="General" iteration="First Ballot" date="1808-05" election_id="ma.staterepresentative.second.amherst.1808" handle="10427/27469" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Zebina Montague" name_id="MZ0005" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Medad Dickinson" name_id="DM0016" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Gomwell" name_id="GS0046" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Simeon Strong" name_id="SS0125" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-08-21">
+				<candidate_summary candidate_ref="1" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03495" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Amherst held two separate ballots for the two Representatives they were entitled to elect.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Amherst" geog_id="null">
+					<result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03495" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03495">Amherst Town Records.  198-199.</reference>
+	<reference type="citation" resp="Philip Lampi">Norfolk Repository (Dedham, MA).  June 28, 1808.</reference>
+</election_record>

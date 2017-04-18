@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1824 Coroner, Kent County" type="General" iteration="First Ballot" date="1824-10" election_id="de.coroner.kent.1824" handle="10427/43800" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="George Truitt" name_id="TG0066" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Matthew Manlove" name_id="MM0102" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Smith" name_id="SJ1235" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Harrington" name_id="HW0309" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1193" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1150" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1145" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1100" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The American Watchman and Delaware Advertiser (Wilmington, DE) of November 5, 1824 lists Matthew Manlove with 1143 votes and George Truitt with 1196 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="1193" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1150" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1145" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1100" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Dover" geog_id="des_kent_dover">
+						<result candidate_ref="1" vote="156" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="217" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="192" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Duck Creek" geog_id="des_kent_duckcreek">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="260" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="261" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="150" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mispillion" geog_id="des_kent_mispillion">
+						<result candidate_ref="1" vote="465" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="384" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="204" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Murderkill" geog_id="des_kent_murderkill">
+						<result candidate_ref="1" vote="338" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="344" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="305" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="293" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The American Watchman and Delaware Advertiser (Wilmington, DE) of November 5, 1824 lists Matthew Manlove with 337 votes and George Truitt with 341 votes.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 8, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">American Watchman and Delaware Advertiser (Wilmington, DE).  November 5, 1824.</reference>
+</election_record>

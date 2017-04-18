@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 House of Representatives, York County" type="General" iteration="First Ballot" date="1805-10" election_id="pa.assembly.york.1805" handle="10427/61583" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="George Spangler" name_id="SG0089" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Pedan" name_id="PB0070" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Conrad Sherman" name_id="SC0110" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John MacClellan" name_id="MJ0956" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Adam Hendrix" name_id="HA0148" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Eli Lewis" name_id="LE0084" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Matthew Clark" name_id="CM0060" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-01">
+				<candidate_summary candidate_ref="1" vote_total="2587" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1721" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1620" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1351" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1192" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="960" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="914" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06036" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Dauphin Guardian (Harrisburg, PA) lists Conrad Sherman as Conrad Shuman.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="2587" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1721" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1620" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1351" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1192" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="960" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="914" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06036" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Dauphin Guardian (Harrisburg, PA).  October 19, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 22, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06036">Aurora. General Advertiser (Philadelphia, PA).  October 23, 1805.</reference>
+</election_record>

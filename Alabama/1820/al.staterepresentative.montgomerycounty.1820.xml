@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1820 House of Representatives, Montgomery County" type="General" iteration="First Ballot" date="1820-08" election_id="al.staterepresentative.montgomerycounty.1820" handle="10427/55840" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="Joseph Fitzpatrick" name_id="FJ0000" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="Larkin Cleveland" name_id="CL0000" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+        <candidate name="James Abercrombie" name_id="AJ0004" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-04-19">
+        <candidate_summary candidate_ref="1" vote_total="392" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="316" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="282" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Alabama" geog_id="als">
+        <sub_unit type="County" name="Montgomery" geog_id="null">
+          <result candidate_ref="1" vote="392" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="316" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="282" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11023" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11023">Original Election Certificate.  Alabama Department of Archives and History, Montgomery.</reference>
+  <reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  September 1, 1820.</reference>
+</election_record>

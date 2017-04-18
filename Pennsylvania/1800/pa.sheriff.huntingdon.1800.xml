@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1800 Sheriff, Huntingdon County" type="General" iteration="First Ballot" date="1800" election_id="pa.sheriff.huntingdon.1800" handle="10427/61129" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Patton" name_id="PJ0410" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John Williams" name_id="WJ0653" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-26">
+				<candidate_summary candidate_ref="1" vote_total="868" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="593" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05665" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"At Huntingdon, John Patton, Esq. who before had been twice Sheriff of the county--a firm federalist and an honest man, has again been elected by a great majority, and the person on the return, a Mr. Williams, also a federalist, declared he would not accept the office, and offered to be security for Mr. Patton; yet the worthy conciliating Governor of Pennsylvania, refused to commission Mr. Patton, unless he would bring a certificate from a certain person, in another county, near 70 miles off, that he was a fit man; thus insulting not only Mr. Patton, but all the electors in the county of Huntingdon. [Let no modern Republican, or even democrat, say that this is abusing his excellency. It is a true statement, and whenever the Governor asks for proof, they shall be given.] -Phil. Gaz."  The Newark Gazette (Newark, NJ).  December 16, 1800.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="868" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="593" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05665" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05665">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Newark Gazette (Newark, NJ).  December 16, 1800.</reference>
+</election_record>

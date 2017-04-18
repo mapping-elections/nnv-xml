@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1818 Assembly, Cape May County" type="General" iteration="First Ballot" date="1818" election_id="nj.assembly.capemay.1818" handle="10427/68560" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Nicholas Willets" name_id="WN0080" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Ezekiel Stevens" name_id="SE0070" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Spicer Hughes" name_id="HS0133" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joshua Swain" name_id="SJ0629" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-06">
+				<candidate_summary candidate_ref="1" vote_total="97" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="42" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="40" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cape May" geog_id="null">
+					<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

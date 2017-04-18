@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Coroner, York County" type="General" iteration="First Ballot" date="1818" election_id="pa.coroner.york.1818" handle="10427/63202" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William MacIlvain" name_id="MW0402" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Jameson" name_id="JT0054" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-11-07">
+				<candidate_summary candidate_ref="1" vote_total="3093" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3014" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06955" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="3093" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3014" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06955" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA) lists 3098 votes for William MacIlvain.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06955">York Recorder (York, PA).  October 20, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1818.</reference>
+</election_record>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1821 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1821-08" election_id="nc.uscongress2.1821" handle="10427/44988" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Hutchins G. Burton" name_id="BH0084" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-17">
+				<candidate_summary candidate_ref="1" vote_total="1844" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01036" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18317" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="1844" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01036" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Seth Beeson Hinshaw's Compilation lists Hutchins G. Burton with 2612 votes.</note>
+					<sub_unit type="County" name="Bertie" geog_id="null">
+						<result candidate_ref="1" vote="768" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01036" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18308" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18314" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Halifax" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01036" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Martin" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01036" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">No return for Martin County.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Northampton" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01036" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18317">Original Election Certificate.  State Archives of North Carolina, Raleigh.</reference>
+	<reference type="citation" resp="Philip Lampi">Edenton Gazette, and North-Carolina General Advertiser (Edenton, NC).  August 13, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">Hinshaw, Seth Beeson, ed.  North Carolina Election Returns 1790-1866: Covering the Races for President, Governor and U.S. House.  1992.  State Library of North Carolina, Raleigh.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1816 Major General, 3rd Division, Ballot 5" type="Legislative" iteration="Fifth Ballot" date="1816" election_id="ga.majorgeneral.3rddivision5.1816" handle="10427/56059" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Major General" office_id="ON077" scope="State">
+		<role title="Major General" scope="State">
+			<ballot>
+				<candidate name="Thomas" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Scott" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Houghton" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-11">
+				<candidate_summary candidate_ref="1" vote_total="57" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="11" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Georgia Journal (Milledgeville, GA).  November 13, 1816.</reference>
+</election_record>

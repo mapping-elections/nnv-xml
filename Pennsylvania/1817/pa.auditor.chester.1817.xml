@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Auditor, Chester County" type="General" iteration="First Ballot" date="1817-10" election_id="pa.auditor.chester.1817" handle="10427/67594" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Elijah Lewis" name_id="LE0087" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="James Hindman" name_id="HJ0969" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-02-15">
+				<candidate_summary candidate_ref="1" vote_total="3249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3098" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="3249" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3098" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chatham" geog_id="null">
+						<result candidate_ref="1" vote="382" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) reports 381 votes for Elijah Lewis.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gum Tree" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Manor" geog_id="null">
+						<result candidate_ref="1" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="422" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Marshalton" geog_id="null">
+						<result candidate_ref="1" vote="317" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New London Cross Roads" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="New Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="270" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="390" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press lists Oxford as "Hoods".</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Paoli" geog_id="null">
+						<result candidate_ref="1" vote="498" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="416" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pughtown" geog_id="null">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="660" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Old Red Lion" geog_id="null">
+						<result candidate_ref="1" vote="405" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="274" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sloan's" geog_id="null">
+						<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="221" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="West Chester" geog_id="null">
+						<result candidate_ref="1" vote="502" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 20, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">The Chester and Delaware Federalist (West Chester, PA).  October 22, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 25, 1817.</reference>
+</election_record>

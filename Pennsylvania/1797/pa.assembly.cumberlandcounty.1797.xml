@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1797 House of Representatives, Cumberland County" type="General" iteration="First Ballot" date="1797-10" election_id="pa.assembly.cumberlandcounty.1797" handle="10427/60912" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Robert Whitehill" name_id="WR0153" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Power" name_id="PJ0409" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Kennedy" name_id="KT0064" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Mitchell" name_id="MD0181" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Runnel Blair" name_id="BR0100" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Robert Lusk" name_id="LR0054" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-29">
+				<candidate_summary candidate_ref="1" vote_total="976" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="828" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="808" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="622" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="578" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="551" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05525" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA) uses the name Powers for James Power.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="976" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="828" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="808" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="622" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="578" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="551" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 17, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05525">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 18, 1797.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 19, 1797.</reference>
+</election_record>

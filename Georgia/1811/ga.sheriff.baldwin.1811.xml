@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1811 Sheriff, Baldwin County" type="General" iteration="First Ballot" date="1811-10" election_id="ga.sheriff.baldwin.1811" handle="10427/55987" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William C. Watson" name_id="WW0038" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Fleming" name_id="FJ0023" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-02">
+				<candidate_summary candidate_ref="1" vote_total="437" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="233" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Baldwin" geog_id="null">
+					<result candidate_ref="1" vote="437" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Georgia Journal (Milledgeville, GA).  October 16, 1811.</reference>
+</election_record>

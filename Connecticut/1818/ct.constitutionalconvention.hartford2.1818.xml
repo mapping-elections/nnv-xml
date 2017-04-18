@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1818 Constitutional Convention, Hartford, Second Delegate" type="General" iteration="First Ballot" date="1818-07" election_id="ct.constitutionalconvention.hartford2.1818" handle="10427/79766" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="City">
+			<ballot>
+				<candidate name="Hezekiah Huntington" name_id="HH0001" affiliation="Republican" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Nathaniel Terry" name_id="TN0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-14">
+				<candidate_summary candidate_ref="1" vote_total="442" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="426" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="48" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Hartford" geog_id="cts_hartford">
+					<sub_unit type="City" name="Hartford" geog_id="cts_hartford_hartford">
+						<result candidate_ref="1" vote="442" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="426" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="48" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Times (Hartford, CT).  July 14, 1818.</reference>
+</election_record>

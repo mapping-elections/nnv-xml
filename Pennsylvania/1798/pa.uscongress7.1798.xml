@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 U.S. House of Representatives, District 7" type="General" iteration="First Ballot" date="1798-10" election_id="pa.uscongress7.1798" handle="10427/60953" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John W. Kittera" name_id="KJ0172" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Barton" name_id="BW0270" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-06">
+				<candidate_summary candidate_ref="1" vote_total="1403" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="407" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05561" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05562" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Seven" geog_id="null">
+					<sub_unit type="County" name="Lancaster" geog_id="null">
+						<result candidate_ref="1" vote="1403" resp="Philip Lampi"/>
+						<result candidate_ref="1" vote="407" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Cocalico" geog_id="null">
+							<result candidate_ref="1" vote="108" resp="Philip Lampi"/>
+							<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Borough" name="Lancaster" geog_id="null">
+							<result candidate_ref="1" vote="577" resp="Philip Lampi"/>
+							<result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Lower Cross Roads" geog_id="null">
+							<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+							<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="New Holland" geog_id="null">
+							<result candidate_ref="1" vote="298" resp="Philip Lampi"/>
+							<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Borough" name="Strasberg" geog_id="null">
+							<result candidate_ref="1" vote="240" resp="Philip Lampi"/>
+							<result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Upper Cross Roads" geog_id="null">
+							<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+							<result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Lancaster Journal (Lancaster, PA).  October 13, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 16, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 17, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05562">The Daily Advertiser (New York, NY).  October 18, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05561">The Herald of Liberty (Washington, PA).  October 22, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Sun. Dover Gazette and County Advertiser (Dover, NH).  October 31, 1798.</reference>
+</election_record>

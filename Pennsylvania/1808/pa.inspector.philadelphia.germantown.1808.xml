@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Inspector of the General Election, Philadelphia City, Germantown Township" type="General" iteration="First Ballot" date="1808-09" election_id="pa.inspector.philadelphia.germantown.1808" handle="10427/61945" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Township">
+			<ballot>
+				<candidate name="John Dutwiler" name_id="DJ0437" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="A. Hergesheimer" name_id="HA0154" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Joseph Miller" name_id="MJ1006" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Henry Brunner" name_id="BH0125" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-20">
+				<candidate_summary candidate_ref="1" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="115" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="103" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="102" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06280" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06281" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Henry Bruner and Jacob Miller, have been uniformly run as Inspectors, by both parties for the last four years.  The Constitutionalists this year had not the least idea that any opposition would be made to them.  But the Jacobins met in caucus, and resolved to run two others and take the Constitutionalists by surprise.  They did so.  The Constitutionalists, not aware of the trick . . . did  what the lateness of the hour would permit, and lost it but by 7 votes, the whole number of votes being 108 to 115."  The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 4, 1808.</note>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) identifies Joseph Miller as a Democrat [Republican] but lists him under the Federalist ticket.  October 3, 1808.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Germantown" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="102" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06280" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06281" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06280">Aurora. General Advertiser (Philadelphia, PA).  October 3, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06281">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 4, 1808.</reference>
+</election_record>

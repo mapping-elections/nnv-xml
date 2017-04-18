@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 House of Representatives, Stockbridge" type="General" iteration="First Ballot" date="1804" election_id="ma.staterepresentative.stockbridge.1804" handle="10427/69902" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="Asa Williams" name_id="WA0236" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Ebenezer Cook" name_id="CE0197" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-10-23">
+                <candidate_summary candidate_ref="1" vote_total="106" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="87" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Extract of a letter from a gentleman in Stockbridge, to his friend in this town, dated Tuesday, May 15th. 'Yesterday we had our annual meeting for the choice of a Representative. The federalists, with Judge Sedgwick at their head, exerted their utmost efforts. On the day of the election they sent an express to Richmond, with a horse and chair, and brought in a young man, who had removed to that town, and gone into business there, upon a contract for six months, as a Journeyman. He was offered and admitted as a voter. One of the Tutors of Williams' College also attended and claimed a right to vote, notwithstanding his residence for several years at Williamstown in the capacity of a Tutor. Their exertions, in other respects, were in proportion. The republicans generally turned out with spirit and unanimity. The result was that A. WILLIAMS, the republican candidate, had 106 votes--E. Cook, the federal candidate, had 87--and there were two scattering votes, given by the two candidates. On this event, as a demonstration of the progress of political sentiments in this town, you will accept our congratulations.'"  The Pittsfield Sun (Pittsfield, MA).  May 21, 1804.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="District" name="Stockbridge" geog_id="null">
+                    <result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Pittsfield Sun (Pittsfield, MA).  May 21, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 4, 1804.</reference>
+    <reference type="citation" resp="Philip Lampi">Republican Spy (Springfield, MA).  June 11, 1804.</reference>
+</election_record>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 House of Representatives, Cambria and Somerset Counties" type="General" iteration="First Ballot" date="1819" election_id="pa.assembly.cambriasomersetcounties.1819" handle="10427/63245" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Hindman" name_id="HJ1070" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Ogle Jr." name_id="OA0029" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Philip Noon" name_id="NP0014" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Jacob Blocher" name_id="BJ1080" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="George Gibhart" name_id="GG0052" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-06">
+				<candidate_summary candidate_ref="1" vote_total="870" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="813" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="793" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="666" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="395" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07023" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Cambria and Somerset" geog_id="null">
+					<result candidate_ref="1" vote="870" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="813" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="793" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="666" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="395" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cambria" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="378" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="34" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06974" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07023" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="null">
+						<result candidate_ref="1" vote="845" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="752" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="415" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="666" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="361" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07023" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07024" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Franklin Gazette (Philadelphia, PA).  October 29, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07023">Franklin Gazette (for the Country) (Philadelphia, PA).  October 30, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07023">The Union. United States Gazette and True American (Philadelphia, PA).  November 1, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06974">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 6, 1819.</reference>
+</election_record>

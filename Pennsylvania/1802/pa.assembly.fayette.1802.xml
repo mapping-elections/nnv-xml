@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1802 House of Representatives, Fayette County" type="General" iteration="First Ballot" date="1802-10" election_id="pa.assembly.fayette.1802" handle="10427/61293" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Charles Porter" name_id="PC0040" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Cunningham" name_id="CJ0711" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Trevors" name_id="TS0086" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jesse Beeson" name_id="BJ1007" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="William Boyd" name_id="BW0288" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Isaac Rogers" name_id="RI0009" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="M. Gilchrist" name_id="GM0048" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-28">
+				<candidate_summary candidate_ref="1" vote_total="1524" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1512" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1016" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="938" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="930" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="763" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="656" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05803" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05804" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA) reports 931 votes for William Boyd.</note>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) reports 932 votes for William Boyd.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="1524" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1512" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1016" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="938" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="930" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="763" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="656" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05803" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05804" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05803">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  October 22, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05804">Aurora. General Advertiser (Philadelphia, PA).  October 23, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  October 23, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  November 2, 1802.</reference>
+</election_record>

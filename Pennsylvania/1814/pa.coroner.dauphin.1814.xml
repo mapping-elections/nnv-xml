@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Coroner, Dauphin County" type="General" iteration="First Ballot" date="1814-10" election_id="pa.coroner.dauphin.1814" handle="10427/65985" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Daniel Stine" name_id="SD0181" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick Wolfersberger" name_id="WF0060" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-11-06">
+				<candidate_summary candidate_ref="1" vote_total="971" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="899" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">During the War of 1812, there was some British military movement in and around the Chesapeake Bay area and in an attempt to prepare for any military actions that the British might take, there were a host of military camps set up in some of the counties close to the Chesapeake Bay and Philadelphia City. In the October 1814 Pennsylvania state elections, the members of the military camps native to Pennsylvania were allowed to vote. When the newspapers reported these returns they listed them under "camp" or "army" votes.</note>
+				<note resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA), The Chronicle or Harrisburgh Visitor (Harrisburg, PA) and the Pennsylvania Republican (Harrisburg, PA) list Daniel Stine with 776 votes and Frederick Wolfersberger with 724 votes.  These totals reflect the lack of a reported military vote in the newspapers.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Dauphin" geog_id="null">
+					<result candidate_ref="1" vote="971" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="899" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Halifax" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Harrisburg" geog_id="null">
+						<result candidate_ref="1" vote="256" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hummelstown" geog_id="null">
+						<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle Paxton" geog_id="null">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<result candidate_ref="1" vote="205" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="175" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Upper Paxton (Hawk's)" geog_id="null">
+						<result candidate_ref="1" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Upper Paxton (Snyder's)" geog_id="null">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="58" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="West Hanover" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin (Harrisburg, PA).  October 15, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">The Chronicle or Harrisburgh Visitor (Harrisburg, PA).  October 17, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi">Pennsylvania Republican (Harrisburg, PA).  October 18, 1814.</reference>
+</election_record>

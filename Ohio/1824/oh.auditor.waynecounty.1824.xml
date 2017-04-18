@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1824 Auditor, Wayne County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.auditor.waynecounty.1824" handle="10427/60342" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Knapp" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Culbertson" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robison" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-18">
+				<candidate_summary candidate_ref="1" vote_total="1439" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="850" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="121" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05358" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Wayne" geog_id="ohs_wayne">
+					<result candidate_ref="1" vote="1439" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="850" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="121" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05358" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05358">The Ohio Repository (Canton, OH).  October 21, 1824.</reference>
+</election_record>

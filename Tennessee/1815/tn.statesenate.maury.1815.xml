@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1815 State Senate, Maury County" type="General" iteration="First Ballot" date="1815" election_id="tn.statesenate.maury.1815" handle="10427/19935" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Adam R. Alexander" name_id="AA0061" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Frierson" name_id="FW0127" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Abram Whiteside" name_id="WA0165" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-05">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Maury" geog_id="null">
+					<result candidate_ref="1" vote="1018" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="556" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="141" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Cathy's Creek" geog_id="null">
+						<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Columbia" geog_id="null">
+						<result candidate_ref="1" vote="800" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="504" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="98" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Court House" geog_id="null">
+							<result candidate_ref="1" vote="800" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="504" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="98" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08080" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08080">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

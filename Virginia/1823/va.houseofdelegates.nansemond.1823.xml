@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1823 House of Delegates, Nansemond County" type="General" iteration="First Ballot" date="1823" election_id="va.houseofdelegates.nansemond.1823" handle="10427/33893" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="John C. Cahoon" name_id="CJ0979" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Josiah Murdaugh" name_id="MJ1197" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Hardy Cross" name_id="CH0078" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-25">
+				<candidate_summary candidate_ref="1" vote_total="314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="202" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="126" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09516" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09517" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Richmond Enquirer (Richmond, VA) reports 313 votes for John C. Cahoon.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Nansemond" geog_id="null">
+					<result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="202" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="126" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09516" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09517" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09516">American Commercial Beacon and Norfolk and Portsmouth Daily Advertiser (Norfolk, VA).  April 18, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09517">Richmond Enquirer (Richmond, VA).  April 22, 1823.</reference>
+</election_record>

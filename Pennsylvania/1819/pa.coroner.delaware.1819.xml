@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Coroner, Delaware County" type="General" iteration="First Ballot" date="1819-10" election_id="pa.coroner.delaware.1819" handle="00000/00000" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="James Birchall" name_id="BJ0999" affiliation="Federalist" affiliation_id="A01" candidate_num="1"></candidate>
+				<candidate name="William Long" name_id="LW0121" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Abraham Kerlin" name_id="KA0040" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-23">
+				<candidate_summary candidate_ref="1" vote_total="854" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="845" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="589" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA), October 22, lists James Birchall as a "Federal Republican."</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="854" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="845" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="589" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="240" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="189" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="180" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="263" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="262" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="144" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 20, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 22, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Village Record, or Chester and Delaware Federalist (West Chester, PA).  October 27, 1819.</reference>
+</election_record>

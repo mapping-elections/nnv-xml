@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1809 Sheriff, Beaver County" type="General" iteration="First Ballot" date="1809" election_id="pa.sheriff.beaver.1809" handle="10427/61986" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Samuel Powers" name_id="PS0100" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James Wilson" name_id="WJ0753" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-05">
+				<candidate_summary candidate_ref="1" vote_total="576" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="566" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06312" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Beaver" geog_id="null">
+					<result candidate_ref="1" vote="576" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="566" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06312" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06312">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

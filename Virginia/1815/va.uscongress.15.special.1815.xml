@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1815 U.S. House of Representatives, District 15, Special" type="Special" iteration="First Ballot" date="1815" election_id="va.uscongress.15.special.1815" handle="10427/65121" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John W. Kerr" name_id="KJ0364" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Rice" name_id="RW0214" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Thomas H. Wooding" name_id="WT0138" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Isaac Medley" name_id="MI0025" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="White" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-27">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.24724" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Special election to replace Mathew Clay who died May 27, 1815, before the 14th Congress convened.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="District" name="Fifteen" geog_id="null">
+					<sub_unit type="County" name="Campbell" geog_id="null">
+						<result candidate_ref="1" vote="560" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="339" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="31" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Halifax" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Pittsylvania" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi">Boston Daily Advertiser (Boston, MA).  October 17, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.24724">The Virginia Patriot (Richmond, VA).  November 4, 1815.</reference>
+</election_record>

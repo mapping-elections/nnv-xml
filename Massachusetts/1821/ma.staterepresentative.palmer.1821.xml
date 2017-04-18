@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1821 House of Representatives, Palmer" type="General" iteration="First Ballot" date="1821-05" election_id="ma.staterepresentative.palmer.1821" handle="10427/79177" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Clark MacMaster" name_id="MC0108" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jesse King" name_id="KJ0351" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Theophilus Knight" name_id="KT0042" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-12-04">
+				<candidate_summary candidate_ref="1" vote_total="28" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="23" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Palmer" geog_id="null">
+					<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Palmer Town Records.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1800 State Senate, Middlesex County, Ballot 2" type="Legislative" iteration="Second Ballot" date="1800" election_id="ma.senator.middlesex.2.1800" handle="10427/68948" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Josiah Bartlett" name_id="BJ0341" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Maynard" name_id="MJ0295" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-22">
+				<candidate_summary candidate_ref="1" vote_total="143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="75" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole number of votes was 218."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 31, 1800.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="143" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 31, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">J. Russell's Gazette. Commercial and Political (Boston, MA).  May 31, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Spy (Springfield, MA).  June 2, 1800.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 House of Representatives, Peru" type="General" iteration="First Ballot" date="1811-05" election_id="ma.staterepresentative.peru.1811" handle="10427/69302" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Amasa Rockwell" name_id="RA0137" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Cyrus Stowell" name_id="SC0043" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Amherst Thompson" name_id="TA0087" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-30">
+				<candidate_summary candidate_ref="1" vote_total="31" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="16" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Peru" geog_id="null">
+					<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Peru Town Records.  279.</reference>
+</election_record>

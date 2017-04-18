@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1818 U.S. House of Representatives, Special" type="Special" iteration="First Ballot" date="1818-09" election_id="ct.special.congress.1818" handle="10427/19326" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="State">
+			<ballot>
+				<candidate name="Sylvester Gilbert" name_id="GS0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lyman Law" name_id="LL0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Asa Bacon, Jr." name_id="BA0002" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Epaphroditus Champion" name_id="CE0020" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Lewis B. Sturges" name_id="SL0001" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Charles Dennison" name_id="DC0000" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Nathan Smith" name_id="SN0016" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="John Davenport, Jr." name_id="DJ0022" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+				<candidate name="Benjamin Talmadge" name_id="TB0015" affiliation="Federalist" affiliation_id="A01" candidate_num="9"/>
+				<candidate name="James Gould" name_id="GJ0008" affiliation="Federalist" affiliation_id="A01" candidate_num="10"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-29">
+				<candidate_summary candidate_ref="1" vote_total="4561" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1429" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="661" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="141" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="103" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="10" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00897" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to fill the vacancy "occasioned by the resignation of Hon. Uriel Holmes."  American Mercury (Hartford, CT). Ocotber 27, 1818.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Fairfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Hartford" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Litchfield" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Middlesex" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="New Haven" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="New London" geog_id="null">
+					<sub_unit type="Town" name="Groton" geog_id="null">
+						<result candidate_ref="1" vote="14" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="New London" geog_id="cts_newlondon_newlondon">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+				<sub_unit type="County" name="Tolland" geog_id="null">
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  September 23, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00897">American Mercury (Hartford, CT).  October 27, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  November 4, 1818.</reference>
+</election_record>

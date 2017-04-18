@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 House of Representatives, Claiborne County" type="General" iteration="First Ballot" date="1821" election_id="ms.assembly.claiborne.1821" handle="10427/58487" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Henry G. Johnston" name_id="JH0029" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Amos Whiting" name_id="WA0192" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert S. Caldwell" name_id="CR0190" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Adam Gordon" name_id="GA0117" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-12-13">
+				<candidate_summary candidate_ref="1" vote_total="435" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="221" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="183" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="100" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Mississippi Republican (Natchez, MS) lists Henry G. Johnston with 434 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Claiborne" geog_id="null">
+					<result candidate_ref="1" vote="435" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="221" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="183" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="100" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15361" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15361">Mississippi Republican (Natchez, MS).  August 14, 1821.</reference>
+</election_record>

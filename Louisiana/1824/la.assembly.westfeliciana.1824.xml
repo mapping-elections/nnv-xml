@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1824 House of Representatives, West Feliciana Parish" type="General" iteration="First Ballot" date="1824" election_id="la.assembly.westfeliciana.1824" handle="10427/57946" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="John B. Dawson" name_id="DJ0118" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel MacCaleb" name_id="MS0037" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William G. Johnson" name_id="JW0014" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-07">
+				<candidate_summary candidate_ref="1" vote_total="218" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="90" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="West Feliciana" geog_id="null">
+					<result candidate_ref="1" vote="218" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="90" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12662" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Asylum (Saint Francisville, LA) lists 178 votes for Samuel MacCaleb.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Asylum (Saint Francisville, LA).  July 10, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Louisiana Courier (New Orleans, LA).  July 12, 1824.</reference>
+</election_record>

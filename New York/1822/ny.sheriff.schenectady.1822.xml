@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 Sheriff, Schenectady County" type="General" iteration="First Ballot" date="1822" election_id="ny.sheriff.schenectady.1822" handle="10427/66494" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Gershom Van Voast" name_id="VG0004" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Harmanus A. Van Slyck" name_id="VH0018" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Amos Curtis" name_id="CA0136" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-27">
+				<candidate_summary candidate_ref="1" vote_total="770" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="758" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="159" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schenectady" geog_id="null">
+					<result candidate_ref="1" vote="770" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="758" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Duanesburgh" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="59" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Glenville" geog_id="null">
+						<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Niskayuna" geog_id="null">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Princetown" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Rotterdam" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Schenectady" geog_id="null">
+						<result candidate_ref="1" vote="363" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+						<sub_unit type="Ward" name="One" geog_id="null">
+							<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Ward" name="Two" geog_id="null">
+							<result candidate_ref="1" vote="163" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Cabinet (Schenectady, NY).  November 20, 1822.</reference>
+</election_record>

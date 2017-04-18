@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1804 Assembly, Queens County" type="General" iteration="First Ballot" date="1804" election_id="ny.assembly.queens.1804" handle="10427/25445" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Henry O. Seaman" name_id="SH0081" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Stephen Carman" name_id="CS0101" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Benjamin Coe" name_id="CB0069" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Hezekiah Bedell" name_id="BH0047" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Abraham Monfoort" name_id="MA0107" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="John D. Ditmis" name_id="DJ0323" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-27">
+				<candidate_summary candidate_ref="1" vote_total="756" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="728" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="660" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="654" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="602" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="203" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04252" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Queens" geog_id="null">
+					<result candidate_ref="1" vote="756" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="728" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="660" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="654" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="602" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="203" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04252" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04252">Original Manuscript of New York Assembly Elections.  Michael J. Dubin.</reference>
+</election_record>

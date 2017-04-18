@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1796 House of Representatives, Lee" type="General" iteration="First Ballot" date="1796-05" election_id="ma.staterepresentative.lee.1796" handle="10427/68777" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Josiah Yale" name_id="YJ0022" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ebenezer Jenkins" name_id="JE0050" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jared Bradley" name_id="BJ0501" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-04-04">
+				<candidate_summary candidate_ref="1" vote_total="31" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Lee" geog_id="null">
+					<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Lee Town Records.  85.</reference>
+</election_record>

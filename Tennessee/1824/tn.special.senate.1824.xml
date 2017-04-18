@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1824 State Senate, Grainger County, Special" type="Special" iteration="First Ballot" date="1824" election_id="tn.special.senate.1824" handle="10427/20635" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Sampson David" name_id="DS0118" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Tristram D. Knight" name_id="KT0036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William F. Williams" name_id="WW0387" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-27">
+				<candidate_summary candidate_ref="1" vote_total="792" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="688" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="145" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08144" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Grainger" geog_id="null">
+					<result candidate_ref="1" vote="792" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="688" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="145" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08144" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17060">The Knoxville Register (Knoxville, TN).  August 27, 1824.</reference>
+</election_record>

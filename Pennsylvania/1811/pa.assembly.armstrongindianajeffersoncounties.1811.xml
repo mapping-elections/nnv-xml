@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 House of Representatives, Armstrong, Indiana, and Jefferson Counties" type="General" iteration="First Ballot" date="1811-10" election_id="pa.assembly.armstrongindianajeffersoncounties.1811" handle="10427/62277" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="James MacComb" name_id="MJ0924" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacKnight" name_id="MJ1036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Jamison" name_id="JJ0223" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Jonathan King" name_id="KJ0244" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Original Election Returns list James MacComb as a Federalist though The Democratic Press (Philadelphia, PA) from October 26 and 29 list MacComb as a Republican.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Armstrong, Indiana, and Jefferson Counties" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06439" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Armstrong" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06439" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Indiana" geog_id="null">
+						<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="266" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06472" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Armstrong" geog_id="null">
+							<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Black Lick" geog_id="null">
+							<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Centre" geog_id="null">
+							<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Connemaugh" geog_id="null">
+							<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Mahoning" geog_id="null">
+							<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Washington" geog_id="null">
+							<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Wheatfield" geog_id="null">
+							<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="16" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="County" name="Jefferson" geog_id="null">
+							<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Jefferson County voted with Indiana County. Votes from Jefferson County are specified in The Greensburgh Gazette (Greensburg, PA) from October 18.</note>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06472">The Greensburgh Gazette (Greensburg, PA).  October 17, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Greensburgh Gazette (Greensburg, PA).  October 18, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06439">The Westmoreland and Indiana Register (Greensburg, PA).  October 18, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 26, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 29, 1811.</reference>
+</election_record>

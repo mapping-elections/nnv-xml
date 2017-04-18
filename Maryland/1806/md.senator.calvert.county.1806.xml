@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1806 Electoral Assembly for State Senate, Calvert County" type="General" iteration="First Ballot" date="1806" election_id="md.senator.calvert.county.1806" handle="10427/27175" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Joseph Ireland" name_id="IJ0036" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Joseph Wilkinson" name_id="WJ0171" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Peter Emerson" name_id="EP0009" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Richard Mackall" name_id="MR0029" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-30">
+				<candidate_summary candidate_ref="1" vote_total="350" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="349" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="329" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="319" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02018" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Calvert" geog_id="mds_calvert">
+					<result candidate_ref="1" vote="350" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="349" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="329" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="319" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02018" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02018">The Maryland Gazette (Annapolis, MD).  September 4, 1806.</reference>
+</election_record>

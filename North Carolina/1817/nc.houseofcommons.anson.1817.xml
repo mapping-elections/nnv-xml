@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1817 House of Commons, Anson County" type="General" iteration="First Ballot" date="1817-08" election_id="nc.houseofcommons.anson.1817" handle="10427/42907" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Boggan Cash" name_id="CB0028" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Coleman" name_id="CJ0090" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="W. Carr" name_id="CW0294" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="E. Winfield" name_id="WE0039" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="D. Cuthbertson" name_id="CD0133" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-08">
+                <candidate_summary candidate_ref="1" vote_total="517" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="508" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="441" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="408" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="314" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Anson" geog_id="null">
+                    <result candidate_ref="1" vote="517" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="508" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="441" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="408" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="314" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18158" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18158">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  August 29, 1817.</reference>
+</election_record>

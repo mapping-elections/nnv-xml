@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 Commissioner, Guernsey County" type="General" iteration="First Ballot" date="1816-10" election_id="oh.countycommissioner.guernsey.1816" handle="10427/59560" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="James Dillion" name_id="DJ0394" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Lowry" name_id="LW0139" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Peter Umstot" name_id="UP0004" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Bay" name_id="BW0253" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Eli Bingham" name_id="BE0260" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-12">
+				<candidate_summary candidate_ref="1" vote_total="249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="199" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="68" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="57" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05238" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05237" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Guernsey" geog_id="ohs_guernsey">
+					<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="71" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="57" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05238" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05237" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05238">Muskingum Messenger (Zanesville, OH).  October 17, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05237">The Western Herald (Steubenville, OH).  October 18, 1816.</reference>
+</election_record>

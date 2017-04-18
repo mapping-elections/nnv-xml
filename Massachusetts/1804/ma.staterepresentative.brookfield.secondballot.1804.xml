@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1804 House of Representatives, Brookfield, Ballot 2" type="General" iteration="Second Ballot" date="1804-05" election_id="ma.staterepresentative.brookfield.secondballot.1804" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/27638" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Jabez Upham" name_id="UJ0005" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Cutler" name_id="CJ0323" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Luke Baldwin" name_id="BL0031" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-17">
+				<candidate_summary candidate_ref="1" vote_total="142" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="98" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="18" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03458" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Brookfield" geog_id="null">
+					<result candidate_ref="1" vote="142" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="98" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03458" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03458">Brookfield Town Records.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel and Massachusetts Federalist (Boston, MA).  May 12, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  June 4, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Spy (Springfield, MA).  June 11, 1804.</reference>
+</election_record>

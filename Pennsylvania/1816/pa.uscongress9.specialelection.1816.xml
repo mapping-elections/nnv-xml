@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 U.S. House of Representatives, District 9, Special" type="Special" iteration="First Ballot" date="1816-10" election_id="pa.uscongress9.specialelection.1816" handle="10427/62925" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="William P. Maclay" name_id="MW0408" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Banks" name_id="BJ1071" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-10">
+				<candidate_summary candidate_ref="1" vote_total="2169" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="999" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00844" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">William P. Maclay was elected to the 14th Congress to fill the seat of Thomas Burnside, who had resigned his seat in April 1816.  On the same day he was elected to the 15th Congress.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Nine" geog_id="null">
+					<result candidate_ref="1" vote="2169" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="999" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Centre" geog_id="null">
+						<result candidate_ref="1" vote="781" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="246" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00844" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00844" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="McKean" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00844" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06812">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

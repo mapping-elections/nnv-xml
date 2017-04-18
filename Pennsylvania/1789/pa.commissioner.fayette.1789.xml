@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 Commissioner, Fayette County" type="General" iteration="First Ballot" date="1789" election_id="pa.commissioner.fayette.1789" handle="10427/66066" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Uriah Springer" name_id="SU0002" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Patterson" name_id="PJ0121" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Rankens" name_id="RJ0105" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-17">
+				<candidate_summary candidate_ref="1" vote_total="307" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="183" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="110" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="272" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albert Gallatin Papers state that there were 129 "lost votes by" Uriah Springer and 253 "lost votes by" James Patterson.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="307" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="183" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="110" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="272" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Albert Gallatin Papers. Microfilm Reel 1. Frame 0425.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1814 Legislative Council, Warrick County" type="General" iteration="First Ballot" date="1814" election_id="in.council.warrick.1814" handle="10427/56365" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON070" scope="Territory">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="David Robb" name_id="RD0008" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Prince" name_id="PW0025" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Gervers Hazelton" name_id="HG0010" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-07-20">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12247" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Warrick" geog_id="null">
+					<sub_unit type="Township" name="Anderson">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12247" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12247">History of Warrick, Spencer and Perry Counties, Indiana.  Chicago: Goodspeed, 1885.  22, 26.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1819 State Senate, Chester District, Special" type="Special" iteration="First Ballot" date="1819-10" election_id="sc.senate.special.chester.1819" handle="10427/32156" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Ferdinand Hopkins" name_id="HF0038" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Gaston" name_id="GJ0601" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Gill" name_id="GG0071" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-05">
+				<candidate_summary candidate_ref="1" vote_total="342" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="228" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="51" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07847" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was held to replace John MacCreary, who was commissioned as a member of Congress on December 18, 1818 and resigned his Senate seat that same day.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="342" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="228" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07847" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07847">City Gazette and Commercial Advertiser (Charleston, SC).  October 30, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1844.</reference>
+</election_record>

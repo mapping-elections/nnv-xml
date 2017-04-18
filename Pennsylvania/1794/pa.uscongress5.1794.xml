@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 U.S. House of Representatives, District 5" type="General" iteration="First Ballot" date="1794-10" election_id="pa.uscongress5.1794" handle="10427/60770" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Daniel Hiester" name_id="HD0091" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Collinson Read" name_id="RC0007" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-14">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00075" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Five" geog_id="null">
+					<sub_unit type="County" name="Berks" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<sub_unit type="null" name="Military Camp Vote" geog_id="null">
+							<sub_unit type="null" name="Berks County Troop of Light Dragoons Commanded by William Moore, Captain" geog_id="null">
+								<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Luzerne" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  November 13, 1794.</reference>
+</election_record>

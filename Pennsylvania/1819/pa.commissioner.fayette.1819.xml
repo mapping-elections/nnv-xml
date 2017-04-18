@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1819 Commissioner, Fayette County" type="General" iteration="First Ballot" date="1819-10" election_id="pa.commissioner.fayette.1819" handle="10427/68031" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Isaac Cone" name_id="CI0050" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Robert Boyd" name_id="BR0136" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-23">
+				<candidate_summary candidate_ref="1" vote_total="1017" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="815" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="1017" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="815" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Genius of Liberty lists 875 votes for Robert Boyd though the township votes listed add up to 815.</note>
+					<sub_unit type="Borough" name="Brownsville" geog_id="null">
+						<result candidate_ref="1" vote="278" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="113" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Connellsville" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Georges" geog_id="null">
+						<result candidate_ref="1" vote="382" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saltlick" geog_id="null">
+						<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="284" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Washington" geog_id="null">
+						<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="72" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wharton" geog_id="null">
+						<result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Genius of Liberty (Uniontown, PA).  October 19, 1819.</reference>
+</election_record>

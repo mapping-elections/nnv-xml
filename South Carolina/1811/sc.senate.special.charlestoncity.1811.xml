@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1811 State Senate, Charleston City, Special" type="Special" iteration="First Ballot" date="1811" election_id="sc.senate.special.charlestoncity.1811" handle="10427/31974" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="City">
+			<ballot>
+				<candidate name="John Johnson, Jr." name_id="JJ0257" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Rouse" name_id="RW0227" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-05">
+				<candidate_summary candidate_ref="1" vote_total="494" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="487" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07651" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07652" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07653" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The disputed votes are not included in the regular tally of Rouse 487 and Johnson 480, however the election managers gave to Johnson the 14 votes in the Senate Box with the names for House candidates on them, which put his total as 494 and would give rise to the challenge by Mr. Rouse and his petition to overturn the election. The petition was denied and Col. Johnson was declared as Legally elected.</note>
+				<note resp="Philip Lampi">John Johnson, Jr. was elected to replace Henry Middleton, who was elected Governor, and resigned from the senate.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<result candidate_ref="1" vote="494" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="487" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Court House" geog_id="null">
+						<result candidate_ref="1" vote="363" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="240" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07652" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Inspection" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07652" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Market" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="200" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07652" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07653">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07652">Original Committee Petition of Col. William Rouse.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07651">The Times (Charleston, SC).  January 30, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1837.</reference>
+</election_record>

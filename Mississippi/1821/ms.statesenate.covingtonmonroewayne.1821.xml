@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1821 State Senate, Covington, Monroe and Wayne Counties" type="General" iteration="First Ballot" date="1821" election_id="ms.statesenate.covingtonmonroewayne.1821" handle="10427/79908" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Harmon H. Hays" name_id="HH0154" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Patton" name_id="PW0091" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Bond" name_id="BJ1579" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="George Thomas" name_id="TG0073" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-17">
+				<candidate_summary candidate_ref="1" vote_total="412" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="353" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="8" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="District" name="Covington, Monroe and Wayne" geog_id="null">
+					<result candidate_ref="1" vote="412" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="353" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="172" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Covington" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="151" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Harrison Watson's" geog_id="null">
+							<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="108" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Richard Welch's" geog_id="null">
+							<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="42" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="William MacGehee's" geog_id="null">
+							<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Monroe" geog_id="null">
+						<result candidate_ref="1" vote="361" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Columbus" geog_id="null">
+							<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Henry Green's" geog_id="null">
+							<result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Stephen Smith's" geog_id="null">
+							<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="5" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Wayne" geog_id="null">
+						<result candidate_ref="2" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

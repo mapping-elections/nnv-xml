@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1799 House of Representatives, Bucks County" type="General" iteration="First Ballot" date="1799-10" election_id="pa.assembly.buckscounty.1799" handle="10427/61012" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Isaac Vanhorn" name_id="VI0017" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ralph Stover" name_id="SR0203" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Erwin" name_id="EJ0168" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Gerard Wynkoop" name_id="WG0080" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Evan Lovett" name_id="LE0083" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="John Pugh" name_id="PJ0443" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="John Smith" name_id="SJ0947" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="John D. Murray" name_id="MJ0847" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-11">
+				<candidate_summary candidate_ref="1" vote_total="2233" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2155" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2125" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="2087" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="2058" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="1892" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05590" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Gerard Wynkoop is also listed as Henry Wynkoop.</note>
+				<note resp="Philip Lampi">The Original Election Returns list Gerard Wynkoop with 2131 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Bucks" geog_id="null">
+					<result candidate_ref="1" vote="2233" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2155" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2143" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2137" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2125" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="2087" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="2058" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="1892" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bristol" geog_id="null">
+						<result candidate_ref="1" vote="341" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="338" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="339" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="337" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="352" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="307" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="308" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="266" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05590" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Chapman" geog_id="null">
+					</sub_unit>
+					<sub_unit type="Township" name="Newton" geog_id="null">
+						<result candidate_ref="1" vote="405" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="872" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="872" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="851" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="382" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="385" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="388" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="851" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05590" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Quakertown" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05590">Aurora. General Advertiser (Philadelphia, PA).  October 10, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05590">Aurora. General Advertiser (Philadelphia, PA).  October 15, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">Aurora. General Advertiser (Philadelphia, PA).  January 18, 1800.</reference>
+</election_record>

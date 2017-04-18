@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1814 Territorial Legislature, Wayne County" type="General" iteration="First Ballot" date="1814" election_id="in.assembly.wayne.1814" handle="10427/56349" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="James Brown" name_id="BJ0166" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Holman" name_id="HJ0099" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-21">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">James Brown won the election by one vote.  "Brown had voted for himself; and had Holman voted for himself, he would have prevented the election of his rival, which he was unwilling to do...but Brown died when he was within a few miles of the capital at Corydon, and Holman was elected at a special election."   History of Wayne County.  118.</note>
+			</overview>
+			<admin_unit type="Territory" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Wayne" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Young, Andrew W.  History of Wayne County.  Cincinnati: Robert Clarke and, 1872.  118.</reference>
+</election_record>

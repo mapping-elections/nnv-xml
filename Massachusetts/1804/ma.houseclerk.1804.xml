@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1804 Clerk of the House of Representatives" type="Legislative" iteration="First Ballot" date="1804" election_id="ma.houseclerk.1804" handle="10427/27851" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the House of Representatives" office_id="ON027" scope="State">
+		<role title="Clerk of the House of Representatives" scope="State">
+			<ballot>
+				<candidate name="Nicholas Tillinghast" name_id="TN0022" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles P. Summer" name_id="SC0052" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-10-03">
+				<candidate_summary candidate_ref="1" vote_total="128" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="102" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10452" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Salem Gazette (Salem, MA) lists 231 total votes.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10452" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Salem Gazette (Salem, MA).  June 1, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democrat (Boston, MA).  June 2, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10452">American Citizen (New York, NY).  June 6, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10452">The Virginia Argus (Richmond, VA).  June 13, 1804.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10452">Republican Star or Eastern Shore General Advertiser (Easton, MD).  June 19, 1804.</reference>
+</election_record>

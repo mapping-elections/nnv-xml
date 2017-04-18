@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 House of Representatives, Adams County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.assembly.adams.1808" handle="10427/61858" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Gettys" name_id="GJ0383" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacSherry" name_id="MJ0972" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Hoke" name_id="HH0074" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="George Lashells" name_id="LG0055" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-04-09">
+				<candidate_summary candidate_ref="1" vote_total="1466" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1451" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="711" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="698" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06208" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1466" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1451" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="711" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="698" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="472" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="465" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="234" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="234" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06208" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="195" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="153" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06208" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="319" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="324" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="124" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06208" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="296" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="297" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="111" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06208" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Five" geog_id="null">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="183" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="76" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06208" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06208">The Centinel (Gettysburg, PA).  October 19, 1808.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  November 15, 1808.</reference>
+</election_record>

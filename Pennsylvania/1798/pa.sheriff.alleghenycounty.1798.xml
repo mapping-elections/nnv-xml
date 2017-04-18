@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 Sheriff, Allegheny County" type="General" iteration="First Ballot" date="1798-10" election_id="pa.sheriff.alleghenycounty.1798" handle="10427/60957" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Ephraim Jones" name_id="JE0027" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph R. Postlethwait" name_id="PJ0441" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-03">
+				<candidate_summary candidate_ref="1" vote_total="917" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="872" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05544" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05545" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05546" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The History of Allegheny County uses the spelling Postlethwaite for Joseph R. Postlethwait.</note>
+				<note resp="Philip Lampi">The Pittsburgh Gazette (Pittsburgh, PA) and Porcupine's Gazette report 917 votes for Ephraim Jones.</note>
+				<note resp="Philip Lampi">"The returns of the number of votes from some of the election districts were made in figures, contrary to the form prescribed by law for regulating the annual general election; this makes an alteration in the Sheriff, by giving Mr. Postlethwait a majority.  The judges of the election have noticed this error in the returns made out for the Governor; it therefore rests with him to determine whether the votes returned in figures are admissible or not." Porcupine's Gazette (Philadelphia, PA).  October 26, 1798.</note>
+				<note resp="Philip Lampi">"Ephraim Jones having six hundred and eighty four votes returned to us in writing and two hundred and thirty three in figures only, and the said Joseph R. Postlethwaite having eight hundred and eight votes returned to us in writing and sixty four in figures only." History of Allegheny County, Part I, 225.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny" geog_id="null">
+					<result candidate_ref="1" vote="917" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="872" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05544">The Pittsburgh Gazette (Pittsburgh, PA).  October 20, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05545">Porcupine's Gazette (Philadelphia, PA).  October 26, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05546">Cushing, Thomas.  History of Allegheny County, Pennsylvania.  Chicago: A. Warner and, 1889.  225.</reference>
+</election_record>

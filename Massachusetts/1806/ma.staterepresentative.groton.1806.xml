@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1806 House of Representatives, Groton" type="General" iteration="First Ballot" date="1806-05" election_id="ma.staterepresentative.groton.1806" handle="10427/69872" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Timothy Bigelow" name_id="BT0122" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Moors" name_id="MJ1369" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-12-10">
+				<candidate_summary candidate_ref="1" vote_total="139" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Groton, May 7. Federalism in old Groton enjoyed a very single triumph last Monday. Mr. Bigelow and Major Moors were elected Representative by a very large majority. Mr. B. had 139 to 56."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 10, 1806.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Groton" geog_id="null">
+					<result candidate_ref="1" vote="139" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 10, 1806.</reference>
+</election_record>

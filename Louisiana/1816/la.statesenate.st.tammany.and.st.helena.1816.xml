@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1816 State Senate, Saint Helena and Saint Tammany Parishes" type="General" iteration="First Ballot" date="1816" election_id="la.statesenate.st.tammany.and.st.helena.1816" handle="10427/57881" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Elijah Clark" name_id="CE0045" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Shepard Brown" name_id="BS0071" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-22">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12535" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12534" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="District" name="Saint Helena and Saint Tammany" geog_id="null">
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12534" resp="Philip Lampi"/>
+					<sub_unit type="Parish" name="Saint Helena" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12534" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Parish" name="Saint Tammany" geog_id="null">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12535" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Louisiana State Senate, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12535">The Louisiana Gazette and New-Orleans' Mercantile Advertiser (New Orleans, LA).  July 10, 1816.</reference>
+</election_record>

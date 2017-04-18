@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Constable, Spring Garden" type="General" iteration="First Ballot" date="1824" election_id="pa.constable.springgarden.1824" handle="10427/65751" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="Township">
+		<role title="Constable" scope="Township">
+			<ballot>
+				<candidate name="Wiltbank" name_id="null" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Jones" name_id="JW0065" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Painter" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-10-26">
+				<candidate_summary candidate_ref="1" vote_total="117" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="93" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="60" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Spring Garden" geog_id="null">
+						<result candidate_ref="1" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  May 5, 1824.</reference>
+</election_record>

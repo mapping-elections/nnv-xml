@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 House of Representatives, Franklin County" type="General" iteration="First Ballot" date="1795-10" election_id="pa.assembly.franklincounty.1795" handle="10427/60814" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Rea" name_id="RJ0310" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Henderson" name_id="HW0311" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Charles Leiper" name_id="LC0034" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James MacLain" name_id="MJ0807" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Daniel Royer" name_id="RD0051" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="James Poe" name_id="PJ0412" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-15">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05473" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Chambersburg" geog_id="null">
+						<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="107" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="104" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="54" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05473">Aurora. General Advertiser (Philadelphia, PA).  October 24, 1795.</reference>
+</election_record>

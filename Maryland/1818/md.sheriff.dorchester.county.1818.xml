@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1818 Sheriff, Dorchester County" type="General" iteration="First Ballot" date="1818" election_id="md.sheriff.dorchester.county.1818" handle="10427/26960" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Thomas Breerwood" name_id="BT0105" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Also referred to as Brierwood and Briarwood.</note></candidate>
+				<candidate name="Solomon Kerwin" name_id="KS0006" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Robert Hart" name_id="HR0055" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-11">
+				<candidate_summary candidate_ref="1" vote_total="892" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="874" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03063" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03064" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03065" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14814" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Maryland Gazette, The Alexandria Herald (Alexandria, VA), Maryland Republican and the Baltimore Patriot and Mercantile Advertiser (Baltimore, MD). list 898 votes for Thomas Breerwood and 890 votes for Solomon Kerwin.</note>
+				<note resp="Philip Lampi">The Republican Star, or, General Advertiser (Easton, MD) lists 882 votes for Thomas Breerwood.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+					<result candidate_ref="1" vote="892" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="874" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Cambridge" geog_id="null">
+						<result candidate_ref="1" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="329" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03063" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Elizabeth Lake's" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="226" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03063" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="New Market" geog_id="null">
+						<result candidate_ref="1" vote="278" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03063" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Parson's Creek" geog_id="null">
+						<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="146" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03063" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Vienna" geog_id="null">
+						<result candidate_ref="1" vote="227" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03063" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03063">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03064">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 7, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03065">Republican Star and General Advertiser (Easton, MD).  October 13, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Alexandria Herald (Alexandria, VA).  October 14, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03064">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 15, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Republican and Political and Agricultural Museum (Annapolis, MD).  November 11, 1818.</reference>
+</election_record>

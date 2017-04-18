@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1812 Coroner, Tioga County" type="General" iteration="First Ballot" date="1812-10" election_id="pa.coroner.tioga.1812" handle="10427/62516" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Micah Spencer" name_id="SM0130" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Harris Hotchkiss" name_id="HH0097" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="H. Lawrence" name_id="LH0055" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-08-15">
+				<candidate_summary candidate_ref="1" vote_total="48" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="44" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06582" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Tioga" geog_id="null">
+					<result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06582" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06582">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Lycoming Gazette (Williamsport, PA).  October 21, 1812.</reference>
+</election_record>

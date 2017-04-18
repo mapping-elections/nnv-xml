@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1820 Sheriff, Sussex County" type="General" iteration="First Ballot" date="1820" election_id="de.sheriff.sussex.1820" handle="10427/43837" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William Elligood" name_id="EW0057" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">elected</note></candidate>
+				<candidate name="John H. Burton" name_id="BJ1349" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Kendall Batsan" name_id="BK0002" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Peter Hall" name_id="HP0007" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1397" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1326"  resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1062" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="75" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"We have the pleasure to state, that the republicans and independant federalists of Sussex county, have succeeded in electing William Elligood, Esq. to the Sheriffalty of that county - who is a republican"  Republican Star and General Advertiser (Easton, MD).  October 17, 1820.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="1397" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1326" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1062" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="75" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Baltimore" geog_id="des_sussex_baltimore">
+						<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Broad Creek" geog_id="des_sussex_broadcreek">
+						<result candidate_ref="1" vote="324" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Broadkill" geog_id="des_sussex_broadkill">
+						<result candidate_ref="1" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="237" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="246" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Cedar Creek" geog_id="des_sussex_cedarcreek">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="236" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="59" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Dagsborough" geog_id="des_sussex_dagsborough">
+						<result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="180" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="126" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Indian River" geog_id="des_sussex_indianriver">
+						<result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="83" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Lewes and Rehoboth" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="52" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="316" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Nanticoke" geog_id="des_sussex_nanticoke">
+						<result candidate_ref="1" vote="261" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="North West Fork" geog_id="null">
+						<result candidate_ref="1" vote="279" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="165" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="144" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 17, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Star and General Advertiser (Easton, MD).  October 17, 1820.</reference>
+</election_record>

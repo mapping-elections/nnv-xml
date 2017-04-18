@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1810 Governor, Ballot 2" type="Legislative" iteration="Second Ballot" date="1810-05" election_id="ct.governor.special.1810" handle="10427/79694" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="John Treadwell" name_id="TJ0009" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Asa Spalding" name_id="SA0001" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Roger Griswold" name_id="GR0000" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-06-30">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Connecticut law required a majority to elect.  With no choice made in the general election, it devolved upon the legislature to make a choice.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="null" name="Council" geog_id="null">
+					<note resp="Philip Lampi">"The Upper House were unanimous for Gov. Treadwell."  Norwich Courier (Norwich, CT).  May 16, 1810.</note>
+				</sub_unit>
+				<sub_unit type="null" name="House" geog_id="null">
+					<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  May 14, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald (New Haven, CT).  May 15, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  May 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  May 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Norwich Courier (Norwich, CT).  May 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Journal (New Haven, CT).  May 17, 1810.</reference>
+</election_record>

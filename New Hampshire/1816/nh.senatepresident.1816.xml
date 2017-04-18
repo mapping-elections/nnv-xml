@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New Hampshire 1816 Senate President" type="Legislative" iteration="First Ballot" date="1816-06" election_id="nh.senatepresident.1816" handle="10427/79218" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Senate President" office_id="ON098" scope="State">
+		<role title="Senate President" scope="State">
+			<ballot>
+				<candidate name="William Badger" name_id="BW0164" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="James H. Bingham" name_id="BJ1305" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Phinehas Henderson" name_id="HP0105" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-04">
+				<candidate_summary candidate_ref="1" vote_total="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="State Senate" geog_id="null">
+					<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Daily Advertiser (Boston, MA).  June 10, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Boston Weekly Messenger (Boston, MA).  June 20, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Hampden Federalist (Springfield, MA).  June 20, 1816.</reference>
+</election_record>

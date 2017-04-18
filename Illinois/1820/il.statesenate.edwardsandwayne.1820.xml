@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1820 State Senate, Edwards and Wayne Counties" type="General" iteration="First Ballot" date="1820-08" election_id="il.statesenate.edwardsandwayne.1820" handle="10427/56239" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Robert Frazier" name_id="FR0009" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Stephen Simmons" name_id="SS0031" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Seth Gard" name_id="GS0034" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Levi Compton" name_id="CL0002" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-01">
+				<candidate_summary candidate_ref="1" vote_total="314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="244" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="38" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="District" name="Edwards and Wayne" geog_id="null">
+					<result candidate_ref="1" vote="314" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="244" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="160" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="28" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Edwards" geog_id="null">
+						<result candidate_ref="1" vote="222" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="101" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="28" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="92" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="10" resp="Philip Lampi"/>
+						<sub_unit type="Ward" name="East" geog_id="null">
+							<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Ward" name="South" geog_id="null">
+							<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="7" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Ward" name="West" geog_id="null">
+							<result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="50" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Pease, Theodore Calvin.  Illinois Election Returns, 1818-1848.  Springfield, IL: The Trustees of the Illinois State Historical Library, 1923.  187.</reference>
+</election_record>

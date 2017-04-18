@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1814 House of Representatives, Danbury, Second Representative" type="General" iteration="Second Ballot" date="1814" election_id="ct.representative.danbury.secondballot.1814" handle="10427/17607" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Daniel Comstock, Jr." name_id="CD0010" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Phineas Taylor" name_id="TP0001" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-22">
+				<candidate_summary candidate_ref="1" vote_total="219" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="192" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01561" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Danbury" geog_id="null">
+					<result candidate_ref="1" vote="219" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="192" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01561" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"Freeman's Meeting was held yesterday, when the following gentlemen were ballotted for as Representatives to the next General Assembly."... "Here was a complete triumph for the friends of peace of Democracy, Embargo, and Canada War."  New-York Spectator (New York, NY).  April 16, 1814.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01561">New-York Spectator (New York, NY).  April 16, 1814.</reference>
+</election_record>

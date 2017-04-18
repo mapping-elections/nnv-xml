@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1808 House of Representatives, Rutland" type="General" iteration="First Ballot" date="1808" election_id="vt.assembly.rutland.1808" handle="10427/69455" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Ezekiel Porter" name_id="PE0126" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Charles K. Williams" name_id="WC0090" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="null" modified="2014-03-14">
+                <candidate_summary candidate_ref="1" vote_total="173" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="134" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="County" name="Rutland" geog_id="null">
+                    <sub_unit type="Town" name="Rutland" geog_id="null">
+                        <result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Rutland Vermont Herald (Rutland, VT).  September 10, 1808.</reference>
+</election_record>

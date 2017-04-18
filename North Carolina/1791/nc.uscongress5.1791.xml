@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1791 U.S. House of Representatives, District 5" type="General" iteration="First Ballot" date="1791-01" election_id="nc.uscongress5.1791" handle="10427/43769" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="William B. Grove" name_id="GW0091" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Timothy Bloodworth" name_id="BT0199" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="2"/>
+                <candidate name="Benjamin Smith" name_id="SB0058" affiliation="Federalist" affiliation_id="A01" candidate_num="3"></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-05-13">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17199" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The 5th District was also known as the Cape Fear Division.</note>
+                <note resp="Philip Lampi">"William Barry Groves, Esq. is elected member of the second house of Representatives of the United States for Wilmington District, N. Carolina."  The General Advertiser and Political, Commercial and Literary Journal (Philadelphia, PA).  March 10, 1791.</note>
+                <note resp="Philip Lampi">"So poor Bloodworth's political career is at present terminated; Grove had a majority of 800."  T. Iredell to James Iredell.  March 4, 1791.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="District" name="Five" geog_id="null">
+                    <sub_unit type="County" name="Anson" geog_id="null">
+                        <result candidate_ref="1" vote="109" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Bladen" geog_id="null">
+                        <result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Brunswick" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Cumberland" geog_id="null">
+                        <result candidate_ref="1" vote="866" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Duplin" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="164" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Johnston" geog_id="null">
+                        <result candidate_ref="1" vote="69" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Moore" geog_id="null">
+                        <result candidate_ref="1" vote="342" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="New Hanover" geog_id="null">
+                        <result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Onslow" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Richmond" geog_id="null">
+                        <result candidate_ref="1" vote="185" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Robeson" geog_id="null">
+                        <result candidate_ref="1" vote="352" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Sampson" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="343" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17199">The General Advertiser and Political, Commercial and Literary Journal (Philadelphia, PA).  March 10, 1791.</reference>
+    <reference type="citation" resp="Philip Lampi">Hinshaw, Seth Beeson, ed.  North Carolina Election Returns 1790-1866: Covering the Races for President, Governor and U.S. House.  1992.  State Library of North Carolina, Raleigh.</reference>
+    <reference type="citation" resp="Philip Lampi">McRee, Griffith John.  Life and Correspondence of James Iredell.  New York: Appleton, 1857.  330.</reference>
+</election_record>

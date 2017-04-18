@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1803 House of Representatives, Hartford, First Representative" type="General" iteration="First Ballot" date="1803-04" election_id="ct.staterepresentative.hartford.1.apr.1803" handle="10427/79659" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="John Caldwell" name_id="CJ0040" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Bull" name_id="BJ0024" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-28">
+				<candidate_summary candidate_ref="1" vote_total="322" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="223" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="6" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Last year the democrats of this town made their boast that their number of votes were 219, and that their number had greatly increased.  In our election in the fall at one balloting, there was a tie between Major Caldwell and Mr. Bull; now Major Caldwell took the lead by 99 votes.  The truth is that the security of the federalists, kept them at home in the fall; but their inattention at that season has been handsomely compensated by their manly and patriotic conduct this spring.  We are in particular under great obligations to our friends of the West-Division for their very punctual attendance, and for their honest and independent conduct.  The citizens of this State must finally be indebted to the upright intentions and active exertions of the agricultural part of the State, for the salvation of all our valuable institutions."  Connecticut Courant (Hartford, CT).  April 13, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="City" name="Hartford" geog_id="null">
+					<result candidate_ref="1" vote="322" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="223" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  April 13, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  April 15, 1803.</reference>
+</election_record>

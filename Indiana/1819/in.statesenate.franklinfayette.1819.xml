@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1819 State Senate, Fayette and Franklin Counties" type="General" iteration="First Ballot" date="1819" election_id="in.statesenate.franklinfayette.1819" handle="10427/56454" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="William C. Drew" name_id="DW0025" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Goudie" name_id="GJ0055" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="847" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="687" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="District" name="Fayette and Franklin" geog_id="null">
+					<result candidate_ref="1" vote="847" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="687" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Fayette" geog_id="null">
+						<result candidate_ref="1" vote="357" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="490" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="614" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Bath" geog_id="null">
+							<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="50" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Blooming Grove" geog_id="null">
+							<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Brookville" geog_id="null">
+							<result candidate_ref="1" vote="240" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="257" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Liberty" geog_id="null">
+							<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Posey" geog_id="null">
+							<result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Springfield" geog_id="null">
+							<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Union" geog_id="null">
+							<result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="White Water" geog_id="null">
+							<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12338" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12338">Brookville Enquirer and Indiana Telegraph (Brookville, IN).  August 6, 1819.</reference>
+</election_record>

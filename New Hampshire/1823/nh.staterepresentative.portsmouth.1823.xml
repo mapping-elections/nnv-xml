@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1823 House of Representatives, Portsmouth" type="General" iteration="First Ballot" date="1823-03" election_id="nh.staterepresentative.portsmouth.1823" handle="10427/79480" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John N. Sherburne" name_id="SJ1348" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Estwick Evans" name_id="EE0047" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nathaniel A. Haven" name_id="HN0031" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew W. Bell" name_id="BA0280" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jeremiah Mason" name_id="MJ0387" affiliation="null" affiliation_id="null" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Clagett" name_id="CW0080" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-07-21">
+				<candidate_summary candidate_ref="1" vote_total="872" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="742" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="719" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="686" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="508" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="424" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"A great number of scattering votes - necessary for a choice 454."  New-Hampshire Gazette (Portsmouth, NH).  March 18, 1823.</note>
+				<note resp="Philip Lampi">"Mr. Mason having declined the honor conferred upon him, William Claggett was elected to fill the vacancy by a large majority."  New-Hampshire Gazette (Portsmouth, NH).  March 18, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="County" name="Rockingham" geog_id="null">
+					<sub_unit type="Town" name="Portsmouth" geog_id="null">
+						<result candidate_ref="1" vote="872" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="742" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="719" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="686" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="508" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="424" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Gazette (Portsmouth, NH).  March 18, 1823.</reference>
+</election_record>

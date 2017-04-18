@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1814 Sheriff, Washington County" type="General" iteration="First Ballot" date="1814-10" election_id="oh.sheriff.washington.1814" handle="10427/59438" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Alexander Hill" name_id="HA0121" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+                <candidate name="John Clark" name_id="CJ0204" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Timothy Buell" name_id="BT0224" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="George Wilson" name_id="WG0022" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-03">
+                <candidate_summary candidate_ref="1" vote_total="462" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="397" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Washington" geog_id="ohs_washington">
+                    <result candidate_ref="1" vote="462" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="397" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Adams" geog_id="null">
+                        <result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Belpre" geog_id="null">
+                        <result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Deerfield" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <note resp="Philip Lampi">There were no votes recorded in Deerfield.</note>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Fearing" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Grandview" geog_id="null">
+                        <result candidate_ref="1" vote="48" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Marietta" geog_id="null">
+                        <result candidate_ref="1" vote="90" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Newport" geog_id="null">
+                        <result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Roxbury" geog_id="null">
+                        <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Warren" geog_id="null">
+                        <result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Waterford" geog_id="null">
+                        <result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wesley" geog_id="null">
+                        <result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wooster" geog_id="null">
+                        <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Washington County.</reference>
+    <reference type="citation" resp="Philip Lampi">American Friend (Marietta, OH).  October 22, 1814.</reference>
+</election_record>
+

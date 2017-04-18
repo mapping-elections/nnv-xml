@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Inspector of the General Election, Berks County, Reading Borough" type="General" iteration="First Ballot" date="1823" election_id="pa.inspector.reading.1823" handle="10427/65948" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Borough">
+		<role title="Inspector" scope="Borough">
+			<ballot>
+				<candidate name="John Rightmeyer" name_id="RJ0565" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Curtis Lewis" name_id="LC0064" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Joseph Algair" name_id="AJ0337" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Hahn" name_id="HJ0995" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-03">
+				<candidate_summary candidate_ref="1" vote_total="335" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="334" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="1" vote_total="174" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="174" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Berks" geog_id="null">
+					<sub_unit type="Borough" name="Reading" geog_id="null">
+						<result candidate_ref="1" vote="335" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="334" resp="Philip Lampi"/>
+						<result candidate_ref="1" vote="174" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="174" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">United States Gazette (Philadelphia, PA).  October 7, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Welt-Bothe und Wahre Republikaner von Berks, Schuykill und Libanon Caunties (Reading, PA).  October 8, 1823.</reference>
+</election_record>

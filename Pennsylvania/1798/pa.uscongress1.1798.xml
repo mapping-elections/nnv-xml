@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1798-10" election_id="pa.uscongress1.1798" handle="10427/60944" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Robert Waln" name_id="WR0132" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Miles" name_id="MS0150" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-06">
+				<candidate_summary candidate_ref="1" vote_total="865" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="371" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05567" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="865" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="371" resp="Philip Lampi"/>
+					<sub_unit type="City" name="Philadelphia" geog_id="null">
+						<result candidate_ref="1" vote="865" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="371" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA) reports 825 total votes for Robert Waln and 351 total votes for Samuel Miles.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 10, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 10, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05567">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  October 10, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Porcupine's Gazette (Philadelphia, PA).  October 10, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 17, 1798.</reference>
+</election_record>

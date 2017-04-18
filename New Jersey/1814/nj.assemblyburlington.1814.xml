@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1814 Assembly, Burlington County" type="General" iteration="First Ballot" date="1814" election_id="nj.assemblyburlington.1814" handle="10427/20264" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="William Pearson" name_id="PW0138" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William Irick" name_id="IW0005" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Charles Ellis" name_id="EC0011" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Samuel J. Read" name_id="RS0058" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-08-20">
+				<candidate_summary candidate_ref="1" vote_total="2254" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2253" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2252" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2251" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Burlington" geog_id="null">
+					<result candidate_ref="1" vote="2254" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2253" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2252" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2251" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

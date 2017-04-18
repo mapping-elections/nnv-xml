@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1823 Treasurer, Charleston City, Special" type="Special" iteration="First Ballot" date="1823" election_id="sc.treasurer.charleston.1823" handle="10427/64821" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Treasurer" office_id="ON122" scope="City">
+        <role title="Treasurer" scope="City">
+            <ballot>
+                <candidate name="Thomas Lehre" name_id="LT0120" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-07-16">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Thomas Lehre is elected to fill the vacancy occasioned by the death of William Roach.</note>
+            </overview>
+            <admin_unit type="State" name="South Carolina" geog_id="scs">
+                <sub_unit type="City" name="Charleston" geog_id="null">
+                    <sub_unit type="null" name="City Council" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Southern Patriot, and Commercial Advertiser (Charleston, SC).  February 21, 1823.</reference>
+</election_record>

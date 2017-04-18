@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 Commissioner, Cumberland County" type="General" iteration="First Ballot" date="1795-10" election_id="pa.commissioner.cumberlandcounty.1795" handle="10427/60808" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Samuel Gray" name_id="GS0072" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Michael Ege" name_id="EM0007" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Carothers" name_id="CJ0708" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-15">
+				<candidate_summary candidate_ref="1" vote_total="1726" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="923" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05468" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="1726" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="923" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Carlisle, Newville, Silver Spring and Tyrone" geog_id="null">
+						<result candidate_ref="1" vote="1259" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="758" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="216" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05468">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 14, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 19, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05468">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 21, 1795.</reference>
+</election_record>

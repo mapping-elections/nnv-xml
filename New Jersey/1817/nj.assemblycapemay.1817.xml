@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1817 Assembly, Cape May County" type="General" iteration="First Ballot" date="1817-10" election_id="nj.assemblycapemay.1817" handle="10427/20104" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Nicholas Willets" name_id="WN0080" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="John L. Smith" name_id="SJ0626" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Joshua Hildreth" name_id="HJ0471" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-31">
+				<candidate_summary candidate_ref="1" vote_total="126" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="10" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="7" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04050" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cape May" geog_id="null">
+					<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04050" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04050" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04050" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04050" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04050">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

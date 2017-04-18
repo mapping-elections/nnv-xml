@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Appraiser, Hamilton County, Cincinnati Township" type="General" iteration="First Ballot" date="1824-04" election_id="oh.appraiser.cincinnati.1824" handle="10427/60472" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Appraiser" office_id="ON002" scope="Township">
+        <role title="Appraiser" scope="Township">
+            <ballot>
+                <candidate name="Jozabad Lodge" name_id="LJ0138" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Edward Dodson" name_id="DE0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Albert Hopper" name_id="HA0062" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Robert Richardson" name_id="RR0027" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="John Rice" name_id="RJ0152" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Thomas Henderson" name_id="HT0034" affiliation="null" affiliation_id="null" candidate_num="6"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-28">
+                <candidate_summary candidate_ref="1" vote_total="595" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="301" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="201" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="110" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="20" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="4" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Hamilton" geog_id="ohs_hamilton">
+                    <sub_unit type="Township" name="Cincinnati" geog_id="null">
+                        <result candidate_ref="1" vote="595" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="301" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="201" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="110" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The National Republican and Ohio Political Register (Cincinnati, OH).  April 9, 1824.</reference>
+</election_record>

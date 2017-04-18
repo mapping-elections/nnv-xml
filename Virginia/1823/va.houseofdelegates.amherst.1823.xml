@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1823 House of Delegates, Amherst County" type="General" iteration="First Ballot" date="1823" election_id="va.houseofdelegates.amherst.1823" handle="10427/33896" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="David S. Garland" name_id="GD0070" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Bennett A. Crawford" name_id="CB0105" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William M. Waller" name_id="WW0320" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-07-25">
+				<candidate_summary candidate_ref="1" vote_total="308" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="193" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="132" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09459" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Amherst" geog_id="vas_amherst">
+					<result candidate_ref="1" vote="308" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="193" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="132" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09459" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09459">Richmond Enquirer (Richmond, VA).  April 29, 1823.</reference>
+</election_record>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 Sheriff, Cumberland County" type="General" iteration="First Ballot" date="1795-10" election_id="pa.sheriff.cumberlandcounty.1795" handle="10427/60807" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Jacob Craver" name_id="CJ0703" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Alexander" name_id="AW0072" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jonathan Wallace" name_id="WJ0625" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Wallace" name_id="WW0197" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-15">
+				<candidate_summary candidate_ref="1" vote_total="1562" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1162" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05468" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05469" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="1562" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1162" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Carlisle, Tyrone, Newville and Silver Spring" geog_id="null">
+						<result candidate_ref="1" vote="1249" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="911" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="585" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="269" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05469">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05468">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 14, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  October 19, 1795.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05468">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 21, 1795.</reference>
+</election_record>

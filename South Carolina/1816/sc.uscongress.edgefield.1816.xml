@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1816 U.S. House of Representatives, District 6" type="General" iteration="First Ballot" date="1816" election_id="sc.uscongress.edgefield.1816" handle="10427/31696" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John C. Calhoun" name_id="CJ1014" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edmund Bacon" name_id="BE0206" affiliation="Federalist" affiliation_id="A01" candidate_num="2"></candidate>
+				<candidate name="William Butler" name_id="BW0365" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-01">
+				<candidate_summary candidate_ref="1" vote_total="1977" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1440" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1157" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15766" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15768" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15769" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">District Six was also known as Edgefield District.</note>
+				<note resp="Philip Lampi">The Richmond Enquirer (Richmond, VA), 28 September 1816, lists Dr. E.S. Davis as an additional candidate.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Six" geog_id="null">
+					<result candidate_ref="1" vote="1977" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1440" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1157" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Abbeville" geog_id="null">
+						<result candidate_ref="1" vote="1148" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="359" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="609" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Edgefield" geog_id="null">
+						<result candidate_ref="1" vote="829" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1081" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="548" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15768">Richmond Enquirer (Richmond, VA).  September 28, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15782">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 26, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15769">Daily National Intelligencer (Washington, DC).  October 29, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15766">Richmond Enquirer (Richmond, VA).  November 2, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Dubin, Michael J.  United States Congressional Elections, 1788-1997: The Official Results of the Elections of the 1st through 105th Congresses.  Jefferson, NC: McFarland and Company, 1998.  60, 62.</reference>
+</election_record>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1803 Assembly, Greene County" type="General" iteration="First Ballot" date="1803" election_id="ny.assembly.greene.1803" handle="10427/26738" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Stephen Simmons" name_id="SS0184" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Stoddard Smith" name_id="SS0181" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Thompson" name_id="TJ0305" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Jacob Parish" name_id="PJ0302" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-10">
+				<candidate_summary candidate_ref="1" vote_total="696" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="674" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="647" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="623" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Greene" geog_id="null">
+					<result candidate_ref="1" vote="696" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="674" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="647" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="623" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Canton" geog_id="null">
+						<result candidate_ref="1" vote="97" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="37" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Catskill" geog_id="null">
+						<result candidate_ref="1" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="129" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Republican Watch-Tower (New York, NY) reports 122 votes Jacob Parish.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Coxsackie" geog_id="null">
+						<result candidate_ref="1" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="151" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="107" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Freehold" geog_id="null">
+						<result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="218" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="213" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Republican Watch-Tower (New York, NY) reports 213 votes for James Thompson and 212 votes for Jacob Parish.</note>
+					</sub_unit>
+					<sub_unit type="Town" name="Greenfield" geog_id="null">
+						<result candidate_ref="1" vote="80" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="84" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Windham" geog_id="null">
+						<result candidate_ref="1" vote="228" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="53" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04218" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04218">Western Constellation (Catskill, NY).  May 7, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Register (Albany, NY).  May 13, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Watch-Tower (New York, NY).  May 21, 1803.</reference>
+</election_record>

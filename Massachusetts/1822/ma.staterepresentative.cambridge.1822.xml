@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 House of Representatives, Cambridge" type="General" iteration="First Ballot" date="1822-05" election_id="ma.staterepresentative.cambridge.1822" handle="10427/27576" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William Hilliard" name_id="HW0185" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Peter Tufts" name_id="TP0028" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-05-14">
+				<candidate_summary candidate_ref="1" vote_total="149" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="87" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03641" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Cambridge" geog_id="null">
+					<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03641" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03641">Columbian Centinel (Boston, MA).  May 8, 1822.</reference>
+</election_record>

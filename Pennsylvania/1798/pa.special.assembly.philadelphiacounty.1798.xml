@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1798 House of Representatives, Philadelphia County, Special" type="Special" iteration="First Ballot" date="1798-12" election_id="pa.special.assembly.philadelphiacounty.1798" handle="10427/60985" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="George Logan" name_id="LG0042" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick A. Muhlenberg" name_id="MF0016" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-05">
+				<candidate_summary candidate_ref="1" vote_total="1256" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="769" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05574" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05575" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05576" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The special election was held to fill the seat left vacant by the resignation of Matthew Huston.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<result candidate_ref="1" vote="1256" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="769" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Blockley and Kingsessing" geog_id="null">
+						<result candidate_ref="1" vote="36" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bustletown" geog_id="null">
+						<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Germantown" geog_id="null">
+						<result candidate_ref="1" vote="153" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="171" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+						<result candidate_ref="1" vote="663" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="266" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Southwark, Moyamensing, and Passyunk" geog_id="null">
+						<result candidate_ref="1" vote="359" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="221" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05575">Claypoole's American Daily Advertiser (Philadelphia, PA).  December 24, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05574">The Philadelphia Gazette and Universal Daily Advertiser (Philadelphia, PA).  December 24, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05574">Aurora. General Advertiser (Philadelphia, PA).  December 26, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">The Pennsylvania Gazette (Philadelphia, PA).  December 27, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05576">The Oracle of Dauphin, and Harrisburgh Advertiser (Harrisburg, PA).  January 2, 1799.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle: and the Universal Advertiser (Boston, MA).  January 3, 1799.</reference>
+</election_record>

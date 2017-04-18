@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1795 Coroner, Mifflin County" type="General" iteration="First Ballot" date="1795" election_id="pa.coroner.mifflincounty.1795" handle="10427/60820" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Robert Steel" name_id="SR0207" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Ramsey" name_id="RJ0319" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="William Harris" name_id="HW0314" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Cochran" name_id="CW0226" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="German Jacobs" name_id="JG0029" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="William MacKanles" name_id="MW0296" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-19">
+				<candidate_summary candidate_ref="1" vote_total="853" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="660" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="555" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="546" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="369" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05475" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Mifflin" geog_id="null">
+					<result candidate_ref="1" vote="853" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="660" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="555" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="546" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="369" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="25" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bald Eagle" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="25" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05475" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Potters" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05475" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

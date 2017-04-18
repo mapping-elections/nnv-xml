@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1822 House of Representatives, Bangor" type="General" iteration="First Ballot" date="1822" election_id="me.assembly.penobscot.1822" handle="10427/58319" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Samuel Call" name_id="CS0015" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Joseph Treat" name_id="TJ0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2007-10-05">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="Town" name="Bangor" geog_id="null">
+                    <result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Bangor Register (Bangor, ME).  September 12, 1822.</reference>
+</election_record>

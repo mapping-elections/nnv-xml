@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1820 Inspector of the General Election, Philadelphia City, Locust Ward" type="General" iteration="First Ballot" date="1820-09" election_id="pa.inspector.locustward.philadelphiacity.1820" handle="10427/63435" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Isaac Deaves" name_id="DI0057" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Thomas T. Stiles" name_id="ST0234" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="J. Somerndike" name_id="SJ1342" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="James Akin" name_id="AJ0325" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-22">
+				<candidate_summary candidate_ref="1" vote_total="216" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="210" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="134" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="123" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07079" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07080" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In this ward from some peculiarly favorable circumstances, the corruptionists determined to carry the Inspectors, and they actually did bet large sums of money, that they would carry the Inspectors in Locust ward. To effect this a considerable number of young men were moved from the wards where they made no opposition, into Locust ward, and infinite pains were taken to procure for the Inspectors the votes of persons who it was known would vote for Joseph Hiester at the General Election. It is not denied by the corruptionists that they polled at least 50 votes more in Locust ward yesterday than they can poll there for William Findlay at the General Election." The Democratic Press (Philadelphia, PA).  September 30, 1820.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Locust" geog_id="null">
+						<result candidate_ref="1" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="123" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Berks and Schuylkill Journal (Reading, PA).  September 30, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  September 30, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  September 30, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07079">The Union. United States Gazette and True American (Philadelphia, PA).  October 3, 1820.</reference>
+</election_record>

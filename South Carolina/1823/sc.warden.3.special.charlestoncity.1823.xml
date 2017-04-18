@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1823 Warden, Charleston City, Ward 3, Special" type="Special" iteration="First Ballot" date="1823-10" election_id="sc.warden.3.special.charlestoncity.1823" handle="10427/32537" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Warden" office_id="ON131" scope="City">
+		<role title="Warden" scope="Ward">
+			<ballot>
+				<candidate name="William Laval" name_id="LW0204" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William H. Wilson" name_id="WW0372" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-17">
+				<candidate_summary candidate_ref="1" vote_total="398" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="390" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07979" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07980" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"A special election for a Warden in Ward No. 3, to fill the place vacated by the death of Captain E.  Simons, was held yesterday in this city."  City Gazette and Commercial Advertiser (Charleston, SC).  October 16, 1823.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<sub_unit type="Ward" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="398" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="390" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Court House" geog_id="null">
+							<result candidate_ref="1" vote="268" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="202" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07979" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Market" geog_id="null">
+							<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="188" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07979" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07980">Charleston Courier (Charleston, SC).  October 16, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07979">City Gazette and Commercial Advertiser (Charleston, SC).  October 16, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 16, 1823.</reference>
+</election_record>

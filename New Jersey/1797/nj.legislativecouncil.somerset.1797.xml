@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1797 Legislative Council, Somerset County" type="General" iteration="First Ballot" date="1797" election_id="nj.legislativecouncil.somerset.1797" handle="10427/20168" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON045" scope="State">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="James Linn" name_id="LJ0151" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter D. Vroom" name_id="VP0002" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-27">
+				<candidate_summary candidate_ref="1" vote_total="253" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03857" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Peter D. Vroom was a candidate for Assembly.</note>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Somerset" geog_id="null">
+					<result candidate_ref="1" vote="253" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bedminster" geog_id="null">
+						<result candidate_ref="1" vote="119" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03857" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bernards" geog_id="null">
+						<result candidate_ref="1" vote="53" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03857" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bridgewater" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03857" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="East Precinct" geog_id="null">
+						<result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03857" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hillsborough" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03857" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="West Precinct" geog_id="null">
+						<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03857" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03857">BAH. Election Records. Box 1-8. Folder 36.</reference>
+</election_record>

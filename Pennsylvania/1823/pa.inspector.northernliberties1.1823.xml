@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Inspector of the General Election, Philadelphia County, Northern Liberties, Ward 1" type="General" iteration="First Ballot" date="1823" election_id="pa.inspector.northernliberties1.1823" handle="10427/65910" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="Township">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Henry A. Beck" name_id="BH0195" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Charles W. Bacon" name_id="BC0161" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Edward D. Corfield" name_id="CE0128" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Joseph S. Riley" name_id="RJ0562" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-03">
+				<candidate_summary candidate_ref="1" vote_total="175" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="174" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="122" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+						<sub_unit type="Ward" name="One" geog_id="null">
+							<result candidate_ref="1" vote="175" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="174" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="122" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="122" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Observer (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA).  October 7, 1823.</reference>
+</election_record>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1822 Legislative Council, Cape May County" type="General" iteration="First Ballot" date="1822" election_id="nj.legislativecouncil.capemay.1822" handle="10427/58713" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Legislative Council" office_id="ON045" scope="State">
+        <role title="Legislative Councillor" scope="County">
+            <ballot>
+                <candidate name="Thomas H. Hughes" name_id="HT0183" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Ludlum" name_id="LJ0000" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+                <candidate name="Cresse Townsend" name_id="TC0034" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2008-11-26">
+                <candidate_summary candidate_ref="1" vote_total="101" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="6" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="New Jersey" geog_id="null">
+                <sub_unit type="County" name="Cape May" geog_id="null">
+                    <result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                    <sub_unit type="District" name="Lower" geog_id="null">
+                        <result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="District" name="Middle" geog_id="null">
+                        <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="District" name="Upper" geog_id="null">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+</election_record>

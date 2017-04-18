@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 Commissioner, Morgan County" type="General" iteration="First Ballot" date="1820-10" election_id="oh.commissioner.morgan.1820" handle="10427/59901" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Andrew Wharton" name_id="WA0134" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="David Fulton" name_id="FD0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-24">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Morgan" geog_id="ohs_morgan">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Morgan" geog_id="ohs_morgan">
+                        <result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Robertson, Charles.  History of Morgan County, Ohio.  Chicago: L. H. Watkins, 1886.  335.</reference>
+</election_record>
+

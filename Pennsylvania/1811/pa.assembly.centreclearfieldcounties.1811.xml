@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 House of Representatives, Centre and Clearfield Counties" type="General" iteration="First Ballot" date="1811-10" election_id="pa.assembly.centreclearfieldcounties.1811" handle="10427/62295" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="John Hall" name_id="HJ0826" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Kryder" name_id="KJ0259" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-20">
+				<candidate_summary candidate_ref="1" vote_total="955" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="415" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Centre" geog_id="null">
+					<result candidate_ref="1" vote="955" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="415" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06450" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Clearfield County was erected on March 26, 1804. From 1804 until 1811 Clearfield county voted with Centre County by an act of the legislature stating: "That the county of Clearfield shall be an election district, and the electors thereof shall hold their general elections at the house of Benjamin Jordan, in the said district, and shall be entitled to vote for members of the Federal and State Legislatures, sheriffs, commissioners, and other county officers for Centre County." History of Clearfield County, Pennsylvania, 66.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06450">The Republican Argus (Northumberland, PA).  October 23, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 26, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 29, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi">Aldrich, Lewis Cass, ed.  History of Clearfield County, Pennsylvania.  Syracuse, NY: D. Mason and, 1877.  66.</reference>
+</election_record>

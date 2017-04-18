@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Massachusetts 1805 House of Representatives, Northampton" type="General" iteration="First Ballot" date="1805-05" election_id="ma.staterepresentative.northampton.1805" handle="10427/69366" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Thaddeus Clapp" name_id="CT0149" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Asahel Pomeroy" name_id="PA0169" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Moses Wright" name_id="WM0084" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-17">
+				<candidate_summary candidate_ref="1" vote_total="229" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="229" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="229" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"To the Editor, Northampton, May 13, 1805. Three consistent Federalist have just been chosen to represent this town viz. .... They had 229 votes. The democrats conjured up 32."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 18, 1805.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="229" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="229" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="229" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 18, 1805.</reference>
+</election_record>
+

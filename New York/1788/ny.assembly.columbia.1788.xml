@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record label="New York 1788 Assembly, Columbia County" type="General" iteration="First Ballot" date="1788" election_id="ny.assembly.columbia.1788" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/26074" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Bay" name_id="BJ0665" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Adgate" name_id="AM0007" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Kortz" name_id="KJ0095" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Livingston" name_id="LJ0214" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="William Powers" name_id="PW0161" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Thomas Jenkins" name_id="JT0027" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-10">
+				<candidate_summary candidate_ref="1" vote_total="1499" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1486" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1404" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1089" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1060" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1019" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04071" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Columbia" geog_id="null">
+					<result candidate_ref="1" vote="1499" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1486" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1404" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1089" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1060" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1019" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04071" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-York Journal, and Daily Patriotic Register (New York, NY).  June 5, 1788.</reference>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  June 6, 1788.</reference>
+	<reference type="citation" resp="Philip Lampi">The Independent Gazeteer; or, the Chronicle of Freedom (Philadelphia, PA).  June 10, 1788.</reference>
+</election_record>

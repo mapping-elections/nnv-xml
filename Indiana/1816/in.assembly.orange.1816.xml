@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1816 Territorial Legislature, Orange County" type="General" iteration="First Ballot" date="1816" election_id="in.assembly.orange.1816" handle="10427/17972" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="Jonathan Lindly" name_id="LJ0040" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Samuel Lewis" name_id="LS0026" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Pinnick" name_id="PJ0059" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Benjamin Blackwell" name_id="BB0001" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<sub_unit type="Township" name="Leatherwood" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Orleans" geog_id="null">
+						<result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="44" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Paoli" geog_id="null">
+						<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="53" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Paoli Business and Professional Womans Club.  History of Orange County, Indiana.  Vol. I.  Orange County, IN: Stout's Print Shop, 1950.  28, 29.</reference>
+	<reference type="citation" resp="Philip Lampi">History of Lawrence and Monroe Counties.  Bloomington: B. F. Bowen, 1914. 66.</reference>
+</election_record>

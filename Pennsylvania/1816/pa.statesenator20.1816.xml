@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 State Senate, District 20" type="General" iteration="First Ballot" date="1816-10" election_id="pa.statesenator20.1816" handle="10427/62905" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Henry Hurst" name_id="HH0077" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Connelly" name_id="CW0232" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="David Courtney" name_id="CD0171" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-03">
+				<candidate_summary candidate_ref="1" vote_total="1018" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="921" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="574" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00852" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Twenty" geog_id="null">
+					<result candidate_ref="1" vote="1018" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="921" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="574" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00852" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Crawford" geog_id="null">
+						<result candidate_ref="1" vote="453" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00852" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Erie" geog_id="null">
+						<result candidate_ref="1" vote="265" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="213" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00852" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06819" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Mercer" geog_id="null">
+						<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="545" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00852" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06829" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Venango" geog_id="null">
+						<result candidate_ref="1" vote="116" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="392" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00852" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06845" resp="Philip Lampi"/>
+						<sub_unit type="County" name="Warren" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+							<result candidate_ref="3" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">The votes cast in Warren County are included in the Venango County election returns.</note>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  October 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06819">The Crawford Weekly Messenger (Meadville, PA).  October 19, 1816.</reference>
+</election_record>

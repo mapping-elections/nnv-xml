@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1806 Assistant Assessor, Boston, Ward 6" type="General" iteration="First Ballot" date="1806-04" election_id="ma.assistantassessor.boston.ward6.1806" handle="10427/69395" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assistant Assessor" office_id="ON007" scope="Town">
+		<role title="Assistant Assessor" scope="Ward">
+			<ballot>
+				<candidate name="Hawkes Cushing" name_id="CH0087" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Nye" name_id="NS0058" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Osborn" name_id="OJ0144" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David West" name_id="WD0150" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-26">
+				<candidate_summary candidate_ref="1" vote_total="121" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="112" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="75" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="70" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Ward No. VI - At a meeting of inhabitants of Ward No. 6, at Clark's Tavern, assembled at 3 o'clock on Wednesday, 2nd April, for the choice of a member of the Board of Health and two Assistant Assessors - .... - For two Assistant Assessors, the votes were as follows .... The whole number 205."  The Democrat (Boston, MA).  April 5, 1806.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Six" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="70" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democrat (Boston, MA).  April 5, 1806.</reference>
+</election_record>

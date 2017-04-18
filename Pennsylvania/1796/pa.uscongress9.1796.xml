@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 U.S. House of Representatives, District 9" type="General" iteration="First Ballot" date="1796-10" election_id="pa.uscongress9.1796" handle="10427/60859" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Andrew Gregg" name_id="GA0060" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William Irvine" name_id="IW0016" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="James Wallace" name_id="WJ0609" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Robert Whitehill" name_id="WR0153" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Thomas Kennedy" name_id="KT0064" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-26">
+				<candidate_summary candidate_ref="1" vote_total="1141" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="678" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="168" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="86" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="49" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00118X" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05492" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Nine" geog_id="null">
+					<result candidate_ref="1" vote="1141" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="678" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="168" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="86" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="49" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Cumberland" geog_id="null">
+						<result candidate_ref="1" vote="575" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="569" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="139" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="49" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Mifflin" geog_id="null">
+						<result candidate_ref="1" vote="566" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="29" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05492">Kline's Carlisle Weekly Gazette (Carlisle, PA).  October 19, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 26, 1796.</reference>
+</election_record>

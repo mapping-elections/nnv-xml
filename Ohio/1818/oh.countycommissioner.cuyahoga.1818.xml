@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 Commissioner, Cuyahoga County" type="General" iteration="First Ballot" date="1818-10" election_id="oh.countycommissioner.cuyahoga.1818" handle="10427/59700" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Samuel Williamson" name_id="WS0153" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Card" name_id="CT0170" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Dodge" name_id="DS0142" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Datus Kelley" name_id="KD0052" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-10">
+				<candidate_summary candidate_ref="1" vote_total="525" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="420" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="120" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="46" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05253" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Cuyahoga" geog_id="ohs_cuyahoga">
+					<result candidate_ref="1" vote="525" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="420" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="120" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="46" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05253" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05253">Cleaveland Register (Cleveland, OH).  October 20, 1818.</reference>
+</election_record>

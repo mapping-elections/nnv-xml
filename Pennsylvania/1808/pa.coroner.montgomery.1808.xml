@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1808 Coroner, Montgomery County" type="General" iteration="First Ballot" date="1808-10" election_id="pa.coroner.montgomery.1808" handle="10427/66340" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Samuel Feather" name_id="FS0112" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="William Towers" name_id="TW0110" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-02">
+				<candidate_summary candidate_ref="1" vote_total="2749" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2236" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="2749" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2236" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="293" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="320" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Kreps" geog_id="null">
+						<result candidate_ref="1" vote="338" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Lower Merion" geog_id="null">
+						<result candidate_ref="1" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="169" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="523" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="454" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Pottstown" geog_id="null">
+						<result candidate_ref="1" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sumneytown" geog_id="null">
+						<result candidate_ref="1" vote="299" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="352" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="252" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Webers" geog_id="null">
+						<result candidate_ref="1" vote="236" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="463" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="356" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="327" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 21, 1808.</reference>
+</election_record>

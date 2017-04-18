@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1803 State Senate, Carter and Washington Counties" type="General" iteration="First Ballot" date="1803" election_id="tn.senate.carter.washington.1803" handle="10427/64898" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="Nat. Taylor" name_id="TN0043" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Lee. Taylor" name_id="TL0025" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-17">
+                <candidate_summary candidate_ref="1" vote_total="815" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="711" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08057" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Carter and Washington" geog_id="null">
+                    <result candidate_ref="1" vote="815" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="711" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Carter" geog_id="null">
+                        <result candidate_ref="1" vote="415" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08052" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="400" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="620" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08056" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08052">The Virginia Argus (Richmond, VA).  August 24, 1803.</reference>
+</election_record>

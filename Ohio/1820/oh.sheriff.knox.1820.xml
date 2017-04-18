@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1820 Sheriff, Knox County" type="General" iteration="First Ballot" date="1820-10" election_id="oh.sheriff.knox.1820" handle="10427/59904" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="William Bevans" name_id="BW0257" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Isaac N. Richardson" name_id="RI0021" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-24">
+                <candidate_summary candidate_ref="1" vote_total="581" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="111" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19429" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Knox" geog_id="ohs_knox">
+                    <result candidate_ref="1" vote="581" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="111" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19429" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19429">The Ohio Register (Mount Vernon, OH).  October 25, 1820.</reference>
+</election_record>
+

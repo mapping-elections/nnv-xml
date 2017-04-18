@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1810 State Senate, District 2" type="General" iteration="First Ballot" date="1810-10" election_id="pa.statesenator2.1810" handle="10427/62118" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Isaac Wayne" name_id="WI0051" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Worthington" name_id="WW0260" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-06">
+				<candidate_summary candidate_ref="1" vote_total="3004" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2956" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA) from October 20, 1810 lists 2936 total votes for William Worthington.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="3004" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2956" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="2215" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="2439" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00591" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06386" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Delaware" geog_id="null">
+						<result candidate_ref="1" vote="789" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="517" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00591" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06392" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06393" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Democratic Press (Philadelphia, PA) and Der Readinger Adler (Reading, PA) list 768 votes for Isaac Wayne and 511 votes for William Worthington.</note>
+						<note resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA) from October 20, 1810 lists 516 votes for William Worthington.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 11, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06392">The True American and Commercial Advertiser (Philadelphia, PA).  October 12, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06393">The Democratic Press (Philadelphia, PA).  October 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 20, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 23, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Reporter (Washington, PA).  October 29, 1810.</reference>
+</election_record>

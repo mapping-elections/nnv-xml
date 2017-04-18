@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Director of the Poor, Delaware County" type="General" iteration="First Ballot" date="1823" election_id="pa.director.delaware.1823" handle="10427/65884" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Enos Williamson" name_id="WE0162" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Cornog" name_id="CJ0587" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-01">
+				<candidate_summary candidate_ref="1" vote_total="1363" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="719" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="1363" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="719" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="271" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="207" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="256" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="226" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Middletown" geog_id="null">
+						<result candidate_ref="1" vote="395" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="255" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Village Record, or Chester and Delaware Federalist (West Chester, PA).  October 29, 1823.</reference>
+</election_record>

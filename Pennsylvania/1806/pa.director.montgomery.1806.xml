@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 Director of the Poor, Montgomery County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.director.montgomery.1806" handle="10427/61671" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Director of the Poor" office_id="ON052" scope="County">
+		<role title="Director of the Poor" scope="County">
+			<ballot>
+				<candidate name="Jacob Hauck" name_id="HJ0881" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Sheetz" name_id="SH0131" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ezekiel Rhoades" name_id="RE0066" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Shoemaker" name_id="ST0219" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="4"/>
+				<candidate name="Samuel Henderson" name_id="HS0185" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="5"/>
+				<candidate name="George Nice" name_id="NG0029" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-18">
+				<candidate_summary candidate_ref="1" vote_total="1958" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1934" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1917" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1722" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1610" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1581" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06081" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Montgomery county.  The whole Democratic Ticket in this county is carried; Congress, Assembly, County Commissioner, and Overseers of the Poor." The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 21, 1806.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="1958" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1934" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1917" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1722" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1610" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1581" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06081" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06081">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 17, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 21, 1806.</reference>
+</election_record>

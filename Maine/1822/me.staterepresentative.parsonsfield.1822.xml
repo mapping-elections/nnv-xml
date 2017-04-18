@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1822 House of Representatives, Parsonsfield" type="General" iteration="First Ballot" date="1822" election_id="me.staterepresentative.parsonsfield.1822" handle="10427/80099" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="Town">
+            <ballot>
+                <candidate name="Samuel Fox" name_id="FS0079" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Noah Weeks" name_id="WN0018" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Samuel Garland" name_id="GS0008" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Samuel Knapp" name_id="KS0082" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Moses Sweat" name_id="SM0147" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2015-12-15">
+                <candidate_summary candidate_ref="1" vote_total="110" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="25" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="11" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Maine" geog_id="mes">
+                <sub_unit type="Town" name="Parsonsfield" geog_id="null">
+                    <result candidate_ref="1" vote="110" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="11" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Dearborn, Jeremiah Wadleigh.  A History of the First Century of the Town of Parsonsfield, Maine.  Portland, ME: Brown, Thurston and Company, 1888.  430.</reference>
+</election_record>

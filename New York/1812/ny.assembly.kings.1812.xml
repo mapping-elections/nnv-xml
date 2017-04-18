@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1812 Assembly, Kings County" type="General" iteration="First Ballot" date="1812" election_id="ny.assembly.kings.1812" handle="10427/25432" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John C. Vanderveer" name_id="VJ0069" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Jeremiah Johnson" name_id="JJ0130" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-05-14">
+				<candidate_summary candidate_ref="1" vote_total="527" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="514" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Kings" geog_id="null">
+					<result candidate_ref="1" vote="527" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="514" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Brooklyn" geog_id="null">
+						<result candidate_ref="1" vote="266" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="298" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Bushwick" geog_id="null">
+						<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="36" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Flatbush" geog_id="null">
+						<result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Flatlands" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="48" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Gravesend" geog_id="null">
+						<result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="New Utrecht" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04433" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Long-Island Star (Brooklyn, NY).  May 6, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04433">The Columbian (New York, NY).  May 14, 1812.</reference>
+</election_record>

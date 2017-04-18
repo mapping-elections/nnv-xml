@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1815 State Senate, Clermont County" type="General" iteration="First Ballot" date="1815-10" election_id="oh.statesenator.clermont.1815" handle="10427/59500" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="John Boggess" name_id="BJ0911" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Thomas Morris" name_id="MT0090" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Ambrose Ransom" name_id="RA0044" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="W. S. Jump" name_id="JW0017" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-10">
+                <candidate_summary candidate_ref="1" vote_total="678" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="444" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="89" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="77" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Clermont" geog_id="ohs_clermont">
+                    <result candidate_ref="1" vote="678" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="444" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="89" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="77" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Batavia" geog_id="null">
+                        <result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="53" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Clark" geog_id="null">
+                        <result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Lewis" geog_id="null">
+                        <result candidate_ref="1" vote="63" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="71" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Miami" geog_id="null">
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="84" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Ohio" geog_id="null">
+                        <result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Perry" geog_id="null">
+                        <result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Pleasant" geog_id="null">
+                        <result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="166" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Stonelick" geog_id="null">
+                        <result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Tate" geog_id="null">
+                        <result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="22" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Union" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="37" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="125" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Williamsburgh" geog_id="null">
+                        <result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Western American (Williamsburg, OH).  October 21, 1815.</reference>
+    <reference type="citation" resp="Philip Lampi">The History of Brown County, Ohio.  Chicago: W. H. Beers and, 1883.  484.</reference>
+</election_record>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1820 House of Delegates, Saint Mary's County" type="General" iteration="First Ballot" date="1820" election_id="md.assembly.saint.marys.county.1820" handle="10427/26955" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Henry G.S. Key" name_id="KH0019" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Plater" name_id="PG0035" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander W. Reeder" name_id="RA0015" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John L. Millard" name_id="MJ0311" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William H. Lewellyn" name_id="LW0067" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-22">
+				<candidate_summary candidate_ref="1" vote_total="635" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="562" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="542" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="512" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="493" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03197" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The four first elected: all the candidates are Federalist, more or less."  National Intelligencer (Washington, DC).  October 12, 1820.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Saint Mary's" geog_id="null">
+					<result candidate_ref="1" vote="635" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="562" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="542" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="512" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="493" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03197" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03197">National Intelligencer (Washington, DC).  October 12, 1820.</reference>
+</election_record>

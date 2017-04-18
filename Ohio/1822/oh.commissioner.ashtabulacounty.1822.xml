@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Commissioner, Ashtabula County" type="General" iteration="First Ballot" date="1822-10" election_id="oh.commissioner.ashtabulacounty.1822" handle="10427/60050" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Moses Wright" name_id="WM0014" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ebenezer Hewins" name_id="HE0114" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel Whelpley" name_id="WS0154" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-17">
+				<candidate_summary candidate_ref="1" vote_total="458" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="446" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="58" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="46" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05314" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ashtabula" geog_id="ohs_ashtabula">
+					<result candidate_ref="1" vote="458" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="446" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="58" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="46" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05314" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05314">Painesville Telegraph (Painesville, OH).  October 16, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  October 19, 1822.</reference>
+</election_record>

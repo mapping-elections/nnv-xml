@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1798 House of Representatives, Marshfield" type="General" iteration="First Ballot" date="1798-05" election_id="ma.staterepresentative.marshfield.1798" handle="10427/68856" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Elisha Phillips" name_id="PE0141" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Luke Wadsworth" name_id="WL0018" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Little" name_id="LG0085" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-01">
+				<candidate_summary candidate_ref="1" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="32" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Marshfield" geog_id="null">
+					<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Marshfield Town Records.  275, 377.</reference>
+</election_record>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1820 State Senate, Saint Andrew's Parish" type="General" iteration="First Ballot" date="1820" election_id="sc.senate.st.andrews.1820" handle="10427/32238" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="William Cattell" name_id="CW0316" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry I. Chalmers" name_id="CH0136" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-16">
+				<candidate_summary candidate_ref="1" vote_total="54" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="41" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07892" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The City Gazette lists 30 votes for William Cattell and 41 votes for Henry I. Chalmers (omitting the results from Elliot's polling place).  Discrepancies in vote totals are a result of partial returns and the dispute over the legality of Elliot's as a voting district.</note>
+				<note resp="Philip Lampi">"Your memorialist (Henry I. Chalmers) represents to your honorable body, that he himself had a majority of eleven over the said William Cattell" - (41 votes for Chalmers, 30 votes for Cattell).  The above which was taken from the Memorial Petition of Mr. Chalmers contesting this election is based on the returns from the above two election precincts (James Island and The Main).  A third place of election which Mr. Chalmers contends was illigal caused the election of William Cattell to the Senate.   As Cattell was listed in the Journals it appears that all three election precincts were counted.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint Andrew's" geog_id="null">
+					<result candidate_ref="1" vote="54" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Elliot's" geog_id="null">
+						<result candidate_ref="1" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07881" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07884" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07886" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"That twenty four Voters voted for Senator and a Member of the Legislature at the poll held by Samuel P. Elliot - that in the counting the votes after the close of the poll, there were twenty six votes and then the Managers destroyed two votes, to make them correspond with the number of Voters."  Affidavit of Joseph Cole.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="James Island" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07881" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07886" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Voter list from the Chapel on James Island contains the names of 55 voters. Of these 2 did not vote for Senator. - Signed by the Managers - John W. Holmes and Rawlin Rivers.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="On the Main" geog_id="null">
+						<result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07881" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07886" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07881">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07884">Affidavit of Joseph Cole.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07879">Charleston Courier (Charleston, SC).  October 12, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07880">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 12, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07879">Charleston Courier (Charleston, SC).  October 13, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07882">City Gazette and Commercial Advertiser (Charleston, SC).  October 13, 1820.</reference>
+</election_record>

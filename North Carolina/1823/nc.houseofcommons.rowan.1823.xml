@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1823 House of Commons, Rowan County" type="General" iteration="First Ballot" date="1823-08" election_id="nc.houseofcommons.rowan.1823" handle="10427/45130" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Charles Fisher" name_id="FC0020" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Clement" name_id="CJ0075" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Ramsay" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Walton" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Little" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-29">
+                <candidate_summary candidate_ref="1" vote_total="962" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="778" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="370" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="301" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="114" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Rowan" geog_id="null">
+                    <result candidate_ref="1" vote="962" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="778" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="370" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="301" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="114" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Western Carolinian (Salisbury, NC).  August 19, 1823.</reference>
+</election_record>

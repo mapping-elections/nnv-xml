@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1807 House of Representatives, Chatham County" type="General" iteration="First Ballot" date="1807" election_id="ga.assembly.chatham.1807" handle="10427/18448" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+  <office name="House of Representatives" office_id="ON064" scope="State">
+    <role title="State Representative" scope="County">
+      <ballot>
+        <candidate name="Joseph Bryan" name_id="BJ0111" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+        <candidate name="William Davies" name_id="DW0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+        <candidate name="Edward Harden" name_id="HE0029" affiliation="null" affiliation_id="null" candidate_num="3"/>
+        <candidate name="Moses Sheftall" name_id="SM0013" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+        <candidate name="Nathaniel G. Rutherford" name_id="RN0007" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+      </ballot>
+      <overview status="Version 1.0" modified="2007-05-07">
+        <candidate_summary candidate_ref="1" vote_total="515" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="2" vote_total="332" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="3" vote_total="288" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="4" vote_total="264" resp="Philip Lampi"/>
+        <candidate_summary candidate_ref="5" vote_total="239" resp="Philip Lampi"/>
+        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01629" resp="Philip Lampi"/>
+      </overview>
+      <admin_unit type="State" name="Georgia" geog_id="null">
+        <sub_unit type="County" name="Chatham" geog_id="null">
+          <result candidate_ref="1" vote="515" resp="Philip Lampi"/>
+          <result candidate_ref="2" vote="332" resp="Philip Lampi"/>
+          <result candidate_ref="3" vote="288" resp="Philip Lampi"/>
+          <result candidate_ref="4" vote="264" resp="Philip Lampi"/>
+          <result candidate_ref="5" vote="239" resp="Philip Lampi"/>
+          <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01629" resp="Philip Lampi"/>
+        </sub_unit>
+      </admin_unit>
+    </role>
+  </office>
+  <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01629">Columbian Museum and Savannah Advertiser (Savannah, GA).  October 6, 1807.</reference>
+</election_record>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1814 House of Representatives, Peru" type="General" iteration="First Ballot" date="1814" election_id="ma.staterepresentative.peru.1814" handle="10427/70253" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John Leland" name_id="LJ0565" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Pierce" name_id="PH0084" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-06-16">
+				<candidate_summary candidate_ref="1" vote_total="39" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="20" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Peru" geog_id="null">
+					<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Peru Town Records.  318.</reference>
+</election_record>

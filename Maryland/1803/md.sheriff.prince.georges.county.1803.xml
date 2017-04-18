@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1803 Sheriff, Prince George's County" type="General" iteration="First Ballot" date="1803" election_id="md.sheriff.prince.georges.county.1803" handle="10427/27550" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Alexius Boone" name_id="BA0007" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Burgess Bowie" name_id="BJ1114" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-11">
+				<candidate_summary candidate_ref="1" vote_total="856" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="787" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14313" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Prince George's" geog_id="null">
+					<result candidate_ref="1" vote="856" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="787" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Piscataway" geog_id="null">
+						<result candidate_ref="1" vote="371" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02341" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14313">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02341">Washington Federalist (Georgetown, DC).  October 5, 1803.</reference>
+</election_record>

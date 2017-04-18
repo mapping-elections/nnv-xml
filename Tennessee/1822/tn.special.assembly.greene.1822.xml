@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1822 House of Representatives, Greene County, Special" type="Special" iteration="First Ballot" date="1822" election_id="tn.special.assembly.greene.1822" handle="10427/20829" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Balch" name_id="BJ1415" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Gillespie" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Rankin" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-23">
+				<candidate_summary candidate_ref="1" vote_total="441" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="365" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08125" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Greene" geog_id="null">
+					<result candidate_ref="1" vote="441" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="365" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="166" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Farnworths" geog_id="null">
+						<result candidate_ref="1" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Greeneville" geog_id="null">
+						<result candidate_ref="1" vote="195" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="66" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Newmansville" geog_id="null">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="82" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Rinkers" geog_id="null">
+						<result candidate_ref="1" vote="83" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08125" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Warrensburg" geog_id="null">
+						<result candidate_ref="1" vote="9" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08125" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08125">Knoxville Intelligencer (Knoxville, TN).  June 15, 1822.</reference>
+</election_record>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1810 State Senate, Suffolk County" type="General" iteration="First Ballot" date="1810" election_id="ma.statesenate.suffolk.1810" handle="10427/69209" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Harrison G. Otis" name_id="OH0028" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Phillips" name_id="PJ0215" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Wells" name_id="WJ0274" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter C. Brooks" name_id="BP0033" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Spooner" name_id="SW0099" affiliation="Federalist" affiliation_id="A01" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Russell Sturgis" name_id="SR0102" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Caleb Bingham" name_id="BC0031" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Edward Proctor" name_id="PE0043" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+				<candidate name="David Tilden" name_id="TD0030" affiliation="Republican" affiliation_id="A03" candidate_num="9"/>
+				<candidate name="Samuel Brown" name_id="BS0111" affiliation="Republican" affiliation_id="A03" candidate_num="10"/>
+				<candidate name="William Sullivan" name_id="SW0098" affiliation="Federalist" affiliation_id="A01" candidate_num="11"/>
+				<candidate name="David Townshend" name_id="TD0032" affiliation="null" affiliation_id="null" candidate_num="12"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-12">
+				<candidate_summary candidate_ref="1" vote_total="3119" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="3119" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3119" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="3118" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="3117" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No. Voters, 5368.  Make a choice, 2685."  Governor's Council Records.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="County" name="Suffolk" geog_id="null">
+					<result candidate_ref="1" vote="3119" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3119" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="3119" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="3118" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="3117" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Boston" geog_id="null">
+						<result candidate_ref="1" vote="3079" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3079" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3079" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="3078" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="3077" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="2200" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="2199" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="2199" resp="Philip Lampi"/>
+						<result candidate_ref="9" vote="2199" resp="Philip Lampi"/>
+						<result candidate_ref="10" vote="2198" resp="Philip Lampi"/>
+						<result candidate_ref="11" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="12" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chelsea" geog_id="null">
+						<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="40" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="40" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Governor's Council Records.  Massachusetts State Archives, Boston.</reference>
+	<reference type="citation" resp="Philip Lampi">Boston Town Records.  265.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 16, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  May 19, 1810.</reference>
+</election_record>

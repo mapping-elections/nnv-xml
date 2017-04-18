@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Missouri 1824 House of Representatives, Cooper County" type="General" iteration="First Ballot" date="1824" election_id="mo.assembly.cooper.1824" handle="10427/56580" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Benjamin F. Hickox" name_id="HB0106" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George W. Wright" name_id="WG0044" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jordan O'Bryan" name_id="OJ0080" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jephtha Billinepley" name_id="BJ0541" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="475" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="404" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="338" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="280" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11511"/>
+			</overview>
+			<admin_unit type="State" name="Missouri" geog_id="null">
+				<sub_unit type="County" name="Cooper" geog_id="null">
+					<result candidate_ref="1" vote="475" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="404" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="338" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="280" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11511"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11511">Missouri Intelligencer (Franklin, MO).  August 7, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi">Levens, Henry C. and Nathaniel M. Drake.  History of Cooper County, Missouri.  Saint Louis: Perrin and Smith, 1876.  79.</reference>
+	<reference type="citation" resp="Philip Lampi">History of Howard and Cooper Counties, Missouri.  Saint Louis: National Historical Company, 1883.  742.</reference>
+</election_record>

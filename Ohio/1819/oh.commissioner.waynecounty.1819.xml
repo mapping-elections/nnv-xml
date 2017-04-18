@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 Commissioner, Wayne County" type="General" iteration="First Ballot" date="1819-10" election_id="oh.commissioner.waynecounty.1819" handle="10427/59774" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Lawrence" name_id="LJ0299" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Boydstone" name_id="BG0100" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Buchanan" name_id="BJ0929" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Hervey" name_id="HW0288" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Hugh MacCulloch" name_id="MH0088" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Nathan Wurner" name_id="WN0108" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-04">
+				<candidate_summary candidate_ref="1" vote_total="426" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="180" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="107" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="51" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="7" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05284" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Wayne" geog_id="ohs_wayne">
+					<result candidate_ref="1" vote="426" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="180" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="107" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="51" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="7" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05284" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05284">The Ohio Repository (Canton, OH).  October 22, 1819.</reference>
+</election_record>

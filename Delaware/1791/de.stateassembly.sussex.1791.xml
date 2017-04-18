@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1791 House of Representatives, Sussex County" type="General" iteration="First Ballot" date="1791" election_id="de.stateassembly.sussex.1791" handle="10427/44065" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Collins" name_id="CJ0086" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Daniel Rogers" name_id="RD0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Nathaniel Hayes" name_id="HN0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John W. Battson" name_id="BJ0073" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Isaac Draper" name_id="DI0000" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Jery Cannon" name_id="CJ0085" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Wingate Cannon" name_id="CW0007" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1599" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1344" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1009" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1033" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1013" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="874" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="967" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11929" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11930" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Delaware Gazette of October 15, 1791 lists Daniel Rogers with 1334 votes, Nathaniel Hayes with 1039 votes, and Jery Cannon with 974 votes.</note>
+				<note resp="Philip Lampi">The General Advertiser (Philadelphia, PA) of October 17, 1791 lists Daniel Rogers with 1334 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="1599" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1344" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1009" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1033" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1013" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="874" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="967" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11929" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11930" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11929">The Delaware Gazette (Wilmington, DE).  October 15, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11930">General Advertiser (Philadelphia, PA).  October 17, 1791.</reference>
+</election_record>

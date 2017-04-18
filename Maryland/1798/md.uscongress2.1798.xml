@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1798 U.S. House of Representatives, District 2" type="General" iteration="First Ballot" date="1798" election_id="md.uscongress2.1798" handle="10427/27279" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="John Chew Thomas" name_id="TJ0169" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Sprigg, Jr." name_id="SR0049" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-30">
+				<candidate_summary candidate_ref="1" vote_total="1924" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1197" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00152" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14135" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Two" geog_id="null">
+					<result candidate_ref="1" vote="1924" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1197" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+						<result candidate_ref="1" vote="993" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="567" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00152" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02199" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14127" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14138" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD) and The Telegraphe and Daily Advertiser (Baltimore, MD) list John Chew Thomas with 843 votes and Richard Sprigg, Jr. with 497 votes.</note>
+						<sub_unit type="City" name="Annapolis" geog_id="null">
+							<result candidate_ref="1" vote="170" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14127" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14138" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Page 115 of the Annapolis Records No. 8 lists John Ches Thomas with 163 votes and Richard Sprigg with 63 votes.</note>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Prince George's" geog_id="mds_princegeorges">
+						<result candidate_ref="1" vote="931" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="630" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00152" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14127" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00152">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14135">Annapolis Records, No. 8.  115.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02200">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 6, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02200">The Telegraphe and Daily Advertiser (Baltimore, MD).  October 8, 1798.</reference>
+	<reference type="citation" resp="Philip Lampi">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 9, 1798.</reference>
+</election_record>

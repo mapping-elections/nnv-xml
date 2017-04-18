@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1810 House of Representatives, Weston" type="General" iteration="First Ballot" date="1810-05" election_id="ma.staterepresentative.weston.1810" handle="10427/27527" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Ebenezer Hobbs" name_id="HE0063" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">ELected.</note></candidate>
+				<candidate name="Isaac Fiske" name_id="FI0006" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-11">
+				<candidate_summary candidate_ref="1" vote_total="81" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03534" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03535" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Weston" geog_id="null">
+					<result candidate_ref="1" vote="81" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03534" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03535" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"This choice, we learn, was the same as last year...Two Federal votes were rejected by the Selectmen; which, according to the decision of last year, ought to have been received; which would have elected Mr. F.  It will be recollected that Mr. Hobbs was declared to have been illegally elected last year, and lost his seat.  He, however, had voted in the organization of the government."   Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 9, 1810.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03534">Weston Town Records.  Vol. II.  87.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03535">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 9, 1810.</reference>
+	<reference type="citation" resp="Philip Lampi">Massachusetts General Court.  Reports of Contested Elections in the House of Representatives of the Commonwealth of Massachusetts; from 1780 to 1834.  Boston: Dutton and Wentworth, 1834.  65-66.</reference>
+</election_record>

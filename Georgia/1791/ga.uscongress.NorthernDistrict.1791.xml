@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1791 U.S. House of Representatives, Northern District" type="General" iteration="First Ballot" date="1791" election_id="ga.uscongress.NorthernDistrict.1791" handle="10427/19784" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="State">
+			<ballot>
+				<candidate name="Francis Willis" name_id="WF0022" affiliation="Anti-Federalist" affiliation_id="A02" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Mathews" name_id="MG0009" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-04-30">
+				<candidate_summary candidate_ref="1" vote_total="549" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="276" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00025" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Although elected at-large, Georgia's members had to be residents of specific districts that were established by the same law.  Each voter in casting three votes had to cast one vote for a candidate residing in each of these districts. The statewide totals determined who was elected from each district."  United States Congressional Elections, 1788-1997.  3.</note>
+				<note resp="Philip Lampi">Parties as yet were not really organized in Georgia.  George Mathews would later become Governor and under his administration occurred the Yazoo land speculation scandals, many of which were linked to notable Georgia Federalists.  Francis Willis seems a maverick, although mildly Republican, he was almost independent of politics.</note>
+				<note resp="Philip Lampi">The General Advertiser (Philadelphia, PA) of March 12, 1792 lists 268 votes for Francis Willis and 248 votes for George Matthews.</note>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="District" name="Northern" geog_id="null">
+					<result candidate_ref="1" vote="549" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="276" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00025" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA) of November 5, 1791, refers to this district as the Western District rather than the Northern District.</note>
+					<sub_unit type="County" name="Greene" geog_id="null">
+						<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00025" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Wilkes" geog_id="null">
+						<result candidate_ref="1" vote="388" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="206" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00025" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00025">Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA).  November 5, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00025">Georgia. The Augusta Chronicle and Gazette of the State (Augusta, GA).  December 24, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi">General Advertiser (Philadelphia, PA).  March 12, 1792.</reference>
+	<reference type="citation" resp="Philip Lampi">The Phenix or, Windham Herald (Windham, CT).  March 26, 1792.</reference>
+</election_record>

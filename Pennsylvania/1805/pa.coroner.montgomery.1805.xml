@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 Coroner, Montgomery County" type="General" iteration="First Ballot" date="1805-10" election_id="pa.coroner.montgomery.1805" handle="10427/61566" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="William Bean" name_id="BW0303" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Sloan" name_id="SJ1082" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jacob Isett" name_id="IJ0073" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Grove" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-09">
+				<candidate_summary candidate_ref="1" vote_total="2251" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1733" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1462" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06010" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" vote="2251" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2160" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1733" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1462" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06010" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06012" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Returns vary by source. Vote totals listed here for William Bean and James Sloan are from the Original returns and returns for Isett and Grove are from the Norristown Herald and Weekly Advertiser (Norristown, PA) from October 11. Individual township totals are listed in the Norristown Herald and Weekly Advertiser (Norristown, PA), but add up to slightly different totals for Bean and Sloan.</note>
+					<sub_unit type="Township" name="Abington" geog_id="null">
+						<result candidate_ref="1" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="226" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="226" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Krep's" geog_id="null">
+						<result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="239" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="220" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Norristown" geog_id="null">
+						<result candidate_ref="1" vote="604" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="549" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="509" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="423" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Pottstown" geog_id="null">
+						<result candidate_ref="1" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="275" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sumney" geog_id="null">
+						<result candidate_ref="1" vote="246" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="246" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Trappe" geog_id="null">
+						<result candidate_ref="1" vote="298" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="265" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="244" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="229" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Weber's" geog_id="null">
+						<result candidate_ref="1" vote="356" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="357" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Whitemarsh" geog_id="null">
+						<result candidate_ref="1" vote="319" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="318" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="228" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="189" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06012">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">Norristown Herald and Weekly Advertiser (Norristown, PA).  October 11, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06010">Der Readinger Adler (Reading, PA).  October 22, 1805.</reference>
+</election_record>

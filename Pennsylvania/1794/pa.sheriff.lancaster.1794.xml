@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1794 Sheriff, Lancaster County" type="General" iteration="First Ballot" date="1794-10" election_id="pa.sheriff.lancaster.1794" handle="10427/67728" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Michael App" name_id="AM0016" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Christian Carpenter" name_id="CC0017" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Michael Rine" name_id="RM0032" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="George Moore" name_id="MG0057" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Berry" name_id="BJ0873" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Daniel Witmer" name_id="WD0106" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="John Burg" name_id="BJ0976" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Philip Diefendiffer" name_id="DP0031" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-04">
+				<candidate_summary candidate_ref="1" vote_total="879" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="802" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lancaster" geog_id="null">
+					<result candidate_ref="1" vote="879" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="802" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Lieutenant Colonel Stephen Stephenson's Detachment of Militia" geog_id="null">
+						<result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="15" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

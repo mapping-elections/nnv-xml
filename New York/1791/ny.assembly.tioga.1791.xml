@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<election_record label="New York 1791 Assembly, Tioga County" type="General" iteration="First Ballot" date="1791" election_id="ny.assembly.tioga.1791" handle="10427/67003" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Jonathan Fitch" name_id="FJ0179" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Brinton Paine" name_id="PB0043" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-27">
+				<candidate_summary candidate_ref="1" vote_total="214" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="208" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Tioga County was organized on February 1, 1791 and this was the first Assembly election.  The county was composed of five towns.  The original return included votes from all the towns except Owego.  The results from Owego apparently had been inadvertantly separated and when counted, resulted in a reversal of the results of the election.  The Legislative Committee on Elections allowed the returns from Owego and Jonathan Fitch was seated as the Assembly member for Tioga County.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tioga" geog_id="null">
+					<result candidate_ref="1" vote="214" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Chemung" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Chenango" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Jerico" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Owego" geog_id="null">
+						<result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Union" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1792.  24-25.</reference>
+</election_record>

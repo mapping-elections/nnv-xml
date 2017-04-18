@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1815 House of Delegates, Kent County" type="General" iteration="First Ballot" date="1815" election_id="md.assembly.kent.county.1815" handle="10427/26703" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Frederick Boyer" name_id="BF0007" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Spelled Bowyer in the Maryland Gazette.</note></candidate>
+				<candidate name="William Spencer" name_id="SW0032" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Matthew Tilghman" name_id="TM0014" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Joseph Browne, IV" name_id="BJ0374" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Benjamin Massey" name_id="MB0026" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Cuthbert Hall" name_id="HC0044" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+				<candidate name="Frederick Wilson" name_id="WF0035" affiliation="Republican" affiliation_id="A03" candidate_num="7"/>
+				<candidate name="Richard Brice" name_id="BR0044" affiliation="Republican" affiliation_id="A03" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-24">
+				<candidate_summary candidate_ref="1" vote_total="569" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="566" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="564" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="554" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="539" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="536" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="532" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="507" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02948" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02949" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02950" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Maryland Gazette lists 487 votes for Richard Brice, 586 votes for Matthew Tilghman and 556 votes for Joseph Browne.</note>
+				<note resp="Philip Lampi">The National Intelligencer and the Maryland Republican list 487 votes for Richard Brice, 586 votes for Matthew Tilghman and 566 votes for Joseph Browne.</note>
+				<note resp="Philip Lampi">The National Intelligencer lists the name "Joseph Brown" and "William Tilghman."</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Kent" geog_id="mds_kent">
+					<result candidate_ref="1" vote="569" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="566" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="564" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="554" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="539" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="536" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="532" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="507" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="175" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="168" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02948" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="212" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="212" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="216" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="211" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="158" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="164" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="153" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02948" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="181" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="171" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="166" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="206" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="199" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="186" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02948" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Federal Republican (Georgetown, DC).  October 6, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02949">National Intelligencer (Washington, DC).  October 6, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02948">Republican Star or General Advertiser (Easton, MD).  October 10, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02950">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 12, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Republican (Annapolis, MD).  October 14, 1815.</reference>
+</election_record>

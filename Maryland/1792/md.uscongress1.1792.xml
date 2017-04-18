@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1792 U.S. House of Representatives, District 1" type="General" iteration="First Ballot" date="1792" election_id="md.uscongress1.1792" handle="10427/27303" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="George Dent" name_id="DG0004" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Parnham" name_id="PJ0127" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Philip B. Key" name_id="KP0001" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="971" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="647" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="555" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14047" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14049" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result candidate_ref="1" vote="971" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="647" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="555" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Calvert" geog_id="mds_calvert">
+						<result candidate_ref="1" vote="346" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="105" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Charles" geog_id="mds_charles">
+						<result candidate_ref="1" vote="619" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="506" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="41" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Saint Mary's" geog_id="mds_saintmarys">
+						<result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="99" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="409" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00042" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14046" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14048" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00042">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14049">The Maryland Gazette (Annapolis, MD).  November 1, 1792.</reference>
+</election_record>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1791 House of Representatives, Kent County" type="General" iteration="First Ballot" date="1791" election_id="de.stateassembly.kent.1791" handle="10427/44067" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="George Truitt" name_id="TG0005" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Andrew Barrett" name_id="BA0023" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Francis Many" name_id="MF0000" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Stephen Lewis" name_id="LS0001" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Joseph Barker" name_id="BJ0075" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Joseph Oliver" name_id="OJ0007" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Allen MacLane" name_id="MA0018" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="929" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="919" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="915" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="829" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="826" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="815" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="781" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11926" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The General Advertiser (Philadelphia, PA) refers to George Truitt as George Truett.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="929" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="919" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="915" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="829" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="826" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="815" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="781" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11926" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11926">The Delaware Gazette (Wilmington, DE).  October 8, 1791.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11926">General Advertiser (Philadelphia, PA).  October 12, 1791.</reference>
+</election_record>

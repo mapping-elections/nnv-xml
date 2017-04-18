@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Maine 1820 U.S. Senate, Ballot 2" type="Legislative" iteration="Second Ballot" date="1820-06" election_id="me.ussenate.2.1820" handle="10427/80052" 
+	xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="John Holmes" name_id="HJ0336" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joshua Wingate, Jr." name_id="WJ0015" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-07-20">
+				<candidate_summary candidate_ref="1" vote_total="95" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="79" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maine" geog_id="null">
+				<sub_unit type="null" name="Legislature" geog_id="null">
+					<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+					<sub_unit type="null" name="House of Representatives" geog_id="null">
+						<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"The House proceeded to the election of two senators to represent this state in the Congress of the United States - and on receiving, sorting, and counting the votes, it appeared that the whole number of votes was 145; necessary to a choice 73 - John Holmes had 95 - Joshua Wingate, jr. 79 - and they are elected."  Bangor Register (Bangor, ME).  June 22, 1820.</note>
+					</sub_unit>
+					<sub_unit type="null" name="State Senate" geog_id="null">
+						<note resp="Philip Lampi">The State Senate had already elected John Holmes and Joshua Wingate, Jr. and had sent their choice back to the House for a second ballot.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Bangor Register (Bangor, ME).  June 22, 1820.</reference>
+</election_record>

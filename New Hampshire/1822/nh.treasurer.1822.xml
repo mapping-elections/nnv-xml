@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1822 Treasurer" type="General" iteration="First Ballot" date="1822-06" election_id="nh.treasurer.1822" handle="10427/79472" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="State">
+		<role title="Treasurer" scope="State">
+			<ballot>
+				<candidate name="William Pickering" name_id="PW0131" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-07-16">
+				<candidate_summary candidate_ref="1" vote_total="171" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="5" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="171" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Patriot and State Gazette (Concord, NH).  June 17, 1822.</reference>
+</election_record>

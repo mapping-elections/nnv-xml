@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Auditor, Marion County" type="General" iteration="First Ballot" date="1824-10" election_id="oh.auditor.marioncounty.1824" handle="10427/60335" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Hezekiah Gorton" name_id="GH0061" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="C. Roth" name_id="RC0072" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-17">
+				<candidate_summary candidate_ref="1" vote_total="334" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="33" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05347" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Marion" geog_id="ohs_marion">
+					<result candidate_ref="1" vote="334" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05347" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05347">Jacoby, J. Wilbur.  History of Marion County.  Chicago: Biographical Publishing, 1907.  89.</reference>
+	<reference type="citation" resp="Philip Lampi">The History of Marion County, Ohio.  Chicago: Leggett, Conaway,  1883.  312.</reference>
+</election_record>

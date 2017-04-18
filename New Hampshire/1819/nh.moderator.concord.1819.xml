@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="New Hampshire 1819 Moderator, Concord" type="General" iteration="First Ballot" date="1819-03" election_id="nh.moderator.concord.1819" handle="10427/79362" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Moderator" office_id="ON080" scope="Town">
+		<role title="Moderator" scope="Town">
+			<ballot>
+				<candidate name="Charles Walker" name_id="WC0044" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas W. Thompson" name_id="TT0048" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-06-05">
+				<candidate_summary candidate_ref="1" vote_total="187" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="155" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="Town" name="Concord" geog_id="null">
+					<result candidate_ref="1" vote="187" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Patriot and State Gazette (Concord, NH).  March 16, 1819.</reference>
+</election_record>

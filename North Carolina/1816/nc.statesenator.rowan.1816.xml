@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1816 State Senate, Rowan County" type="General" iteration="First Ballot" date="1816" election_id="nc.statesenator.rowan.1816" handle="10427/42988" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Jesse A. Pearson" name_id="PJ0354" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Charles Fisher" name_id="FC0020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-09-02">
+				<candidate_summary candidate_ref="1" vote_total="833" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="657" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05021" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Rowan" geog_id="null">
+					<result candidate_ref="1" vote="833" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="657" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Lexington" geog_id="null">
+						<result candidate_ref="1" vote="280" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05021" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Mock's Old Field" geog_id="null">
+						<result candidate_ref="1" vote="250" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05021" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Salisbury" geog_id="null">
+						<result candidate_ref="1" vote="241" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="265" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05021" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Thomas Varnes" geog_id="null">
+						<result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="162" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05021" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Thompson's Mile" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="27" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05021" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05021">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

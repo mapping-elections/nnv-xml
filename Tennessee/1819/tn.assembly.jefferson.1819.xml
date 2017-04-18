@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1819 House of Representatives, Jefferson County" type="General" iteration="First Ballot" date="1819" election_id="tn.assembly.jefferson.1819" handle="10427/20265" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Henry Bradford" name_id="BH0165" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Jacob Peck" name_id="PJ0713" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-05-12">
+				<candidate_summary candidate_ref="1" vote_total="767" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="479" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08104" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Knoxville Register (Knoxville, TN), August 10, 1819, reports Henry Bradford with a 288 vote majority.</note>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="767" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="479" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Dandridge" geog_id="null">
+						<sub_unit type="Populated Place" name="Court House Dandridge" geog_id="null">
+							<result candidate_ref="1" vote="540" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="375" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08104" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="House of Robert McFarland" geog_id="null">
+						<result candidate_ref="1" vote="227" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="104" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08104" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08105">The Knoxville Register (Knoxville, TN).  August 10, 1819 </reference>
+</election_record>

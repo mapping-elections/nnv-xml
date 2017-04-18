@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1815 House of Representatives, Bernardston" type="General" iteration="First Ballot" date="1815-05" election_id="ma.staterepresentative.bernardston.1815" handle="10427/27306" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John Hamilton" name_id="HJ0322" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Job Goodale" name_id="GJ0176" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jonathan Allen" name_id="AJ0104" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="David Denison" name_id="DD0037" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-10-16">
+				<candidate_summary candidate_ref="1" vote_total="35" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03606" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Bernardston" geog_id="null">
+					<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03606" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03606">Bernardston Town Records.  330-331.</reference>
+</election_record>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1823 House of Delegates, Caroline County" type="General" iteration="First Ballot" date="1823" election_id="md.assembly.caroline.county.1823" handle="10427/26572" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Elijah Barwick" name_id="BE0089" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Joseph Douglass" name_id="DJ0120" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Edward Barwick" name_id="BE0100" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Boon" name_id="BJ0333" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="David Casson" name_id="CD0047" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="Joseph C. Talbot" name_id="TJ0240" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="Samuel Culbreth" name_id="CS0029" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-07">
+				<candidate_summary candidate_ref="1" vote_total="398" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="378" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="377" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="377" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="355" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="285" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="51" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03332" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Caroline" geog_id="mds_caroline">
+					<result candidate_ref="1" vote="398" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="378" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="377" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="377" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="355" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="285" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="51" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="75" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="117" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="72" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03332" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="215" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="133" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="136" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="5" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03332" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="127" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="77" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="46" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03332" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03332">Republican Star, or, General Advertiser (Easton, MD).  October 14, 1823.</reference>
+</election_record>

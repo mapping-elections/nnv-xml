@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1796 House of Commons, Richmond County" type="General" iteration="First Ballot" date="1796-08" election_id="nc.houseofcommons.richmond.1796" handle="10427/43709" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="James Coleman" name_id="CJ0073" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Sanford" name_id="SJ0794" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Joseph Hines" name_id="HJ0624" affiliation="null" affiliation_id="null" candidate_num="3"></candidate>
+                <candidate name="Stewart" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"></candidate>
+                <candidate name="MacLeod" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-02-12">
+                <candidate_summary candidate_ref="1" vote_total="613" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="429" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="314" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="300" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="181" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">The Richmond County Records for 1790-1796 list James Sanford with 433 votes and Joseph Hines with 310.</note>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Richmond" geog_id="null">
+                    <result candidate_ref="1" vote="613" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="429" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="314" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="300" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="181" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Fair Plains" geog_id="null">
+                        <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="108" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="70" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Stringfellows Mill" geog_id="null">
+                        <result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="149" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="158" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="62" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Rockingham" geog_id="null">
+                        <result candidate_ref="1" vote="499" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="257" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="138" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="130" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="91" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Richmond County Records, 1790-1796.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

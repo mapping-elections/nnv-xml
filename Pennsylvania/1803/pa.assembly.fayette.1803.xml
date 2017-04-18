@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 House of Representatives, Fayette County" type="General" iteration="First Ballot" date="1803" election_id="pa.assembly.fayette.1803" handle="10427/61384" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Charles Porter" name_id="PC0040" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Cunningham" name_id="CJ0711" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Trevor" name_id="TS0086" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-16">
+				<candidate_summary candidate_ref="1" vote_total="831" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="500" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="425" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05874" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="831" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="500" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="425" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05874" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05874">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

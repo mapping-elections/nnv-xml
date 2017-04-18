@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 House of Representatives, Trumbull County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.staterepresentative.trumbull.1823" handle="10427/60235" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Cyrus Bosworth" name_id="BC0036" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Mackey" name_id="MJ0679" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Richard Hayes" name_id="HR0040" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="James Eaton" name_id="EJ0067" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="George Wadsworth" name_id="WG0029" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Joseph Coit" name_id="CJ0647" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="Ephraim Brown" name_id="BE0193" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="Tracy Bronson" name_id="BT0072" affiliation="null" affiliation_id="null" candidate_num="8"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-18">
+                <candidate_summary candidate_ref="1" vote_total="751" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="615" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="596" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="500" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="167" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="123" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" vote_total="104" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" vote_total="101" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+                    <result candidate_ref="1" vote="751" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="615" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="596" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="500" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="167" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="123" resp="Philip Lampi"/>
+                    <result candidate_ref="7" vote="104" resp="Philip Lampi"/>
+                    <result candidate_ref="8" vote="101" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="null" geog_id="null">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="36" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="49" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="4" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19665" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Western Reserve Chronicle (Warren, OH).  October 25, 1823.</reference>
+</election_record>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<election_record label="New York 1820 Assembly, Tompkins County" type="General" iteration="First Ballot" date="1820" election_id="ny.assembly.tompkins.1820" handle="10427/66851" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Samuel Crittenden" name_id="CS0135" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Peter Hager, II" name_id="HP0020" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Hermon Camp" name_id="CH0103" affiliation="Clintonian" affiliation_id="A05" candidate_num="3"/>
+				<candidate name="Oliver Phelps" name_id="PO0023" affiliation="Clintonian" affiliation_id="A05" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-28">
+				<candidate_summary candidate_ref="1" vote_total="1406" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1424" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="901" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="895" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Albany Argus (Albany, NY) lists Oliver Phelps with 889 votes.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tompkins" geog_id="null">
+					<result candidate_ref="1" vote="1406" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1424" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="901" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="895" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Hector" geog_id="null">
+						<result candidate_ref="1" vote="262" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="266" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="125" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="120" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Groton" geog_id="null">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="146" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Lansing" geog_id="null">
+						<result candidate_ref="1" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="129" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="130" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Dryden" geog_id="null">
+						<result candidate_ref="1" vote="244" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="256" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="179" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="174" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Ulysses" geog_id="null">
+						<result candidate_ref="1" vote="457" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="459" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="320" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="325" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Journal (Ithaca, NY).  May 10, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The Albany Argus (Albany, NY).  May 19, 1820.</reference>
+</election_record>

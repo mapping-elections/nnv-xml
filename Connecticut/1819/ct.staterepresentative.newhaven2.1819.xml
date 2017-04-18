@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1819 House of Representatives, New Haven, Second Representative" type="General" iteration="First Ballot" date="1819" election_id="ct.staterepresentative.newhaven.2.1819" handle="10427/79784" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Levi Ives" name_id="IL0000" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Charles Bostwick" name_id="BC0003" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Henry Denison" name_id="DH0090" affiliation="Republican" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-16">
+				<candidate_summary candidate_ref="1" vote_total="455" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="447" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="39" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="5" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"[Charles Bostwick], though a republican, was put in nomination by the federalists, with a view of dividing our strength."  Columbian Register (New Haven, CT).  April 13, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="New Haven" geog_id="null">
+					<sub_unit type="City" name="New Haven" geog_id="null">
+						<result candidate_ref="1" vote="455" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="447" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="5" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Connecticut Journal (New Haven, CT).  April 6, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 9, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Register (New Haven, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald, and General Advertiser (New Haven, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Connecticut Journal (New Haven, CT).  April 13, 1819.</reference>
+</election_record>

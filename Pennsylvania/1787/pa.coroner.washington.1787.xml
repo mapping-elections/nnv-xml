@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1787 Coroner, Washington County" type="General" iteration="First Ballot" date="1787" election_id="pa.coroner.washington.1787" handle="10427/60536" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="Robert Benham" name_id="BR0017" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Demus Lindsley" name_id="LD0043" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2011-08-11">
+                <candidate_summary candidate_ref="1" vote_total="917" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Pennsylvania" geog_id="null">
+                <sub_unit type="County" name="Washington" geog_id="null">
+                    <result candidate_ref="1" vote="917" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Montgomery, Thomas Lynch, ed.  Pennsylvania Archives, Sixth Series.  Vol. XI.  Harrisburg, PA: Harrisburg Publishing, 1907.  398.</reference>
+</election_record>

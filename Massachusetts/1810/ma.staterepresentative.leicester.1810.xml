@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1810 House of Representatives, Leicester" type="General" iteration="First Ballot" date="1810-05" election_id="ma.staterepresentative.leicester.1810" handle="10427/69223" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Hobart" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Sergeant" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Denny" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-03-06">
+				<candidate_summary candidate_ref="1" vote_total="66" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="42" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The vote given in this town was unanimous in favor of federalism, but in favor of Mr. Hobart, who had 66 votes - Mr. Sergeant 42 and Mr. Denny 10.  The fact is our democratic brethren intended to put a trick on us.  They voted for Mr. Sergeant with a view to prevent a choice, but they were defeated the very first trial."  Thomas's Massachusetts Spy: Or, The Worcester Gazette (Worcester, MA).  May 16, 1810.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Leicester" geog_id="null">
+					<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Thomas's Massachusetts Spy: Or, The Worcester Gazette (Worcester, MA).  May 16, 1810.</reference>
+</election_record>

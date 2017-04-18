@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Mississippi 1823 Sheriff, Hinds County, Special" type="Special" iteration="First Ballot" date="1823-01" election_id="ms.sheriff.hinds.special.1823" handle="10427/79982" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Stephen Holt" name_id="HS0326" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Mathews" name_id="MW0299" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert L. Walton" name_id="WR0163" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-11-19">
+				<candidate_summary candidate_ref="1" vote_total="124" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="64" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="22" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to fill the vacancy caused by the resignation of William P. Puckett.</note>
+			</overview>
+			<admin_unit type="State" name="Mississippi" geog_id="null">
+				<sub_unit type="County" name="Hinds" geog_id="null">
+					<result candidate_ref="1" vote="124" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Series 107.  Mississippi Department of Archives and History, Biloxi, MS.</reference>
+</election_record>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 House of Representatives, Huntingdon County" type="General" iteration="First Ballot" date="1823" election_id="pa.assembly.huntingdon.1823" handle="10427/63775" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Henry Shippen" name_id="SH0182" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Cassidy" name_id="CP0063" affiliation="Democrat" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Ashman" name_id="AJ0288" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Matthew Crisswell" name_id="CM0077" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-14">
+				<candidate_summary candidate_ref="1" vote_total="2015" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2014" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1517" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1374" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07317" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Huntingdon" geog_id="null">
+					<result candidate_ref="1" vote="2015" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2014" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1517" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1374" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07317" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Sentinel and Mercantile Advertiser (Philadelphia, PA).  October 22, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07317">The Franklin Gazette (Philadelphia, PA).  October 22, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">Der Readinger Adler (Reading, PA).  October 28, 1823.</reference>
+</election_record>

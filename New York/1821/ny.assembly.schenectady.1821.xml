@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<election_record label="New York 1821 Assembly, Schenectady County" type="General" iteration="First Ballot" date="1821" election_id="ny.assembly.schenectady.1821" handle="10427/31647" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Walker" name_id="WJ0652" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John F.D. Vedder" name_id="VJ0111" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Robert Sanders" name_id="SR0110" affiliation="Clintonian" affiliation_id="A05" candidate_num="3"/>
+				<candidate name="Jonathan Tallman" name_id="TJ0346" affiliation="Clintonian" affiliation_id="A05" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-25">
+				<candidate_summary candidate_ref="1" vote_total="812" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="788" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="744" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="637" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04671" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Schenectady County returns from the American (Country edition) of May 2, 1821 were originally published in the Daily American on April 28, 1821 and are most likely wrong.  The election ended on April 26 and it would have been very difficult for the votes to have been accurately counted, certified and sent to New York City for publication by April 28, 1821.  They were probably done in haste, without being officially certified. Even the returns from neighboring Queens County were not completely counted by April 28 and they published only the partial results.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schenectady" geog_id="null">
+					<result candidate_ref="1" vote="812" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="788" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="744" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="637" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Duanesburgh" geog_id="null">
+						<result candidate_ref="1" vote="209" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="204" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Glenville" geog_id="null">
+						<result candidate_ref="1" vote="114" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="181" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Niskayuna" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="42" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Princetown" geog_id="null">
+						<result candidate_ref="1" vote="78" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="45" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Rotterdam" geog_id="null">
+						<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="74" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="63" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="City" name="Schenectady" geog_id="null">
+						<result candidate_ref="1" vote="292" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="291" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="221" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="237" resp="Philip Lampi"/>
+						<sub_unit type="Ward" name="One" geog_id="null">
+							<result candidate_ref="1" vote="145" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="101" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="91" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Ward" name="Two" geog_id="null">
+							<result candidate_ref="1" vote="147" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="136" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="120" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="146" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04671">The American. (For the Country) (New York, NY). New York.  May 2, 1821.</reference>
+	<reference type="citation" resp="Philip Lampi">The Cabinet (Schenectady, NY).  May 2, 1821.</reference>
+</election_record>

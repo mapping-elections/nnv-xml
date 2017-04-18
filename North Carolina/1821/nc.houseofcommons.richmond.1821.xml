@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1821 House of Commons, Richmond County" type="General" iteration="First Ballot" date="1821-08" election_id="nc.houseofcommons.richmond.1821" handle="10427/45049" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="W. H. Leake" name_id="LW0049" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="J. L. Vaughan" name_id="VJ0080" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="MacLaurin" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Long" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="MacKinnon" name_id="null" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-09-18">
+                <candidate_summary candidate_ref="1" vote_total="661" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="478" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="380" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="85" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="81" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18296" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Richmond" geog_id="null">
+                    <result candidate_ref="1" vote="661" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="478" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="380" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="85" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="81" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18296" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18296">Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  August 25, 1821.</reference>
+</election_record>

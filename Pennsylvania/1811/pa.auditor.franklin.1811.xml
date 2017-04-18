@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1811 Auditor, Franklin County" type="General" iteration="First Ballot" date="1811-10" election_id="pa.auditor.franklin.1811" handle="10427/62325" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="Joseph Scott" name_id="SJ1215" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Robison" name_id="RR0056" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Henry Thompson" name_id="TH0043" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-23">
+				<candidate_summary candidate_ref="1" vote_total="2369" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2359" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2356" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06468" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="2369" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2359" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="2356" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06468" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06468">The Franklin Repository (Chambersburg, PA).  October 15, 1811.</reference>
+</election_record>

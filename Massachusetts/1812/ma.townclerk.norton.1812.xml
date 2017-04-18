@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1812 Town Clerk, Norton" type="General" iteration="First Ballot" date="1812-03" election_id="ma.townclerk.norton.1812" handle="10427/69972" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Town">
+		<role title="Town Clerk" scope="Town">
+			<ballot>
+				<candidate name="Joseph Hunt" name_id="HJ1196" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-01">
+				<candidate_summary candidate_ref="1" vote_total="136" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="124" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"A letter from a respectable inhabitant of Norton (Bristol County) states, that the result of the recent election for Town Officers, has given much satisfaction to the friends of order and good government, in that place, inasmuch as the town, for several years past, has been decidedly democratic in all their political transactions."  Boston Gazette (Boston, MA).  March 23, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Norton" geog_id="null">
+					<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="124" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Boston Gazette (Boston, MA).  March 23, 1812.</reference>
+</election_record>

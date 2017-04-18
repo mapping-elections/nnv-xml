@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1811 Sheriff, Pendleton District, Special" type="Special" iteration="First Ballot" date="1811" election_id="sc.sheriff.pendleton.1811" handle="10427/32109" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="District">
+		<role title="Sheriff" scope="District">
+			<ballot>
+				<candidate name="John MacMillion" name_id="MJ1336" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Halbert" name_id="HJ1234" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-11-02">
+				<candidate_summary candidate_ref="1" vote_total="623" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="457" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07659" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"An Election was held Monday and Tuesday last for a Sheriff for this district; when on counting the votes there were for the two highest candidates...from a misconstruction of the law, the election not having been carried on alike at the different places of holding elections, it was declared void by the Managers."  Miller's Weekly Messenger (Pendleton, SC).  January 19, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Pendleton" geog_id="null">
+					<result candidate_ref="1" vote="623" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="457" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07659" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07659">Miller's Weekly Messenger (Pendleton, SC).  January 19, 1811.</reference>
+</election_record>

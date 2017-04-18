@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 Commissioner, Trumbull County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.countycommissioner.trumbull.1813" handle="10427/59340" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Bushnell" name_id="BW0248" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Mackey" name_id="MJ0679" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Eli Baldwin" name_id="BE0250" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Dray" name_id="DJ0089" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William MacCombs" name_id="MW0266" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-10">
+				<candidate_summary candidate_ref="1" vote_total="414" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="255" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05191" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05192" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Trumbull" geog_id="ohs_trumbull">
+					<result candidate_ref="1" vote="414" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="255" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="130" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05191" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05192" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"The votes from Canfield were rejected as illegally returned; they however would not have altered the election. A great number of scattering votes were given." Trump of Fame (Warren, OH).  October 19, 1813.</note>
+					<sub_unit type="Township" name="null" geog_id="null">
+						<result candidate_ref="3" vote="48" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns, unknown township.  Western Reserve Historical Society.  Cleveland.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05191">Trump of Fame (Warren, OH).  October 19, 1813.</reference>
+</election_record>

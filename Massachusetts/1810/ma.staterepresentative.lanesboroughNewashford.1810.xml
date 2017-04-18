@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1810 House of Representatives, Lanesborough and New Ashford" type="General" iteration="First Ballot" date="1810-05" election_id="ma.staterepresentative.lanesboroughNewashford.1810" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/34222" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="District">
+			<ballot>
+				<candidate name="Samuel H. Wheeler" name_id="WS0085" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Gideon Wheeler" name_id="WG0042" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-22">
+				<candidate_summary candidate_ref="1" vote_total="127" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="123" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03531" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Even though Lanesborough and New Ashford voted separately for State Representive, they were together a district. Most towns by themselves elected State Representatives, but a few locations, especially smaller or poorer towns would vote with a neighboring town. The number of State Representatives that each town or district was to elect, could vary from year to year, as the number was based on a complex formula relating to tax values and taxable polls. Lanesborough and New Ashford, based on this formula was considered a legal State Representative district. In the previous election they had elected two State Representatives and perhaps one of them was from New Ashford. However, in this election they elected only one. Since the towns had to pay the salary and travel expenses of their Representatives, it most likely had to do with economics. Both towns were in the Berkshires, far from Boston and the Embargo Act had a very negative effect on the New England economy and as towns could decide how many state representatives they would send to Boston and since it was apparently decided to send only one from this district, New Ashford may have thought it was entitled to the second Representative and according to the information provided it elected a Mr. Whitman; I believe he was a candidate only in New Ashford. I do not know if New Ashford could have elected a State Representative by itself, since it was required by law to vote with Lanesborough. It does appear that one town voted Federalist and the other Republican, so that may have played a part in this affair.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="District" name="Lanesborough and New Ashford" geog_id="null">
+					<result candidate_ref="1" vote="127" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Lanesborough" geog_id="null">
+						<result candidate_ref="1" vote="88" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03531" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="New Ashford" geog_id="null">
+						<result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03531" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">A candidate Whitman ran only in New Ashford and was elected.</note>
+						<note resp="Philip Lampi">"Last year we had two representatives; this year but one, for it is not very likely that the New Ashford representative will venture to take his seat in the Legislature."</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03531">The Berkshire Reporter (Pittsfield, MA).  May 9, 1810.</reference>
+</election_record>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1804 Sheriff, Washington County" type="General" iteration="First Ballot" date="1804-10" election_id="oh.sheriff.washington.1804" handle="10427/58936" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="William Skinner" name_id="SW0167" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Ebenezer Sproat" name_id="SE0089" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Benjamin I. Gilman" name_id="GB0010" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+                <candidate name="Ichabod Nye" name_id="NI0009" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2006-06-12">
+                <candidate_summary candidate_ref="1" vote_total="274" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="264" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Washington" geog_id="ohs_washington">
+                    <result candidate_ref="1" vote="274" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="264" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Adams" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Ames" geog_id="null">
+                        <result candidate_ref="1" vote="10" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="15" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Belpre" geog_id="null">
+                        <result candidate_ref="1" vote="3" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hockhocking" geog_id="null">
+                        <result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Marietta" geog_id="null">
+                        <result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Middletown" geog_id="null">
+                        <result candidate_ref="1" vote="91" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Waterford" geog_id="null">
+                        <result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Washington County, 1804.</reference>
+</election_record>

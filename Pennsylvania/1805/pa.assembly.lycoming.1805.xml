@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 House of Representatives, Lycoming and Potter Counties" type="General" iteration="First Ballot" date="1805-10" election_id="pa.assembly.lycoming.1805" handle="10427/61561" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Franklin" name_id="FJ0333" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh White" name_id="WH0057" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Martin" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-03-08">
+				<candidate_summary candidate_ref="1" vote_total="521" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="517" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="237" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06005" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06006" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Hugh White is listed as a Republican in Poulson's American Daily Advertiser (Philadelphia, PA) and as a Constitutionalist in the United States' Gazette (Philadelphia, PA). The United States' Gazette (Philadelphia, PA) also lists Martin as a Revolutionist.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lycoming" geog_id="null">
+					<result candidate_ref="1" vote="521" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="517" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="237" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06005" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06006" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Potter" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Potter County was created in 1804 from Lycoming County and remained attached "to Lycoming County until 1814 when it was authorized to elect commissioners jointly with McKean County. McKean and Potter Counties were separated in 1824, but Potter was still attached to McKean for judicial purposes. It was fully organized in 1835." History of the Counties McKean, Elk, Cameron and Potter, Pennsylvania.  Chicago: J.H. Beers and, 1890.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06006">The Freeman's Journal, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 29, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06005">Poulson's American Daily Advertiser (Philadelphia, PA).  October 30, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 30, 1805.</reference>
+	<reference type="citation" resp="Philip Lampi">History of the Counties McKean, Elk, Cameron and Potter, Pennsylvania.  Chicago: J.H. Beers and, 1890.</reference>
+</election_record>

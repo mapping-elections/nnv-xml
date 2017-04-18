@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1817 House of Delegates, Baltimore" type="General" iteration="First Ballot" date="1817" election_id="md.assembly.baltimore.city.1817" handle="10427/26774" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="City">
+			<ballot>
+				<candidate name="Thomas Kell" name_id="KT0004" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward G. Woodyear" name_id="WE0050" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-08">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03015" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"No opposition to the Republican nomination."  Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 7, 1817.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03015" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03015">Baltimore Patriot and Mercantile Advertiser (Baltimore, MD).  October 7, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Republican Star and General Advertiser (Easton, MD).  October 14, 1817.</reference>
+</election_record>

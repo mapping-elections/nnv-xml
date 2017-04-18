@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1822 Speaker of the House, Ballot 4" type="Legislative" iteration="Fourth Ballot" date="1822-06" election_id="nh.speakerofthehouse.4.1822" handle="10427/79412" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Speaker of the House" office_id="ON104" scope="State">
+        <role title="Speaker of the House" scope="State">
+            <ballot>
+                <candidate name="Charles Woodman" name_id="WC0094" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Edmund Parker" name_id="PE0135" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Titus Brown" name_id="BT0180" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2015-07-08">
+                <candidate_summary candidate_ref="1" vote_total="126" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="39" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="11" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="New Hampshire" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Farmer's Cabinet (Amherst, NH).  June 8, 1822.</reference>
+    <reference type="citation" resp="Philip Lampi">The Portsmouth Journal of Literature and Politics (Portsmouth, NH).  June 8, 1822.</reference>
+    <reference type="citation" resp="Philip Lampi">New-Hampshire Patriot and State Gazette (Concord, NH).  June 10, 1822.</reference>
+    <reference type="citation" resp="Philip Lampi">New-Hampshire Gazette (Portsmouth, NH).  June 11, 1822.</reference>
+    <reference type="citation" resp="Philip Lampi">New-hampshire Sentinel (Keene, NH).  June 15, 1822.</reference>
+</election_record>
+

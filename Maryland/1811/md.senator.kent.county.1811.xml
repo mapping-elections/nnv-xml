@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1811 Electoral Assembly for State Senate, Kent County" type="General" iteration="First Ballot" date="1811" election_id="md.senator.kent.county.1811" handle="10427/26919" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="Richard Frisby" name_id="FR0014" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Morgan Browne" name_id="BM0032" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="James Anderson, Jr." name_id="AJ0095" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Lewis Blackiston" name_id="BL0018" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="586" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="574" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="560" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="550" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02036" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02061" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02062" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02063" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Maryland Republican (Annapolis, MD), September 4, 1811, lists 589 votes for Richard Frisby.</note>
+				<note resp="Philip Lampi">The Maryland Republican lists Lewis Blackiston as Louis Baxton.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Kent" geog_id="mds_kent">
+					<result candidate_ref="1" vote="586" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="574" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="560" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="550" resp="Philip Lampi"/>
+					<sub_unit type="District" name="One" geog_id="null">
+						<result candidate_ref="1" vote="178" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="186" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="183" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02061" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02062" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02063" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="215" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="183" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="173" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02061" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02062" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02063" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="194" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="191" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="194" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02061" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02062" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02063" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02061">Kent County Pollbooks.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02062">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  September 4, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02036">The Maryland Republican (Annapolis, MD).  September 4, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02062">The Sun (Baltimore, MD).  September 5, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02063">Republican Star or Eastern Shore General Advertiser (Easton, MD).  September 10, 1811.</reference>
+</election_record>

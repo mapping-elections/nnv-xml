@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1809 Clerk of the Superior Court, Oglethorpe County" type="General" iteration="First Ballot" date="1809" election_id="ga.clerkofcourt.oglethorpe.1809" handle="10427/55979" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Clerk of the Superior Court" office_id="ON031" scope="County">
+		<role title="Clerk of the Superior Court" scope="County">
+			<ballot>
+				<candidate name="Isaac Collier" name_id="CI0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Wilson Lumpkin" name_id="LW0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Moore" name_id="MJ0080" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-07">
+				<candidate_summary candidate_ref="1" vote_total="577" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="314" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="31" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Oglethorpe" geog_id="null">
+					<result candidate_ref="1" vote="577" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="314" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Monitor (Washington, GA).  October 28, 1809.</reference>
+</election_record>

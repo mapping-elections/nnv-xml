@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1824 U.S. Senate" type="Legislative" iteration="First Ballot" date="1824-01" election_id="de.ussenator.a.1824" handle="10427/16784" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Nicholas Van Dyke" name_id="VN0010" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Gray" name_id="GA0001" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="blank" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="18" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="9" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09671" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Journal of the Delaware State Senate refers to Nicholas Van Dyke as Nicholas Vandyke.</note>
+				<note resp="Philip Lampi">Nicholas Van Dyke already held this seat, which had expired "on the third of March last."  When the first session of the 18th Congress convened in the U.S. Senate on December 1, 1823, he had not yet been re-elected and was not present.  He took his seat on January 14, 1824, having been "appointed a Senator by the Legislature of the State of Delaware, for the term of six years, commencing on the fourth day of March last."  Journal of the United States of America.  Vol. 14.  99.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09671" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Delaware State Senate,  1824.  16-17.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the United States of America.  Vol. 14.  99.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09671">Delaware Gazette (Wilmington, DE).  January 9, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09671">Delaware Gazette (Wilmington, DE).  January 13, 1824.</reference>
+</election_record>

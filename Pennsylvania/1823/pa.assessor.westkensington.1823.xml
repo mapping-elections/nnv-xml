@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Assessor, Philadelphia County, West Kensington District" type="General" iteration="First Ballot" date="1823" election_id="pa.assessor.westkensington.1823" handle="10427/63785" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="County">
+		<role title="Assessor" scope="District">
+			<ballot>
+				<candidate name="Joseph Barton" name_id="BJ1294" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Isaac Boileau" name_id="BI0047" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-17">
+				<candidate_summary candidate_ref="1" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="71" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07341" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="District" name="Kensington" geog_id="null">
+						<sub_unit type="District" name="East Kensington" geog_id="null">
+							<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="71" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07341" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07340">United States Gazette (Philadelphia, PA).  October 6, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA).  October 7, 1823.</reference>
+</election_record>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 U.S. House of Representatives, District 4" type="General" iteration="First Ballot" date="1796-10" election_id="pa.uscongress4.1796" handle="10427/60853" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Samuel Sitgreaves" name_id="SS0245" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Chapman" name_id="CJ0685" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Muhlenberg" name_id="MP0089" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="John Richards" name_id="RJ0314" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Robert Lollar" name_id="LR0052" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-22">
+				<candidate_summary candidate_ref="1" vote_total="3752" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="2214" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00118" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05506" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05507" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA) uses the name Clapman for John Chapman.</note>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) uses the spelling Loller for Robert Lollar.</note>
+				<note resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA) uses the spelling Lollor for Robert Lollar.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="3752" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2214" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Bucks" geog_id="null">
+						<result candidate_ref="1" vote="1415" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1455" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<result candidate_ref="4" resp="Philip Lampi"/>
+						<result candidate_ref="5" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="1030" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="411" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="585" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="418" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="590" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA) and Aurora. General Advertiser (Philadelphia, PA) both report 1033 votes for Samuel Sitgreaves and 420 votes for John Richards.  October 14, 1796.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Northampton" geog_id="null">
+						<result candidate_ref="1" vote="1307" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="348" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="563" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="663" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="14" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05506">Aurora. General Advertiser (Philadelphia, PA).  October 14, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gales's Independent Gazetteer (Philadelphia, PA).  October 14, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 14, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 22, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05507">Claypoole's American Daily Advertiser (Philadelphia, PA).  October 24, 1796.</reference>
+</election_record>

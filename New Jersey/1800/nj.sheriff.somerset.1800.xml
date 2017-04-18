@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1800 Sheriff, Somerset County" type="General" iteration="First Ballot" date="1800" election_id="nj.sheriff.somerset.1800" handle="10427/67219" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Joseph Doty" name_id="DJ0225" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-05-08">
+				<candidate_summary candidate_ref="1" vote_total="167" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Somerset" geog_id="null">
+					<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Bedminster" geog_id="null">
+						<result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bernards" geog_id="null">
+						<result candidate_ref="1" vote="115" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bridgwater" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hillsborough" geog_id="null">
+						<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Montgomery" geog_id="null">
+						<result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate.  New Jersey State Library, Trenton.</reference>
+</election_record>

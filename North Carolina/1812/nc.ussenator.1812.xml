@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1812 U.S. Senate" type="Legislative" iteration="First Ballot" date="1812" election_id="nc.ussenator.1812" handle="10427/43160" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="David Stone" name_id="SD0075" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="A. D. Murphy" name_id="MA0168" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="Thomas Davis" name_id="DT0094" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-05">
+				<candidate_summary candidate_ref="1" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="73" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="12" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09928" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09929" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"David Stone is chosen a senator in Congress, vice Jesse Franklin, whose term of service will expire on the 4th day of March next. The votes were as follow... All the candidates were republican."  The Star (Raleigh, NC).  December 11, 1812.</note>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09928" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09928">The Star (Raleigh, NC).  December 11, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09929">The True American and Commercial Advertiser (Philadelphia, PA).  December 17, 1812.</reference>
+</election_record>

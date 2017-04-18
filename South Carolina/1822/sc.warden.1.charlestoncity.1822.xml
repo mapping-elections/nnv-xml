@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1822 Warden, Charleston City, Ward 1" type="General" iteration="First Ballot" date="1822" election_id="sc.warden.1.charlestoncity.1822" handle="10427/32294" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Warden" office_id="ON131" scope="City">
+		<role title="Warden" scope="Ward">
+			<ballot>
+				<candidate name="Samuel Burger" name_id="BS0303" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard W. Cogdell" name_id="CR0163" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Listed by the Southern Patriot, and Commercial Advertiser (Charleston, SC) as "B. W. Sogdell."</note></candidate>
+				<candidate name="George Gibbs" name_id="GG0075" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-09">
+				<candidate_summary candidate_ref="1" vote_total="414" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="372" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="355" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07909" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="City" name="Charleston" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="414" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="372" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="355" resp="Philip Lampi"/>
+						<sub_unit type="Populated Place" name="Court House" geog_id="null">
+							<result candidate_ref="1" vote="259" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="227" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="181" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15887" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Market" geog_id="null">
+							<result candidate_ref="1" vote="155" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="174" resp="Philip Lampi"/>
+							<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.15887" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07909">Charleston Mercury, and Morning Advertiser (Charleston, SC).  September 3, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15887">Southern Patriot, and Commercial Advertiser (Charleston, SC).  September 3, 1822.</reference>
+</election_record>

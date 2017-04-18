@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Assessor, Philadelphia County, Northern Liberties, West Ward" type="General" iteration="First Ballot" date="1814-09" election_id="pa.assessor.northernliberties.west.1814" handle="10427/66349" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Township">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="F. Hoeckley" name_id="HF0035" affiliation="New School" affiliation_id="A07" candidate_num="1"/>
+				<candidate name="John Adolph" name_id="AJ0309" affiliation="Old School" affiliation_id="A07" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-12-21">
+				<candidate_summary candidate_ref="1" vote_total="179" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="62" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Philadelphia" geog_id="null">
+					<sub_unit type="Township" name="Northern Liberties" geog_id="null">
+						<sub_unit type="Ward" name="West" geog_id="null">
+							<result candidate_ref="1" vote="179" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06708">The Freeman's Journal and Columbian Chronicle (Philadelphia, PA).  October 4, 1814.</reference>
+</election_record>

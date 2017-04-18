@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1815 House of Representatives, Fayette County" type="General" iteration="First Ballot" date="1815-10" election_id="pa.assembly.fayette.1815" handle="10427/66680" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Thomas MacKibben" name_id="MT0180" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Boyd" name_id="BT0282" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Stewart" name_id="SA0254" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Davidson" name_id="DW0160" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John Shreve" name_id="SJ1208" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Charles Brownfield" name_id="BC0166" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Henry Heaton" name_id="HH0067" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="William Roberts" name_id="RW0159" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-25">
+				<candidate_summary candidate_ref="1" vote_total="615" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="601" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="553" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="550" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="443" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="297" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="286" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="112" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Fayette" geog_id="null">
+					<result candidate_ref="1" vote="615" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="601" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="553" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="550" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="443" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="297" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="286" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="112" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Three" geog_id="null">
+						<result candidate_ref="1" vote="232" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="198" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="65" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">"Besides the above, there were several scattering votes for persons who did not consider themselves as candidates." The American Telegraph (Brownsville, PA).  October 11, 1815.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The American Telegraph (Brownsville, PA).  October 11, 1815.</reference>
+	<reference type="citation" resp="Philip Lampi">The Genius of Liberty, and Fayette Advertiser (Uniontown, PA).  October 18, 1815.</reference>
+</election_record>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 Commissioner, Belmont County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.countycommissioner.belmont.1813" handle="10427/59335" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Alexander Boggs" name_id="BA0169" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Sterling Johnson" name_id="JS0073" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-21">
+				<candidate_summary candidate_ref="1" vote_total="722" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="708" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05186" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19037" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"It appears that Messrs. Boggs, the republican candidate for commissioner, and Bryson, for representative, would have been elected but for the rejection of the votes of Pultney township, the judges of which had not directed the returns to the clerk of the court.  They intend to contest the election."  Muskingum Messenger (Zanesville, OH).  October 27, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Belmont" geog_id="ohs_belmont">
+					<result candidate_ref="1" vote="722" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="708" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Pultney" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="17" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05184">Ohio Federalist (Saint Clairsville, OH).  October 20, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19037">Muskingum Messenger (Zanesville, OH).  October 27, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05185">Ohio Federalist (Saint Clairsville, OH).  October 19, 1814.</reference>
+</election_record>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<election_record label="Maryland 1808 Electoral College, District 9" type="General" iteration="First Ballot" date="1808" election_id="md.presidentialelector9.1808" handle="10427/65324" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral College" office_id="ON056" scope="Federal">
+		<role title="Elector" scope="District">
+			<ballot>
+				<elector name="Henry J. Carroll" name_id="CH0057" affiliation="Federalist" affiliation_id="A01" declared_for="Charles C. Pinckney" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="Joshua Prideaux" name_id="PJ0138" affiliation="Republican" affiliation_id="A03" declared_for="James Madison" elector_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-03">
+				<elector_summary elector_ref="1" vote_total="1433" resp="Philip Lampi"/>
+				<elector_summary elector_ref="2" vote_total="539" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00475a" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="Nine" geog_id="null">
+					<result elector_ref="1" vote="1433" resp="Philip Lampi"/>
+					<result elector_ref="2" vote="539" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14499" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+						<result elector_ref="1" vote="287" resp="Philip Lampi"/>
+						<result elector_ref="2" vote="80" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14499" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Cambridge" geog_id="null">
+							<result elector_ref="1" vote="165" resp="Philip Lampi"/>
+							<result elector_ref="2" vote="54" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Cambridge is also referred to as The 2nd District.</note>
+						</sub_unit>
+						<sub_unit type="Populated Place" name="Toddsville" geog_id="null">
+							<result elector_ref="1" vote="122" resp="Philip Lampi"/>
+							<result elector_ref="2" vote="26" resp="Philip Lampi"/>
+							<note resp="Philip Lampi">Toddsville is also referred to as The 1st District.</note>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Somerset" geog_id="mds_somerset">
+						<result elector_ref="1" vote="574" resp="Philip Lampi"/>
+						<result elector_ref="2" vote="167" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14499" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Worcester" geog_id="mds_worcester">
+						<result elector_ref="1" vote="572" resp="Philip Lampi"/>
+						<result elector_ref="2" vote="292" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14499" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00475a">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

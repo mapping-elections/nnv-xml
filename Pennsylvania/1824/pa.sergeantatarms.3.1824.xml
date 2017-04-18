@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1824 Sergeant at Arms, Ballot 3" type="Legislative" iteration="Third Ballot" date="1824" election_id="pa.sergeantatarms.3.1824" handle="10427/63925" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sergeant at Arms" office_id="ON099" scope="State">
+		<role title="Sergeant at Arms" scope="State">
+			<ballot>
+				<candidate name="James Smith" name_id="SJ1388" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel White" name_id="WS0169" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel C. Stambaugh" name_id="SS0344" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2012-11-02">
+				<candidate_summary candidate_ref="1" vote_total="60" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="8" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10878" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="60" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					<reference resp="Philip Lampi" type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10878"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10878">Harrisburg Chronicle (Harrisburg, PA).  December 13, 1824.</reference>
+</election_record>

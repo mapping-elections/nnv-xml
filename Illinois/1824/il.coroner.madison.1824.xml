@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1824 Coroner, Madison County" type="General" iteration="First Ballot" date="1824-08" election_id="il.coroner.madison.1824" handle="10427/56342" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Joshua Delaphaine" name_id="DJ0069" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac Prickett" name_id="PI0004" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-05">
+				<candidate_summary candidate_ref="1" vote_total="442" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="427" resp="Philip Lampi"/>
+				<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11319"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Madison" geog_id="null">
+					<result candidate_ref="1" vote="442" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="427" resp="Philip Lampi"/>
+					<reference type="page_image" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11319"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11319">Edwardsville Spectator (Edwardsville, IL).  August 3, 1824.</reference>
+</election_record>

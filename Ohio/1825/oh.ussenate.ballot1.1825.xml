@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1825 U.S. Senate" type="Legislative" iteration="First Ballot" date="1825-02" election_id="oh.ussenate.ballot1.1825" handle="10427/60492" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="William H. Harrison" name_id="HW0286" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Wyllys Stillman" name_id="SW0198" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Thomas Worthington" name_id="WT0156" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Ethan A. Brown" name_id="BE0254" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-02-22">
+				<candidate_summary candidate_ref="1" vote_total="38" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="19" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="15" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09971" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="38" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="15" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Supporter and Scioto Gazette (Chillicothe, OH).  February 10, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09971">The Ohio Repository (Canton, OH).  February 11, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">The Star and Gazette (Lebanon, OH).  February 12, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Miami Republican and Dayton Advertiser (Dayton, OH).  February 15, 1825.</reference>
+	<reference type="citation" resp="Philip Lampi">Ohio Patriot and New-Lisbon Weekly Advertiser (New Lisbon, OH).  February 19, 1825.</reference>
+</election_record>

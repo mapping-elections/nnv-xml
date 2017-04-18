@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Assessor, Philadelphia City, Cedar Ward" type="General" iteration="First Ballot" date="1807-10" election_id="pa.assessor.cedar.1807" handle="10427/61802" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="County">
+		<role title="Assessor" scope="Ward">
+			<ballot>
+				<candidate name="Alphonso C. Ireland" name_id="IA0003" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Edward Lane" name_id="LE0086" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="2"/>
+				<candidate name="Edward Lott" name_id="LE0064" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-13">
+				<candidate_summary candidate_ref="1" vote_total="154" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06174" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">United States' Gazette (Philadelphia, PA) from October 3 lists Edward Lott as a candidate who received one vote, and Edward Lane as having received 82 votes for assessor. The Democratic Press (Philadelphia, PA) from October 3 lists Edward Lott with 82 votes and does not list Edward Lane as a candidate.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="Cedar" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06174" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 3, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 3, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06174">The True American and Commercial Advertiser (Philadelphia, PA).  October 5, 1807.</reference>
+</election_record>

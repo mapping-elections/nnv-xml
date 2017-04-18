@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Coroner, Adams County" type="General" iteration="First Ballot" date="1818-10" election_id="pa.coroner.adams.1818" handle="10427/67786" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="John Galloway" name_id="GJ0456" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Matthew Dobbin" name_id="DM0026" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Gardner" name_id="GJ0453" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Hugh Jackson" name_id="JH0026" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-09-19">
+				<candidate_summary candidate_ref="1" vote_total="1113" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1089" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="677" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="676" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Adams" geog_id="null">
+					<result candidate_ref="1" vote="1113" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1089" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="677" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="676" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Adams Centinel lists 1116 votes for John Galloway.</note>
+					<sub_unit type="Township" name="Berlin" geog_id="null">
+						<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="67" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="50" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Franklin" geog_id="null">
+						<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="28" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="29" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Borough" name="Gettysburg" geog_id="null">
+						<result candidate_ref="1" vote="173" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="170" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="87" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="88" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hunterstown" geog_id="null">
+						<result candidate_ref="1" vote="103" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Menallen" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="93" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="98" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="137" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="84" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="118" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Petersburg" geog_id="null">
+						<result candidate_ref="1" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="126" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="167" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Sulphur Springs" geog_id="null">
+						<result candidate_ref="1" vote="154" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="56" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Adams Centinel (Gettysburg, PA).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Compiler (Gettysburg, PA).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 31, 1818.</reference>
+</election_record>

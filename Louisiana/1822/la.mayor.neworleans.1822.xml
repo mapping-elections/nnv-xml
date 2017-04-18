@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1822 Mayor, New Orleans" type="General" iteration="First Ballot" date="1822" election_id="la.mayor.neworleans.1822" handle="10427/57913" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Mayor" office_id="ON079" scope="City">
+		<role title="Mayor" scope="City">
+			<ballot>
+				<candidate name="J. Raffignac" name_id="RJ0072" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-02">
+				<candidate_summary candidate_ref="1" vote_total="1013" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="Parish" name="Orleans" geog_id="null">
+					<sub_unit type="City" name="New Orleans" geog_id="null">
+						<result candidate_ref="1" vote="1013" resp="Philip Lampi"/>
+						<sub_unit type="District" name="One" geog_id="null">
+							<result candidate_ref="1" vote="176" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Two" geog_id="null">
+							<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Three" geog_id="null">
+							<result candidate_ref="1" vote="93" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Four" geog_id="null">
+							<result candidate_ref="1" vote="86" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Five" geog_id="null">
+							<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Six" geog_id="null">
+							<result candidate_ref="1" vote="201" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Seven" geog_id="null">
+							<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Eight" geog_id="null">
+							<result candidate_ref="1" vote="105" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Courrier de la Louisiane (New Orleans, LA).  May 8, 1822.</reference>
+</election_record>

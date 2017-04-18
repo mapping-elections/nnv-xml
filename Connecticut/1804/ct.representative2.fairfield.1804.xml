@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Connecticut 1804 House of Representatives, Fairfield, Second Representative" type="General" iteration="First Ballot" date="1804" election_id="ct.representative2.fairfield.1804" handle="10427/18580" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Jessup Wakeman" name_id="WJ0027" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="David Burr" name_id="BD0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-09">
+				<candidate_summary candidate_ref="1" vote_total="237" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="185" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01518" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="Town" name="Fairfield" geog_id="null">
+					<result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="185" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01518" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01518">Republican Farmer (Danbury, CT).  April 18, 1804.</reference>
+</election_record>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<election_record label="Pennsylvania 1803 House of Representatives, Delaware County" type="General" iteration="First Ballot" date="1803" election_id="pa.assembly.delaware.1803" handle="10427/61380" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Pennell" name_id="PW0218" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin H. Smith" name_id="SB0104" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Whitby" name_id="WJ0192" affiliation="Republican" affiliation_id="A03" candidate_num="3"></candidate>
+				<candidate name="Isaac G. Gilpin" name_id="GI0023" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-16">
+				<candidate_summary candidate_ref="1" vote_total="596" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="567" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="566" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="525" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05872" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Delaware" geog_id="null">
+					<result candidate_ref="1" vote="596" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="567" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="566" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="525" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="219" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="120" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="212" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="99" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05872" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="130" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="131" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05872" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Darby" geog_id="null">
+						<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="106" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="105" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05872" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Newtown" geog_id="null">
+						<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="196" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="190" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05872" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05872">Aurora. General Advertiser (Philadelphia, PA).  October 18, 1803.</reference>
+</election_record>

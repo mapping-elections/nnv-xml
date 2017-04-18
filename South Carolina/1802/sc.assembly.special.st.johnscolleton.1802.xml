@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1802 House of Representatives, Saint John's Colleton Parish, Special" type="Special" iteration="First Ballot" date="1802-12" election_id="sc.assembly.special.st.johnscolleton.1802" handle="10427/31664" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Parish">
+			<ballot>
+				<candidate name="William Meggett" name_id="MW0371" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Lewis Gibbes" name_id="GL0028" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-15">
+				<candidate_summary candidate_ref="1" vote_total="27" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="26" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07547" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">A Special Election was held to break a tie in the General Election, and was held on December 20 and 21, 1802.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Saint John's Colleton" geog_id="null">
+					<result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07547" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Club house on Edisto Island" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">15 voters at the Club House on Edisto Island participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Parish Church on John's Island" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">38 voters at the Parish Church on John's Island participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07547">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07545">The Times (Charleston, SC).  October 14, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07546">City Gazette and Daily Advertiser (Charleston, SC).  October 15, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina House of Representatives.  Vol. 1.  Columbia, SC: University of South Carolina Press, 1974.  262.</reference>
+</election_record>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1787 Sergeant at Arms" type="Legislative" iteration="First Ballot" date="1787-10" election_id="pa.sergeantatarms.1787" handle="10427/66074" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sergeant at Arms" office_id="ON099" scope="State">
+		<role title="Sergeant at Arms" scope="State">
+			<ballot>
+				<candidate name="James Martin" name_id="MJ1106" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nicholas Weaver" name_id="WN0006" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-11">
+				<candidate_summary candidate_ref="1" vote_total="34" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="14" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Proceedings and Debates of the Twelfth General Assembly of the Commonwealth of Pennsylvania, 1787.  3.</reference>
+</election_record>

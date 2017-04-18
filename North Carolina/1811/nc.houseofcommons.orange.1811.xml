@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1811 House of Commons, Orange County" type="General" iteration="First Ballot" date="1811" election_id="nc.houseofcommons.orange.1811" handle="10427/43245" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="John Craig" name_id="CJ0552" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John Thompson" name_id="TJ0370" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="David Mebane" name_id="MD0124" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-03">
+				<candidate_summary candidate_ref="1" vote_total="1140" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1011" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="696" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04904" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<result candidate_ref="1" vote="1140" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1011" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="696" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04904" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04904">The Raleigh Minerva (Raleigh, NC).  August 16, 1811.</reference>
+</election_record>

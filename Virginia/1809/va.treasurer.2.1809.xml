@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1809 Treasurer, Ballot 2" type="Legislative" iteration="Second Ballot" date="1809-01" election_id="va.treasurer.2.1809" handle="10427/80185" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="State">
+		<role title="Treasurer" scope="State">
+			<ballot>
+				<candidate name="John Preston" name_id="PJ0733" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Richard Parker" name_id="PR0137" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert Robertson" name_id="RR0100" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Edmund Pendleton" name_id="PE0014" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Robert Moore" name_id="MR0232" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2016-01-27">
+				<candidate_summary candidate_ref="1" vote_total="113" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="83" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="83" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Enquirer (Richmond, VA).  January 5, 1809.</reference>
+</election_record>

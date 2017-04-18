@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1789 House of Delegates, Pendleton County" type="General" iteration="First Ballot" date="1789" election_id="va.houseofdelegates.pendleton.1789" handle="10427/65047" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Peter Hull" name_id="HP0081" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="William Patton" name_id="PW0235" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Isaac Hinkle" name_id="HI0050" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Seraiah Stratton" name_id="SS0049" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="James Cunningham" name_id="CJ1089" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-25">
+				<candidate_summary candidate_ref="1" vote_total="84" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="80" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="30" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="23" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">A History of Pendleton County lists the name Peter Hull as Peter Howell.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Pendleton" geog_id="null">
+					<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="80" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="30" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="23" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+	<reference type="citation" resp="Philip Lampi">Morton, Oren F.  A History of Pendleton County West Virginia.  Franklin, WV: Published by the Author, 1910.  489.</reference>
+</election_record>

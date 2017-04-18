@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1808 State Senate, Athens and Washington Counties" type="General" iteration="First Ballot" date="1808-10" election_id="oh.statesenate.athens.washington.1808" handle="10427/59113" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="William Woodbridge" name_id="WW0201" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Leonard Jewitt" name_id="JL0005" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Cutler" name_id="null" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+                <candidate name="Seth Fuller" name_id="FS0009" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-24">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Athens and Washington" geog_id="null">
+                    <sub_unit type="County" name="Athens" geog_id="ohs_athens">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <result candidate_ref="3" resp="Philip Lampi"/>
+                        <result candidate_ref="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Washington" geog_id="ohs_washington">
+                        <result candidate_ref="1" vote="484" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="239" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="367" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="137" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Scioto Gazette (Chillicothe, OH).  December 12, 1808.</reference>
+</election_record>

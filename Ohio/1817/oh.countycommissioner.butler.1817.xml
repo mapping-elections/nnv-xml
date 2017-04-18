@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1817 Commissioner, Butler County" type="General" iteration="First Ballot" date="1817-10" election_id="oh.countycommissioner.butler.1817" handle="10427/59618" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+		<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+		<ballot>
+			<candidate name="Thomas Blair" name_id="BT0227" affiliation="null" affiliation_id="null" candidate_num="1"/>
+			<candidate name="John Knox" name_id="KJ0156" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			<candidate name="David Clarkson" name_id="CD0155" affiliation="null" affiliation_id="null" candidate_num="3"/>
+		</ballot>
+		<overview status="Version 1.0" modified="2008-08-19">
+			<candidate_summary candidate_ref="1" vote_total="1104" resp="Philip Lampi"/>
+			<candidate_summary candidate_ref="2" vote_total="134" resp="Philip Lampi"/>
+			<candidate_summary candidate_ref="3" vote_total="96" resp="Philip Lampi"/>
+			<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05246" resp="Philip Lampi"/>
+			<note resp="Philip Lampi">The Miami Herald (Hamilton, OH) lists John Knox with 113 votes but the township totals add up to 134.</note>
+		</overview>
+		<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Butler" geog_id="ohs_butler">
+					<result candidate_ref="1" vote="1104" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="134" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="96" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05246" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hanover" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lemon" geog_id="null">
+						<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Liberty" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="64" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Madison" geog_id="null">
+						<result candidate_ref="1" vote="112" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Milford" geog_id="null">
+						<result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Morgan" geog_id="null">
+						<result candidate_ref="1" vote="44" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Oxford" geog_id="null">
+						<result candidate_ref="1" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Reily" geog_id="null">
+						<result candidate_ref="1" vote="19" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Ross" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="84" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Clair" geog_id="null">
+						<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Wayne" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+		</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05246">The Miami Herald (Hamilton, OH).  November 8, 1817.</reference>
+</election_record>

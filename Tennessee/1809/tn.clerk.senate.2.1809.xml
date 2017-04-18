@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1809 Clerk of the Senate, Ballot 2" type="Legislative" iteration="Second Ballot" date="1809" election_id="tn.clerk.senate.2.1809" handle="10427/64935" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Clerk of the Senate" office_id="ON030" scope="State">
+        <role title="Clerk of the Senate" scope="State">
+            <ballot>
+                <candidate name="Jacob Peck" name_id="PJ0713" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="David Yearsly" name_id="YD0005" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John L. Martin" name_id="MJ1143" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-04-11">
+                <candidate_summary candidate_ref="1" vote_total="12" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="8" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="5" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Journal of the Tennessee House of Representatives, 1809.  4.</reference>
+</election_record>

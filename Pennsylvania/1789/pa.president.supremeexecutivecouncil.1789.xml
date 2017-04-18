@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1789 President of the Supreme Executive Council" type="Legislative" iteration="First Ballot" date="1789-11" election_id="pa.president.supremeexecutivecouncil.1789" handle="10427/66056" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="President of the Supreme Executive Council" office_id="ON081" scope="State">
+		<role title="President of the Supreme Executive Council" scope="State">
+			<ballot>
+				<candidate name="Thomas Mifflin" name_id="MT0124" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-24">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Thomas Mifflin is unanimously elected.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Council" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Connecticut Journal (New Haven, CT).  November 25, 1789.</reference>
+</election_record>

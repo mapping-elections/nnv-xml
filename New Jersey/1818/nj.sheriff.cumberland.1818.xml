@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record label="New Jersey 1818 Sheriff, Cumberland County" type="General" iteration="First Ballot" date="1818" election_id="nj.sheriff.cumberland.1818" handle="10427/68591" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Dan Simkins" name_id="SD0027" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="George Souder" name_id="SG0059" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="David Lupton" name_id="LD0008" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-06">
+				<candidate_summary candidate_ref="1" vote_total="500" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="8" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Jersey" geog_id="null">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="500" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Deerfield" geog_id="null">
+						<result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Downe" geog_id="null">
+						<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="6" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Fairfield" geog_id="null">
+						<result candidate_ref="1" vote="106" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Greenwich" geog_id="null">
+						<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopewell" geog_id="null">
+						<result candidate_ref="1" vote="85" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Maurice River" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millville" geog_id="null">
+						<result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Stoe Creek" geog_id="null">
+						<result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  New Jersey State Library, Trenton.</reference>
+	<reference type="citation" resp="Philip Lampi">The Washington Whig (Bridgeton, NJ).  October 19, 1818.</reference>
+</election_record>

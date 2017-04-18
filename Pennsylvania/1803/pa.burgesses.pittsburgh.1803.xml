@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1803 Burgess, Pittsburgh Borough" type="General" iteration="First Ballot" date="1803-05" election_id="pa.burgesses.pittsburgh.1803" handle="10427/66176" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Burgess" office_id="ON018" scope="Borough">
+		<role title="Burgess" scope="Borough">
+			<ballot>
+				<candidate name="Presley Nevill" name_id="NP0010" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James O'Hara" name_id="OJ0042" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Johnston" name_id="JJ0191" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Thomas Baird" name_id="BT0248" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-12-29">
+				<candidate_summary candidate_ref="1" vote_total="123" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="123" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="109" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="106" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Two people are elected Burgesses until March 5, 1804 when a "provision was made for an annual election of one Burgess instead of two" according to Sarah Hutchins Killikelly in The History of Pittsburgh: Its Rise and Progress.</note>
+				<note resp="Philip Lampi">James O'Hara is the "Chief Burgess" for 1803-1804 and Pressley Neville is Burgess.  Pressley Neville is "Chief Burgess" after the next election for the period 1804-1805.</note>
+				<note resp="Philip Lampi">In Pittsburgh, "Colonel Presly Neville...held many public positions...In 1803, he was a candidate for chief burgess, but his vote was a tie with that of his opponent, Colonel James O'Hara, who had also been an officer in the Revolution.  The determination of the case being with the governor, the decision was in favor of Colonel O'Hara, but under the law Colonel Neville became burgess."</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Allegheny">
+					<sub_unit type="Borough" name="Pittsburgh" geog_id="null">
+						<result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="123" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="109" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="106" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Tree of Liberty (Pittsburgh, PA).  May 21, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Dahlinger, Charles W.  Pittsburgh: A Sketch of Its Early Social Life.  New York: The Knickerbocker Press, 1916. 105.</reference>
+	<reference type="citation" resp="Philip Lampi">Killikelly, Sarah Hutchins.  History of Pittsburgh: Its Rise and Progress.  Albany, NY: J. R. Lyon Company, 1906. 130.</reference>
+	<reference type="citation" resp="Philip Lampi">The Mayors of Pittsburgh 1794 to 1840 - The Chief Burgesses. http://www.popularpittsburgh.com/pittsburgh-info/pittsburgh-history/pittsburgh-mayors/mayors-1840.aspx  Accessed 12/29/2011.</reference>
+	<reference type="citation" resp="Philip Lampi">Chief Burgesses of Pittsburgh, 1794-1813. http://politicalgraveyard.com/geo/PA/ofc/pittsburgh.html  Accessed 12/29/2011.</reference>
+</election_record>

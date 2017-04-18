@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="Maryland 1818 Sheriff, Frederick County" type="General" iteration="First Ballot" date="1818" election_id="md.sheriff.frederick.county.1818" handle="10427/26693" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="William M. Beall, Jr." name_id="BW0439" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="George Creager" name_id="CG0049" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-11">
+				<candidate_summary candidate_ref="1" vote_total="3710" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1507" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03067" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03068" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14815" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Federal Republican, the Alexandria Gazette, Commercial and Political (Alexandria, VA), the Maryland Gazette, and the Republican Star list 3452 votes for William M. Beall, Jr. and 1330 for George Creager.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Frederick" geog_id="mds_frederick">
+					<result candidate_ref="1" vote="3710" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1507" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03067" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.03068" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14815" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.14815">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03067">Federal Republican and Baltimore Telegraph (Baltimore, MD).  October 9, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.03068">Republican Star and General Advertiser (Easton, MD).  October 13, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Alexandria Herald (Alexandria, VA).  October 14, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">Maryland Gazette and Political Intelligencer (Annapolis, MD).  October 15, 1818.</reference>
+</election_record>

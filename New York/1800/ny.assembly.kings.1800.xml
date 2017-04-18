@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="New York 1800 Assembly, Kings County" type="General" iteration="First Ballot" date="1800" election_id="ny.assembly.kings.1800" handle="10427/25883" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Jacob Sharp" name_id="SJ0674" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="John A. Terhune" name_id="TJ0030" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-09">
+				<candidate_summary candidate_ref="1" vote_total="313" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="278" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04169" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Kings" geog_id="null">
+					<result candidate_ref="1" vote="313" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="278" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04169" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04169">American Citizen and General Advertiser (New York, NY).  May 10, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04169">The Albany Centinel (Albany, NY).  June 17, 1800.</reference>
+</election_record>

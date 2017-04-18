@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1814 Territorial Legislature, Warrick County" type="General" iteration="First Ballot" date="1814" election_id="in.assembly.warrick.1814" handle="10427/56225" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Territorial Legislature" office_id="ON118" scope="Territory">
+		<role title="Territorial Representative" scope="County">
+			<ballot>
+				<candidate name="Ratliff Boon" name_id="BR0010" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Hugh MacGary" name_id="MH0033" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-02-21">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12247" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Warrick" geog_id="null">
+					<sub_unit type="Township" name="Anderson" geog_id="null">
+						<result candidate_ref="1" vote="47" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12247" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Ohio" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12247" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Fifty five votes were cast.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12247">History of Warrick, Spencer and Perry Counties, Indiana.  Chicago: Goodspeed, 1885.  22, 26.</reference>
+</election_record>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1805 House of Delegates, Frederick County, Special" type="Special" iteration="First Ballot" date="1805" election_id="va.houseofdelegates.frederick.special.1805" handle="10427/33050" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Charles Brent" name_id="BC0136" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Powell" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-09">
+				<candidate_summary candidate_ref="1" vote_total="225" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="91" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08560" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Hugh Holmes, having been elected a judge of the General Court, resigned as Speaker of the House. The vacancy in the Frederick delegation was filled by Charles Brent and the Speakership by Peter Johnston." Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Frederick" geog_id="null">
+					<result candidate_ref="1" vote="225" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="91" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08560" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08560">Frederick County Poll List.  Library of Virginia, Richmond.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

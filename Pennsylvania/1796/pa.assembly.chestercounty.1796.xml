@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 House of Representatives, Chester County" type="General" iteration="First Ballot" date="1796-10" election_id="pa.assembly.chestercounty.1796" handle="10427/60868" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Roger Kirk" name_id="KR0009" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Bull" name_id="BT0234" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Robert Frazier" name_id="FR0042" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abiah Taylor" name_id="TA0036" affiliation="Federalist" affiliation_id="A01" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Hannum" name_id="HJ0760" affiliation="Federalist" affiliation_id="A01" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Boyd" name_id="BA0189" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="David Denny" name_id="DD0066" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="Joseph MacClellan" name_id="MJ0833" affiliation="null" affiliation_id="null" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-21">
+				<candidate_summary candidate_ref="1" vote_total="1701" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1437" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1329" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1311" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="896" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="790" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="502" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="463" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05491" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA) reports 937 votes for James Hannum.</note>
+				<note resp="Philip Lampi">The Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA) uses the spelling Abjah for Abiah Taylor and Frazer for Robert Frazier.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Chester" geog_id="null">
+					<result candidate_ref="1" vote="1701" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1437" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1329" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1311" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="896" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="790" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="502" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="463" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05491">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 25, 1796.</reference>
+</election_record>

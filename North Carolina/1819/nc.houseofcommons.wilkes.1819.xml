@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1819 House of Commons, Wilkes County" type="General" iteration="First Ballot" date="1819-08" election_id="nc.houseofcommons.wilkes.1819" handle="10427/42817" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Nathaniel Gordon" name_id="GN0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Hugh M. Stokes" name_id="SH0005" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Hampton" name_id="HW0359" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="John Sinclair" name_id="SJ0171" affiliation="null" affiliation_id="null" candidate_num="4"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-14">
+                <candidate_summary candidate_ref="1" vote_total="711" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="525" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="460" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="309" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18214" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18222" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Wilkes" geog_id="null">
+                    <result candidate_ref="1" vote="711" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="525" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="460" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="309" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18214" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18222" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18222">William Lenoir to William B. Lenoir.  August 20, 1819.  The Southern Historical Collection, Louis Round Wilson Special Collections Library, University of North Carolina.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18214">The Raleigh Register, and North-Carolina Gazette (Raleigh, NC).  September 17, 1819.</reference>
+</election_record>

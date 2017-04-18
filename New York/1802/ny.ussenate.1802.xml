@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="New York 1802 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1802" election_id="ny.ussenate.1802" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" handle="10427/65590" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="DeWitt Clinton" name_id="CD0092" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Clarkson" name_id="CM0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-18">
+				<candidate_summary candidate_ref="1" vote_total="82" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="45" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09888" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The open Senate seat was "in the place of John Armstrong, resigned."  The Poughkeepsie Journal (Poughkeepsie, NY).  February 16, 1802.</note>
+				<note resp="Philip Lampi">The Assembly nominated DeWitt Clinton to fill the Senate vacancy over Matthew Clarkson by a vote of 68 to 25.  The Senate nominated Matthew Clarkson over DeWitt Clinton by a vote of 19 to 16.  Thus, "not agreeing on their choice, they then proceeded to a joint ballot. On counting the ballots Mr. Clinton had 82, and Mr. Clarkson 45-" The Poughkeepsie Journal (Poughkeepsie, NY).  February 16, 1802 </note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="25" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09888" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Both the Poughkeepsie Journal February 16, 1802 and the Hudson Gazette (Hudson, NY) February 12, 1802, list 28 votes for Matthew Clarkson in the Assembly.</note>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09888" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Connecticut Gazette, and the Commercial Intelligencer (New London, CT), February 24, 1802, lists 18 votes for Matthew Clarkson in the Senate.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York State Senate, 1802.  19, 22.</reference>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1802.  65-66.</reference>
+	<reference type="citation" resp="Philip Lampi">Hudson Gazette (Hudson, NY).  February 12, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09888">The Poughkeepsie Journal (Poughkeepsie, NY).  February 16, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette, and the Commercial Intelligencer (New London, CT).  February 24, 1802.</reference>
+</election_record>

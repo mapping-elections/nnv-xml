@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="New York 1820 U.S. Senate" type="Legislative" iteration="First Ballot" date="1820" election_id="ny.ussenate.1820" handle="10427/66858" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Rufus King" name_id="KR0003" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Walter Bowne" name_id="BW0203" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On counting the votes of the house, it appeared that the Hon. Rufus King had 113 and Walter Bowne 3. In the Senate, the vote for Mr. King was unanimous."  Orange County Patriot; or, the Spirit of Seventy-Six (Goshen, NY).  January 18, 1820.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="null" name="Assembly" geog_id="null">
+					<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York State Senate, 1820.  37-38.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-York Columbian (New York, NY).  January 12, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-York Evening Post (New York, NY).  January 12, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Cherry-Valley Gazette (Cherry Valley, NY).  January 18, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">Orange County Patriot; or, the Spirit of Seventy-Six (Goshen, NY).  January 18, 1820.</reference>
+</election_record>

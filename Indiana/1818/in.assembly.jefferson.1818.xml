@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1818 House of Representatives, Jefferson County" type="General" iteration="First Ballot" date="1818" election_id="in.assembly.jefferson.1818" handle="10427/56403" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Nathaniel Hunt" name_id="HN0011" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Williamson Dunn" name_id="DW0022" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Joseph Oglesby" name_id="OJ0010" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Carpenter" name_id="CW0017" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Samuel Smock" name_id="SS0034" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="382" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="350" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="230" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="226" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="222" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="382" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="350" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="230" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="226" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="222" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Indiana Republican (Madison, IN).  August 15, 1818.</reference>
+</election_record>

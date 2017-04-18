@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1822 Fireward, Boston, Ward 4" type="General" iteration="First Ballot" date="1822" election_id="ma.firewards.4.boston.1822" handle="10427/79265" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Fireward" office_id="ON059" scope="City">
+		<role title="Fireward" scope="Ward">
+			<ballot>
+				<candidate name="James Davis" name_id="DJ0642" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Melville" name_id="MT0230" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jeremiah Fitch" name_id="FJ0460" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-04-17">
+				<candidate_summary candidate_ref="1" vote_total="284" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="283" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="281" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Whole No. 288."  The Repertory (Boston, MA).  April 11, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="scs">
+				<sub_unit type="City" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="284" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="283" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="281" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel (Boston, MA).  April 10, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">The Repertory (Boston, MA).  April 11, 1822.</reference>
+</election_record>

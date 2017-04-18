@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1803 State Senate, Columbiana and Jefferson Counties" type="General" iteration="First Ballot" date="1803-10" election_id="oh.statesenate.jeffersonandcolumbiana.october.1803" handle="10427/58880" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="John Milligan" name_id="MJ0626" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Zenas Kimberly" name_id="KZ0001" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-09">
+				<candidate_summary candidate_ref="1" vote_total="445" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="275" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05085" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="District" name="Columbiana and Jefferson" geog_id="null">
+					<result candidate_ref="1" vote="445" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="275" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05085" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">There were both January and October elections in 1803; in October Jefferson and Columbiana Counties were tallied together.</note>
+					<sub_unit type="County" name="Columbiana" geog_id="null">
+					</sub_unit>
+					<sub_unit type="County" name="Jefferson" geog_id="null">
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05085">The Scioto Gazette (Chillicothe, OH).  November 5, 1803.</reference>
+</election_record>

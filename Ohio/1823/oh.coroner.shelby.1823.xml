@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 Coroner, Shelby County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.coroner.shelby.1823" handle="10427/60218" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Coroner" office_id="ON044" scope="County">
+        <role title="Coroner" scope="County">
+            <ballot>
+                <candidate name="Robert MacClure" name_id="MR0035" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="James Coleman" name_id="CJ0229" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-15">
+                <candidate_summary candidate_ref="1" vote_total="186" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Shelby" geog_id="ohs_shelby">
+                    <result candidate_ref="1" vote="186" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Clinton" geog_id="null">
+                        <result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Cythiana" geog_id="null">
+                        <result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Green" geog_id="null">
+                        <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Loramie" geog_id="null">
+                        <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Orange" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Perry" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Turtle Creek" geog_id="null">
+                        <result candidate_ref="1" vote="51" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19658" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19658">Original Shelby County Election Returns.</reference>
+</election_record>

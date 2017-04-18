@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<?altova_sps C:\temp\election_records\schema\erecord-candidates.sps?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Arkansas 1819 Legislative Council, Arkansas County" type="General" iteration="First Ballot" date="1819-11" election_id="ar.council.arkansas.1819" handle="10427/55871" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Legislative Council" office_id="ON070" scope="Territory">
+		<role title="Legislative Councillor" scope="County">
+			<ballot>
+				<candidate name="Sylvanus Philips" name_id="PS0001" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Frederick Notrebe" name_id="NF0001" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Samuel C. Roane" name_id="RS0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-21">
+				<candidate_summary candidate_ref="1" vote_total="136" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="75" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="63" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Arkansas" geog_id="art">
+				<sub_unit type="County" name="Arkansas" geog_id="art_arkansas">
+					<result candidate_ref="1" vote="136" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="63" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Arkansas" geog_id="null">
+						<result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11161" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Cash" geog_id="null">
+						<result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hopefield" geog_id="null">
+						<result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mississippi" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Point Chico" geog_id="null">
+						<result candidate_ref="3" vote="37" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saint Francis" geog_id="null">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.11160" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11160">Arkansas Gazette (Arkansas Post, AR).  November 20, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Arkansas Gazette (Arkansas Post, AR).  November 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Arkansas Gazette (Arkansas Post, AR).  December 4, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.11161">Carter, Clarence Edwin, ed.  The Territorial Papers of the United States.  Vol. XIX, 1819-1825.  Washington, DC: U.S. Government Printing Office, 1953.   118-119.</reference>
+</election_record>

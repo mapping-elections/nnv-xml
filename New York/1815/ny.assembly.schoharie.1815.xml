@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<election_record label="New York 1815 Assembly, Schoharie County" type="General" iteration="First Ballot" date="1815" election_id="ny.assembly.schoharie.1815" handle="10427/68274" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="William C. Bouck" name_id="BW0200" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter A. Hilton" name_id="HP0016" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Lawyer" name_id="LT0064" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Swart, Jr." name_id="SP0094" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Asa Starkweather" name_id="SA0109" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John Rice" name_id="RJ0192" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-01">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Schoharie" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" resp="Philip Lampi"/>
+					<result candidate_ref="6" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Middleburgh" geog_id="null">
+						<result candidate_ref="1" vote="229" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="219" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="214" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="282" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="275" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="272" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Certificate, Town of Middleburgh.</reference>
+</election_record>

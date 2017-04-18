@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<election_record label="New York 1791 Assembly, Saratoga County" type="General" iteration="First Ballot" date="1791" election_id="ny.assembly.saratoga.1791" handle="10427/67001" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Elias Palmer" name_id="PE0003" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Sidney Berry" name_id="BS0054" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Rosecrants" name_id="RB0026" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Andrew Mitchell" name_id="MA0119" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Beriah Palmer" name_id="PB0055" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Adam Comstock" name_id="CA0089" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-06-27">
+				<candidate_summary candidate_ref="1" vote_total="331" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="274" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="268" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="209" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="159" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="44" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was contested.  Apparently Beriah Palmer and James Gordon, both election Supervisors, submitted two different returns from Ballston.  Without counting the actual votes, a majority of County Supervisors decided that both sets of returns should be destroyed and they were burnt.  The Poll Lists, howevere, indicated there were 323 votes in the return submitted by Beriah Palmer and 224 in that of James Gordon.  A report given to the Legislative Committe on Elections by Beriah Palmer and other inspectors concerning his set of Ballston returns, stated that 209 persons had made oath and that they had voted for Beriah Palmer, Adam Comstock, Benjamin Rosecrans and Elias Palmer, which, if accepted, would have changed the outcome.  That report was not accepted and so there were no votes from Ballston in the final canvass.  The election returns reported above are those from the towns of Stillwater, Saratoga and Half Moon.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Saratoga" geog_id="null">
+					<result candidate_ref="1" vote="331" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="274" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="268" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="209" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="159" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="44" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the New York Assembly, 1792.  24.</reference>
+</election_record>

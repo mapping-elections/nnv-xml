@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New Hampshire 1812 House of Representatives, Francoia, Landaff and Lincoln, Ballot 5" type="General" iteration="Fifth Ballot" date="1812" election_id="nh.staterepresentative.franconialandafflincoln.5.1812" handle="10427/79195" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="William Kelsea" name_id="KW0061" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Rix" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-12">
+				<candidate_summary candidate_ref="1" vote_total="73" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="69" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="County" name="Grafton" geog_id="null">
+					<sub_unit type="District" name="Franconia, Landaff, Lincoln" geog_id="null">
+						<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="69" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Patriot (Concord, NH).  March 17, 1812.</reference>
+	<reference type="citation" resp="Philip Lampi">New-Hampshire Patriot (Concord, NH).  March 31, 1812.</reference>
+</election_record>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New Hampshire 1802 State Senate, District 3" type="General" iteration="First Ballot" date="1802" election_id="nh.statesenate.3.1802" handle="10427/78729" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Silas Betton" name_id="BS0134" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-07-23">
+				<candidate_summary candidate_ref="1" vote_total="469" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="163" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New Hampshire" geog_id="null">
+				<sub_unit type="District" name="Three" geog_id="null">
+					<result candidate_ref="1" vote="469" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Rockingham" geog_id="null">
+						<result candidate_ref="1" vote="469" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="163" resp="Philip Lampi"/>
+						<sub_unit type="Town" name="Atkinson" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Chester" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hampstead" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Hawke" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Londonderry" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Pelham" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Plaistow" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Salem" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Sandown" geog_id="null">
+						</sub_unit>
+						<sub_unit type="Town" name="Windham" geog_id="null">
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Farmer's Museum, or Lay Preacher's Gazette (Walpole, NH).  May 25, 1802.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Oracle, and Portsmouth Advertiser (Portsmouth, NH).  June 12, 1802.</reference>
+</election_record>

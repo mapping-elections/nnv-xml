@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record label="New York 1822 Assembly, Rockland County" type="General" iteration="First Ballot" date="1822" election_id="ny.assembly.rockland.1822" handle="10427/66406" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="John Suffern" name_id="SJ0631" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Richard Blauvelt" name_id="BR0066" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-11-30">
+				<candidate_summary candidate_ref="1" vote_total="521" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="402" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Rockland" geog_id="null">
+					<result candidate_ref="1" vote="521" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="402" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Clarkstown" geog_id="null">
+						<result candidate_ref="1" vote="100" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="122" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Haverstraw" geog_id="null">
+						<result candidate_ref="1" vote="176" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hempstead" geog_id="null">
+						<result candidate_ref="1" vote="211" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="139" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Orangetown" geog_id="null">
+						<result candidate_ref="1" vote="34" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="132" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi">Saratoga Sentinel (Saratoga Springs, NY).  December 17, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Saratoga Sentinel (Saratoga Springs, NY).  December 24, 1822.</reference>
+</election_record>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Vermont 1797 Governor, Ballot 2" type="Legislative" iteration="Second Ballot" date="1797-10" election_id="vt.governor2.1797" handle="10427/65231" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Governor" office_id="ON060" scope="State">
+        <role title="Governor" scope="State">
+            <ballot>
+                <candidate name="Isaac Tichenor" name_id="TI0032" affiliation="Federalist" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Moses Robinson" name_id="RM0051" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Israel Smith" name_id="SI0092" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Gideon Olin" name_id="OG0018" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Elijah Paine" name_id="PE0117" affiliation="Federalist" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Noel Smith" name_id="SN0074" affiliation="null" affiliation_id="null" candidate_num="6"/>
+            </ballot>
+            <overview status="null" modified="2014-06-19">
+                <candidate_summary candidate_ref="1" vote_total="94" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="41" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="17" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Vermont" geog_id="null">
+                <sub_unit type="null" name="General Assembly" geog_id="null">
+                    <result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="17" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">Because no candidate received a majority in the popular vote, the State Legislature selected the Governor in 1797.</note>
+                    <note resp="Philip Lampi">"Majority for Tichenor, 30."  The Argus (Putney, VT).  October 23, 1797.</note>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Federal Galaxy (Brattleboro, VT).  October 16, 1797.</reference>
+    <reference type="citation" resp="Philip Lampi">The Argus (Putney, VT).  October 23, 1797.</reference>
+</election_record>
+

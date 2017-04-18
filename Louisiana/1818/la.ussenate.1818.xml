@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Louisiana 1818 U.S. Senate, Special" type="Special" iteration="First Ballot" date="1818-01" election_id="la.ussenate.1818" handle="10427/57890" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Henry Johnson" name_id="JH0003" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Livingston" name_id="null" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John MacDonough" name_id="MJ0187" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Flood" name_id="null" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-03-09">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12539" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Election to replace W.C.C. Clairborne, deceased.</note>
+				<note resp="Philip Lampi">"No tally given for first ballot, but tie noted."  Journal of the Louisiana House of Representatives, 1818.</note>
+			</overview>
+			<admin_unit type="State" name="Louisiana" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<result candidate_ref="3" resp="Philip Lampi"/>
+					<result candidate_ref="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12539" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12539">Journal of the Louisiana House of Representatives, 1818.</reference>
+</election_record>

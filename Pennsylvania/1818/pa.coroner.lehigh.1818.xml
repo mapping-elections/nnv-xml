@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1818 Coroner, Lehigh County" type="General" iteration="First Ballot" date="1818" election_id="pa.coroner.lehigh.1818" handle="10427/63150" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Daniel Martz" name_id="MD0185" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Henry Weaver" name_id="WH0089" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-10-18">
+				<candidate_summary candidate_ref="1" vote_total="700" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="624" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lehigh" geog_id="null">
+					<result candidate_ref="1" vote="700" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="624" resp="Philip Lampi"/>
+					<sub_unit type="Township" name="Allentown" geog_id="null">
+						<result candidate_ref="1" vote="282" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="220" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Grimms" geog_id="null">
+						<result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Millerstown" geog_id="null">
+						<result candidate_ref="1" vote="235" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="233" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saegers" geog_id="null">
+						<result candidate_ref="1" vote="121" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="109" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06926" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06926">The Easton Centinel (Easton, PA).  October 23, 1818.</reference>
+</election_record>

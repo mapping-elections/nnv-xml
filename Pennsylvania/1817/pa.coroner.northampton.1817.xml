@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Coroner, Northampton County" type="General" iteration="First Ballot" date="1817-10" election_id="pa.coroner.northampton.1817" handle="10427/67665" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Coroner" office_id="ON044" scope="County">
+		<role title="Coroner" scope="County">
+			<ballot>
+				<candidate name="Peter Nungesser" name_id="NP0011" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Andrew Apple" name_id="AA0031" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-21">
+				<candidate_summary candidate_ref="1" vote_total="2426" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1055" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Northampton" geog_id="null">
+					<result candidate_ref="1" vote="2426" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1055" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The Original Election Returns list Peter Nungesser with 2426 votes and Andrew Apple with 1055 votes. Incomplete township totals are published in The Easton Centinel (Easton, PA) from October 17, 1817 and add up to 1714 and 867 votes.</note>
+					<sub_unit type="Populated Place" name="Anthony's" geog_id="null">
+						<result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Bushkill" geog_id="null">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Butz's" geog_id="null">
+						<result candidate_ref="1" vote="131" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="154" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Easton" geog_id="null">
+						<result candidate_ref="1" vote="625" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="437" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Hamilton" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Lehighton" geog_id="null">
+						<result candidate_ref="1" vote="33" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Mench's" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Michael's" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Mount Bethel" geog_id="null">
+						<result candidate_ref="1" vote="370" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="64" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Saucon" geog_id="null">
+						<result candidate_ref="1" vote="215" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="87" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Township" name="Towamensing" geog_id="null">
+						<result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi">The Easton Centinel (Easton, PA).  October 17, 1817.</reference>
+</election_record>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1805 U.S. House of Representatives (Territorial Delegate), Ballot 3" type="Legislative" iteration="Third Ballot" date="1805" election_id="in.territory.delegate.3.1805" handle="10427/56341" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON126" scope="Federal">
+		<role title="Territorial Delegate" scope="Territory">
+			<ballot>
+				<candidate name="Benjamin Parke" name_id="PB0003" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas J. Davis" name_id="DT0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-07-16">
+				<candidate_summary candidate_ref="1" vote_total="7" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="4" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12209" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12210" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="Territory" name="Indiana" geog_id="null">
+				<sub_unit type="null" name="Territorial Legislature" geog_id="null">
+					<result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12210" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference resp="Philip Lampi" type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12209">Mirror of the Times, and General Advertiser (Wilmington, DE).   July 27, 1805.</reference>
+	<reference resp="Philip Lampi" type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12210">The Intelligencer, and Weekly Advertiser (Lancaster, PA).  October 22, 1805.</reference>
+</election_record>

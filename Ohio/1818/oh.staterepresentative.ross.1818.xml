@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 House of Representatives, Ross County" type="General" iteration="First Ballot" date="1818" election_id="oh.staterepresentative.ross.1818" handle="10427/59695" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Joseph Sill" name_id="SJ0916" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Kerr" name_id="KJ0130" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James S. Swearingen" name_id="SJ0911" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Steel" name_id="ST0200" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Duncan MacArthur" name_id="MD0142" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="James Manary" name_id="MJ0665" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="William Vance" name_id="VW0006" affiliation="null" affiliation_id="null" candidate_num="7"/>
+				<candidate name="William Stockton" name_id="SW0186" affiliation="null" affiliation_id="null" candidate_num="8"/>
+				<candidate name="Matthias Engie" name_id="EM0005" affiliation="null" affiliation_id="null" candidate_num="9"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-10">
+				<candidate_summary candidate_ref="1" vote_total="1250" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="923" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="861" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="634" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="627" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="525" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="360" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="183" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="9" vote_total="141" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05262" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The old representatives are left out, which is attributed to their favorable disposition towards the United States Bank."  Liberty Hall and Cincinnati Gazette (Cincinnati, OH).  October 20, 1818.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ross" geog_id="ohs_ross">
+					<result candidate_ref="1" vote="1250" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="923" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="861" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="634" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="627" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="525" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="360" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="183" resp="Philip Lampi"/>
+					<result candidate_ref="9" vote="141" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05262" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The total given for Ross County includes the votes from Concord."</note>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="132" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="59" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="110" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="16" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="24" resp="Philip Lampi"/>
+						<result candidate_ref="9" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05262" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The return from the township of Concord was rejected for want of the necessary form.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Liberty Hall and Cincinnati Gazette (Cincinnati, OH).  October 20, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05262">The Supporter (Chillicothe, OH).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05262">The Scioto Gazette, and Fredonian Chronicle (Chillicothe, OH).  October 23, 1818.</reference>
+</election_record>

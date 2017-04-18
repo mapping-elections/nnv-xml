@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Alderman, Albany, Ward 1" type="General" iteration="First Ballot" date="1824" election_id="ny.alderman1.albany.1824" handle="10427/65618" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Alderman" office_id="ON001" scope="City">
+		<role title="Alderman" scope="Ward">
+			<ballot>
+				<candidate name="Willard Walker" name_id="WW0115" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="John Townsend" name_id="TJ0237" affiliation="People's Ticket" affiliation_id="A05" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-10">
+				<candidate_summary candidate_ref="1" vote_total="237" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="227" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In this ward there was no opposition to the People's Ticket."  The Daily Advertiser (New York, NY).  September 30, 1824.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="237" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="227" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  September 30, 1824.</reference>
+</election_record>

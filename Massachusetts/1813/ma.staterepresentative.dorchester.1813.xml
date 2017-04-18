@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1813 House of Representatives, Dorchester" type="General" iteration="First Ballot" date="1813" election_id="ma.staterepresentative.dorchester.1813" handle="10427/70016" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="John Capen, Jr." name_id="CJ0910" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Humphreys" name_id="HJ1139" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Pope" name_id="PW0171" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="unknown" name_id="null" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-05-29">
+				<candidate_summary candidate_ref="1" vote_total="220" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="220" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="220" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="106" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The demo. candidates 106 each."  New-England Palladium (Boston, MA).  May 11, 1813.</note>
+				<note resp="Philip Lampi">"In the excellent and persevering town of Dorchester the Peace Candidates had 220 each; the men of war 106 only."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 12, 1813.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Dorchester" geog_id="null">
+					<result candidate_ref="1" vote="220" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="220" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="220" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="106" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 11, 1813.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 12, 1813.</reference>
+</election_record>

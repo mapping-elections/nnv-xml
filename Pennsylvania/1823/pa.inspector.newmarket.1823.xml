@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1823 Inspector of the General Election, Philadelphia City, New Market Ward" type="General" iteration="First Ballot" date="1823" election_id="pa.inspector.newmarket.1823" handle="10427/63816" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="John Rakestraw" name_id="RJ0566" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="William S. Smith" name_id="SW0278" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="William Peltz" name_id="PW0266" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Norris Stanley" name_id="SN0128" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-01-07">
+				<candidate_summary candidate_ref="1" vote_total="228" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="227" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="105" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="104" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07328" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The United States Gazette (Philadelphia, PA) lists Norris Stanley with 105 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="New Market" geog_id="null">
+						<result candidate_ref="1" vote="228" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="227" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="105" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="104" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07328" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Columbian Observer (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The Democratic Press (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">United States Gazette (Philadelphia, PA).  October 4, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07340">United States Gazette (Philadelphia, PA).  October 6, 1823.</reference>
+	<reference type="citation" resp="Philip Lampi">The National Gazette and Literary Register (Philadelphia, PA).  October 7, 1823.</reference>
+</election_record>

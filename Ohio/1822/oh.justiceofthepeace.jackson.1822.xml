@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 Justice of the Peace, Montgomery County, Jackson Township" type="General" iteration="First Ballot" date="1822-05" election_id="oh.justiceofthepeace.jackson.1822" handle="10427/60169" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Justice of the Peace" office_id="ON068" scope="Township">
+        <role title="Justice of the Peace" scope="Township">
+            <ballot>
+                <candidate name="Joshua D. Izor" name_id="IJ0012" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Jacob Wirick" name_id="WJ0257" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John T. Kinnamon" name_id="KJ0060" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-22">
+                <candidate_summary candidate_ref="1" vote_total="68" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="8" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <sub_unit type="Township" name="Jackson" geog_id="null">
+                        <result candidate_ref="1" vote="68" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="28" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  105.</reference>
+</election_record>

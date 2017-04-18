@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record label="New York 1817 Assembly, Richmond County" type="General" iteration="First Ballot" date="1817" election_id="ny.assembly.richmond.1817" handle="10427/67814" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Richard C. Corson" name_id="CR0083" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Hillyer" name_id="HJ0593" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-02-06">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"From Staten Island, we learn, that Richard C. Corson, the Democratic candidate for assembly, is re-elected, by a majority of 90."  New-York Spectator (New York, NY).  May 3, 1817.</note>
+				<note resp="Philip Lampi">"Richard C. Corson, of Richmond County, is elected by a majority of 86, over the Federal candidate."  New York Columbian (Semi-Weekly).  May 3, 1817.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Richmond" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The New-York Columbian (New York, NY).  May 3, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">New-York Spectator (New York, NY).  May 3, 1817.</reference>
+</election_record>

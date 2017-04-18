@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1816 House of Representatives, Coshocton and Tuscarawas Counties" type="General" iteration="First Ballot" date="1816-10" election_id="oh.staterepresentative.coshocton.tuscarawas.1816" handle="10427/59579" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="Joseph W. Pigman" name_id="PJ0395" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Squire Humphrey" name_id="HS0177" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-11">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Coshocton and Tuscarawas" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Coshocton" geog_id="ohs_coshocton">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                        <sub_unit type="Township" name="Coshocton" geog_id="null">
+                            <result candidate_ref="1" vote="123" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19188" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Oxford" geog_id="null">
+                            <result candidate_ref="1" vote="22" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="16" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Tuscarawas" geog_id="ohs_tuscarawas">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Coshocton Township, Coshocton County Election Returns.</reference>
+    <reference type="citation" resp="Philip Lampi">Original Oxford Township, Coshocton County Election Returns.  Ebay Item #394451452, Auction Ended, August 6, 2000.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19188">Zanesville Express, and Republican Standard (Zanesville, OH).  October 17, 1816.</reference>
+</election_record>

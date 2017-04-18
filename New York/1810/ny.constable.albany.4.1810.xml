@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1810 Constable, Albany, Ward 4" type="General" iteration="First Ballot" date="1810-09" election_id="ny.constable.albany.4.1810" handle="10427/66572" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constable" office_id="ON038" scope="City">
+		<role title="Constable" scope="Ward">
+			<ballot>
+				<candidate name="L. Page" name_id="PL0039" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Gerrit T. Bradt" name_id="BG0088" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="J. Wakefield" name_id="WJ0712" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="J. Lawson" name_id="LJ0416" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-09-06">
+				<candidate_summary candidate_ref="1" vote_total="172" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="160" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="152" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="150" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="150" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Albany Register (Albany, NY).  September 28, 1810.</reference>
+</election_record>

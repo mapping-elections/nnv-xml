@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1797 Sheriff, Anne Arundel County, Special" type="Special" iteration="First Ballot" date="1797-11" election_id="md.sheriff.anne.arundel.special.1797" handle="10427/27589" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="John Welch" name_id="WJ0148" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Nicholas Watkins" name_id="WN0020" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-26">
+				<candidate_summary candidate_ref="1" vote_total="644" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="448" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02189" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The regular election for sheriff was held in early October 1797 along with the annual voting for Assembly/Delegates.  John Welsh was elected Sheriff in the October 1797 regular election. On October 25, 1797 for some reason the Governor and Council issued a writ of election for two Sheriffs for Anne Arundel County.  John Welsh was again elected, as was Nicholas Watkins.</note>
+				<note resp="Philip Lampi">Election held from November 7th-10th.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Anne Arundel" geog_id="mds_annearundel">
+					<result candidate_ref="1" vote="644" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="448" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02189" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02189">Original Election Certificate.  Maryland State Archives, Annapolis.</reference>
+</election_record>

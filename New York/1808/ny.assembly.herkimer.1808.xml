@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1808 Assembly, Herkimer County" type="General" iteration="First Ballot" date="1808" election_id="ny.assembly.herkimer.1808" handle="10427/25510" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Aaron Budlong" name_id="BA0139" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="John M. Petrie" name_id="PJ0306" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Westel Willoughby, Jr." name_id="WW0164" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Simeon Ford" name_id="FS0078" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+           <candidate name="Thomas Manly" name_id="MT0082" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+           <candidate name="John Mills" name_id="MJ0482" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-12-27">
+           <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Herkimer" geog_id="null">
+              <result candidate_ref="1" resp="Philip Lampi"/>
+              <result candidate_ref="2" resp="Philip Lampi"/>
+              <result candidate_ref="3" resp="Philip Lampi"/>
+              <result candidate_ref="4" resp="Philip Lampi"/>
+              <result candidate_ref="5" resp="Philip Lampi"/>
+              <result candidate_ref="6" resp="Philip Lampi"/>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+</election_record>
+

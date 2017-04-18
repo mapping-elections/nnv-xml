@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Alabama 1821 State Senate, Madison County" type="General" iteration="First Ballot" date="1821" election_id="al.statesenator.madisoncounty.1821" handle="10427/55832" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Isaac Lanear" name_id="LI0001" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James G. Birney" name_id="BJ0003" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-05-15">
+				<candidate_summary candidate_ref="1" vote_total="688" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="642" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Alabama" geog_id="als">
+				<sub_unit type="County" name="Madison" geog_id="null">
+					<result candidate_ref="1" vote="688" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="642" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="Brazleton's" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Gritlin's" geog_id="null">
+						<result candidate_ref="1" vote="57" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="38" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Hazlegreen" geog_id="null">
+						<result candidate_ref="1" vote="95" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hillsborough" geog_id="null">
+						<result candidate_ref="1" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="19" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Huntsville" geog_id="null">
+						<result candidate_ref="1" vote="256" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="453" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="Leonard's" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Triana" geog_id="null">
+						<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Alabama Republican (Huntsville, AL).  August 3, 1821.</reference>
+</election_record>

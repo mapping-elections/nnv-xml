@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1807 House of Delegates, Berkeley County" type="General" iteration="First Ballot" date="1807-04" election_id="va.houseofdelegates.berkeley.1807" handle="10427/32837" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Philip P. Wilson" name_id="WP0073" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Aaron Faris" name_id="FA0085" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Weaver" name_id="WJ1010" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Jacob Rees" name_id="RJ0625" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-02">
+				<candidate_summary candidate_ref="1" vote_total="231" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="225" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="205" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="191" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08595" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Philip P. Wilson of Berkeley died before the session began and was succeeded by Philip C. Pendleton, according to both the 1918 and 1978 Registers of the General Assembly of Virginia.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Berkeley" geog_id="vas_berkeley">
+					<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="205" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="191" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08595" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">"On Monday last an Election was held in this town at the close of the poll, the Votes stood as follows:." Berkeley and Jefferson Intelligencer (Martinsburg, WV).  May 1, 1807.</note>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08595">Berkeley and Jefferson Intelligencer (Martinsburg, WV).  May 1, 1807.</reference>
+	<reference type="citation" resp="Philip Lampi">Leonard, Cynthia Miller, ed.  The General Assembly of Virginia, July 30, 1619 - January 11, 1978: A Bicentennial Register of Members.  Richmond: Virginia State Library, 1978.</reference>
+</election_record>

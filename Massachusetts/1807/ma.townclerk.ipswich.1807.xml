@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1807 Town Clerk, Ipswich" type="General" iteration="First Ballot" date="1807" election_id="ma.townclerk.ipswich.1807" handle="10427/69829" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Town Clerk" office_id="ON119" scope="Town">
+		<role title="Town Clerk" scope="Town">
+			<ballot>
+				<candidate name="Nathaniel Wade" name_id="WN0111" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jabez Farley" name_id="FJ0129" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-12">
+				<candidate_summary candidate_ref="1" vote_total="207" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="116" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Ipswich" geog_id="null">
+					<result candidate_ref="1" vote="207" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="116" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 20, 1807.</reference>
+</election_record>

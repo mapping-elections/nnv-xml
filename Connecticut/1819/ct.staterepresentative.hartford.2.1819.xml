@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1819 House of Representatives, Hartford, First Representative, Ballot 2" type="General" iteration="Second Ballot" date="1819" election_id="ct.staterepresentative.hartford2.1819" handle="10427/79780" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Michael Olcott" name_id="OM0000" affiliation="Federalist" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Noah A. Phelps" name_id="PN0004" affiliation="Republican" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Luther Savage" name_id="SL0066" affiliation="Republican" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="John Caldwell" name_id="CJ0040" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Thomas S. Williams" name_id="WT0003" affiliation="Federalist" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-16">
+				<candidate_summary candidate_ref="1" vote_total="554" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="527" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="5" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"We shall only observe, that on the second round there were two federal scattering votes, which added to Mr. Olcott makes the whole federal number 556; AND THAT THERE IS NOT THIS NUMBER OF EDERAL VOTERS BELONGING TO THIS TOWN INCLUDING ALL THE SICK AND ABSENT."  American Mercury (Hartford, CT).  April 13, 1819.</note>
+				<note resp="Philip Lampi">"The democrats talk of being 'cheated out of the Election.'  They know this to be false.  There were numerous instances in which they attempted to vote twice; and one of their troops made the attempt four times.  But thank fortune, they were for once taken care of, and the consequence is known.  We defy them to accuse any federalist of having attempted to vote twice.  None were so destitute of principle as to offer to do the like.  And yet these people whine over their own depravity, and say they were cheated out of it!  The Mercury says that Mr. Olcott received a greater number of vots than there are Federalists belonging to the town, including the sick and absent.  This is untrue.  We have in town five hundred and seventy-five or eighty bona fide federal Electors."  Connecticut Mirror (Hartford, CT).  April 19, 1819.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<sub_unit type="City" name="Hartford" geog_id="null">
+						<result candidate_ref="1" vote="554" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="527" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times (Hartford, CT).  April 13, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  April 19, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  April 20, 1819.</reference>
+</election_record>

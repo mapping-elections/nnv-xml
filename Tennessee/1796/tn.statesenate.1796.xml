@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1796 State Senate, Knox County" type="General" iteration="First Ballot" date="1796-03" election_id="tn.statesenate.1796" handle="10427/64846" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="James White" name_id="WJ0002" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-04">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="tns">
+                <sub_unit type="County" name="Knox" geog_id="tns_knox">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                </sub_unit> 
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Knoxville Gazette (Knoxville, TN).  March 16, 1796.</reference>
+</election_record>

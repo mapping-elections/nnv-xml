@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1796 State Senate, District 4" type="General" iteration="First Ballot" date="1796-10" election_id="pa.statesenator4.1796" handle="10427/60845" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="Matthias Barton" name_id="BM0098" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Alexander Scott" name_id="SA0184" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-09-21">
+				<candidate_summary candidate_ref="1" vote_total="953" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="897" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00116" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05501" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05502" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05503" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The official return lists 950 total votes for Matthias Barton.</note>
+				<note resp="Philip Lampi">Although Alexander Scott is reported to have received 897 total votes, the sum of the reported district returns is 864.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Four" geog_id="null">
+					<result candidate_ref="1" vote="953" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="897" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Lancaster" geog_id="null">
+						<result candidate_ref="1" vote="953" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="897" resp="Philip Lampi"/>
+						<sub_unit type="District" name="Borough" geog_id="null">
+							<result candidate_ref="1" vote="535" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="489" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Cocalico" geog_id="null">
+							<result candidate_ref="1" vote="37" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="54" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Lower Cross Roads" geog_id="null">
+							<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="39" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="New Holland" geog_id="null">
+							<result candidate_ref="1" vote="184" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="153" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Upper Cross Roads" geog_id="null">
+							<result candidate_ref="1" vote="40" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="129" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05502">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05501">Lancaster Journal (Lancaster, PA).  October 14, 1796.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05503">Gazette of the United States, and Philadelphia Daily Advertiser (Philadelphia, PA).  October 19, 1796.</reference>
+</election_record>

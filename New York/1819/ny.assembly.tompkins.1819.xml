@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record label="New York 1819 Assembly, Tompkins County" type="General" iteration="First Ballot" date="1819" election_id="ny.assembly.tompkins.1819" handle="10427/31452" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Joshua Phillips" name_id="PJ0325" affiliation="Clintonian" affiliation_id="A05" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Herman Camp" name_id="CH0103" affiliation="Clintonian" affiliation_id="A05" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Peter Hager, 2nd" name_id="HP0020" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Richard Townley" name_id="TR0053" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-04-11">
+				<candidate_summary candidate_ref="1" vote_total="1194" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1143" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="729" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="678" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04619" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Landmarks of Tompkins County" lists 732 votes for Peter Hager, 2nd and 638 votes for Richard Townley.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Tompkins" geog_id="null">
+					<result candidate_ref="1" vote="1194" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1143" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="729" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="678" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04619" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04619">The Albany Argus (Albany, NY).  May 11, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04619">The Albany Argus (Albany, NY).  June 4 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Selkreg, John H., ed.  Landmarks of Tompkins County New York.  Syracuse, NY: D. Mason and, 1894.  29.</reference>
+</election_record>

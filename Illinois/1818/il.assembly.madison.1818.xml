@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Illinois 1818 House of Representatives, Madison County" type="General" iteration="First Ballot" date="1818-09" election_id="il.assembly.madison.1818" handle="10427/56129" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Abraham Prickett" name_id="PA0018" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Samuel Whiteside" name_id="WS0044" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Howard" name_id="HJ0084" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Otwell" name_id="OW0002" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="John York Sawyer" name_id="SJ0127" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Thomas G. Davidson" name_id="DT0105" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="A. Baker" name_id="BA0037" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2007-01-26">
+				<candidate_summary candidate_ref="1" vote_total="552" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="362" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="217" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="199" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="150" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="141" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="4" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Illinois" geog_id="null">
+				<sub_unit type="County" name="Madison" geog_id="null">
+					<result candidate_ref="1" vote="552" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="362" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="217" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="199" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="150" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="141" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="4" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Hair, James T.  Index, Gazetteer of Madison County.  Alton, IL: James T. Hair, 1866.  269.</reference>
+	<reference type="citation" resp="Philip Lampi">Norton, W. T., ed.  Centennial History of Madison County, Illinois and Its People 1812 to 1912.  Vol. I.  New York: The Lewis Publishing Company, 1912.  146.</reference>
+</election_record>

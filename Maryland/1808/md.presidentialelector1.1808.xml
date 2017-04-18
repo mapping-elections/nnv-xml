@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<election_record label="Maryland 1808 Electoral College, District 1" type="General" iteration="First Ballot" date="1808" election_id="md.presidentialelector1.1808" handle="10427/27070" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral College" office_id="ON056" scope="Federal">
+		<role title="Elector" scope="District">
+			<ballot>
+				<elector name="John R. Plater" name_id="PJ0155" affiliation="Federalist" affiliation_id="A01" declared_for="Charles C. Pinckney" elector_num="1"><note resp="Philip Lampi">Elected.</note></elector>
+				<elector name="Caleb Hawkins" name_id="HC0033" affiliation="Republican" affiliation_id="A03" declared_for="James Madison" elector_num="2"/>
+				<elector name="John Mitchell" name_id="MJ0207" affiliation="Republican" affiliation_id="A03" declared_for="James Madison" elector_num="3"/>
+				<elector name="William Smallwood" name_id="SW0074" affiliation="null" affiliation_id="null" declared_for="null" elector_num="4"/>
+				<elector name="Mark Richardson" name_id="RM0043" affiliation="null" affiliation_id="null" declared_for="null" elector_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-03">
+				<elector_summary elector_ref="1" vote_total="781" resp="Philip Lampi"/>
+				<elector_summary elector_ref="2" vote_total="25" resp="Philip Lampi"/>
+				<elector_summary elector_ref="3" vote_total="2" resp="Philip Lampi"/>
+				<elector_summary elector_ref="4" vote_total="2" resp="Philip Lampi"/>
+				<elector_summary elector_ref="5" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00475a" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="District" name="One" geog_id="null">
+					<result elector_ref="1" vote="781" resp="Philip Lampi"/>
+					<result elector_ref="2" vote="25" resp="Philip Lampi"/>
+					<result elector_ref="3" vote="2" resp="Philip Lampi"/>
+					<result elector_ref="4" vote="2" resp="Philip Lampi"/>
+					<result elector_ref="5" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14498" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Charles" geog_id="mds_charles">
+						<result elector_ref="1" vote="383" resp="Philip Lampi"/>
+						<result elector_ref="2" vote="10" resp="Philip Lampi"/>
+						<result elector_ref="3" vote="2" resp="Philip Lampi"/>
+						<result elector_ref="4" vote="2" resp="Philip Lampi"/>
+						<result elector_ref="5" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14498" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Prince George's" geog_id="mds_princegeorges">
+						<result elector_ref="1" vote="77" resp="Philip Lampi"/>
+						<result elector_ref="2" vote="15" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14498" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The vote from Prince George County was split between two districts.</note>
+					</sub_unit>
+					<sub_unit type="County" name="Saint Mary's" geog_id="mds_saintmarys">
+						<result elector_ref="1" vote="321" resp="Philip Lampi"/>
+						<result elector_ref="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00474a" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.14498" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.00475a">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+</election_record>

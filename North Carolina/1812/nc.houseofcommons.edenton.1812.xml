@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1812 House of Commons, Edenton Borough" type="General" iteration="First Ballot" date="1812-08" election_id="nc.houseofcommons.edenton.1812" handle="10427/43194" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="Borough">
+			<ballot>
+				<candidate name="Henry Flury" name_id="FH0019" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Iredell" name_id="IJ0070" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-03-17">
+				<candidate_summary candidate_ref="1" vote_total="49" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="44" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04919" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17534" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="Borough" name="Edenton" geog_id="null">
+					<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="44" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04919" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.17534" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.17534">The Edenton Gazette (Edenton, NC).  August 18, 1812.</reference>
+</election_record>

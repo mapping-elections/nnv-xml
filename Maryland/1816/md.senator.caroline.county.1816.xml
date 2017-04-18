@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1816 Electoral Assembly for State Senate, Caroline County" type="General" iteration="First Ballot" date="1816" election_id="md.senator.caroline.county.1816" handle="10427/26752" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Electoral Assembly for State Senate" office_id="ON055" scope="State">
+		<role title="Elector" scope="County">
+			<ballot>
+				<candidate name="William Potter" name_id="PW0046" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="George Reed" name_id="RG0032" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Frederick Holbrook" name_id="HF0004" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="James Keane" name_id="KJ0046" affiliation="Republican" affiliation_id="A03" candidate_num="4"><note resp="Philip Lampi">James Keane was also listed as James Keen, and James Keene.</note></candidate>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-07-03">
+				<candidate_summary candidate_ref="1" vote_total="670" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="650" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="624" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="614" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02083" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02084" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Caroline" geog_id="mds_caroline">
+					<result candidate_ref="1" vote="670" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="650" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="624" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="614" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Lower" geog_id="null">
+						<result candidate_ref="1" vote="181" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="172" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="227" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="219" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02083" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02084" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Middle" geog_id="null">
+						<result candidate_ref="1" vote="322" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="310" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="220" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="216" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02083" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02084" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Federal Gazette lists 179 votes for James Keane.</note>
+					</sub_unit>
+					<sub_unit type="District" name="Upper" geog_id="null">
+						<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="168" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="177" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="179" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02083" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02084" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Baltimore Patriot and Evening Advertiser (Baltimore, MD).  September 5, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02084">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  September 6, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02083">Maryland Gazette and Political Intelligencer (Annapolis, MD).  September 12, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">The Maryland Republican (Annapolis, MD).  September 14, 1816.</reference>
+</election_record>

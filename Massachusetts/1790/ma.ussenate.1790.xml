@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1790 U.S. Senate" type="Legislative" iteration="First Ballot" date="1790" election_id="ma.ussenate.1790" handle="10427/69019" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="Nathaniel Gorham" name_id="GN0007" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George Cabot" name_id="CG0068" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Charles Jarvis" name_id="JC0015" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Tristram Dalton" name_id="DT0022" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Nathan Dane" name_id="DN0011" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="Samuel Holten" name_id="HS0071" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-03-13">
+				<candidate_summary candidate_ref="1" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="35" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="32" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="6" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="2" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Tuesday, June 22. At eleven o'clock, agreeably to assignment, the House chose a Committee to collect, sort and count the votes for one Senator, to represent this State, in the Congress of the United States; who after attending that service, reported that the whole number of votes was 122 - 62 making a choice, .... The Speaker declaring that there was not a choice."  The Massachusetts Centinel (Boston, MA).  June 23, 1790.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="House of Representatives" geog_id="null">
+					<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="32" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="6" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="2" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="State Senate" geog_id="null">
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Massachusetts Centinel (Boston, MA).  June 23, 1790.</reference>
+</election_record>

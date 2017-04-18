@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 House of Representatives, Miami and Shelby Counties" type="General" iteration="First Ballot" date="1819-10" election_id="oh.staterepresentative.miami.shelby.1819" handle="10427/59802" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="District">
+            <ballot>
+                <candidate name="James Fergus" name_id="FJ0284" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Campbell" name_id="CW0125" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-04">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Miami and Shelby" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Miami" geog_id="ohs_miami">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Shelby" geog_id="ohs_shelby">
+                        <result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="3" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19366" resp="Philip Lampi"/>
+                        <sub_unit type="Township" name="Loramie" geog_id="null">
+                            <result candidate_ref="1" vote="27" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19366" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Orange" geog_id="null">
+                            <result candidate_ref="1" vote="58" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19366" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Perry" geog_id="null">
+                            <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19366" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Turtle Creek" geog_id="null">
+                            <result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="2" resp="Philip Lampi"/>
+                            <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.19366" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.19366">Original Election Returns.</reference>
+</election_record>
+

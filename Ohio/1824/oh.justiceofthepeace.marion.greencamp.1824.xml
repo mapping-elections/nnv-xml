@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1824 Justice of the Peace, Marion County, Green Camp Township" type="General" iteration="First Ballot" date="1824-05" election_id="oh.justiceofthepeace.marion.greencamp.1824" handle="10427/60373" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Justice of the Peace" office_id="ON068" scope="Township">
+        <role title="Justice of the Peace" scope="Township">
+            <ballot>
+                <candidate name="Samuel Fish" name_id="FS0013" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Joseph Boyd" name_id="BJ0283" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-02-11">
+                <candidate_summary candidate_ref="1" vote_total="17" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="11" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Marion" geog_id="ohs_marion">
+                    <sub_unit type="Township" name="Green Camp" geog_id="null">
+                        <result candidate_ref="1" vote="17" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The History of Marion County, Ohio.  Chicago: Leggett, Conaway,  1883.  311.</reference>
+</election_record>

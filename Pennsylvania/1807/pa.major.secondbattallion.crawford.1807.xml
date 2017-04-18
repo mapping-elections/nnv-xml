@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1807 Major of 2nd Battallion, Crawford County" type="General" iteration="First Ballot" date="1807-07" election_id="pa.major.secondbattallion.crawford.1807" handle="10427/61739" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Major" office_id="ON076" scope="County">
+		<role title="Major" scope="County">
+			<ballot>
+				<candidate name="John Limber" name_id="LJ0367" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Murrey" name_id="MT0153" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-20">
+				<candidate_summary candidate_ref="1" vote_total="66" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="41" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06132" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"At an election held yesterday at the court house in this town for militia officers of the 137th regement the votes were given as follows:" The Crawford Weekly Messenger (Meadville, PA).  July 9, 1807.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06132" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06132">The Crawford Weekly Messenger (Meadville, PA).  July 9, 1807.</reference>
+</election_record>

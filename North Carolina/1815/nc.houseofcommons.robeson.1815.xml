@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1815 House of Commons, Robeson County" type="General" iteration="First Ballot" date="1815-08" election_id="nc.houseofcommons.robeson.1815" handle="10427/42997" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Commons" office_id="ON062" scope="State">
+        <role title="Member of the House of Commons" scope="County">
+            <ballot>
+                <candidate name="Archibald S. Brown" name_id="BA0160" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Murdock MacLean" name_id="MM0046" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="William Sterling" name_id="SW0158" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-03-28">
+                <candidate_summary candidate_ref="1" vote_total="611" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="599" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="535" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18042" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Robeson" geog_id="null">
+                    <result candidate_ref="1" vote="611" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="599" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="535" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18042" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Alford's" geog_id="null">
+                        <result candidate_ref="1" vote="70" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="138" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="70" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18042" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Lee's" geog_id="null">
+                        <result candidate_ref="1" vote="59" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="109" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18042" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Lumberton" geog_id="null">
+                        <result candidate_ref="1" vote="217" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="253" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18042" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="MacPhaul's" geog_id="null">
+                        <result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="214" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18042" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Saint Paul's" geog_id="null">
+                        <result candidate_ref="1" vote="65" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="82" resp="Philip Lampi"/>
+                        <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18042" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18042">The Raleigh Minerva (Raleigh, NC).  August 18, 1815.</reference>
+</election_record>

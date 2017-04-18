@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1822 State Senate, Prince George Winyah Parish" type="General" iteration="First Ballot" date="1822" election_id="sc.senate.princegeorgewinyaw.1822" handle="10427/32285" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="John Lyde Wilson" name_id="WJ0928" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">John Lyde Wilson is elected, and was also elected Governor of South Carolina on December 7, 1822, where he served.</note></candidate>
+				<candidate name="William Hale" name_id="HW0336" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2009-01-09">
+				<candidate_summary candidate_ref="1" vote_total="256" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="45" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07934" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="Prince George, Winyah" geog_id="null">
+					<result candidate_ref="1" vote="256" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07934" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07934">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07934">Charleston Courier (Charleston, SC).  October 21, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07934">City Gazette and Commercial Advertiser (Charleston, SC).  October 21, 1822.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1849.</reference>
+</election_record>

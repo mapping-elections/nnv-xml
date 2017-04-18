@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1816 Commissioner, Columbiana County, Special" type="Special" iteration="First Ballot" date="1816-10" election_id="oh.commissioner.columbiana.special.1816" handle="10427/59608" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="Daniel Harbaugh" name_id="HD0025" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="J. Blackburn" name_id="BJ0204" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="John Whiteare" name_id="WJ0255" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="William Blackburn" name_id="BW0105" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="George Eakin" name_id="EG0012" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-08-18">
+                <candidate_summary candidate_ref="1" vote_total="236" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="108" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="97" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="71" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="20" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Election in the room of Jacob Roller, resigned.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Columbiana" geog_id="ohs_columbiana">
+                    <result candidate_ref="1" vote="236" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="108" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="97" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="71" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+                    <note resp="Philip Lampi">The Abstract of Votes, Columbiana County lists William Blackburn with 69 votes but the township totals add up to 71.</note>
+                    <sub_unit type="Township" name="Butler" geog_id="null">
+                        <result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="17" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Center" geog_id="null">
+                        <result candidate_ref="1" vote="64" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="8" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Elk Run" geog_id="null">
+                        <result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Fairfield" geog_id="null">
+                        <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="12" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Goshen" geog_id="null">
+                        <result candidate_ref="1" vote="18" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Hanover" geog_id="null">
+                        <result candidate_ref="1" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="55" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Knox" geog_id="null">
+                        <result candidate_ref="1" vote="15" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="10" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Middleton" geog_id="null">
+                        <result candidate_ref="1" vote="11" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="20" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="6" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Springfield" geog_id="null">
+                        <result candidate_ref="1" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="46" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Unity" geog_id="null">
+                        <result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="West" geog_id="null">
+                        <result candidate_ref="3" vote="24" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Yellow Creek" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="9" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="22" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Columbiana County.  Western Reserve Historical Society, Cleveland.</reference>
+</election_record>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="Ohio 1807 Commissioner, Jefferson County, 1 Year" type="General" iteration="First Ballot" date="1807-10" election_id="oh.commissioner.jefferson.1yr.1807" handle="10427/59055" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Commissioner" office_id="ON035" scope="County">
+        <role title="Commissioner" scope="County">
+            <ballot>
+                <candidate name="William Edie" name_id="EW0007" affiliation="null" affiliation_id="null" candidate_num="1"/>
+                <candidate name="Thomas Bay" name_id="BT0074" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Martin Andrews" name_id="AM0004" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-06-23">
+                <candidate_summary candidate_ref="1" vote_total="319" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="295" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="90" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Jefferson" geog_id="ohs_jefferson">
+                    <result candidate_ref="1" vote="319" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="295" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="90" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">The Western Herald (Steubenville, OH).  October 17, 1807.</reference>
+</election_record>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1806 House of Delegates, Dorchester County" type="General" iteration="First Ballot" date="1806" election_id="md.assembly.dorchester.county.1806" handle="10427/26798" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="John Smoot" name_id="SJ0223" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Solomon Frazier" name_id="FS0007" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="George Ward" name_id="WG0016" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Robert Dennis" name_id="DR0012" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Samuel Keene" name_id="KS0003" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-28">
+				<candidate_summary candidate_ref="1" vote_total="1258" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1209" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1094" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1043" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="908" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02449" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Francis Turpin announced as a candidate in Republican Star of August 26, 1806.</note>
+				<note resp="Philip Lampi">John Smoot is listed as a Republican in the Star.</note>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Dorchester" geog_id="mds_dorchester">
+					<result candidate_ref="1" vote="1258" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1209" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1094" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1043" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="908" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02449" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02449">Original Election Returns.  Maryland State Archives, Annapolis.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02449">Republican Star or Eastern Shore General Advertiser (Easton, MD).  October 14, 1806.</reference>
+</election_record>

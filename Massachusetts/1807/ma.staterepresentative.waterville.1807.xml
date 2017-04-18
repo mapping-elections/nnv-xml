@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1807 House of Representatives, Waterville" type="General" iteration="First Ballot" date="1807-05" election_id="ma.staterepresentative.waterville.1807" handle="10427/69828" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Elnathan Sherwin" name_id="SE0198" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Hasty" name_id="HJ1137" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-01-12">
+				<candidate_summary candidate_ref="1" vote_total="52" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Waterville" geog_id="null">
+					<result candidate_ref="1" vote="52" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Giveen, Clement M., ed.  A Chronology of Municipal and Election Statistics, Waterville, Maine.  Augusta, ME: Maine Farmer Press, 1908.  243.</reference>
+</election_record>

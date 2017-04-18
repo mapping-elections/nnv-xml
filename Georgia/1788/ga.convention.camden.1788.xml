@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Georgia 1788 Constitutional Convention, Camden County" type="General" iteration="First Ballot" date="1788-12" election_id="ga.convention.camden.1788" handle="10427/80116" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="County">
+			<ballot>
+				<candidate name="Henry Osborne" name_id="OH0000" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Stafford" name_id="ST0159" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Abner Williams" name_id="WA0240" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="James Seagrove" name_id="SJ0082" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Jacob Weed" name_id="WJ1116" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Henry Wright" name_id="WH0124" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2015-12-17">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Georgia" geog_id="null">
+				<sub_unit type="County" name="Camden" geog_id="null">
+					<sub_unit type="Town" name="Saint Patrick" geog_id="null">
+						<result candidate_ref="1" vote="55" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="32" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="25" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Atlanta Public Library.</reference>
+</election_record>

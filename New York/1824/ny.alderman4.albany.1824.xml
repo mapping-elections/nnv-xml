@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="New York 1824 Alderman, Albany, Ward 4" type="General" iteration="First Ballot" date="1824" election_id="ny.alderman4.albany.1824" handle="10427/65622" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Alderman" office_id="ON001" scope="City">
+		<role title="Alderman" scope="Ward">
+			<ballot>
+				<candidate name="Giles W. Porter" name_id="PG0040" affiliation="People's Ticket" affiliation_id="A05" candidate_num="1"/>
+				<candidate name="Charles D. Cooper" name_id="CC0048" affiliation="People's Ticket" affiliation_id="A05" candidate_num="2"/>
+				<candidate name="William Mayell" name_id="MW0149" affiliation="Caucus" affiliation_id="A06" candidate_num="3"/>
+				<candidate name="Philip Pheleps" name_id="PP0030" affiliation="Caucus" affiliation_id="A06" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-01-10">
+				<candidate_summary candidate_ref="1" vote_total="276" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="273" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="199" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="189" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="Albany" geog_id="null">
+					<sub_unit type="Ward" name="One" geog_id="null">
+						<result candidate_ref="1" vote="276" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="273" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="199" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="189" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Daily Advertiser (New York, NY).  September 30, 1824.</reference>
+</election_record>

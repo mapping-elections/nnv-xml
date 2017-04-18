@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1794 House of Representatives, Richland County" type="General" iteration="First Ballot" date="1794" election_id="sc.assembly.richland.1794" handle="10427/31665" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="John Taylor" name_id="TJ0593" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Goodwin" name_id="GJ0553" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Meyer" name_id="MW0380" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="John Davidson" name_id="DJ0133" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="A. T. Brisbane" name_id="BA0270" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Andrew Patterson" name_id="PA0108" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2006-11-13">
+				<candidate_summary candidate_ref="1" vote_total="144" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="96" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="68" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="63" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="27" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="3" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07451" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">211 voters participated in this election.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="County" name="Richland" geog_id="null">
+					<result candidate_ref="1" vote="144" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="68" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="63" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="27" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="3" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07451" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07451">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+</election_record>

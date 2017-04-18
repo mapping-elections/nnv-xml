@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1820 State Senate, Randolph County" type="General" iteration="First Ballot" date="1820-08" election_id="nc.statesenator.randolph.1820" handle="10427/42746" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="William Hogan" name_id="HW0274" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Seth Wade" name_id="WS0142" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-09-11">
+                <candidate_summary candidate_ref="1" vote_total="503" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="360" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Randolph" geog_id="null">
+                    <result candidate_ref="1" vote="503" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="360" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Court House" geog_id="null">
+                        <result candidate_ref="1" vote="25" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Graves's" geog_id="null">
+                        <result candidate_ref="1" vote="41" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Harris's" geog_id="null">
+                        <result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="29" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Hoover's" geog_id="null">
+                        <result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="41" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Ingram's" geog_id="null">
+                        <result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Johnstonville" geog_id="null">
+                        <result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="101" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Sandy Creek" geog_id="null">
+                        <result candidate_ref="1" vote="170" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Returns.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1814 Commissioner, Montgomery County, Special" type="Special" iteration="First Ballot" date="1814-10" election_id="pa.commissioner.montgomery.special.1814" handle="10427/67055" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Samuel C. Patterson" name_id="PS0175" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Evan Jones" name_id="JE0033" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2012-07-11">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In the room of Jacob Yost."  Original Election Returns.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Montgomery" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="null" name="Military" geog_id="null">
+						<sub_unit type="null" name="Camp Marques Hook" geog_id="null">
+							<sub_unit type="null" name="1st Company, Montgomery County Militia" geog_id="null">
+								<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="null" name="2nd Company, Montgomery County Militia" geog_id="null">
+								<result candidate_ref="1" vote="50" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+							</sub_unit>
+							<sub_unit type="null" name="3rd Company, Montgomery County Militia" geog_id="null">
+								<result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+								<result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+							</sub_unit>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.  Pennsylvania State Archives, Harrisburg.</reference>
+</election_record>

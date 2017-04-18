@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1821 Collector, Hudson, Ward 2" type="General" iteration="First Ballot" date="1821" election_id="ny.collector.hudson2.1821" handle="10427/66739" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Collector" office_id="ON033" scope="City">
+      <role title="Collector" scope="Ward">
+        <ballot>
+           <candidate name="Isaiah Griffin" name_id="GI0033" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+           <candidate name="John T. Van Deusen" name_id="VJ0157" affiliation="Bucktail" affiliation_id="A06" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-03-01">
+           <candidate_summary candidate_ref="1" vote_total="193" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="115" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+        	<sub_unit type="City" name="Hudson" geog_id="null">
+           	<sub_unit type="Ward" name="Two" geog_id="null">
+           	<result candidate_ref="1" vote="193" resp="Philip Lampi"/>
+           	<result candidate_ref="2" vote="115" resp="Philip Lampi"/>
+           	</sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Northern Whig (Hudson, NY).  April 10, 1821.</reference>
+</election_record>
+

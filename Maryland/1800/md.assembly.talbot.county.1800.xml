@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1800 House of Delegates, Talbot County" type="General" iteration="First Ballot" date="1800" election_id="md.assembly.talbot.county.1800" handle="10427/26949" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Edward Lloyd" name_id="LE0016" affiliation="Democrat" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Thomas Denny" name_id="DT0045" affiliation="Democrat" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Rose" name_id="RW0036" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Meley" name_id="MW0080" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="John Edmonson" name_id="EJ0035" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="John Goldsborough" name_id="GJ0096" affiliation="Federalist" affiliation_id="A01" candidate_num="6"/>
+				<candidate name="George Hayward" name_id="HG0017" affiliation="Federalist" affiliation_id="A01" candidate_num="7"/>
+				<candidate name="John Role" name_id="RJ0080" affiliation="Federalist" affiliation_id="A01" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-01">
+				<candidate_summary candidate_ref="1" vote_total="578" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="488" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="474" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="448" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="489" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="465" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="401" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="392" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02262" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="County" name="Talbot" geog_id="mds_talbot">
+					<result candidate_ref="1" vote="578" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="488" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="474" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="448" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="489" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="465" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="401" resp="Philip Lampi"/>
+					<result candidate_ref="8" vote="392" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02262" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Centinel of Liberty, or George-town and Washington Advertiser (Georgetown, DC).  October 14, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02262">The American. And Daily Advertiser (Baltimore, MD).  October 23, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 28, 1800.</reference>
+	<reference type="citation" resp="Philip Lampi">American. And Daily Advertiser (Baltimore, MD).  November 28, 1800.</reference>
+</election_record>

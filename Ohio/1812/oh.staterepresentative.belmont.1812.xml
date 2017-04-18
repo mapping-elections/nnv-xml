@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1812 House of Representatives, Belmont County" type="General" iteration="First Ballot" date="1812-10" election_id="oh.staterepresentative.belmont.1812" handle="10427/59305" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="House of Representatives" office_id="ON064" scope="State">
+        <role title="State Representative" scope="County">
+            <ballot>
+                <candidate name="Peter Yarnall" name_id="YP0003" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Jacob Myers" name_id="MJ0680" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Josiah Dixon" name_id="DJ0095" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+            </ballot>
+            <overview status="Version 1.0" modified="2010-12-03">
+                <candidate_summary candidate_ref="1" vote_total="997" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="964" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="954" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18987" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Belmont" geog_id="ohs_belmont">
+                    <result candidate_ref="1" vote="997" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="964" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="954" resp="Philip Lampi"/>
+                    <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18987" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18987">The Fredonian (Chillicothe, OH).  October 28, 1812.</reference>
+</election_record>

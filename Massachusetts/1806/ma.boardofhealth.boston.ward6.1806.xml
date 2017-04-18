@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1806 Board of Health, Boston, Ward 6" type="General" iteration="First Ballot" date="1806-04" election_id="ma.boardofhealth.boston.ward6.1806" handle="10427/69396" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Board of Health" office_id="ON015" scope="Town">
+		<role title="Board of Health" scope="Ward">
+			<ballot>
+				<candidate name="Andrew Dunlap" name_id="DA0139" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="T. W. Sumner" name_id="ST0125" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-11-26">
+				<candidate_summary candidate_ref="1" vote_total="108" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="94" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="3" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Ward No. VI - At a meeting of inhabitants of Ward No. 6, at Clark's Tavern, assembled at 3 o'clock on Wednesday, 2nd April, for the choice of a member of the Board of Health and two Assistant Assessors - For a member of the Board of Health, the votes were as follows .... The whole number 205."  The Democrat (Boston, MA).  April 5, 1806.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Boston" geog_id="null">
+					<sub_unit type="Ward" name="Six" geog_id="null">
+						<result candidate_ref="1" vote="108" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="94" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Democrat (Boston, MA).  April 5, 1806.</reference>
+</election_record>

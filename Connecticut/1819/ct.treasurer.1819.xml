@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1819 Treasurer" type="General" iteration="First Ballot" date="1819-04" election_id="ct.treasurer.1819" handle="10427/79786" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Treasurer" office_id="ON122" scope="State">
+		<role title="Treasurer" scope="State">
+			<ballot>
+				<candidate name="Isaac Spencer, Jr." name_id="SI0000" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Andrew Kingsbury" name_id="KA0001" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2007-03-12">
+				<candidate_summary candidate_ref="1" vote_total="15351" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="14026" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="263" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Fairfield" geog_id="null">
+					<result candidate_ref="1" vote="2070" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1124" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Hartford" geog_id="null">
+					<result candidate_ref="1" vote="2615" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="3136" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Litchfield" geog_id="null">
+					<result candidate_ref="1" vote="2178" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2471" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Middlesex" geog_id="null">
+					<result candidate_ref="1" vote="1288" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1268" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="New Haven" geog_id="cts_newhaven">
+					<result candidate_ref="1" vote="2413" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="2053" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="New London" geog_id="null">
+					<result candidate_ref="1" vote="2201" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1253" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Tolland" geog_id="null">
+					<result candidate_ref="1" vote="908" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1023" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="County" name="Windham" geog_id="null">
+					<result candidate_ref="1" vote="1678" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1698" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  April 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Courant (Hartford, CT).  April 27, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Middlesex Gazette (Middletown, CT).  April 29, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Mirror (Hartford, CT).  May 3, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Herald, and General Advertiser (New Haven, CT).  May 4, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Gazette (New London, CT).  May 5, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">Norwich Courier (Norwich, CT).  May 5, 1819.</reference>
+	<reference type="citation" resp="Philip Lampi">The Republican Advocate (New London, CT).  May 5, 1819.</reference>
+</election_record>

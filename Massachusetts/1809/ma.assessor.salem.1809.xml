@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record label="Massachusetts 1809 Assessor, Salem" type="General" iteration="First Ballot" date="1809-03" election_id="ma.assessor.salem.1809" handle="10427/69141" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assessor" office_id="ON004" scope="Town">
+		<role title="Assessor" scope="Town">
+			<ballot>
+				<candidate name="Joseph Henfield" name_id="HJ1204" affiliation="supported by both parties" affiliation_id="A10" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Ward, Jr." name_id="WB0109" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Odell" name_id="OJ0025" affiliation="Republican" affiliation_id="A03" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Ephraim Emerton" name_id="EE0009" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+				<candidate name="Nathaniel Knight, Jr." name_id="KN0025" affiliation="Federalist" affiliation_id="A01" candidate_num="5"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-02-11">
+				<candidate_summary candidate_ref="1" vote_total="1501" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="771" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="770" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="745" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="731" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="13" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Salem Gazette (Salem, MA) lists Republicans as Torys and Federalists as Whigs.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Salem" geog_id="null">
+					<result candidate_ref="1" vote="1501" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="771" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="770" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="745" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="731" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="13" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">Joseph Henfield died a few hours after being elected and an election to fill his seat was held on March 20, 1809.</note>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Salem Gazette (Salem, MA).  March 17, 1809.</reference>
+	<reference type="citation" resp="Philip Lampi">The Essex Register (Salem, MA).  March 18, 1809.</reference>
+</election_record>

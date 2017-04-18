@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1822 House of Representatives, Muskingum County, Special" type="Special" iteration="First Ballot" date="1822-04" election_id="oh.staterepresentative.muskingum.special.1822" handle="10427/60041" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Blocksom" name_id="BW0261" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph K. MacCuse" name_id="MJ0701" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Jacob Crooks" name_id="CJ0607" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-09">
+				<candidate_summary candidate_ref="1" vote_total="786" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="648" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="305" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05324" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"The following are the aggregate number of votes given throughout the county for a Representative to fill the vacancy occasioned by the resignation of Alexander Harper, esq."  Muskingum Messenger (Zanesville, OH).  April 9, 1822.</note>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Muskingum" geog_id="ohs_muskingum">
+					<result candidate_ref="1" vote="786" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="648" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="305" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05324" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05324">Muskingum Messenger (Zanesville, OH).  April 9, 1822.</reference>
+</election_record>

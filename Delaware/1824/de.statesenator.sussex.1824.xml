@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1824 State Senate, Sussex County" type="General" iteration="First Ballot" date="1824-10" election_id="de.statesenator.sussex.1824" handle="10427/43799" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="William N. Polk" name_id="PW0019" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jesse Green" name_id="GJ0021" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Tenant" name_id="TJ0497" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Thomas L. Judge" name_id="JT0000" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1432" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1406" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="708" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="704" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Delaware Gazette (Wilmington, DE) of November 5, 1824 refers to John Tenant as John Tennant and to Thomas L. Judge as Thomas L. Junge.</note>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Sussex" geog_id="des_sussex">
+					<result candidate_ref="1" vote="1432" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1406" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="708" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="704" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Baltimore" geog_id="des_sussex_baltimore">
+						<result candidate_ref="1" vote="82" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="81" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="31" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="34" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The Delaware Gazette (Wilimington) of November 5, 1824 lists John Tenant with 34 votes, but that would give him a total of 711 votes.</note>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Broad Creek" geog_id="des_sussex_broadcreek">
+						<result candidate_ref="1" vote="98" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="76" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="76" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Broadkill" geog_id="des_sussex_broadkill">
+						<result candidate_ref="1" vote="248" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="247" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="152" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="152" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Broadkill Hundred was also sometimes known as Broad Kiln Hundred.</note>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Cedar Creek" geog_id="des_sussex_cedarcreek">
+						<result candidate_ref="1" vote="200" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="199" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="39" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="38" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Dagsborough" geog_id="des_sussex_dagsborough">
+						<result candidate_ref="1" vote="160" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="43" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="43" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Indian River" geog_id="des_sussex_indianriver">
+						<result candidate_ref="1" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="89" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="35" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="35" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Lewes and Rehoboth" geog_id="null">
+						<result candidate_ref="1" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="72" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="168" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="155" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="59" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Nanticoke" geog_id="des_sussex_nanticoke">
+						<result candidate_ref="1" vote="149" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="52" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="51" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="North West Fork" geog_id="null">
+						<result candidate_ref="1" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="148" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="144" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12191" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Watchman and Delaware Advertiser (Wilmington, DE).  November 5, 1824.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12191">Delaware Gazette (Wilmington, DE).  November 5, 1824.</reference>
+</election_record>

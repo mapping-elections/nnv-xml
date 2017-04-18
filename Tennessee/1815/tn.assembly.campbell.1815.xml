@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1815 House of Representatives, Campbell County" type="General" iteration="First Ballot" date="1815" election_id="tn.assembly.campbell.1815" handle="10427/20261" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Robert Smith" name_id="SR0200" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Joseph Hart" name_id="HJ1277" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-04-29">
+				<candidate_summary candidate_ref="1" vote_total="249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="186" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08084" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Tennessee" geog_id="null">
+				<sub_unit type="County" name="Campbell" geog_id="null">
+					<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="186" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08084" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08084">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+</election_record>

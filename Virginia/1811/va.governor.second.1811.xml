@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1811 Governor, Special, Ballot 2" type="Special" iteration="Second Ballot" date="1811-12" election_id="va.governor.second.1811" handle="10427/34249" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Governor" office_id="ON060" scope="State">
+		<role title="Governor" scope="State">
+			<ballot>
+				<candidate name="George W. Smith" name_id="SG0170" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James Barbour" name_id="BJ1485" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-10-27">
+				<candidate_summary candidate_ref="1" vote_total="100" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="97" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10908" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10909" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">To fill the vacancy of James Monroe, who was appointed Secretary of State in the Cabinet of President James Madison in April 1811.</note>
+				<note resp="Philip Lampi">"Mr. Smith not having a majority of the whole, a second ballot took place, which terminated in favor of Mr. Smith."  Alexandria Daily Gazette, Commercial and Political (Alexandria, VA).  December 10, 1811.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="null" name="Senate" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+				<sub_unit type="null" name="House of Delegates" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10909">Norfolk Gazette and Publick Ledger (Norfolk, VA).  December 9, 1811.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10908">Alexandria Daily Gazette, Commercial and Political (Alexandria, VA).  December 10, 1811.</reference>
+</election_record>

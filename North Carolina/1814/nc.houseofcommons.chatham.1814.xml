@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1814 House of Commons, Chatham County" type="General" iteration="First Ballot" date="1814-08" election_id="nc.houseofcommons.chatham.1814" handle="10427/43096" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Commons" office_id="ON062" scope="State">
+		<role title="Member of the House of Commons" scope="County">
+			<ballot>
+				<candidate name="John A. Ramsey" name_id="RJ0267" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William O. Kelly" name_id="KW0070" affiliation="Republican" affiliation_id="A03" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Bartholomew Lightfoot" name_id="LB0042" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="G. Dismukes" name_id="DG0036" affiliation="Federalist" affiliation_id="A01" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-08-28">
+				<candidate_summary candidate_ref="1" vote_total="843" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="685" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="592" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="362" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04971" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18022" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="North Carolina" geog_id="null">
+				<sub_unit type="County" name="Chatham County" geog_id="null">
+					<result candidate_ref="1" vote="843" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="685" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="592" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="362" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.04974" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.18022" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.04971">The Raleigh Minerva (Raleigh, NC).  August 19, 1814.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.18022">The Star (Raleigh, NC).  August 19, 1814.</reference>
+</election_record>

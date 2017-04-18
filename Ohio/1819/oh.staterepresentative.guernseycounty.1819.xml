@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1819 House of Representatives, Guernsey County" type="General" iteration="First Ballot" date="1819-10" election_id="oh.staterepresentative.guernseycounty.1819" handle="10427/59755" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="Isaac Gruman" name_id="GI0022" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Thomas Hannah" name_id="HT0147" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="George Metcalf" name_id="MG0069" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Benjamin Bay" name_id="BB0073" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="William Orr" name_id="OW0020" affiliation="null" affiliation_id="null" candidate_num="5"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2011-01-04">
+				<candidate_summary candidate_ref="1" vote_total="252" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="250" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="173" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="137" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="135" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05276" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Guernsey" geog_id="ohs_guernsey">
+					<result candidate_ref="1" vote="252" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="250" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="173" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="137" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="135" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05276" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05276">Muskingum Messenger (Zanesville, OH).  October 20, 1819.</reference>
+</election_record>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 U.S. Senate" type="Legislative" iteration="First Ballot" date="1801-02" election_id="pa.us.senate.1801" handle="10427/61248" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. Senate" office_id="ON127" scope="Federal">
+		<role title="U.S. Senator" scope="State">
+			<ballot>
+				<candidate name="George Logan" name_id="LG0042" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+				<candidate name="Peter Muhlenberg" name_id="MP0089" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Jones" name_id="JW0065" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-15">
+				<candidate_summary candidate_ref="1" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="45" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09977" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09978" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"On Wednesday last the two branches of the Pennsylvania legislature met in the chamber of the House of Representatives, and proceeded to the choice of a person to represent this state in the Senate of the United States." The York Recorder (York, PA).  February 25, 1801.</note>
+				<note resp="Philip Lampi">There were 11 members of the legislature who did not vote, 4 from the Senate and 7 from the House of Representatives.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="null" name="General Assembly" geog_id="null">
+					<result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09977" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09978" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09978">The Philadelphia Gazette and Daily Advertiser (Philadelphia, PA).  February 20, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09977">The York Recorder (York, PA).  February 25, 1801.</reference>
+</election_record>

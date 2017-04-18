@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1801 State Senate, Dukes, Nantucket, and Plymouth Counties, Ballot 2" type="Legislative" iteration="Second Ballot" date="1801" election_id="ma.senator2.dukesnantucketplymouth.1801" handle="10427/68871" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="District">
+            <ballot>
+                <candidate name="Isaac Thompson" name_id="TI0012" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Beza Hayward" name_id="HB0073" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Benjamin Allen" name_id="AB0007" affiliation="Federalist" affiliation_id="A01" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Isaac Coffin" name_id="CI0010" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+                <candidate name="Aaron Hobart" name_id="HA0109" affiliation="Republican" affiliation_id="A03" candidate_num="5"/>
+                <candidate name="Daniel Snow" name_id="SD0059" affiliation="Republican" affiliation_id="A03" candidate_num="6"/>
+            </ballot>
+            <overview status="Version 0.5" modified="2014-07-30">
+                <candidate_summary candidate_ref="1" vote_total="162" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="161" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="158" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"Wednesday last, the Civil Government of Massachusetts, for the ensuing year, was renewed ... The Governor, Council and Legislature, attended by the General Staff, and other officers, and escorted by the Independent Cadets, proceeded to the Old Brick Meeting-house ... In the afternoon, the two Houses convened in the Representatives' Chamber, to fill the eleven vacancies in the Senate. ... Plymouth, etc..--Three vacancies. Hon. ISAAC THOMPSON had 162 votes, BEZA HAYWARD, 161, and BENJAMIN ALLEN, 158 and were elected."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 30, 1801.</note>
+            </overview>
+            <admin_unit type="State" name="Massachusetts" geog_id="null">
+                <sub_unit type="null" name="General Court" geog_id="null">
+                    <result candidate_ref="1" vote="162" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="161" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="158" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                    <result candidate_ref="5" resp="Philip Lampi"/>
+                    <result candidate_ref="6" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Columbian Courier (New Bedford, MA).  May 16, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">The Newburyport Herald and Country Gazette (Newburyport, MA).  May 19, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">The Telescope: or, American Herald (Leominster, MA).  May 21, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 30, 1801.</reference>
+    <reference type="citation" resp="Philip Lampi">The Telescope: or, American Herald (Leominster, MA).  June 4, 1801.</reference>
+</election_record>
+

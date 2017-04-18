@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1814 Assembly, Putnam County" type="General" iteration="First Ballot" date="1814" election_id="ny.assembly.putnam.1814" handle="10427/25626" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="David Knapp" name_id="KD0039" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="David DeForest" name_id="DD0023" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+           <candidate name="Abraham H. Schenck" name_id="SA0125" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-05-31">
+           <candidate_summary candidate_ref="1" vote_total="673" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="247" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" vote_total="1" resp="Philip Lampi"/>
+           <note resp="Philip Lampi">Abraham H. Schenck was a candidate for U.S. House of Representatives.</note>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Putnam" geog_id="null">
+              <result candidate_ref="1" vote="673" resp="Philip Lampi"/>
+              <result candidate_ref="2" vote="247" resp="Philip Lampi"/>
+              <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Carmel" geog_id="null">
+                <result candidate_ref="1" vote="219" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="32" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Fredericks" geog_id="null">
+                <result candidate_ref="1" vote="126" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Patterson" geog_id="null">
+                <result candidate_ref="1" vote="61" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="62" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Phillipstown" geog_id="null">
+                <result candidate_ref="1" vote="129" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="79" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Southeast" geog_id="null">
+                <result candidate_ref="1" vote="138" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+</election_record>
+
+

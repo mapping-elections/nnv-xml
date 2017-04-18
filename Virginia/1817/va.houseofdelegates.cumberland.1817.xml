@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1817 House of Delegates, Cumberland County" type="General" iteration="First Ballot" date="1817" election_id="va.houseofdelegates.cumberland.1817" handle="10427/33185" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Allen Wilson" name_id="WA0190" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="George W. Crump" name_id="CG0118" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John P. Reynolds" name_id="RJ0650" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-06-27">
+				<candidate_summary candidate_ref="1" vote_total="232" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="176" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="137" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09070" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Cumberland" geog_id="null">
+					<result candidate_ref="1" vote="232" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="137" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.09070" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.09070">Cumberland County Deeds.  Book 14.  120-124.</reference>
+</election_record>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="New York 1808 Assembly, Broome County" type="General" iteration="First Ballot" date="1808" election_id="ny.assembly.broome.1808" handle="10427/25652" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Assembly" office_id="ON003" scope="State">
+      <role title="Assemblyman" scope="County">
+        <ballot>
+           <candidate name="Eleazer Dana" name_id="DE0041" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+           <candidate name="Samuel Seymour" name_id="SS0097" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+           <candidate name="Uri Tracy" name_id="TU0001" affiliation="null" affiliation_id="null" candidate_num="3"/>
+           <candidate name="Daniel Henry" name_id="HD0108" affiliation="null" affiliation_id="null" candidate_num="4"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-12-27">
+           <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+           <note resp="Philip Lampi">Uri Tracy was a candidate for U.S. House of Representatives.</note>
+           <note resp="Philip Lampi">Broome County was organized on March 28, 1806. It continued to vote with Tioga County for Assembly in 1806 and 1807. In 1808, it was allocated one Assemblyman.</note>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="County" name="Broome" geog_id="null">
+              <result candidate_ref="1" resp="Philip Lampi"/>
+              <result candidate_ref="2" resp="Philip Lampi"/>
+              <result candidate_ref="3" resp="Philip Lampi"/>
+              <result candidate_ref="4" resp="Philip Lampi"/>
+              <sub_unit type="Town" name="Berkshire" geog_id="null">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+                <result candidate_ref="3" resp="Philip Lampi"/>
+                <result candidate_ref="4" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Chenango" geog_id="null">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+                <result candidate_ref="3" resp="Philip Lampi"/>
+                <result candidate_ref="4" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Leslie" geog_id="null">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+                <result candidate_ref="3" resp="Philip Lampi"/>
+                <result candidate_ref="4" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Tioga" geog_id="null">
+                <result candidate_ref="1" vote="21" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="61" resp="Philip Lampi"/>
+                <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Union" geog_id="null">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+                <result candidate_ref="3" resp="Philip Lampi"/>
+                <result candidate_ref="4" resp="Philip Lampi"/>
+              </sub_unit>
+              <sub_unit type="Town" name="Windsor" geog_id="null">
+                <result candidate_ref="1" resp="Philip Lampi"/>
+                <result candidate_ref="2" resp="Philip Lampi"/>
+                <result candidate_ref="3" resp="Philip Lampi"/>
+                <result candidate_ref="4" resp="Philip Lampi"/>
+              </sub_unit>
+            </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Tioga Town Records.</reference>
+</election_record>
+

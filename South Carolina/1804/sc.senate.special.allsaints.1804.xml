@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1804 State Senate, All Saints Parish, Special" type="Special" iteration="First Ballot" date="1804-04" election_id="sc.senate.special.allsaints.1804" handle="10427/31913" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="Parish">
+			<ballot>
+				<candidate name="Paul Michau" name_id="MP0116" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Allston" name_id="AB0043" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-10-17">
+				<candidate_summary candidate_ref="1" vote_total="12" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="11" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07558" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was held to fill a vacancy caused by the death of Thomas Young on March 21, 1804.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="Parish" name="All Saints" geog_id="null">
+					<result candidate_ref="1" vote="12" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="11" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07558" resp="Philip Lampi"/>
+					<sub_unit type="Populated Place" name="East End Long Bay" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">15 voters at East End Long Bay participated in this election.</note>
+					</sub_unit>
+					<sub_unit type="Populated Place" name="West End Long Bay" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">8 voters at West End Long Bay participated in this election.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07558">Original Election Returns.  South Carolina Department of Archives and History, Columbia.</reference>
+	<reference type="citation" resp="Philip Lampi">Biographical Directory of the South Carolina State Senate.  Vol. 3.  1828.</reference>
+</election_record>

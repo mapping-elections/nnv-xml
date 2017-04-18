@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<election_record label="New York 1820 Assembly, Rockland County" type="General" iteration="First Ballot" date="1820" election_id="ny.assembly.rockland.1820" handle="10427/66846" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Assembly" office_id="ON003" scope="State">
+		<role title="Assemblyman" scope="County">
+			<ballot>
+				<candidate name="Abraham Gurnee" name_id="GA0034" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Peter S. Van Orden" name_id="VP0038" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Levi Sherwood" name_id="SL0012" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-01-28">
+				<candidate_summary candidate_ref="1" vote_total="533" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="357" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="19" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="County" name="Rockland" geog_id="null">
+					<result candidate_ref="1" vote="533" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="357" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="19" resp="Philip Lampi"/>
+					<sub_unit type="Town" name="Clarkstown" geog_id="null">
+						<result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Haverstraw" geog_id="null">
+						<result candidate_ref="1" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="15" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Hempstead" geog_id="null">
+						<result candidate_ref="1" vote="167" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="145" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Town" name="Orangetown" geog_id="null">
+						<result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="60" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Original Election Returns.</reference>
+	<reference type="citation" resp="Philip Lampi">National Advocate (New York, NY).  April 29, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">New York The Daily Advertiser (New York, NY).  May 1, 1820.</reference>
+	<reference type="citation" resp="Philip Lampi">The New-York Statesman (Albany, NY).  June 6, 1820.</reference>
+</election_record>

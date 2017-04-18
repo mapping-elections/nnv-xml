@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1817 Inspector of the General Election, Philadelphia City, North Ward" type="General" iteration="First Ballot" date="1817-10" election_id="pa.inspector.philadelphiacity.north.1817" handle="10427/67682" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Adam Traqnair" name_id="TA0048" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Govett" name_id="GC0030" affiliation="Federalist" affiliation_id="A01" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hugh Ferguson" name_id="FH0026" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Alexander Hampton" name_id="HA0191" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-21">
+				<candidate_summary candidate_ref="1" vote_total="249" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="247" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="119" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="119" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Adam Traqnair and Charles Govett are listed as "Friends of Heister." Hugh Ferguson and Alexander Hampton are listed as "Friends of Findlay."</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="North" geog_id="null">
+						<result candidate_ref="1" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="247" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="119" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="119" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Poulson's American Daily Advertiser (Philadelphia, PA).  October 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">Relf's Philadelphia Gazette. And Daily Advertiser (Philadelphia, PA).  October 4, 1817.</reference>
+	<reference type="citation" resp="Philip Lampi">United States' Gazette (Philadelphia, PA).  October 8, 1817.</reference>
+</election_record>

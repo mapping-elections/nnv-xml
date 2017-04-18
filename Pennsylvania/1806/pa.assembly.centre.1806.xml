@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1806 House of Representatives, Centre County" type="General" iteration="First Ballot" date="1806-10" election_id="pa.assembly.centre.1806" handle="10427/61625" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="William Rankin" name_id="RW0153" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Matthew Allison" name_id="AM0017" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="John Culbertson" name_id="CJ0779" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-23">
+				<candidate_summary candidate_ref="1" vote_total="731" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="587" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="197" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06050" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Centre" geog_id="null">
+					<result candidate_ref="1" vote="731" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="587" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="197" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.06050" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Clearfield" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+						<result candidate_ref="3" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">Clearfield County was erected on March 26, 1804. From 1804 until 1811 Clearfield County voted with Centre County by an act of the legislature stating: "That the county of Clearfield shall be an election district, and the electors thereof shall hold their general elections at the house of Benjamin Jordan, in the said district, and shall be entitled to vote for members of the Federal and State Legislatures, sheriffs, commissioners, and other county officers for Centre County." History of Clearfield County, Pennsylvania, 66.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.06050">The Huntingdon Gazette (Huntingdon, PA).  October 23, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">The Commonwealth (Pittsburgh, PA).  November 5, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">The True American and Commercial Advertiser (Philadelphia, PA).  November 6, 1806.</reference>
+	<reference type="citation" resp="Philip Lampi">Aldrich, Lewis Cass, ed.  History of Clearfield County, Pennsylvania.  Syracuse, NY: D. Mason and, 1877.  66.</reference>
+</election_record>

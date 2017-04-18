@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Delaware 1823 Levy Court Commissioner, Kent County" type="General" iteration="First Ballot" date="1823" election_id="de.levycourtcommissioner.kent.1823" handle="10427/43814" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Levy Court Commissioner" office_id="ON071" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="John Lockwood" name_id="LJ0017" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Andrew Green" name_id="GA0120" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Elias Primrose" name_id="PE0125" affiliation="Federalist" affiliation_id="A01" candidate_num="3"/>
+				<candidate name="Job Meredith" name_id="MJ1050" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+				<candidate name="Matthew Fleming" name_id="FM0049" affiliation="Democrat" affiliation_id="A03" candidate_num="5"/>
+				<candidate name="William Harrington" name_id="HW0309" affiliation="Democrat" affiliation_id="A03" candidate_num="6"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-10">
+				<candidate_summary candidate_ref="1" vote_total="1220" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1215" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1208" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1122" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1099" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Delaware" geog_id="des">
+				<sub_unit type="County" name="Kent" geog_id="des_kent">
+					<result candidate_ref="1" vote="1220" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1215" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1208" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1122" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1122" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1099" resp="Philip Lampi"/>
+					<sub_unit type="Hundred" name="Duck Creek" geog_id="des_kent_duckcreek">
+						<result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="210" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="249" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="243" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="249" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Little Creek" geog_id="des_kent_littlecreek">
+						<result candidate_ref="1" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="159" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="157" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Mispillion" geog_id="des_kent_mispillion">
+						<result candidate_ref="1" vote="429" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="421" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="418" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="226" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="234" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="221" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Murderkill" geog_id="des_kent_murderkill">
+						<result candidate_ref="1" vote="337" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="338" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="334" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="306" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="304" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="288" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="Hundred" name="Saint Jones" geog_id="null">
+						<result candidate_ref="1" vote="197" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="197" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="197" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="182" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="182" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Delaware Gazette (Wilmington, DE).  October 14, 1823.</reference>
+</election_record>

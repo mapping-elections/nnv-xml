@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<election_record label="Ohio 1804 Commissioner, Ross County" type="General" iteration="First Ballot" date="1804" election_id="oh.countycommissioner.ross.1804" handle="10427/58920" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="William Niblack" name_id="NW0024" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Armstrong" name_id="AJ0236" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-06-13">
+				<candidate_summary candidate_ref="1" vote_total="479" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="242" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05095" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ross" geog_id="ohs_ross">
+					<result candidate_ref="1" vote="479" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="242" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05095" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05095">The Scioto Gazette (Chillicothe, OH).  October 15, 1804.</reference>
+</election_record>

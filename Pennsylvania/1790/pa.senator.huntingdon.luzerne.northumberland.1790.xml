@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 State Senate, Huntingdon, Luzerne, and Northumberland Counties" type="General" iteration="First Ballot" date="1790-10" election_id="pa.senator.huntingdon.luzerne.northumberland.1790" handle="10427/60692" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="District">
+			<ballot>
+				<candidate name="William Montgomery" name_id="MW0284" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Charles Smith" name_id="SC0019" affiliation="null" affiliation_id="null" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05403" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="District" name="Huntingdon, Luzerne, and Northumberland" geog_id="null">
+					<result candidate_ref="1" resp="Philip Lampi"/>
+					<result candidate_ref="2" resp="Philip Lampi"/>
+					<sub_unit type="County" name="Huntingdon" geog_id="null">
+						<result candidate_ref="1" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="County" name="Luzerne" geog_id="null">
+						<result candidate_ref="1" vote="264" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="43" resp="Philip Lampi"/>
+						<sub_unit type="Township" name="Kingston" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Salem" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Tioga" geog_id="null">
+							<result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Tunkhannock" geog_id="null">
+							<result candidate_ref="1" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="Township" name="Wilkes-Barre" geog_id="null">
+							<result candidate_ref="1" vote="120" resp="Philip Lampi"/>
+							<result candidate_ref="2" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+					<sub_unit type="County" name="Northumberland" geog_id="null">
+						<result candidate_ref="1" vote="1029" resp="Philip Lampi"/>
+						<result candidate_ref="2" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania State Senate.  4.</reference>
+	<reference type="citation" resp="Philip Lampi">Harvey, Oscar Jewell and Ernest Gray Smith.  A History of Wilkes-Barre.  Vol. III.  Wilkes-Barre, PA: Raeder Press, 1927.  1648.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05403">Linn, John Blair, ed.  Annals of Buffalo Valley, Pennsylvania: 1755-1855.  Harrisburg: Lane S. Hart, 1877.  266.</reference>
+	<reference type="citation" resp="Philip Lampi">Murray, Louise Welles.  A History of Old Tioga Point and Early Athens.  Athens, PA, 1908.  327.</reference>
+</election_record>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1811 House of Representatives, Waterville" type="General" iteration="First Ballot" date="1811-05" election_id="ma.staterepresentative.waterville.1811" handle="10427/69299" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="Town">
+			<ballot>
+				<candidate name="Eleazer W. Ripley" name_id="RE0100" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Stackpole" name_id="SJ1389" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Asa Soule" name_id="SA0297" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Elnathan Sherwin" name_id="SE0198" affiliation="null" affiliation_id="null" candidate_num="4"/>
+				<candidate name="Isaac Stevens" name_id="SI0120" affiliation="null" affiliation_id="null" candidate_num="5"/>
+				<candidate name="Potter Fish" name_id="FP0058" affiliation="null" affiliation_id="null" candidate_num="6"/>
+				<candidate name="Asa Redington" name_id="RA0138" affiliation="null" affiliation_id="null" candidate_num="7"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-04-02">
+				<candidate_summary candidate_ref="1" vote_total="73" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="13" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="8" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="4" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="3" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="1" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="1" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="Town" name="Waterville" geog_id="null">
+					<result candidate_ref="1" vote="73" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="8" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="1" resp="Philip Lampi"/>
+					<result candidate_ref="7" vote="1" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Giveen, Clement M., ed.  A Chronology of Municipal and Election Statistics, Waterville, Maine.  Augusta, ME: Maine Farmer Press, 1908.  243.</reference>
+</election_record>

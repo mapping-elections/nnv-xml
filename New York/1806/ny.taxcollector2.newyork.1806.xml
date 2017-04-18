@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record label="New York 1806 Tax Collector, New York, Ward 2, Special" type="Special" iteration="First Ballot" date="1806" election_id="ny.taxcollector2.newyork.1806" handle="10427/66797" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Tax Collector" office_id="ON116" scope="City">
+		<role title="Tax Collector" scope="Ward">
+			<ballot>
+				<candidate name="Guilham Cornell" name_id="CG0047" affiliation="Federalist" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Hugh Montgomery" name_id="MH0043" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Andrew Sitcher" name_id="SA0124" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-06-24">
+				<candidate_summary candidate_ref="1" vote_total="302" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="270" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="9" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">This election was held "in the place of Jeremiah Marshall, resigned."  New-York Spectator (New York, NY).  March 8, 1806.</note>
+			</overview>
+			<admin_unit type="State" name="New York" geog_id="null">
+				<sub_unit type="City" name="New York" geog_id="null">
+					<sub_unit type="Ward" name="Two" geog_id="null">
+						<result candidate_ref="1" vote="302" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="270" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">New-York Spectator (New York, NY).  March 8, 1806.</reference>
+</election_record>

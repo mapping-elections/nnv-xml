@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1790 House of Representatives, Lancaster County" type="General" iteration="First Ballot" date="1790-10" election_id="pa.assembly.lancastercounty.1790" handle="10427/60684" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="County">
+			<ballot>
+				<candidate name="James Cunningham" name_id="CJ0687" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="William Webb" name_id="WW0218" affiliation="null" affiliation_id="null" candidate_num="2"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Abraham Carpenter" name_id="CA0141" affiliation="null" affiliation_id="null" candidate_num="3"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Joseph Work" name_id="WJ0606" affiliation="null" affiliation_id="null" candidate_num="4"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Jacob Erb" name_id="EJ0155" affiliation="null" affiliation_id="null" candidate_num="5"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="John Breckbill" name_id="BJ0955" affiliation="null" affiliation_id="null" candidate_num="6"><note resp="Philip Lampi">Elected.</note></candidate>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-08-29">
+				<candidate_summary candidate_ref="1" vote_total="1648" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1521" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1510" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="1229" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="1101" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="806" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05398" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">The Pennsylvania Herald, and York General Advertiser (York, PA) lists John Breckbill as John Brachbill.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Lancaster" geog_id="null">
+					<result candidate_ref="1" vote="1648" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1521" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1510" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="1229" resp="Philip Lampi"/>
+					<result candidate_ref="5" vote="1101" resp="Philip Lampi"/>
+					<result candidate_ref="6" vote="806" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">Journal of the Pennsylvania House of Representatives, 1790.  3.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05398">The Pennsylvania Herald, and York General Advertiser (York, PA).  October 20, 1790.</reference>
+</election_record>

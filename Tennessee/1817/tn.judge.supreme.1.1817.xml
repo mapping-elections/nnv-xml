@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1817 State Supreme Court Judge" type="Legislative" iteration="First Ballot" date="1817" election_id="tn.judge.supreme.1.1817" handle="10427/64971" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Supreme Court Judge" office_id="ON111" scope="State">
+        <role title="Justice of the State Supreme Court" scope="State">
+            <ballot>
+                <candidate name="Robert Whyte" name_id="WR0159" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Enoch Parson" name_id="PE0116" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-06">
+                <candidate_summary candidate_ref="1" vote_total="31" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="28" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16867" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">"The committee then proceeded to the election of a judge to fill the vacancy occasioned by the resignation of the hon. John Overton."  Journal of the Tennessee House of Representatives, 1817.  82.</note>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="null" name="House of Representatives" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+                <sub_unit type="null" name="Senate" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16867">Journal of the Tennessee House of Representatives, 1817.  82.</reference>
+</election_record>

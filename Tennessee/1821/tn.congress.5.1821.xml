@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Tennessee 1821 U.S. House of Representatives, District 5" type="General" iteration="First Ballot" date="1821" election_id="tn.congress.5.1821" handle="10427/64997" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="Newton Cannon" name_id="CN0037" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Fitzgerald Beasley" name_id="BF0008" affiliation="null" affiliation_id="null" candidate_num="2"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-05-20">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16974" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16978" resp="Philip Lampi"/>
+                <reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.16981" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Tennessee" geog_id="null">
+                <sub_unit type="District" name="Four" geog_id="null">
+                    <sub_unit type="County" name="Bedford" geog_id="null">
+                        <result candidate_ref="1" vote="2398" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Davidson" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Lincoln" geog_id="null">
+                        <result candidate_ref="1" resp="Philip Lampi"/>
+                        <result candidate_ref="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Rutherford" geog_id="null">
+                        <result candidate_ref="1" vote="2008" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="55" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="County" name="Williamson" geog_id="null">
+                        <result candidate_ref="1" vote="1675" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                        <sub_unit type="Town" name="Franklin" geog_id="null">
+                            <sub_unit type="Populated Place" name="Court House" geog_id="null">
+                                <result candidate_ref="1" vote="1084" resp="Philip Lampi"/>
+                                <result candidate_ref="2" vote="4" resp="Philip Lampi"/>
+                            </sub_unit>
+                        </sub_unit>
+                        <sub_unit type="Populated Place" name="William Nolens" geog_id="null">
+                            <result candidate_ref="1" vote="208" resp="Philip Lampi"/>
+                            <result candidate_ref="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Populated Place" name="William S. Webb's" geog_id="null">
+                            <result candidate_ref="1" vote="383" resp="Philip Lampi"/>
+                            <result candidate_ref="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16981">Original Election Returns.  Tennessee State Library and Archives, Nashville.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16978">Richmond Enquirer (Richmond, VA).  August 24, 1821.</reference>
+    <reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.16978">Richmond Enquirer (Richmond, VA).  August 28, 1821.</reference>
+</election_record>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1818 Constitutional Convention, Hartford, Second Delegate, Ballot 3" type="General" iteration="Third Ballot" date="1818-07" election_id="ct.constitutionalconvention.hartford2.3.1818" handle="10427/79760" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Constitutional Convention" office_id="ON039" scope="State">
+		<role title="Convention Delegate" scope="City">
+			<ballot>
+				<candidate name="Nathaniel Terry" name_id="TN0001" affiliation="Federalist" affiliation_id="A01" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Hezekiah Huntington" name_id="HH0001" affiliation="Republican" affiliation_id="null" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="A01" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2015-10-14">
+				<candidate_summary candidate_ref="1" vote_total="490" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="479" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="10" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In the article in the Courant it is insinuated that Doct. Wells was not duly elected; there being an increase of about 30 votes, at the third over the second ballot, it is inimated that these votes could not have been fairly obtained - it is asked, how these additional votes could have been obtained?  This enquiry is readily answered.  After the first ballot both parties were active in bringing on absent freemen, and few or none arrived until the third ballot, and hence at that ballot both parties had a considerable increase of votes; but it may be said that we never gave as large a vote afterwards.  This is true, but it is equally true that the republicans gave about 50 less votes the next ballot, which was about 20 less than the second ballot - it is also true that on the second ballot for the second Delegate we gave but 444, and on the third ballot 485, being an increase of 41 votes, and only 14 less than the ballot at which Dr. Wells was chosen.  These facts shew (sic) that the votes were very fluctuating, and that it is uncertain whether all the freemen voted at any ballot.  But if the increase of republican votes is 'very suspicious,' is not the increase of federal votes equally suspicious.  The ballot at which Mr. Terry was declared elected, the federalists gave 495 votes, and the ballot preceding but 465, being a gain of 30 votes.  As it respects increase of votes, therefore, the Delegates are equally situated; but how is it in other respects - one had 15 majority, the other ONE majority.  There is something more than 'suspicion,' cast upon the election of Mr. Terry.  ONE solitary vote opposed to him, would have defeated his election - and to say nothing of numerous other cases - of the disfranchisement of one freeman - of the more than 'suspicions' of several persons voting twice - of the acknowledgment of a certain federalist that he procured a vote to be given by a person who was not a freeman - to say nothing of Gen. Terry's own vote, which he insisted upon giving in, after the ballot had been closed, there was one vote which we observed ourselves with a number of others given in for Mr. Huntington that was rejected upon the ground that the ballot was closed, but it was decided afterwards that it was not closed and votes were receiv'd yet this vote having been pushed aside, was refused to be counted.  Under these circumstances it is unnecessary to enquire, whether Mr. Terry was, or was not duly elected.  We trust this question will be settled by the proper tribunal.'"  The Times (Hartford, CT).  July 14, 1818.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="Hartford" geog_id="cts_hartford">
+					<sub_unit type="City" name="Hartford" geog_id="cts_hartford_hartford">
+						<result candidate_ref="1" vote="490" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="479" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="10" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">American Mercury (Hartford, CT).  July 7, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi">The Times (Hartford, CT).  July 14, 1818.</reference>
+</election_record>

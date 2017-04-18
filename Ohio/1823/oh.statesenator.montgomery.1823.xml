@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1823 State Senate, Montgomery County" type="General" iteration="First Ballot" date="1823-10" election_id="oh.statesenator.montgomery.1823" handle="10427/60209" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="George Newcom" name_id="NG0015" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="George B. Holt" name_id="HG0027" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Robert Patterson" name_id="PR0044" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="James H. Campbell" name_id="CJ0270" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="George Harter" name_id="HG0034" affiliation="null" affiliation_id="null" candidate_num="5"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-03-11">
+                <candidate_summary candidate_ref="1" vote_total="747" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="519" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="94" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Montgomery" geog_id="ohs_montgomery">
+                    <result candidate_ref="1" vote="747" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="519" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="94" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Butler" geog_id="null">
+                        <result candidate_ref="1" vote="66" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="5" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Dayton" geog_id="null">
+                        <result candidate_ref="1" vote="267" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="135" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="48" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="German" geog_id="null">
+                        <result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="78" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="3" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jackson" geog_id="null">
+                        <result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="35" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="1" vote="31" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="102" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Madison" geog_id="null">
+                        <result candidate_ref="1" vote="28" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="21" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Perry" geog_id="null">
+                        <result candidate_ref="1" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="8" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Randolph" geog_id="null">
+                        <result candidate_ref="1" vote="23" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="24" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="5" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Washington" geog_id="null">
+                        <result candidate_ref="1" vote="152" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="6" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="1" vote="29" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="23" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Montgomery County.</reference>
+    <reference type="citation" resp="Philip Lampi">Dayton Watchman or Farmer and Mechanics' Journal (Dayton, OH).  October 21, 1823.</reference>
+    <reference type="citation" resp="Philip Lampi">Miami Republican and Dayton Advertiser (Dayton, OH).  October 21, 1823.</reference>
+    <reference type="citation" resp="Philip Lampi">Mikesell, Shirley Keller, ed.  Early Settlers of Montgomery County, Ohio.  Vol. III.  Bowie, MD: Heritage Books, 1993.  107.</reference>
+</election_record>

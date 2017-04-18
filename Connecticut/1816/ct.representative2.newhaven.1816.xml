@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Connecticut 1816 House of Representatives, New Haven, Second Representative" type="General" iteration="First Ballot" date="1816" election_id="ct.representative2.newhaven.1816" handle="10427/16508" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Representatives" office_id="ON064" scope="State">
+		<role title="State Representative" scope="City">
+			<ballot>
+				<candidate name="William Bristol" name_id="BW0017" affiliation="Democrat" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Seth P. Staples" name_id="SS0021" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="scattering" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2006-06-22">
+				<candidate_summary candidate_ref="1" vote_total="236" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="22" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01566" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"O, SHAME!  Triumph of Apostacy and Delusion!!!  In this federal town of New-Haven, where four fifths of the FREE-men are the friends of order and 'steady habits,' prejudice, apostacy and fanatacism are triumphant!  THe result of the Election this day furnishes the fullest evidence that moral depravity and personal debasement form no barrier to political delusion and sectarian prejudice. - O, SHAME!"  Connecticut Journal (New Haven, CT).  April 9, 1816.</note>
+				<note resp="Philip Lampi">"The uncommon number of democratic votes was owing to the following facts.  1. Every democrat, who could be found, was brought to the meeting.  One of their number stationed at the polls counted them.  Their number was 150.  2. The remaining 86 were Episcopalians; who heretofore have been federalists; and who, on that day, voted in a body for the demo. candidate.  Of the scattering votes 20 were undoubtedly Episcopalians; as were certainly two of the votes given for Mr. Staples.  The smallness of the federal vote may be thus explained: 1. The federal ticket lost 86 Episcopalian votes gone over, and 20 scattering, or 106 in all.  2. Express assurances were given to several of the principal federalists that no union had taken place between the Democrats and Episcopalians.  These assurances were believed; and the impression, which they made, extensively circulated among the Federalists.  Supposing that they were intended not to lull the watchfulness of the Federalists, but to produce harmonyl yet their only effect was to inspire a false security; and thus to paralise exertion.  No attempt was made to get the Federalists out to the polls."  Connecticut Journal (New Haven, CT).  April 16, 1816.</note>
+			</overview>
+			<admin_unit type="State" name="Connecticut" geog_id="cts">
+				<sub_unit type="County" name="New Haven" geog_id="cts_newhaven">
+					<sub_unit type="City" name="New Haven" geog_id="cts_newhaven_newhaven">
+						<result candidate_ref="1" vote="236" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="157" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="22" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.01566" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.01566">Connecticut Journal (New Haven, CT).  April 9, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi">Connecticut Journal (New Haven, CT).  April 16, 1816.</reference>
+</election_record>

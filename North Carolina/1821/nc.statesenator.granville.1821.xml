@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="North Carolina 1821 State Senate, Granville County" type="General" iteration="First Ballot" date="1821-08" election_id="nc.statesenator.granville.1821" handle="10427/45003" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="State Senate" office_id="ON109" scope="State">
+        <role title="State Senator" scope="County">
+            <ballot>
+                <candidate name="Joseph H. Bryan" name_id="BJ0827" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="James Nuttall" name_id="NJ0024" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Harris" name_id="null" affiliation="null" affiliation_id="null" candidate_num="3"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2008-04-11">
+                <candidate_summary candidate_ref="1" vote_total="366" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="223" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="2" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="North Carolina" geog_id="null">
+                <sub_unit type="County" name="Granville" geog_id="null">
+                    <result candidate_ref="1" vote="366" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="222" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    <sub_unit type="Populated Place" name="Bowdens" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="20" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Brassfield's" geog_id="null">
+                        <result candidate_ref="1" vote="42" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="45" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Brown's" geog_id="null">
+                        <result candidate_ref="1" vote="45" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="9" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Bullocks" geog_id="null">
+                        <result candidate_ref="1" vote="35" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="52" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Oxford" geog_id="null">
+                        <result candidate_ref="1" vote="46" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="31" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Pop Castle" geog_id="null">
+                        <result candidate_ref="1" vote="32" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="47" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Populated Place" name="Sims's" geog_id="null">
+                        <result candidate_ref="1" vote="39" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Williamsboro" geog_id="null">
+                        <result candidate_ref="1" vote="101" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Original Election Certificate.  State Archives of North Carolina, Raleigh.</reference>
+</election_record>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="South Carolina 1816 U.S. House of Representatives, District 8" type="General" iteration="First Ballot" date="1816" election_id="sc.uscongress.chester.1816" handle="10427/31935" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+		<role title="U.S. Congressman" scope="District">
+			<ballot>
+				<candidate name="Wilson Nesbitt" name_id="NW0033" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="James MacKibben" name_id="MJ1350" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+				<candidate name="William Smith" name_id="SW0315" affiliation="Republican" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="William Rice" name_id="RW0234" affiliation="Republican" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-12-01">
+				<candidate_summary candidate_ref="1" vote_total="2407" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="1877" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="1181" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="343" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">District Eight was also known as Chester District.</note>
+				<note resp="Philip Lampi">The Richmond Enquirer (Richmond, VA), 28 September 1816, lists James MacKibben, Wilson Nesbitt and William Rice as candidates.</note>
+			</overview>
+			<admin_unit type="State" name="South Carolina" geog_id="scs">
+				<sub_unit type="District" name="Eight" geog_id="null">
+					<result candidate_ref="1" vote="2407" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="1877" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="1181" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="343" resp="Philip Lampi"/>
+					<sub_unit type="District" name="Chester" geog_id="null">
+						<result candidate_ref="1" vote="402" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="662" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="56" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="51" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Spartanburg" geog_id="null">
+						<result candidate_ref="1" vote="947" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="42" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1012" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="56" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="Union" geog_id="null">
+						<result candidate_ref="1" vote="231" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="713" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="112" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="234" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+					</sub_unit>
+					<sub_unit type="District" name="York" geog_id="null">
+						<result candidate_ref="1" vote="827" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="460" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="2" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.00860" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15768">Richmond Enquirer (Richmond, VA).  September 28, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15782">Southern Patriot, and Commercial Advertiser (Charleston, SC).  October 26, 1816.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.15788">The Telescope (Columbia, SC).  October 29, 1816.</reference>
+</election_record>

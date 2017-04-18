@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1813 Sheriff, Ashtabula County" type="General" iteration="First Ballot" date="1813-10" election_id="oh.sheriff.ashtabula.1813" handle="10427/59369" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="Sheriff" office_id="ON100" scope="County">
+        <role title="Sheriff" scope="County">
+            <ballot>
+                <candidate name="Nathan Strong" name_id="SN0003" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="Erastus Austin" name_id="AE0012" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Benjamin Sweet" name_id="SB0030" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Joab Austin" name_id="AJ0058" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Luman Webster" name_id="WL0011" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="Matthew Hubbard" name_id="HM0012" affiliation="null" affiliation_id="null" candidate_num="6"/>
+                <candidate name="Isaac H. Phelps" name_id="PI0013" affiliation="null" affiliation_id="null" candidate_num="7"/>
+                <candidate name="Simon Fobes" name_id="FS0014" affiliation="null" affiliation_id="null" candidate_num="8"/>
+                <candidate name="Simon Fobes, Jr." name_id="FS0015" affiliation="null" affiliation_id="null" candidate_num="9"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-03">
+                <candidate_summary candidate_ref="1" vote_total="113" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" vote_total="88" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" vote_total="34" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" vote_total="21" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" vote_total="11" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" vote_total="11" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="7" vote_total="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="8" vote_total="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="9" vote_total="1" resp="Philip Lampi"/>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="County" name="Ashtabula" geog_id="ohs_ashtabula">
+                    <result candidate_ref="1" vote="113" resp="Philip Lampi"/>
+                    <result candidate_ref="2" vote="88" resp="Philip Lampi"/>
+                    <result candidate_ref="3" vote="34" resp="Philip Lampi"/>
+                    <result candidate_ref="4" vote="21" resp="Philip Lampi"/>
+                    <result candidate_ref="5" vote="11" resp="Philip Lampi"/>
+                    <result candidate_ref="6" vote="11" resp="Philip Lampi"/>
+                    <result candidate_ref="7" vote="2" resp="Philip Lampi"/>
+                    <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                    <result candidate_ref="9" vote="1" resp="Philip Lampi"/>
+                    <sub_unit type="Township" name="Ashtabula" geog_id="null">
+                        <result candidate_ref="1" vote="7" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="25" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Austinburg" geog_id="null">
+                        <result candidate_ref="2" vote="34" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Denmark" geog_id="null">
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="9" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Harpersfield" geog_id="null">
+                        <result candidate_ref="1" vote="62" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Jefferson" geog_id="null">
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Kingsville" geog_id="null">
+                        <result candidate_ref="6" vote="11" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Lebanon" geog_id="null">
+                        <result candidate_ref="4" vote="16" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Richfield" geog_id="null">
+                        <result candidate_ref="1" vote="2" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="14" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Salem" geog_id="null">
+                        <result candidate_ref="1" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="7" vote="2" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Wayne" geog_id="null">
+                        <result candidate_ref="2" vote="26" resp="Philip Lampi"/>
+                        <result candidate_ref="8" vote="1" resp="Philip Lampi"/>
+                        <result candidate_ref="9" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                    <sub_unit type="Township" name="Windsor" geog_id="null">
+                        <result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Ashtabula County.</reference>
+</election_record>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<election_record label="Virginia 1789 House of Delegates, Orange County" type="General" iteration="First Ballot" date="1789-04" election_id="va.houseofdelegates.orange.1789" handle="10427/32251" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="House of Delegates" office_id="ON063" scope="State">
+		<role title="Delegate" scope="County">
+			<ballot>
+				<candidate name="Harden Burnley" name_id="BH0176" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Isaac Davis" name_id="DI0036" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Benjamin Johnson" name_id="JB0029" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Prettyman Merry" name_id="MP0105" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-03-25">
+				<candidate_summary candidate_ref="1" vote_total="329" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="176" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="165" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="100" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08242" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"Note: ~Another set of returns for this election, give Benjamin Johnson 161."  Francis Taylor Diaries. Entry of April 27, 1789. State Archives, Richmond.</note>
+			</overview>
+			<admin_unit type="State" name="Virginia" geog_id="vas">
+				<sub_unit type="County" name="Orange" geog_id="null">
+					<result candidate_ref="1" vote="329" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="165" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="100" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.08242" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role></office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.08242">Francis Taylor Diaries.  April 27, 1789.  Library of Virginia, Richmond.</reference>
+</election_record>

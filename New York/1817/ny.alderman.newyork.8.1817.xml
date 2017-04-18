@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record label="New York 1817 Alderman, New York, Ward 8" type="General" iteration="First Ballot" date="1817" election_id="ny.alderman.newyork.8.1817" handle="10427/67796" xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+   <office name="Alderman" office_id="ON001" scope="City">
+      <role title="Alderman" scope="City">
+        <ballot>
+           <candidate name="Arthur Burtis" name_id="BA0117" affiliation="Republican" affiliation_id="A03" candidate_num="1"/>
+           <candidate name="David Sherwood" name_id="SD0097" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+        </ballot>
+        <overview status="Version 0.5" modified="2013-01-31">
+           <candidate_summary candidate_ref="1" vote_total="400" resp="Philip Lampi"/>
+           <candidate_summary candidate_ref="2" vote_total="140" resp="Philip Lampi"/>
+        </overview>
+        <admin_unit type="State" name="New York" geog_id="null">
+           <sub_unit type="City" name="New York" geog_id="null">
+              <sub_unit type="Ward" name="Eight" geog_id="null">
+                <result candidate_ref="1" vote="400" resp="Philip Lampi"/>
+                <result candidate_ref="2" vote="140" resp="Philip Lampi"/>
+              </sub_unit>
+           </sub_unit>
+        </admin_unit>
+      </role>
+   </office>
+   <reference type="citation" resp="Philip Lampi">Commercial Advertiser (New York, NY).  May 6, 1817.</reference>
+   <reference type="citation" resp="Philip Lampi">National Advocate (New York, NY).  May 6, 1817.</reference>
+   <reference type="citation" resp="Philip Lampi">The New-York Columbian (New York, NY).  May 6, 1817.</reference>
+   <reference type="citation" resp="Philip Lampi">New-York Spectator (New York, NY).  May 7, 1817.</reference>
+</election_record>

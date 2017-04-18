@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1821 U.S. House of Representatives, District 4, Special" type="Special" iteration="First Ballot" date="1821-10" election_id="oh.uscongress4.1821" handle="10427/60029" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+    <office name="U.S. House of Representatives" office_id="ON125" scope="Federal">
+        <role title="U.S. Congressman" scope="District">
+            <ballot>
+                <candidate name="David Chambers" name_id="CD0147" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+                <candidate name="John Patterson" name_id="PJ0401" affiliation="null" affiliation_id="null" candidate_num="2"/>
+                <candidate name="Thomas Dickerson" name_id="DT0013" affiliation="null" affiliation_id="null" candidate_num="3"/>
+                <candidate name="Daniel Morris" name_id="MD0203" affiliation="null" affiliation_id="null" candidate_num="4"/>
+                <candidate name="Charles Chapman" name_id="CC0086" affiliation="null" affiliation_id="null" candidate_num="5"/>
+                <candidate name="James Cummins" name_id="CJ0258" affiliation="null" affiliation_id="null" candidate_num="6"/>
+            </ballot>
+            <overview status="Version 1.0" modified="2011-01-27">
+                <candidate_summary candidate_ref="1" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="2" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="3" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="4" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="5" resp="Philip Lampi"/>
+                <candidate_summary candidate_ref="6" resp="Philip Lampi"/>
+                <note resp="Philip Lampi">Special election held to replace John C. Wright, who had resigned his seat before Congress began their session.</note>
+            </overview>
+            <admin_unit type="State" name="Ohio" geog_id="ohs">
+                <sub_unit type="District" name="Four" geog_id="null">
+                    <result candidate_ref="1" resp="Philip Lampi"/>
+                    <result candidate_ref="2" resp="Philip Lampi"/>
+                    <result candidate_ref="3" resp="Philip Lampi"/>
+                    <result candidate_ref="4" resp="Philip Lampi"/>
+                    <result candidate_ref="5" resp="Philip Lampi"/>
+                    <result candidate_ref="6" resp="Philip Lampi"/>
+                    <sub_unit type="County" name="Belmont" geog_id="ohs_belmont">
+                    </sub_unit>
+                    <sub_unit type="County" name="Coshocton" geog_id="ohs_coshocton">
+                    </sub_unit>
+                    <sub_unit type="County" name="Guernsey" geog_id="ohs_guernsey">
+                    </sub_unit>
+                    <sub_unit type="County" name="Harrison" geog_id="ohs_harrison">
+                        <result candidate_ref="1" vote="96" resp="Philip Lampi"/>
+                        <result candidate_ref="2" vote="870" resp="Philip Lampi"/>
+                        <result candidate_ref="3" vote="12" resp="Philip Lampi"/>
+                        <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                        <result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+                        <result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+                        <sub_unit type="Township" name="Archer" geog_id="null">
+                            <result candidate_ref="1" vote="4" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="121" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Cadiz" geog_id="null">
+                            <result candidate_ref="1" vote="20" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="269" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="7" resp="Philip Lampi"/>
+                            <result candidate_ref="4" vote="4" resp="Philip Lampi"/>
+                            <result candidate_ref="5" vote="3" resp="Philip Lampi"/>
+                            <result candidate_ref="6" vote="2" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Green" geog_id="null">
+                            <result candidate_ref="1" vote="16" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="176" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="4" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="North" geog_id="null">
+                            <result candidate_ref="2" vote="66" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Rock" geog_id="null">
+                            <result candidate_ref="1" vote="13" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="13" resp="Philip Lampi"/>
+                        </sub_unit>
+                        <sub_unit type="Township" name="Short Creek" geog_id="null">
+                            <result candidate_ref="1" vote="43" resp="Philip Lampi"/>
+                            <result candidate_ref="2" vote="225" resp="Philip Lampi"/>
+                            <result candidate_ref="3" vote="1" resp="Philip Lampi"/>
+                        </sub_unit>
+                    </sub_unit>
+                    <sub_unit type="County" name="Jefferson" geog_id="ohs_jefferson">
+                    </sub_unit>
+                    <sub_unit type="County" name="Monroe" geog_id="ohs_monroe">
+                    </sub_unit>
+                    <sub_unit type="County" name="Muskingum" geog_id="ohs_muskingum">
+                    </sub_unit>
+                </sub_unit>
+            </admin_unit>
+        </role>
+    </office>
+    <reference type="citation" resp="Philip Lampi">Abstract of Votes, Harrison County.</reference>
+</election_record>

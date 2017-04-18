@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Maryland 1804 City Council, Baltimore, Ward 4" type="General" iteration="First Ballot" date="1804" election_id="md.city.council.baltimore4.1804" handle="10427/58116" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="City Council" office_id="ON022" scope="City">
+		<role title="City Councillor" scope="Ward">
+			<ballot>
+				<candidate name="Thomas Hillen" name_id="HT0019" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="Thomas Kell" name_id="KT0004" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="G. P. Keeports" name_id="KG0004" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="Christopher Raborg" name_id="RC0040" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-04-15">
+				<candidate_summary candidate_ref="1" vote_total="130" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="128" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="72" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="70" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02370" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Maryland" geog_id="mds">
+				<sub_unit type="City" name="Baltimore" geog_id="mds_baltimorecity">
+					<sub_unit type="Ward" name="Four" geog_id="null">
+						<result candidate_ref="1" vote="130" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="128" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="72" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="70" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.02370" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.02370">Federal Gazette and Baltimore Daily Advertiser (Baltimore, MD).  October 2, 1804.</reference>
+</election_record>

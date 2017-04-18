@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1801 Commissioner, York County" type="General" iteration="First Ballot" date="1801-10" election_id="pa.commissioner.york.1801" handle="10427/61244" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Commissioner" office_id="ON035" scope="County">
+		<role title="Commissioner" scope="County">
+			<ballot>
+				<candidate name="Samuel Nelson" name_id="NS0020" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Humphrey Andrews" name_id="AH0012" affiliation="Federalist" affiliation_id="A01" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2011-11-15">
+				<candidate_summary candidate_ref="1" vote_total="1700" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="840" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05776" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05777" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">Humphrey Andrews is listed as an Anti-Republican in the Aurora. General Advertiser (Philadelphia, PA).</note>
+				<note resp="Philip Lampi">The Aurora. General Advertiser (Philadelphia, PA) from October 22 and The True American and Commercial Advertiser (Philadelphia, PA) list Humphrey Andrews with 849 votes.</note>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="York" geog_id="null">
+					<result candidate_ref="1" vote="1700" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="840" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05776" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05777">Aurora. General Advertiser (Philadelphia, PA).  October 22, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05777">The True American and Commercial Advertiser (Philadelphia, PA).  October 23, 1801.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05776">Aurora. General Advertiser (Philadelphia, PA).  November 6, 1801.</reference>
+</election_record>

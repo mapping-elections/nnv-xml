@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Indiana 1820 Sheriff, Franklin County" type="General" iteration="First Ballot" date="1820" election_id="in.sheriff.franklin.1820" handle="10427/56471" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Sheriff" office_id="ON100" scope="County">
+		<role title="Sheriff" scope="County">
+			<ballot>
+				<candidate name="Noah Noble" name_id="NN0000" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="John B. Rose" name_id="RJ0033" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John Allen" name_id="AJ0044" affiliation="null" affiliation_id="null" candidate_num="3"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2008-01-09">
+				<candidate_summary candidate_ref="1" vote_total="912" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="410" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="51" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12372" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Indiana" geog_id="null">
+				<sub_unit type="County" name="Franklin" geog_id="null">
+					<result candidate_ref="1" vote="912" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="410" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="51" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.12372" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.12372">Brookville Enquirer (Brookville, IN).  August 15, 1820.</reference>
+</election_record>

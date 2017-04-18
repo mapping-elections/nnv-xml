@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Massachusetts 1803 State Senate, Suffolk County, Special" type="Special" iteration="First Ballot" date="1803" election_id="ma.senator.suffolk.special.1803" handle="10427/28139" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="David Tilden" name_id="TD0030" affiliation="Republican" affiliation_id="A03" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Benjamin Austin, Jr." name_id="AB0013" affiliation="Republican" affiliation_id="A03" candidate_num="2"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2014-09-18">
+				<candidate_summary candidate_ref="1" vote_total="161" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="75" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10449" resp="Philip Lampi"/>
+				<note resp="Philip Lampi">"In the afternoon, the Senators and Representatives met in Convention to fill the vacancies in the Senate as follows:--Suffolk,--one, occasioned by the death of the Hon. JOHN CODMAN. The candidates were, DAVID TILDEN and BENJAMIN AUSTIN, jun. The whole number of votes was 235--of which Mr. TILDEN had 161--was chosen, and has accepted."  Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 28, 1803.</note>
+				<note resp="Philip Lampi">"Extract of a letter from our Correspondent at Boston, dated 26th April [sic], 1803. 'In the afternoon, the Senate and House met in Convention to fill the vacancies in the Senate ... The one in Suffolk was occasioned by the death of Mr. Codman; of course, there being no scattering votes of the federal ticket, and, as you know, the Constitution requiring, that the vacancy shall be filled from the two highest candidates voted for, the two highest on the unsuccessful democratic ticket became the candidates, viz. David Tilden, and Benjamin Austin, jun. Anybody on earth is to be preferred to the latter--therefore Tilden, who is but a so so democrat, had 161 of the 236 votes which the convention gave.'"  New-York Evening Post (New York, NY).  May 30, 1803.</note>
+			</overview>
+			<admin_unit type="State" name="Massachusetts" geog_id="null">
+				<sub_unit type="null" name="General Court" geog_id="null">
+					<result candidate_ref="1" vote="161" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="75" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.10449" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Independent Chronicle (Boston, MA).  May 26, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">New-England Palladium (Boston, MA).  May 27, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Centinel. Massachusetts Federalist (Boston, MA).  May 28, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">New-York Evening Post (New York, NY).  May 30, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi">Columbian Minerva (Dedham, MA).  May 31, 1803.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.10449">Frederick-Town Herald (Fredericktown, MD).  June 11, 1803.</reference>
+</election_record>

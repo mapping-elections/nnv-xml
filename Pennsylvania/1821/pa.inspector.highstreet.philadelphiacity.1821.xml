@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1821 Inspector of the General Election, Philadelphia City, High Street Ward, Philadelphia City " type="General" iteration="First Ballot" date="1821" election_id="pa.inspector.highstreet.philadelphiacity.1821" handle="10427/63557" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="Ward">
+			<ballot>
+				<candidate name="Joseph Price" name_id="PJ0468" affiliation="Federal Republican" affiliation_id="A01" candidate_num="1"/>
+				<candidate name="Jacob Chrystler" name_id="CJ0811" affiliation="Federal Republican" affiliation_id="A01" candidate_num="2"/>
+				<candidate name="Benjamin Stevens" name_id="SB0116" affiliation="Democrat" affiliation_id="A03" candidate_num="3"/>
+				<candidate name="Abraham Oakie" name_id="OA0026" affiliation="Democrat" affiliation_id="A03" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-07-11">
+				<candidate_summary candidate_ref="1" vote_total="71" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="70" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="27" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="26" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07166" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07167" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="Ward" name="High Street" geog_id="null">
+						<result candidate_ref="1" vote="71" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="70" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="27" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="26" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07166" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.07167" resp="Philip Lampi"/>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.07166">The Union. United States Gazette and True American (Philadelphia, PA).  October 2, 1821.</reference>
+</election_record>

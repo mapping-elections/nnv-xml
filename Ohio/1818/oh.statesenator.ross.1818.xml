@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Ohio 1818 State Senate, Ross County" type="General" iteration="First Ballot" date="1818-10" election_id="oh.statesenator.ross.1818" handle="10427/59677" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="State Senate" office_id="ON109" scope="State">
+		<role title="State Senator" scope="County">
+			<ballot>
+				<candidate name="Daniel Maderia" name_id="MD0159" affiliation="null" affiliation_id="null" candidate_num="1"><note resp="Philip Lampi">Elected.</note></candidate>
+				<candidate name="Isaac Dawson" name_id="DI0041" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="John MacDonald" name_id="MJ0658" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William Robinson" name_id="RW0125" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 1.0" modified="2010-12-09">
+				<candidate_summary candidate_ref="1" vote_total="1157" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="347" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="271" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="54" resp="Philip Lampi"/>
+				<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05262" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Ohio" geog_id="ohs">
+				<sub_unit type="County" name="Ross" geog_id="ohs_ross">
+					<result candidate_ref="1" vote="1157" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="347" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="271" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="54" resp="Philip Lampi"/>
+					<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05262" resp="Philip Lampi"/>
+					<note resp="Philip Lampi">The total given for Ross County includes the votes from Concord.</note>
+					<sub_unit type="Township" name="Concord" geog_id="null">
+						<result candidate_ref="1" vote="134" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="12" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="49" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="1" resp="Philip Lampi"/>
+						<reference type="page_image" urn="tufts:central:dca:MS115:MS115.001.DO.05262" resp="Philip Lampi"/>
+						<note resp="Philip Lampi">The return from the township of Concord was rejected for want of the necessary form.</note>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05262">The Supporter (Chillicothe, OH).  October 21, 1818.</reference>
+	<reference type="citation" resp="Philip Lampi" urn="tufts:central:dca:MS115:MS115.001.DO.05262">The Scioto Gazette, and Fredonian Chronicle (Chillicothe, OH).  October 23, 1818.</reference>
+</election_record>

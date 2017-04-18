@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1805 Inspector of the General Election, Philadelphia City, Northern Liberties District" type="General" iteration="First Ballot" date="1805-09" election_id="pa.inspector.philadelphia.northernliberties.1805" handle="10427/66154" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Inspector" office_id="ON065" scope="City">
+		<role title="Inspector" scope="District">
+			<ballot>
+				<candidate name="Johnson" name_id="null" affiliation="Snyderite" affiliation_id="A08" candidate_num="1"/>
+				<candidate name="Belsterling" name_id="null" affiliation="Snyderite" affiliation_id="A08" candidate_num="2"/>
+				<candidate name="Binder" name_id="null" affiliation="Snyderite" affiliation_id="A08" candidate_num="3"/>
+				<candidate name="Shugart" name_id="null" affiliation="Snyderite" affiliation_id="A08" candidate_num="4"/>
+				<candidate name="Brown" name_id="null" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="5"/>
+				<candidate name="Lehman" name_id="null" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="6"/>
+				<candidate name="Trout" name_id="null" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="7"/>
+				<candidate name="Justis" name_id="null" affiliation="Constitutionalist" affiliation_id="A07" candidate_num="8"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-10-01">
+				<candidate_summary candidate_ref="1" vote_total="591" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="590" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="589" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="588" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="5" vote_total="377" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="6" vote_total="377" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="7" vote_total="377" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="8" vote_total="375" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="City" name="Philadelphia" geog_id="null">
+					<sub_unit type="District" name="Northern Liberties" geog_id="null">
+						<result candidate_ref="1" vote="591" resp="Philip Lampi"/>
+						<result candidate_ref="2" vote="590" resp="Philip Lampi"/>
+						<result candidate_ref="3" vote="589" resp="Philip Lampi"/>
+						<result candidate_ref="4" vote="588" resp="Philip Lampi"/>
+						<result candidate_ref="5" vote="377" resp="Philip Lampi"/>
+						<result candidate_ref="6" vote="377" resp="Philip Lampi"/>
+						<result candidate_ref="7" vote="377" resp="Philip Lampi"/>
+						<result candidate_ref="8" vote="375" resp="Philip Lampi"/>
+						<sub_unit type="District" name="Northern Liberties East" geog_id="null">
+							<result candidate_ref="1" vote="260" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="261" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="259" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="258" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="191" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="192" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="191" resp="Philip Lampi"/>
+							<result candidate_ref="8" vote="190" resp="Philip Lampi"/>
+						</sub_unit>
+						<sub_unit type="District" name="Northern Liberties West" geog_id="null">
+							<result candidate_ref="1" vote="331" resp="Philip Lampi"/>
+							<result candidate_ref="2" vote="329" resp="Philip Lampi"/>
+							<result candidate_ref="3" vote="330" resp="Philip Lampi"/>
+							<result candidate_ref="4" vote="330" resp="Philip Lampi"/>
+							<result candidate_ref="5" vote="186" resp="Philip Lampi"/>
+							<result candidate_ref="6" vote="185" resp="Philip Lampi"/>
+							<result candidate_ref="7" vote="186" resp="Philip Lampi"/>
+							<result candidate_ref="8" vote="185" resp="Philip Lampi"/>
+						</sub_unit>
+					</sub_unit>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Political and Commercial Register (Philadelphia, PA).  September 30, 1805.</reference>
+</election_record>

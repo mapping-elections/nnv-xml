@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<election_record xmlns="http://dca.tufts.edu/aas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" label="Pennsylvania 1816 Auditor, Crawford County" type="General" iteration="First Ballot" date="1816-10" election_id="pa.auditor.crawford.1816" handle="10427/66864" xsi:schemaLocation="http://dca.tufts.edu/aas http://dca.tufts.edu/schema/aas/electionRecord.xsd">
+	<office name="Auditor" office_id="ON013" scope="County">
+		<role title="Auditor" scope="County">
+			<ballot>
+				<candidate name="John Reynolds" name_id="RJ0422" affiliation="null" affiliation_id="null" candidate_num="1"/>
+				<candidate name="James Herrington" name_id="HJ0819" affiliation="null" affiliation_id="null" candidate_num="2"/>
+				<candidate name="Robert MacArthur" name_id="MR0139" affiliation="null" affiliation_id="null" candidate_num="3"/>
+				<candidate name="William W. White" name_id="WW0332" affiliation="null" affiliation_id="null" candidate_num="4"/>
+			</ballot>
+			<overview status="Version 0.5" modified="2013-03-22">
+				<candidate_summary candidate_ref="1" vote_total="308" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="2" vote_total="303" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="3" vote_total="287" resp="Philip Lampi"/>
+				<candidate_summary candidate_ref="4" vote_total="272" resp="Philip Lampi"/>
+			</overview>
+			<admin_unit type="State" name="Pennsylvania" geog_id="null">
+				<sub_unit type="County" name="Crawford" geog_id="null">
+					<result candidate_ref="1" vote="308" resp="Philip Lampi"/>
+					<result candidate_ref="2" vote="303" resp="Philip Lampi"/>
+					<result candidate_ref="3" vote="287" resp="Philip Lampi"/>
+					<result candidate_ref="4" vote="272" resp="Philip Lampi"/>
+				</sub_unit>
+			</admin_unit>
+		</role>
+	</office>
+	<reference type="citation" resp="Philip Lampi">The Crawford Weekly Messenger (Meadville, PA).  October 12, 1816.</reference>
+</election_record>
